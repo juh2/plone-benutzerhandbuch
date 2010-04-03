@@ -1,0 +1,515 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Angemeldete Benutzer &mdash; Plone v4.0 documentation</title>
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '4.0',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <link rel="top" title="Plone v4.0 documentation" href="../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             accesskey="I">Index</a></li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="angemeldete-benutzer">
+<h1>Angemeldete Benutzer<a class="headerlink" href="#angemeldete-benutzer" title="Permalink zu dieser Überschrift">¶</a></h1>
+<p>Jeder registrierte Benutzer besitzt einen Benutzernamen, mit dem er
+für die Website eindeutig identifizierbar ist. Jeder Benutzername darf
+innerhalb einer Website daher nur einmal vergeben werden.</p>
+<p>Nachdem Sie sich mit Ihrem Benutzernamen und Passwort an der Website
+angemeldet haben, passt sich die Benutzungsoberfläche an Ihre
+persönlichen Einstellungen an und bietet Ihnen zusätzliche
+Funktionen. Dazu zählen die persönliche Seite, der persönliche Ordner
+sowie die Möglichkeit, Webinhalte zu bearbeiten.</p>
+<div class="section" id="anmelden">
+<span id="sec-anmelden"></span><h2>Anmelden<a class="headerlink" href="#anmelden" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>In diesem Buch gehen wir davon aus, dass Sie bereits auf Ihrer Website
+registriert sind und Ihre Zugangsdaten, also Benutzernamen und
+Passwort, kennen.  Falls Sie das Tutorium in Abschnitt
+<em class="xref">sec_tutorium-rundgang</em> nachvollzogen haben, haben Sie Ihr
+Passwort auch schon einmal geändert.</p>
+<p>Sie können sich auf verschiedene Weise an der Website anmelden. Zum
+einen gibt es das Anmeldeportlet, das Sie als anonymer Besucher auf
+jeder Seite der Website sehen. Zum anderen enthält das Benutzermenü
+für anonyme Besucher den Verweis »Anmelden«, der zu einem
+Anmeldeformular führt.</p>
+<p>Sowohl das Portlet als auch das Anmeldeformular enthalten Eingabefelder für
+Ihren Benutzernamen und Ihr Passwort sowie eine Schaltfläche zum Anmelden
+(siehe Abbildung <a class="reference internal" href="#fig-portlet-login"><em>Anmeldeportlet</em></a>).</p>
+<div class="figure" id="fig-portlet-login">
+<img alt="../_images/portlet-login.png" src="../_images/portlet-login.png" />
+<p class="caption">Anmeldeportlet</p>
+</div>
+<div class="figure" id="fig-anmeldeformular">
+<img alt="../_images/anmeldeformular.png" src="../_images/anmeldeformular.png" />
+<p class="caption">Anmeldeportlet</p>
+</div>
+<p>Sie verweisen außerdem auf ein oder zwei Formulare:</p>
+<ul class="simple">
+<li>Unter »Passwort vergessen?« können sich registrierte Benutzer per
+E-Mail einen Link zuschicken lassen, der sie zu einer Seite führt, auf der
+sie ihr Passwort neu setzen können.</li>
+<li>Der Verweis »Neuer Benutzer?« erscheint nur, falls die Website so
+konfiguriert wurde, dass man sich selbst registrieren kann. Er führt
+dann zum Registrierungsformular.</li>
+</ul>
+</div>
+<div class="section" id="anmelden-mit-openid">
+<span id="sec-anmelden-mit-openid"></span><h2>Anmelden mit OpenID<a class="headerlink" href="#anmelden-mit-openid" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Plone unterstützt die Anmeldung mit einer OpenID. Das OpenID-System
+erlaubt Ihnen, sich auf mehreren Websites anzumelden, ohne jedes Mal
+ein eigenes Benutzerkonto mit Benutzernamen und Passwort erstellen zu
+müssen. Stattdessen legen Sie ein Benutzerkonto bei einem
+OpenID-Anbieter an und hinterlegen dort ein einziges Passwort. Der
+OpenID-Anbieter übernimmt später die Passwortprüfung, wenn Sie sich
+mit Ihrer OpenID an einer Website anmelden.</p>
+<p>Wenn Sie sich an einer Website mit OpenID anmelden, verwenden Sie dazu
+keinen Namen, sondern eine OpenID-URL. Das ist eine Internetadresse
+wie url{<a class="reference external" href="http://mustermann.myopenid.com/">http://mustermann.myopenid.com/</a>}, die meist aus Ihrem
+OpenID-Benutzernamen und der Domäne des Anbieters gebildet
+wird. Dadurch ist eine OpenID im gesamten Internet eindeutig.</p>
+<p>Wenn Sie sich mit Hilfe von OpenID auf der Website anmelden, sind Sie
+der Website nicht als regulärer Benutzer bekannt, sondern erhalten
+lediglich bestimmte Rechte aufgrund der Tatsache, dass Sie eine
+gültige OpenID-Identität haben. Daher steht Ihnen in diesem Fall weder
+ein persönlicher Ordner noch eine persönliche Seite zur
+Verfügung. Ihre OpenID-URL ersetzt den Benutzernamen bei der Anzeige
+im Benutzermenü. Alle Benutzer, die sich über OpenID anmelden, werden
+von Plone gleich behandelt und besitzen die gleichen
+Zugriffsrechte. Welche das im Einzelnen sind, hängt von der
+Konfiguration Ihrer Website ab.</p>
+<p>Falls Ihre Website OpenID unterstützt, erscheint auf dem
+Registrierungsformular ein zusätzliches Unterformular mit dem Namen
+»OpenID-Anmeldung«. Außerdem finden Sie ein weiteres Anmeldeportlet für eine
+OpenID-Anmeldung vor (siehe Abbildung <em class="xref">fig_openid-anmeldung</em>).</p>
+<div class="figure" id="fig-openid-anmeldung">
+<img alt="../_images/openid-registrierungsformular.png" src="../_images/openid-registrierungsformular.png" />
+<p class="caption">Open-ID-Anmeldeformular</p>
+</div>
+<div class="figure">
+<img alt="../_images/openid-portlet.png" src="../_images/openid-portlet.png" />
+<p class="caption">Open-ID-Portlet</p>
+</div>
+<p>Um sich auf einer Plone-Website mit Hilfe von OpenID anzumelden, geben Sie in
+das Portlet oder auf dem Registrierungsformular Ihre OpenID-URL ein. Sie
+werden dann zu Ihrem OpenID-Anbieter weitergeleitet, der Sie nach
+Ihrem Passwort fragt. Wenn Sie das richtige Passwort eingegeben haben, leitet
+Sie der OpenID-Anbieter zu Ihrer Website zurück und schickt dabei eine
+Bestätigung Ihrer Identität mit. Sie sind daraufhin auf der Website angemeldet.</p>
+</div>
+<div class="section" id="benutzeraktionen">
+<span id="sec-benutzer-aktionen"></span><h2>Benutzeraktionen<a class="headerlink" href="#benutzeraktionen" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Nach Ihrer Anmeldung an der Website haben Sie im Benutzermenü Zugriff auf eine
+Reihe von Aktionen (siehe Abbildung <a class="reference internal" href="#fig-benutzermenue"><em>Benutzermenü für einen angemeldeten Benutzer</em></a>):</p>
+<div class="figure" id="fig-benutzermenue">
+<img alt="../_images/benutzermenue.png" src="../_images/benutzermenue.png" />
+<p class="caption">Benutzermenü für einen angemeldeten Benutzer</p>
+</div>
+<dl class="docutils">
+<dt>Ihr Name</dt>
+<dd>Der Verweis, der mit Ihrem Namen beschriftet ist, führt Sie zu
+Ihrer persönlichen Seite (siehe Abschnitt~vref{sec:personliche-seite-1}).</dd>
+<dt>Mein Ordner</dt>
+<dd>Hier gelangen Sie gegebenenfalls zu Ihrem persönlichen
+Ordner (siehe Abschnitt <a class="reference internal" href="#sec-mitgliedsordner"><em>Persönlicher Ordner</em></a>).</dd>
+<dt>Abmelden</dt>
+<dd>Über diesen Verweis melden Sie sich von der Website ab. Danach
+sind Sie bis zu Ihrer nächsten Anmeldung mit Benutzernamen und Passwort ein
+der Website unbekannter Besucher und haben keinen Zugriff auf die
+erweiterten Funktionen für angemeldete Benutzer.</dd>
+</dl>
+</div>
+<div class="section" id="pers-nliche-seite">
+<span id="sec-personliche-seite-1"></span><h2>Persönliche Seite<a class="headerlink" href="#pers-nliche-seite" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Ihre persönliche Seite ist als Ihre zentrale Anlaufstelle auf der
+Website gedacht. Sie gelangen dorthin, wenn Sie nach der Anmeldung im
+Benutzermenü dem Verweis mit Ihrem Namen folgen.</p>
+<p>Ihre Seite soll Informationen und Funktionen zusammenfassen, die für Sie und
+Ihre Arbeit von Interesse sind. Zunächst finden Sie dazu rechts oben auf Ihrer
+Seite die folgenden drei Verweise.</p>
+<dl class="docutils">
+<dt>Mein Profil</dt>
+<dd>Dieser Verweis führt Sie zu Ihrem Profil (siehe
+Abschnitt <a class="reference internal" href="#sec-profil"><em>Persönliches Profil</em></a>).</dd>
+<dt>Meine Einstellungen</dt>
+<dd>Hier können Sie die Angaben in Ihrem Profil und einige
+nicht öffentlich einsehbare persönliche Daten und Einstellungen ändern
+(siehe Abschnitt <a class="reference internal" href="#sec-persoenliche-einstellungen"><em>Persönliche Einstellungen</em></a>).</dd>
+<dt>Passwort ändern</dt>
+<dd>Um ein neues Passwort für Ihr Benutzerkonto zu setzen,
+geben Sie es in diesem Formular zweimal ein und bestätigen Sie es mit Ihrem
+aktuellen Passwort.</dd>
+</dl>
+<p>Im Hauptteil Ihrer Seite können Sie Portlets
+zusammenstellen, die für Sie relevante Informationen enthalten. Einen
+Überblick über Plones Portlets finden Sie in Abschnitt <em class="xref">sec_portlets</em>.</p>
+<div class="section" id="portlets-hinzuf-gen">
+<h3>Portlets hinzufügen<a class="headerlink" href="#portlets-hinzuf-gen" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Die Portlets auf Ihrer Seite sind in vier Spalten angeordnet. In der
+Bearbeitungsansicht Ihrer Seite können Sie in jeder der Spalten beliebige
+Portlets anlegen, umordnen und löschen (siehe
+Abbildung <a class="reference internal" href="#fig-persoenliche-seite-bearbeiten"><em>Die Bearbeitungsansicht der persönlichen Seite</em></a>).</p>
+<div class="figure" id="fig-persoenliche-seite-bearbeiten">
+<img alt="../_images/persoenliche-seite-bearbeiten.png" src="../_images/persoenliche-seite-bearbeiten.png" />
+<p class="caption">Die Bearbeitungsansicht der persönlichen Seite</p>
+</div>
+<p>Viele Portlets müssen Sie erst konfigurieren, bevor sie angezeigt werden
+können. Wenn Sie ein solches Portlet anlegen, gelangen Sie zunächst zu seinem
+Bearbeitungsformular. Der Name des Portlets in der Bearbeitungsansicht Ihrer
+Seite ist ebenfalls ein Verweis dorthin. Nachfolgend werden die Einstellungen
+der einzelnen Portlets aufgeführt.</p>
+<dl class="docutils">
+<dt>RSS-Feed</dt>
+<dd>(Abbildung <a class="reference internal" href="#fig-rss-feed-hinzufuegen"><em>Hinzufügen des RSS-Portlets</em></a>)</dd>
+</dl>
+<div class="figure" id="fig-rss-feed-hinzufuegen">
+<img alt="../_images/rss-feed-portlet-hinzufuegen.png" src="../_images/rss-feed-portlet-hinzufuegen.png" />
+<p class="caption">Hinzufügen des RSS-Portlets</p>
+<div class="legend">
+<ul class="simple">
+<li>Anzahl der Feed-Einträge im Portlet</li>
+<li>URL des RSS-Feeds</li>
+<li>Anzahl der Minuten, nach denen der RSS-Feed erneuert werden soll</li>
+</ul>
+</div>
+</div>
+<dl class="docutils">
+<dt>Suche</dt>
+<dd>(Abbildung <em class="xref">fig_suchportlet-hinzufuegen</em>)</dd>
+</dl>
+<div class="figure">
+<img alt="../_images/suchportlet-hinzufuegen.png" src="../_images/suchportlet-hinzufuegen.png" />
+<p class="caption">Hinzufügen des Suchportlets</p>
+<div class="legend">
+<ul class="simple">
+<li>Sofortsuche an- oder abschalten</li>
+</ul>
+</div>
+</div>
+<dl class="docutils">
+<dt>Aktuelle Änderungen</dt>
+<dd>(Abbildung <em class="xref">fig_aktuelle-artikel-portlet-hinzufuegen</em>)</dd>
+</dl>
+<div class="figure">
+<img alt="../_images/aktuelle-artikel-portlet-hinzufuegen.png" src="../_images/aktuelle-artikel-portlet-hinzufuegen.png" />
+<p class="caption">Hinzufügen des Portlets »Aktuelle Änderungen«</p>
+<div class="legend">
+<ul class="simple">
+<li>Anzahl der angezeigten neuen Artikel</li>
+</ul>
+</div>
+</div>
+<dl class="docutils">
+<dt>Nachrichten</dt>
+<dd>(Abbildung <em class="xref">fig:nachrichten-portlet-hinzufuegen</em>)</dd>
+</dl>
+<div class="figure" id="fig-nachrichten-portlet-hinzufuegen">
+<img alt="../_images/nachrichten-portlet-hinzufuegen.png" src="../_images/nachrichten-portlet-hinzufuegen.png" />
+<p class="caption">Hinzufügen des Nachrichtenportlets</p>
+<div class="legend">
+<ul class="simple">
+<li>Anzahl der angezeigten Nachrichten</li>
+<li>zu berücksichtigende Revisionsstatus</li>
+</ul>
+</div>
+</div>
+<p>Welche Status Sie für die anzuzeigenden Nachrichten auswählen können, hängt
+von Ihren Berechtigungen ab. Veröffentlichte Nachrichten kann jeder Benutzer
+anzeigen lassen.</p>
+<dl class="docutils">
+<dt>Termine</dt>
+<dd>(Abbildung <a class="reference internal" href="#fig-terminportlet-hinzufuegen"><em>Hinzufügen des Terminportlets</em></a>)</dd>
+</dl>
+<div class="figure" id="fig-terminportlet-hinzufuegen">
+<img alt="../_images/terminportlet-hinzufuegen.png" src="../_images/terminportlet-hinzufuegen.png" />
+<p class="caption">Hinzufügen des Terminportlets</p>
+<div class="legend">
+<ul class="simple">
+<li>Anzahl der angezeigten Termine</li>
+<li>zu berücksichtigende Status (siehe die Erläuterung zum
+Nachrichtenportlet)</li>
+</ul>
+</div>
+</div>
+<dl class="docutils">
+<dt>Statisches Portlet</dt>
+<dd>(Abbildung :ref:<a href="#id1"><span class="problematic" id="id2">`</span></a>fig_statisches-portlet-hinzufuegen)</dd>
+</dl>
+<div class="figure" id="fig-statisches-portlet-hinzufuegen">
+<img alt="../_images/statisches-portlet-hinzufuegen.png" src="../_images/statisches-portlet-hinzufuegen.png" />
+<p class="caption">Hinzufügen des statischen Portlets</p>
+<div class="legend">
+<ul class="simple">
+<li>Kopfzeile</li>
+<li>anzuzeigender Text (mit allen Bearbeitungsmöglichkeiten des Texteditors
+Kupu)</li>
+<li>Rahmen des Portlets verbergen?</li>
+<li>Fußzeile</li>
+<li>URL, die auf weitere Informationen verweist</li>
+<li>Portlet vorübergehend nicht anzeigen?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="klassisches-portlet">
+<h3>Klassisches Portlet<a class="headerlink" href="#klassisches-portlet" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Unter einem klassischen Portlet versteht man ein Portlet, das für eine
+frühere Version von Plone erstellt wurde. Ein solches Portlet können
+Sie nicht direkt anlegen. Sie müssen im Auswahlmenü »Klassisches
+Portlet« wählen und beim Bearbeiten angeben, wo Plone die Beschreibung
+des Portlets finden kann.</p>
+<p>Das einzige klassische Portlets, das Plone von Haus aus mitbringt, ist das
+Portlet für Ihre Lesezeichen. Fragen Sie Ihren Administrator, ob es auf Ihrer
+Website weitere klassische Portlets gibt.</p>
+<div class="figure" id="fig-klassisches-portlet-hinzufuegen">
+<img alt="../_images/klassisches-portlet-hinzufuegen.png" src="../_images/klassisches-portlet-hinzufuegen.png" />
+<p class="caption">Hinzufügen des klassischen Portlets</p>
+</div>
+<p>Abbildung <a class="reference internal" href="#fig-klassisches-portlet-hinzufuegen"><em>Hinzufügen des klassischen Portlets</em></a>
+zeigt das Bearbeitungsformular für ein klassisches Portlet. Ein solches
+Portlet wird durch ein Makro in einer Vorlage beschrieben; Sie müssen die
+Namen der Vorlage und des Makros angeben. Da Portletmakros in der Regel den
+Namen »portlet« hatten, ist das Formularfeld bereits mit diesem Namen
+vorausgefüllt. Die Vorlage für das Lesezeichenportlet heißt
+<tt class="docutils literal"><span class="pre">portlet_favorites</span></tt>.</p>
+</div>
+</div>
+<div class="section" id="pers-nliches-profil">
+<span id="sec-profil"></span><h2>Persönliches Profil<a class="headerlink" href="#pers-nliches-profil" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Ihr Profil gibt anderen Benutzern der Website einen Überblick über
+Ihre Person und Ihre Tätigkeit (siehe Abbildung <a class="reference internal" href="#fig-profil"><em>Beispiel eines Profils</em></a>).</p>
+<div class="figure" id="fig-profil">
+<img alt="../_images/profil.png" src="../_images/profil.png" />
+<p class="caption">Beispiel eines Profils</p>
+</div>
+<p>Verweise auf Ihr Profil finden sich in Ihren Artikeln und einigen
+automatisch erzeugten Übersichtslisten. Sie selbst können Ihr Profil
+außerdem über einen Verweis auf Ihrer persönlichen Seite erreichen.</p>
+<p>Das Profil enthält folgende Informationen:</p>
+<ul class="simple">
+<li>Name</li>
+<li>Standort und Muttersprache</li>
+<li>Porträt und Biographie</li>
+<li>einen Verweis zu Ihrem persönlichen Ordner</li>
+<li>ein Rückmeldeformular</li>
+<li>Verweise zu Ihren aktuellen Artikeln</li>
+</ul>
+<p>Ihre Profilangaben können Sie in Ihren Einstellungen aktuell halten.</p>
+<p>Mit dem Rückmeldeformular können Besucher mit Ihnen Kontakt aufnehmen. Das
+Formular verschickt Nachrichten an die E-Mail-Adresse, die Sie in Ihren
+Einstellungen angegeben haben, sodass anonyme Besucher die Adresse nicht zu
+sehen bekommen. Nachrichten bestehen aus Betreff und Text. Wenn Sie selbst
+Ihre Profilseite betrachten, wird das Rückmeldeformular ausgeblendet.</p>
+<p>Die Liste Ihrer aktuellen Artikel ist nach Artikeltypen sortiert und
+enthält Titel und Änderungsdatum jedes aufgeführten Artikels. Darunter
+finden Sie einen Verweis zu einer Liste aller von Ihnen verfassten
+Artikel, beginnend mit dem neuesten.</p>
+</div>
+<div class="section" id="pers-nliche-einstellungen">
+<span id="sec-persoenliche-einstellungen"></span><h2>Persönliche Einstellungen<a class="headerlink" href="#pers-nliche-einstellungen" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Wenn Sie auf Ihrer persönlichen Seite dem Verweis »Meine Einstellungen«
+folgen, können Sie einige Voreinstellungen für das Verhalten von Plone
+bearbeiten. Dieses Formular ist zugleich die Bearbeitungsansicht Ihres Profils
+(siehe Abbildung <a class="reference internal" href="#fig-meine-einstellungen"><em>Persönliche Einstellungen</em></a>).</p>
+<div class="figure" id="fig-meine-einstellungen">
+<img alt="../_images/meine-einstellungen.png" src="../_images/meine-einstellungen.png" />
+<p class="caption">Persönliche Einstellungen</p>
+</div>
+<p>Zu Ihren Profildaten zählen folgende Angaben:</p>
+<dl class="docutils">
+<dt>Vor- und Nachname</dt>
+<dd>Geben Sie hier Ihren vollständigen Namen ein. Mit
+diesem Namen werden Sie beispielsweise in der Anzeige Ihrer Artikel als
+Verfasser genannt.</dd>
+</dl>
+<p>E-Mail</p>
+<blockquote>
+Geben Sie eine gültige E-Mail-Adresse ein, unter der
+Sie erreichbar sind. Dieses Feld müssen Sie ausfüllen.</blockquote>
+<dl class="docutils">
+<dt>Ort</dt>
+<dd>Die Stadt oder das Land, wo Sie wohnen oder arbeiten.</dd>
+<dt>Sprache</dt>
+<dd>Ihre Muttersprache.</dd>
+<dt>Biographie</dt>
+<dd>Ein paar Sätze über Ihre Person und Ihre Arbeit. Mit diesem
+Text stellen Sie sich in Ihrem Profil vor.</dd>
+<dt>Homepage</dt>
+<dd>Falls Sie eine eigene Website haben, so können Sie sie hier
+eintragen.</dd>
+</dl>
+<p>Porträt</p>
+<blockquote>
+Ein Foto von Ihnen, das in Ihrem Profil angezeigt wird. Wenn Sie ein
+zu großes Bild hochladen, wird es auf eine sinnvolle Größe skaliert.
+Um das Bild zu löschen, kreuzen Sie »Porträt löschen« an.</blockquote>
+<p>In den übrigen Feldern können Sie Plones Verhalten beeinflussen:</p>
+<p>Texteditor</p>
+<blockquote>
+<p>Hier wählen Sie aus, mit welchem Texteditor
+Sie den Haupttext Ihrer Seiten bearbeiten wollen. Es gibt
+zwei Möglichkeiten:</p>
+<ul class="simple">
+<li>Kupu ist ein komfortabler, visueller Editor. Mit ihm können Sie Ihren
+Text bei der Eingabe direkt formatieren und sehen ihn dabei so, wie er
+später von Plone angezeigt wird. Die meisten Anwender werden Kupu
+bevorzugen.</li>
+<li>Der normale Formulareditor ist einfach ein mehrzeiliges Eingabefeld
+und wird von jedem Webbrowser zur Verfügung gestellt. Sie können dort
+neben einfachem Text und HTML möglicherweise auch andere
+Textauszeichnungssprachen eingeben.</li>
+</ul>
+</blockquote>
+<p>Bearbeitung der Kurznamen erlauben</p>
+<blockquote>
+<p>Wählen Sie aus, ob Sie die Kurznamen
+Ihrer Artikel ändern wollen. Blenden Sie das Feld aus, wenn Sie eine
+aufgeräumtere Bearbeitungsansicht bevorzugen. Unabhängig davon können Sie
+die Kurznamen von Artikeln jederzeit in der Inhaltsansicht ihres jeweiligen
+Ordners bearbeiten.</p>
+<p>Sie sehen dieses Feld nur, falls Ihr Administrator für die Website
+erlaubt hat, Kurznamen zu bearbeiten.</p>
+</blockquote>
+</div>
+<div class="section" id="pers-nlicher-ordner">
+<span id="sec-mitgliedsordner"></span><h2>Persönlicher Ordner<a class="headerlink" href="#pers-nlicher-ordner" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Falls Ihre Website entsprechend konfiguriert ist, erhält jeder Benutzer einen
+persönlichen Ordner. Sie erreichen Ihren Ordner nach der Anmeldung über den
+Verweis »Mein Ordner« im Benutzermenü. Wenn es auf Ihrer Website keine
+persönlichen Ordner gibt, fehlt dieser Verweis.</p>
+<p>In Ihrem Ordner können Sie nach eigenem Ermessen Artikel anlegen,
+bearbeiten und löschen. An anderen Stellen der Website haben Sie diese
+Möglichkeiten eventuell nicht oder nur eingeschränkt.</p>
+<p>Die persönlichen Ordner sind ebenso öffentlich einsehbar wie alle
+anderen Inhalte der Website. Sie finden die Ordner anderer Benutzer
+beispielsweise durch eine Suche im Benutzerbereich (siehe
+Abschnitt <a class="reference internal" href="#sec-mitgliedersuche"><em>Benutzersuche</em></a>).</p>
+<p>In Ihrem eigenen Ordner können Sie außer den öffentlich sichtbaren
+auch solche Artikel sehen, die den Revisionsstatus
+»privat« tragen, also vor anderen Benutzern und unangemeldeten
+Besuchern versteckt sind.</p>
+<p>Wenn Sie Lesezeichen anlegen, erzeugt Plone einen Lesezeichenordner in Ihrem
+persönlichen Ordner mit dem Titel »Favorites«. Für jedes Lesezeichen, das
+Sie auf der Website setzen, wird in diesem Ordner ein Lesezeichen-Artikel
+angelegt.</p>
+</div>
+<div class="section" id="benutzersuche">
+<span id="sec-mitgliedersuche"></span><h2>Benutzersuche<a class="headerlink" href="#benutzersuche" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Über den Eintrag »Benutzer« in der Hauptnavigation erreichen Sie die
+Benutzersuche (siehe Abbildung <a class="reference internal" href="#fig-benutzersuche"><em>Benutzersuche</em></a>).</p>
+<div class="figure" id="fig-benutzersuche">
+<img alt="../_images/benutzersuche.png" src="../_images/benutzersuche.png" />
+<p class="caption">Benutzersuche</p>
+</div>
+<p>Sie können Benutzer Ihrer Website nach folgenden Kriterien suchen:</p>
+<p>Name</p>
+<blockquote>
+Geben Sie hier den Benutzernamen des gesuchten Benutzers
+ein. Sie können auch nach einem Teilwort suchen.</blockquote>
+<p>E-Mail</p>
+<blockquote>
+Geben Sie die E-Mail-Adresse des gesuchten Benutzers ein.
+Auch hier können Sie nach einem Teil der Adresse suchen.</blockquote>
+<p>Vollständiger Name des Benutzers</p>
+<blockquote>
+Geben Sie hier den Vor- oder Nachnamen
+des Benutzers ein. Sie können auch ein Teilwort oder den gesamten Namen
+eingeben.</blockquote>
+<p>Alle Suchkriterien werden gleichzeitig angewendet: Es werden nur Benutzer
+gefunden, die alle Kriterien erfüllen. Nicht angegebene Kriterien
+werden nicht beachtet.</p>
+<p>Die Liste der Suchergebnisse enthält die Namen und Porträts der gefundenen
+Benutzer. Sie sind gegebenenfalls Verweise auf die jeweiligen persönlichen
+Ordner.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="../index.html">Inhalt</a></h3>
+            <ul>
+<li><a class="reference external" href="#">Angemeldete Benutzer</a><ul>
+<li><a class="reference external" href="#anmelden">Anmelden</a></li>
+<li><a class="reference external" href="#anmelden-mit-openid">Anmelden mit OpenID</a></li>
+<li><a class="reference external" href="#benutzeraktionen">Benutzeraktionen</a></li>
+<li><a class="reference external" href="#pers-nliche-seite">Persönliche Seite</a><ul>
+<li><a class="reference external" href="#portlets-hinzuf-gen">Portlets hinzufügen</a></li>
+<li><a class="reference external" href="#klassisches-portlet">Klassisches Portlet</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="#pers-nliches-profil">Persönliches Profil</a></li>
+<li><a class="reference external" href="#pers-nliche-einstellungen">Persönliche Einstellungen</a></li>
+<li><a class="reference external" href="#pers-nlicher-ordner">Persönlicher Ordner</a></li>
+<li><a class="reference external" href="#benutzersuche">Benutzersuche</a></li>
+</ul>
+</li>
+</ul>
+
+            <h3>Diese Seite</h3>
+            <ul class="this-page-menu">
+              <li><a href="../_sources/benutzer/mitglieder.txt"
+                     rel="nofollow">Quelltext anzeigen</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Schnellsuche</h3>
+              <form class="search" action="../search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Los" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Geben Sie Suchbegriffe oder einen Modul-, Klassen- oder Funktionsnamen ein.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             >Index</a></li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2010, Jan Ulrich Hasecke, Thomas Lotze.
+      Mit <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.5 erstellt.
+    </div>
+  </body>
+</html>

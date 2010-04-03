@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Portlets &mdash; Plone v4.0 documentation</title>
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '4.0',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <link rel="top" title="Plone v4.0 documentation" href="../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             accesskey="I">Index</a></li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="portlets">
+<span id="sec-portlets"></span><h1>Portlets<a class="headerlink" href="#portlets" title="Permalink zu dieser Überschrift">¶</a></h1>
+<p>Zum Inhalt einer Plone&#8221;=Seite trägt nicht nur der aktuelle Artikel
+bei. Jede Seite enthält auch eine Anzahl von Portlets, die links und
+rechts neben der Artikelansicht angeordnet sind. Portlets fassen
+Inhalte der Website zusammen, bieten Zugriff auf ihre Funktionen oder
+stellen andere Informationen bereit.</p>
+<p>Dieses Buch beschreibt die Details der einzelnen Portlets dort, wo ihre
+Funktion besprochen wird (siehe Tabelle <em class="xref">tab_portlets</em>).</p>
+<table border="1" class="docutils" id="tab-portlets">
+<colgroup>
+<col width="36%" />
+<col width="64%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>Titel</td>
+<td>siehe</td>
+</tr>
+<tr><td>Anmelden</td>
+<td><a class="reference external" href="../benutzer/mitglieder.html#sec-anmelden"><em>Anmelden</em></a></td>
+</tr>
+<tr><td>Navigation</td>
+<td><a class="reference external" href="navigation.html#sec-navigation-portlet"><em>Navigationsportlet</em></a></td>
+</tr>
+<tr><td>Aktuelle
+Änderungen</td>
+<td><a class="reference external" href="../inhaltstypen/gemeinsamkeiten.html#sec-nutz-von-metad-3"><em>Portlets</em></a></td>
+</tr>
+<tr><td>Meine
+Lesezeichen</td>
+<td><a class="reference external" href="navigation.html#sec-navigation-lesezeichen"><em>Lesezeichen</em></a></td>
+</tr>
+<tr><td>Suche</td>
+<td><a class="reference external" href="navigation.html#sec-suchportlet"><em>Suchportlet</em></a></td>
+</tr>
+<tr><td>Kollektionsportlet</td>
+<td><em class="xref">sec_kollektionsportlet</em></td>
+</tr>
+<tr><td>Revisionsliste</td>
+<td><a class="reference external" href="../umgang/workflow.html#sec-revisionsliste"><em>Revisionsliste</em></a></td>
+</tr>
+<tr><td>Nachrichten</td>
+<td><a class="reference external" href="../inhaltstypen/nachricht.html#sec-nachricht"><em>Nachricht</em></a></td>
+</tr>
+<tr><td>Termine</td>
+<td><a class="reference external" href="../inhaltstypen/termin.html#sec-termin"><em>Termin</em></a></td>
+</tr>
+<tr><td>Kalender</td>
+<td><a class="reference external" href="../inhaltstypen/termin.html#sec-termin"><em>Termin</em></a></td>
+</tr>
+<tr><td>RSS-Feed</td>
+<td><a class="reference external" href="../umgang/syndizierung.html#sec-rss"><em>RSS-Feeds und RSS-Portlet</em></a></td>
+</tr>
+<tr><td>Statisches
+Portlet</td>
+<td><a class="reference internal" href="#sec-statisches-portlet"><em>Statisches Portlet</em></a></td>
+</tr>
+</tbody>
+</table>
+<p>Portlets in der linken und rechten Spalte</p>
+<p>Portlets werden ausgeblendet, wenn sie leer sind. Falls es
+beispielsweise keine Nachrichten anzuzeigen gibt, hat das
+Nachrichtenportlet keinen Inhalt und wird daher gar nicht
+eingeblendet. Ferner erscheint per Voreinstellung auf der Startseite
+kein Navigationsportlet, da sein Inhalt erst mit Unterordnern beginnt
+(siehe Abschnitt <a class="reference external" href="navigation.html#sec-navigation-portlet"><em>Navigationsportlet</em></a>).</p>
+<p>Viele der Portlets enthalten eine Liste bestimmter Artikel der
+Website, beispielsweise der neuesten Nachrichten. Solche Listen
+umfassen aus Platzgründen nur wenige Einträge. Sie enden jedoch mit
+einem Verweis, der Sie zu einer vollständigen Übersicht der zum
+Portlet passenden Artikel führt. Das könnte etwa eine Liste aller
+Nachrichten auf der Website sein.</p>
+<div class="section" id="statisches-portlet">
+<span id="sec-statisches-portlet"></span><h2>Statisches Portlet<a class="headerlink" href="#statisches-portlet" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Im Gegensatz zu den meisten anderen Portlets wird der Inhalt eines statischen
+Portlets nicht bei jeder Anzeige neu bestimmt. Stattdessen handelt es sich um
+einen frei formatierbaren Text, der bei der Konfiguration des Portlets
+bearbeitet und bei der Anzeige unverändert wiedergegeben wird (siehe
+Abbildung <a class="reference internal" href="#fig-statisches-portlet"><em>Statisches Portlet</em></a>).</p>
+<div class="figure" id="fig-statisches-portlet">
+<img alt="../_images/portlet-static.png" src="../_images/portlet-static.png" />
+<p class="caption">Statisches Portlet</p>
+</div>
+<p>Außerdem kann jedes statische Portlet einen Verweis auf weiterführende
+Informationen anzeigen.</p>
+<p>Nicht nur der Inhalt statischer Portlets ist frei wählbar, sondern auch ihre
+Gestaltung: Jedes statische Portlet hat einen eigenen Text in Kopf- und
+Fußzeile, wobei die Fußzeile gar nicht angezeigt wird, wenn sie leer gelassen
+wurde. Weiterhin müssen statische Portlets nicht unbedingt mit einem Rahmen
+dargestellt werden.</p>
+<p>Die Konfiguration eines statischen Portlets wird in
+Abschnitt <em class="xref">sec_statisches-portlet-hinzufuegen</em> erläutert.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="../index.html">Inhalt</a></h3>
+            <ul>
+<li><a class="reference external" href="#">Portlets</a><ul>
+<li><a class="reference external" href="#statisches-portlet">Statisches Portlet</a></li>
+</ul>
+</li>
+</ul>
+
+            <h3>Diese Seite</h3>
+            <ul class="this-page-menu">
+              <li><a href="../_sources/oberflaeche/portlets.txt"
+                     rel="nofollow">Quelltext anzeigen</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Schnellsuche</h3>
+              <form class="search" action="../search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Los" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Geben Sie Suchbegriffe oder einen Modul-, Klassen- oder Funktionsnamen ein.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             >Index</a></li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2010, Jan Ulrich Hasecke, Thomas Lotze.
+      Mit <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.5 erstellt.
+    </div>
+  </body>
+</html>

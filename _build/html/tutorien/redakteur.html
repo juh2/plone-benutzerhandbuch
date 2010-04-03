@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Veröffentlichung von Artikeln &mdash; Plone v4.0 documentation</title>
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '4.0',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <link rel="top" title="Plone v4.0 documentation" href="../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             accesskey="I">Index</a></li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="ver-ffentlichung-von-artikeln">
+<span id="sec-veroff-von-artik"></span><h1>Veröffentlichung von Artikeln<a class="headerlink" href="#ver-ffentlichung-von-artikeln" title="Permalink zu dieser Überschrift">¶</a></h1>
+<p>Dieses Tutorium erläutert die Arbeitsschritte, die notwendig sind, um einen
+Artikel zu veröffentlichen.</p>
+<p>Wenn Sie einen Artikel erstellen, ist er zunächst »privat«. Nur Sie selbst
+haben Zugriff auf ihn. Andere Besucher der Website können den Artikel erst
+einsehen, nachdem er veröffentlicht wurde. Wenn Sie Ihre Website
+alleine betreiben, können Sie selbst darüber entscheiden, ob ein Artikel
+veröffentlicht werden soll oder nicht. In vielen Fällen sind Sie jedoch
+nicht allein für eine Website verantwortlich, sodass die Veröffentlichung von
+Artikeln mit anderen Personen abgestimmt werden muss. Plone unterstützt solche
+Abstimmungsprozeduren durch festgelegte Arbeitsabläufe (siehe
+Abschnitt <em class="xref">sec_workflow</em>).</p>
+<p>Artikel zu verfassen, zu redigieren und zu veröffentlichen bedeutet in der
+Regel eine Arbeitsteilung zwischen Personen, die unterschiedliche
+Funktionen ausüben. Die einen, die wir im Folgenden als Autoren
+bezeichnen, verfassen Artikel, die anderen, die Redakteure, redigieren
+und veröffentlichen sie.</p>
+<p>In Plone haben Autoren und Redakteure unterschiedliche Rechte, sodass es
+empfehlenswert ist, wenn Sie dieses Tutorium zu zweit an verschiedenen
+Rechnern mit verteilten Rollen durcharbeiten. Falls Sie alleine arbeiten,
+müssen Sie sich während des Tutoriums ab- und mit dem Benutzernamen eines
+Redakteurs wieder anmelden.</p>
+<div class="section" id="anmelden-als-autor-oder-redakteur">
+<span id="sec-veroff-von-artik-1"></span><h2>Anmelden als Autor oder Redakteur<a class="headerlink" href="#anmelden-als-autor-oder-redakteur" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Wir gehen im Folgenden davon aus, dass in Ihrer Website ein Benutzer
+registriert worden ist, der zusätzliche Rechte besitzt und im Ordner
+»Veranstaltungen« Artikel veröffentlichen darf. Wir bezeichnen diesen Benutzer
+im Folgenden als »Redakteur«. Wenn Sie die Redakteursfunktionen in diesem
+Tutorium ausprobieren möchten, müssen Sie sich mit dem Benutzernamen des
+Redakteurs bei Ihrer Website anmelden. Fragen Sie gegebenenfalls Ihren
+Administrator nach den entsprechenden Zugangsdaten. Wenn Sie Autorenfunktionen
+ausüben, können Sie sich mit Ihrem persönlichen Benutzernamen anmelden.</p>
+</div>
+<div class="section" id="artikel-zur-ver-ffentlichung-einreichen">
+<span id="sec-artik-zur-veroff"></span><h2>Artikel zur Veröffentlichung einreichen<a class="headerlink" href="#artikel-zur-ver-ffentlichung-einreichen" title="Permalink zu dieser Überschrift">¶</a></h2>
+<div class="section" id="einen-einzelnen-artikel-zur-ver-ffentlichung-einreichen">
+<span id="sec-veroff-von-artik-2"></span><h3>Einen einzelnen Artikel zur Veröffentlichung einreichen<a class="headerlink" href="#einen-einzelnen-artikel-zur-ver-ffentlichung-einreichen" title="Permalink zu dieser Überschrift">¶</a></h3>
+<ul class="simple">
+<li>Melden Sie sich auf Ihrer Website mit Ihrem Benutzernamen an.</li>
+<li>Legen Sie im Ordner »Veranstaltungen« eine neue Seite an, bearbeiten Sie
+Titel, Beschreibung und Haupttext und speichern Sie Ihre Eingaben.</li>
+<li>Vergewissern Sie sich in der Ordnerübersicht, dass der Status des
+Artikels »privat« ist und der Eintrag für den Artikel rot dargestellt
+wird.</li>
+<li>Reichen Sie die Seite zur Veröffentlichung ein, indem Sie zur Anzeige
+des Artikels wechseln und im Statusmenü den Eintrag »Zur Veröffentlichung
+einreichen« wählen (siehe
+Abbildung <a class="reference internal" href="#fig-auswahlmenu-zur-veroeffentlichung-einreichen"><em>Einen Artikel zur Veröffentlichung einreichen</em></a>).</li>
+</ul>
+<div class="figure" id="fig-auswahlmenu-zur-veroeffentlichung-einreichen">
+<img alt="../_images/zur-veroeffentlichung-einreichen.png" src="../_images/zur-veroeffentlichung-einreichen.png" />
+<p class="caption">Einen Artikel zur Veröffentlichung einreichen</p>
+</div>
+<ul class="simple">
+<li>Achten Sie auf die Statusmeldung und darauf, dass der Artikel in der
+Ordnerübersicht nun als »zur Veröffentlichung eingereicht« geführt und in
+Orange dargestellt wird.</li>
+</ul>
+</div>
+<div class="section" id="mehrere-artikel-zur-ver-ffentlichung-einreichen">
+<span id="sec-veroff-von-artik-4"></span><h3>Mehrere Artikel zur Veröffentlichung einreichen<a class="headerlink" href="#mehrere-artikel-zur-ver-ffentlichung-einreichen" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Sie können mehrere Artikel gleichzeitig zur Veröffentlichung einreichen.</p>
+<ul class="simple">
+<li>Legen Sie mehrere Artikel im Ordner »Veranstaltungen« an.</li>
+<li>Wechseln Sie zur Inhaltsansicht des Ordners. Ihre neuen Artikel werden
+dort mit dem Status »privat« geführt und rot dargestellt.</li>
+<li>Wählen Sie in der Tabelle die Artikel aus, die Sie zur Veröffentlichung
+einreichen wollen.</li>
+<li>Betätigen Sie die Schaltfläche »Status ändern« unterhalb der
+Tabelle. Sie gelangen zu einem Formular (siehe
+Abbildung <em class="xref">fig_formular-arbeitsablauf</em>),</li>
+</ul>
+<div class="figure">
+<img alt="../_images/formular-arbeitsablauf.png" src="../_images/formular-arbeitsablauf.png" />
+</div>
+<ul class="simple">
+<li>Geben Sie im Feld »Kommentare« eine Nachricht für Ihren Redakteur ein.</li>
+<li>Setzen Sie ganz unten auf dem Formular im Abschnitt »Status verändern«
+ein Häkchen bei »Zur Veröffentlichung einreichen« und speichern Sie.</li>
+<li>Achten Sie auf die Statusmeldung und darauf, dass alle eingereichten
+Artikel im Ordner nun den Status »zur Veröffentlichung eingereicht« tragen
+und in einer anderen Farbe (Orange) dargestellt werden.</li>
+</ul>
+<p>Sie erreichen das Formular auch über den Menüeintrag »Erweitert...« im
+Statusmenü eines Artikels. Sie werden vor allem dann das Formular benötigen,
+wenn Sie Ihrem Redakteur Kommentare hinterlassen wollen.</p>
+</div>
+</div>
+<div class="section" id="artikel-ver-ffentlichen-und-zur-ckweisen">
+<span id="sec-artik-redig-und"></span><h2>Artikel veröffentlichen und zurückweisen<a class="headerlink" href="#artikel-ver-ffentlichen-und-zur-ckweisen" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Nachdem ein Artikel zur Veröffentlichung eingereicht wurde, kommt der
+Redakteur ins Spiel. Übernehmen Sie deshalb jetzt  die Rolle des Redakteurs.</p>
+<ul class="simple">
+<li>Melden Sie sich mit Ihrem eigenen Benutzernamen ab.</li>
+<li>Melden Sie sich mit dem Benutzernamen des Redakteurs wieder an.</li>
+</ul>
+<p>Nach der Anmeldung erscheint in der rechten Spalte das Portlet mit der
+Revisionsliste (siehe Abbildung <a class="reference internal" href="#fig-revisionsliste"><em>Portlet »Revisionsliste«</em></a>).</p>
+<div class="figure" id="fig-revisionsliste">
+<img alt="../_images/revisionsliste.png" src="../_images/revisionsliste.png" />
+<p class="caption">Portlet »Revisionsliste«</p>
+</div>
+<p>Die Liste enthält Artikel, die zur Veröffentlichung eingereicht wurden und die
+Sie veröffentlichen dürfen.</p>
+<div class="section" id="artikel-ver-ffentlichen">
+<span id="sec-artik-redig-veroff"></span><h3>Artikel veröffentlichen<a class="headerlink" href="#artikel-ver-ffentlichen" title="Permalink zu dieser Überschrift">¶</a></h3>
+<ul class="simple">
+<li>Wählen Sie in der Revisionsliste einen Artikel aus.</li>
+<li>Lesen und bearbeiten Sie gegebenenfalls den Artikel.</li>
+<li>Veröffentlichen Sie den Artikel, indem Sie im Statusmenü den Eintrag
+»Veröffentlichen« (siehe Abbildung <em class="xref">fig_statusmenu-veroeffentlichen</em>)</li>
+</ul>
+<div class="figure" id="fig-statusmenu-veroeffentlichen">
+<img alt="../_images/veroeffentlichen.png" src="../_images/veroeffentlichen.png" />
+</div>
+<ul class="simple">
+<li>Achten Sie auf die Statusmeldung und darauf, dass der Artikel in der
+Ordneransicht nun mit dem Status »veröffentlicht« angezeigt und in Blau
+dargestellt wird.</li>
+</ul>
+<p>Der veröffentlichte Artikel ist nun auch für anonyme Besucher der Website
+sichtbar.</p>
+</div>
+</div>
+<div class="section" id="historie-des-arbeitsablaufs">
+<span id="sec-artik-redig-und-1"></span><h2>Historie des Arbeitsablaufs<a class="headerlink" href="#historie-des-arbeitsablaufs" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Rufen Sie den veröffentlichten Artikel auf und klappen Sie die Historie für
+den Arbeitsablauf auf, indem Sie mit der Maus auf das Pluszeichen neben dem
+Begriff »Historie« unterhalb des Artikels klicken (siehe
+Abbildung <a class="reference internal" href="#fig-historie-arbeitsablauf"><em>Historie des Arbeitsablaufes</em></a>).</p>
+<div class="figure" id="fig-historie-arbeitsablauf">
+<img alt="../_images/historie-arbeitsablauf.png" src="../_images/historie-arbeitsablauf.png" />
+<p class="caption">Historie des Arbeitsablaufes</p>
+</div>
+<p>Dort können Sie nachschauen, wer den Artikel wann zur Veröffentlichung
+eingereicht oder veröffentlicht hat. Die Tabelle enthält eine Liste aller
+Statusänderungen.</p>
+<div class="section" id="artikel-zur-ckweisen">
+<span id="sec-artik-redig-veroff-1"></span><h3>Artikel zurückweisen<a class="headerlink" href="#artikel-zur-ckweisen" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Falls Sie der Meinung sind, dass ein Artikel nicht veröffentlicht werden
+sollte, können Sie ihn zurückweisen.</p>
+<ul class="simple">
+<li>Wählen Sie in der Revisionsliste einen Artikel aus.</li>
+<li>Lesen Sie den Artikel.</li>
+<li>Weisen Sie den Artikel zurück, indem Sie im Statusmenü den Eintrag
+»Zurückweisen« (siehe Abbildung~vref{fig:statusmenu-veroeffentlichen})
+auswählen.</li>
+<li>Achten Sie auf die Statusmeldung und darauf, dass der Artikel in der
+Ordnerübersicht nun den Status »privat« trägt und in Rot dargestellt wird.</li>
+</ul>
+<p>Am Status »privat« erkennt der Verfasser, dass Sie den Artikel
+zurückgewiesen haben.</p>
+<p>Da eine Zurückweisung ohne Begründung für den Verfasser zumeist unbefriedigend
+ist, sollten Sie das erweiterte Formular »Arbeitsablauf« benutzen, um ihm im
+Kommentarfeld eine Begründung für die Zurückweisung zu hinterlassen. Der
+Verfasser des Artikels kann diesen Kommentar in der Historie nachlesen und
+seinen Artikel entsprechend überarbeiten.</p>
+<p>Falls Sie zu zweit das Tutorium durcharbeiten, wechseln Sie nun die Rollen und
+gehen Sie die Arbeitsschritte dieses Abschnitts erneut durch.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="../index.html">Inhalt</a></h3>
+            <ul>
+<li><a class="reference external" href="#">Veröffentlichung von Artikeln</a><ul>
+<li><a class="reference external" href="#anmelden-als-autor-oder-redakteur">Anmelden als Autor oder Redakteur</a></li>
+<li><a class="reference external" href="#artikel-zur-ver-ffentlichung-einreichen">Artikel zur Veröffentlichung einreichen</a><ul>
+<li><a class="reference external" href="#einen-einzelnen-artikel-zur-ver-ffentlichung-einreichen">Einen einzelnen Artikel zur Veröffentlichung einreichen</a></li>
+<li><a class="reference external" href="#mehrere-artikel-zur-ver-ffentlichung-einreichen">Mehrere Artikel zur Veröffentlichung einreichen</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="#artikel-ver-ffentlichen-und-zur-ckweisen">Artikel veröffentlichen und zurückweisen</a><ul>
+<li><a class="reference external" href="#artikel-ver-ffentlichen">Artikel veröffentlichen</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="#historie-des-arbeitsablaufs">Historie des Arbeitsablaufs</a><ul>
+<li><a class="reference external" href="#artikel-zur-ckweisen">Artikel zurückweisen</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            <h3>Diese Seite</h3>
+            <ul class="this-page-menu">
+              <li><a href="../_sources/tutorien/redakteur.txt"
+                     rel="nofollow">Quelltext anzeigen</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Schnellsuche</h3>
+              <form class="search" action="../search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Los" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Geben Sie Suchbegriffe oder einen Modul-, Klassen- oder Funktionsnamen ein.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             >Index</a></li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2010, Jan Ulrich Hasecke, Thomas Lotze.
+      Mit <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.5 erstellt.
+    </div>
+  </body>
+</html>

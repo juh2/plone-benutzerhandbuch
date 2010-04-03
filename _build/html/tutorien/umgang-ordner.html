@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Umgang mit Ordnern &mdash; Plone v4.0 documentation</title>
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '4.0',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <link rel="top" title="Plone v4.0 documentation" href="../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             accesskey="I">Index</a></li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="umgang-mit-ordnern">
+<h1>Umgang mit Ordnern<a class="headerlink" href="#umgang-mit-ordnern" title="Permalink zu dieser Überschrift">¶</a></h1>
+<p>Dieses Tutorium beschäftigt sich mit den Besonderheiten von Ordnern
+gegenüber anderen Artikeln.</p>
+<div class="section" id="ordner-anlegen">
+<h2>Ordner anlegen<a class="headerlink" href="#ordner-anlegen" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Legen Sie einen Ordner an, indem Sie ähnlich vorgehen wie im vorigen Tutorium:</p>
+<ul class="simple">
+<li>Wechseln Sie in den Ordner »Veranstaltungen«.</li>
+<li>Wählen Sie aus dem Hinzufügemenü den Artikeltyp »Ordner« aus (siehe
+Abbildung <a class="reference internal" href="#fig-add-menu-ordner"><em>Anlegen eines Ordners</em></a>).</li>
+</ul>
+<div class="figure" id="fig-add-menu-ordner">
+<img alt="../_images/add-menu-ordner.png" src="../_images/add-menu-ordner.png" />
+<p class="caption">Anlegen eines Ordners</p>
+</div>
+<p>Sie gelangen in das Bearbeitungsformular des neuen Ordners, das
+zwei Felder enthält: Titel und Beschreibung.
+Diese Felder haben bei Ordnern die gleiche Bedeutung wie bei Seiten.</p>
+<ul class="simple">
+<li>Bearbeiten Sie den neu angelegten Ordner. Im Rest dieses Tutoriums
+gehen wir davon aus, dass Sie ihm den Titel »Kochseminar« geben.</li>
+</ul>
+<p>Nach dem Speichern gelangen Sie zur Anzeige des Ordners. Die Statusmeldung
+informiert Sie darüber, dass die Änderungen gespeichert wurden. Die Anzeige
+des Ordners informiert Sie darüber, dass der Ordner noch leer ist.</p>
+</div>
+<div class="section" id="inhalt-eines-ordners">
+<h2>Inhalt eines Ordners<a class="headerlink" href="#inhalt-eines-ordners" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Die Inhaltsansicht eines leeren Ordners unterscheidet sich nicht wesentlich
+von seiner Anzeige (siehe Abbildung <a class="reference internal" href="#fig-folder-empty"><em>Inhaltsansicht eines neu angelegten Ordners</em></a>).</p>
+<div class="figure" id="fig-folder-empty">
+<img alt="../_images/folder-empty.png" src="../_images/folder-empty.png" />
+<p class="caption">Inhaltsansicht eines neu angelegten Ordners</p>
+</div>
+<ul class="simple">
+<li>Rufen Sie die Inhaltsansicht des Ordners »Kochseminar« auf.</li>
+<li>Legen Sie im Ordner »Kochseminar« eine Seite an, wie Sie es im vorigen
+Tutorium gelernt haben.</li>
+<li>Begeben Sie sich wieder zur Inhaltsansicht des Ordners »Kochseminar«.</li>
+</ul>
+<p>Dort hat Plone jetzt eine Tabelle erzeugt, deren bisher einziger Eintrag die
+gerade angelegte Seite ist (siehe Abbildung <a class="reference internal" href="#fig-folder-with-object"><em>Inhaltsansicht eines Ordners mit einem Artikel</em></a>).</p>
+<div class="figure" id="fig-folder-with-object">
+<img alt="../_images/folder-with-object.png" src="../_images/folder-with-object.png" />
+<p class="caption">Inhaltsansicht eines Ordners mit einem Artikel</p>
+</div>
+<ul class="simple">
+<li>Legen Sie weitere Artikel im Ordner »Kochseminar« an. Beobachten Sie
+dabei stets die Ansichten »Inhalte« und »Anzeigen« des Ordners.</li>
+</ul>
+<p>Sowohl in der Inhaltsansicht als auch in der von Plone erzeugten Anzeige des
+Ordners kommen neue Einträge am unteren Ende hinzu. Die bestehenden Einträge
+behalten dabei ihre Reihenfolge bei (siehe
+Abbildung <a class="reference internal" href="#fig-folder-order"><em>Anzeige eines Ordners mit mehreren Artikeln</em></a>).</p>
+<div class="figure" id="fig-folder-order">
+<img alt="../_images/folder-order.png" src="../_images/folder-order.png" />
+<p class="caption">Anzeige eines Ordners mit mehreren Artikeln</p>
+</div>
+<p>Ändern Sie nun die Reihenfolge der Einträge. Die Inhaltsansicht des Ordners
+enthält dazu in der Tabellenspalte »Reihenfolge« für jeden Artikel ein Symbol,
+das aus zwei Doppelpunkten besteht.</p>
+<ul class="simple">
+<li>Wechseln Sie in die Inhaltsansicht des Ordners »Kochseminar«.</li>
+<li>Gehen Sie mit dem Mauszeiger über die Doppelpunkte in der Tabelle. Je
+nach den Einstellungen Ihres Betriebssystems verwandelt sich der Mauspfeil
+dabei möglicherweise so, dass er Anfassen oder Bewegen symbolisiert.</li>
+<li>Greifen Sie nun mit einem Mausklick einen Artikel, und verschieben Sie
+ihn in der Liste bei gedrückter Maustaste nach oben oder unten. Wenn Sie die
+Maustaste loslassen, wird der Artikel an der entsprechenden Stelle
+einsortiert.</li>
+<li>Wechseln Sie zwischendurch in die Anzeige des Ordners, und vergewissern
+Sie sich, dass auch dort die Reihenfolge geändert wurde.</li>
+</ul>
+<p>Falls Javascript an Ihrem Rechner nicht aktiviert ist, erscheinen statt der
+Doppelpunkte in jeder Tabellenzeile Pfeile, mit denen Sie den jeweiligen
+Artikel mit seinem Vorgänger oder Nachfolger vertauschen können.</p>
+</div>
+<div class="section" id="ordneranzeige">
+<h2>Ordneranzeige<a class="headerlink" href="#ordneranzeige" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Plone kennt verschiedene Vorlagen für die Anzeige eines Ordners.</p>
+<ul class="simple">
+<li>Begeben Sie sich zum Ordner »Kochseminar«.</li>
+<li>Öffnen Sie das Menü »Darstellung« und wählen Sie »Tabelle« aus (siehe
+Abbildung <em class="xref">fig_ansicht</em>).</li>
+</ul>
+<p>Die Anzeige des Ordners enthält jetzt anstelle der Liste eine Tabelle
+mit Einträgen für jeden Artikel des Ordners.</p>
+<ul class="simple">
+<li>Probieren Sie nacheinander die anderen Ansichten aus. Die Albenansicht
+kommt nur dann zur Geltung, wenn Sie Bilder im Ordner erstellt haben.</li>
+</ul>
+<p>Plone kann anstelle von Übersichtslisten oder -tabellen auch einen Artikel aus
+dem Ordner als Anzeige verwenden.</p>
+<ul class="simple">
+<li>Öffnen Sie das Darstellungsmenü und wählen Sie den Punkt »Artikel
+aus dem Ordner...«.</li>
+<li>Sie gelangen zu einem Formular, das alle im Ordner befindlichen Artikel
+mit Ausnahme der Unterordner auflistet (siehe
+Abbildung <a class="reference internal" href="#fig-standardseite"><em>Auswahl eines Artikels als Ordneranzeige</em></a>).</li>
+</ul>
+<div class="figure" id="fig-standardseite">
+<img alt="../_images/standardseite.png" src="../_images/standardseite.png" />
+<p class="caption">Auswahl eines Artikels als Ordneranzeige</p>
+</div>
+<ul class="simple">
+<li>Kreuzen Sie den gewünschten Artikel an und speichern Sie das Formular.</li>
+<li>Plone leitet Sie nun zur Anzeige des Ordners »Kochseminar« weiter. Sie
+sehen dort anstelle einer Übersichtsliste oder -tabelle den gewählten
+Artikel.</li>
+<li>Wechseln Sie zur Inhaltsansicht. Sie sehen dort, dass der gewählte
+Artikel durch Fettschrift hervorgehoben ist.</li>
+</ul>
+</div>
+<div class="section" id="artikel-kopieren-und-verschieben">
+<h2>Artikel kopieren und verschieben<a class="headerlink" href="#artikel-kopieren-und-verschieben" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Plone erlaubt Ihnen nicht nur, Inhalte anzulegen und
+zu löschen. Sie können Artikel und Ordner auch von einem Ort in der Website
+an einen anderen verschieben oder kopieren.</p>
+<p>Erzeugen Sie dazu im Ordner »Kochseminar« einen Unterordner und kopieren Sie
+einen Artikel aus dem Ordner »Kochseminar« dort hinein.</p>
+<ul class="simple">
+<li>Legen Sie im Ordner »Kochseminar« einen Ordner an.</li>
+<li>Rufen Sie anschließend im Ordner »Kochseminar« den Artikel auf, den Sie
+kopieren möchten.</li>
+<li>Öffnen Sie das Menü »Aktionen« und wählen Sie den Eintrag »Kopieren«</li>
+</ul>
+<p>aus.
+* Wechseln Sie in den Unterordner.
+* Fügen Sie eine Kopie des ausgewählten Artikels dort ein, indem Sie den</p>
+<blockquote>
+Eintrag »Einfügen« im Aktionsmenü auswählen.</blockquote>
+<p>Die Anzeige des Unterordners enthält nun einen neuen Eintrag. Vergewissern
+Sie sich, dass sich am Inhalt des Ordners »Kochseminar« nichts geändert hat.</p>
+<p>Verschieben Sie als nächstes einen Artikel aus dem Ordner »Kochseminar« in den
+Unterordner. Dabei gehen Sie ähnlich vor wie beim Kopieren.</p>
+<ul class="simple">
+<li>Wechseln Sie in den Ordner »Kochseminar« und rufen Sie den Artikel auf,
+den Sie verschieben möchten.</li>
+<li>Öffnen Sie das Menü »Aktionen« und wählen Sie den Eintrag</li>
+</ul>
+<p>»Ausschneiden« aus.
+* Wechseln Sie in den Unterordner.
+* Fügen Sie den ausgewählten Artikel dort ein, indem Sie den Eintrag</p>
+<blockquote>
+»Einfügen« im Aktionsmenü benutzen.</blockquote>
+<p>Sie werden bemerken, dass der Artikel nicht gleich beim Ausschneiden aus dem
+Ordner »Kochseminar« verschwindet. Erst beim Einfügen wird er an seinem
+Ursprungsort tatsächlich gelöscht. Kontrollieren Sie nach dem Verschieben den
+Inhalt des Ordners »Kochseminar«.</p>
+<p>Sie können Artikel nicht nur einzeln mit Hilfe der Einträge im Aktionsmenü
+kopieren und verschieben. In der Inhaltsansicht eines Ordners können Sie
+mehrere Artikel markieren, um sie gemeinsam zu kopieren oder zu
+verschieben.</p>
+<ul class="simple">
+<li>Wechseln Sie in die Inhaltsansicht des Ordners »Kochseminar«.</li>
+<li>Markieren Sie in der Spalte ganz links einige Artikel, die Sie kopieren
+möchten.</li>
+<li>Betätigen Sie die Schaltfläche »Kopieren« unterhalb der
+Übersichtstabelle. Achten Sie auf die Statusmeldung.</li>
+<li>Wechseln Sie nun in den Unterordner.</li>
+<li>Betätigen Sie die Schaltfläche »Einfügen«. Lesen Sie die Statusmeldung
+und schauen Sie nach, wie sich die Übersichtsliste verändert hat.</li>
+</ul>
+<p>Wenn Sie einen Ordner kopieren oder verschieben, werden alle Artikel, die sich
+in dem Ordner befinden, mit dem Ordner verschoben oder kopiert.</p>
+<ul class="simple">
+<li>Legen Sie im Ordner »Kochseminar« einen weiteren Ordner an.</li>
+<li>Wechseln Sie in die Inhaltsansicht des Ordners »Kochseminar«.</li>
+<li>Markieren Sie den ersten Unterordner zum Kopieren.</li>
+<li>Wechseln Sie in den neuen Unterordner.</li>
+<li>Fügen Sie den markierten Ordner ein.</li>
+</ul>
+<p>Der Unterordner mit seinem gesamten Inhalt befindet sich nun auch in dem
+zweiten Unterordner.</p>
+<ul class="simple">
+<li>Vergewissern Sie sich, dass beide Ordner den gleichen Inhalt besitzen.</li>
+</ul>
+</div>
+<div class="section" id="ordner-l-schen">
+<h2>Ordner löschen<a class="headerlink" href="#ordner-l-schen" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Ordner werden wie alle anderen Artikel mit der Aktion »Löschen« im
+Aktionsmenü gelöscht. Beachten Sie, dass beim Löschen eines Ordners auch die
+darin enthaltenen Artikel gelöscht werden.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="../index.html">Inhalt</a></h3>
+            <ul>
+<li><a class="reference external" href="#">Umgang mit Ordnern</a><ul>
+<li><a class="reference external" href="#ordner-anlegen">Ordner anlegen</a></li>
+<li><a class="reference external" href="#inhalt-eines-ordners">Inhalt eines Ordners</a></li>
+<li><a class="reference external" href="#ordneranzeige">Ordneranzeige</a></li>
+<li><a class="reference external" href="#artikel-kopieren-und-verschieben">Artikel kopieren und verschieben</a></li>
+<li><a class="reference external" href="#ordner-l-schen">Ordner löschen</a></li>
+</ul>
+</li>
+</ul>
+
+            <h3>Diese Seite</h3>
+            <ul class="this-page-menu">
+              <li><a href="../_sources/tutorien/umgang-ordner.txt"
+                     rel="nofollow">Quelltext anzeigen</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Schnellsuche</h3>
+              <form class="search" action="../search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Los" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Geben Sie Suchbegriffe oder einen Modul-, Klassen- oder Funktionsnamen ein.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             >Index</a></li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2010, Jan Ulrich Hasecke, Thomas Lotze.
+      Mit <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.5 erstellt.
+    </div>
+  </body>
+</html>

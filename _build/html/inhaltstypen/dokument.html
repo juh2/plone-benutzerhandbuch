@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Seite &mdash; Plone v4.0 documentation</title>
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '4.0',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <link rel="top" title="Plone v4.0 documentation" href="../index.html" />
+    <link rel="up" title="Artikeltypen" href="inhaltstypen.html" />
+    <link rel="next" title="Nachricht" href="nachricht.html" />
+    <link rel="prev" title="Gemeinsamkeiten" href="gemeinsamkeiten.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             accesskey="I">Index</a></li>
+        <li class="right" >
+          <a href="nachricht.html" title="Nachricht"
+             accesskey="N">weiter</a> |</li>
+        <li class="right" >
+          <a href="gemeinsamkeiten.html" title="Gemeinsamkeiten"
+             accesskey="P">zurück</a> |</li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li>
+          <li><a href="inhaltstypen.html" accesskey="U">Artikeltypen</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="seite">
+<span id="sec-dokument"></span><h1>Seite<a class="headerlink" href="#seite" title="Permalink zu dieser Überschrift">¶</a></h1>
+<p>Eine Seite ist ein Text, dessen Struktur und Darstellung Sie frei bestimmen
+können. Dazu stehen Ihnen unter anderem Überschriften, Textformatierungen,
+Verweise, Bilder und Grafiken zur Verfügung (siehe
+Abbildung <a class="reference internal" href="#fig-dokument"><em>Anzeige einer Seite</em></a>).</p>
+<div class="figure" id="fig-dokument">
+<img alt="../_images/dokument.png" src="../_images/dokument.png" />
+<p class="caption">Anzeige einer Seite</p>
+</div>
+<p>Wenn Sie Ihren Text eingeben, verwenden Sie in der Regel den visuellen Editor
+Kupu (siehe Abschnitt <em class="xref">sec_kupu</em>). Er macht es Ihnen sehr einfach, die
+Struktur Ihres Textes auszuzeichnen, und zeigt den Text bereits so an, wie er
+später in der Seitenanzeige aussehen wird. Daneben bietet Ihnen Kupu die
+wichtigsten Funktionen üblicher Textverarbeitungsprogramme, um Ihren Text zu
+formatieren.</p>
+<p>Falls Sie Kupu nicht benutzen, finden Sie stattdessen ein
+einfaches Formularfeld vor, in das sie unformatierten Text, HTML-Code oder
+Text in einer vereinfachten Textauszeichnungssprache wie Restructured Text,
+Markdown oder Textile eingeben können. Plone verwandelt alle Eingaben in
+gültiges HTML.</p>
+<p>Haben Sie einen Text mit einem Textverarbeitungsprogramm geschrieben und
+wollen ihn in dessen Dateiformat veröffentlichen, sollten Sie dafür den
+Artikeltyp »Datei« benutzen.</p>
+<div class="section" id="pr-sentationsmodus">
+<h2>Präsentationsmodus<a class="headerlink" href="#pr-sentationsmodus" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Wenn Sie eine Seite bearbeiten, können Sie im Teilformular »Einstellungen«
+den Präsentationsmodus aktivieren. Dann erscheint in der Anzeige der Seite
+ein Verweis unterhalb der Überschrift: »Als Präsentation darstellen...«. Im
+Präsentationsmodus wird der Inhalt der Seite auf mehrere nacheinander
+anzuzeigende Bildschirmseiten verteilt, die sich gestalterisch
+beispielsweise für die Projektion in einem Vortragsraum eignen (siehe
+Abbildung <em class="xref">fig_seite-praesentationsmodus</em>).</p>
+<div class="figure" id="fig-seite-praesentationsmodus">
+<img alt="../_images/praesentationsmodus.png" src="../_images/praesentationsmodus.png" />
+</div>
+<p>Eine Seite im Präsentationsmodus</p>
+<p>Beachten Sie, dass auf den Präsentationsseiten lediglich Überschriften und
+Listen erscheinen; Fließtext wird ausgeblendet.</p>
+<p>Technisch ist die Präsentation nichts anderes als die Anzeigeansicht mit
+Darstellungsanweisungen, denen das S5-System zugrunde liegt. Mehr über S5
+erfahren Sie unter url{<a class="reference external" href="http://yatil.de/s5/">http://yatil.de/s5/</a>} oder
+url{<a class="reference external" href="http://meyerweb.com/eric/tools/s5/">http://meyerweb.com/eric/tools/s5/</a>}.</p>
+</div>
+<div class="section" id="inhaltsverzeichnis">
+<h2>Inhaltsverzeichnis<a class="headerlink" href="#inhaltsverzeichnis" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Bei längeren Texten mit vielen Zwischenüberschriften kann Plone an den
+Anfang der Seite ein Inhaltsverzeichnis mit Verweisen zu den einzelnen
+Abschnitten setzen (siehe Abbildung <a class="reference internal" href="#fig-seite-inhaltsverzeichnis"><em>Automatisch erzeugtes Inhaltsverzeichnis</em></a>).</p>
+<div class="figure" id="fig-seite-inhaltsverzeichnis">
+<img alt="../_images/seite-inhaltsverzeichnis.png" src="../_images/seite-inhaltsverzeichnis.png" />
+<p class="caption">Automatisch erzeugtes Inhaltsverzeichnis</p>
+</div>
+<p>Sie müssen das Inhaltsverzeichnis in den Einstellungen der Seite aktivieren.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="../index.html">Inhalt</a></h3>
+            <ul>
+<li><a class="reference external" href="#">Seite</a><ul>
+<li><a class="reference external" href="#pr-sentationsmodus">Präsentationsmodus</a></li>
+<li><a class="reference external" href="#inhaltsverzeichnis">Inhaltsverzeichnis</a></li>
+</ul>
+</li>
+</ul>
+
+            <h4>Vorheriges Thema</h4>
+            <p class="topless"><a href="gemeinsamkeiten.html"
+                                  title="vorheriges Kapitel">Gemeinsamkeiten</a></p>
+            <h4>Nächstes Thema</h4>
+            <p class="topless"><a href="nachricht.html"
+                                  title="nächstes Kapitel">Nachricht</a></p>
+            <h3>Diese Seite</h3>
+            <ul class="this-page-menu">
+              <li><a href="../_sources/inhaltstypen/dokument.txt"
+                     rel="nofollow">Quelltext anzeigen</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Schnellsuche</h3>
+              <form class="search" action="../search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Los" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Geben Sie Suchbegriffe oder einen Modul-, Klassen- oder Funktionsnamen ein.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             >Index</a></li>
+        <li class="right" >
+          <a href="nachricht.html" title="Nachricht"
+             >weiter</a> |</li>
+        <li class="right" >
+          <a href="gemeinsamkeiten.html" title="Gemeinsamkeiten"
+             >zurück</a> |</li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li>
+          <li><a href="inhaltstypen.html" >Artikeltypen</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2010, Jan Ulrich Hasecke, Thomas Lotze.
+      Mit <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.5 erstellt.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Termin &mdash; Plone v4.0 documentation</title>
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '4.0',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <link rel="top" title="Plone v4.0 documentation" href="../index.html" />
+    <link rel="up" title="Artikeltypen" href="inhaltstypen.html" />
+    <link rel="prev" title="Nachricht" href="nachricht.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             accesskey="I">Index</a></li>
+        <li class="right" >
+          <a href="nachricht.html" title="Nachricht"
+             accesskey="P">zurück</a> |</li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li>
+          <li><a href="inhaltstypen.html" accesskey="U">Artikeltypen</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="termin">
+<span id="sec-termin"></span><h1>Termin<a class="headerlink" href="#termin" title="Permalink zu dieser Überschrift">¶</a></h1>
+<p>Artikel vom Typ Termin kündigen zeitlich festgelegte Ereignisse an,
+beispielsweise Veranstaltungen. Eine solche Ankündigung enthält für Termine
+typische Informationen wie Anfang und Ende des Ereignisses, einen Ort und
+einen Ansprechpartner. Diese Termininformationen haben eigene Eingabefelder im
+Bearbeitungsformular und werden strukturiert gespeichert, damit Plone sie
+direkt benutzen kann.</p>
+<p>Wie die Seite verfügt auch der Termin über Felder für Titel, Beschreibung und
+Haupttext. Letzterer wird im Termin jedoch als Terminankündigung bezeichnet.
+Dort haben Sie die Möglichkeit, mit dem Texteditor Kupu einen formatierten Text
+mit Zwischenüberschriften, Bildern, Tabellen und anderen Elementen einzugeben.</p>
+<div class="figure" id="fig-termin">
+<img alt="../_images/termin.png" src="../_images/termin.png" />
+<p class="caption">Anzeige eines Termins</p>
+</div>
+<p>Zu den strukturierten Angaben eines Termins mit eigenen Eingabefeldern in der
+Bearbeitungsansicht gehören:</p>
+<p>Terminort (Wo)</p>
+<blockquote>
+Ort des Ereignisses, Treffpunkt</blockquote>
+<p>Terminanfang, Terminende (Wann)</p>
+<blockquote>
+Zeitraum, in dem das Ereignis stattfindet</blockquote>
+<p>Terminankündigung</p>
+<blockquote>
+Ankündigung einer Veranstaltung, Einladung zu einem Treffen</blockquote>
+<p>Teilnehmer</p>
+<blockquote>
+Liste der erwarteten Teilnehmer</blockquote>
+<p>Terminart (Was)</p>
+<blockquote>
+Wählen Sie eine oder mehrere Kategorien aus, oder legen
+Sie neue an.</blockquote>
+<p>URL</p>
+<blockquote>
+Internetadresse mit weiteren Informationen</blockquote>
+<p>Kontaktname</p>
+<blockquote>
+Name des Ansprechpartners bei Fragen zum Ereignis</blockquote>
+<p>Kontaktadresse</p>
+<blockquote>
+E-Mail-Adresse des Ansprechpartners</blockquote>
+<p>Kontakttelefon</p>
+<blockquote>
+Rufnummer des Ansprechpartners</blockquote>
+<p>Dabei sind nur Terminanfang und Terminende Pflichtfelder.</p>
+<p>Plone wertet die zusätzlichen Felder gezielt aus, um eine einfache
+Terminverwaltung anbieten zu können:</p>
+<ul>
+<li><p class="first">Strukturierte Angaben werden in der Anzeige jedes Termins in einer
+Tabelle dargestellt (siehe Abbildung <a class="reference internal" href="#fig-termin"><em>Anzeige eines Termins</em></a>).</p>
+</li>
+<li><p class="first">Über den Eintrag »Termine« in der Hauptnavigation erreichen Sie eine
+Übersicht künftiger und vergangener Termine.</p>
+</li>
+<li><p class="first">Das Terminportlet (siehe Abbildung <a class="reference internal" href="#fig-portlet-events"><em>Terminportlet</em></a>)
+unterrichtet Sie über die jeweils fünf nächsten Termine. Zu
+jedem Termin sehen Sie Titel, Ort und Anfangsdatum. Wenn Sie den Mauszeiger
+über den Titel halten, wird der Anfang des Beschreibungstextes angezeigt.</p>
+</li>
+<li><p class="first">Plone trägt Termine ins Kalenderportlet ein (siehe
+Abbildung <a class="reference internal" href="#fig-portlet-calendar"><em>Kalenderportlet</em></a>).
+Der Titel des Portlets gibt an, welcher Monat gerade angezeigt wird. Er
+enthält außerdem Verweise auf den jeweils vorherigen und nächsten Monat;
+zunächst zeigt der Kalender den aktuellen Monat an. Der aktuelle Tag ist mit
+einem orangefarbenen Rahmen markiert.</p>
+<p>Ist für einen Tag mindestens ein Termin bekannt, so wird er im Kalender
+hervorgehoben und dient als Verweis zu einer Liste aller Termine des
+betreffenden Tages. Wenn Sie den Mauszeiger über einen solchen Tag halten,
+sehen Sie seine Termine mit Anfangszeit, Endzeit und Titel.</p>
+</li>
+<li><p class="first">In der Anzeige und bei den Artikelaktionen eines Termins können Sie
+Kalenderdateien im iCal- und vCal-Format (iCalendar/vCalendar)
+herunterladen, um den Termin in das Kalenderprogramm auf Ihrem lokalen
+Rechner zu übernehmen.</p>
+</li>
+</ul>
+<div class="figure" id="fig-portlet-events">
+<img alt="../_images/portlet-events.png" src="../_images/portlet-events.png" />
+<p class="caption">Terminportlet</p>
+</div>
+<div class="figure" id="fig-portlet-calendar">
+<img alt="../_images/portlet-calendar.png" src="../_images/portlet-calendar.png" />
+<p class="caption">Kalenderportlet</p>
+</div>
+<p>Die Terminübersicht und das Kalenderportlet berücksichtigen per Voreinstellung
+nur Termine im Revisionsstatus »veröffentlicht«.</p>
+<p>Vergessen Sie bei der Eingabe der Adresse für weitere Informationen zum Termin
+nicht, dass eine Webadresse mit <tt class="docutils literal"><span class="pre">http://</span></tt> beginnen muss. Wenn Sie
+diesen Teil der Adresse weglassen, erhalten Sie eine Fehlermeldung. Plone
+speichert nur Adressen mit vollständigem URL-Schema, beispielsweise
+<tt class="docutils literal"><span class="pre">http</span></tt>, <tt class="docutils literal"><span class="pre">https</span></tt> oder <tt class="docutils literal"><span class="pre">ftp</span></tt>.</p>
+<p>Plone achtet darauf, dass Ihre Datumsangaben für Anfang und Ende des Termins
+gültig sind und der Anfangszeitpunkt nicht nach dem Ende liegt.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h4>Vorheriges Thema</h4>
+            <p class="topless"><a href="nachricht.html"
+                                  title="vorheriges Kapitel">Nachricht</a></p>
+            <h3>Diese Seite</h3>
+            <ul class="this-page-menu">
+              <li><a href="../_sources/inhaltstypen/termin.txt"
+                     rel="nofollow">Quelltext anzeigen</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Schnellsuche</h3>
+              <form class="search" action="../search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Los" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Geben Sie Suchbegriffe oder einen Modul-, Klassen- oder Funktionsnamen ein.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             >Index</a></li>
+        <li class="right" >
+          <a href="nachricht.html" title="Nachricht"
+             >zurück</a> |</li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li>
+          <li><a href="inhaltstypen.html" >Artikeltypen</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2010, Jan Ulrich Hasecke, Thomas Lotze.
+      Mit <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.5 erstellt.
+    </div>
+  </body>
+</html>

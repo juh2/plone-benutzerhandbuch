@@ -1,0 +1,398 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Navigation &mdash; Plone v4.0 documentation</title>
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '4.0',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <link rel="top" title="Plone v4.0 documentation" href="../index.html" />
+    <link rel="up" title="Benutzungsoberfläche" href="oberflaeche.html" />
+    <link rel="prev" title="Artikelansichten" href="ansichten.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             accesskey="I">Index</a></li>
+        <li class="right" >
+          <a href="ansichten.html" title="Artikelansichten"
+             accesskey="P">zurück</a> |</li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li>
+          <li><a href="oberflaeche.html" accesskey="U">Benutzungsoberfläche</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="navigation">
+<span id="sec-navigation"></span><h1>Navigation<a class="headerlink" href="#navigation" title="Permalink zu dieser Überschrift">¶</a></h1>
+<p>Es gibt verschiedene Möglichkeiten, sich gezielt durch eine Plone-Website zu
+bewegen:</p>
+<ul class="simple">
+<li>Orientierung an der Ordnerhierarchie: Hauptnavigation und
+Navigationsportlet, Übersicht und Verzeichnispfad</li>
+<li>Lesezeichen: Portlet und Lesezeichenordner</li>
+<li>Suche: Sofortsuche und erweiterte Suche</li>
+</ul>
+<div class="section" id="ordnerhierarchie">
+<h2>Ordnerhierarchie<a class="headerlink" href="#ordnerhierarchie" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Es gibt vier Elemente auf fast jeder Seite einer Plone-Website, mit deren
+Hilfe Sie sich durch ihre Ordnerhierarchie bewegen können: die
+Hauptnavigation, das Navigationsportlet, die Übersicht und den
+Verzeichnispfad. Diese Elemente ergänzen einander. Hauptnavigation,
+Navigationsportlet und Übersicht geben einen Überblick über den
+Inhalt der Website, wobei der Schwerpunkt beim Portlet auf dem gerade
+besuchten Teil liegt. Der Verzeichnispfad teilt Ihnen mit, an welcher Stelle
+in der Ordnerhierarchie der Website Sie sich befinden.</p>
+<div class="section" id="hauptnavigation">
+<h3>Hauptnavigation<a class="headerlink" href="#hauptnavigation" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Die Hauptnavigation ist auf jeder Seite der Website verfügbar. Sie befindet
+sich im Seitenkopf (siehe Abbildung <a class="reference internal" href="#fig-globale-reiter"><em>Hauptnavigation und Verzeichnispfad</em></a>) und
+enthält Verweise auf wichtige Stellen der Website.</p>
+<div class="figure" id="fig-globale-reiter">
+<img alt="../_images/globale-reiter.png" src="../_images/globale-reiter.png" />
+<p class="caption">Hauptnavigation und Verzeichnispfad</p>
+</div>
+<p>Plone bringt einige dieser Verweise bereits mit (siehe
+Tabelle <em class="xref">tab_globale-reiter</em>).</p>
+<p>Vorgegebene Einträge in der Hauptnavigation</p>
+<table border="1" class="docutils" id="tab-globale-reiter">
+<colgroup>
+<col width="19%" />
+<col width="40%" />
+<col width="41%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Titel</th>
+<th class="head">Ziel</th>
+<th class="head">siehe Seite</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>Startseite</td>
+<td>Anzeige des Wurzelordners</td>
+<td>&nbsp;</td>
+</tr>
+<tr><td>Benutzer</td>
+<td>Benutzersuche</td>
+<td><a class="reference external" href="../benutzer/mitglieder.html#sec-mitgliedersuche"><em>Benutzersuche</em></a></td>
+</tr>
+<tr><td>Nachrichten</td>
+<td>Nachrichtenüberblick</td>
+<td><a class="reference external" href="../inhaltstypen/nachricht.html#sec-nachricht"><em>Nachricht</em></a></td>
+</tr>
+<tr><td>Termine</td>
+<td>Terminübersicht</td>
+<td><a class="reference external" href="../inhaltstypen/termin.html#sec-termin"><em>Termin</em></a></td>
+</tr>
+<tr><td>Groups</td>
+<td>Gruppenarbeitsplätze</td>
+<td><a class="reference external" href="../benutzer/gruppen.html#sec-gruppen"><em>Gruppen</em></a></td>
+</tr>
+</tbody>
+</table>
+<p>Der Reiter für die Gruppenarbeitsplätze wird nur angezeigt, falls Ihre
+Website Gruppenarbeitsplätze benutzt.</p>
+<p>Zusätzlich zu den genannten Reitern erzeugt Plone in der
+Grundeinstellung weitere Reiter für alle Ordner, die sich direkt im
+Wurzelordner Ihrer Website befinden. Falls die Website entsprechend
+konfiguriert ist, nimmt Plone auf diese Weise nicht nur Ordner,
+sondern alle Artikel aus dem Wurzelordner, die Sie einsehen dürfen, in
+die Hauptnavigation auf. Der Reiter für einen solchen Artikel ist dann
+mit dem Titel des Artikels beschriftet.</p>
+</div>
+<div class="section" id="navigationsportlet">
+<span id="sec-navigation-portlet"></span><h3>Navigationsportlet<a class="headerlink" href="#navigationsportlet" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Das Navigationsportlet (siehe Abbildung <a class="reference internal" href="#fig-portlet-navigation"><em>Navigationsportlet</em></a>)
+zeigt einen Teil der Website als Ordnerbaum an. Dabei werden wiederum nur
+solche Ordner und Artikel aufgeführt, die Sie auch einsehen dürfen. Viele
+Eigenschaften des Navigationsportlets hängen von der Konfiguration Ihrer
+Website ab. Per Voreinstellung wird das Portlet auf der Startseite nicht
+angezeigt, sondern erscheint erst in den einzelnen Ordnern Ihrer
+Website.</p>
+<div class="figure" id="fig-portlet-navigation">
+<img alt="../_images/portlet-navigation.png" src="../_images/portlet-navigation.png" />
+<p class="caption">Navigationsportlet</p>
+</div>
+<div class="figure" id="fig-sitemap">
+<img alt="../_images/sitemap.png" src="../_images/sitemap.png" />
+<p class="caption">Übersicht</p>
+</div>
+<p>Da die Ordnerhierarchie einer großen Website sehr umfangreich und
+unübersichtlich werden kann, wird nie der gesamte Baum gleichzeitig
+dargestellt. Das Navigationsportlet zeigt stets nur den Teil Ihrer
+Website an, der sich innerhalb eines Ordners befindet und den gerade
+besuchten Artikel enthält.</p>
+<p>Per Voreinstellung beginnt die Anzeige immer mit einem Ordner, der
+selbst direkt im Wurzelordner der Website liegt. Damit bildet das
+Navigationsportlet gerade ein Gegenstück zur Hauptnavigation. Ob der
+betreffende Ordner selbst als oberster Eintrag im Navigationsportlet
+auftaucht, hängt ebenfalls von der Konfiguration ab.</p>
+<p>Der Eintrag für den gerade besuchten Artikel wird blau
+hinterlegt. Jeder Eintrag im Navigationsportlet ist ein Verweis zu
+einem Ordner oder einem anderen Artikel.</p>
+<p>Da das Navigationsportlet wie alle Portlets für jeden Ordner, ja sogar
+für einzelne Artikel, individuell konfiguriert werden kann, ist es
+möglich, dass es sich nicht auf jeder Seite gleichartig verhält.</p>
+</div>
+<div class="section" id="bersicht">
+<span id="sec-sitemap"></span><h3>Übersicht<a class="headerlink" href="#bersicht" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Unter den Verweisen im Kopf jeder Seite finden Sie die Übersicht.  Die
+Übersicht oder »Sitemap« ist eine Baumdarstellung aller Artikel der
+Website, die mit dem Wurzelordner beginnt und bis zu einer bestimmten
+Tiefe der Ordnerhierarchie reicht. Per Voreinstellung werden Ordner
+bis zur dritten Ebene mit allen enthaltenen Artikeln erfasst (siehe
+Abbildung <a class="reference internal" href="#fig-sitemap"><em>Übersicht</em></a>). Ein weiteres Mal werden hier nur
+Artikel berücksichtigt, die Sie auch betrachten dürfen. Jeder Eintrag
+in der Übersicht ist ein Verweis zur Anzeige des jeweiligen Artikels.</p>
+</div>
+<div class="section" id="verzeichnispfad">
+<h3>Verzeichnispfad<a class="headerlink" href="#verzeichnispfad" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Sie können den Verzeichnispfad, englisch »breadcrumb menu«, als eine
+Art Brotkrumenspur verstehen, die den Wurzelordner Ihrer Website durch
+die Ordnerhierarchie hindurch mit Ihrem aktuellen Standpunkt
+verbindet. Das erste Element des Pfads ist der Wurzelordner der
+Website (siehe Abbildung <em class="xref">fig_verzeichnispfad</em>). Danach folgen
+alle Unterordner, in die Sie nacheinander wechseln müssen, um vom
+Wurzelordner zum gerade angezeigten Artikel zu gelangen. Der aktuelle
+Artikel bildet den letzten Teil des Pfads. Alle Elemente des
+Verzeichnispfads sind Verweise zu den jeweiligen Orten auf der
+Website.</p>
+</div>
+</div>
+<div class="section" id="lesezeichen">
+<span id="sec-navigation-lesezeichen"></span><h2>Lesezeichen<a class="headerlink" href="#lesezeichen" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Neben den Navigationsfunktionen, die sich an der Ordnerstruktur der Website
+orientieren, können Sie eine Reihe von Lesezeichen auf einzelne Artikel
+setzen. Das ist dann sinnvoll, wenn Sie bestimmte Artikel oft benötigen und
+sie nicht immer wieder aus der Ordnerhierarchie heraussuchen wollen. Die
+Lesezeichenfunktion muss auf Ihrer Website eingeschaltet worden sein.</p>
+<p>Lesezeichen sind eine spezielle Art von Link-Artikeln (siehe
+Abschnitt <a class="reference external" href="../inhaltstypen/link.html#sec-link"><em>Link und Lesezeichen</em></a>). Sie werden angelegt, wenn Sie auf einer Seite
+Ihrer Website die Artikelaktion »Lesezeichen setzen« benutzen (siehe
+Abbildung <a class="reference internal" href="#fig-lesezeichen-setzen"><em>Die Artikelaktion »Lesezeichen setzen«</em></a>).</p>
+<div class="figure" id="fig-lesezeichen-setzen">
+<img alt="../_images/lesezeichen-setzen.png" src="../_images/lesezeichen-setzen.png" />
+<p class="caption">Die Artikelaktion »Lesezeichen setzen«</p>
+</div>
+<p>Das Lesezeichenportlet zeigt eine Liste von direkten Verweisen zu den
+Artikeln an, auf die Sie Lesezeichen gesetzt haben (siehe Abbildung
+<a class="reference internal" href="#fig-portlet-favorites"><em>Lesezeichenportlet</em></a>).</p>
+<div class="figure" id="fig-portlet-favorites">
+<img alt="../_images/portlet-favorites.png" src="../_images/portlet-favorites.png" />
+<p class="caption">Lesezeichenportlet</p>
+</div>
+<p>Sie können das Portlet auf Ihrer persönlichen Seite anlegen. Je nach
+Konfiguration kann es sich auf Ihrer Website auch in einer der
+Seitenspalten befinden.</p>
+<p>Ihre Lesezeichen werden im Unterordner »Favorites« in Ihrem persönlichen
+Ordner gespeichert. Dort können Sie sie mit den gleichen Mitteln bearbeiten
+und verwalten wie andere Link-Artikel. Der einzige Unterschied zwischen
+Lesezeichen und anderen Links besteht darin, dass Lesezeichen nicht die
+Internetadresse des Artikels, sondern seinen Pfad innerhalb der Website
+speichern.</p>
+<p>Das Lesezeichenportlet endet mit einem Verweis »Mehr...«, der Sie zu Ihrem
+Lesezeichenordner führt. Sie gelangen dorthin auch über den Verweis »Meine
+Lesezeichen« im Benutzermenü, falls er auf Ihrer Website eingeschaltet ist.</p>
+</div>
+<div class="section" id="suche">
+<span id="sec-suche"></span><h2>Suche<a class="headerlink" href="#suche" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Sie können den Inhalt einer Plone-Website durchsuchen. So finden Sie
+beispielsweise alle Artikel, die ein bestimmtes Wort enthalten. Plone
+stellt Ihnen sowohl ein einfaches Suchfeld als auch eine erweiterte
+Suche zur Verfügung. Sie finden immer nur solche Artikel, die Sie auch
+einsehen dürfen.</p>
+<p>Die Liste der Suchergebnisse enthält für jeden Treffer den Titel und
+die Beschreibung, eine Prozentangabe zur Relevanz, den Ersteller, das
+Datum der letzten Änderung und die Kategorien.  Ein Symbol links vom
+Titel zeigt Ihnen den Artikeltyp an. Der Titel ist ein Verweis zum
+jeweiligen Artikel. Listen mit mehr als 30~Treffern werden auf mehrere
+Seiten verteilt, wobei Sie jeweils am Ende der Seiten Verweise zu den
+anderen Teillisten finden.</p>
+<div class="section" id="suchfeld">
+<h3>Suchfeld<a class="headerlink" href="#suchfeld" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>In das Suchfeld im Kopf jeder Plone-Seite können Sie einen oder mehrere
+Suchbegriffe eingeben. Bereits während der Eingabe zeigt Plone in der Sofortsuche
+Treffer an (siehe Abbildung <a class="reference internal" href="#fig-sofortsuche"><em>Sofortsuche</em></a>).</p>
+<div class="figure" id="fig-sofortsuche">
+<img alt="../_images/sofortsuche.png" src="../_images/sofortsuche.png" />
+<p class="caption">Sofortsuche</p>
+</div>
+<p>Sie können sich sowohl mit den Pfeiltasten durch die Liste bewegen und
+mit der Eingabetaste ein Ergebnis auswählen, als auch die Maus dafür
+benutzen. Wenn Sie Javascript ausgeschaltet haben, steht Ihnen die
+Sofortsuche nicht zur Verfügung.</p>
+<p>Mit der Schaltfläche »Suche« führen Sie eine Volltextsuche in Titel,
+Beschreibung und Inhalt aller Artikel der Website durch. Wenn Sie nur
+in dem Ordner suchen wollen, in dem Sie sich gerade befinden,
+markieren Sie direkt unterhalb des Suchfeldes die Option »nur im
+aktuellen Bereich«.</p>
+</div>
+<div class="section" id="komplexe-suchen-und-stoppw-rter">
+<h3>Komplexe Suchen und Stoppwörter<a class="headerlink" href="#komplexe-suchen-und-stoppw-rter" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Wenn Sie bei einer Suche mehrere Suchbegriffe eingeben, findet Plone
+Artikel, die jeden der Begriffe enthalten. Dabei können die Begriffe
+an beliebigen Stellen im Text stehen. Um nach einer Wortgruppe zu
+suchen, die als Ganzes im Artikeltext vorkommt, schreiben Sie sie in
+Anführungszeichen.</p>
+<p>Sie können auch nach Artikeln suchen, die mindestens eines von
+mehreren Suchwörtern enthalten, indem Sie die Suchwörter mit <tt class="docutils literal"><span class="pre">OR</span></tt>
+(»oder«) verknüpfen. Dadurch werden in der Regel mehr Artikel gefunden
+als bei einer Suche nach Artikeln mit allen Suchwörtern. Neben <tt class="docutils literal"><span class="pre">OR</span></tt>
+gibt es auch die Verknüpfungsoperation <tt class="docutils literal"><span class="pre">AND</span></tt> (»und«), die
+gleichbedeutend damit ist, mehrere Wörter einfach hintereinander zu
+schreiben.</p>
+<p>Sie können beide Arten der Verknüpfung von Suchbegriffen mischen. Wenn
+Sie beispielsweise nach einem Seminar oder einem Workshop für
+Textverarbeitung suchen, können Sie die Suche »Textverarbeitung AND
+(Seminar OR Workshop)« eingeben. In diesem Beispiel findet Plone
+Artikel, in denen sowohl das Wort »Textverarbeitung« als auch
+wenigstens einer der Begriffe »Seminar« und »Workshop« vorkommt.</p>
+<p>Stoppwörter, also häufig benutzte Wörter wie »der«, »die«, »das«,
+werden von Plone bei einer Suchanfrage ignoriert.</p>
+<p>Komplexe Suchen mit Verknüpfungen oder Wortgruppen sowie die Filterung
+von Stoppwörtern stehen in der Sofortsuche nicht zur Verfügung. Wenn
+Sie diese Funktionen benutzen wollen, müssen Sie eine reguläre
+Suchanfrage über die Schaltfläche »Suche« durchführen oder die
+erweiterte Suche benutzen.</p>
+</div>
+<div class="section" id="erweiterte-suche">
+<h3>Erweiterte Suche<a class="headerlink" href="#erweiterte-suche" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>In der Ergebnisliste des Suchfelds finden Sie einen Verweis zum
+Formular für die erweiterte Suche. Damit können Sie Ihre Suche
+verfeinern, indem Sie beispielsweise die zu durchsuchenden
+Artikeleigenschaften einschränken oder andere Suchkriterien als die
+Volltextsuche auswählen:</p>
+<ul class="simple">
+<li>Volltextsuche in Titel, Beschreibung und Inhalt</li>
+<li>Volltextsuche im Titel</li>
+<li>Suche nach Kategorien</li>
+<li>Volltextsuche in der Beschreibung</li>
+<li>Suche nach neuen Artikeln</li>
+<li>Suche nach bestimmten Artikeltypen</li>
+<li>Suche nach Artikeln von bestimmten Autoren</li>
+<li>Suche nach Revisionsstatus (nur für Redakteure zugänglich)</li>
+</ul>
+<p>Für eine Volltextsuche geben Sie einen oder mehrere Suchbegriffe ein,
+die Sie verknüpfen oder zu Wortgruppen zusammenfassen können. Für die
+anderen Suchkriterien bietet Ihnen Plone eine Reihe von Werten an, aus
+denen Sie einen oder mehrere auswählen können.</p>
+<p>Die Ergebnisse einer erweiterten Suche müssen alle angegebenen
+Kriterien gleichzeitig erfüllen. Irrelevante Angaben schränken daher
+die Suche unnötig ein. Mit folgenden Werten und Eingaben stellen Sie
+sicher, dass die Suchergebnisse nicht eingeschränkt werden: %</p>
+<ul class="simple">
+<li>für ein Textfeld: keine Eingabe</li>
+<li>für die Stichwortsuche: keine Auswahl</li>
+<li>für Artikeltyp und Revisionsstatus: jeden Wert erlauben</li>
+<li>für die Altersgrenze für neue Artikel: »immer«</li>
+<li>für den Autor: »jeder Autor«</li>
+</ul>
+</div>
+<div class="section" id="suchportlet">
+<span id="sec-suchportlet"></span><h3>Suchportlet<a class="headerlink" href="#suchportlet" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Ihre Website kann so konfiguriert sein, dass das Suchfeld in einem eigenen
+Portlet erscheint (siehe Abbildung <a class="reference internal" href="#fig-portlet-suche"><em>Suchportlet</em></a>).</p>
+<div class="figure" id="fig-portlet-suche">
+<img alt="../_images/portlet-suche.png" src="../_images/portlet-suche.png" />
+<p class="caption">Suchportlet</p>
+</div>
+<p>Das Suchportlet funktioniert genauso wie das Suchfeld im
+Seitenkopf. Sie können allerdings die Suchergebnisse nicht auf den
+Bereich eingrenzen, in dem Sie sich gerade befinden.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="../index.html">Inhalt</a></h3>
+            <ul>
+<li><a class="reference external" href="#">Navigation</a><ul>
+<li><a class="reference external" href="#ordnerhierarchie">Ordnerhierarchie</a><ul>
+<li><a class="reference external" href="#hauptnavigation">Hauptnavigation</a></li>
+<li><a class="reference external" href="#navigationsportlet">Navigationsportlet</a></li>
+<li><a class="reference external" href="#bersicht">Übersicht</a></li>
+<li><a class="reference external" href="#verzeichnispfad">Verzeichnispfad</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="#lesezeichen">Lesezeichen</a></li>
+<li><a class="reference external" href="#suche">Suche</a><ul>
+<li><a class="reference external" href="#suchfeld">Suchfeld</a></li>
+<li><a class="reference external" href="#komplexe-suchen-und-stoppw-rter">Komplexe Suchen und Stoppwörter</a></li>
+<li><a class="reference external" href="#erweiterte-suche">Erweiterte Suche</a></li>
+<li><a class="reference external" href="#suchportlet">Suchportlet</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            <h4>Vorheriges Thema</h4>
+            <p class="topless"><a href="ansichten.html"
+                                  title="vorheriges Kapitel">Artikelansichten</a></p>
+            <h3>Diese Seite</h3>
+            <ul class="this-page-menu">
+              <li><a href="../_sources/oberflaeche/navigation.txt"
+                     rel="nofollow">Quelltext anzeigen</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Schnellsuche</h3>
+              <form class="search" action="../search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Los" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Geben Sie Suchbegriffe oder einen Modul-, Klassen- oder Funktionsnamen ein.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             >Index</a></li>
+        <li class="right" >
+          <a href="ansichten.html" title="Artikelansichten"
+             >zurück</a> |</li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li>
+          <li><a href="oberflaeche.html" >Benutzungsoberfläche</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2010, Jan Ulrich Hasecke, Thomas Lotze.
+      Mit <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.5 erstellt.
+    </div>
+  </body>
+</html>

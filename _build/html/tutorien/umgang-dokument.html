@@ -1,0 +1,382 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Umgang mit Seiten &mdash; Plone v4.0 documentation</title>
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '4.0',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <link rel="top" title="Plone v4.0 documentation" href="../index.html" />
+    <link rel="up" title="Arbeiten mit Plone" href="tutorien.html" />
+    <link rel="prev" title="Rundgang" href="rundgang.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             accesskey="I">Index</a></li>
+        <li class="right" >
+          <a href="rundgang.html" title="Rundgang"
+             accesskey="P">zurück</a> |</li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li>
+          <li><a href="tutorien.html" accesskey="U">Arbeiten mit Plone</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="umgang-mit-seiten">
+<span id="sec-tutorium-dokumente"></span><h1>Umgang mit Seiten<a class="headerlink" href="#umgang-mit-seiten" title="Permalink zu dieser Überschrift">¶</a></h1>
+<p>In diesem Tutorium lernen Sie, wie Sie eine Seite auf der Website anlegen,
+bearbeiten und löschen.</p>
+<div class="section" id="seite-anlegen">
+<h2>Seite anlegen<a class="headerlink" href="#seite-anlegen" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Wir gehen im folgenden davon aus, dass Ihr Administrator in der Website einen
+Ordner mit dem Namen »Veranstaltungen« eingerichtet hat. Diesen Ordner sollten
+Sie nutzen, wenn Sie die nachfolgenden Tutorien durcharbeiten. Sie erreichen
+ihn über einen Eintrag in der Hauptnavigation.</p>
+<ul class="simple">
+<li>Begeben Sie sich in den Ordner »Veranstaltungen«, indem Sie dem Verweis
+»Veranstaltungen« in der Hauptnavigation folgen.</li>
+</ul>
+<p>Sie werden bemerken, dass die Anzeigeansicht des Ordners mit einem grünen
+Rahmen versehen ist, auf dem sich Reiter und Ausklappmenüs befinden. Über
+die Reiter gelangen Sie zum Beispiel zur Bearbeitungsansicht des
+Ordners. Unterhalb der Reiter für die Artikelansichten befindet sich das Menü
+»Hinzufügen« (siehe Abbildung <em class="xref">fig_add-menu-seite</em>).</p>
+<ul class="simple">
+<li>Klappen Sie das Menü »Hinzufügen« auf und wählen Sie »Seite« aus.</li>
+</ul>
+<p>Sie sehen nun ein Bearbeitungsformular für eine neue Seite (siehe
+Abbildung <a class="reference internal" href="#fig-homepage-edit-1"><em>Bearbeitungsformular einer Seite</em></a>).</p>
+<div class="figure" id="fig-homepage-edit-1">
+<img alt="../_images/homepage-edit-1.png" src="../_images/homepage-edit-1.png" />
+<p class="caption">Bearbeitungsformular einer Seite</p>
+</div>
+<p>Falls Sie Javascript ausgeschaltet haben, gelangen Sie zunächst zu einer
+Seite, auf der Sie auswählen können, welchen Artikeltyp Sie hinzufügen
+möchten (siehe Abbildung <em class="xref">fig_hinzufuegen-form</em>). Markieren Sie den Typ
+»Seite« und betätigen Sie die Schaltfläche »Hinzufügen«.</p>
+</div>
+<div class="section" id="seite-bearbeiten">
+<h2>Seite bearbeiten<a class="headerlink" href="#seite-bearbeiten" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Das Bearbeitungsformular ist in fünf Teile untergliedert:</p>
+<ul class="simple">
+<li>Standard</li>
+<li>Kategorisierung</li>
+<li>Datum</li>
+<li>Urheber</li>
+<li>Einstellungen</li>
+</ul>
+<p>Zunächst ist das Teilformular »Standard« geöffnet. Die übrigen Teilformulare
+erreichen Sie über die Navigation direkt unterhalb der Überschrift »Seite
+hinzufügen«.</p>
+<p>Falls Sie in Ihrem Webbrowser Javascript ausgeschaltet haben, zeigt Ihnen die
+Bearbeitungsansicht alle fünf Teilformulare untereinander an. Der vollständige
+Funktionsumfang aller Teilformulare wird in Abschnitt <em class="xref">sec_bearbeiten</em>
+erklärt.</p>
+<p>In diesem Tutorium beschränken wir uns auf den Teil »Standard« des
+Bearbeitungsformulars. Er enthält vier Felder (siehe
+Abbildung <a class="reference internal" href="#fig-homepage-edit-1"><em>Bearbeitungsformular einer Seite</em></a>):</p>
+<ul class="simple">
+<li>Titel</li>
+<li>Beschreibung</li>
+<li>Haupttext</li>
+<li>Änderungsnotiz</li>
+</ul>
+<div class="section" id="titel-und-beschreibung">
+<h3>Titel und Beschreibung<a class="headerlink" href="#titel-und-beschreibung" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Zunächst müssen Sie im ersten Feld den Titel der Seite angeben. Dies ist
+zwingend erforderlich. Sie erkennen Formularfelder, die unbedingt ausgefüllt
+werden müssen, an dem roten Quadrat rechts neben der Feldbezeichnung. Wenn Sie
+versuchen, ein Formular mit einem unausgefüllten Pflichtfeld zu speichern,
+erhalten Sie eine Fehlermeldung.</p>
+<p>Beobachten Sie, wie Plone auf unausgefüllte Pflichtfelder reagiert, bevor Sie
+Ihrer Seite einen neuen Titel geben:</p>
+<ul class="simple">
+<li>Wechseln Sie mit dem Cursor in das Feld »Beschreibung«, ohne einen
+Titel eingetragen zu haben.</li>
+</ul>
+<p>Das Formularfeld »Titel« wird rot hinterlegt und Sie werden daran
+erinnert, einen Titel einzugeben.</p>
+<ul class="simple">
+<li>Betätigen Sie die Schaltfläche »Speichern« am Ende des Formulars, ohne
+einen Titel einzugeben.</li>
+</ul>
+<p>Plone hat die Seite nicht gespeichert, sondern zeigt das Bearbeitungsformular
+erneut an. Das Titelfeld ist hervorgehoben und mit dem Hinweis versehen, dass
+es ausgefüllt werden muss (siehe
+Abbildung <em class="xref">fig_homepage-edit-no-title</em>).</p>
+<ul class="simple">
+<li>Tragen Sie nun einen Titel für Ihre Seite in das Titelfeld ein, etwa
+»Das Kochseminar«.</li>
+</ul>
+<p>Das zweite Feld erlaubt die Eingabe einer kurzen Beschreibung, beispielsweise
+einer Inhaltsangabe, einer Zusammenfassung oder eines Textauszugs.  Diese
+Beschreibung wird in automatisch erzeugten Übersichtslisten und als Einleitung
+des Textes verwendet.  Sie soll dem Leser die Entscheidung erleichtern, ob die
+Seite für ihn interessant ist oder nicht. Die Eingabe einer Beschreibung
+empfiehlt sich daher immer.</p>
+<ul class="simple">
+<li>Geben Sie in das Formularfeld »Beschreibung« einen kurzen
+beschreibenden Text ein.</li>
+</ul>
+</div>
+<div class="section" id="haupttext">
+<h3>Haupttext<a class="headerlink" href="#haupttext" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Das Feld »Haupttext« sieht etwas anders aus. Oberhalb des Textfelds finden
+Sie eine Leiste mit Bearbeitungselementen des Texteditors Kupu vor (siehe
+Abbildung <a class="reference internal" href="#fig-homepage-edit-2"><em>Kupu im Bearbeitungsformular einer Seite</em></a>).</p>
+<div class="figure" id="fig-homepage-edit-2">
+<img alt="../_images/homepage-edit-2.png" src="../_images/homepage-edit-2.png" />
+<p class="caption">Kupu im Bearbeitungsformular einer Seite</p>
+</div>
+<p>Falls die Bearbeitungsleiste fehlt, haben Sie den Texteditor Kupu in Ihren
+persönlichen Einstellungen möglicherweise nicht ausgewählt. Siehe dazu das
+erste Tutorium auf Seite~pageref{sec:tut-profil}.</p>
+<p>Kupu lässt Sie den eingegebenen Text formatieren. Sie können unter anderem
+Überschriften auszeichnen, Textstellen fett oder kursiv setzen und Absätze
+links- oder rechtsbündig ausrichten. Eine ausführliche Beschreibung von Kupu
+finden Sie in Abschnitt <em class="xref">sec_kupu</em>.</p>
+<ul class="simple">
+<li>Geben Sie etwas Text in das Formularfeld »Haupttext« ein.</li>
+<li>Gehen Sie mit dem Cursor in eine Zeile, die zu einer Überschrift werden
+soll und wählen Sie aus dem Auswahlmenü den Stil »Heading« aus.</li>
+<li>Geben Sie etwas Text in einer neuen Zeile ein und markieren Sie mit Hilfe
+des Listensymbols diese Zeile als Liste.</li>
+<li>Beobachten Sie, wie neue Zeilen zu weiteren Listenpunkten werden, bis
+Sie die Listenfunktion wieder ausschalten.</li>
+<li>Probieren Sie die anderen Formatierungen aus Kupus Werkzeugleiste aus
+und beobachten Sie, wie sich das Ein- und Ausschalten jeweils auf den Text
+auswirkt.</li>
+</ul>
+<p>Bereits während Sie Ihren Text eingeben, wird er im Stil der Website
+dargestellt. So erhalten Sie sofort einen Eindruck vom Ergebnis.</p>
+</div>
+<div class="section" id="nderungsnotiz">
+<h3>Änderungsnotiz<a class="headerlink" href="#nderungsnotiz" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Kommentieren Sie in der Änderungsnotiz, was Sie auf der Seite geändert haben.
+Da Plone auch die älteren Versionen eines Artikels speichert, kann man später
+anhand dieser Notizen herausfinden, warum bestimmte Änderungen gemacht wurden.</p>
+</div>
+<div class="section" id="eingaben-sichern">
+<h3>Eingaben sichern<a class="headerlink" href="#eingaben-sichern" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Sichern Sie Ihre Eingaben, wenn Sie mit ihnen zufrieden sind.</p>
+<ul class="simple">
+<li>Betätigen Sie die Schaltfläche »Speichern« am Ende des
+Formulars.</li>
+</ul>
+<p>Akzeptiert Plone Ihre Änderungen, so zeigt es Ihnen die bearbeitete
+Seite an (siehe Abbildung <a class="reference internal" href="#fig-homepage-edited"><em>Die Seite nach der Bearbeitung</em></a>).</p>
+<div class="figure" id="fig-homepage-edited">
+<img alt="../_images/homepage-edited.png" src="../_images/homepage-edited.png" />
+<p class="caption">Die Seite nach der Bearbeitung</p>
+</div>
+<p>Sie werden dann durch eine Statusmeldung darüber informiert, dass die Seite
+gespeichert wurde.</p>
+<p>Ihre Eingaben werden nun in der Anzeige der Seite dargestellt. Die
+Seitenüberschrift ist der von Ihnen eingegebene Titel. Gleich darauf folgt
+visuell hervorgehoben Ihre Beschreibung und dann der Haupttext der Seite.</p>
+<p>Wenn es beim Speichern ein Problem gab, verbleiben Sie in der
+Bearbeitungsansicht.  Lesen Sie in diesem Fall die angezeigte Fehlermeldung
+und korrigieren Sie Ihre Eingaben entsprechend.</p>
+</div>
+<div class="section" id="sofortbearbeitung-einzelner-elemente">
+<h3>Sofortbearbeitung einzelner Elemente<a class="headerlink" href="#sofortbearbeitung-einzelner-elemente" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Sie können einzelne Elemente der Seite direkt in der Anzeige bearbeiten. Dazu
+müssen Sie in Ihrem Webbrowser Javascript eingeschaltet haben.</p>
+<ul class="simple">
+<li>Klicken Sie in der Anzeige der Seite mit der Maus auf den Titel.</li>
+<li>Der Seitentitel wechselt daraufhin in den Bearbeitungsmodus (siehe
+Abbildung <em class="xref">fig_titel-bearbeiten-ajax</em>).</li>
+</ul>
+<div class="figure" id="fig-titel-bearbeiten-ajax">
+<img alt="../_images/titel-bearbeiten-ajax.png" src="../_images/titel-bearbeiten-ajax.png" />
+</div>
+<p>In gleicher Weise können Sie die Beschreibung und den Haupttext einer Seite
+ändern. Diese Funktion ist nützlich, um schnell und bequem kleinere Änderungen
+an Artikeln durchzuführen. Falls Sie umfangreichere Änderungen vornehmen
+wollen, wählen Sie den Weg über das Bearbeitungsformular, das Sie über den
+Reiter »Bearbeiten« erreichen. Nur dort stehen Ihnen alle
+Bearbeitungsmöglichkeiten zur Verfügung.</p>
+</div>
+<div class="section" id="die-seite-als-teil-der-website">
+<h3>Die Seite als Teil der Website<a class="headerlink" href="#die-seite-als-teil-der-website" title="Permalink zu dieser Überschrift">¶</a></h3>
+<ul class="simple">
+<li>Rufen Sie nun erneut den Ordner »Veranstaltungen« in der Hauptnavigation
+auf. Schauen Sie sich sowohl seine Anzeige an als auch die Ansicht
+»Inhalte«.</li>
+</ul>
+<p>Die Inhaltsliste des Ordners enthält nun einen neuen Eintrag für die Seite,
+die Sie gerade angelegt haben (siehe Abbildung <a class="reference internal" href="#fig-homefolder-page"><em>Die Seite in Ihrem Ordner und im Navigationsportlet</em></a>).</p>
+<div class="figure" id="fig-homefolder-page">
+<img alt="../_images/homefolder+page.png" src="../_images/homefolder+page.png" />
+<p class="caption">Die Seite in Ihrem Ordner und im Navigationsportlet</p>
+</div>
+</div>
+</div>
+<div class="section" id="ltere-versionen-anzeigen">
+<h2>Ältere Versionen anzeigen<a class="headerlink" href="#ltere-versionen-anzeigen" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Plone sichert alte Versionen von Artikeln. Sie können auf diese älteren
+Versionen zugreifen.</p>
+<p>Um diese Funktion ausprobieren zu können, müssen Sie zunächst die von Ihnen
+angelegte Seite verändern. Rufen Sie dazu erneut die Bearbeitungsansicht auf
+und ändern Sie den Titel beispielsweise in »Das Kochseminar &#8211; aktuelle
+Informationen«. Vermerken Sie als Änderungsnotiz, dass Sie den Titel geändert
+haben, und speichern Sie die Änderung.</p>
+<p>Rufen Sie nun die Ansicht »Versionen« auf (siehe
+Abbildung <a class="reference internal" href="#fig-historie-tutorium"><em>Liste der Versionen eines Artikels</em></a>).</p>
+<div class="figure" id="fig-historie-tutorium">
+<img alt="../_images/historie-tutorium.png" src="../_images/historie-tutorium.png" />
+<p class="caption">Liste der Versionen eines Artikels</p>
+</div>
+<p>Sie enthält eine Liste aller bisherigen Versionen der Seite. Als
+Arbeitskopie wird die aktuelle, zuletzt gespeicherte Version
+bezeichnet. Version~0 ist der Zustand der Seite unmittelbar nach dem
+Anlegen. Sie können alte Versionen in einer Vorschau unterhalb der
+Liste anzeigen lassen.</p>
+<p>In der Spalte »Aktionen« finden Sie folgende Verweise:</p>
+<dl class="docutils">
+<dt>Vergleiche mit vorheriger Version</dt>
+<dd>Es wird ein Vergleich zwischen der
+ausgewählten Version und der Version davor angezeigt. Version 0 besitzt
+diesen Verweis nicht, da sie keinen Vorgänger hat.</dd>
+<dt>Vergleiche mit aktueller Version</dt>
+<dd>Es wird ein Vergleich der ausgewählten
+Version mit der aktuellen Version (der Arbeitskopie) angezeigt. Die
+Arbeitskopie selbst besitzt diesen Verweis nicht.</dd>
+<dt>Gehe zu dieser Version zurück</dt>
+<dd>Die aktuelle Version wird durch die
+Version in der ausgewählten Zeile ersetzt. Auch diesen Verweis gibt es bei
+der aktuellen Version selbst nicht.</dd>
+</dl>
+<p>Machen Sie sich nun mit der Arbeitsweise dieser Aktionen vertraut.</p>
+<ul class="simple">
+<li>Ersetzen Sie die neue Version durch die ältere und schauen Sie sich
+das Ergebnis in der Ansicht »Anzeigen« an.</li>
+<li>Wechseln Sie erneut in die Ansicht »Versionen«. Es ist eine neue
+Arbeitskopie hinzugekommen. In der Spalte »Kommentar« finden Sie einen
+Hinweis, dass zur Version~0 zurückgewechselt wurde.
+Die alte Arbeitskopie wird nun als Version~1 bezeichnet.</li>
+<li>Nehmen Sie weitere Änderungen an der Seite vor und vollziehen Sie nach,
+wie diese Änderungen als verschiedene Versionen gespeichert werden.</li>
+</ul>
+</div>
+<div class="section" id="seite-l-schen">
+<h2>Seite löschen<a class="headerlink" href="#seite-l-schen" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Nicht mehr benötigte Artikel können Sie von der Website entfernen. Löschen Sie
+nun die Seite, die Sie gerade angelegt haben.</p>
+<ul class="simple">
+<li>Rufen Sie die Anzeigeansicht der Seite auf.</li>
+<li>Öffnen Sie das Menü »Aktionen« und wählen Sie den Eintrag »Löschen«</li>
+</ul>
+<p>aus (siehe Abbildung <a class="reference internal" href="#fig-aktionen-loeschen"><em>Aktionsmenü</em></a>).</p>
+<div class="figure" id="fig-aktionen-loeschen">
+<img alt="../_images/aktionen-loeschen.png" src="../_images/aktionen-loeschen.png" />
+<p class="caption">Aktionsmenü</p>
+</div>
+<p>Plone fragt vorsichtshalber nach, ob Sie die Seite wirklich löschen wollen,
+bevor die Aktion ausgeführt wird, um ein versehentliches Löschen von Artikeln
+zu vermeiden. Sie können die Löschaktion an diesem Punkt abbrechen oder
+mittels der Schaltfläche »Löschen« bestätigen. Nach dem Löschen wird der
+Ordner aufgerufen, in dem sich die Seite befand. Eine Statusmeldung quittiert
+die Löschaktion.</p>
+</div>
+<div class="section" id="andere-artikeltypen">
+<h2>Andere Artikeltypen<a class="headerlink" href="#andere-artikeltypen" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Sie haben in diesem Tutorium den Artikeltyp »Seite« kennengelernt. Probieren
+Sie nun andere Artikeltypen aus. Legen Sie beispielsweise einen Termin oder
+eine Nachricht an, bearbeiten und löschen Sie diese Artikel, und verfolgen Sie
+die Änderungen in der Versionshistorie.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="../index.html">Inhalt</a></h3>
+            <ul>
+<li><a class="reference external" href="#">Umgang mit Seiten</a><ul>
+<li><a class="reference external" href="#seite-anlegen">Seite anlegen</a></li>
+<li><a class="reference external" href="#seite-bearbeiten">Seite bearbeiten</a><ul>
+<li><a class="reference external" href="#titel-und-beschreibung">Titel und Beschreibung</a></li>
+<li><a class="reference external" href="#haupttext">Haupttext</a></li>
+<li><a class="reference external" href="#nderungsnotiz">Änderungsnotiz</a></li>
+<li><a class="reference external" href="#eingaben-sichern">Eingaben sichern</a></li>
+<li><a class="reference external" href="#sofortbearbeitung-einzelner-elemente">Sofortbearbeitung einzelner Elemente</a></li>
+<li><a class="reference external" href="#die-seite-als-teil-der-website">Die Seite als Teil der Website</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="#ltere-versionen-anzeigen">Ältere Versionen anzeigen</a></li>
+<li><a class="reference external" href="#seite-l-schen">Seite löschen</a></li>
+<li><a class="reference external" href="#andere-artikeltypen">Andere Artikeltypen</a></li>
+</ul>
+</li>
+</ul>
+
+            <h4>Vorheriges Thema</h4>
+            <p class="topless"><a href="rundgang.html"
+                                  title="vorheriges Kapitel">Rundgang</a></p>
+            <h3>Diese Seite</h3>
+            <ul class="this-page-menu">
+              <li><a href="../_sources/tutorien/umgang-dokument.txt"
+                     rel="nofollow">Quelltext anzeigen</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Schnellsuche</h3>
+              <form class="search" action="../search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Los" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Geben Sie Suchbegriffe oder einen Modul-, Klassen- oder Funktionsnamen ein.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             >Index</a></li>
+        <li class="right" >
+          <a href="rundgang.html" title="Rundgang"
+             >zurück</a> |</li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li>
+          <li><a href="tutorien.html" >Arbeiten mit Plone</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2010, Jan Ulrich Hasecke, Thomas Lotze.
+      Mit <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.5 erstellt.
+    </div>
+  </body>
+</html>

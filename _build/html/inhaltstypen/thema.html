@@ -1,0 +1,410 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Kollektion &mdash; Plone v4.0 documentation</title>
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '4.0',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <link rel="top" title="Plone v4.0 documentation" href="../index.html" />
+    <link rel="up" title="Artikeltypen" href="inhaltstypen.html" />
+    <link rel="next" title="Umgang mit Artikeln" href="../umgang/umgang.html" />
+    <link rel="prev" title="Ordner" href="ordner.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             accesskey="I">Index</a></li>
+        <li class="right" >
+          <a href="../umgang/umgang.html" title="Umgang mit Artikeln"
+             accesskey="N">weiter</a> |</li>
+        <li class="right" >
+          <a href="ordner.html" title="Ordner"
+             accesskey="P">zurück</a> |</li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li>
+          <li><a href="inhaltstypen.html" accesskey="U">Artikeltypen</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="kollektion">
+<span id="sec-thema"></span><h1>Kollektion<a class="headerlink" href="#kollektion" title="Permalink zu dieser Überschrift">¶</a></h1>
+<p>Oft möchte man verwandte Artikel einer Website zusammenfassen, beispielsweise
+in einer Nachrichtenübersicht oder einer Liste aller Artikel zu einem
+Thema. Ein Artikel kann dabei für verschiedene solcher Übersichten
+relevant sein. Da jeder Artikel aber nur einen einzigen Platz in der
+Ordnerhierarchie der Website hat, sind Ordner nicht geeignet, um Artikel unter
+verschiedenen Gesichtspunkten zu gruppieren.</p>
+<p>Stattdessen verwendet man Kollektionen, um beliebig viele verschiedene
+Übersichten zu erstellen. Diese Übersichten sind unabhängig von der
+Ordnerstruktur der Website. Sie können eine Kollektion als das Ergebnis einer
+vorgefertigten Suche verstehen; Plone hält die Artikelauswahl anhand von
+Suchkriterien stets aktuell.</p>
+<p>Kollektionen kennen ähnlich wie Ordner verschiedene Darstellungen für die
+Anzeigeansicht, aus denen Sie im Darstellungsmenü wählen können:</p>
+<ul class="simple">
+<li>Liste</li>
+<li>Kurzfassung</li>
+<li>Tabelle</li>
+<li>Album</li>
+<li>Kollektion</li>
+</ul>
+<p>Als Beispiel zeigt Abbildung <a class="reference internal" href="#fig-thema"><em>Darstellung einer Kollektion als Liste</em></a> die Darstellung als Liste.</p>
+<div class="figure" id="fig-thema">
+<img alt="../_images/thema.png" src="../_images/thema.png" />
+<p class="caption">Darstellung einer Kollektion als Liste</p>
+</div>
+<p>Wie Ordner besitzen Kollektionen auch keinen eigenen
+redaktionellen Inhalt. Wenn Sie eine Kollektion bearbeiten, bestimmen Sie,
+nach welchen Kriterien sie Artikel zusammenstellt und wie sie sie anzeigt.</p>
+<div class="figure" id="fig-kollektion-bearbeiten">
+<img alt="../_images/kollektion-bearbeiten.png" src="../_images/kollektion-bearbeiten.png" />
+<p class="caption">Bearbeitungsansicht einer Kollektion</p>
+</div>
+<p>In der Bearbeitungsansicht einer Kollektion (siehe Abbildung
+<a class="reference internal" href="#fig-kollektion-bearbeiten"><em>Bearbeitungsansicht einer Kollektion</em></a>) können Sie einstellen, wie viele
+Artikel auf einer Seite angezeigt werden sollen. Kreuzen Sie dazu
+»Eingrenzung der Suchresultate« an und geben Sie im Feld darunter die
+gewünschte Artikelanzahl ein. Findet die Kollektion anhand der
+gewählten Suchkriterien mehr Artikel, so wird die Liste auf mehrere
+Seiten verteilt. Unterhalb der angezeigten Liste finden Sie dann
+Verweise auf die weiteren Seiten.  Grenzen Sie die Suchresultate nicht
+ein oder geben Sie als Artikelanzahl 0 an, so werden alle passenden
+Artikel auf einer Seite aufgeführt.</p>
+<p>Wenn Sie die Kollektion als Tabelle darstellen wollen, haben Sie zwei
+Möglichkeiten. Sie können zum einen im Darstellungsmenü den Eintrag »Tabelle«
+auswählen, sodass der Inhalt der Kollektion in einer fest vorgegebenen Tabelle
+mit vier Spalten (Titel, Autor, Artikeltyp und Änderungsdatum) angezeigt wird.</p>
+<p>Die andere Möglichkeit besteht darin, im Darstellungsmenü den Eintrag
+»Kollektion« auszuwählen und in der Bearbeitungsansicht zu markieren, dass die
+Kollektion als Tabelle angezeigt werden soll. Dann können Sie für diese
+Kollektion festlegen, wie viele Spalten die Tabelle enthält und welche
+Informationen angezeigt werden. Eine Spalte kann eine Metadatenangabe, die
+Größe des Artikels oder seinen Revisionsstatus wiedergeben. Per Voreinstellung
+wird nur der Titel angezeigt; er dient als Verweis zum Artikel.</p>
+<p>Wenn Sie die Darstellung »Kollektion« wählen und das Feld »Als Tabelle
+anzeigen« nicht ankreuzen, werden die Artikel in einer Liste aufgeführt. Eine
+solche Liste zeigt für jeden Eintrag den Titel, die Beschreibung, einen
+Verweis auf das Profil des Erstellers und das Datum der letzten Änderung. Der
+Titel dient dabei als Verweis auf den Artikel selbst.</p>
+<p>Plone erstellt von jeder Kollektion einen RSS-Feed. Sie finden einen Verweis
+darauf in den Artikelaktionen der Kollektion (siehe
+Abschnitt <a class="reference external" href="../umgang/syndizierung.html#sec-syndizierung"><em>Syndizierung</em></a>).</p>
+<div class="section" id="suchkriterien">
+<h2>Suchkriterien<a class="headerlink" href="#suchkriterien" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Eine Kollektion besitzt eine Reihe von Suchkriterien, von denen sich jedes auf
+eine Eigenschaft der durchsuchten Artikel bezieht. Damit ein Artikel zur
+Kollektion passt, muss er alle Kriterien gleichzeitig erfüllen. (Die Kriterien
+werden bei der Suche mit »und« verknüpft.) Für jede Artikeleigenschaft kann es
+in einer Kollektion höchstens ein Suchkriterium geben.</p>
+<p>Die durchsuchbaren Artikeleigenschaften werden Felder genannt und
+unterscheiden sich grundlegend: im Titel kann man beispielsweise nach einem
+Wort suchen, und bei einem Datum will man feststellen, ob es vor oder nach
+einem bestimmten Zeitpunkt liegt. Andererseits kann ein Suchtext frei
+eingegeben oder aus vorgegebenen Begriffen ausgewählt werden.
+Tabelle <em class="xref">tab_thema-feldnamen</em> fasst zusammen, welche
+Kriteriumstypen für jedes der Felder in Frage kommen.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="52%" />
+<col width="48%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Feldnamen</th>
+<th class="head">Kriteriumstypen</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td><ul class="first last simple">
+<li>Beschreibung</li>
+<li>Durchsuchbarer Text</li>
+<li>Kurzname</li>
+<li>Titel</li>
+</ul>
+</td>
+<td><ul class="first last simple">
+<li>Text</li>
+<li>Werteliste</li>
+</ul>
+</td>
+</tr>
+<tr><td><ul class="first last simple">
+<li>Ersteller</li>
+<li>Status (Revisionsstatus)</li>
+<li>Kategorien</li>
+</ul>
+</td>
+<td><ul class="first last simple">
+<li>Text</li>
+<li>Werteliste</li>
+<li>Werte auswählen</li>
+</ul>
+</td>
+</tr>
+<tr><td><ul class="first last simple">
+<li>Änderungsdatum</li>
+<li>Erstellungsdatum</li>
+<li>Anfangsdatum</li>
+<li>Enddatum</li>
+<li>Freigabedatum</li>
+<li>Ablaufdatum</li>
+</ul>
+</td>
+<td><ul class="first last simple">
+<li>Relatives Datum</li>
+<li>Zeitspanne</li>
+</ul>
+</td>
+</tr>
+<tr><td><ul class="first last simple">
+<li>Artikeltyp</li>
+</ul>
+</td>
+<td><ul class="first last simple">
+<li>Artikeltypen auswählen</li>
+</ul>
+</td>
+</tr>
+<tr><td><ul class="first last simple">
+<li>Verweise</li>
+</ul>
+</td>
+<td><ul class="first last simple">
+<li>Artikel auswählen</li>
+</ul>
+</td>
+</tr>
+<tr><td><ul class="first last simple">
+<li>Pfad</li>
+</ul>
+</td>
+<td><ul class="first last simple">
+<li>Ort in der Website</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="figure" id="fig-kriterien">
+<img alt="../_images/kriterien.png" src="../_images/kriterien.png" />
+</div>
+<p>Kriterienansicht einer Kollektion</p>
+<p>In der Ansicht »Kriterien« (siehe Abbildung <em class="xref">fig_kriterien</em>)
+können Sie die Suchkriterien für eine Kollektion bearbeiten. Die Ansicht
+enthält:</p>
+<ul class="simple">
+<li>eine Tabelle der bereits vorhandenen Kriterien,</li>
+<li>ein Feld zum Anlegen eines neuen Kriteriums und</li>
+<li>ein Auswahlfeld für die Sortierreihenfolge.</li>
+</ul>
+<p>Die Tabelle der vorhandenen Kriterien nennt in der Spalte »Feld« das Feld,
+auf das sich das jeweilige Kriterium bezieht. Die Spalte »Kriterium« zeigt
+die Art des Suchkriteriums an und enthält das Eingabefeld für seinen Wert,
+beispielsweise den zu suchenden Text.</p>
+<p>Die Eingabefelder sind den Kriteriumstypen angepasst:</p>
+<dl class="docutils">
+<dt>Text</dt>
+<dd>Geben Sie ein oder mehrere Wörter ein, die im durchsuchten Feld
+enthalten sein müssen. Die Reihenfolge mehrerer Wörter wird nur
+berücksichtigt, wenn Sie die Wortfolge in Anführungszeichen setzen. Sie
+können auch nach
+Wortbestandteilen suchen, indem Sie ähnlich wie bei der Website-Suche
+Platzhalter benutzen (siehe Abschnitt <em class="xref">sec_suche</em>).</dd>
+<dt>Werteliste</dt>
+<dd><p class="first">Sie können eine beliebige Anzahl von Werten eingeben. Das
+kann zum Beispiel eine Liste von Benutzernamen für das Feld »Ersteller«
+sein.</p>
+<p class="last">Unterhalb der Werteliste befindet sich das Eingabefeld
+»Verknüpfungsoperation«. Falls Sie mehrere Werte eintragen, können Sie damit
+bestimmen, ob die gesuchten Artikel mit einem der eingegebenen Werte
+(»oder«) oder mit allen Werten (»und«) übereinstimmen müssen. Wenn Sie
+beispielsweise alle Artikel mit dem Ersteller »Adam« und alle mit dem
+Ersteller »Berta« zusammenfassen wollen, müssen Sie diese beiden Werte mit
+»oder« verknüpfen.</p>
+</dd>
+<dt>Werte auswählen</dt>
+<dd>Hier wählen Sie Werte aus einer vorgegebenen Liste aus,
+beispielweise aus den bestehenden Kategorien. Auch hier gibt es die
+Verknüpfungen »und« und »oder«.</dd>
+<dt>Relatives Datum</dt>
+<dd><p class="first">Sie können verlangen, dass der Wert des Feldes vor,
+nach oder genau auf einen Stichtag fällt. Der Stichtag ist jedoch kein
+festes Datum, sondern bezieht sich auf den Zeitpunkt, zu dem
+die Kollektion angezeigt wird. Beispielsweise können Sie so eine ständig
+aktuelle Liste aller Artikel erzeugen, die jünger als eine Woche sind.</p>
+<p class="last">Zur Konfiguration dieses Kriteriums gehören drei Angaben. Die ersten beiden
+bestimmen den Stichtag, der mit dem jeweils aktuellen Datum zusammenfallen
+(»Heute«) oder um eine auszuwählende Zeitspanne in der Vergangenheit oder
+Zukunft liegen kann. Im Eingabefeld »Mehr oder weniger« bestimmen Sie, ob
+das Datum im betreffenden Feld der durchsuchten Artikel auf den Stichtag
+fallen, näher als dieser am jeweils aktuellen Datum oder weiter davon
+entfernt liegen soll.</p>
+</dd>
+<dt>Zeitspanne</dt>
+<dd>Wählen Sie zwei Zeitpunkte (Anfang und Ende) aus, zwischen
+denen der Wert des Feldes liegen muss. Sie haben zwei Gruppen von
+Eingabefeldern, um für den Anfang und das Ende der Zeitspanne jeweils einen
+Kalendertag und eine Uhrzeit zu bestimmen. Das Kalendersymbol öffnet ein
+zusätzliches Fenster mit einem Kalender, in dem Sie bequem ein beliebiges
+Datum auswählen können.</dd>
+<dt>Artikeltypen auswählen</dt>
+<dd>Wählen Sie beliebig viele Artikeltypen aus einer
+Liste aus. Es werden nur Artikel des gewählten Typs in der Kollektion
+angezeigt.</dd>
+<dt>Artikel auswählen</dt>
+<dd>Wählen Sie aus der Liste der veröffentlichten Artikel
+beliebig viele aus.  Die Kollektion enthält nur
+Artikel, die auf alle ausgewählten Artikel verweisen.</dd>
+<dt>Ort in der Website</dt>
+<dd><p class="first">Schränken Sie die Suchergebnisse auf Artikel ein,
+die sich an bestimmten Stellen in der Ordnerhierarchie der Website befinden.
+Dabei können Sie sowohl einzelne Artikel zulassen als auch Ordner angeben,
+deren Inhalt einschließlich der Unterordner durchsucht werden soll.</p>
+<p class="last">Um zu durchsuchende Artikel zusammenzustellen, betätigen Sie die
+Schaltfläche »Hinzufügen« unterhalb der Artikelliste. Daraufhin
+öffnet Ihr Webbrowser ein zweites Fenster, in dem Sie durch die Website
+navigieren und Artikel auswählen können. Sie können Artikel wieder aus der
+Liste löschen, indem Sie im Hauptfenster das Häkchen vor den betreffenden
+Artikeln entfernen und das Formular speichern.</p>
+</dd>
+</dl>
+<p>Um ein Kriterium zu löschen, kreuzen Sie es an und betätigen Sie die
+Schaltfläche »Löschen« unterhalb der Tabelle.</p>
+<p>Der Abschnitt »Neues Kriterium hinzufügen« bietet Ihnen im Eingabefeld
+»Feldname« die durchsuchbaren Felder an, für die noch kein Kriterium angelegt
+wurde. Das Eingabefeld »Kriteriumstyp« enthält nur Einträge, die zum gerade
+ausgewählten Feld passen. Sie können nur ein neues Kriterium auf einmal
+hinzufügen.</p>
+<p>Im letzten Abschnitt des Formulars bestimmen Sie die Reihenfolge, in der die
+zur Kollektion passenden Artikel angezeigt werden. Wählen Sie eine
+Artikeleigenschaft, nach der sortiert werden soll, und entscheiden Sie, ob
+auf- oder absteigend sortiert wird.</p>
+<div class="section" id="unterkollektionen">
+<h3>Unterkollektionen<a class="headerlink" href="#unterkollektionen" title="Permalink zu dieser Überschrift">¶</a></h3>
+<p>Eine Kollektion kann Unterkollektionen besitzen, um die Suche mit weiteren
+Kriterien zu verfeinern oder verwandte Kollektionen zu gruppieren. Die Anzeige
+der Kollektion enthält dann eine Liste ihrer Unterkollektionen (siehe
+Abbildung <em class="xref">fig_kollektion-mit-unterkollektionen</em>).</p>
+<div class="figure">
+<img alt="../_images/kollektion-mit-unterkollektionen.png" src="../_images/kollektion-mit-unterkollektionen.png" />
+<p class="caption">Anzeige einer Kollektion mit Unterkollektionen</p>
+</div>
+<p>In der Bearbeitungsansicht von Unterkollektionen können Sie entscheiden, ob
+Kriterien von übergeordneten Kollektionen geerbt werden sollen. Kreuzen Sie
+dazu in der Bearbeitungsansicht der Unterkollektion das Eingabefeld
+»Kriterien erben« an.</p>
+<p>Erbt eine Unterkollektion Kriterien, so stellt sie keine eigenständige Suche
+mehr dar, sondern eine Verfeinerung der übergeordneten Kollektion. Sie enthält
+dann nur die Artikel der übergeordneten Kollektion, die beide Sätze von
+Kriterien erfüllen.</p>
+<p>Besitzen sowohl die Unterkollektion als auch die übergeordnete Kollektion
+Suchkriterien zu einem bestimmten Feld, so wird das geerbte Kriterium in der
+Unterkollektion nicht beachtet.</p>
+<p>Sie können Unterkollektionen wie andere Artikel löschen, kopieren und
+verschieben. Versuchen Sie jedoch, andere Artikel als Kollektionen in eine
+Kollektion einzufügen, erhalten Sie eine Fehlermeldung.</p>
+<p>Die Ansicht »Unterkollektionen« einer Kollektion (siehe Abbildung
+<a class="reference internal" href="#fig-unterthemen"><em>Ansicht »Unterkollektionen«</em></a>) ist ähnlich der Inhaltsansicht eines Ordners
+aufgebaut (siehe Abschnitt <a class="reference external" href="../umgang/verwaltung.html#sec-ordner-aktionen"><em>Ordneraktionen</em></a>). In ihr können
+Sie mehrere Unterkollektionen auf einmal umbenennen, löschen oder
+veröffentlichen.</p>
+<div class="figure" id="fig-unterthemen">
+<img alt="../_images/unterthemen.png" src="../_images/unterthemen.png" />
+<p class="caption">Ansicht »Unterkollektionen«</p>
+</div>
+<p>Wenn Sie eine Unterkollektion an einen anderen Ort auf der Website verschieben
+oder kopieren, gehen ihr dabei geerbte Suchkriterien der ehemals
+übergeordneten Kollektionen verloren. Falls Sie sie in
+eine andere Kollektion verschieben, erbt sie deren Kriterien.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="../index.html">Inhalt</a></h3>
+            <ul>
+<li><a class="reference external" href="#">Kollektion</a><ul>
+<li><a class="reference external" href="#suchkriterien">Suchkriterien</a><ul>
+<li><a class="reference external" href="#unterkollektionen">Unterkollektionen</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            <h4>Vorheriges Thema</h4>
+            <p class="topless"><a href="ordner.html"
+                                  title="vorheriges Kapitel">Ordner</a></p>
+            <h4>Nächstes Thema</h4>
+            <p class="topless"><a href="../umgang/umgang.html"
+                                  title="nächstes Kapitel">Umgang mit Artikeln</a></p>
+            <h3>Diese Seite</h3>
+            <ul class="this-page-menu">
+              <li><a href="../_sources/inhaltstypen/thema.txt"
+                     rel="nofollow">Quelltext anzeigen</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Schnellsuche</h3>
+              <form class="search" action="../search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Los" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Geben Sie Suchbegriffe oder einen Modul-, Klassen- oder Funktionsnamen ein.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             >Index</a></li>
+        <li class="right" >
+          <a href="../umgang/umgang.html" title="Umgang mit Artikeln"
+             >weiter</a> |</li>
+        <li class="right" >
+          <a href="ordner.html" title="Ordner"
+             >zurück</a> |</li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li>
+          <li><a href="inhaltstypen.html" >Artikeltypen</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2010, Jan Ulrich Hasecke, Thomas Lotze.
+      Mit <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.5 erstellt.
+    </div>
+  </body>
+</html>

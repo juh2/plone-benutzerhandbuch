@@ -1,0 +1,24 @@
+\begin{theindex}
+\def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
+
+  \bigletter A
+  \item Autor, \hyperpage{12}
+
+  \indexspace
+  \bigletter B
+  \item Benutzer, \hyperpage{12}
+  \item Benutzername, \hyperpage{12}
+  \item Benutzerportlets, \hyperpage{12}
+
+  \indexspace
+  \bigletter P
+  \item Passwort, \hyperpage{12}
+  \item pers\IeC {\"o}nliche Seite, \hyperpage{12}
+  \item pers\IeC {\"o}nlicher Ordner, \hyperpage{12}
+  \item private Daten, \hyperpage{12}
+
+  \indexspace
+  \bigletter R
+  \item Redakteur, \hyperpage{12}
+
+\end{theindex}

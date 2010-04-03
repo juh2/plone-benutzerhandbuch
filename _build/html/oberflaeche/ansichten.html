@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Artikelansichten &mdash; Plone v4.0 documentation</title>
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '4.0',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <link rel="top" title="Plone v4.0 documentation" href="../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             accesskey="I">Index</a></li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="artikelansichten">
+<h1>Artikelansichten<a class="headerlink" href="#artikelansichten" title="Permalink zu dieser Überschrift">¶</a></h1>
+<p>Der Hauptbestandteil fast jeder Seite der Website ist die Ansicht eines
+Artikels. Durch Artikelansichten werden die Inhalte Ihrer Website dargestellt
+und bearbeitet. Welche Ansichten ein Artikel besitzt, hängt von seinem Typ
+ab. Sie finden einen Überblick über Artikelansichten und ihre Funktionen in
+Kapitel <a class="reference external" href="../inhaltstypen/inhaltstypen.html#sec-inhaltstypen"><em>Artikeltypen</em></a>.</p>
+<div class="section" id="reiter-und-men-s">
+<span id="sec-ui-rahmen"></span><h2>Reiter und Menüs<a class="headerlink" href="#reiter-und-men-s" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Sind Sie an der Website angemeldet, dürfen Sie für bestimmte Artikel mehrere
+Ansichten sehen. Verschiedene Ansichten eines Artikels werden wie Karteikarten
+dargestellt, zwischen denen man mit Reitern wechselt. Dazu fasst Plone die
+Ansichten in einen grünen Rahmen, der die Reiter trägt und möglicherweise
+ein oder mehrere Ausklappmenüs enthält (siehe
+Abbildung <a class="reference internal" href="#fig-ui-rahmen"><em>Reiter und Menüs am Beispiel eines Ordners</em></a>).</p>
+<div class="figure" id="fig-ui-rahmen">
+<img alt="../_images/rahmen.png" src="../_images/rahmen.png" />
+<p class="caption">Reiter und Menüs am Beispiel eines Ordners</p>
+</div>
+<p>Jeder Reiter ist mit dem Namen der Ansicht beschriftet; der Reiter der
+angezeigten Ansicht ist grün ausgefüllt.</p>
+<p>Je nach Ihren Berechtigungen sehen Sie folgende Ausklappmenüs:</p>
+<p>Aktionen</p>
+<blockquote>
+Hier können Sie den Artikel kopieren, verschieben, löschen, in der
+Zwischenablage gespeicherte Artikel in den aktuellen Ordner einfügen
+und eine Arbeitskopie des Artikels erstellen (siehe Abschnitt
+<em class="xref">sec-arbeitskopie-erstellen</em>).</blockquote>
+<p>Darstellung</p>
+<blockquote>
+Falls es für den Artikel mehrere Darstellungsmöglichkeiten gibt,
+können Sie hier eine auswählen. Bei Ordnern haben Sie die
+Möglichkeit, einen Artikel aus dem Ordner als Anzeige zu setzen
+(siehe Abschnitt <em class="xref">sec_anzeige-waehlen</em>).</blockquote>
+<p>Hinzufügen</p>
+<blockquote>
+Sie erstellen einen neuen Artikel im aktuellen Ordner, indem
+Sie hier den gewünschten Artikeltyp auswählen (siehe
+Abschnitt <a class="reference external" href="../umgang/verwaltung.html#sec-artikel-erstellen"><em>Hinzufügen</em></a>).</blockquote>
+<p>Status</p>
+<blockquote>
+Der Titel dieses Menüs zeigt den aktuellen Status des Artikels
+an. Die Menüeinträge sind die möglichen Statuswechsel (siehe
+Abschnitt <a class="reference external" href="../umgang/workflow.html#sec-workflow"><em>Arbeitsabläufe</em></a>).</blockquote>
+</div>
+<div class="section" id="artikelaktionen">
+<h2>Artikelaktionen<a class="headerlink" href="#artikelaktionen" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Die Artikelaktionen finden Sie unterhalb der Anzeige des Artikels
+(siehe Abbildung <a class="reference internal" href="#fig-doc-actions"><em>Artikelaktionen am Beispiel eines Termins</em></a>).</p>
+<div class="figure" id="fig-doc-actions">
+<img alt="../_images/doc-actions.png" src="../_images/doc-actions.png" />
+<p class="caption">Artikelaktionen am Beispiel eines Termins</p>
+</div>
+<p>Tabelle <em class="xref">tab_dokumentaktionen</em> fasst alle Artikelaktionen
+zusammen. Welche davon Sie angezeigt bekommen, hängt vom Typ des
+Artikels sowie von Ihren persönlichen Einstellungen und Berechtigungen
+ab.</p>
+<p id="tab-dokumentaktionen">Artikelaktionen</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="35%" />
+<col width="65%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Titel</th>
+<th class="head">siehe Seite</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>RSS-Feed</td>
+<td><a class="reference external" href="../umgang/syndizierung.html#sec-syndizierung"><em>Syndizierung</em></a></td>
+</tr>
+<tr><td>Versenden</td>
+<td><em class="xref">sec_seite-versenden</em></td>
+</tr>
+<tr><td>Drucken</td>
+<td><em class="xref">sec_seite-drucken</em></td>
+</tr>
+<tr><td>Lesezeichen setzen</td>
+<td><a class="reference external" href="navigation.html#sec-navigation-lesezeichen"><em>Lesezeichen</em></a></td>
+</tr>
+<tr><td>iCalendar</td>
+<td><a class="reference external" href="../inhaltstypen/termin.html#sec-termin"><em>Termin</em></a></td>
+</tr>
+<tr><td>vCalendar</td>
+<td><a class="reference external" href="../inhaltstypen/termin.html#sec-termin"><em>Termin</em></a></td>
+</tr>
+</tbody>
+</table>
+<p id="sec-seite-versenden">Mit der Aktion »Versenden« können Sie eine E-Mail mit der Internetadresse der
+aktuellen Webseite als Inhalt versenden. Der Verweis führt Sie zu einem
+Formular, in dem Sie die E-Mail-Adressen des Empfängers und Absenders sowie
+einen Nachrichtentext eingeben können. Sind Sie an der Website angemeldet, so
+ist Ihre Absenderadresse dort bereits eingetragen.</p>
+<p id="sec-seite-drucken">Die Aktion »Drucken« löst die Druckfunktion Ihres Webbrowsers aus, sodass
+Sie die aktuelle Webseite ausdrucken können.</p>
+</div>
+<div class="section" id="statusmeldung">
+<h2>Statusmeldung<a class="headerlink" href="#statusmeldung" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Wenn Sie an einem Artikel Veränderungen vornehmen, informiert Plone Sie über
+den Erfolg oder Misserfolg Ihrer Aktion. Dazu erscheint unmittelbar nach der
+Aktion auf der im Anschluss angezeigten Seite eine
+Statusmeldung. Sie befindet sich oberhalb der Artikelansicht und ist farblich
+hervorgehoben (siehe Abbildung <a class="reference internal" href="#fig-statusmeldung"><em>Eine Statusmeldung</em></a>).</p>
+<div class="figure" id="fig-statusmeldung">
+<img alt="../_images/statusmeldung.png" src="../_images/statusmeldung.png" />
+<p class="caption">Eine Statusmeldung</p>
+</div>
+<p>Es gibt mehrere Klassen von Statusmeldungen, die unterschiedliche Wichtigkeit
+besitzen und durch jeweils eigene Farben gekennzeichnet werden:</p>
+<p>Information (gelblich)</p>
+<blockquote>
+beispielsweise die Anmeldebestätigung</blockquote>
+<p>Warnung (orange)</p>
+<blockquote>
+beispielsweise die Warnung vor defekten Verweisen beim Löschen
+referenzierter Artikel</blockquote>
+<p>Fehler (rot)</p>
+<blockquote>
+<p>beispielsweise beim Speichern unvollständig ausgefüllter Formulare</p>
+<blockquote>
+% Local Variables:
+% TeX-master: &#8220;../plonebook-3_1-de&#8221;
+% TeX-command-default: &#8220;LaTeX&#8221;
+% TeX-PDF-mode: t
+% font-latex-quotes: german
+% End:</blockquote>
+</blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="../index.html">Inhalt</a></h3>
+            <ul>
+<li><a class="reference external" href="#">Artikelansichten</a><ul>
+<li><a class="reference external" href="#reiter-und-men-s">Reiter und Menüs</a></li>
+<li><a class="reference external" href="#artikelaktionen">Artikelaktionen</a></li>
+<li><a class="reference external" href="#statusmeldung">Statusmeldung</a></li>
+</ul>
+</li>
+</ul>
+
+            <h3>Diese Seite</h3>
+            <ul class="this-page-menu">
+              <li><a href="../_sources/oberflaeche/ansichten.txt"
+                     rel="nofollow">Quelltext anzeigen</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Schnellsuche</h3>
+              <form class="search" action="../search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Los" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Geben Sie Suchbegriffe oder einen Modul-, Klassen- oder Funktionsnamen ein.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             >Index</a></li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2010, Jan Ulrich Hasecke, Thomas Lotze.
+      Mit <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.5 erstellt.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Kommentare &mdash; Plone v4.0 documentation</title>
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '4.0',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <link rel="top" title="Plone v4.0 documentation" href="../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             accesskey="I">Index</a></li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="kommentare">
+<span id="sec-diskussionen"></span><h1>Kommentare<a class="headerlink" href="#kommentare" title="Permalink zu dieser Überschrift">¶</a></h1>
+<p>Plone verfügt über eine Kommentarfunktion, die es den Besuchern einer
+Website erlaubt, sich mit den Autoren und anderen Besuchern über
+einzelne Artikel auszutauschen.</p>
+<p>Ist für einen Artikel die Kommentarfunktion eingeschaltet, so enthält seine
+Anzeige am Seitenende die Schaltfläche »Kommentieren« sowie die bisherigen
+Kommentare (siehe Abbildung <a class="reference internal" href="#fig-diskussion"><em>Kommentare</em></a>).</p>
+<div class="figure" id="fig-diskussion">
+<img alt="../_images/diskussion.png" src="../_images/diskussion.png" />
+<p class="caption">Kommentare</p>
+</div>
+<p>Antworten auf einen Kommentar werden direkt unterhalb des Kommentars
+angezeigt und eingerückt. So kann sich eine verzweigte Diskussion
+entwickeln.</p>
+<div class="section" id="an-diskussionen-teilnehmen">
+<h2>An Diskussionen teilnehmen<a class="headerlink" href="#an-diskussionen-teilnehmen" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Falls der Verfasser des Artikels Kommentare erlaubt hat, können Sie
+den Artikel kommentieren. Um einen Kommentar hinzufügen zu können,
+müssen Sie aber in der Regel an der Website angemeldet sein. Als nicht
+angemeldeter Benutzer sehen Sie in diesem Fall eine Schaltfläche mit
+der Aufschrift »Zum Kommentieren müssen Sie sich anmelden«.</p>
+<p>Nach der Anmeldung sehen Sie unterhalb des Artikels die Schaltfläche
+»Kommentieren« und am Ende jedes einzelnen Kommentars die Schaltfläche
+»Antworten«. Die Schaltflächen führen Sie zu einem Formular, in dem Sie
+einen Kommentar zum Artikel oder eine Antwort auf einen Diskussionsbeitrag
+verfassen können (siehe Abbildung <em class="xref">fig:diskussion-kommentieren</em>).</p>
+<div class="figure" id="fig-diskussion-kommentieren">
+<img alt="../_images/diskussion-kommentieren.png" src="../_images/diskussion-kommentieren.png" />
+<p class="caption">Eingabeformular für einen Kommentar</p>
+</div>
+<p>Oberhalb des Formulars wird der Artikel angezeigt. Antworten Sie auf einen
+anderen Diskussionsbeitrag, so sehen Sie außerdem alle Kommentare, die Ihrer
+Antwort in der Diskussion vorangingen. So haben Sie beim Schreiben all das im
+Blick, worauf Sie sich beziehen möchten.</p>
+<p>Im Kommentarformular geben Sie einen Betreff und Ihren Kommentar ein. Sie
+müssen beide Formularfelder ausfüllen. Der Kommentar ist einfacher Text, den
+Sie nicht formatieren können. Wenn Sie das Formular speichern, gelangen Sie
+wieder zur Anzeige des Artikels. Dort ist Ihr Beitrag sofort sichtbar.</p>
+<p>Falls die Website so konfiguriert ist, dass die Diskussion allen Besuchern
+offensteht, können Sie im Kommentarformular neben Ihrem Beitrag auch Ihren
+Benutzernamen und Ihr Passwort angeben, damit der Beitrag unter Ihrem Namen
+gespeichert werden kann. Ohne diese Angaben wird der Beitrag anonym
+veröffentlicht.</p>
+</div>
+<div class="section" id="konfiguration">
+<h2>Konfiguration<a class="headerlink" href="#konfiguration" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Als Besitzer eines Artikels können Sie bestimmen, ob eine öffentliche
+Diskussion zu Ihrem Artikel möglich sein soll. Jeder Besucher, der den
+Artikel einsehen darf, kann auch die Diskussion vollständig lesen. Ihr
+Administrator kann für die gesamte Website einstellen, ob
+unangemeldete Besucher Beiträge verfassen dürfen.</p>
+<p>Um Kommentare zu erlauben, wechseln Sie in der Bearbeitungsansicht des
+Artikels ins Teilformular »Einstellungen«. Dort können Sie die
+Kommentarfunktion ein- und ausschalten, indem Sie das Häkchen bei der Option
+»Kommentare erlauben« setzen oder entfernen (siehe
+Abbildung <a class="reference internal" href="#fig-allow-discussion"><em>Kommentare zu einem Artikel erlauben</em></a>).</p>
+<div class="figure" id="fig-allow-discussion">
+<img alt="../_images/allow-discussion.png" src="../_images/allow-discussion.png" />
+<p class="caption">Kommentare zu einem Artikel erlauben</p>
+</div>
+<p>Für jeden Artikeltyp ist voreingestellt, ob Kommentare erlaubt sind.</p>
+</div>
+<div class="section" id="beitr-ge-l-schen">
+<h2>Beiträge löschen<a class="headerlink" href="#beitr-ge-l-schen" title="Permalink zu dieser Überschrift">¶</a></h2>
+<p>Als Administrator eines Artikels können Sie einzelne Kommentare oder auch
+ganze Diskussionsstränge löschen. Dafür besitzt jeder Kommentar neben der
+Schaltfläche »Antworten« eine, die mit »Löschen« beschriftet ist. Löschen Sie
+einen Diskussionsbeitrag, auf den bereits geantwortet wurde, so werden auch
+alle Antworten auf ihn entfernt. Beachten Sie, dass beim Löschen von
+Kommentaren keine weitere Nachfrage erfolgt.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="../index.html">Inhalt</a></h3>
+            <ul>
+<li><a class="reference external" href="#">Kommentare</a><ul>
+<li><a class="reference external" href="#an-diskussionen-teilnehmen">An Diskussionen teilnehmen</a></li>
+<li><a class="reference external" href="#konfiguration">Konfiguration</a></li>
+<li><a class="reference external" href="#beitr-ge-l-schen">Beiträge löschen</a></li>
+</ul>
+</li>
+</ul>
+
+            <h3>Diese Seite</h3>
+            <ul class="this-page-menu">
+              <li><a href="../_sources/umgang/diskussionen.txt"
+                     rel="nofollow">Quelltext anzeigen</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Schnellsuche</h3>
+              <form class="search" action="../search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Los" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Geben Sie Suchbegriffe oder einen Modul-, Klassen- oder Funktionsnamen ein.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="Allgemeiner Index"
+             >Index</a></li>
+        <li><a href="../index.html">Plone v4.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2010, Jan Ulrich Hasecke, Thomas Lotze.
+      Mit <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.5 erstellt.
+    </div>
+  </body>
+</html>
