@@ -29,12 +29,12 @@ Textgröße
 
 Tastaturkürzel
   Plone hat zehn Tastaturkürzel, mit denen Sie wichtige Stellen auf
-  der Website sofort aufrufen können. Die Kürzel sind von~0 bis~9
+  der Website sofort aufrufen können. Die Kürzel sind von 0 bis 9
   durchnummeriert und werden mit Tastenkombinationen aufgerufen.  Auf
   der Seite »Barrierefreiheit« wird die Bedeutung aller Tastaturkürzel
   beschrieben und erklärt, wie man sie in verschiedenen Webbrowsern
   benutzt. Diese Seite erreichen Sie beispielsweise immer mit dem
-  Kürzel~0.
+  Kürzel 0.
 
 Über den Verweis »Kontakt« gelangen Sie zu einem Kontaktformular, mit dem
 Sie eine Nachricht an den Betreiber oder Verantwortlichen der Website

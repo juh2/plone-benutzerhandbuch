@@ -200,7 +200,7 @@ sollte, können Sie ihn zurückweisen.
 * Wählen Sie in der Revisionsliste einen Artikel aus.
 * Lesen Sie den Artikel.
 * Weisen Sie den Artikel zurück, indem Sie im Statusmenü den Eintrag
-  »Zurückweisen« (siehe Abbildung~\vref{fig:statusmenu-veroeffentlichen})
+  »Zurückweisen« (siehe Abbildung :ref:`fig_statusmenu-veroeffentlichen`)
   auswählen.
 * Achten Sie auf die Statusmeldung und darauf, dass der Artikel in der
   Ordnerübersicht nun den Status »privat« trägt und in Rot dargestellt wird.

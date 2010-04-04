@@ -150,6 +150,6 @@ muss für jeden Ordner und jede Kollektion einzeln abgeschätzt werden.
 
 Im letzten Formularfeld bestimmen Sie schließlich, wie viele Artikel
 in einem RSS-Feed enthalten sein sollen. Üblicherweise sind das etwa
-10 bis~20. Je mehr Artikel ein Feed enthält, desto seltener sollte er
+10 bis 20. Je mehr Artikel ein Feed enthält, desto seltener sollte er
 abgerufen werden.
 

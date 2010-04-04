@@ -20,9 +20,7 @@ Abbildung :ref:`fig-plonebase`).
 .. figure:: ../images/plonebase.png
    :width: 100%
 
-   Plone-Oberfläche für nicht angemeldete Besucher
-
-..    Die Hauptelemente sind der Kopf~(1), der Inhaltsbereich~(2), die Seitenspalten~(3) und der Fuß~(4).
+   Plone-Oberfläche für nicht angemeldete Besucher. Die Hauptelemente sind der Kopf (1), der Inhaltsbereich (2), die Seitenspalten (3) und der Fuß (4).
 
 
 Jede Seite der Website folgt dem gleichen Grundaufbau. Die Abbildung
@@ -48,8 +46,8 @@ Kopf
 
    Kopf einer Plone-Seite
 
-..    Kopf einer Plone-Seite. Er enthält ein Logo~(A), einige Verweise~(B), das
-..    Suchfeld~(C) und die Navigationsleiste~(D).}
+..    Kopf einer Plone-Seite. Er enthält ein Logo (A), einige Verweise (B), das
+..    Suchfeld (C) und die Navigationsleiste (D).}
   
 Abbildung :ref:`fig_ploneheader` stellt die Bestandteile des Kopfes einer
 jeden Seite der Website dar. Dabei handelt es sich um folgende vier Elemente:

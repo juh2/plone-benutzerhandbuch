@@ -9,7 +9,7 @@ Anmelden, dem Abmelden und dem Navigieren durch eine Plone-Website vertraut.
 
 Besuchen Sie als erstes Ihre Website. Die Internetadresse Ihrer Website
 erfahren Sie von Ihrem Administrator. Sie sehen nun in Ihrem
-Webbrowser die Startseite, deren Aufbau in Kapitel~\vref{sec:aussehen}
+Webbrowser die Startseite, deren Aufbau in Kapitel :ref:`sec_aussehen`
 erläutert wurde.
 
 

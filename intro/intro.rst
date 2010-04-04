@@ -63,7 +63,7 @@ Plone-Website arbeiten. Insbesondere soll es als Schulungsmaterial dienen,
 wobei sich der Tutoriumsteil für die Einführung neuer Nutzer in die Arbeit mit
 Plone eignet.
 
-Mit dieser Auflage haben wir das Buch für die Verwendung mit Plone~3.1
+Mit dieser Auflage haben wir das Buch für die Verwendung mit Plone 3.1
 aktualisiert, sprachlich überarbeitet und versucht, die Inhalte noch
 verständlicher zu strukturieren.
 

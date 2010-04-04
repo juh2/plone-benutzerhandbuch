@@ -126,7 +126,7 @@ Reihe von Aktionen (siehe Abbildung :ref:`fig_benutzermenue`):
 
 Ihr Name
   Der Verweis, der mit Ihrem Namen beschriftet ist, führt Sie zu
-  Ihrer persönlichen Seite (siehe Abschnitt~\vref{sec:personliche-seite-1}).
+  Ihrer persönlichen Seite (siehe Abschnitt :ref:`sec_personliche-seite-1`).
 
 Mein Ordner
   Hier gelangen Sie gegebenenfalls zu Ihrem persönlichen

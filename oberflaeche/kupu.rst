@@ -348,7 +348,7 @@ Sollte im gleichen Ordner bereits ein Artikel vorhanden sein, dessen Kurzname
 mit der eingeklammerten Wortgruppe übereinstimmt, wird der geklammerte Text
 nach dem Speichern zu einem gewöhnlichen Verweis auf diesen Artikel.
 Anderenfalls legt Plone einen Verweis an, über den ein neuer Artikel
-hinzugefügt werden kann (siehe Abschnitt~\vref{sec:hinzufugen-mit-wiki}).
+hinzugefügt werden kann (siehe Abschnitt :ref:`sec_hinzufugen-mit-wiki`).
 
 Internetverweise
 ~~~~~~~~~~~~~~~~
@@ -462,11 +462,15 @@ Text zu optimieren.
 
 .. Screenshot enthält noch falsche Übersetzung
 
-.. _fig_kupu-tabelle-bearbeiten:
+.. .. _fig_kupu-tabelle-bearbeiten:
 
-.. figure: ../images/kupu-tabelle-bearbeiten.png
+.. fig:: _fig_kupu-tabelle-bearbeiten
 
-  Mit Kupu eine Tabelle bearbeiten
+   Mit Kupu eine Tabelle bearbeiten
+
+.. img:: ../images/kupu-tabelle-bearbeiten.png
+
+
 
 Um eine bestehende Tabelle zu ändern, öffnen Sie Kupus Tabellenfenster,
 während sich der Cursor in der Tabelle befindet. Das Tabellenfenster enthält

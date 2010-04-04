@@ -207,7 +207,7 @@ Die Liste der Suchergebnisse enthält für jeden Treffer den Titel und
 die Beschreibung, eine Prozentangabe zur Relevanz, den Ersteller, das
 Datum der letzten Änderung und die Kategorien.  Ein Symbol links vom
 Titel zeigt Ihnen den Artikeltyp an. Der Titel ist ein Verweis zum
-jeweiligen Artikel. Listen mit mehr als 30~Treffern werden auf mehrere
+jeweiligen Artikel. Listen mit mehr als 30 Treffern werden auf mehrere
 Seiten verteilt, wobei Sie jeweils am Ende der Seiten Verweise zu den
 anderen Teillisten finden.
 

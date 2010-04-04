@@ -291,7 +291,7 @@ Interner Entwurf
   keinen Zugriff.
 
 Privat
- (rot) Siehe Abschnitt~\vref{sec:comm-arbe}.
+ (rot) Siehe Abschnitt :ref:`sec_comm-arbe`.
 
 Zur Redaktion eingereicht
  (orange) Siehe Abschnitt :ref:`sec_einf-publ`.

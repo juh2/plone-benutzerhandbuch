@@ -32,7 +32,7 @@ Passwort wiederholen
   hier das gleiche Passwort erneut eingeben, um ein versehentliches Vertippen
   auszuschließen.
 
-Der Link zu dieser Seite ist 14~Tage lang gültig. Nach Ablauf dieser Zeit ist
+Der Link zu dieser Seite ist 14 Tage lang gültig. Nach Ablauf dieser Zeit ist
 eine neue Anmeldung notwendig.
 
 Durch die Wahl eines eigenen Passworts wird sichergestellt, dass

@@ -29,7 +29,8 @@ Ordners. Unterhalb der Reiter für die Artikelansichten befindet sich das Menü
    
 .. figure::
    ../images/add-menu-seite.png
-   :width:100%
+   :width: 100%
+   :alt: Bildschirmfoto des Menüs zum Anlegen von Artikeln
 
    Menü zum Anlegen von Artikeln
 
@@ -42,6 +43,8 @@ Abbildung :ref:`fig_homepage-edit-1`).
 .. _fig_homepage-edit-1:
 .. figure::
    ../images/homepage-edit-1.png
+   :width: 100%
+   :alt: Das Formular zum Anlegen und Bearbeiten einer Seite
 
    Bearbeitungsformular einer Seite
 
@@ -151,7 +154,7 @@ Abbildung :ref:`fig_homepage-edit-2`).
 
 Falls die Bearbeitungsleiste fehlt, haben Sie den Texteditor Kupu in Ihren
 persönlichen Einstellungen möglicherweise nicht ausgewählt. Siehe dazu das
-erste Tutorium auf Seite~\pageref{sec:tut-profil}.
+erste Tutorium auf Seite :ref:`sec_tut-profil`.
 
 .. pageref auflösen
 
@@ -281,7 +284,7 @@ Abbildung :ref:`fig_historie-tutorium`).
 
 Sie enthält eine Liste aller bisherigen Versionen der Seite. Als
 Arbeitskopie wird die aktuelle, zuletzt gespeicherte Version
-bezeichnet. Version~0 ist der Zustand der Seite unmittelbar nach dem
+bezeichnet. Version 0 ist der Zustand der Seite unmittelbar nach dem
 Anlegen. Sie können alte Versionen in einer Vorschau unterhalb der
 Liste anzeigen lassen.
 
@@ -308,8 +311,8 @@ Machen Sie sich nun mit der Arbeitsweise dieser Aktionen vertraut.
   das Ergebnis in der Ansicht »Anzeigen« an.
 * Wechseln Sie erneut in die Ansicht »Versionen«. Es ist eine neue
   Arbeitskopie hinzugekommen. In der Spalte »Kommentar« finden Sie einen
-  Hinweis, dass zur Version~0 zurückgewechselt wurde.
-  Die alte Arbeitskopie wird nun als Version~1 bezeichnet.
+  Hinweis, dass zur Version 0 zurückgewechselt wurde.
+  Die alte Arbeitskopie wird nun als Version 1 bezeichnet.
 * Nehmen Sie weitere Änderungen an der Seite vor und vollziehen Sie nach,
   wie diese Änderungen als verschiedene Versionen gespeichert werden.
 

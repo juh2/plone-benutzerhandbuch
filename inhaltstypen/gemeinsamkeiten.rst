@@ -49,7 +49,7 @@ Abbildung :ref:`fig_gemeinsamkeiten-anzeige`):
 
 .. figure:: ../images/gemeinsamkeiten-anzeige.png
 
-   Aufbau der Anzeige eines Artikels Aufbau der Anzeige eines Artikels: Titel~(1), Verfasserzeile~(2), Beschreibung~(3), Artikelaktionen~(4), Historie~(5) und Vor- und Zurückblättern~(6)
+   Aufbau der Anzeige eines Artikels Aufbau der Anzeige eines Artikels: Titel (1), Verfasserzeile (2), Beschreibung (3), Artikelaktionen (4), Historie (5) und Vor- und Zurückblättern (6)
 
 
 * Titel
@@ -415,7 +415,7 @@ sollten. Er wird nicht nur im Content-Management angewandt, sondern
 erleichtert beispielsweise Bibliotheken den Austausch von Informationen über
 ihre Datenbestände.
 
-Metadaten nach Dublin-Core-Standard umfassen derzeit 15~Basisangaben und
+Metadaten nach Dublin-Core-Standard umfassen derzeit 15 Basisangaben und
 eine größere Zahl zusätzlicher, feiner unterteilter Felder.
 Tabelle :ref:`tab_dublincore` fasst zusammen, welche davon in Plone verfügbar sind.
 
