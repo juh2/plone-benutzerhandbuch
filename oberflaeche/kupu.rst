@@ -462,14 +462,11 @@ Text zu optimieren.
 
 .. Screenshot enthält noch falsche Übersetzung
 
-.. .. _fig_kupu-tabelle-bearbeiten:
+.. _fig_kupu-tabelle-bearbeiten:
 
-.. fig:: _fig_kupu-tabelle-bearbeiten
+.. figure:: ../images/kupu-tabelle-bearbeiten.png
 
    Mit Kupu eine Tabelle bearbeiten
-
-.. img:: ../images/kupu-tabelle-bearbeiten.png
-
 
 
 Um eine bestehende Tabelle zu ändern, öffnen Sie Kupus Tabellenfenster,

@@ -18,7 +18,7 @@ jeweils dafür benötigten Rechte besitzen. Sie können mit Hilfe von Reitern
 .. _fig_tabs:
 
 .. figure:: ../images/ansichten-reiter.png
-   :width:100%
+   :width: 100%
 
    Reiter für Ansichten eines Artikels
 
@@ -231,11 +231,11 @@ Verweise
  Artikelliste des aktuellen Ordners, einem Verzeichnispfad und einem Suchfeld
  (siehe Abbildung :ref:`fig_verweise-artikel-suchen`).
 
-.. _fig_verweise-artikel-suchen:
+ .. _fig_verweise-artikel-suchen:
 
-.. figure:: ../images/verweise-artikel-suchen.png
+ .. figure:: ../images/verweise-artikel-suchen.png
 
-   Artikelsuche beim Hinzufügen von Verweisen
+    Artikelsuche beim Hinzufügen von Verweisen
 
  Sie können damit durch die Website navigieren, Artikel suchen sowie
  Artikel aus dem angezeigten Ordner oder den Suchergebnissen ansehen
@@ -244,7 +244,7 @@ Verweise
  Um einen Verweis aus der Liste zu löschen, entfernen Sie das neben
  ihm stehende Häkchen und speichern Ihre Änderungen.
 
-Ort]
+Ort
 
  Sie können hier den Artikel in Bezug zu einem geografischen Ort setzen. Einige
  Erweiterungen für Plone können diese Information auswerten, indem

@@ -17,8 +17,9 @@ Sie erreichen die älteren Versionen eines Artikels über die Ansicht
 .. _fig_ansicht-versionen:
 
 .. figure:: ../images/ansicht-versionen.png
+   :width: 100%
 
-Die Ansicht »Versionen«
+   Die Ansicht »Versionen«
 
 Dort finden Sie eine Tabelle vor, in der die aktuelle Arbeitskopie und die
 vorherigen Versionen aufgelistet sind. Die Tabelle stellt Ihnen alle

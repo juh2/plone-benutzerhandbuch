@@ -12,18 +12,12 @@ Plone Benutzerhandbuch
 
    Disclaimer.rst
    intro/intro.rst
+   intro/ueber-das-buch.rst
    cms/cms.rst
    Tutorium.rst
-   grundlagen/grundlagen.rst
-   aussehen/aussehen.rst
-   tutorien/tutorien.rst
    Referenz.rst
-   inhaltstypen/inhaltstypen.rst
-   umgang/umgang.rst
-   benutzer/benutzer.rst
-   oberflaeche/oberflaeche.rst
    admin/admin.rst
    literatur/literatur.rst
-* :ref:`genindex`
+   * :ref:`genindex`
 
 

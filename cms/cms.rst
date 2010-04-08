@@ -29,6 +29,7 @@ Plone ist ein solches allgemeines CMS. Es lässt sich an die speziellen
 Bedürfnisse verschiedener Organisationen anpassen und ist daher für
 viele Anwendungsfälle geeignet.
 
+
 Ein CMS bietet seinen Benutzern neben dem Speichern von Dateien eine Reihe
 weiterer Vorteile, die nachfolgend erläutert werden.
 

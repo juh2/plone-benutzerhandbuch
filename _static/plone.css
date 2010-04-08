@@ -25,6 +25,7 @@ body {
 
 div.document {
     float: none;
+    background-image: none;
     background-color: white;
     text-align: left;
 }
@@ -41,6 +42,7 @@ div.body {
 
 div.related {
     font-size: 1em;
+    background-image: none;
 }
 
 div.related ul {

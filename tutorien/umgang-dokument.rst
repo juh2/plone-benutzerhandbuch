@@ -118,7 +118,7 @@ Abbildung :ref:`fig_homepage-edit-no-title`).
 
 .. figure::
    ../images/homepage-edit-no-title.png
-   :width:100%
+   :width: 100%
 
    Fehlermeldung wegen unausgefüllten Pflichtfelds
 
@@ -224,12 +224,12 @@ müssen Sie in Ihrem Webbrowser Javascript eingeschaltet haben.
 * Der Seitentitel wechselt daraufhin in den Bearbeitungsmodus (siehe
   Abbildung :ref:`fig_titel-bearbeiten-ajax`).
 
-.. _fig_titel-bearbeiten-ajax:
+  .. _fig_titel-bearbeiten-ajax:
 
-.. figure::
-   ../images/titel-bearbeiten-ajax.png
+  .. figure::
+     ../images/titel-bearbeiten-ajax.png
 
-   Einzelne Elemente der Seite direkt bearbeiten
+     Einzelne Elemente der Seite direkt bearbeiten
 
   Ändern Sie den Titel und speichern Sie die Änderung mit der Schaltfläche
   »Speichern« unterhalb des Eingabefeldes.

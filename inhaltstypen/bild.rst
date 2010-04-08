@@ -1,3 +1,5 @@
+.. index:: Bild (Artikeltyp) 
+
 .. _sec_bild:
 
 ======
@@ -21,6 +23,7 @@ Abbildung :ref:`fig_bild_).
 
    Anzeige eines Bildes
 
+.. index:: Vollbilddarstellung
 
 Das Bild selbst ist dabei ein Verweis auf seine Vollbilddarstellung, die nur
 das Bild und einen Verweis zurück zur Anzeigeansicht enthält. Sie können also
@@ -29,6 +32,8 @@ zwischen der Anzeige und der Vollbilddarstellung hin- und herspringen.
 Die Bearbeitungsansicht eines Bildes enthält neben den allgemeinen
 Feldern wie Titel und Beschreibung ein Formularfeld, mit dem Sie eine
 Bilddatei von Ihrem Rechner hochladen können. 
+
+.. index:: Bild bearbeiten 
 
 Um ein Bild zu verändern, öffnen Sie es im Allgemeinen in einem
 Bildbearbeitungsprogramm an Ihrem Arbeitsplatz. Anschließend laden Sie das

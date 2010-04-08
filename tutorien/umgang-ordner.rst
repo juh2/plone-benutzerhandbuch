@@ -108,7 +108,7 @@ Plone kennt verschiedene Vorlagen für die Anzeige eines Ordners.
 
 .. figure::
     ../images/ansicht-tabelle.png
-    :width:100% 
+    :width: 100% 
 
     Darstellungen der Ordneranzeige
 

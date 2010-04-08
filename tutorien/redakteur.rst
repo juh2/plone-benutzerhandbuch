@@ -94,12 +94,12 @@ Sie können mehrere Artikel gleichzeitig zur Veröffentlichung einreichen.
   Tabelle. Sie gelangen zu einem Formular (siehe
   Abbildung :ref:`fig_formular-arbeitsablauf`),
 
-.. _fig_formular-arbeitsablauf
+  .. _fig_formular-arbeitsablauf
 
-.. figure::
-   ../images/formular-arbeitsablauf.png
+  .. figure::
+     ../images/formular-arbeitsablauf.png
 
-   Das erweiterte Formular für den Arbeitsablauf
+     Das erweiterte Formular für den Arbeitsablauf
 
   mit dem Sie die ausgewählten Artikel
   zur Veröffentlichung einreichen können. Das Formular wird in

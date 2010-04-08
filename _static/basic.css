@@ -68,7 +68,7 @@ div.sphinxsidebar form {
 }
 
 div.sphinxsidebar input {
-    border: 1px solid #98dbcc;
+    border: 1px solid #0083BE;
     font-family: sans-serif;
     font-size: 1em;
 }
@@ -171,7 +171,7 @@ dt:hover > a.headerlink {
 div.body p.caption {
     text-align: inherit;
     font-style: italic;
-    font-size:80%
+    font-size:90%
 }
 
 div.body td {
@@ -276,6 +276,10 @@ th {
 
 /* -- other body styles ----------------------------------------------------- */
 
+dt {
+    font-weight: bold;
+}
+
 dl {
     margin-bottom: 15px;
 }
@@ -345,6 +349,8 @@ dl.glossary dt {
     margin-bottom: 0;
     margin-left: 1.5em;
 }
+
+
 
 /* -- code displays --------------------------------------------------------- */
 
