@@ -18,6 +18,8 @@ Plone Benutzerhandbuch
    Referenz.rst
    admin/admin.rst
    literatur/literatur.rst
-   * :ref:`genindex`
+
+* :ref:`genindex`
+
 
 

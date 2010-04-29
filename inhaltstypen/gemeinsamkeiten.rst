@@ -13,7 +13,9 @@ So besitzt jeder Artikel folgende drei Ansichten:
 
 Der Zugriff auf die einzelnen Ansichten ist Ihnen nur gestattet, wenn Sie die
 jeweils dafür benötigten Rechte besitzen. Sie können mit Hilfe von Reitern
-(siehe Abbildung :ref:`fig_tabs`)
+zwischen den für Sie verfügbaren Ansichten eines Artikels wechseln.
+
+.. (siehe Abbildung :ref:`fig_tabs`)
 
 .. _fig_tabs:
 
@@ -22,7 +24,6 @@ jeweils dafür benötigten Rechte besitzen. Sie können mit Hilfe von Reitern
 
    Reiter für Ansichten eines Artikels
 
-zwischen den für Sie verfügbaren Ansichten eines Artikels wechseln.
 
 Anzeige und Bearbeitungsansicht sind in ihren Grundzügen für alle Artikel
 gleich. Sie werden direkt im Anschluss erläutert, die Ansicht »Zugriff« in
@@ -48,6 +49,7 @@ Abbildung :ref:`fig_gemeinsamkeiten-anzeige`):
 .. _fig_gemeinsamkeiten-anzeige:
 
 .. figure:: ../images/gemeinsamkeiten-anzeige.png
+   :width: 100%
 
    Aufbau der Anzeige eines Artikels Aufbau der Anzeige eines Artikels: Titel (1), Verfasserzeile (2), Beschreibung (3), Artikelaktionen (4), Historie (5) und Vor- und Zurückblättern (6)
 
@@ -76,6 +78,7 @@ können (siehe Abbildung :ref:`fig:anzeige-waehlen`).
 .. _fig_anzeige-waehlen:
 
 .. figure:: ../images/anzeige-waehlen.png
+   :width: 50%
 
    Darstellung eines Ordners auswählen
 
@@ -96,6 +99,7 @@ Abbildung :ref:`fig_sofortbearbeitung`).
 .. _fig_sofortbearbeitung:
 
 .. figure:: ../images/titel-bearbeiten-ajax.png
+   :width: 100%
 
    Die Sofortbearbeitung einer Seite
 
@@ -128,6 +132,7 @@ der Seitenüberschrift (siehe Abbildung :ref:`fig_bearbeiten-teilformulare`).
 .. _fig_bearbeiten-teilformulare:
 
 .. figure:: ../images/bearbeiten-teilformulare.png
+   :width: 100%
 
    Auswahl eines Teilformulars der Bearbeitungsansicht
 
@@ -148,6 +153,7 @@ Im Teilformular »Standard« (siehe Abbildung :ref:`fig_bearbeiten`)
 .. _fig_bearbeiten:
 
 .. figure:: ../images/seite-bearbeiten-standard.png
+   :width: 100%
 
    Bearbeitungsansicht einer Seite
 
@@ -195,6 +201,7 @@ Abbildung :ref:`fig_seite-bearbeiten-kategorisierung`)
 .. _fig_seite-bearbeiten-kategorisierung.png
 
 .. figure:: ../images/seite-bearbeiten-kategorisierung.png
+   :width: 100%
 
    Das Teilformular »Kategorisierung«
 
@@ -234,6 +241,7 @@ Verweise
  .. _fig_verweise-artikel-suchen:
 
  .. figure:: ../images/verweise-artikel-suchen.png
+    :width: 100%
 
     Artikelsuche beim Hinzufügen von Verweisen
 
@@ -266,6 +274,7 @@ zu beschränken (siehe Abbildung :ref:`fig_seite-bearbeiten-datum`).
 .. _fig_seite-bearbeiten-datum
 
 .. figure:: ../images/seite-bearbeiten-datum.png
+    :width: 100%
 
    Das Teilformular »Datum«
 
@@ -301,6 +310,7 @@ Abbildung :ref:`fig_seite-bearbeiten-urheber`)
 .. _fig_seite-bearbeiten-urheber:
 
 .. figure:: ../images/seite-bearbeiten-urheber.png
+    :width: 100%
 
 Das Teilformular »Urheber«
 
@@ -344,6 +354,7 @@ Artikeltypen gemeinsam. Abbildung :ref:`fig_seite-bearbeiten-einstellungen`
 .. _fig_seite-bearbeiten-einstellungen:
 
 .. figure:: ../images/seite-bearbeiten-einstellungen.png
+    :width: 100%
 
    Das Teilformular »Einstellungen«
 
@@ -377,6 +388,7 @@ Warnhinweis (siehe Abbildung :ref:`fig_locking`).
 .. _fig_locking:
 
 .. figure:: ../images/locking.png
+    :width: 100%
 
 Warnmeldung beim Zugriff auf gesperrten Artikel
 
@@ -477,6 +489,7 @@ wurden (siehe Abbildung :ref:fig_portlet-recent).
 .. _fig_portlet-recent:
 
 .. figure:: ../images/portlet-recent.png
+    :width: 50%
 
    Portlet »Aktuelle Änderungen«
 

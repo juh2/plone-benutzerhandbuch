@@ -11,6 +11,9 @@ ein und widmen uns danach jedem einzelnen Artikeltyp.  Tabelle
 Typen und ihre Symbole.
 
 .. _tab_artikeltypen:
+
+.. table:: Artikeltypen
+
 +-----------------------------------------------------+---------------------+
 | Symbol                                              | Artikeltyp          |
 +=====================================================+=====================+
