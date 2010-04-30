@@ -12,14 +12,15 @@
 body {
     font-family: 'Helvetica Neue', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva',
                  'Verdana', sans-serif;
-    font-size: 14px;
+    font-size: 100%;
     line-height: 150%;
     text-align: center;
-    background-color: #205C90;
+    background-color: white;
     color: black;
     padding: 0;
     border: 1px solid #aaa;
-    margin: 0px 80px 0px 80px;
+    margin: 0px 0px 0px 0px;
+    border-top: 1em solid #329fd7;
 
 }
 
@@ -31,8 +32,8 @@ div.document {
 }
 
 div.bodywrapper {
-    margin: 0 240px 0 0;
-    border-right: 1px solid #ccc;
+    margin: 0 300px 0 0;
+    border-right: 0px solid #fff;
 }
 
 div.body {
@@ -46,10 +47,10 @@ div.related {
 }
 
 div.related ul {
-    background-color: #e5e5e5;
+    background-color: white;
     height: 2em;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 0px solid #ddd;
+    background-image: none;
 }
 
 div.related ul li {
@@ -77,12 +78,13 @@ div.related ul li a:hover {
 
 div.sphinxsidebarwrapper {
     padding: 0;
+    background-color: #F6F6F6;
 }
 
 div.sphinxsidebar {
     margin: 0;
     padding: 0.5em 15px 15px 0;
-    width: 210px;
+    width: 280px;
     float: right;
     font-size: 1em;
     text-align: left;
@@ -101,7 +103,7 @@ div.sphinxsidebar h3, div.sphinxsidebar h4 {
 		  margin-bottom:0;
 		  margin-left:-1px;
 		  margin-right:-1px;
-		  margin-top:-1px;
+		  margin-top:0px;
 		  padding-bottom:0;
 		  padding-left:0.5em;
 		  padding-right:0.5em;
@@ -124,6 +126,14 @@ div.sphinxsidebar ul ul {
     margin-left: 20px;
 }
 
+.logo {
+    background-color: white;
+    margin-bottom: 1px
+}
+
+p.logo {
+}
+    
 div.footer {
     background-color: #404040;
     color: #fff;
@@ -161,6 +171,7 @@ h1 {
     margin: 0;
     padding: 0.7em 0 0.3em 0;
     font-size: 1.625em;
+    color: black;
     letter-spacing: -0.01em;
 }
 
