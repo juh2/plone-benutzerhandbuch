@@ -1,0 +1,32 @@
+Bilder mit Alt-TAG versehen
+[_] Beschreibung Installation
+[_] Beschreibung Meine Einstellungen
+[_] Beschreibung Konfiguration (4.0/3.3)
+	[_] Artikeltypen / Artikeltypen
+	[_] Aussehen/Aussehen
+	[_] Benutzer und Gruppen / Benutzer und Gruppen
+	[_] E-Mail/ E-Mail
+	[_] Editing
+	[_] Erweiterungen/Zusatzprotokolle
+	[_] Fehler/Fehler
+	[_] HTML-Filter/HTML-Filter
+	[_] Handhabung von Bildern
+	[_] Kalender/Kalender
+	[_] Kollektionen/Kollektion
+	[_] Navigation/Navigation
+	[_] Regeln/Regeln
+	[_] Sicherheit/Sicherheit
+	[_] Sprache/Sprache
+	[_] Suche/Suche
+	[_] Textauszeichnung/Textauszeichnung
+	[_] Visueller Editor TinyMCE / Visual Editor
+	[_] Wartung/Wartung
+	[_] Website/Website
+	[_] Zope-Management-Oberfläche / Zope-Management-Oberfläche
+gocept Theuni/Tomas fragen nach Screenshots in Farbe
+Keine itemize Auflistung in Tabelle andere Lösung finden
+Allgemeine E-Mail formulieren, um Sponsoren zu finden
+Repository einrichten Branch 4.0 und Branch 3.3
+: Branch 3.3 so lange weiterführen, wie es geht und erst so spät wie möglich
+: in 4.0 wechseln.
+Repository festlegen. Launchpad? Bitbucket? Privat?
