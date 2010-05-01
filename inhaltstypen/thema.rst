@@ -1,4 +1,4 @@
-.. _sec_thema:
+.. _sec_kollektion:
 
 ============
  Kollektion
@@ -28,10 +28,11 @@ Anzeigeansicht, aus denen Sie im Darstellungsmenü wählen können:
 
 Als Beispiel zeigt Abbildung :ref:`fig_thema` die Darstellung als Liste.
 
-.. _fig_thema:
+.. _fig_kollektion:
 
 .. figure:: ../images/thema.png
-
+   :width: 100%
+   
    Darstellung einer Kollektion als Liste
 
 Wie Ordner besitzen Kollektionen auch keinen eigenen
@@ -41,6 +42,7 @@ nach welchen Kriterien sie Artikel zusammenstellt und wie sie sie anzeigt.
 .. _fig_kollektion-bearbeiten:
 
 .. figure:: ../images/kollektion-bearbeiten.png
+   :width: 100%
 
    Bearbeitungsansicht einer Kollektion
 
@@ -245,6 +247,7 @@ Abbildung :ref:`fig_kollektion-mit-unterkollektionen`).
 .. _fig_kollektion-mit-unterkollektionen
 
 .. figure:: ../images/kollektion-mit-unterkollektionen.png
+   :width: 100%
 
    Anzeige einer Kollektion mit Unterkollektionen
 
@@ -275,6 +278,7 @@ veröffentlichen.
 .. _fig_unterthemen:
 
 .. figure:: ../images/unterthemen.png
+   :width: 100%
 
    Ansicht »Unterkollektionen«
 

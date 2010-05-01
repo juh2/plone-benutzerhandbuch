@@ -38,7 +38,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Plone'
-copyright = u'2010, Jan Ulrich Hasecke und Thomas Lotze'
+copyright = u'2010, Jan Ulrich Hasecke und Thomas Lotze, Creative Commons Lizenz 2.0 BY-NC-SA (http://creativecommons.org/licenses/by-nc-sa/2.0/de/)' 
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

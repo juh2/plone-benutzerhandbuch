@@ -40,6 +40,8 @@ ausüben, ist es oft sinnvoll, sie in einer Gruppe zusammenzufassen und
 die Funktion der Gruppe zu übertragen. Die Funktion gilt dann für alle
 Gruppenmitglieder.
 
+.. _sec_standardfunktionen:
+
 Standardfunktionen
 ==================
 
@@ -86,6 +88,8 @@ und in der Artikelansicht »Zugriff« delegieren dürfen.
 
 Artikelansicht »Freigabe«
 =========================
+
+.. TODO Achtung das ist schon 4.0
 
 Wenn Sie Besitzer oder Verwalter eines Artikels sind, steht Ihnen die
 Ansicht »Freigabe« zur Verfügung. Dort können Sie Funktionen an andere

@@ -12,6 +12,7 @@ Abbildung :ref:`fig_dokument`).
 .. _fig_dokument:
 
 .. figure:: ../images/dokument.png
+   :width: 100%
 
    Anzeige einer Seite
 
@@ -48,6 +49,7 @@ Abbildung :ref:`fig_seite-praesentationsmodus`).
 .. _fig_seite-praesentationsmodus:
 
 .. figure:: ../images/praesentationsmodus.png
+   :width: 100%
 
 Eine Seite im Präsentationsmodus
 
@@ -69,6 +71,7 @@ Abschnitten setzen (siehe Abbildung :ref:`fig_seite-inhaltsverzeichnis`).
 .. _fig_seite-inhaltsverzeichnis:
 
 .. figure:: ../images/seite-inhaltsverzeichnis.png
+   :width: 100%
 
    Automatisch erzeugtes Inhaltsverzeichnis
     

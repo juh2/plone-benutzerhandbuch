@@ -7,6 +7,7 @@ Plone Benutzerhandbuch
 ======================
 
 
+
 .. toctree::
    :maxdepth: 2
 
@@ -20,6 +21,7 @@ Plone Benutzerhandbuch
    literatur/literatur.rst
 
 * :ref:`genindex`
+* :ref:`glossary`
 
 
 

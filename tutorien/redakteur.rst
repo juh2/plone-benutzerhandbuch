@@ -70,6 +70,7 @@ Einen einzelnen Artikel zur Veröffentlichung einreichen
 
 .. figure::
    ../images/zur-veroeffentlichung-einreichen.png
+   :width: 100%
 
    Einen Artikel zur Veröffentlichung einreichen
 
@@ -93,14 +94,6 @@ Sie können mehrere Artikel gleichzeitig zur Veröffentlichung einreichen.
 * Betätigen Sie die Schaltfläche »Status ändern« unterhalb der
   Tabelle. Sie gelangen zu einem Formular (siehe
   Abbildung :ref:`fig_formular-arbeitsablauf`),
-
-  .. _fig_formular-arbeitsablauf
-
-  .. figure::
-     ../images/formular-arbeitsablauf.png
-
-     Das erweiterte Formular für den Arbeitsablauf
-
   mit dem Sie die ausgewählten Artikel
   zur Veröffentlichung einreichen können. Das Formular wird in
   Abschnitt :ref:`sec_batch-publishing` im Detail beschrieben.
@@ -110,6 +103,14 @@ Sie können mehrere Artikel gleichzeitig zur Veröffentlichung einreichen.
 * Achten Sie auf die Statusmeldung und darauf, dass alle eingereichten
   Artikel im Ordner nun den Status »zur Veröffentlichung eingereicht« tragen
   und in einer anderen Farbe (Orange) dargestellt werden.
+
+.. _fig_formular-arbeitsablauf:
+
+.. figure::
+   ../images/formular-arbeitsablauf.png
+   :width: 100%
+
+   Das erweiterte Formular für den Arbeitsablauf
 
 Sie erreichen das Formular auch über den Menüeintrag »Erweitert...« im
 Statusmenü eines Artikels. Sie werden vor allem dann das Formular benötigen,
@@ -135,6 +136,7 @@ Revisionsliste (siehe Abbildung :ref:`fig_revisionsliste`).
 
 .. figure::
    ../images/revisionsliste.png
+   :width: 100%
 
    Portlet »Revisionsliste«
 
@@ -151,19 +153,18 @@ Artikel veröffentlichen
 * Lesen und bearbeiten Sie gegebenenfalls den Artikel.
 * Veröffentlichen Sie den Artikel, indem Sie im Statusmenü den Eintrag
   »Veröffentlichen« (siehe Abbildung :ref:`fig_statusmenu-veroeffentlichen`)
+  auswählen.
+* Achten Sie auf die Statusmeldung und darauf, dass der Artikel in der
+  Ordneransicht nun mit dem Status »veröffentlicht« angezeigt und in Blau
+  dargestellt wird.
 
 .. _fig_statusmenu-veroeffentlichen:
 
 .. figure::
    ../images/veroeffentlichen.png
+   :width: 100%
 
    Einen Artikel veröffentlichen
-
-  auswählen.
-
-* Achten Sie auf die Statusmeldung und darauf, dass der Artikel in der
-  Ordneransicht nun mit dem Status »veröffentlicht« angezeigt und in Blau
-  dargestellt wird.
 
 Der veröffentlichte Artikel ist nun auch für anonyme Besucher der Website
 sichtbar.
@@ -182,6 +183,7 @@ Abbildung :ref:`fig_historie-arbeitsablauf`).
 
 .. figure::
    ../images/historie-arbeitsablauf.png
+   :width: 100%
 
    Historie des Arbeitsablaufes
 

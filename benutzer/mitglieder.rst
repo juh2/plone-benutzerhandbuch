@@ -261,8 +261,9 @@ Termine
      Nachrichtenportlet)
 
 .. _sec_statisches-portlet-hinzufuegen:
+
 Statisches Portlet
-  (Abbildung :ref:`fig_statisches-portlet-hinzufuegen)
+  (Abbildung :ref:`fig_statisches-portlet-hinzufuegen`)
 
 .. _fig_statisches-portlet-hinzufuegen:
 
@@ -391,7 +392,6 @@ Homepage
   eintragen. 
 
 Porträt
-
   Ein Foto von Ihnen, das in Ihrem Profil angezeigt wird. Wenn Sie ein
   zu großes Bild hochladen, wird es auf eine sinnvolle Größe skaliert.
   Um das Bild zu löschen, kreuzen Sie »Porträt löschen« an.
@@ -400,7 +400,6 @@ Porträt
 In den übrigen Feldern können Sie Plones Verhalten beeinflussen:
 
 Texteditor
-
   Hier wählen Sie aus, mit welchem Texteditor
   Sie den Haupttext Ihrer Seiten bearbeiten wollen. Es gibt
   zwei Möglichkeiten:
@@ -415,7 +414,6 @@ Texteditor
     Textauszeichnungssprachen eingeben.
 
 Bearbeitung der Kurznamen erlauben
-
   Wählen Sie aus, ob Sie die Kurznamen
   Ihrer Artikel ändern wollen. Blenden Sie das Feld aus, wenn Sie eine
   aufgeräumtere Bearbeitungsansicht bevorzugen. Unabhängig davon können Sie
@@ -474,17 +472,14 @@ Sie können Benutzer Ihrer Website nach folgenden Kriterien suchen:
 
 
 Name
-
   Geben Sie hier den Benutzernamen des gesuchten Benutzers
   ein. Sie können auch nach einem Teilwort suchen.
 
 E-Mail
-
   Geben Sie die E-Mail-Adresse des gesuchten Benutzers ein.
   Auch hier können Sie nach einem Teil der Adresse suchen.
 
 Vollständiger Name des Benutzers
-
   Geben Sie hier den Vor- oder Nachnamen
   des Benutzers ein. Sie können auch ein Teilwort oder den gesamten Namen
   eingeben.

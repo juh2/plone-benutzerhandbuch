@@ -23,6 +23,7 @@ Abbildung :ref:`fig_ui-rahmen`).
 .. _fig_ui-rahmen:
 
 .. figure:: ../images/rahmen.png
+   :width: 100%
 
    Reiter und Menüs am Beispiel eines Ordners
 
@@ -33,27 +34,23 @@ Je nach Ihren Berechtigungen sehen Sie folgende Ausklappmenüs:
 
 
 Aktionen
-
   Hier können Sie den Artikel kopieren, verschieben, löschen, in der
   Zwischenablage gespeicherte Artikel in den aktuellen Ordner einfügen
   und eine Arbeitskopie des Artikels erstellen (siehe Abschnitt
   :ref:`sec-arbeitskopie-erstellen`).
 
 Darstellung
-
   Falls es für den Artikel mehrere Darstellungsmöglichkeiten gibt,
   können Sie hier eine auswählen. Bei Ordnern haben Sie die
   Möglichkeit, einen Artikel aus dem Ordner als Anzeige zu setzen
   (siehe Abschnitt :ref:`sec_anzeige-waehlen`).
 
 Hinzufügen
-
   Sie erstellen einen neuen Artikel im aktuellen Ordner, indem
   Sie hier den gewünschten Artikeltyp auswählen (siehe
   Abschnitt :ref:`sec_artikel-erstellen`).
 
 Status
-
   Der Titel dieses Menüs zeigt den aktuellen Status des Artikels
   an. Die Menüeinträge sind die möglichen Statuswechsel (siehe
   Abschnitt :ref:`sec_workflow`).
@@ -68,6 +65,7 @@ Die Artikelaktionen finden Sie unterhalb der Anzeige des Artikels
 .. _fig_doc-actions:
 
 .. figure:: ../images/doc-actions.png
+   :width: 100%
 
    Artikelaktionen am Beispiel eines Termins
 
@@ -118,6 +116,7 @@ hervorgehoben (siehe Abbildung :ref:`fig_statusmeldung`).
 .. _fig_statusmeldung:
 
 .. figure:: ../images/statusmeldung.png
+   :width: 100%
 
    Eine Statusmeldung
 
@@ -126,22 +125,13 @@ besitzen und durch jeweils eigene Farben gekennzeichnet werden:
 
 
 Information (gelblich)
-
   beispielsweise die Anmeldebestätigung
 
 Warnung (orange)
-
   beispielsweise die Warnung vor defekten Verweisen beim Löschen
   referenzierter Artikel
 
 Fehler (rot)
-
   beispielsweise beim Speichern unvollständig ausgefüllter Formulare
 
 
-     % Local Variables:
-     % TeX-master: "../plonebook-3_1-de"
-     % TeX-command-default: "LaTeX"
-     % TeX-PDF-mode: t
-     % font-latex-quotes: german
-     % End:

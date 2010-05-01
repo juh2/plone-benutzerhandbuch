@@ -15,6 +15,7 @@ Kommentare (siehe Abbildung :ref:`fig_diskussion`).
 .. _fig_diskussion:
 
 .. figure:: ../images/diskussion.png
+   :width: 100%
 
    Kommentare
 
@@ -41,6 +42,7 @@ verfassen können (siehe Abbildung :ref:`fig:diskussion-kommentieren`).
 .. _fig_diskussion-kommentieren:
 
 .. figure:: ../images/diskussion-kommentieren.png
+   :width: 100%
 
    Eingabeformular für einen Kommentar
 
@@ -79,6 +81,7 @@ Abbildung :ref:`fig_allow-discussion`).
 .. _fig_allow-discussion:
 
 .. figure:: ../images/allow-discussion.png
+   :width: 100%
 
    Kommentare zu einem Artikel erlauben
 

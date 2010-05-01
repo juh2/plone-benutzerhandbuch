@@ -27,6 +27,7 @@ die Anzeige befindet:
 .. _fig_ordner:
 
 .. figure:: ../images/folder-order.png
+   :width: 100%
 
    Der Inhalt eines Ordners als Liste
 
@@ -59,6 +60,7 @@ In der Bearbeitungsansicht eines Ordners gibt es im Teilformular
 .. _fig_ordner-bearbeiten:
 
 .. figure:: ../images/ordner-bearbeiten.png
+   :width: 100%
 
    Das Teilformular »Einstellungen« bei Ordnern
 
@@ -69,6 +71,7 @@ vorherigen und nächsten Artikel (siehe Abbildung :ref:`fig_vor-zurueck-navi`).
 .. _fig_vor-zurueck-navi:
 
 .. figure:: ../images/vor-zurueck-navi.png
+   :width: 100%
 
 Vor- und Zurückblättern zwischen Artikeln
 
@@ -84,6 +87,7 @@ seine Inhaltsansicht (siehe Abbildung :ref:`fig_ordnerinhalt`).
 .. _fig_ordnerinhalt:
 
 .. figure:: ../images/ordnerinhalt.png
+   :width: 100%
 
    Inhaltsansicht eines Ordners
 
@@ -106,6 +110,7 @@ Spalte stattdessen Pfeilsymbole vor (siehe Abbildung :ref:`fig_umordnen`).
 .. _fig_umordnen:
 
 .. figure:: ../images/umordnen.png
+   :width: 100%
 
    Artikel in einem Ordner umordnen]{Artikel in einem Ordner umordnen:
    mit Javascript (links) und ohne (rechts)}

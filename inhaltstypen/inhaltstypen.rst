@@ -10,7 +10,9 @@ ein und widmen uns danach jedem einzelnen Artikeltyp.  Tabelle
 :ref:`tab_artikeltypen` gibt einen Überblick über die verfügbaren
 Typen und ihre Symbole.
 
-.. _tab_artikeltypen:
+.. TODO evtl. andere Darstellung
+
+.. _tab_artikeltypen: 
 
 .. table:: Artikeltypen
 

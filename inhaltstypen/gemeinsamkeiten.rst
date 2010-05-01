@@ -214,7 +214,6 @@ Metadaten geht es in den Teilformularen »Datum« und »Urheber«.
 .. _sec_teilf-kateg-1:
 
 Kategorien
-
  Kategorien in Plone sind Stichwörter, mit denen ein Artikel verschlagwortet
  wird. Sie helfen beim Auffinden oder Gruppieren inhaltlich verwandter
  Artikel.
@@ -226,7 +225,6 @@ Kategorien
 .. _sec_teilf-kateg-2:
 
 Verweise
-
  Verweise dienen dazu, den Leser eines Artikels auf bestimmte andere Artikel
  hinzuweisen, die mit dem angezeigten in Verbindung stehen. Sie werden in der
  Anzeige eines Artikels unterhalb des Inhalts angezeigt und besonders
@@ -253,13 +251,11 @@ Verweise
  ihm stehende Häkchen und speichern Ihre Änderungen.
 
 Ort
-
  Sie können hier den Artikel in Bezug zu einem geografischen Ort setzen. Einige
  Erweiterungen für Plone können diese Information auswerten, indem
  sie Orte beispielsweise auf einer Weltkarte markieren.
 
 Sprache
-
  In diesem Menü können Sie die Sprache auswählen, in der der Artikel verfasst
  ist. Die voreingestellte Sprache hängt von Ihrer Website ab.
 
@@ -274,20 +270,18 @@ zu beschränken (siehe Abbildung :ref:`fig_seite-bearbeiten-datum`).
 .. _fig_seite-bearbeiten-datum
 
 .. figure:: ../images/seite-bearbeiten-datum.png
-    :width: 100%
+   :width: 100%
 
    Das Teilformular »Datum«
 
 
 Freigabedatum
-
  Mit dem Freigabedatum bestimmen Sie, wann ein Artikel Besuchern zur Ansicht
  freigegeben wird. Selbst wenn ein Artikel die interne, redaktionelle Prüfung
  durchlaufen hat und sich im Status »veröffentlicht« befindet, wird er erst
  nach dem Freigabedatum wirklich sichtbar.
 
 Ablaufdatum
-
  Ist ein Ablaufdatum eingestellt, wird der Artikel ausgeblendet, sobald es
  erreicht ist.
 
@@ -304,27 +298,24 @@ Ablaufdatum
 Teilformular »Urheber«
 ----------------------
 
-Im Teilformular »Urheber« (siehe
-Abbildung :ref:`fig_seite-bearbeiten-urheber`)
+Im Teilformular »Urheber« (siehe Abbildung :ref:`fig_seite-bearbeiten-urheber`)
+können Sie die Personen aufführen, die an der Erstellung des Artikels
+mitgewirkt haben, und Angaben zu den Urheberrechten machen.
 
 .. _fig_seite-bearbeiten-urheber:
 
 .. figure:: ../images/seite-bearbeiten-urheber.png
     :width: 100%
 
-Das Teilformular »Urheber«
+    Das Teilformular »Urheber«
 
-können Sie die Personen aufführen, die an der Erstellung des Artikels
-mitgewirkt haben, und Angaben zu den Urheberrechten machen.
 
 Ersteller
-
   Tragen Sie einen oder mehrere Benutzernamen ein. Um mehrere
   Personen aufzuführen, schreiben Sie jeden Namen in eine eigene Zeile des
   Feldes.
 
 Beitragende
-
   Hier tragen Sie die realen Namen weiterer Personen ein, die
   einen Beitrag geleistet haben. Verwenden Sie wieder eine eigene Zeile für
   jeden Namen. Wie Sie Ersteller und Beitragende voneinander abgrenzen, ist
@@ -335,7 +326,6 @@ Beitragende
   müssen nicht einmal auf der Website registriert sein.
 
 Urheberrechte
-
   In diesem Formularfeld können Sie beispielsweise eine
   Creative-Commons-Lizenz angeben oder sich alle Rechte
   vorbehalten. Eventuell ist dieses Feld bereits von Ihrem
@@ -350,19 +340,17 @@ Teilformular »Einstellungen«
 Welche Einstellungen Sie in diesem Teilformular vornehmen können, hängt vom
 Typ des betroffenen Artikels ab. Die folgenden zwei Einstellungen sind allen
 Artikeltypen gemeinsam. Abbildung :ref:`fig_seite-bearbeiten-einstellungen`
+zeigt das Teilformular »Einstellungen« für eine Seite.
 
 .. _fig_seite-bearbeiten-einstellungen:
 
 .. figure:: ../images/seite-bearbeiten-einstellungen.png
-    :width: 100%
+   :width: 100%
 
    Das Teilformular »Einstellungen«
 
-zeigt das Teilformular »Einstellungen« für eine Seite.
-
 
 Kommentare erlauben
-
   Ihre Website kann so konfiguriert sein, dass für
   manche Artikeltypen Kommentare im Allgemeinen erlaubt sind. Bei Artikeln
   dieser Typen ist hier das Häkchen bereits gesetzt. Sie können ungeachtet
@@ -370,7 +358,6 @@ Kommentare erlauben
   verbieten, indem Sie hier ein Häkchen setzen oder entfernen.
 
 Von Navigation ausschließen
-
   Per Voreinstellung tauchen bestimmte
   Artikeltypen im Navigationsportlet oder der Navigationsleiste auf. Hier
   können Sie einzelne Artikel von der Anzeige in der Navigation ausschließen.
@@ -390,12 +377,12 @@ Warnhinweis (siehe Abbildung :ref:`fig_locking`).
 .. figure:: ../images/locking.png
     :width: 100%
 
-Warnmeldung beim Zugriff auf gesperrten Artikel
+    Warnmeldung beim Zugriff auf gesperrten Artikel
 
-Die Bearbeitungsansicht ist
-für Sie gesperrt, das heißt der Reiter »Bearbeiten« fehlt. Wenn Sie sicher
-sind, dass der genannte Benutzer den Artikel nicht mehr bearbeitet, können Sie
-die Sperrung aufheben, indem Sie die Schaltfläche »Entsperren« betätigen.
+Die Bearbeitungsansicht ist für Sie gesperrt, das heißt der Reiter »Bearbeiten«
+fehlt. Wenn Sie sicher sind, dass der genannte Benutzer den Artikel nicht mehr
+bearbeitet, können Sie die Sperrung aufheben, indem Sie die Schaltfläche
+»Entsperren« betätigen.
 
 
 .. _sec_exkurs-metadaten:
@@ -489,7 +476,7 @@ wurden (siehe Abbildung :ref:fig_portlet-recent).
 .. _fig_portlet-recent:
 
 .. figure:: ../images/portlet-recent.png
-    :width: 50%
+   :width: 50%
 
    Portlet »Aktuelle Änderungen«
 

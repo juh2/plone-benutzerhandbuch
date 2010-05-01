@@ -24,8 +24,9 @@ Artikels arbeiten wollen, betätigen Sie im Menü »Aktionen« den Eintrag
 .. _fig_arbeitskopie-erzeugen:
 
 .. figure:: ../images/arbeitskopie-erzeugen.png
+   :width: 100%
 
-Eine Arbeitskopie erstellen
+   Eine Arbeitskopie erstellen
 
 Sie werden zu einer Seite weitergeleitet, auf der Sie entscheiden können, ob
 die Arbeitskopie in Ihrem persönlichen Ordner oder im gleichen Ordner wie das
@@ -37,6 +38,7 @@ Abbildung :ref:`fig_arbeitskopie-wohin`).
 .. _fig_arbeitskopie-wohin:
 
 .. figure:: ../images/arbeitskopie-wohin.png
+   :width: 100%
 
    Auswahl des Ortes für eine Arbeitskopie
 
@@ -68,6 +70,7 @@ Weise bearbeiten.
 .. _fig_statusmeldung-arbeitskopie.png
 
 .. figure:: ../images/statusmeldung-arbeitskopie.png
+   :width: 100%
 
    Statusmeldung beim Aufruf einer Arbeitskopie
 
@@ -91,6 +94,7 @@ Abbildung :ref:`fig_statusmeldung-arbeitskopie-gesperrt`).
 .. _fig_statusmeldung-arbeitskopie-gesperrt.png
 
 .. figure:: ../images/statusmeldung-gesperrt-arbeitskopie.png
+   :width: 100%
 
    Statusmeldung wegen gesperrter Arbeitskopie
 
@@ -108,6 +112,7 @@ Abbildung :ref:`fig_original-durch-arbeitskopie-ersetzen`).
 .. _fig_original-durch-arbeitskopie-ersetzen:
 
 .. figure:: ../images/original-durch-arbeitskopie-ersetzen.png
+   :width: 100%
 
    Aktionsmenü mit Einträgen für Arbeitskopien
 
@@ -122,6 +127,7 @@ Abbildung :ref:`fig_arbeitskopie-checkin-msg`).
 .. _fig_arbeitskopie-checkin-msg:
 
 .. figure:: ../images/arbeitskopie-checkin-msg.png
+   :width: 100%
 
    Original durch eine Arbeitskopie ersetzen
 

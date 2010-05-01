@@ -44,6 +44,7 @@ RSS-Feeds aus dem Web anzeigt (siehe Abbildung :ref:`fig_portlet-rss`).
 .. _fig_portlet-rss:
 
 .. figure:: ../images/portlet-rss.png
+   :width: 100%
 
    RSS-Portlet
 
@@ -119,6 +120,7 @@ Reihe von Formularfeldern (siehe Abbildung :ref:`fig:syndizierung`).
 .. _fig_syndizierung:
 
 .. figure:: ../images/syndizierung.png
+   :width: 100%
 
    Syndizierungsansicht
 

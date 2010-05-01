@@ -35,6 +35,7 @@ enthält Verweise auf wichtige Stellen der Website.
 .. _fig_globale-reiter:
 
 .. figure:: ../images/globale-reiter.png
+   :width: 100%
 
    Hauptnavigation und Verzeichnispfad
 
@@ -86,12 +87,14 @@ Website.
 .. _fig_portlet-navigation:
 
 .. figure:: ../images/portlet-navigation.png
+   :width: 100%
 
    Navigationsportlet
 
 .. _fig_sitemap:
 
 .. figure:: ../images/sitemap.png
+   :width: 100%
 
    Übersicht
 
@@ -163,6 +166,7 @@ Abbildung :ref:`fig_lesezeichen-setzen`).
 .. _fig_lesezeichen-setzen:
 
 .. figure:: ../images/lesezeichen-setzen.png
+   :width: 100%
 
    Die Artikelaktion »Lesezeichen setzen«
 
@@ -174,6 +178,7 @@ Artikeln an, auf die Sie Lesezeichen gesetzt haben (siehe Abbildung
 .. _fig_portlet-favorites:
 
 .. figure:: ../images/portlet-favorites.png
+   :width: 100%
 
    Lesezeichenportlet
 
@@ -221,6 +226,7 @@ Treffer an (siehe Abbildung :ref:`fig_sofortsuche`).
 .. _fig_sofortsuche:
 
 .. figure:: ../images/sofortsuche.png
+   :width: 100%
 
    Sofortsuche
 
@@ -314,6 +320,7 @@ Portlet erscheint (siehe Abbildung :ref:`fig_portlet-suche`).
 .. _fig_portlet-suche:
 
 .. figure:: ../images/portlet-suche.png
+   :width: 100%
 
    Suchportlet
 

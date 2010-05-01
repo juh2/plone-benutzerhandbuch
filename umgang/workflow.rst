@@ -47,7 +47,7 @@ Farbliche Kennzeichnung der Revisionsstatus
 ======	  =========================
 Farbe	  Status
 ======	  =========================
-rot	  privat
+rot	      privat
 grün 	  öffentlicher Entwurf
 orange	  zur Redaktion eingereicht
 blau 	  veröffentlicht
@@ -146,28 +146,24 @@ Die Statusänderungen entsprechen folgenden Tätigkeiten:
 
 
 Zur Veröffentlichung einreichen
-
   Übergang vom Status
   »privat« in den Status »zur Redaktion eingereicht«. Der Übergang kann vom
   Besitzer des Artikels, aber auch von einem Redakteur oder dem Administrator
   ausgelöst werden.
 
 Veröffentlichen
-
   Übergang vom Status »privat« oder »zur Redaktion
   eingereicht« in den Status »veröffentlicht«. Ein Redakteur oder ein
   Administrator ändert den Status des Artikels in »veröffentlicht« und weist
   den Artikel damit als offiziellen Inhalt der Website aus.
 
 Zurückweisen
-
   Übergang vom Status »zur Redaktion eingereicht« oder
   »veröffentlicht« in den Status »privat«. Ein Redakteur lehnt damit die
   Veröffentlichung auf der Website ab. Der Autor kann den Artikel nach
   weiterer Bearbeitung erneut zur Prüfung einreichen. 
 
 Zurückziehen
-
   Übergang vom Status »zur Redaktion eingereicht« oder
   »veröffentlicht« in den Status »privat«. Der Besitzer zieht einen
   Artikel aus dem veröffentlichten Inhalt der Website zurück,
@@ -196,12 +192,14 @@ wurden (siehe Abbildung :ref:`fig_workflow-community`).
 .. _fig_workflow-community:
 
 .. figure:: ../images/workflow-community.png
+   :width: 100%
 
    Community-Arbeitsablauf
 
 .. _fig_workflow-intranet:
 
 .. figure:: ../images/workflow-intranet.png
+   :width: 100%
 
    Intranet-Arbeitsablauf
 
@@ -211,7 +209,6 @@ Es gibt folgende Status:
 
 
 Öffentlicher Entwurf
-
   Anfangsstatus (grün); ein neu hinzugefügter
   Artikel wird als öffentlicher Entwurf behandelt. Das heißt, jeder Besucher
   der Website kann den Artikel einsehen. Er taucht in der Navigation auf und
@@ -219,16 +216,13 @@ Es gibt folgende Status:
   nur von seinem Besitzer oder einem Redakteur bearbeitet werden.
 
 Privat
-
   (rot) In diesem Status ist ein Artikel nur von seinem Besitzer
   sowie von Administratoren einsehbar.
 
 Zur Redaktion eingereicht
-
   (orange) Siehe Abschnitt :ref:`sec_einf-publ`.
 
 Veröffentlicht
-
   (blau) Ein Artikel in diesem Status ist allen Benutzern
   zugänglich. Er kann nicht mehr von seinem Besitzer oder von Redakteuren,
   sondern nur noch von Administratoren bearbeitet werden.
@@ -237,36 +231,30 @@ Veröffentlicht
 Die entsprechenden Statusänderungen heißen:
 
 Privat schalten
-
   Übergang vom Status »öffentlicher Entwurf« in den
   Status »privat«. Der Besitzer versteckt dabei einen Artikel vor der
   Allgemeinheit, zum Beispiel um ihn in Ruhe zu bearbeiten.
 
 Als Entwurf zeigen
-
   Übergang vom Status »privat« in den Status
   »öffentlicher Entwurf«. Der Besitzer macht damit einen privaten Artikel
   für die Allgemeinheit verfügbar.
 
 Zur Veröffentlichung einreichen
-
   Siehe Abschnitt :ref:`sec_einf-publ`.
 
 Veröffentlichen
-
   Obwohl Artikel bereits als Entwurf für alle Besucher sichtbar sind,
   ist es sinnvoll, Artikel zu veröffentlichen. Je nach Konfiguration
   der Website werden sie beispielsweise erst dann in der Navigation
   angezeigt.
 
 Zurückweisen
-
   Übergang vom Status »zur Redaktion eingereicht« in den
   Status »öffentlicher Entwurf«. Ein Redakteur lehnt eine Veröffentlichung
   des Artikels ab.
 
 Zurückziehen
-
   Übergang vom Status »veröffentlicht« oder »zur Redaktion
   eingereicht« in den Status »öffentlicher Entwurf«. Der Besitzer
   zieht den Artikel von der Veröffentlichung zurück.
@@ -285,7 +273,6 @@ Abbildung :ref:`fig_workflow-intranet`.
 Es gibt folgende Status:
 
 Interner Entwurf
-
   Anfangsstatus (grün); ein neu angelegter Artikel ist
   für alle angemeldeten Benutzer sichtbar. Anonyme Besucher der Website haben
   keinen Zugriff.
@@ -297,14 +284,12 @@ Zur Redaktion eingereicht
  (orange) Siehe Abschnitt :ref:`sec_einf-publ`.
 
 Intern veröffentlicht
-
   (blau) Ein Artikel in diesem Status ist allen
   angemeldeten Benutzern zugänglich. Er kann nicht mehr von seinem Besitzer
   oder von Redakteuren, sondern nur noch von Administratoren bearbeitet
   werden.
 
 Extern sichtbar
-
   (blau) Ein Artikel in diesem Status ist allen
   Besuchern der Website zugänglich. Er kann ebenfalls nur noch von
   Administratoren bearbeitet werden.
@@ -312,13 +297,11 @@ Extern sichtbar
 Die entsprechenden Statusänderungen lauten:
 
 Privat schalten
-
   Übergang vom Status »interner Entwurf« in den
   Status »privat«. Der Besitzer versteckt dabei einen Artikel vor der
   Allgemeinheit, zum Beispiel um ihn in Ruhe zu bearbeiten.
 
 Intern zeigen
-
   Übergang vom Status »privat« in den Status »interner
   Entwurf«. Der Besitzer macht den Artikel damit allen angemeldeten Besuchern
   zugänglich.
@@ -327,25 +310,21 @@ Zur Veröffentlichung einreichen
   Siehe Abschnitt :ref:`{sec_einf-publ`.
 
 Intern veröffentlichen
-
   Übergang vom Status »interner Entwurf« oder »zur
   Redaktion eingereicht« in den Status »intern veröffentlicht«. Ein Redakteur
   macht den Artikel für angemeldete Benutzer zugänglich.
 
 Extern veröffentlichen
-
   Übergang vom Status »zur Redaktion eingereicht«
   oder »intern veröffentlicht« in den Status »extern sichtbar«. Ein Redakteur
   macht den Artikel auch anonymen Besuchern der Website zugänglich.
 
 Zurückweisen
-
   Übergang vom Status »zur Redaktion eingereicht« oder
   »intern veröffentlicht« in den Status »interner Entwurf«. Ein Redakteur
   lehnt eine Veröffentlichung des Artikels ab.
 
 Zurückziehen
-
   Übergang vom Status »zur Redaktion eingereicht«, »intern
   veröffentlicht« oder »extern sichtbar« in den Status »interner
   Entwurf«. Der Besitzer zieht den Artikel von der Veröffentlichung
@@ -365,6 +344,7 @@ ist das Statusmenü (siehe Abbildung :ref:`fig_workflow`).
 .. _fig_workflow:
 
 .. figure:: ../images/workflow.png
+   :width: 100%
 
    Statusmenü
 
@@ -399,6 +379,7 @@ allen Protokolleinträgen, die mit »Historie« beschriftet ist
 .. _fig_workflow-historie-eingeklappt:
 
 .. figure:: ../images/workflow-historie-eingeklappt.png
+   :width: 100%
 
    Ausklappschalter für die Statushistorie
 
@@ -408,8 +389,9 @@ Abbildung :ref:`fig_workflow-historie`):
 .. _fig_workflow-historie:
 
 .. figure:: ../images/workflow-historie.png
+   :width: 100%
 
-Historie der Statusänderungen eines Artikel	s
+   Historie der Statusänderungen eines Artikel	s
 
 
 * Aktion: Bezeichnung des Statuswechsels
@@ -431,6 +413,7 @@ Abbildung :ref:`fig_portlet-revlist`).
 .. _fig_portlet-revlist:
 
 .. figure:: ../images/portlet-revlist.png
+   :width: 100%
 
    Portlet »Revisionsliste«
 
@@ -468,6 +451,7 @@ gelangen daraufhin zum Formular für die gemeinsame Statusänderung.
 .. _fig_publikationsprozess-1:
 
 .. figure:: ../images/publikationsprozess-1.png
+   :width: 100%
 
    Formular für den Arbeitsablauf, oben
 
@@ -491,6 +475,7 @@ betroffenen Artikel nur einen einzigen Eintrag.
 .. _fig_publikationsprozess-2:
 
 .. figure:: ../images/publikationsprozess-2.png
+   :width: 100%
 
    Formular für den Arbeitsablauf, unten
 

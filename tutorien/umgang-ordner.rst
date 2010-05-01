@@ -18,6 +18,7 @@ Legen Sie einen Ordner an, indem Sie ähnlich vorgehen wie im vorigen Tutorium:
 
 .. figure::
     ../images/add-menu-ordner.png
+    :width: 100%
 
     Anlegen eines Ordners
 
@@ -42,6 +43,7 @@ von seiner Anzeige (siehe Abbildung :ref:`fig_folder-empty`).
 
 .. figure::
     ../images/folder-empty.png
+    :width: 100%
 
     Inhaltsansicht eines neu angelegten Ordners
 
@@ -58,6 +60,7 @@ gerade angelegte Seite ist (siehe Abbildung :ref:`fig_folder-with-object`).
 
 .. figure::
     ../images/folder-with-object.png
+    :width: 100%
 
     Inhaltsansicht eines Ordners mit einem Artikel
 
@@ -73,6 +76,7 @@ Abbildung :ref:`fig_folder-order`).
 
 .. figure::
     ../images/folder-order.png
+    :width: 100%
 
     Anzeige eines Ordners mit mehreren Artikeln
 
@@ -131,6 +135,7 @@ dem Ordner als Anzeige verwenden.
 
 .. figure::
     ../images/standardseite.png
+    :width: 100%
 
     Auswahl eines Artikels als Ordneranzeige
   

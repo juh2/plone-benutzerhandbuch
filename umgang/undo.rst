@@ -82,6 +82,7 @@ Abbildung :ref:`fig_versionsvergleich-metadaten`).
 .. _fig_versionsvergleich-metadaten
 
 .. figure:: ../images/versionsvergleich-metadaten.png
+   :width: 100%
 
    Versionsvergleich mit geänderten Metadaten
 
@@ -98,6 +99,7 @@ Abbildung :ref:`fig_versionsvergleich-haupttext`).
 .. _fig_versionsvergleich-haupttext:
 
 .. figure:: ../images/versionsvergleich-haupttext.png
+   :width: 100%
 
    Versionsvergleich mit geändertem Haupttext
 

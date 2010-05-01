@@ -14,6 +14,7 @@ Abbildung :ref:`fig_kupu`).
 .. _fig_kupu:
 
 .. figure:: ../images/kupu.png
+   :width: 100%
 
    Der visuelle Texteditor Kupu
 
@@ -227,8 +228,9 @@ Bilder
 .. _fig_kupu-bild:
 
 .. figure:: ../images/kupu-bild.png
+   :width: 100%
 
-  Mit Kupu ein Bild einfügen
+   Mit Kupu ein Bild einfügen
 
 .. Bug 7919 fehlende Übersetzung}%
 
@@ -243,8 +245,8 @@ besteht aus drei Spalten. Links wählen Sie, wo Sie das Bild suchen wollen:
 
 Die mittlere Spalte listet die gefundenen Bilder auf. Sie können hier
 gegebenenfalls Unterordner durchsuchen, wobei der Verzeichnispfad oberhalb der
-Auswahl bei der Orientierung hilft. Zusätzlich steht Ihnen rechts oben im Fenster ein
-Suchfeld zur Verfügung.
+Auswahl bei der Orientierung hilft. Zusätzlich steht Ihnen rechts oben im
+Fenster ein Suchfeld zur Verfügung.
 
 Wenn Sie eines der gefundenen Bilder auswählen, zeigt Kupu in der rechten
 Spalte eine Vorschau mit Größenangabe an. Sie können dort außerdem
@@ -286,8 +288,9 @@ Abbildung :ref:`fig_kupu-bild-hochladen`).
 .. fig_kupu-bild-hochladen:
 
 .. figure:: ../images/hier-bild-hochladen.png
+   :width: 100%
 
-In Kupu ein Bild hochladen
+   In Kupu ein Bild hochladen
 
 Dabei wird ein Artikel vom Typ »Bild« angelegt, den Sie später mit Metadaten
 versehen können.
@@ -316,8 +319,9 @@ den Artikel auswählen können, auf den Sie verweisen möchten
 .. _fig_kupu-int:
 
 .. figure:: ../images/kupu-int.png
+   :width: 100%
 
-Mit Kupu auf einen Artikel der Website verweisen
+   Mit Kupu auf einen Artikel der Website verweisen
 
 Um einen Artikel Ihrer Website auszuwählen, gehen sie ähnlich vor, wie es für
 die Auswahl eines Bildes weiter oben in diesem Abschnitt beschrieben ist.
@@ -341,6 +345,7 @@ eckige Klammern (siehe Abbildung :ref:`fig_bearbeiten-wiki`).
 .. _fig_bearbeiten-wiki:
 
 .. figure:: ../images/bearbeiten-wiki.png
+   :width: 100%
 
    Verweise einfügen wie in einem Wiki
 
@@ -361,6 +366,7 @@ Verweisziels (siehe Abbildung :ref:`fig_kupu-ext`).
 .. _fig_kupu-ext:
 
 .. figure:: ../images/kupu-ext.png
+   :width: 100%
 
    Mit Kupu einen Internetverweis einfügen
 
@@ -391,6 +397,7 @@ Abbildung :ref:`fig_kupu-auf-anker-verweisen`).
 .. _fig_kupu-auf-anker-verweisen:
 
 .. figure:: ../images/kupu-auf-anker-verweisen.png
+   :width: 100%
 
    In Kupu auf Anker verweisen
 
@@ -416,6 +423,7 @@ Abbildung :ref:`fig_kupu-anker-verwalten`).
 .. _fig_kupu-anker-verwalten:
 
 .. figure:: ../images/kupu-anker-verwalten.png
+   :width: 100%
 
    In Kupu Anker verwalten
 
@@ -441,6 +449,7 @@ Tabellen
 .. _fig_kupu-tabelle:
 
 .. figure:: ../images/kupu-tabelle.png
+   :width: 100%
 
    Mit Kupu eine Tabelle anlegen
 
@@ -465,6 +474,7 @@ Text zu optimieren.
 .. _fig_kupu-tabelle-bearbeiten:
 
 .. figure:: ../images/kupu-tabelle-bearbeiten.png
+   :width: 100%
 
    Mit Kupu eine Tabelle bearbeiten
 

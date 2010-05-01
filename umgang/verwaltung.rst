@@ -25,6 +25,7 @@ mit dem Sie neue Artikel im betreffenden Ordner anlegen können.
 .. _fig_hinzufuegen:
 
 .. figure:: ../images/hinzufuegen.png
+   :width: 100%
 
    Menü »Hinzufügen«
 
@@ -40,9 +41,10 @@ Menü angezeigten Artikeltypen eingeschränkt. Das Menü endet in diesem Fall mi
 dem Eintrag »Mehr...«, der Sie zu einer Liste aller hinzufügbaren
 Artikeltypen führt (siehe Abbildung :ref:`fig_hinzufuegen-form`).
 
-.. _fig_hinzufuegen-form.png
+.. _fig_hinzufuegen-form.png:
 
 .. figure:: ../images/hinzufuegen-form.png
+   :width: 100%
 
    Vollständige Auswahl hinzufügbarer Artikeltypen
 
@@ -64,24 +66,22 @@ Formular, auf dem Sie zunächst drei Grundeinstellungen vornehmen können
 .. _fig_hinzufuegen-typen:
 
 .. figure:: ../images/hinzufuegen-typen-kurz.png
+   :width: 100%
 
    Grundeinstellungen für das Hinzufügen von Artikeln
 
 
 Verwende die Eigenschaften des übergeordneten Ordners
-
   Es können dieselben Artikeltypen wie im übergeordneten Ordner hinzugefügt
   werden.
 
 Erlaube das Hinzufügen der Standardartikeltypen
-
   Es können alle
   Standardartikeltypen hinzugefügt werden. Beachten Sie, dass auf Ihrer
   Website möglicherweise einige Artikeltypen überhaupt nicht zur Verfügung
   stehen.
 
 Artikeltypen manuell festlegen 
-
   Die erlaubten Artikeltypen werden
   für diesen Ordner einzeln festgelegt.
 
@@ -92,17 +92,16 @@ Abbildung :ref:`fig_hinzufuegen-typen-lang`):
 .. _fig_hinzufuegen-typen-lang:
 
 .. figure:: ../images/hinzufuegen-typen-lang.png
+   :width: 100%
 
    Einschränkung der hinzufügbaren Artikeltypen
 
 
 Erlaubte Artikeltypen
-
   Nur diese Artikeltypen dürfen im Ordner überhaupt
   hinzugefügt werden.
 
 Sekundäre Artikeltypen
-
   Diese Artikeltypen erscheinen nicht direkt im
   Auswahlmenü »Hinzufügen«, sondern sind nur über den Eintrag »Mehr...« im
   Hinzufügemenü erreichbar.
@@ -137,6 +136,7 @@ markiert. (siehe Abbildung :ref:`fig_anzeige-wiki-links`).
 .. _fig_anzeige-wiki-links:
 
 .. figure:: ../images/anzeige-wiki-links.png
+   :width: 100%
 
    Wiki-Verweise zu Artikeln, die noch nicht existieren
 
@@ -192,8 +192,10 @@ bearbeiten können (siehe Abbildung :ref:`fig_umbenennen`).
 .. _fig_umbenennen:
 
 .. figure:: ..//images/umbenennen.png
+   :width: 100%
 
 Umbenennen eines Artikels
+-------------------------
 
 Damit Plone die von Ihnen vergebenen Kurznamen verwenden kann, müssen Sie
 einige Regeln beachten:
@@ -245,6 +247,7 @@ Abbildung :ref:`fig_aktionen`):
 .. _fig_aktionen:
 
 .. figure:: ../images/aktionen.png
+   :width: 100%
 
    Aktionen, um Artikel zu verwalten
 
@@ -301,6 +304,7 @@ Artikel, in denen ein Verweis auf den zu löschenden Artikel gesetzt wurde
 .. _fig_linkbruch-warnung:
 
 .. figure:: ../images/linkbruch-warnung.png
+   :width: 100%
 
    Warnung vor defekten Verweisen
 

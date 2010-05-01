@@ -84,6 +84,7 @@ Abbildung :ref:`fig_statisches-portlet`).
 .. _fig_statisches-portlet:
 
 .. figure:: ../images/portlet-static.png
+   :width: 100%
 
    Statisches Portlet
 

@@ -13,6 +13,7 @@ Verweis zu der Adresse (siehe Abbildung :ref:`fig_link`).
 .. _fig_link:
 
 .. figure:: ../images/link.png
+   :width: 100%
 
    Anzeige eines Links
 

@@ -7,19 +7,22 @@
 ======
 
 Der Artikeltyp »Bild« dient dazu, einzelne Bilder in einer Website zu
-verwalten. Sie können in Ordner einsortiert werden und besitzen Eigenschaften und Metadaten.
-Will man in einer Seite eine Illustration verwenden, so muss sie als Artikel
-vom Typ »Bild« in der Website liegen. Als einzige Ausnahme werden die
-Titelbilder von Nachrichten in der Bearbeitungsansicht der Nachricht direkt
-hochgeladen. Sie können nicht in anderen Artikeln verwendet werden.
+verwalten. Sie können in Ordner einsortiert werden und besitzen Eigenschaften
+und Metadaten.  Will man in einer Seite eine Illustration verwenden, so muss
+sie als Artikel vom Typ »Bild« in der Website liegen. Als einzige Ausnahme
+werden die Titelbilder von Nachrichten in der Bearbeitungsansicht der Nachricht
+direkt hochgeladen. Sie können nicht in anderen Artikeln verwendet werden.
 
 Die Anzeige eines Bildes besteht aus dem Bild zusammen mit dem
 Titel, der Beschreibung und einer Größenangabe (siehe
-Abbildung :ref:`fig_bild_).
+Abbildung :ref:`fig_bild`).
 
 .. _fig_bild:
 
-.. figure:: ../images/bild.png
+.. figure:: 
+   ../images/bild.png
+   :width: 100%
+   :alt: Screenshot der Anzeige eines Bildes
 
    Anzeige eines Bildes
 
@@ -46,7 +49,9 @@ gewünschte Transformation aus und betätigen Sie die Schaltfläche
 
 .. _fig_bild-transformieren:
 
-.. figure:: ../images/bild-transformieren.png
+.. figure:: 
+   ../images/bild-transformieren.png
+   :width: 100%
 
    Transformationsansicht eines Bildes
 

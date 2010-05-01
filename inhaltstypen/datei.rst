@@ -25,6 +25,7 @@ Größe und der Art (MIME-Typ) der Daten (siehe Abbildung :ref:`fig_datei`).
 .. _fig_datei:
 
 .. figure:: ../images/datei.png
+   :width: 100%
 
    Anzeige einer Datei
 

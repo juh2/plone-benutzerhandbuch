@@ -331,6 +331,7 @@ aus (siehe Abbildung :ref:`fig_aktionen-loeschen`).
 
 .. figure::
    ../images/aktionen-loeschen.png
+   :width: 100%
 
    Aktionsmenü
 

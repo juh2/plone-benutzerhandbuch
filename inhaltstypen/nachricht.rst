@@ -15,6 +15,7 @@ der Website als aktuelle Mitteilungen wahrgenommen werden:
 .. _fig_portlet-news:
 
 .. figure:: ../images/portlet-news.png
+   :width: 100%
 
    Nachrichtenportlet
 
@@ -33,6 +34,7 @@ beispielsweise mit Kupu in den Nachrichtentext einbetten können.
 .. _fig_nachricht:
 
 .. figure:: ../images/nachricht.png
+   :width: 100%
 
    Anzeige einer Nachricht
 
@@ -43,6 +45,7 @@ Abbildung :ref:`fig_nachricht-bild-einfuegen`).
 .. _fig_nachricht-bild-einfuegen:
 
 .. figure:: ../images/nachricht-bild-einfuegen.png
+   :width: 100%
 
    Ein Titelbild in eine Nachricht einfügen
 

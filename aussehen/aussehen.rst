@@ -8,6 +8,8 @@ In diesem Kapitel lernen Sie das Aussehen der Plone-Oberfläche kennen.
 Danach sind Sie in der Lage, die in den folgenden Tutorien erwähnten
 Elemente der Oberfläche aufzufinden und zuzuordnen.
 
+.. TODO localhost:8080/Plone 
+
 Starten Sie Ihren Webbrowser und rufen Sie darin Ihre Website auf. Sie
 erfahren die Adresse Ihrer Website von Ihrem Administrator.
 
@@ -20,7 +22,8 @@ Abbildung :ref:`fig-plonebase`).
 .. figure:: ../images/plonebase.png
    :width: 100%
 
-   Plone-Oberfläche für nicht angemeldete Besucher. Die Hauptelemente sind der Kopf (1), der Inhaltsbereich (2), die Seitenspalten (3) und der Fuß (4).
+   Plone-Oberfläche für nicht angemeldete Besucher. Die Hauptelemente sind der
+   Kopf (1), der Inhaltsbereich (2), die Seitenspalten (3) und der Fuß (4).
 
 
 Jede Seite der Website folgt dem gleichen Grundaufbau. Die Abbildung

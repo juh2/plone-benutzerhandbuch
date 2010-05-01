@@ -19,6 +19,7 @@ mit Zwischenüberschriften, Bildern, Tabellen und anderen Elementen einzugeben.
 .. _fig_termin:
 
 .. figure:: ../images/termin.png
+   :width: 100%
 
    Anzeige eines Termins
 
@@ -26,40 +27,31 @@ Zu den strukturierten Angaben eines Termins mit eigenen Eingabefeldern in der
 Bearbeitungsansicht gehören:
 
 Terminort (Wo)
-
   Ort des Ereignisses, Treffpunkt
 
 Terminanfang, Terminende (Wann)
-
   Zeitraum, in dem das Ereignis stattfindet
 
 Terminankündigung
-
   Ankündigung einer Veranstaltung, Einladung zu einem Treffen
 
 Teilnehmer
-
   Liste der erwarteten Teilnehmer
 
 Terminart (Was)
-
   Wählen Sie eine oder mehrere Kategorien aus, oder legen
   Sie neue an.
 
 URL
-
   Internetadresse mit weiteren Informationen
 
 Kontaktname
-
   Name des Ansprechpartners bei Fragen zum Ereignis
 
 Kontaktadresse
-
   E-Mail-Adresse des Ansprechpartners
 
 Kontakttelefon
-
   Rufnummer des Ansprechpartners
 
 Dabei sind nur Terminanfang und Terminende Pflichtfelder.
@@ -98,12 +90,14 @@ Terminverwaltung anbieten zu können:
 .. _fig_portlet-events:
 
 .. figure:: ../images/portlet-events.png
+   :width: 100%
 
    Terminportlet
 
 .. _fig_portlet-calendar:
 
 .. figure:: ../images/portlet-calendar.png
+   :width: 100%
 
    Kalenderportlet
 
