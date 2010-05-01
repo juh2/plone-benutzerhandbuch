@@ -1,0 +1,7 @@
+*.tex
+*.aux
+_build/*
+.DS_Store
+.bzrignore
+Disclaimer.rst
+Disclaimer.rst

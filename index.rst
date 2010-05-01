@@ -9,16 +9,14 @@ Plone Benutzerhandbuch
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   Disclaimer.rst
-   intro/intro.rst
-   intro/ueber-das-buch.rst
+   einleitung/index.rst
    cms/cms.rst
-   Tutorium.rst
-   Referenz.rst
+   tutorium.rst
+   referenz.rst
    admin/admin.rst
-   literatur/literatur.rst
+   literatur.rst
 
 * :ref:`genindex`
 * :ref:`glossary`
