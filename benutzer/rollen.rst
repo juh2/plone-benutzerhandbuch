@@ -86,23 +86,21 @@ und in der Artikelansicht »Zugriff« delegieren dürfen.
 
 .. _sec_zugriffsrechte-ansicht:
 
-Artikelansicht »Freigabe«
+Artikelansicht »Zugriff«
 =========================
 
-.. TODO Achtung das ist schon 4.0
-
 Wenn Sie Besitzer oder Verwalter eines Artikels sind, steht Ihnen die
-Ansicht »Freigabe« zur Verfügung. Dort können Sie Funktionen an andere
+Ansicht »Zugriff« zur Verfügung. Dort können Sie Funktionen an andere
 Benutzer und Gruppen übertragen, um beispielsweise Aufgaben an Mitarbeiter zu
 delegieren.
 
-.. _fig_freigabe:
+.. _fig_zugriff:
 
 .. figure:: ../images/zugriff.png
 
-   Die Artikelansicht »Freigabe«
+   Die Artikelansicht »Zugriff«
 
-Die Ansicht »Freigabe« (siehe Abbildung :ref:`fig_freigabe`) ist
+Die Ansicht »Zugriff« (siehe Abbildung :ref:`fig_zugriff`) ist
 folgendermaßen aufgebaut:
 
 
