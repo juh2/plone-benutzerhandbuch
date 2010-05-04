@@ -97,9 +97,9 @@ eingegeben oder aus vorgegebenen Begriffen ausgewählt werden.
 Tabelle :ref:`tab_thema-feldnamen` fasst zusammen, welche
 Kriteriumstypen für jedes der Felder in Frage kommen.
 
-.. TODO items in Tabellen geht nicht in Latex
-
 .. _tab_thema-feldnamen: Suchkriterien für Kollektionen
+
+.. tabularcolumns:: p{6cm}|p{6cm} 
 
 +----------------------------+--------------------------+
 |Feldnamen                   | Kriteriumstypen          |

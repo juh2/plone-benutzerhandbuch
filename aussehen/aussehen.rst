@@ -30,10 +30,10 @@ Jede Seite der Website folgt dem gleichen Grundaufbau. Die Abbildung
 benennt die Hauptelemente einer Plone-Seite:
 
 
-* Kopf
-* Inhaltsbereich
-* eine oder zwei Seitenspalten
-* Fuß
+1. Kopf
+2. Inhaltsbereich
+3. eine oder zwei Seitenspalten
+4. Fuß
 
 Diese Elemente werden in den einzelnen Abschnitten dieses Kapitels näher
 beschrieben.
@@ -44,7 +44,7 @@ Kopf
 
 .. _fig_ploneheader:
 
-.. figure:: ../images/ploneheader.png
+.. figure:: ../images/seitenkopf.png
    :width: 100%
 
    Kopf einer Plone-Seite
@@ -55,10 +55,10 @@ Kopf
 Abbildung :ref:`fig_ploneheader` stellt die Bestandteile des Kopfes einer
 jeden Seite der Website dar. Dabei handelt es sich um folgende vier Elemente:
 
-* A Logo
-* B Verweise im Seitenkopf
-* C Suchfeld
-* D Navigationsleiste
+A. Logo
+B. Verweise im Seitenkopf
+C. Suchfeld
+D. Navigationsleiste
 
 Das Logo in der linken oberen Ecke der Seite wird in aller Regel vom
 Betreiber Ihrer Website angepasst worden sein. Anderenfalls handelt es

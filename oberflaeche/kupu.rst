@@ -33,6 +33,9 @@ Kupu enthält achtzehn Symbole und ein Auswahlmenü. Der genaue Satz von
 sichtbaren Symbolen hängt von der Konfiguration Ihrer Website ab;
 Tabelle :ref:`tab_kupu-funktionen` beschreibt die Voreinstellung.
 
+
+.. tabularcolumns:: p{6cm}|p{6cm}
+
 +------------------------------+------------------------------+
 | .. image::                   | Speichern                    |
 |../images/plonekupuimages/sav\|                              |
