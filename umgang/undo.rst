@@ -79,7 +79,7 @@ folgende Eintrag oder Wert hinzugefügt wurde; ein Minuszeichen zeigt an,
 welcher Eintrag oder Wert gelöscht wurde (siehe
 Abbildung :ref:`fig_versionsvergleich-metadaten`).
 
-.. _fig_versionsvergleich-metadaten
+.. _fig_versionsvergleich-metadaten:
 
 .. figure:: ../images/versionsvergleich-metadaten.png
    :width: 100%

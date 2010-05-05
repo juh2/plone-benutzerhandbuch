@@ -19,7 +19,7 @@ Arbeitskopie erstellen
 
 Wenn Sie mit einer vor der Öffentlichkeit versteckten Arbeitskopie eines
 Artikels arbeiten wollen, betätigen Sie im Menü »Aktionen« den Eintrag
-»Arbeitskopie erstellen« (siehe Abbildung :ref:`fig:arbeitskopie-erzeugen`).
+»Arbeitskopie erstellen« (siehe Abbildung :ref:`fig_arbeitskopie-erzeugen`).
 
 .. _fig_arbeitskopie-erzeugen:
 
@@ -67,7 +67,7 @@ Sobald die Arbeitskopie erstellt ist, können Sie sie in gewohnter
 Weise bearbeiten.
 
 
-.. _fig_statusmeldung-arbeitskopie.png
+.. _fig_statusmeldung-arbeitskopie:
 
 .. figure:: ../images/statusmeldung-arbeitskopie.png
    :width: 100%
@@ -91,7 +91,7 @@ Abbildung :ref:`fig_statusmeldung-arbeitskopie-gesperrt`).
 
 .. Screenshot enthält noch falsche Übersetzung
 
-.. _fig_statusmeldung-arbeitskopie-gesperrt.png
+.. _fig_statusmeldung-arbeitskopie-gesperrt:
 
 .. figure:: ../images/statusmeldung-gesperrt-arbeitskopie.png
    :width: 100%

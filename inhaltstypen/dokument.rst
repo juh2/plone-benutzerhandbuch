@@ -51,7 +51,7 @@ Abbildung :ref:`fig_seite-praesentationsmodus`).
 .. figure:: ../images/praesentationsmodus.png
    :width: 100%
 
-Eine Seite im Präsentationsmodus
+   Eine Seite im Präsentationsmodus
 
 Beachten Sie, dass auf den Präsentationsseiten lediglich Überschriften und
 Listen erscheinen; Fließtext wird ausgeblendet.

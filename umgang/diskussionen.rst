@@ -37,7 +37,7 @@ Nach der Anmeldung sehen Sie unterhalb des Artikels die Schaltfläche
 »Kommentieren« und am Ende jedes einzelnen Kommentars die Schaltfläche
 »Antworten«. Die Schaltflächen führen Sie zu einem Formular, in dem Sie
 einen Kommentar zum Artikel oder eine Antwort auf einen Diskussionsbeitrag
-verfassen können (siehe Abbildung :ref:`fig:diskussion-kommentieren`).
+verfassen können (siehe Abbildung :ref:`fig_diskussion-kommentieren`).
 
 .. _fig_diskussion-kommentieren:
 

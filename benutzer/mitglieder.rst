@@ -92,7 +92,7 @@ Registrierungsformular ein zusätzliches Unterformular mit dem Namen
 »OpenID-Anmeldung«. Außerdem finden Sie ein weiteres Anmeldeportlet für eine
 OpenID-Anmeldung vor (siehe Abbildung :ref:`fig_openid-anmeldung`).
 
-.. _fig:openid-anmeldung:
+.. _fig_openid-anmeldung:
 
 .. figure:: ../images/openid-registrierungsformular.png
 
@@ -172,7 +172,7 @@ zusammenstellen, die für Sie relevante Informationen enthalten. Einen
 Überblick über Plones Portlets finden Sie in Abschnitt :ref:`sec_portlets`.
 
 Portlets hinzufügen
--------------------
+===================
 
 Die Portlets auf Ihrer Seite sind in vier Spalten angeordnet. In der
 Bearbeitungsansicht Ihrer Seite können Sie in jeder der Spalten beliebige
@@ -193,7 +193,9 @@ der einzelnen Portlets aufgeführt.
 
 
 RSS-Feed
-  (Abbildung :ref:`fig_rss-feed-hinzufuegen`)
+--------
+
+(Abbildung :ref:`fig_rss-feed-hinzufuegen`)
 
 .. _fig_rss-feed-hinzufuegen:
 
@@ -201,36 +203,41 @@ RSS-Feed
 
    Hinzufügen des RSS-Portlets
 
-   * Anzahl der Feed-Einträge im Portlet
-   * URL des RSS-Feeds
-   * Anzahl der Minuten, nach denen der RSS-Feed erneuert werden soll
+* Anzahl der Feed-Einträge im Portlet
+* URL des RSS-Feeds
+* Anzahl der Minuten, nach denen der RSS-Feed erneuert werden soll
 
 Suche
-  (Abbildung :ref:`fig_suchportlet-hinzufuegen`)
+-----
 
-.. fig_suchportlet-hinzufuegen:
+(Abbildung :ref:`fig_suchportlet-hinzufuegen`)
+
+.. _fig_suchportlet-hinzufuegen:
 
 .. figure:: ../images/suchportlet-hinzufuegen.png
 
    Hinzufügen des Suchportlets
 
-   * Sofortsuche an- oder abschalten
-
+* Sofortsuche an- oder abschalten
 
 Aktuelle Änderungen
-  (Abbildung :ref:`fig_aktuelle-artikel-portlet-hinzufuegen`)
+-------------------
 
-.. _fig_aktuelle-artikel-portlet-hinzufuegen.png
+(Abbildung :ref:`fig_aktuelle-artikel-portlet-hinzufuegen`)
+
+.. _fig_aktuelle-artikel-portlet-hinzufuegen:
 
 .. figure:: ../images/aktuelle-artikel-portlet-hinzufuegen.png
 
    Hinzufügen des Portlets »Aktuelle Änderungen«
 
 
-   * Anzahl der angezeigten neuen Artikel
+* Anzahl der angezeigten neuen Artikel
 
 Nachrichten
-  (Abbildung :ref:`fig:nachrichten-portlet-hinzufuegen`)
+-----------
+
+(Abbildung :ref:`fig_nachrichten-portlet-hinzufuegen`)
 
 .. _fig_nachrichten-portlet-hinzufuegen:
 
@@ -239,15 +246,17 @@ Nachrichten
    Hinzufügen des Nachrichtenportlets
 
 
-   * Anzahl der angezeigten Nachrichten
-   * zu berücksichtigende Revisionsstatus
+* Anzahl der angezeigten Nachrichten
+* zu berücksichtigende Revisionsstatus
 
 Welche Status Sie für die anzuzeigenden Nachrichten auswählen können, hängt
 von Ihren Berechtigungen ab. Veröffentlichte Nachrichten kann jeder Benutzer
 anzeigen lassen.
 
 Termine
-  (Abbildung :ref:`fig_terminportlet-hinzufuegen`)
+-------
+
+(Abbildung :ref:`fig_terminportlet-hinzufuegen`)
 
 .. _fig_terminportlet-hinzufuegen:
 
@@ -256,14 +265,16 @@ Termine
    Hinzufügen des Terminportlets
 
 
-   * Anzahl der angezeigten Termine
-   * zu berücksichtigende Status (siehe die Erläuterung zum
-     Nachrichtenportlet)
+* Anzahl der angezeigten Termine
+* zu berücksichtigende Status (siehe die Erläuterung zum
+  Nachrichtenportlet)
 
 .. _sec_statisches-portlet-hinzufuegen:
 
 Statisches Portlet
-  (Abbildung :ref:`fig_statisches-portlet-hinzufuegen`)
+------------------
+
+(Abbildung :ref:`fig_statisches-portlet-hinzufuegen`)
 
 .. _fig_statisches-portlet-hinzufuegen:
 
@@ -271,14 +282,13 @@ Statisches Portlet
 
    Hinzufügen des statischen Portlets
 
-   * Kopfzeile
-   * anzuzeigender Text (mit allen Bearbeitungsmöglichkeiten des Texteditors
-     Kupu)
-   * Rahmen des Portlets verbergen?
-   * Fußzeile
-   * URL, die auf weitere Informationen verweist
-   * Portlet vorübergehend nicht anzeigen?
-
+* Kopfzeile
+* anzuzeigender Text (mit allen Bearbeitungsmöglichkeiten des Texteditors
+  Kupu)
+* Rahmen des Portlets verbergen?
+* Fußzeile
+* URL, die auf weitere Informationen verweist
+* Portlet vorübergehend nicht anzeigen?
 
 Klassisches Portlet
 -------------------

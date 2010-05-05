@@ -325,7 +325,7 @@ nun die Seite, die Sie gerade angelegt haben.
 
 * Rufen Sie die Anzeigeansicht der Seite auf. 
 * Öffnen Sie das Menü »Aktionen« und wählen Sie den Eintrag »Löschen«
-aus (siehe Abbildung :ref:`fig_aktionen-loeschen`).
+  aus (siehe Abbildung :ref:`fig_aktionen-loeschen`).
 
 .. _fig_aktionen-loeschen:
 

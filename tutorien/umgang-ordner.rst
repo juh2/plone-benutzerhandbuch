@@ -160,7 +160,7 @@ einen Artikel aus dem Ordner »Kochseminar« dort hinein.
 * Rufen Sie anschließend im Ordner »Kochseminar« den Artikel auf, den Sie
   kopieren möchten.
 * Öffnen Sie das Menü »Aktionen« und wählen Sie den Eintrag »Kopieren«
-aus.
+  aus.
 * Wechseln Sie in den Unterordner.
 * Fügen Sie eine Kopie des ausgewählten Artikels dort ein, indem Sie den
   Eintrag »Einfügen« im Aktionsmenü auswählen.
@@ -174,7 +174,7 @@ Unterordner. Dabei gehen Sie ähnlich vor wie beim Kopieren.
 * Wechseln Sie in den Ordner »Kochseminar« und rufen Sie den Artikel auf,
   den Sie verschieben möchten.
 * Öffnen Sie das Menü »Aktionen« und wählen Sie den Eintrag
-»Ausschneiden« aus.
+  »Ausschneiden« aus.
 * Wechseln Sie in den Unterordner.
 * Fügen Sie den ausgewählten Artikel dort ein, indem Sie den Eintrag
   »Einfügen« im Aktionsmenü benutzen.

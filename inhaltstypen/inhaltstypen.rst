@@ -4,17 +4,15 @@
  Artikeltypen
 ==============
 
-In diesem Kapitel werden Ihnen die Eigenschaften aller Artikeltypen
-von Plone vorgestellt. Dabei gehen wir zuerst auf die Gemeinsamkeiten
-ein und widmen uns danach jedem einzelnen Artikeltyp.  Tabelle
-:ref:`tab_artikeltypen` gibt einen Überblick über die verfügbaren
-Typen und ihre Symbole.
+In diesem Kapitel werden Ihnen die Eigenschaften aller Artikeltypen von Plone
+vorgestellt. Dabei gehen wir zuerst auf die Gemeinsamkeiten ein und widmen uns
+danach jedem einzelnen Artikeltyp.  Tabelle :ref:`Artikeltypen
+<tab_artikeltypen>` gibt einen Überblick über die verfügbaren Typen und ihre
+Symbole.
 
 .. TODO evtl. andere Darstellung
 
 .. _tab_artikeltypen: 
-
-.. table:: Artikeltypen
 
 +-----------------------------------------------------+---------------------+
 | Symbol                                              | Artikeltyp          |

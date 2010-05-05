@@ -38,7 +38,7 @@ Redakteuren verändert werden.
 
 Wenn Sie an der Website angemeldet sind, stellt Plone die Verweise auf
 Artikel in Ordnerübersichten und Portlets farbig dar. Die Farbe zeigt
-dabei den Status an (siehe Tabelle :ref:`tab_status-farben`).
+dabei den Status an (siehe Tabelle :ref:`Farbliche Kennzeichnung der Revisionsstatus <tab_status-farben>`).
 
 .. _tab_status-farben:
 
@@ -307,7 +307,7 @@ Intern zeigen
   zugänglich.
 
 Zur Veröffentlichung einreichen
-  Siehe Abschnitt :ref:`{sec_einf-publ`.
+  Siehe Abschnitt :ref:`sec_einf-publ`.
 
 Intern veröffentlichen
   Übergang vom Status »interner Entwurf« oder »zur

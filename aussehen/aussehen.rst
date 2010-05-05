@@ -1,4 +1,4 @@
-.. _aussehen:
+.. _sec_aussehen:
 
 ================================
  Aussehen der Plone-Oberfläche
@@ -19,7 +19,7 @@ Abbildung :ref:`fig-plonebase`).
 
 .. _fig-plonebase:
 
-.. figure:: ../images/plonebase.png
+.. figure:: ../images/plonebase.*
    :width: 100%
 
    Plone-Oberfläche für nicht angemeldete Besucher. Die Hauptelemente sind der

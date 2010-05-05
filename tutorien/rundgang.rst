@@ -1,4 +1,4 @@
-.. _sec_tutorium-rundgang
+.. _sec_tutorium-rundgang:
 
 ==========
  Rundgang

@@ -31,4 +31,4 @@ Adressen anderer Internetdienste angeben, beispielsweise nach dem Schema
 Lesezeichen sind spezielle Links, die auf Artikel Ihrer Website verweisen. Mit
 der Artikelaktion »Lesezeichen setzen« auf einer Seite Ihrer Website legen Sie
 selbst ein Lesezeichen an. Mehr über Lesezeichen erfahren Sie in
-Abschnitt :ref:`sec_navigation-lesezeichen}`.
+Abschnitt :ref:`sec_navigation-lesezeichen`.

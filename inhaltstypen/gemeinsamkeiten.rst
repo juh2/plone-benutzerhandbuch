@@ -69,11 +69,14 @@ Website möglicherweise nur angemeldeten Benutzern angezeigt.
 
 .. _sec_anzeige-waehlen:
 
+Darstellung auswählen
+---------------------
+
 Manche Artikel wie beispielsweise Ordner und Kollektionen können ihren
 Inhalt auf mehr als eine Art und Weise darstellen. In solchen Fällen finden
 Sie in dem grünen Rahmen um die Anzeige ein Ausklappmenü mit dem
 Titel »Darstellung«, aus dem Sie eine der möglichen Darstellungen auswählen
-können (siehe Abbildung :ref:`fig:anzeige-waehlen`).
+können (siehe Abbildung :ref:`fig_anzeige-waehlen`).
 
 .. _fig_anzeige-waehlen:
 
@@ -115,7 +118,7 @@ herum ein Bearbeitungsrahmen erscheint, sobald Sie mit der Maus darüberfahren.
 Jeder Artikel besitzt darüber hinaus eine Bearbeitungsansicht, in der man alle
 seine Merkmale verändern kann. Ob Sie einen Artikel überhaupt modifizieren
 dürfen, hängt von Ihren Rechten und vom Status des Artikels ab (siehe
-Abschnitte :ref:`sec_benutzer-rollen` und :ref:`sec:workflow`).
+Abschnitte :ref:`sec_benutzer-rollen` und :ref:`sec_workflow`).
 
 Es handelt sich bei der Bearbeitungsansicht um ein gegliedertes
 Formular, das aus folgenden Teilen besteht:
@@ -198,7 +201,7 @@ Teilformular »Kategorisierung«
 Im Teilformular »Kategorisierung« (siehe
 Abbildung :ref:`fig_seite-bearbeiten-kategorisierung`)
 
-.. _fig_seite-bearbeiten-kategorisierung.png
+.. _fig_seite-bearbeiten-kategorisierung:
 
 .. figure:: ../images/seite-bearbeiten-kategorisierung.png
    :width: 100%
@@ -267,7 +270,7 @@ Teilformular »Datum«
 Das Teilformular »Datum« dient dazu, die Anzeigedauer des Artikels
 zu beschränken (siehe Abbildung :ref:`fig_seite-bearbeiten-datum`).
 
-.. _fig_seite-bearbeiten-datum
+.. _fig_seite-bearbeiten-datum:
 
 .. figure:: ../images/seite-bearbeiten-datum.png
    :width: 100%
@@ -416,7 +419,7 @@ ihre Datenbestände.
 
 Metadaten nach Dublin-Core-Standard umfassen derzeit 15 Basisangaben und
 eine größere Zahl zusätzlicher, feiner unterteilter Felder.
-Tabelle :ref:`tab_dublincore` fasst zusammen, welche davon in Plone verfügbar sind.
+Tabelle :ref:`Dublin Core Metadaten <tab_dublincore>` fasst zusammen, welche davon in Plone verfügbar sind.
 
 .. _tab_dublincore:
 
@@ -497,7 +500,7 @@ Kollektionen
 Kollektionen listen Artikel aus der gesamten Website auf, die bestimmte
 Kriterien erfüllen. Wie bei der erweiterten Suche gibt es dafür ganz
 unterschiedliche Kriterien, die sich auch häufig auf Metadaten beziehen.
-Mehr über Kollektionen erfahren Sie in Abschnitt :ref:`sec_thema`.
+Mehr über Kollektionen erfahren Sie in Abschnitt :ref:`sec_kollektion`.
 
 Maschinenlesbare Metadaten im HTML-Quellcode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

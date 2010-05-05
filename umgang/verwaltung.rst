@@ -41,7 +41,7 @@ Menü angezeigten Artikeltypen eingeschränkt. Das Menü endet in diesem Fall mi
 dem Eintrag »Mehr...«, der Sie zu einer Liste aller hinzufügbaren
 Artikeltypen führt (siehe Abbildung :ref:`fig_hinzufuegen-form`).
 
-.. _fig_hinzufuegen-form.png:
+.. _fig_hinzufuegen-form:
 
 .. figure:: ../images/hinzufuegen-form.png
    :width: 100%
@@ -127,7 +127,7 @@ Bearbeiten Sie den Haupttext einer Seite, einer Nachricht oder eines Termins
 und setzen ein einzelnes Wort oder eine Wortgruppe in runde oder eckige
 Doppelklammern, so macht Plone beim Speichern aus dem geklammerten Text einen
 Verweis auf einen Artikel, der im selben Ordner liegt und dessen Kurzname dem
-Text entspricht (siehe Abschnitt :ref:`sec_wiki-verweise`).
+Text entspricht.
 
 Sollte ein solcher Artikel jedoch nicht vorhanden sein, erscheint dieser
 Verweis in Rot und wird durch ein hochgestelltes, eingeklammertes Pluszeichen
@@ -194,8 +194,7 @@ bearbeiten können (siehe Abbildung :ref:`fig_umbenennen`).
 .. figure:: ..//images/umbenennen.png
    :width: 100%
 
-Umbenennen eines Artikels
--------------------------
+   Umbenennen eines Artikels
 
 Damit Plone die von Ihnen vergebenen Kurznamen verwenden kann, müssen Sie
 einige Regeln beachten:
@@ -352,5 +351,5 @@ Löschen
 Status ändern
   Leitet auf ein Formular weiter, wo Sie den Status der
   angekreuzten Artikel in einem Arbeitsgang verändern können (siehe
-  Abschnitt :ref:`sec_workflow).
+  Abschnitt :ref:`sec_workflow`).
 

@@ -11,7 +11,7 @@ Inhalte der Website zusammen, bieten Zugriff auf ihre Funktionen oder
 stellen andere Informationen bereit.
 
 Dieses Buch beschreibt die Details der einzelnen Portlets dort, wo ihre
-Funktion besprochen wird (siehe Tabelle :ref:`tab_portlets`).
+Funktion besprochen wird (siehe Tabelle :ref:`Portlets <tab_portlets>`).
 
 .. _tab_portlets:
 

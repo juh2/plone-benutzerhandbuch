@@ -9,7 +9,7 @@ Plone ein. Sie bauen aufeinander auf und ermöglichen Ihnen einen
 leichteren Zugang zu den später folgenden Referenzkapiteln.
 
 Wollen Sie die Tutorien an einer eigenen Plone-Website nachvollziehen, so
-erfahren Sie in Anhang :ref:`sec:admin`, wie Sie eine solche Website
+erfahren Sie in Anhang :ref:`sec_admin`, wie Sie eine solche Website
 konfigurieren sollten. In der Regel werden Sie mit einer Website arbeiten, die
 Ihr Systemadministrator bereits entsprechend eingerichtet hat.
 

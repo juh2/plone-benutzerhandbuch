@@ -100,7 +100,7 @@ Unterkollektionen nicht enthalten: wenn für sie die Syndizierung aktiviert
 ist, haben sie ihre eigenen RSS-Feeds.
 
 
-.. sec_syndizierung-ansicht:
+.. _sec_syndizierung-ansicht:
 
 Artikelansicht »Syndizierung«
 =============================
@@ -115,7 +115,7 @@ bereitstellt, müssen Sie die Syndizierung jeweils einzeln einschalten. Dazu
 enthält die Syndizierungsansicht die Schaltfläche »Syndizierung erlauben«.
 
 Nach dem Einschalten der Syndizierung enthält die Syndizierungsansicht eine
-Reihe von Formularfeldern (siehe Abbildung :ref:`fig:syndizierung`).
+Reihe von Formularfeldern (siehe Abbildung :ref:`fig_syndizierung`).
 
 .. _fig_syndizierung:
 

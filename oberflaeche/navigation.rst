@@ -40,9 +40,7 @@ enthält Verweise auf wichtige Stellen der Website.
    Hauptnavigation und Verzeichnispfad
 
 Plone bringt einige dieser Verweise bereits mit (siehe
-Tabelle :ref:`tab_globale-reiter`).
-
-Vorgegebene Einträge in der Hauptnavigation
+Tabelle :ref:`Einträge in Navigation <tab_globale-reiter>`).
 
 .. _tab_globale-reiter:
 
@@ -139,7 +137,7 @@ Sie können den Verzeichnispfad, englisch »breadcrumb menu«, als eine
 Art Brotkrumenspur verstehen, die den Wurzelordner Ihrer Website durch
 die Ordnerhierarchie hindurch mit Ihrem aktuellen Standpunkt
 verbindet. Das erste Element des Pfads ist der Wurzelordner der
-Website (siehe Abbildung :ref:`fig_verzeichnispfad`). Danach folgen
+Website (siehe Abbildung :ref:`fig_globale-reiter`). Danach folgen
 alle Unterordner, in die Sie nacheinander wechseln müssen, um vom
 Wurzelordner zum gerade angezeigten Artikel zu gelangen. Der aktuelle
 Artikel bildet den letzten Teil des Pfads. Alle Elemente des

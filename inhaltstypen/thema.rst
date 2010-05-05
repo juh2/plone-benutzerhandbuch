@@ -26,7 +26,7 @@ Anzeigeansicht, aus denen Sie im Darstellungsmenü wählen können:
 * Album
 * Kollektion
 
-Als Beispiel zeigt Abbildung :ref:`fig_thema` die Darstellung als Liste.
+Als Beispiel zeigt Abbildung :ref:`fig_kollektion` die Darstellung als Liste.
 
 .. _fig_kollektion:
 
@@ -94,12 +94,13 @@ unterscheiden sich grundlegend: im Titel kann man beispielsweise nach einem
 Wort suchen, und bei einem Datum will man feststellen, ob es vor oder nach
 einem bestimmten Zeitpunkt liegt. Andererseits kann ein Suchtext frei
 eingegeben oder aus vorgegebenen Begriffen ausgewählt werden.
-Tabelle :ref:`tab_thema-feldnamen` fasst zusammen, welche
+Tabelle :ref:`Suchkriterien für Kollektionen <tab_thema-feldnamen>` fasst zusammen, welche
 Kriteriumstypen für jedes der Felder in Frage kommen.
 
-.. _tab_thema-feldnamen: Suchkriterien für Kollektionen
 
 .. tabularcolumns:: p{6cm}|p{6cm} 
+
+.. _tab_thema-feldnamen:
 
 +----------------------------+--------------------------+
 |Feldnamen                   | Kriteriumstypen          |
@@ -132,7 +133,7 @@ Kriteriumstypen für jedes der Felder in Frage kommen.
 
 .. figure:: ../images/kriterien.png
 
-Kriterienansicht einer Kollektion
+    Kriterienansicht einer Kollektion
 
 In der Ansicht »Kriterien« (siehe Abbildung :ref:`fig_kriterien`)
 können Sie die Suchkriterien für eine Kollektion bearbeiten. Die Ansicht
@@ -244,7 +245,7 @@ Kriterien zu verfeinern oder verwandte Kollektionen zu gruppieren. Die Anzeige
 der Kollektion enthält dann eine Liste ihrer Unterkollektionen (siehe
 Abbildung :ref:`fig_kollektion-mit-unterkollektionen`).
 
-.. _fig_kollektion-mit-unterkollektionen
+.. _fig_kollektion-mit-unterkollektionen:
 
 .. figure:: ../images/kollektion-mit-unterkollektionen.png
    :width: 100%
@@ -287,5 +288,9 @@ oder kopieren, gehen ihr dabei geerbte Suchkriterien der ehemals
 übergeordneten Kollektionen verloren. Falls Sie sie in
 eine andere Kollektion verschieben, erbt sie deren Kriterien.
 
-.. sec_kollektionsportlet
-.. Kollektionsportlet
+.. _sec_kollektionsportlet:
+
+Kollektionsportlet
+==================
+
+.. TODO: Noch schreiben

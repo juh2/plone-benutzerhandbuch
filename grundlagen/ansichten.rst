@@ -16,6 +16,6 @@ elektronischen Bauteile, aus denen es aufgebaut ist, zu kontrollieren.
 Ähnlich verhält es sich mit den Ansichten eines Artikels in Plone: Das CMS
 zeigt Ihnen immer eine bestimmte Ansicht eines Artikels, je nachdem, ob Sie
 diesen Artikel gerade lesen, anlegen, bearbeiten oder in die Website
-einordnen. In Kapitel :ref:`inhaltstypen` wird beschrieben, welche
+einordnen. In Kapitel :ref:`sec_inhaltstypen` wird beschrieben, welche
 Ansichten für die einzelnen Artikeltypen zur Verfügung stehen.
 

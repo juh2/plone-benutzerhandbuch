@@ -73,7 +73,7 @@ vorherigen und nächsten Artikel (siehe Abbildung :ref:`fig_vor-zurueck-navi`).
 .. figure:: ../images/vor-zurueck-navi.png
    :width: 100%
 
-Vor- und Zurückblättern zwischen Artikeln
+   Vor- und Zurückblättern zwischen Artikeln
 
 Damit lässt sich beispielsweise ein langer Text in kleinere
 Abschnitte gliedern, durch die der Leser bequem blättern kann.

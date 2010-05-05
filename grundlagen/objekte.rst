@@ -39,7 +39,7 @@ vorgefertigte Artikeltypen:
 
 
 Ihre Gemeinsamkeiten und Besonderheiten werden in
-Kapitel :ref:`inhaltstypen` näher beschrieben.
+Kapitel :ref:`sec_inhaltstypen` näher beschrieben.
 
 Eine besondere Rolle unter den Artikeltypen
 spielen Ordner und Kollektionen. Ordner gruppieren die Artikel einer

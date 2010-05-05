@@ -37,7 +37,7 @@ Aktionen
   Hier können Sie den Artikel kopieren, verschieben, löschen, in der
   Zwischenablage gespeicherte Artikel in den aktuellen Ordner einfügen
   und eine Arbeitskopie des Artikels erstellen (siehe Abschnitt
-  :ref:`sec-arbeitskopie-erstellen`).
+  :ref:`sec_arbeitskopie-erstellen`).
 
 Darstellung
   Falls es für den Artikel mehrere Darstellungsmöglichkeiten gibt,
@@ -70,14 +70,12 @@ Die Artikelaktionen finden Sie unterhalb der Anzeige des Artikels
    Artikelaktionen am Beispiel eines Termins
 
 
-Tabelle :ref:`tab_dokumentaktionen` fasst alle Artikelaktionen
+Tabelle :ref:`Artikelaktionen <tab_dokumentaktionen>` fasst alle Artikelaktionen
 zusammen. Welche davon Sie angezeigt bekommen, hängt vom Typ des
 Artikels sowie von Ihren persönlichen Einstellungen und Berechtigungen
 ab.
 
 .. _tab_dokumentaktionen:
-
-Artikelaktionen
 
 ==================	=================================
 Titel			siehe Seite
@@ -93,6 +91,9 @@ vCalendar		:ref:`sec_termin`
 
 .. _sec_seite-versenden:
 
+Versenden
+---------
+
 Mit der Aktion »Versenden« können Sie eine E-Mail mit der Internetadresse der
 aktuellen Webseite als Inhalt versenden. Der Verweis führt Sie zu einem
 Formular, in dem Sie die E-Mail-Adressen des Empfängers und Absenders sowie
@@ -100,6 +101,9 @@ einen Nachrichtentext eingeben können. Sind Sie an der Website angemeldet, so
 ist Ihre Absenderadresse dort bereits eingetragen.
 
 .. _sec_seite-drucken:
+
+Drucken
+-------
 
 Die Aktion »Drucken« löst die Druckfunktion Ihres Webbrowsers aus, sodass
 Sie die aktuelle Webseite ausdrucken können.
