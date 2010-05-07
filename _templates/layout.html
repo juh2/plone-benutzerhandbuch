@@ -1,5 +1,68 @@
 {% extends "!layout.html" %}
 
+{%- macro sidebar() %}
+      {%- if not embedded %}{% if not theme_nosidebar|tobool %}
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+          {%- block sidebarlogo %}
+          {%- if logo %}
+            <p class="logo"><a href="{{ pathto(master_doc) }}">
+              <img class="logo" src="{{ pathto('_static/' + logo, 1) }}" alt="Logo"/>
+            </a></p>
+          {%- endif %}
+          {%- endblock %}
+          {%- block sidebartoc %}
+          {%- if display_toc %}
+            <div class="portletheader"><a href="{{ pathto(master_doc) }}">{{ _('Table Of Contents') }}</a></div>
+            {{ toc }}
+          {%- endif %}
+          {%- endblock %}
+          {%- block sidebarrel %}
+          {%- if prev %}
+            <div class="portletheader">{{ _('Previous topic') }}</div>
+            <p class="topless"><a href="{{ prev.link|e }}"
+                                  title="{{ _('previous chapter') }}">{{ prev.title }}</a></p>
+          {%- endif %}
+          {%- if next %}
+            <div class="portletheader">{{ _('Next topic') }}</div>
+            <p class="topless"><a href="{{ next.link|e }}"
+                                  title="{{ _('next chapter') }}">{{ next.title }}</a></p>
+          {%- endif %}
+          {%- endblock %}
+          {%- block sidebarsourcelink %}
+          {%- if show_source and has_source and sourcename %}
+            <div class="portletheader">{{ _('This Page') }}</div>
+            <ul class="this-page-menu">
+              <li><a href="{{ pathto('_sources/' + sourcename, true)|e }}"
+                     rel="nofollow">{{ _('Show Source') }}</a></li>
+            </ul>
+          {%- endif %}
+          {%- endblock %}
+          {%- if customsidebar %}
+          {% include customsidebar %}
+          {%- endif %}
+          {%- block sidebarsearch %}
+          {%- if pagename != "search" %}
+          <div id="searchbox" style="display: none">
+            <div class="portletheader">{{ _('Quick search') }}</div>
+              <form class="search" action="{{ pathto('search') }}" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="{{ _('Go') }}" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              {{ _('Enter search terms or a module, class or function name.') }}
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+          {%- endif %}
+          {%- endblock %}
+        </div>
+      </div>
+      {%- endif %}{% endif %}
+{%- endmacro %}
+
 {%- macro footrelbar() %}
     <div class="related">
       <h3>{{ _('Navigation') }}</h3>

@@ -106,7 +106,7 @@ div.sphinxsidebar {
     width: 28%
 }
 
-div.sphinxsidebar h3, div.sphinxsidebar h4 {
+div.portletheader {
 		  background-color:#76AD17;
 		  border-bottom-color:#63A100;
 		  border-bottom-style:solid;
@@ -127,7 +127,9 @@ div.sphinxsidebar h3, div.sphinxsidebar h4 {
 }
 
 
-div.sphinxsidebar h3 a {
+
+
+div.portletheader a {
     color: white;
 }
 
@@ -157,7 +159,7 @@ p.logo {
 div.footer {
     background-color: #404040;
     color: #fff;
-    padding: 3px 8px 3px 0;
+    padding: 3px 42px 3px 0;
     clear: both;
     font-size: 0.8em;
     text-align: right;

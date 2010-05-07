@@ -17,11 +17,21 @@ Einleitung
 .. toctree::
    :maxdepth: 1
 
-   ueber.rst
+   about.rst
    copyright.rst
    konventionen.rst
    danksagungen.rst
    vorworte.rst
+
+Installation
+============
+
+.. toctree::
+   :maxdepth: 1
+
+   installation/linux.rst
+   installation/macosx.rst
+   installation/windows.rst
 
 Tutorien
 ========
@@ -44,7 +54,10 @@ Referenz
    umgang/umgang.rst
    benutzer/benutzer.rst
    oberflaeche/oberflaeche.rst
-   admin/admin.rst
+   konfiguration/index.rst
+
+Erweiterungen
+=============
 
 Verzeichnisse und Index
 =======================
