@@ -1,4 +1,4 @@
-.. _sec_benutzer-rollen:
+.. _sec_benutzer-funktionen:
 
 ============
  Funktionen

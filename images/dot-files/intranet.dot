@@ -1,0 +1,18 @@
+digraph {
+
+Entwurf [label="interner Entwurf"]
+eingereicht [label="zur Redaktion eingereicht"]
+intern [label="intern veröffentlicht"]
+extern [label="extern sichtbar"]
+
+subgraph { graph [rank=same] intern extern }
+
+privat -> Entwurf [arrowtail=normal]
+Entwurf -> eingereicht [arrowtail=normal]
+eingereicht -> intern
+eingereicht -> extern
+Entwurf -> intern [arrowtail=normal]
+extern -> Entwurf
+intern -> extern
+
+}

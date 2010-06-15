@@ -29,6 +29,7 @@ Installation
 .. toctree::
    :maxdepth: 1
 
+   installation/index.rst
    installation/linux.rst
    installation/macosx.rst
    installation/windows.rst
@@ -40,7 +41,7 @@ Tutorien
    :maxdepth: 1
 
    cms/cms.rst
-   grundlagen/grundlagen.rst
+   grundlagen/index.rst
    aussehen/aussehen.rst
    tutorien/tutorien.rst
 
@@ -50,10 +51,10 @@ Referenz
 .. toctree::
    :maxdepth: 1
 
-   inhaltstypen/inhaltstypen.rst
-   umgang/umgang.rst
-   benutzer/benutzer.rst
-   oberflaeche/oberflaeche.rst
+   artikeltypen/index.rst
+   umgang/index.rst
+   benutzer/index.rst
+   gui/index.rst
    konfiguration/index.rst
 
 Erweiterungen

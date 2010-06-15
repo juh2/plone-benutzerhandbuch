@@ -14,6 +14,6 @@ zusammengefasst werden.
 .. toctree::
 
    registrieren.rst
-   mitglieder.rst
+   personalisierung.rst
    gruppen.rst
-   rollen.rst
+   funktionen.rst

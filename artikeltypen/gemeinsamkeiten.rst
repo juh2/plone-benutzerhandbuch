@@ -118,7 +118,7 @@ herum ein Bearbeitungsrahmen erscheint, sobald Sie mit der Maus darüberfahren.
 Jeder Artikel besitzt darüber hinaus eine Bearbeitungsansicht, in der man alle
 seine Merkmale verändern kann. Ob Sie einen Artikel überhaupt modifizieren
 dürfen, hängt von Ihren Rechten und vom Status des Artikels ab (siehe
-Abschnitte :ref:`sec_benutzer-rollen` und :ref:`sec_workflow`).
+Abschnitte :ref:`sec_benutzer-funktionen` und :ref:`sec_workflow`).
 
 Es handelt sich bei der Bearbeitungsansicht um ein gegliedertes
 Formular, das aus folgenden Teilen besteht:

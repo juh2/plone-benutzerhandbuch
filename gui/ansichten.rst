@@ -6,7 +6,7 @@ Der Hauptbestandteil fast jeder Seite der Website ist die Ansicht eines
 Artikels. Durch Artikelansichten werden die Inhalte Ihrer Website dargestellt
 und bearbeitet. Welche Ansichten ein Artikel besitzt, hängt von seinem Typ
 ab. Sie finden einen Überblick über Artikelansichten und ihre Funktionen in
-Kapitel :ref:`sec_inhaltstypen`.
+Kapitel :ref:`sec_artikeltypen`.
 
 .. _sec_ui-rahmen:
 

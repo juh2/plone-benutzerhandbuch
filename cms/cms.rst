@@ -49,7 +49,7 @@ Freiheit und Unabhängigkeit
   einen Screen-Reader verwenden, um auf Texte zuzugreifen.
 
   Die Einhaltung von Standards wie »WAI-AAA« (siehe
-  \url{http://www.w3.org/WAI/}) stellt außerdem sicher, dass die
+  http://www.w3.org/WAI/) stellt außerdem sicher, dass die
   Benutzungsoberflächen auch gemessen an den besonderen Bedürfnissen dieser
   Menschen eine hohe Qualität besitzen.
 

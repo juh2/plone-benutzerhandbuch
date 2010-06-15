@@ -4,7 +4,7 @@
  Umgang mit Artikeln
 =====================
 
-In Kapitel :ref:`sec_inhaltstypen` haben Sie erfahren, wie Sie den Inhalt
+In Kapitel :ref:`sec_artikeltypen` haben Sie erfahren, wie Sie den Inhalt
 einzelner Artikel bearbeiten. Dieses Kapitel befasst sich damit, wie Sie mit
 Artikeln als Teil Ihrer Website umgehen:
 
@@ -18,9 +18,9 @@ Artikeln als Teil Ihrer Website umgehen:
 .. toctree::
 
    verwaltung.rst
-   undo.rst
+   versionierung.rst
    workflow.rst
-   bearbeitung.rst
+   arbeitskopie.rst
    diskussionen.rst
    syndizierung.rst
 

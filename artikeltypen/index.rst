@@ -1,4 +1,4 @@
-.. _sec_inhaltstypen:
+.. _sec_artikeltypen:
 
 ==============
  Artikeltypen
@@ -40,7 +40,7 @@ Symbole.
 
    gemeinsamkeiten.rst
 
-   dokument.rst
+   seite.rst
 
    nachricht.rst
 
@@ -54,6 +54,6 @@ Symbole.
 
    ordner.rst
 
-   thema.rst
+   kollektion.rst
 
 

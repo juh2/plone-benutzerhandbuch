@@ -1,4 +1,4 @@
-.. _sec_undo:
+.. _sec_versionierung:
 
 ===============
  Versionierung

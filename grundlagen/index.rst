@@ -9,6 +9,6 @@ folgenden Tutorien bearbeiten zu können.
 
 .. toctree::
 
-   objekte.rst
+   artikel.rst
    ansichten.rst
    benutzer.rst

@@ -134,7 +134,7 @@ Abbildung :ref:`fig_arbeitskopie-checkin-msg`).
 Diese Eingabe erfüllt den gleichen Zweck wie die Änderungsnotiz in der
 Bearbeitungsansicht. Sie erscheint in der tabellarischen Auflistung
 früherer Versionen eines Artikels (siehe dazu
-Abschnitt :ref:`sec_undo`).
+Abschnitt :ref:`sec_versionierung`).
 
 Beachten Sie jedoch, dass Sie das Original nur dann durch die Arbeitskopie
 ersetzen können, wenn Sie es bearbeiten dürfen. Das kann beispielsweise dann

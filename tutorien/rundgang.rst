@@ -68,8 +68,6 @@ Benutzermenü, im Anmeldeportlet und im Anmeldeformular erscheinen.
 Das Registrierungsformular
 ==========================
 
-Auf dem Registrierungsformular (siehe Abbildung :ref: `fig_registrieren`)
-
 .. _fig_registrieren:
 
 .. figure::
@@ -77,10 +75,10 @@ Auf dem Registrierungsformular (siehe Abbildung :ref: `fig_registrieren`)
    :width: 100%
 
    Das Registrierungsformular für neue Benutzer
-  
+
+Auf dem Registrierungsformular (siehe Abbildung :ref:`fig_registrieren`)
 erfragt Plone die notwendigen Informationen, um Sie als Benutzer registrieren
 zu können. Folgende Angaben werden immer abgefragt:
-
 
 * Vor- und Nachname
 * Benutzername

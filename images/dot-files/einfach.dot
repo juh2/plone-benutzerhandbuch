@@ -1,0 +1,9 @@
+digraph {
+
+eingereicht [label="zur Redaktion eingereicht"]
+
+privat -> eingereicht [arrowtail=normal]
+eingereicht -> veröffentlicht
+privat -> veröffentlicht [arrowtail=normal]
+
+}

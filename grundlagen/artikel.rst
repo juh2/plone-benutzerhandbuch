@@ -21,7 +21,7 @@ Bilder, Dateien und Ordner. Vergegenwärtigen Sie sich stets, dass Sie in Plone
 Artikel ansehen, bearbeiten oder einordnen und nicht nur die gerade angezeigte
 Webseite.
 
-.. _ueberblick-inhaltstypen:
+.. _ueberblick-artikeltypen:
 
 Artikeltypen
 ============
@@ -39,7 +39,7 @@ vorgefertigte Artikeltypen:
 
 
 Ihre Gemeinsamkeiten und Besonderheiten werden in
-Kapitel :ref:`sec_inhaltstypen` näher beschrieben.
+Kapitel :ref:`sec_artikeltypen` näher beschrieben.
 
 Eine besondere Rolle unter den Artikeltypen
 spielen Ordner und Kollektionen. Ordner gruppieren die Artikel einer
