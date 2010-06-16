@@ -20,6 +20,8 @@ E-Mail
 Editing
 -------
 
+.. _konfiguration-erweiterungen:
+
 Erweiterungen
 -------------
 

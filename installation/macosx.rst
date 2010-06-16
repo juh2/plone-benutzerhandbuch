@@ -8,6 +8,7 @@ mit den Lizenzbestimmungen für alle Komponenten des Installationspakets.
 
 .. figure::
    ../images/mac-installer-1.*
+   :width: 100%
 
    Der Inhalt des gemounteten Diskimages: Unified Installer, README und Lizenzen 
 
@@ -19,6 +20,7 @@ Begrüßungsnachricht (siehe die Abbildung :ref:`fig_mac-installer-2`)
 
 .. figure::
    ../images/mac-installer-2.*
+   :width: 100%
 
    Begrüßungsnachricht 
 
@@ -30,6 +32,7 @@ Abbildung :ref:`fig_mac-installer-3`)
 
 .. figure::
    ../images/mac-installer-3.*
+   :width: 100%
 
    Laufwerksauswahl
 
@@ -43,6 +46,7 @@ Heimverzeichnis noch nicht existiert, wird er bei der Installation erzeugt. Wäh
 
 .. figure::
    ../images/mac-installer-4.*
+   :width: 100%
 
    Auswahl des Installationstyps 
 
@@ -76,18 +80,21 @@ haben. Sie werden anschließend aufgefordert, mit der Installation zu beginnen
 
 .. figure::
    ../images/mac-installer-5.*
+   :width: 100%
 
    Bestätigung der Installation 
 
 Klicken Sie nun auf :menuselection:`Installieren`, um Plone zu installieren. 
 
 Während der Installation müssen Sie für den Benutzer ›admin‹ ein Passwort
-setzen (siehe Abbildung :ref:`fig_mac-installer-6`.
+setzen (siehe Abbildung :ref:`fig_mac-installer-6`. Sie müssen das Passwort
+zweimal eingeben.
 
 .. _fig_mac-installer-6:
 
 .. figure::
    ../images/mac-installer-6.*
+   :width: 100%
 
    Aufforderung zur Festlegung eines Passworts
 
@@ -101,6 +108,7 @@ Sie über den Fortgang der Installation.
 
 .. figure::
    ../images/mac-installer-8.*
+   :width: 50%
 
    Fortschrittsbalken
 
@@ -113,6 +121,7 @@ jbbildung :ref:`fig_mac-installer-7`)
 
 .. figure::
    ../images/mac-installer-7.*
+   :width: 50%
 
    Meldung über den Abbruch der Installation
 
@@ -127,8 +136,8 @@ informieren Sie sich über die dafür notwendigen Migrationsschritte_.
 .. _Migrationsschritte: http://plone.org/documentation/manual/upgrade-guide
 
 Nach erfolgreicher Installation wird automatisch die Datei
-:file:`/Applications/Plone/zinstance/README.txt` geöffnet. In ihr finden Sie
-Hinweise dazu, wie Sie Plone starten und stoppen können. 
+:file:`/Applications/Plone/zinstance/README.html` in Ihrem Browser geöffnet. 
+Dort finden Sie Hinweise, wie Sie Plone starten und stoppen können. 
 
 Sie können in :program:`Terminal` mit folgendem Befehl starten und stoppen.::
 
@@ -148,6 +157,7 @@ Verfügung stellt (siehe Abbildung :ref:`fig_plonecontroller`).
 
 .. figure::
    ../images/plonecontroller.*
+   :width: 50%
 
    PloneController
 

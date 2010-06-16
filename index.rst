@@ -33,6 +33,7 @@ Installation
    installation/linux.rst
    installation/macosx.rst
    installation/windows.rst
+   installation/plone-site-erzeugen.rst
 
 Tutorien
 ========

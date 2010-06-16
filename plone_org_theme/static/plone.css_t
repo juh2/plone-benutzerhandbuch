@@ -37,6 +37,11 @@ div.document {
     padding-right: 2em;
 }
 
+
+div.document dt {
+    font-weight: bold;
+    }
+
 div.bodywrapper {
     margin: 0 0 0 0;
     border-right: 0px solid #fff;
@@ -46,6 +51,15 @@ div.body {
     margin: 0;
     padding: 0.5em 20px 20px 20px;
 }
+
+div.body p.caption{
+    padding-left: 1em;
+    margin-bottom: 0em
+    }
+
+.figure img {
+    border: solid 1px;
+    }
 
 div.related {
     font-size: 1em;
@@ -91,6 +105,13 @@ div.related ul li a:hover {
 #footrelbar {
     background-image: none;
 }
+
+div.figure {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #f6f6f6;
+    }
 
 div.sphinxsidebarwrapper {
     padding: 0;
