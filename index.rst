@@ -11,6 +11,10 @@
 Das Plone Benutzerhandbuch
 ==========================
 
+.. note::
+   Dies ist eine noch nicht von Suchmaschinen erfasste Version. Sie wird
+   zurzeit intensiv überarbeitet. 
+
 Einleitung
 ==========
 
