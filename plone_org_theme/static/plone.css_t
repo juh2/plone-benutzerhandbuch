@@ -341,8 +341,8 @@ table td, table th {
 div.admonition, div.warning {
     font-size: 0.9em;
     margin: 1em 0 1em 0;
-    border: 1px solid #86989B;
-    background-color: #f7f7f7;
+    border: 1px solid #205C90;
+    background-color: #f8f8f8;
     padding: 0;
 }
 
@@ -360,9 +360,9 @@ div.warning p.admonition-title {
     margin: 0;
     padding: 0.1em 0 0.1em 0.5em;
     color: white;
-    border-bottom: 1px solid #86989B;
+    border-bottom: 1px solid #205C90;
     font-weight: bold;
-    background-color: #AFC1C4;
+    background-color:  #205C90;
 }
 
 div.warning {

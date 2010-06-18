@@ -7,10 +7,10 @@
 Im ersten Tutorium machen Sie sich mit grundlegenden Tätigkeiten wie dem
 Anmelden, dem Abmelden und dem Navigieren durch eine Plone-Website vertraut.
 
-Besuchen Sie als erstes Ihre Website. Die Internetadresse Ihrer Website
-erfahren Sie von Ihrem Administrator. Sie sehen nun in Ihrem
-Webbrowser die Startseite, deren Aufbau in Kapitel :ref:`sec_aussehen`
-erläutert wurde.
+Besuchen Sie Ihre Website unter der Adresse http://localhost:8080/Plone.  Eine
+gegebenenfalls abweichende Internetadresse Ihrer Website erfahren Sie von Ihrem
+Administrator. Sie sehen nun in Ihrem Webbrowser die Startseite, deren Aufbau
+in Kapitel :ref:`sec_aussehen` erläutert wurde.
 
 
 Die Website vor der Anmeldung
@@ -28,9 +28,8 @@ angemeldeten Besuchers vertraut.
   Terminübersicht.
 * Schauen Sie das Anmeldeformular an, das Sie über das Benutzermenü
   erreichen.
-* Benutzen Sie die Verweise im Seitenkopf, um zur Übersicht, den
+* Benutzen Sie die Verweise im Fuß der Seite, um zur Übersicht, den
   Anmerkungen zur Barrierefreiheit oder dem Kontaktformular zu gelangen.
-
 
 .. _sec_benutz-registr-und:
 
@@ -117,6 +116,14 @@ Sobald Ihr Benutzerzugang eingerichtet und aktiviert wurde, können Sie sich
 entweder über das Anmeldeformular aus dem Benutzermenü oder über das
 Anmeldeportlet an der Website anmelden.
 
+.. _fig_anmeldeformular:
+
+.. figure::
+   ../images/anmeldeformular.*
+   :width: 100%
+
+   Das Anmeldeformular
+
 * Geben Sie Ihren Benutzernamen und Ihr Passwort in die Eingabefelder ein.
 * Betätigen Sie die Schaltfläche »Anmelden«.
 
@@ -127,8 +134,18 @@ Fehler beim Anmelden
 ====================
 
 Haben Sie sich bei der Eingabe des Benutzernamens oder des Passworts vertan,
-teilt Ihnen Plone mit, dass die Anmeldung fehlgeschlagen ist. Wiederholen Sie
-den Anmeldeversuch mit richtigen Anmeldedaten. Haben Sie Ihr
+teilt Ihnen Plone mit, dass die Anmeldung fehlgeschlagen ist (siehe Abbildung
+:ref:`fig_anmeldung-fehlgeschlagen`). 
+
+.. _fig_anmeldung-fehlgeschlagen:
+
+.. figure::
+   ../images/anmeldung-fehlgeschlagen.*
+   :width: 100%
+
+   Fehlermeldung bei Eingabe falscher Benutzerdaten.
+
+Wiederholen Sie den Anmeldeversuch mit richtigen Anmeldedaten. Haben Sie Ihr
 Passwort vergessen, so können Sie per E-Mail ein neues anfordern:
 
 * Folgen Sie auf dem Anmeldeformular dem Verweis neben den Eingabefeldern
@@ -175,15 +192,23 @@ unmittelbar zuvor ausgeführten Aktion unterrichtet.
 Benutzermenü
 ============
 
-Das Benutzermenü bietet Ihnen nun einige personalisierte Einträge. 
+Das Benutzermenü hat sich verändert, es heißt nicht mehr :guilabel:`Anmelden`,
+sondern enthält nun Ihren Namen.  Wenn Sie das Menü anklicken, klappt es auf. Es enthält folgende Einträge:
 
-* Der erste Eintrag ist Ihr Name. Dabei handelt es sich um einen Verweis
-  auf Ihre persönliche Seite.
-* Daneben können Sie über den Verweis »Mein Ordner« zu Ihrem
-  persönlichen Ordner gelangen, falls Ihr Administrator dies vorgesehen hat.
-* Ganz rechts finden Sie einen Menüpunkt, mit dem Sie sich von der Website
-  abmelden können.
 
+* :guilabel:`Mein Ordner`: Der oberste Eintrag führt Sie in Ihren persönlichen
+  Ordner. Direkt nach der Installation ist Plone so konfiguriert, dass keine
+  Benutzerordner erzeugt werden. Dann fehlt auch der entsprechende Eintrag im
+  Benutzernmenü. 
+
+* :guilabel:`Persönliche Seite`: Dieser Eintrag verweist auf eine Seite,
+  die Sie personalisieren können. 
+  
+* :guilabel:`Meine Einstellungen`: Über diesen Link gelangen Sie in das Menü,
+  in dem Sie das Verhalten von Plone konfigurieren und Ihre persönlichen
+  Benutzerinformationen einsehen und verändern können.
+
+* :guilabel:`Abmelden`: Über diesen Eintrag können Sie sich wieder abmelden.
 
 .. _sec_persoenliche-seite:
 
@@ -191,8 +216,9 @@ Persönliche Seite
 =================
 
 Folgen Sie im Benutzermenü dem Verweis mit Ihrem Namen zu Ihrer persönlichen
-Seite. Sie werden eine zunächst weitgehend leere Seite mit einem Rahmen sehen,
-auf dem Reiter sitzen (siehe Abbildung :ref:`fig_persoenliche-seite`).
+Seite. Sie werden eine zunächst weitgehend leere Seite sowie zwei Reiter mit
+der Bezeichnung :guilabel:`Anzeigen` und :guilabel:`Bearbeiten`. (siehe
+Abbildung :ref:`fig_persoenliche-seite`).
 
 .. _fig_persoenliche-seite:
 
@@ -202,59 +228,74 @@ auf dem Reiter sitzen (siehe Abbildung :ref:`fig_persoenliche-seite`).
 
    Die persönliche Seite
 
-Jeder der Reiter steht für eine Ansicht Ihrer
-Seite. So finden Sie neben der Anzeige eine Ansicht mit dem Namen
-»Bearbeiten«, in der Sie den Inhalt Ihrer persönlichen Seite ändern können.
+Auf Ihrer persönlichen Seite wird mindestens das Portlet :guilabel:`Aktuelle
+Änderungen` angezeigt. Es zeigt die Artikel an, die zuletzt verändert wurden.
+Bei einer neu erzeugten Plone-Site sind dies unter anderem der Nachrichten und
+Terminordner.  Falls es veröffentlichte Nachrichten und Termine gibt, werden
+auch das Nachrichten- beziehungsweise das Terminportlet anzeigt. Darüber hinaus
+befindet sich noch ein Portlet mit der so genannten Revisionsliste auf Ihrer
+persönlichen Seite. Es werden jedoch immer nur die Portlets sichtbar, die etwas anzuzeigen haben.    
 
-Portlets
-========
+Über den Reiter :guilabel:`Bearbeiten` gelangen Sie in die
+Bearbeitungsansicht Ihrer persönlichen Seite, in der Sie den Inhalt der Seite
+verändern können. 
 
-Wenn Sie die Bearbeitungsansicht aufrufen, haben Sie die Möglichkeit, auf
-Ihrer persönlichen Seite Portlets hinzuzufügen. Dazu ist Ihre Seite in vier
-Spalten unterteilt. In jeder von ihnen befindet sich ein Auswahlmenü mit der
-Bezeichnung »Portlet hinzufügen«.
+Persönliche Seite bearbeiten
+----------------------------
 
-* Wählen Sie aus einem der Auswahlmenüs das Portlet mit dem Namen
-  »Aktuelle Änderungen« aus. Sie werden daraufhin zu einem Bearbeitungsformular
-  weitergeleitet. Falls Sie Javascript ausgeschaltet haben, müssen Sie
-  zusätzlich die Schaltfläche »Portlet hinzufügen« betätigen.
+Wenn Sie die Bearbeitungsansicht aufrufen, haben Sie die Möglichkeit, auf Ihrer
+persönlichen Seite weitere Portlets hinzuzufügen, zu verbergen oder zu
+entfernen. Dazu ist Ihre Seite in vier Spalten unterteilt. In jeder von ihnen
+befindet sich ein Auswahlmenü mit der Bezeichnung :guilabel:`Portlet
+hinzufügen` (siehe Abbildung :ref:`fig_persoenliche-seite-bearbeiten`).
+
+.. _fig_persoenliche-seite-bearbeiten:
+
+.. figure::
+   ../images/persoenliche-seite-bearbeiten.*
+   :width: 100%
+Die Bearbeitungsansicht der persönlichen Seite * Suchen Sie auf der Seite das Portlet mit der Bezeichnung :guilabel:`Aktuelle Änderungen`. Es werden drei Verweise anzeigt.
+ * :guilabel:`Aktuelle Änderungen`: Über diesen Verweis gelangen Sie zum Bearbeitungsformular des Portlets.
+
+  * :guilabel:`Verbergen`: Wenn Sie diesen Verweis anklicken, wird das Portlet
+    verborgen. 
+
+  * :guilabel:`x`: Mit einem Klick auf diesen Verweis, können Sie das Portlet
+    komplett entfernen. 
+
+  Wechseln Sie in das Bearbeitungsformular. 
+
 * Im Bearbeitungsformular des Portlets können Sie die Anzahl der Artikel
   einstellen, die im Portlet aufgelistet werden sollen. Voreingestellt sind
-  fünf Artikel. Verändern Sie die Anzahl und speichern Sie Ihre Angaben.
+  fünf Artikel. Verändern Sie die Anzahl auf ›1‹ und speichern Sie Ihre Angaben.
 * Sie gelangen zurück in die Bearbeitungsansicht Ihrer persönlichen Seite.
-  In der ausgewählten Spalte finden Sie nun ein neues Portlet. Das kleine rote
-  Kreuz neben dem Namen des Portlets ist ein Schalter, mit dem Sie das Portlet
-  wieder von Ihrer Seite entfernen können.
 * Rufen Sie die Ansicht »Anzeigen« auf, um sich das Ergebnis anzuschauen.
-* Sie sehen nun auf Ihrer persönlichen Seite ein Portlet mit dem Titel
-  »Aktuelle Änderungen«.
-
+* Das Portlet :guilabel:`Aktuelle Änderungen` zeigt nun nur noch die letzte
+  Änderung an.  
 
 Eine detaillierte Beschreibung der Portlets, die Sie auf Ihrer persönlichen
-Seite hinzufügen können, finden Sie in
-Abschnitt :ref:`sec_personliche-seite-1`.
+Seite hinzufügen können, finden Sie in Abschnitt
+:ref:`sec_personliche-seite-1`.
 
 .. _sec_tut-profil:
 
-Einstellungen und Profil
-========================
+Meine Einstellungen
+===================
 
 
-Folgen Sie auf Ihrer persönlichen Seite dem Verweis
-»Meine Einstellungen«. Schauen Sie sich an, welche persönlichen Angaben
-auf der Website hinterlegt sind und welche Einstellungen Sie vornehmen können,
-um das Aussehen und Verhalten der Website an Ihre Wünsche anzupassen.
+Folgen Sie im Benutzermenü dem Verweis :guilabel:`Meine Einstellungen`, um zu
+sehen, welche Möglichkeiten Ihnen zur Verfügung stehen, die Bedienung von Plone Ihren Wünschen anzupassen.
 
-In Plone können Sie Artikeltexte auf verschiedene Weise bearbeiten. Stellen
-Sie für dieses Tutorium sicher, dass im Feld »Texteditor« der Eintrag »Kupu«
-ausgewählt ist, und speichern Sie gegebenenfalls Ihre Einstellungen.
+In Plone können Sie Artikeltexte auf verschiedene Weise bearbeiten. Stellen Sie
+für dieses Tutorium sicher, dass im Feld :guilabel:`Texteditor` der Eintrag
+:guilabel:`TinyMCE` ausgewählt ist, und speichern Sie gegebenenfalls Ihre
+Einstellungen.
 
-Wechseln Sie nun zu Ihrem Profil, um zu sehen, welche persönlichen
-Informationen über Sie andere Benutzer einsehen können. Darunter befindet sich
-ein Teil der Angaben aus Ihren Einstellungen. Beachten Sie, dass die
-Bearbeitungsansicht Ihres Profils nichts anderes als das Formular »Meine
-Einstellungen« ist.
-
+Schauen Sie sich an, welche persönlichen Angaben auf der Website hinterlegt
+sind. Wechseln Sie dazu in das Formular :guilabel:`Persönliche Informationen`.
+Die Informationen, die Sie in diesem Formular sehen und bearbeiten können, sind
+auch für andere Benutzer der Website sichtbar. Füllen Sie das Formular aus und
+speichern Sie die Eingaben. 
 
 Abmelden
 ========
@@ -262,8 +303,7 @@ Abmelden
 An dieser Stelle beenden wir unseren ersten Rundgang durch die Website. Melden
 Sie sich am Ende jeder Arbeitssitzung von der Website ab.
 
-* Betätigen Sie die Schaltfläche »Abmelden« im Benutzermenü.
-
+* Betätigen Sie die Schaltfläche :guilabel:`Abmelden` im Benutzermenü.
 
 Sie erhalten daraufhin von Plone eine Bestätigung, dass Sie sich abgemeldet
 haben. Das Benutzermenü sieht nun wieder genauso aus wie vor der Anmeldung,

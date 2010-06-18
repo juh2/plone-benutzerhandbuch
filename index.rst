@@ -47,8 +47,8 @@ Tutorien
 
    cms/cms.rst
    grundlagen/index.rst
-   aussehen/aussehen.rst
-   tutorien/tutorien.rst
+   aussehen/index.rst
+   tutorien/index.rst
 
 Referenz
 ========
