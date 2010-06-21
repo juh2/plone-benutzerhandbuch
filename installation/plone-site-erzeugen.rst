@@ -59,7 +59,7 @@ vergeben haben. Ihre Plone-Site sieht aus, wie in Abbildung
 
 .. figure::
    ../images/neue-plone-site.*
-   :width: 100 %
+   :width: 80 %
 
    Eine neu erzeugte Plone-Site
 

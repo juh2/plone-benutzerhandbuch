@@ -254,14 +254,19 @@ hinzufügen` (siehe Abbildung :ref:`fig_persoenliche-seite-bearbeiten`).
 .. figure::
    ../images/persoenliche-seite-bearbeiten.*
    :width: 100%
-Die Bearbeitungsansicht der persönlichen Seite * Suchen Sie auf der Seite das Portlet mit der Bezeichnung :guilabel:`Aktuelle Änderungen`. Es werden drei Verweise anzeigt.
- * :guilabel:`Aktuelle Änderungen`: Über diesen Verweis gelangen Sie zum Bearbeitungsformular des Portlets.
 
-  * :guilabel:`Verbergen`: Wenn Sie diesen Verweis anklicken, wird das Portlet
-    verborgen. 
+   Die Bearbeitungsansicht der persönlichen Seite 
+   
+* Suchen Sie auf der Seite das Portlet mit der Bezeichnung :guilabel:`Aktuelle Änderungen`. Es werden drei Verweise anzeigt.
 
-  * :guilabel:`x`: Mit einem Klick auf diesen Verweis, können Sie das Portlet
-    komplett entfernen. 
+   * :guilabel:`Aktuelle Änderungen`: Über diesen Verweis gelangen Sie zum
+     Bearbeitungsformular des Portlets.
+
+   * :guilabel:`Verbergen`: Wenn Sie diesen Verweis anklicken, wird das Portlet
+     verborgen. 
+
+   * :guilabel:`x`: Mit einem Klick auf diesen Verweis, können Sie das Portlet
+     komplett entfernen. 
 
   Wechseln Sie in das Bearbeitungsformular. 
 
