@@ -22,9 +22,9 @@ Legen Sie einen Ordner an, indem Sie ähnlich vorgehen wie im vorigen Tutorium:
 
     Anlegen eines Ordners
 
-Sie gelangen in das Bearbeitungsformular des neuen Ordners, das
-zwei Felder enthält: Titel und Beschreibung.
-Diese Felder haben bei Ordnern die gleiche Bedeutung wie bei Seiten.
+Sie gelangen in das Bearbeitungsformular des neuen Ordners, das zwei Felder
+enthält: Titel und Beschreibung.  Diese Felder haben bei Ordnern die gleiche
+Bedeutung wie bei Seiten.
 
 * Bearbeiten Sie den neu angelegten Ordner. Im Rest dieses Tutoriums
   gehen wir davon aus, dass Sie ihm den Titel »Kochseminar« geben.
@@ -42,14 +42,22 @@ von seiner Anzeige (siehe Abbildung :ref:`fig_folder-empty`).
 .. _fig_folder-empty:
 
 .. figure::
-    ../images/folder-empty.png
+    ../images/folder-inhalt-empty.*
     :width: 100%
 
     Inhaltsansicht eines neu angelegten Ordners
 
+    
 * Rufen Sie die Inhaltsansicht des Ordners »Kochseminar« auf.
+
+Es fehlen die Menüs :guilabel:`Aktionen`, :guilabel:`Darstellung` und
+:guilabel:`Status`. In der Anzeige finden Sie einen Verweis, der Sie
+eine Ebene höher in der Ordner-Hierarchie führt. Aber ansonsten ist kein
+Unterschied auszumachen. 
+
 * Legen Sie im Ordner »Kochseminar« eine Seite an, wie Sie es im vorigen
   Tutorium gelernt haben.
+
 * Begeben Sie sich wieder zur Inhaltsansicht des Ordners »Kochseminar«.
 
 Dort hat Plone jetzt eine Tabelle erzeugt, deren bisher einziger Eintrag die
@@ -59,7 +67,7 @@ gerade angelegte Seite ist (siehe Abbildung :ref:`fig_folder-with-object`).
 .. _fig_folder-with-object:
 
 .. figure::
-    ../images/folder-with-object.png
+    ../images/folder-with-object.*
     :width: 100%
 
     Inhaltsansicht eines Ordners mit einem Artikel
@@ -75,29 +83,38 @@ Abbildung :ref:`fig_folder-order`).
 .. _fig_folder-order:
 
 .. figure::
-    ../images/folder-order.png
+    ../images/folder-order.*
     :width: 100%
 
     Anzeige eines Ordners mit mehreren Artikeln
 
 Ändern Sie nun die Reihenfolge der Einträge. Die Inhaltsansicht des Ordners
-enthält dazu in der Tabellenspalte »Reihenfolge« für jeden Artikel ein Symbol,
-das aus zwei Doppelpunkten besteht.
+enthält dazu ganz links für jeden Artikel ein Symbol, das aus mehreren Punkten
+besteht (siehe Abbildung :ref:`fig_folder-order-change`).
+
+.. _fig_folder-order:
+
+.. figure::
+   ../images/folder-order-change.*
+   :width: 100%
+
+   Tabelle in der Inhaltsansicht
 
 * Wechseln Sie in die Inhaltsansicht des Ordners »Kochseminar«.
-* Gehen Sie mit dem Mauszeiger über die Doppelpunkte in der Tabelle. Je
-  nach den Einstellungen Ihres Betriebssystems verwandelt sich der Mauspfeil
-  dabei möglicherweise so, dass er Anfassen oder Bewegen symbolisiert.
-* Greifen Sie nun mit einem Mausklick einen Artikel, und verschieben Sie
-  ihn in der Liste bei gedrückter Maustaste nach oben oder unten. Wenn Sie die
+* Gehen Sie mit dem Mauszeiger über die Punkte in der Tabelle ganz links. Der
+  Mauszeiger verwandelt sich in den meisten Browsern in einen Doppelpfeil, der
+  nach oben und unten zeigt.
+* Wählen Sie den Artikel, den Sie verschieben wollen aus, indem Sie die
+  Maustaste drücken, während sich der Mauszeiger in den Doppelpfeil verwandelt.
+* Verschieben Sie nun bei gedrückter Maustaste den Artikel.  Wenn Sie die
   Maustaste loslassen, wird der Artikel an der entsprechenden Stelle
   einsortiert.
-* Wechseln Sie zwischendurch in die Anzeige des Ordners, und vergewissern
+* Wechseln Sie in die Anzeige des Ordners, und vergewissern
   Sie sich, dass auch dort die Reihenfolge geändert wurde.
 
 Falls Javascript an Ihrem Rechner nicht aktiviert ist, erscheinen statt der
 Doppelpunkte in jeder Tabellenzeile Pfeile, mit denen Sie den jeweiligen
-Artikel mit seinem Vorgänger oder Nachfolger vertauschen können.
+Artikel nach oben oder unten verschieben können.
 
 Ordneranzeige
 =============
@@ -111,7 +128,7 @@ Plone kennt verschiedene Vorlagen für die Anzeige eines Ordners.
 .. _fig_ansicht:
 
 .. figure::
-    ../images/ansicht-tabelle.png
+    ../images/ansicht-tabelle.*
     :width: 100% 
 
     Darstellungen der Ordneranzeige
@@ -125,12 +142,15 @@ mit Einträgen für jeden Artikel des Ordners.
 Plone kann anstelle von Übersichtslisten oder -tabellen auch einen Artikel aus
 dem Ordner als Anzeige verwenden. 
 
-* Öffnen Sie das Darstellungsmenü und wählen Sie den Punkt »Artikel
-  aus dem Ordner...«.
-* Sie gelangen zu einem Formular, das alle im Ordner befindlichen Artikel
+* Öffnen Sie das Darstellungsmenü und wählen Sie den Punkt :guilabel:`Artikel
+  aus dem Ordner...`.
+* Es öffnet sich ein Formular, das alle im Ordner befindlichen Artikel
   mit Ausnahme der Unterordner auflistet (siehe
   Abbildung :ref:`fig_standardseite`).
   
+
+.. TODO: Screenshot kann wegen https://dev.plone.org/plone/ticket/10577 nicht gemacht werden.
+
 .. _fig_standardseite:
 
 .. figure::
@@ -139,19 +159,18 @@ dem Ordner als Anzeige verwenden.
 
     Auswahl eines Artikels als Ordneranzeige
   
-* Kreuzen Sie den gewünschten Artikel an und speichern Sie das Formular.
-* Plone leitet Sie nun zur Anzeige des Ordners »Kochseminar« weiter. Sie
-  sehen dort anstelle einer Übersichtsliste oder -tabelle den gewählten
-  Artikel.
+* Markieren Sie den gewünschten Artikel an und speichern Sie das Formular.
+* Die Anzeige des Ordners verändert sich. Sie sehen dort anstelle einer
+  Übersichtsliste oder -tabelle den gewählten Artikel.
 * Wechseln Sie zur Inhaltsansicht. Sie sehen dort, dass der gewählte
   Artikel durch Fettschrift hervorgehoben ist.
 
 Artikel kopieren und verschieben
 ================================
 
-Plone erlaubt Ihnen nicht nur, Inhalte anzulegen und
-zu löschen. Sie können Artikel und Ordner auch von einem Ort in der Website
-an einen anderen verschieben oder kopieren.
+Plone erlaubt Ihnen nicht nur, Inhalte anzulegen und zu löschen. Sie können
+Artikel und Ordner auch von einem Ort in der Website an einen anderen
+verschieben oder kopieren.
 
 Erzeugen Sie dazu im Ordner »Kochseminar« einen Unterordner und kopieren Sie
 einen Artikel aus dem Ordner »Kochseminar« dort hinein.
@@ -159,11 +178,11 @@ einen Artikel aus dem Ordner »Kochseminar« dort hinein.
 * Legen Sie im Ordner »Kochseminar« einen Ordner an.
 * Rufen Sie anschließend im Ordner »Kochseminar« den Artikel auf, den Sie
   kopieren möchten.
-* Öffnen Sie das Menü »Aktionen« und wählen Sie den Eintrag »Kopieren«
-  aus.
+* Öffnen Sie das Menü :guilabel:`Aktionen` und wählen Sie den Eintrag
+  :guilabel:`Kopieren` aus.
 * Wechseln Sie in den Unterordner.
 * Fügen Sie eine Kopie des ausgewählten Artikels dort ein, indem Sie den
-  Eintrag »Einfügen« im Aktionsmenü auswählen.
+  Eintrag :guilabe:`Einfügen` im Aktionsmenü auswählen.
 
 Die Anzeige des Unterordners enthält nun einen neuen Eintrag. Vergewissern
 Sie sich, dass sich am Inhalt des Ordners »Kochseminar« nichts geändert hat.
@@ -173,11 +192,11 @@ Unterordner. Dabei gehen Sie ähnlich vor wie beim Kopieren.
 
 * Wechseln Sie in den Ordner »Kochseminar« und rufen Sie den Artikel auf,
   den Sie verschieben möchten.
-* Öffnen Sie das Menü »Aktionen« und wählen Sie den Eintrag
-  »Ausschneiden« aus.
+* Öffnen Sie das Menü :guilabel:`Aktionen` und wählen Sie den Eintrag
+  :guilabel:`Ausschneiden` aus.
 * Wechseln Sie in den Unterordner.
 * Fügen Sie den ausgewählten Artikel dort ein, indem Sie den Eintrag
-  »Einfügen« im Aktionsmenü benutzen.
+  :guilabel:`Einfügen` im Aktionsmenü benutzen.
 
 Sie werden bemerken, dass der Artikel nicht gleich beim Ausschneiden aus dem
 Ordner »Kochseminar« verschwindet. Erst beim Einfügen wird er an seinem
@@ -190,13 +209,14 @@ mehrere Artikel markieren, um sie gemeinsam zu kopieren oder zu
 verschieben. 
 
 * Wechseln Sie in die Inhaltsansicht des Ordners »Kochseminar«.
-* Markieren Sie in der Spalte ganz links einige Artikel, die Sie kopieren
+* Markieren Sie in der Spalte links einige Artikel, die Sie kopieren
   möchten. 
-* Betätigen Sie die Schaltfläche »Kopieren« unterhalb der
+* Betätigen Sie die Schaltfläche :guilabel:`Kopieren` unterhalb der
   Übersichtstabelle. Achten Sie auf die Statusmeldung.
 * Wechseln Sie nun in den Unterordner.
-* Betätigen Sie die Schaltfläche »Einfügen«. Lesen Sie die Statusmeldung
-  und schauen Sie nach, wie sich die Übersichtsliste verändert hat.
+* Betätigen Sie die Schaltfläche :guilabel:`Einfügen`. Lesen Sie die
+  Statusmeldung und schauen Sie nach, wie sich die Übersichtsliste verändert
+  hat.
 
 Wenn Sie einen Ordner kopieren oder verschieben, werden alle Artikel, die sich
 in dem Ordner befinden, mit dem Ordner verschoben oder kopiert.
@@ -215,7 +235,7 @@ zweiten Unterordner.
 Ordner löschen
 ==============
 
-Ordner werden wie alle anderen Artikel mit der Aktion »Löschen« im
+Ordner werden wie alle anderen Artikel mit der Aktion :guilabel:`Löschen` im
 Aktionsmenü gelöscht. Beachten Sie, dass beim Löschen eines Ordners auch die
 darin enthaltenen Artikel gelöscht werden.
 
