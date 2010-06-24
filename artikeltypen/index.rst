@@ -1,3 +1,12 @@
+.. |seite| image:: ../images/document_icon.png
+.. |nachricht| image:: ../images/newsitem_icon.png
+.. |datei| image:: ../images/file_icon.png
+.. |link| image:: ../images/link_icon.png
+.. |ordner| image:: ../images/folder_icon.png
+.. |kollektion| image:: ../images/topic_icon.png
+.. |bild| image:: ../images/image_icon.png
+.. |termin| image:: ../images/event_icon.png
+
 .. _sec_artikeltypen:
 
 ==============
@@ -10,31 +19,27 @@ danach jedem einzelnen Artikeltyp.  Tabelle :ref:`Artikeltypen
 <tab_artikeltypen>` gibt einen Überblick über die verfügbaren Typen und ihre
 Symbole.
 
-.. TODO evtl. andere Darstellung
-
 .. _tab_artikeltypen: 
 
-+-----------------------------------------------------+---------------------+
-| Symbol                                              | Artikeltyp          |
-+=====================================================+=====================+
-| .. image:: ../images/typ-seite.png                  | Seite               |
-+-----------------------------------------------------+---------------------+
-| .. image:: ../images/typ-nachricht.png              | Nachricht           |
-+-----------------------------------------------------+---------------------+
-| .. image:: ../images/typ-termin.png                 | Termin              |
-+-----------------------------------------------------+---------------------+
-| .. image:: ../images/typ-bild.png                   | Bild                |
-+-----------------------------------------------------+---------------------+
-| .. image:: ../images/typ-datei.png                  | Datei               |
-+-----------------------------------------------------+---------------------+
-| .. image:: ../images/typ-lesezeichen.png            | Lesezeichen         |
-+-----------------------------------------------------+---------------------+
-| .. image:: ../images/typ-link.png                   | Link                |
-+-----------------------------------------------------+---------------------+
-| .. image:: ../images/typ-ordner.png                 | Ordner              |
-+-----------------------------------------------------+---------------------+
-| .. image:: ../images/typ-kollektion.png             | Kollektion          |
-+-----------------------------------------------------+---------------------+
++----------------+---------------------+
+| Symbol         | Artikeltyp          |
++================+=====================+
+| |seite|        | Seite               |
++----------------+---------------------+
+| |nachricht|    | Nachricht           |
++----------------+---------------------+
+| |termin|       | Termin              |
++----------------+---------------------+
+| |bild|         | Bild                |
++----------------+---------------------+
+| |datei|        | Datei               |
++----------------+---------------------+
+| |link|         | Link                |
++----------------+---------------------+
+| |ordner|       | Ordner              |
++----------------+---------------------+
+| |kollektion|   | Kollektion          |
++----------------+---------------------+
 
 .. toctree::
 

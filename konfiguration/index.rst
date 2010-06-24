@@ -17,10 +17,12 @@ Benutzer und Gruppen
 E-Mail
 ------
 
-Editing
--------
+.. _sec_bearbeitungseinstellungen:
 
-.. _konfiguration-erweiterungen:
+Bearbeiten
+----------
+
+.. _sec_konfiguration-erweiterungen:
 
 Erweiterungen
 -------------

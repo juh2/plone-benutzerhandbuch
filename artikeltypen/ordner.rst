@@ -53,6 +53,11 @@ genannt. Jeder Ordner besitzt eine weitere Ansicht, in der Sie das
 Syndizierungsverhalten steuern können (siehe
 Abschnitt :ref:`sec_syndizierung-ansicht`).
 
+.. _sec_bearbeitungsansicht-ordner:
+
+Bearbeitungsansicht
+===================
+
 In der Bearbeitungsansicht eines Ordners gibt es im Teilformular
 »Einstellungen« die Option »Vor- und Zurückblättern einschalten«
 (siehe Abbildung :ref:`fig_ordner-bearbeiten`).
@@ -64,7 +69,7 @@ In der Bearbeitungsansicht eines Ordners gibt es im Teilformular
 
    Das Teilformular »Einstellungen« bei Ordnern
 
-kWenn diese Option eingeschaltet ist und sich in einem Ordner mehrere Artikel
+Wenn diese Option eingeschaltet ist und sich in einem Ordner mehrere Artikel
 befinden, so erscheinen in deren Anzeige Verweise zum jeweils
 vorherigen und nächsten Artikel (siehe Abbildung :ref:`fig_vor-zurueck-navi`).
 
