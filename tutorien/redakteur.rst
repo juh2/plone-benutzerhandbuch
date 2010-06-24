@@ -61,23 +61,30 @@ Einen einzelnen Artikel zur Veröffentlichung einreichen
 * Vergewissern Sie sich in der Ordnerübersicht, dass der Status des
   Artikels »privat« ist und der Eintrag für den Artikel rot dargestellt
   wird.
-* Reichen Sie die Seite zur Veröffentlichung ein, indem Sie zur Anzeige
-  des Artikels wechseln und im Statusmenü den Eintrag »Zur Veröffentlichung
-  einreichen« wählen (siehe
-  Abbildung :ref:`fig_auswahlmenu-zur-veroeffentlichung-einreichen`).
+* Reichen Sie die Seite zur Veröffentlichung ein, indem Sie zur Anzeige des
+  Artikels wechseln und im Statusmenü den Eintrag :guilabel:`Zur
+  Veröffentlichung einreichen` wählen (siehe Abbildung
+  :ref:`fig_auswahlmenu-zur-veroeffentlichung-einreichen`).
 
 .. _fig_auswahlmenu-zur-veroeffentlichung-einreichen:
 
 .. figure::
-   ../images/zur-veroeffentlichung-einreichen.png
+   ../images/zur-veroeffentlichung-einreichen.*
    :width: 100%
 
    Einen Artikel zur Veröffentlichung einreichen
 
 * Achten Sie auf die Statusmeldung und darauf, dass der Artikel in der
-  Ordnerübersicht nun als »zur Veröffentlichung eingereicht« geführt und in
+  Ordnerübersicht nun als »zur Redaktion eingereicht« geführt und in
   Orange dargestellt wird.
 
+.. _fig_zur-veroeffentlichung-eingereicht:
+
+.. figure::
+   ../images/zur-veroeffentlichung-eingereicht.*
+   :width: 100%
+
+   Statusmeldung nach Einreichung
 
 .. _sec_veroff-von-artik-4:
 
@@ -91,15 +98,14 @@ Sie können mehrere Artikel gleichzeitig zur Veröffentlichung einreichen.
   dort mit dem Status »privat« geführt und rot dargestellt.
 * Wählen Sie in der Tabelle die Artikel aus, die Sie zur Veröffentlichung
   einreichen wollen.
-* Betätigen Sie die Schaltfläche »Status ändern« unterhalb der
-  Tabelle. Sie gelangen zu einem Formular (siehe
-  Abbildung :ref:`fig_formular-arbeitsablauf`),
-  mit dem Sie die ausgewählten Artikel
-  zur Veröffentlichung einreichen können. Das Formular wird in
-  Abschnitt :ref:`sec_batch-publishing` im Detail beschrieben.
+* Betätigen Sie die Schaltfläche :guilabel:`Status ändern` unterhalb der
+  Tabelle. Sie gelangen zu einem Formular (siehe Abbildung
+  :ref:`fig_formular-arbeitsablauf`), mit dem Sie die ausgewählten Artikel zur
+  Veröffentlichung einreichen können. Das Formular wird in Abschnitt
+  :ref:`sec_batch-publishing` im Detail beschrieben.
 * Geben Sie im Feld »Kommentare« eine Nachricht für Ihren Redakteur ein.
-* Setzen Sie ganz unten auf dem Formular im Abschnitt »Status verändern«
-  ein Häkchen bei »Zur Veröffentlichung einreichen« und speichern Sie.
+* Wählen Sie ganz unten auf dem Formular im Abschnitt »Statusänderung«
+  :guilabel:`Zur Veröffentlichung einreichen` und speichern Sie.
 * Achten Sie auf die Statusmeldung und darauf, dass alle eingereichten
   Artikel im Ordner nun den Status »zur Veröffentlichung eingereicht« tragen
   und in einer anderen Farbe (Orange) dargestellt werden.
@@ -107,10 +113,12 @@ Sie können mehrere Artikel gleichzeitig zur Veröffentlichung einreichen.
 .. _fig_formular-arbeitsablauf:
 
 .. figure::
-   ../images/formular-arbeitsablauf.png
+   ../images/formular-arbeitsablauf.*
    :width: 100%
 
    Das erweiterte Formular für den Arbeitsablauf
+
+.. TODO: Formular erscheint als Popup
 
 Sie erreichen das Formular auch über den Menüeintrag »Erweitert...« im
 Statusmenü eines Artikels. Sie werden vor allem dann das Formular benötigen,
@@ -127,18 +135,19 @@ Redakteur ins Spiel. Übernehmen Sie deshalb jetzt  die Rolle des Redakteurs.
 
 * Melden Sie sich mit Ihrem eigenen Benutzernamen ab.
 * Melden Sie sich mit dem Benutzernamen des Redakteurs wieder an.
+* Wechseln Sie zur persönlichen Seite des Redakteurs.
 
 
-Nach der Anmeldung erscheint in der rechten Spalte das Portlet mit der
-Revisionsliste (siehe Abbildung :ref:`fig_revisionsliste`).
+Auf der persönlichen Seite des Redakteurs erscheint ein Portlet mit der
+Revisionsliste (siehe Abbildung :ref:`fig_revisionsliste-persoenliche-seite`).
 
-.. _fig_revisionsliste:
+.. _fig_revisionsliste-persoenliche-seite:
 
 .. figure::
-   ../images/revisionsliste.png
+   ../images/revisionsliste-persoenliche-seite.*
    :width: 100%
 
-   Portlet »Revisionsliste«
+   »Revisionsliste« auf persönlicher Seite
 
 
 Die Liste enthält Artikel, die zur Veröffentlichung eingereicht wurden und die
@@ -161,7 +170,7 @@ Artikel veröffentlichen
 .. _fig_statusmenu-veroeffentlichen:
 
 .. figure::
-   ../images/veroeffentlichen.png
+   ../images/veroeffentlichen.*
    :width: 100%
 
    Einen Artikel veröffentlichen
@@ -174,22 +183,21 @@ sichtbar.
 Historie des Arbeitsablaufs
 ===========================
 
-Rufen Sie den veröffentlichten Artikel auf und klappen Sie die Historie für
-den Arbeitsablauf auf, indem Sie mit der Maus auf das Pluszeichen neben dem
-Begriff »Historie« unterhalb des Artikels klicken (siehe
+Rufen Sie den veröffentlichten Artikel auf und gehen Sie zur Historie des
+Artikels, indem Sie dem Verweis »Historie« unterhalb des Titels folgen. (siehe
 Abbildung :ref:`fig_historie-arbeitsablauf`).
 
 .. _fig_historie-arbeitsablauf:
 
 .. figure::
-   ../images/historie-arbeitsablauf.png
+   ../images/historie-arbeitsablauf.*
    :width: 100%
 
    Historie des Arbeitsablaufes
 
-Dort können Sie nachschauen, wer den Artikel wann zur Veröffentlichung
-eingereicht oder veröffentlicht hat. Die Tabelle enthält eine Liste aller
-Statusänderungen. 
+Dort können Sie nachschauen, wer den Artikel wann bearbeitet, zur
+Veröffentlichung eingereicht oder veröffentlicht hat. Die Tabelle enthält eine
+Liste aller Änderungen. 
 
 .. _sec_artik-redig-veroff-1:
 
@@ -202,7 +210,7 @@ sollte, können Sie ihn zurückweisen.
 * Wählen Sie in der Revisionsliste einen Artikel aus.
 * Lesen Sie den Artikel.
 * Weisen Sie den Artikel zurück, indem Sie im Statusmenü den Eintrag
-  »Zurückweisen« (siehe Abbildung :ref:`fig_statusmenu-veroeffentlichen`)
+  :guilabel:`Zurückweisen` (siehe Abbildung :ref:`fig_statusmenu-veroeffentlichen`)
   auswählen.
 * Achten Sie auf die Statusmeldung und darauf, dass der Artikel in der
   Ordnerübersicht nun den Status »privat« trägt und in Rot dargestellt wird.
