@@ -21,6 +21,9 @@ Glossar
    Benutzer
       n.n.
 
+   Bitmap-Grafik
+      n.n.
+
    Buildsystem
       n.n.
 
