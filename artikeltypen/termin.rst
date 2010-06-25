@@ -4,21 +4,20 @@
  Termin
 ========
 
-Artikel vom Typ Termin kündigen zeitlich festgelegte Ereignisse an,
-beispielsweise Veranstaltungen. Eine solche Ankündigung enthält für Termine
-typische Informationen wie Anfang und Ende des Ereignisses, einen Ort und
-einen Ansprechpartner. Diese Termininformationen haben eigene Eingabefelder im
-Bearbeitungsformular und werden strukturiert gespeichert, damit Plone sie
-direkt benutzen kann.
+Mit dem Artikeltyp »Termin‹ können Sie Veranstaltungen ankündigen. Ein Termin
+enthält unter anderem Informationen über Ort, Anfang und Ende der
+Veranstaltung, über einen Ansprechpartner oder über die Teilnehmer. Diese
+Termininformationen haben eigene Eingabefelder im Bearbeitungsformular und
+werden gesondert gespeichert, damit Plone sie direkt benutzen kann.
 
 Wie die Seite verfügt auch der Termin über Felder für Titel, Beschreibung und
-Haupttext. Letzterer wird im Termin jedoch als Terminankündigung bezeichnet.
-Dort haben Sie die Möglichkeit, mit dem Texteditor Kupu einen formatierten Text
-mit Zwischenüberschriften, Bildern, Tabellen und anderen Elementen einzugeben.
+Haupttext. Letzterer wird im Termin als »Terminankündigung« bezeichnet.  Dort
+haben Sie die Möglichkeit, einen Text mit Zwischenüberschriften, Bildern,
+Tabellen und anderen Elementen einzugeben.
 
 .. _fig_termin:
 
-.. figure:: ../images/termin.png
+.. figure:: ../images/termin.*
    :width: 100%
 
    Anzeige eines Termins
@@ -33,20 +32,16 @@ Terminanfang, Terminende (Wann)
   Zeitraum, in dem das Ereignis stattfindet
 
 Terminankündigung
-  Ankündigung einer Veranstaltung, Einladung zu einem Treffen
+  Ausführliche Beschreibung der Veranstaltung 
 
 Teilnehmer
-  Liste der erwarteten Teilnehmer
+  Liste der von Personen, die an der Verantstaltung teilnehmen
 
-Terminart (Was)
-  Wählen Sie eine oder mehrere Kategorien aus, oder legen
-  Sie neue an.
-
-URL
+Webadresse des Termins
   Internetadresse mit weiteren Informationen
 
 Kontaktname
-  Name des Ansprechpartners bei Fragen zum Ereignis
+  Name des Ansprechpartners bei Rückfragen
 
 Kontaktadresse
   E-Mail-Adresse des Ansprechpartners
@@ -54,30 +49,31 @@ Kontaktadresse
 Kontakttelefon
   Rufnummer des Ansprechpartners
 
-Dabei sind nur Terminanfang und Terminende Pflichtfelder.
+Terminanfang und Terminende sind Pflichtfelder und müssen immer ausgefüllt
+werden.
 
 Plone wertet die zusätzlichen Felder gezielt aus, um eine einfache
 Terminverwaltung anbieten zu können:
 
-* Strukturierte Angaben werden in der Anzeige jedes Termins in einer
-  Tabelle dargestellt (siehe Abbildung :ref:`fig_termin`).
+* Die strukturierten Angaben werden in der Anzeige des Termins übersichtlich in
+  einer Tabelle dargestellt (siehe Abbildung :ref:`fig_termin`).
 
 * Über den Eintrag »Termine« in der Hauptnavigation erreichen Sie eine
   Übersicht künftiger und vergangener Termine.
 
-* Das Terminportlet (siehe Abbildung :ref:`fig_portlet-events`)
-  unterrichtet Sie über die jeweils fünf nächsten Termine. Zu
-  jedem Termin sehen Sie Titel, Ort und Anfangsdatum. Wenn Sie den Mauszeiger
-  über den Titel halten, wird der Anfang des Beschreibungstextes angezeigt.
+* Das Terminportlet (siehe Abbildung :ref:`fig_portlet-events`) unterrichtet
+  Sie über die jeweils fünf nächsten Termine. Zu jedem Termin sehen Sie Titel,
+  Ort, Anfangs und Enddatum. Wenn Sie den Mauszeiger über den Titel halten,
+  wird der Beschreibungstext angezeigt.
 
-* Plone trägt Termine ins Kalenderportlet ein (siehe
-  Abbildung :ref:`fig_portlet-calendar`).
-  Der Titel des Portlets gibt an, welcher Monat gerade angezeigt wird. Er
-  enthält außerdem Verweise auf den jeweils vorherigen und nächsten Monat;
-  zunächst zeigt der Kalender den aktuellen Monat an. Der aktuelle Tag ist mit
-  einem orangefarbenen Rahmen markiert.
+* Plone trägt Termine außerdem ins Kalenderportlet ein (siehe Abbildung
+  :ref:`fig_portlet-calendar`).  Der Titel des Portlets gibt an, welches Jahr
+  und welcher Monat gerade angezeigt wird. Die Titelzeile enthält außerdem
+  Verweise auf den vorherigen und nächsten Monat. Beim Aufruf einer
+  Webseite, auf der sich das Kalenderportlet befindet, wird zunächst der
+  aktuelle Monat angezeigt. Der aktuelle Tag ist mit einem Rahmen markiert.
 
-  Ist für einen Tag mindestens ein Termin bekannt, so wird er im Kalender
+  Ist für einen Tag ein Termin bekannt, so wird das Datum im Kalender
   hervorgehoben und dient als Verweis zu einer Liste aller Termine des
   betreffenden Tages. Wenn Sie den Mauszeiger über einen solchen Tag halten,
   sehen Sie seine Termine mit Anfangszeit, Endzeit und Titel.
@@ -89,15 +85,13 @@ Terminverwaltung anbieten zu können:
 
 .. _fig_portlet-events:
 
-.. figure:: ../images/portlet-events.png
-   :width: 100%
+.. figure:: ../images/portlet-events.*
 
    Terminportlet
 
 .. _fig_portlet-calendar:
 
-.. figure:: ../images/portlet-calendar.png
-   :width: 100%
+.. figure:: ../images/portlet-calendar.*
 
    Kalenderportlet
 
@@ -105,11 +99,11 @@ Terminverwaltung anbieten zu können:
 Die Terminübersicht und das Kalenderportlet berücksichtigen per Voreinstellung
 nur Termine im Revisionsstatus »veröffentlicht«.
 
-Vergessen Sie bei der Eingabe der Adresse für weitere Informationen zum Termin
-nicht, dass eine Webadresse mit ``http://`` beginnen muss. Wenn Sie
+Vergessen Sie bei der Eingabe der Webadresse für weitere Informationen zum
+Termin nicht, dass eine Webadresse mit ``http://`` beginnen muss. Wenn Sie
 diesen Teil der Adresse weglassen, erhalten Sie eine Fehlermeldung. Plone
-speichert nur Adressen mit vollständigem URL-Schema, beispielsweise
-``http``, ``https`` oder ``ftp``.
+speichert nur Adressen mit vollständigem URL-Schema, beispielsweise ``http``,
+``https`` oder ``ftp``.
 
 Plone achtet darauf, dass Ihre Datumsangaben für Anfang und Ende des Termins
 gültig sind und der Anfangszeitpunkt nicht nach dem Ende liegt.
