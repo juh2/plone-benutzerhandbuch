@@ -10,42 +10,48 @@ der Website als aktuelle Mitteilungen wahrgenommen werden:
 * Der Eintrag »Nachrichten« in der Hauptnavigation führt zu einer
   Übersicht aller veröffentlichten Nachrichten.
 * Das Nachrichtenportlet (siehe Abbildung :ref:`fig_portlet-news`)
-  zeigt Ihnen die Titel der fünf neuesten Nachrichten an.
+  zeigt die Titel der fünf neuesten Nachrichten an.
 
 .. _fig_portlet-news:
 
-.. figure:: ../images/portlet-news.png
-   :width: 100%
+.. figure:: ../images/portlet-news.*
 
    Nachrichtenportlet
 
 
 Beide Listen enthalten nur Nachrichten im Revisionsstatus »veröffentlicht«.
 Sie sind nach dem Erstellungsdatum sortiert und beginnen mit der neuesten
-Nachricht. Das Portlet zeigt zu jeder Nachricht das Änderungsdatum an.
+Nachricht. Das Portlet zeigt zu jeder Nachricht das Erstellungsdatum an.
 
-Im Unterschied zu Seiten gehört zum Inhalt einer Nachricht außer dem
-Text ein Titelbild. Es erscheint sowohl in der Anzeige der Nachricht
-(siehe Abbildung :ref:`fig_nachricht`) als auch in der
-Nachrichtenübersicht der Website neben dem Beschreibungstext des
-Artikels. Das Titelbild hat nichts mit den Bildern zu tun, die Sie
-beispielsweise mit Kupu in den Nachrichtentext einbetten können.
+Nachrichten können im Unterschied zu Seiten ein Titelbild enthalten.  Es
+erscheint sowohl in der Anzeige der Nachricht (siehe Abbildung
+:ref:`fig_nachricht`) als auch in der Nachrichtenübersicht neben dem
+Beschreibungstext des Artikels (siehe Abbildung
+:ref:`fig_nachrichtenuebersicht`). Das Titelbild hat nichts mit den Bildern zu
+tun, die Sie beispielsweise mit Kupu in den Nachrichtentext einbetten können.
 
 .. _fig_nachricht:
 
-.. figure:: ../images/nachricht.png
+.. figure:: ../images/nachricht.*
    :width: 100%
 
    Anzeige einer Nachricht
 
+.. _fig_nachrichtenuebersicht:
+
+.. figure:: ../images/nachrichtenuebersicht.*
+   :width: 80%
+
+   Die Nachrichtenübersicht
+
 In der Bearbeitungsansicht einer Nachricht können Sie das Titelbild auf Ihrem
-Rechner auswählen und hochladen (siehe
-Abbildung :ref:`fig_nachricht-bild-einfuegen`).
+Rechner auswählen und hochladen (siehe Abbildung
+:ref:`fig_nachricht-bild-einfuegen`). Betätigen Sie dazu die Schaltfläche
+:guilabel:`Datei auswählen`. 
 
 .. _fig_nachricht-bild-einfuegen:
 
 .. figure:: ../images/nachricht-bild-einfuegen.png
-   :width: 100%
 
    Ein Titelbild in eine Nachricht einfügen
 
