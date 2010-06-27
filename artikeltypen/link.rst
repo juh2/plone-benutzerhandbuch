@@ -1,14 +1,20 @@
 .. _sec_link:
 
-======================
- Link und Lesezeichen
-======================
+====
+Link
+====
 
-Man kann auf einer Plone-Website Verweise auf Webseiten und andere Ressourcen
-im Internet genauso verwalten wie alle anderen Inhalte. Dafür gibt es
-den Artikeltyp »Link«, dessen Inhalt eine Internetadresse ist. In der
-Anzeige eines Links erscheinen Titel und Beschreibung der Ressource sowie ein
-Verweis zu der Adresse (siehe Abbildung :ref:`fig_link`).
+Man kann mit Plone Verweise auf Webseiten und andere Ressourcen im Internet
+genauso verwalten wie alle anderen Inhalte. Es ist also möglich, Links mit
+einem Titel und einer Zusammenfassung zu versehen, sie in Ordnern zu sammeln
+und mit Hilfe von Metadaten zu kategorisieren. 
+
+Der Artikeltyp, der dafür vorgesehen ist, heißt »Link«, und sein Inhalt besteht
+aus einer Internetadresse. Wenn man das Recht hat, einen Link zu bearbeiten,
+wird er – wie die anderen Artikeltypen – angezeigt (siehe Abbildung
+:ref:`fig_link`). Hat man diese Rechte nicht, gelangt man sofort zur
+referenzierten Website. Der Artikeltyp »Link« verhält sich also in der Regel
+wie ein ganz normaler Link im Text einer Webseite.  
 
 .. _fig_link:
 
@@ -28,7 +34,3 @@ der Artikel keinen Inhalt. Beachten Sie, dass die Adresse einer Webseite mit
 Adressen anderer Internetdienste angeben, beispielsweise nach dem Schema
 ``ftp://``.
 
-Lesezeichen sind spezielle Links, die auf Artikel Ihrer Website verweisen. Mit
-der Artikelaktion »Lesezeichen setzen« auf einer Seite Ihrer Website legen Sie
-selbst ein Lesezeichen an. Mehr über Lesezeichen erfahren Sie in
-Abschnitt :ref:`sec_navigation-lesezeichen`.

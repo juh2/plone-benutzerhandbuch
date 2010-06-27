@@ -4,22 +4,21 @@
  Ordner
 ========
 
-Geben Sie Ihrer Website eine inhaltliche Struktur, indem Sie verwandte Artikel
-in Ordnern zusammenfassen. Ihre Leser können dann Zusammenhänge zwischen
-Artikeln besser erkennen und gesuchte Inhalte schneller auffinden.
+Mit Ordnern geben Sie Ihrer Website eine inhaltliche Struktur. Sie können
+verwandte und zusammengehörige Artikel in Ordnern zusammenfassen und mit Hilfe
+von ineinander verschachtelten Ordnern komplexe Navigationsstrukturen aufbauen.
 
-Anders als die meisten Artikeltypen besitzen Ordner keinen eigenen
-redaktionellen Inhalt, sondern enthalten eine Reihe anderer Artikel. Auf diese
-Weise teilen Ordner und Unterordner den möglicherweise umfangreichen Inhalt
-der Website in überschaubare inhaltliche Einheiten auf.
+.. TODO: Hier später Verweis auf Admin-Tutorial einfügen.
 
-Die Anzeigeansicht eines Ordners zeigt entweder den Inhalt des Ordners an oder
-verwendet einen einzelnen Artikel aus dem Ordner gewissermaßen als Titelblatt.
-Für die Darstellung ihres Inhalts besitzen Ordner mehrere Vorlagen, aus denen
-Sie im Menü »Darstellung« wählen können, das sich in dem grünen Rahmen um
-die Anzeige befindet:
+Die Anzeigeansicht eines Ordners listet entweder den Inhalt des Ordners, also
+die Artikel, die sich in ihm befinden, auf, oder sie verwendet einen
+ausgewählten Artikel aus dem Ordner wie eine Art Titelblatt und zeigt diesen
+Artikel an. Der Inhalt von Ordnern kann auf unterschiedliche Art und Weise
+dargestellt werden.  Ordner haben dafür mehrere Vorlagen, aus denen Sie im Menü
+:guilabel:`Darstellung` wählen können:
 
 * Kurzfassung
+* Gesamter Inhalt
 * Tabelle
 * Album
 * Liste
@@ -29,8 +28,17 @@ die Anzeige befindet:
 .. figure:: ../images/folder-order.png
    :width: 100%
 
-   Der Inhalt eines Ordners als Liste
+   Der Inhalt eines Ordners als Kurzfassung
 
+Kurzfassung
+
+Tabelle
+
+Liste
+
+Album
+
+Liste
 Die Darstellung als Liste (siehe Abbildung :ref:`fig_ordner`) enthält
 zu jedem Eintrag den Titel, die Beschreibung, einen Verweis auf das
 Profil des Erstellers und das Datum der letzten Änderung. Der Titel
