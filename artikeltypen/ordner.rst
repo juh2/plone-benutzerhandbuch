@@ -5,16 +5,18 @@
 ========
 
 Mit Ordnern geben Sie Ihrer Website eine inhaltliche Struktur. Sie können
-verwandte und zusammengehörige Artikel in Ordnern zusammenfassen und mit Hilfe
-von ineinander verschachtelten Ordnern komplexe Navigationsstrukturen aufbauen.
+verwandte und zusammengehörige Artikel in Ordnern zusammenfassen und mit
+ineinander verschachtelten Ordnern komplexe Navigationsstrukturen aufbauen.
 
 .. TODO: Hier später Verweis auf Admin-Tutorial einfügen.
 
-Die Anzeigeansicht eines Ordners listet entweder den Inhalt des Ordners, also
-die Artikel, die sich in ihm befinden, auf, oder sie verwendet einen
+Die Anzeigeansicht eines Ordners listet entweder den Inhalt des Ordners auf,
+also die Artikel, die sich in ihm befinden, oder sie verwendet einen
 ausgewählten Artikel aus dem Ordner wie eine Art Titelblatt und zeigt diesen
-Artikel an. Der Inhalt von Ordnern kann auf unterschiedliche Art und Weise
-dargestellt werden.  Ordner haben dafür mehrere Vorlagen, aus denen Sie im Menü
+Artikel an. 
+
+Der Inhalt von Ordnern kann auf unterschiedliche Art und Weise dargestellt
+werden.  Ordner haben dafür mehrere Vorlagen, aus denen Sie im Menü
 :guilabel:`Darstellung` wählen können:
 
 * Kurzfassung
@@ -31,27 +33,40 @@ dargestellt werden.  Ordner haben dafür mehrere Vorlagen, aus denen Sie im Men�
    Der Inhalt eines Ordners als Kurzfassung
 
 Kurzfassung
+   Die Darstellungsform »Kurzfassung« (siehe Abbildung :ref:`fig_ordner`) zeigt
+   den Titel, die Zusammenfassung und bei Nachrichten zusätzlich das Titelbild
+   an. Der Titel ist ein Verweis zum jeweiligen Artikel, zu dem auch der Link
+   :guilabel:`Mehr..` unterhalb der Zusammenfassung verweist.  
 
 Tabelle
+   In der Darstellungsform »Tabelle« wird der Inhalt des Ordners in einer
+   vierspaltigen Tabelle aufgelistet. Die vier Spalten zeigen den Titel, den
+   Autor, den Artikeltyp und das Datum der letzten Veränderung an. Der Titel
+   ist ein Verweis auf den jeweiligen Artikel. Der Name des Autors ein Verweis
+   auf dessen persönliche Informationen.   
 
 Liste
+   Die Darstellung als Liste enthält zu jedem Eintrag den Titel, die
+   Beschreibung, einen Verweis auf das Profil des Erstellers und das Datum der
+   letzten Änderung. Eine Ausnahme bilden Einträge für Termine: bei ihnen
+   werden anstelle des Änderungsdatums Ort und Zeitraum des Termins angezeigt.
 
 Album
+   Die Darstellung als Album ähnelt der Listendarstellung. Von Bildern werden
+   jedoch kleine Vorschaubilder angezeigt. Diese Darstellungsart eignet sich
+   also zur Anzeige von Ordnern, in denen sich hauptsächlich Bilder befinden. 
 
-Liste
-Die Darstellung als Liste (siehe Abbildung :ref:`fig_ordner`) enthält
-zu jedem Eintrag den Titel, die Beschreibung, einen Verweis auf das
-Profil des Erstellers und das Datum der letzten Änderung. Der Titel
-ist ein Verweis zum jeweiligen Artikel. Eine Ausnahme bilden Einträge
-für Termine: bei ihnen werden anstelle des Änderungsdatums Ort und
-Zeitraum des Termins angezeigt.
+Gesamter Inhalt
+   Wenn Sie die Darstellungsform :guilabel:`Gesamter Inhalt` auswählen, wird
+   der Inhalt aller Artikel angezeigt. Dabei wird die Reihenfolge eingehalten,
+   in der sich die Artikel im Ordner befinden.
 
 Artikel im Revisionsstatus »privat« werden in der Regel ausgeblendet. Sie
 sehen nur die privaten Artikel, die Ihnen gehören oder sich in Ihrem
 persönlichen Ordner befinden.
 
 Wollen Sie für die Ordneranzeige einen Artikel aus dem Ordner benutzen, wählen
-Sie im Darstellungsmenü den Punkt »Artikel aus dem Ordner.... Sie
+Sie im Darstellungsmenü den Punkt :guilabel:`Artikel aus dem Ordner...`. Sie
 gelangen so zu einem Formular, in dem Sie einen Artikel aus dem Ordner
 markieren können. In der Anzeigeansicht des Ordners erscheint nun keine
 Übersicht über seinen Inhalt, sondern der ausgewählte Artikel.
@@ -59,7 +74,7 @@ markieren können. In der Anzeigeansicht des Ordners erscheint nun keine
 Plone kann für Ordner RSS-Feeds erzeugen. Dieser Vorgang wird Syndizierung
 genannt. Jeder Ordner besitzt eine weitere Ansicht, in der Sie das
 Syndizierungsverhalten steuern können (siehe
-Abschnitt :ref:`sec_syndizierung-ansicht`).
+Kapitel :ref:`sec_syndizierung-ansicht`).
 
 .. _sec_bearbeitungsansicht-ordner:
 
@@ -104,7 +119,7 @@ seine Inhaltsansicht (siehe Abbildung :ref:`fig_ordnerinhalt`).
 
    Inhaltsansicht eines Ordners
 
-Sie erreichen diese Ansicht über den Reiter »Inhalte«.
+Sie erreichen diese Ansicht über den Reiter :guilabel:`Inhalte`.
 
 Die Inhaltsansicht eines Ordners zeigt eine Tabelle aller im Ordner
 befindlichen Artikel mit ihren wichtigsten Eigenschaften. In dieser Ansicht
@@ -113,11 +128,12 @@ Haben Sie einen Artikel aus dem Ordner als Ordneranzeige ausgewählt, so ist er
 durch Fettschrift hervorgehoben.
 
 Artikel liegen in einem Ordner in der Reihenfolge, in der sie hinzugefügt
-wurden, und werden so auch in den Ordneransichten und der Navigation
-angezeigt. Sie können die Reihenfolge jedoch verändern, indem Sie einzelne
-Artikel an dem Symbol »::« in der Spalte »Reihenfolge« ganz rechts mit der
-Maus »anfassen« und auf- oder abwärts
-verschieben. Falls Sie Javascript ausgeschaltet haben, finden Sie in der
+wurden. Sie werden so auch in den Ordneransichten und der Navigation
+angezeigt. Sie können die Reihenfolge jedoch verändern. Am Anfang jeder Spalte
+befindet sich das Symbol :guilabel:`⣿`. Wenn Sie mit der Maus über diesem
+Symbol sind, verändert sich der Mauszeiger in einen Doppelpfeil. Sie können nun
+bei gedrückter Maustaste den entsprechenden Artikel nach oben oder unten
+verschieben.  Wenn Sie Javascript ausgeschaltet haben, finden Sie in der
 Spalte stattdessen Pfeilsymbole vor (siehe Abbildung :ref:`fig_umordnen`).
 
 .. _fig_umordnen:
@@ -125,5 +141,4 @@ Spalte stattdessen Pfeilsymbole vor (siehe Abbildung :ref:`fig_umordnen`).
 .. figure:: ../images/umordnen.png
    :width: 100%
 
-   Artikel in einem Ordner umordnen]{Artikel in einem Ordner umordnen:
-   mit Javascript (links) und ohne (rechts)}
+   Bedienelemente zur Umsortierung bei ausgeschaltetem Javascript
