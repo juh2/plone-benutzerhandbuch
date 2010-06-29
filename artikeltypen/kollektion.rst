@@ -4,80 +4,111 @@
  Kollektion
 ============
 
-Oft möchte man verwandte Artikel einer Website zusammenfassen, beispielsweise
-in einer Nachrichtenübersicht oder einer Liste aller Artikel zu einem
-Thema. Ein Artikel kann dabei für verschiedene solcher Übersichten
-relevant sein. Da jeder Artikel aber nur einen einzigen Platz in der
-Ordnerhierarchie der Website hat, sind Ordner nicht geeignet, um Artikel unter
-verschiedenen Gesichtspunkten zu gruppieren.
+Oft möchte man Artikel, die sich in unterschiedlichen Ordnern einer Website
+befinden an einem Ort zusammenfassen. Dies kann beispielsweise eine
+Nachrichtenübersicht sein oder eine Liste aller Artikel, die sich einem
+bestimmten Thema widmen.  Da jeder Artikel sich aber nur an einem Platz in der
+Ordnerhierarchie der Website befinden kann, sind Ordner nicht geeignet, um
+Artikel unter verschiedenen Gesichtspunkten zu gruppieren.
 
 Stattdessen verwendet man Kollektionen, um beliebig viele verschiedene
-Übersichten zu erstellen. Diese Übersichten sind unabhängig von der
-Ordnerstruktur der Website. Sie können eine Kollektion als das Ergebnis einer
-vorgefertigten Suche verstehen; Plone hält die Artikelauswahl anhand von
-Suchkriterien stets aktuell.
+Übersichten zu erstellen. Kollektionen sind unabhängig von der Ordnerstruktur
+der Website, da es sich hierbei um die Auflistung von Artikeln handelt, die
+bestimmten Suchkriterien entsprechen.  Eine Kollektion ist das Ergebnis einer
+vorgefertigten Suche; Plone hält die Artikelauswahl anhand von Suchkriterien
+stets aktuell.
 
-Kollektionen kennen ähnlich wie Ordner verschiedene Darstellungen für die
-Anzeigeansicht, aus denen Sie im Darstellungsmenü wählen können:
+Anzeige
+=======
 
-* Liste
+Nach außen verhalten sich Kollektionen wie Ordner. Sie kennen ebenso wie Ordner
+verschiedene Darstellungen für die Anzeigeansicht, aus denen Sie im
+Darstellungsmenü wählen können:
+
 * Kurzfassung
+* Gesamter Inhalt
 * Tabelle
 * Album
+* Liste
 * Kollektion
 
 Als Beispiel zeigt Abbildung :ref:`fig_kollektion` die Darstellung als Liste.
 
 .. _fig_kollektion:
 
-.. figure:: ../images/thema.png
+.. figure:: ../images/kollektion.*
    :width: 100%
    
    Darstellung einer Kollektion als Liste
 
-Wie Ordner besitzen Kollektionen auch keinen eigenen
-redaktionellen Inhalt. Wenn Sie eine Kollektion bearbeiten, bestimmen Sie,
-nach welchen Kriterien sie Artikel zusammenstellt und wie sie sie anzeigt.
+Die ersten fünf Darstellungsvarianten funktionieren so wie bei Ordnern. Die
+letzte Variante, die Darstellung als »Kollektion« ist in der
+Bearbeitungsansicht der Kollektion konfigurierbar. 
+
+Kollektionen haben neben den Reitern :guilabel:`Inhalte`, :guilabel:`Bearbeiten`und :guilabel:`Freigabe` einen weiteren Reiter mit Namen :guilabel:`Kriterien`. 
+Dahinter verbirgt sich das Formular, mit dem Sie die Kritieren festlegen, die darüber entscheiden, welche Artikel in der Kollektion aufgeführt werden.  
+
+Wie Ordner besitzen Kollektionen auch keinen eigenen redaktionellen Inhalt. 
+
+.. sec_kollektion_bearbeiten::
+
+Bearbeitungsansicht
+===================
+
 
 .. _fig_kollektion-bearbeiten:
 
-.. figure:: ../images/kollektion-bearbeiten.png
+.. figure:: ../images/kollektion-bearbeiten.*
    :width: 100%
 
    Bearbeitungsansicht einer Kollektion
 
-In der Bearbeitungsansicht einer Kollektion (siehe Abbildung
-:ref:`fig_kollektion-bearbeiten`) können Sie einstellen, wie viele
-Artikel auf einer Seite angezeigt werden sollen. Kreuzen Sie dazu
-»Eingrenzung der Suchresultate« an und geben Sie im Feld darunter die
-gewünschte Artikelanzahl ein. Findet die Kollektion anhand der
-gewählten Suchkriterien mehr Artikel, so wird die Liste auf mehrere
-Seiten verteilt. Unterhalb der angezeigten Liste finden Sie dann
-Verweise auf die weiteren Seiten.  Grenzen Sie die Suchresultate nicht
-ein oder geben Sie als Artikelanzahl 0 an, so werden alle passenden
-Artikel auf einer Seite aufgeführt.
+In der Bearbeitungsansicht können Sie Titel, Zusammenfassung und Haupttext
+einer Kollektion (siehe Abbildung :ref:`fig_kollektion-bearbeiten`) bearbeiten.
 
-Wenn Sie die Kollektion als Tabelle darstellen wollen, haben Sie zwei
-Möglichkeiten. Sie können zum einen im Darstellungsmenü den Eintrag »Tabelle«
-auswählen, sodass der Inhalt der Kollektion in einer fest vorgegebenen Tabelle
-mit vier Spalten (Titel, Autor, Artikeltyp und Änderungsdatum) angezeigt wird.
+Darunter können Sie einstellen, ob alle Artikel auf einer Seite angezeigt
+werden sollen oder auf mehrere Seite verteilt. Kreuzen Sie dazu »Anzeige der
+Suchresultate auf mehrere Seiten verteilen« an und geben Sie im Feld darunter
+die Anzahl der Artikel ein, die auf einer Seite aufgelistet werden sollen.
+Findet die Kollektion anhand der gewählten Suchkriterien mehr Artikel als dort
+vermerkt, so wird die Liste auf mehrere Seiten verteilt. Unterhalb der
+angezeigten Liste finden Sie dann Verweise auf die weiteren Seiten (siehe
+Abbildung :ref:`fig_ergebnisse-auf-mehreren-seiten-anzeigen`).  
 
-Die andere Möglichkeit besteht darin, im Darstellungsmenü den Eintrag
-»Kollektion« auszuwählen und in der Bearbeitungsansicht zu markieren, dass die
-Kollektion als Tabelle angezeigt werden soll. Dann können Sie für diese
-Kollektion festlegen, wie viele Spalten die Tabelle enthält und welche
-Informationen angezeigt werden. Eine Spalte kann eine Metadatenangabe, die
-Größe des Artikels oder seinen Revisionsstatus wiedergeben. Per Voreinstellung
-wird nur der Titel angezeigt; er dient als Verweis zum Artikel.
+.. _fig_ergebnisse-auf-mehreren-seiten-anzeigen:
 
-Wenn Sie die Darstellung »Kollektion« wählen und das Feld »Als Tabelle
-anzeigen« nicht ankreuzen, werden die Artikel in einer Liste aufgeführt. Eine
-solche Liste zeigt für jeden Eintrag den Titel, die Beschreibung, einen
-Verweis auf das Profil des Erstellers und das Datum der letzten Änderung. Der
-Titel dient dabei als Verweis auf den Artikel selbst.
+.. figure:: ../images/ergebnisse-auf-mehreren-seiten-anzeigen.*
+   :width: 100%
 
-Plone erstellt von jeder Kollektion einen RSS-Feed. Sie finden einen Verweis
-darauf in den Artikelaktionen der Kollektion (siehe
+   Navigationsleiste zu weiteren Artikeln
+
+Wenn Sie die Option nicht aktivieren oder als Artikelanzahl 0 eingeben, werden
+alle passenden Artikel auf einer Seite aufgeführt. Dies kann bei sehr vielen Artikeln zu Geschwindigkeitsproblemen bei der Anzeige führen. 
+
+Sie haben in der Bearbeitungsansicht die Möglichkeit die tabellarische
+Darstellung der Kollektion zu konfigurieren. Markieren Sie hierzu die Option
+:guilabel:`Als Tabelle anzeigen` und legen Sie anschließend in der Option
+:guilabel:`Tabellenspalten` fest, welche Informationen in der Tabelle angezeigt
+werden sollen. Per Voreinstellung
+wird nur der Titel angezeigt; er dient als Verweis zum Artikel. Wählen Sie dazu einen Eintrag im linken Fenster aus und klicken
+Sie auf :guilabel:`>>`. Der Eintrag wird daraufhin in das rechte Fenster
+übernommen. Möchten Sie einen Eintrag aus der Anzeige entfernen, wählen Sie im
+rechten Fenster aus und klicken auf :guilabel:`<<`. Speichern Sie Ihre Eingaben
+und wählen Sie anschließend in der Anzeige die Darstellungsoption
+:guilabel:`Kollektion` aus. Die Kollektion wird nun als Tabelle mit den von
+Ihnen festgelegten Spalten angezeigt. Die Darstellungoption :guilabel:`Tabelle`
+benutzt dagegen die in Plone vordefinierten Tabellenspalten (Titel, Autor, Artikeltyp, Änderungsdatum).  
+
+Wenn Sie die Darstellungsoption :guilabel:`Kollektion` wählen und das Feld
+:guilabel:`Als Tabelle anzeigen` nicht ankreuzen, werden die Artikel in einer
+Liste aufgeführt. Eine solche Liste zeigt für jeden Eintrag den Titel, die
+Beschreibung, einen Verweis auf das Profil des Erstellers und das Datum der
+letzten Änderung. Der Titel dient dabei als Verweis auf den Artikel selbst.
+
+RSS-Feed der Kollektion
+=======================
+
+Plone erstellt von jeder Kollektion einen RSS-Feed. Dieser wird vom Browser automatisch erkannt und zumeist in der Adresszeile angezeigt (siehe dazu auch
 Abschnitt :ref:`sec_syndizierung`).
 
 Suchkriterien
@@ -131,7 +162,8 @@ Kriteriumstypen für jedes der Felder in Frage kommen.
 
 .. _fig_kriterien:
 
-.. figure:: ../images/kriterien.png
+.. figure:: ../images/kriterien.*
+   :width: 100%
 
     Kriterienansicht einer Kollektion
 
