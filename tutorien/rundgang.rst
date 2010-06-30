@@ -116,7 +116,7 @@ Sobald Ihr Benutzerzugang eingerichtet und aktiviert wurde, können Sie sich
 entweder über das Anmeldeformular aus dem Benutzermenü oder über das
 Anmeldeportlet an der Website anmelden.
 
-.. _fig_anmeldeformular:
+.. _fig_anmeldeformular-tutorium:
 
 .. figure::
    ../images/anmeldeformular.*
@@ -247,9 +247,9 @@ Wenn Sie die Bearbeitungsansicht aufrufen, haben Sie die Möglichkeit, auf Ihrer
 persönlichen Seite weitere Portlets hinzuzufügen, zu verbergen oder zu
 entfernen. Dazu ist Ihre Seite in vier Spalten unterteilt. In jeder von ihnen
 befindet sich ein Auswahlmenü mit der Bezeichnung :guilabel:`Portlet
-hinzufügen` (siehe Abbildung :ref:`fig_persoenliche-seite-bearbeiten`).
+hinzufügen` (siehe Abbildung :ref:`fig_persoenliche-seite-bearbeiten-tutorium`).
 
-.. _fig_persoenliche-seite-bearbeiten:
+.. _fig_persoenliche-seite-bearbeiten-tutorium:
 
 .. figure::
    ../images/persoenliche-seite-bearbeiten.*

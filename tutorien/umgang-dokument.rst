@@ -189,7 +189,7 @@ Eingaben sichern
 
 Sichern Sie Ihre Eingaben, wenn Sie mit ihnen zufrieden sind.
 
-* Betätigen Sie die Schaltfläche :guilabe:`Speichern` am Ende des
+* Betätigen Sie die Schaltfläche :guilabel:`Speichern` am Ende des
   Formulars.
 
 Akzeptiert Plone Ihre Änderungen, so zeigt es Ihnen die bearbeitete

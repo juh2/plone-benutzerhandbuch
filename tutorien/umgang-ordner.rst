@@ -92,7 +92,7 @@ Abbildung :ref:`fig_folder-order`).
 enthält dazu ganz links für jeden Artikel ein Symbol, das aus mehreren Punkten
 besteht (siehe Abbildung :ref:`fig_folder-order-change`).
 
-.. _fig_folder-order:
+.. _fig_folder-order-change:
 
 .. figure::
    ../images/folder-order-change.*
@@ -182,7 +182,7 @@ einen Artikel aus dem Ordner »Kochseminar« dort hinein.
   :guilabel:`Kopieren` aus.
 * Wechseln Sie in den Unterordner.
 * Fügen Sie eine Kopie des ausgewählten Artikels dort ein, indem Sie den
-  Eintrag :guilabe:`Einfügen` im Aktionsmenü auswählen.
+  Eintrag :guilabel:`Einfügen` im Aktionsmenü auswählen.
 
 Die Anzeige des Unterordners enthält nun einen neuen Eintrag. Vergewissern
 Sie sich, dass sich am Inhalt des Ordners »Kochseminar« nichts geändert hat.

@@ -42,6 +42,7 @@ Symbole.
 +----------------+---------------------+
 
 .. toctree::
+   :maxdepth: 1
 
    gemeinsamkeiten.rst
 

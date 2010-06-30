@@ -27,5 +27,17 @@ Glossar
    Buildsystem
       n.n.
 
+   Markdown
+      n.n.
+
+   Restructured Text
+      n.n.
+
+   S5
+      n.n.
+
    Unified Installer
+      n.n.
+
+   Zope-Management-Interface
       n.n.
