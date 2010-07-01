@@ -5,6 +5,8 @@ Konfiguration
 Das Konfigurationsmenü
 ======================
 
+.. _sec_konfiguration-artikeltypen:
+
 Artikeltypen
 ------------
 
@@ -17,7 +19,7 @@ Benutzer und Gruppen
 E-Mail
 ------
 
-.. _sec_bearbeitungseinstellungen:
+.. _sec_konfiguration-bearbeiten:
 
 Bearbeiten
 ----------

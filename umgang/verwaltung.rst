@@ -4,14 +4,18 @@
  Artikel in der Website
 ========================
 
-Ein Artikel ist ein Teil einer Website. Er hat einen Platz in ihrer
-Ordnerstruktur und einen Kurznamen, der ihn in seinem Ordner
-kennzeichnet. Daraus ergeben sich verschiedene einfache Verwaltungsaufgaben:
+Ein Artikel ist ein Objekt in einer Website. Er hat einen Platz in
+ihrer Ordnerstruktur und einen Kurznamen, der zum letzten Teil der URL
+wird, mit dem wir ihn im Browser aufrufen können. Eine solche URL
+könnte beispielsweise so aussehen: ::
+
+    http://www.example.com/ordner/unterordner/artikel
+
+Daraus ergeben sich verschiedene einfache Verwaltungsaufgaben:
 
 * Artikel hinzufügen und umbenennen
 * Artikel kopieren, verschieben und löschen
 * mehrere Artikel gleichzeitig verwalten
-
 
 .. _sec_artikel-erstellen:
 
@@ -24,94 +28,97 @@ mit dem Sie neue Artikel im betreffenden Ordner anlegen können.
 
 .. _fig_hinzufuegen:
 
-.. figure:: ../images/hinzufuegen.png
+.. figure:: ../images/hinzufuegen.*
    :width: 100%
 
-   Menü »Hinzufügen«
+   Menü »Hinzufügen« mit allen und mit eingeschränkten Artikeltypen 
 
 
 Wählen Sie aus dem Menü den Typ des anzulegenden Artikels aus. Daraufhin
 leitet Plone Sie direkt zur Bearbeitungsansicht des neuen Artikels weiter.
 Der Artikel wird jedoch erst dann tatsächlich in den Ordner gelegt,
-wenn Sie das Bearbeitungsformular erfolgreich gespeichert haben.
+wenn Sie das Bearbeitungsformular erfolgreich gespeichert haben. 
 
-Es ist möglich, dass das Hinzufügemenü nicht alle Artikeltypen Ihrer Website
-auflistet. Dann hat Ihr Systemverwalter oder der Besitzer des Ordners die im
-Menü angezeigten Artikeltypen eingeschränkt. Das Menü endet in diesem Fall mit
-dem Eintrag »Mehr...«, der Sie zu einer Liste aller hinzufügbaren
-Artikeltypen führt (siehe Abbildung :ref:`fig_hinzufuegen-form`).
+Wenn Sie Javascript ausgeschaltet haben, sind alle Menüs in der grünen
+Leiste von Anfang an aufgeklappt.
+
+Es ist möglich, dass das Hinzufügemenü nicht alle Artikeltypen Ihrer
+Website auflistet. Dann hat Ihr Systemverwalter oder der Besitzer des
+Ordners die im Menü angezeigten Artikeltypen eingeschränkt. Das Menü
+endet in diesem Fall mit dem Eintrag »Mehr...«, der Sie zu einer Liste
+aller hinzufügbaren Artikeltypen führt (siehe Abbildung
+:ref:`fig_hinzufuegen-form`).
 
 .. _fig_hinzufuegen-form:
 
-.. figure:: ../images/hinzufuegen-form.png
+.. figure:: ../images/hinzufuegen-form.*
    :width: 100%
 
    Vollständige Auswahl hinzufügbarer Artikeltypen
 
 Markieren Sie dort den gewünschten Typ und betätigen Sie die Schaltfläche
-»Hinzufügen«.
+»Hinzufügen«. 
 
-Wenn Sie Javascript ausgeschaltet haben, ist kein Ausklappmenü vorhanden. Der
-Verweis »Hinzufügen« bringt Sie dann direkt zu diesem Formular.
+Falls Sie Verwaltungsrechte besitzen, enthält das Formular einen
+Verweis mit der Bezeichnung »Klicken Sie hier, um festzulegen, welche
+Artikeltypen hier hinzugefügt werden dürfen…«. Dieser Verweis bringt
+Sie zu einem Formular, das im nächsten Abschnitt beschrieben wird.
+
 
 Hinzufügbare Artikeltypen einschränken
 --------------------------------------
 
-Falls Sie sich in einem Ordner befinden, für den Sie Verwalter sind oder den
-Sie besitzen, enthält das Menü »Hinzufügen« den Eintrag
-»Einschränkungen...«. Er führt zu einem
-Formular, auf dem Sie zunächst drei Grundeinstellungen vornehmen können
-(siehe Abbildung :ref:`fig_hinzufuegen-typen`).
+Falls Sie sich in einem Ordner befinden, für den Sie Verwalter sind
+oder den Sie besitzen, enthält das Menü »Hinzufügen« den Eintrag
+»Einschränkungen...«. Er führt zu einem Formular, auf dem Sie zunächst
+zwei Einstellungen vornehmen können (siehe Abbildung
+:ref:`fig_hinzufuegen-typen`).
 
 .. _fig_hinzufuegen-typen:
 
-.. figure:: ../images/hinzufuegen-typen-kurz.png
+.. figure:: ../images/hinzufuegen-typen-kurz.*
    :width: 100%
 
    Grundeinstellungen für das Hinzufügen von Artikeln
 
 
-Verwende die Eigenschaften des übergeordneten Ordners
-  Es können dieselben Artikeltypen wie im übergeordneten Ordner hinzugefügt
-  werden.
-
 Erlaube das Hinzufügen der Standardartikeltypen
-  Es können alle
-  Standardartikeltypen hinzugefügt werden. Beachten Sie, dass auf Ihrer
-  Website möglicherweise einige Artikeltypen überhaupt nicht zur Verfügung
-  stehen.
+  Es können alle Standardartikeltypen hinzugefügt werden. Beachten
+  Sie, dass auf Ihrer Website möglicherweise einige Artikeltypen
+  überhaupt nicht zur Verfügung stehen. Einstellungen für die gesamte
+  Website kann der Administrator im Konfigurationsmenü im Bereich
+  :guilabel:`Artikeltypen` vornehmen (siehe dazu Kapitel
+  :ref:`sec_konfiguration-artikeltypen`). 
 
 Artikeltypen manuell festlegen 
-  Die erlaubten Artikeltypen werden
-  für diesen Ordner einzeln festgelegt.
+  Die erlaubten Artikeltypen werden für diesen Ordner einzeln
+  festgelegt.
 
-Wenn Sie »Artikel manuell festlegen« auswählen, wird das Formular um zwei
-Listen von Artikeltypen erweitert (siehe
-Abbildung :ref:`fig_hinzufuegen-typen-lang`):
+Wenn Sie :guilabel:`Artikel manuell festlegen` auswählen, wird das
+Formular um zwei Listen von Artikeltypen erweitert (siehe Abbildung
+:ref:`fig_hinzufuegen-typen-lang`):
 
 .. _fig_hinzufuegen-typen-lang:
 
-.. figure:: ../images/hinzufuegen-typen-lang.png
+.. figure:: ../images/hinzufuegen-typen-lang.*
    :width: 100%
 
    Einschränkung der hinzufügbaren Artikeltypen
 
 
 Erlaubte Artikeltypen
-  Nur diese Artikeltypen dürfen im Ordner überhaupt
-  hinzugefügt werden.
+  Es können nur die Artikeltypen im Ordner hinzugefügt werden, die
+  hier markiert sind.
 
-Sekundäre Artikeltypen
-  Diese Artikeltypen erscheinen nicht direkt im
-  Auswahlmenü »Hinzufügen«, sondern sind nur über den Eintrag »Mehr...« im
-  Hinzufügemenü erreichbar.
+Selten benutzte Artikeltypen
+  Diese Artikeltypen erscheinen nicht direkt im Auswahlmenü
+  :guilabel:`Hinzufügen`, sondern sind nur über den Eintrag
+  :guilabel:`Mehr...` im Hinzufügemenü erreichbar.
 
-Wenn Sie Javascript ausgeschaltet haben, enthält das Hinzufügeformular
-einen Verweis zu dem Formular, auf dem Sie die erlaubten Artikeltypen
-einschränken können. Wenn Sie die Option »Artikeltypen manuell
-festlegen« auswählen, müssen Sie das Formular erst speichern, bevor
-die beiden Listen mit den erlaubten und den sekundären Artikeltypen
-erscheinen.
+Wenn Sie Javascript ausgeschaltet haben und die Option »Artikeltypen
+manuell festlegen« auswählen, müssen Sie das Formular erst speichern,
+bevor die beiden Listen mit den erlaubten und den selten benutzten
+Artikeltypen erscheinen.
 
 .. _sec_hinzufugen-mit-wiki:
 
@@ -119,33 +126,33 @@ Hinzufügen mit Wiki-Verweisen
 -----------------------------
 
 Neue Artikel lassen sich auch ähnlich wie in einem Wiki
-hinzufügen. Wenn Ihre Website entsprechend konfiguriert ist, können
-Sie dazu Verweise auf noch nicht existierende Artikel erzeugen, über
-die die jeweiligen Artikel später angelegt werden.
+hinzufügen. Wenn Ihre Website entsprechend konfiguriert ist (siehe
+Kapitel :ref:`konfiguration-bearbeiten`), können Sie dazu Verweise auf
+noch nicht existierende Artikel erzeugen.
 
-Bearbeiten Sie den Haupttext einer Seite, einer Nachricht oder eines Termins
-und setzen ein einzelnes Wort oder eine Wortgruppe in runde oder eckige
-Doppelklammern, so macht Plone beim Speichern aus dem geklammerten Text einen
-Verweis auf einen Artikel, der im selben Ordner liegt und dessen Kurzname dem
-Text entspricht.
+Wenn Sie den Haupttext einer Seite, einer Nachricht oder eines Termins
+bearbeiten und ein einzelnes Wort oder eine Wortgruppe in runde oder
+eckige Doppelklammern setzen, so macht Plone beim Speichern aus dem
+geklammerten Text einen Verweis auf einen Artikel, der im selben
+Ordner liegt und dessen Kurzname dem Text des Links entspricht.
 
-Sollte ein solcher Artikel jedoch nicht vorhanden sein, erscheint dieser
-Verweis in Rot und wird durch ein hochgestelltes, eingeklammertes Pluszeichen
-markiert. (siehe Abbildung :ref:`fig_anzeige-wiki-links`). 
+Sollte ein solcher Artikel noch nicht vorhanden sein, wird der Link durch ein
+hochgestelltes, eingeklammertes Pluszeichen markiert. (siehe Abbildung
+:ref:`fig_anzeige-wiki-links`).
 
 .. _fig_anzeige-wiki-links:
 
-.. figure:: ../images/anzeige-wiki-links.png
+.. figure:: ../images/anzeige-wiki-links.*
    :width: 100%
 
-   Wiki-Verweise zu Artikeln, die noch nicht existieren
+   Wiki-Verweis zu einem Artikel, der noch nicht existiert
 
 
 Wenn Sie dem Verweis folgen, wird im gleichen Ordner ein neuer Artikel
 mit dem Namen des Verweises als Titel erstellt und in der
 Bearbeitungsansicht angezeigt. Sie können den neuen Artikel dann
-bearbeiten und speichern. Der Verweis erscheint daraufhin als
-gewöhnlicher Verweis zum neuen Artikel.
+bearbeiten und speichern. Der Verweis erscheint daraufhin ohne das
+hochgestellte Pluszeichen als gewöhnlicher Verweis zum neuen Artikel.
 
 Beim Hinzufügen von Artikeln über Wiki-Verweise ist Folgendes zu beachten:
 
@@ -160,10 +167,9 @@ Beim Hinzufügen von Artikeln über Wiki-Verweise ist Folgendes zu beachten:
   »Nachricht« und »Termin«.
 
 * Die Wiki-Methode funktioniert unabhängig davon, wie Sie den Text mit
-  den Verweisen bearbeiten. Neben dem Texteditor Kupu können Sie auch in
+  den Verweisen bearbeiten. Neben dem Texteditor TinyMCE können Sie auch in
   einfachem Text oder mit einer Auszeichnungssprache wie »Restructured Text«
   Wiki-Verweise erstellen.
-
 
 .. _sec_kurzname:
 
@@ -179,20 +185,25 @@ irgendwann ändern, oder Sie haben einen Grund, zwei Artikeln in einem
 Ordner den gleichen Titel zu geben. Deshalb greift Plone auf Kurznamen
 zurück.
 
-Kurznamen zu bearbeiten muss für die Website und in Ihren persönlichen
-Einstellungen erlaubt sein. Dann finden Sie in der Bearbeitungsansicht jedes
-Artikels ein Feld für den Kurznamen. So können Sie den Kurznamen eines neu
-hinzugefügten Artikels bestimmen, aber auch einen Artikel später umbenennen.
+Kurznamen zu bearbeiten muss, sowohl für die Website als auch in Ihren
+persönlichen Einstellungen erlaubt sein (siehe Kapitel
+:ref:`konfiguration-bearbeiten` und
+:ref:`sec_persoenliche-einstellungen`). Ist dies der Fall finden Sie
+in der Bearbeitungsansicht der Artikel ganz oben über dem Titelfeld
+das Feld für den Kurznamen. So können Sie den Kurznamen eines neu
+hinzugefügten Artikels bestimmen, aber auch einen Artikel später
+umbenennen.
 
-Wenn Sie Administrator sind, enthält das Menü »Aktionen« (siehe
-Abbildung :ref:`fig_aktionen`) den Eintrag »Umbenennen«. Er führt Sie zu
-einem Formular, in dem Sie den Kurznamen und den Titel des aktuellen Artikels
+Wenn Sie Administrator sind oder in einem Ordner Artikel bearbeiten
+dürfen, enthält das Menü »Aktionen« (siehe Abbildung
+:ref:`fig_aktionen`) den Eintrag »Umbenennen«. Er öffnet ein Formular,
+in dem Sie den Kurznamen und den Titel des aktuellen Artikels
 bearbeiten können (siehe Abbildung :ref:`fig_umbenennen`).
 
 .. _fig_umbenennen:
 
-.. figure:: ..//images/umbenennen.png
-   :width: 100%
+.. figure:: ..//images/umbenennen-ohne-js.*
+   :width: 70%
 
    Umbenennen eines Artikels
 
@@ -211,9 +222,12 @@ einige Regeln beachten:
 
 Die Internetadresse eines Artikels setzt sich zusammen aus dem Kurznamen des
 Artikels selbst sowie den Kurznamen aller Ordner, in denen er sich befindet.
-Die Adresse einer Seite in einem Ordner wäre beispielsweise
-http://www.example.com/workshop/inhalt, wenn ›workshop‹ und ›inhalt‹
-die Kurznamen des Ordners und der Seite sind.
+Die Adresse einer Seite in einem Ordner wäre beispielsweise ::
+
+    http://www.example.com/workshop/inhalt 
+
+wenn ›workshop‹ und ›inhalt‹ die Kurznamen des Ordners und der Seite
+sind.
 
 Das bedeutet:
 
@@ -228,34 +242,33 @@ Das bedeutet:
 
 * Sie können den Kurznamen eines Artikels ändern, auch wenn von anderen
   Artikeln auf diesen Artikel verwiesen wird, da Plone interne Verweise
-  automatisch auf die neue Adresse zeigen lässt.
+  automatisch auf die neue Adresse zeigen lässt. Verweise von anderen
+  Websites funktionieren nach der Umbenennung jedoch nicht mehr. 
 
-Können oder wollen Sie für einen Artikel nicht selbst einen Kurznamen
-festlegen, wählt Plone einen Namen, der sich vom Titel des Artikels ableitet.
-Dabei ersetzt es nicht erlaubte Zeichen und vermeidet doppelt vergebene
-Kurznamen im selben Ordner, indem es eine Zahl anhängt.
+Kurznamen vergibt Plone in der Voreinstellung automatisch, indem das
+System einen Namen, der sich vom Titel des Artikels ableitet, erzeugt.
+Dabei ersetzt Plone nicht erlaubte Zeichen und vermeidet doppelt
+vergebene Kurznamen im selben Ordner, indem es eine Zahl anhängt.
 
 Kopieren, Verschieben und Löschen
 =================================
 
-Sie können Artikel nicht nur anlegen, sondern auch löschen oder in einen
-anderen Ordner verschieben oder kopieren. Das Menü
-»Aktionen« bietet folgende Tätigkeiten an (siehe
-Abbildung :ref:`fig_aktionen`):
-
-.. _fig_aktionen:
-
-.. figure:: ../images/aktionen.png
-   :width: 100%
-
-   Aktionen, um Artikel zu verwalten
-
+Sie können Artikel nicht nur anlegen, sondern auch löschen oder in
+einen anderen Ordner verschieben oder kopieren. Das Menü »Aktionen«
+bietet folgende Tätigkeiten an (siehe Abbildung :ref:`fig_aktionen`):
 
 * Ausschneiden
 * Kopieren
 * Einfügen (gegebenenfalls)
 * Löschen
 * Umbenennen (siehe Abschnitt :ref:`sec_kurzname`)
+
+.. _fig_aktionen:
+
+.. figure:: ../images/aktionen.*
+   :width: 30%
+
+   Aktionen, um Artikel zu verwalten
 
 Um einen Artikel zu kopieren, markieren Sie ihn mit der Aktion
 »Kopieren«.  Gehen Sie dann in den Zielordner und wählen Sie dort im
@@ -295,24 +308,40 @@ Schließlich können Sie mit Hilfe der Aktion »Löschen« den aktuellen Artikel
 löschen. Zur Sicherheit fragt Plone nach, ob Sie den Artikel wirklich löschen
 möchten. 
 
+Linkintegritätsprüfung
+----------------------
+
 Falls Sie einen Artikel löschen wollen, auf den von einem anderen Artikel aus
 verwiesen wird, erhalten Sie von Plone eine Warnung mit einer Liste aller
 Artikel, in denen ein Verweis auf den zu löschenden Artikel gesetzt wurde
-(siehe Abbildung :ref:`fig_linkbruch-warnung`).
+(siehe Abbildung :ref:`fig_linkbruch-warnung-js`).
+
+.. _fig_linkbruch-warnung-js:
+
+.. figure:: ../images/linkbruch-warnung-js.*
+   :width: 80%
+
+   Warnung vor defekten Verweisen bei eingeschaltetem Javascript
 
 .. _fig_linkbruch-warnung:
 
-.. figure:: ../images/linkbruch-warnung.png
+.. figure:: ../images/linkbruch-warnung.*
    :width: 100%
 
-   Warnung vor defekten Verweisen
+   Warnung vor defekten Verweisen ohne Javascript
 
-Sie können in einem solchen Fall die einzelnen Artikel bearbeiten, um den
-Verweis zu entfernen, sofern Sie dazu die Berechtigung haben. Anderenfalls
-sollten Sie die Verfasser der betroffenen Artikel über die defekten Verweise
-informieren oder den Löschvorgang abbrechen.
+Sie können in einem solchen Fall die einzelnen Artikel in einem
+anderen Fenster bearbeiten, um den Verweis zu entfernen, sofern Sie
+dazu die Berechtigung haben. Anderenfalls sollten Sie die Verfasser
+der betroffenen Artikel über die defekten Verweise informieren oder
+den Löschvorgang abbrechen.
 
 .. _sec_ordner-aktionen:
+
+Beachten Sie, dass die Linkintegritätsprüfung nur Verweise
+kontrolliert, die im Haupttext von Artikeln eingefügt wurden, nicht
+aber die Verweise, die über das Teilformular Kategorisierung in der
+Bearbeitungsansicht von Artikeln gesetzt wurden. 
 
 Ordneraktionen
 ==============
@@ -352,4 +381,3 @@ Status ändern
   Leitet auf ein Formular weiter, wo Sie den Status der
   angekreuzten Artikel in einem Arbeitsgang verändern können (siehe
   Abschnitt :ref:`sec_workflow`).
-

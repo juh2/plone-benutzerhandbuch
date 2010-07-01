@@ -147,7 +147,7 @@ zu Verfügung.
 
 Die Sofortbearbeitung muss nach der Installation einer Plone-Website vom
 Administrator in den Bearbeitungseinstellungen eingeschaltet werden (siehe
-Kapitel :ref:`sec_bearbeitungseinstellungen`). Sie steht nur zur Verfügung,
+Kapitel :ref:`sec_konfiguration-bearbeiten`). Sie steht nur zur Verfügung,
 wenn Sie im Browser Javascript eingeschaltet haben.
 
 .. index:: Bearbeitungsansicht
