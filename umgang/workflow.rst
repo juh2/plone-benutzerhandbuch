@@ -4,14 +4,16 @@
  Arbeitsabläufe
 ================
 
-Unter Umständen möchten Sie nicht, dass ein neuer Artikel bereits öffentlich
-eingesehen werden kann, bevor er fertig ist. Während Sie ihn bearbeiten, soll
-er nur Ihnen persönlich oder einer kleinen Gruppe zugänglich sein.
+Während Sie einen Artikel erstellen, möchten Sie in der Regel nicht,
+dass der unfertige Artikel öffentlich eingesehen werden kann. So lange
+er nicht fertig ist, soll er nur Ihnen persönlich oder einer kleinen
+Gruppe zugänglich sein. Erst nach der Fertigstellung soll er
+durch Sie oder eine andere dazu berechtigte Person veröffentlicht werden.
 
-Ihre Website kann auch so konfiguriert sein, dass Sie einen Artikel nicht
-unmittelbar selbst veröffentlichen können, sondern eine andere Person Ihren
-Artikel vor der Veröffentlichung begutachten muss. Wir bezeichnen eine solche
-Person im Folgenden als Redakteur.
+Ihre Website kann nämlich auch so konfiguriert sein, dass Sie einen
+Artikel nicht unmittelbar selbst veröffentlichen können, sondern eine
+andere Person Ihren Artikel vor der Veröffentlichung begutachten
+muss. Wir bezeichnen eine solche Person im Folgenden als Redakteur.
 
 Von der Idee bis zur Fertigstellung durchläuft ein Artikel in diesen Fällen
 einen Arbeitsablauf, der die einzelnen Schritte im Zusammenspiel zwischen
@@ -22,6 +24,8 @@ Ein Arbeitsablauf in Plone besteht aus einer bestimmten Anzahl von Zuständen,
 in denen sich ein Artikel befinden kann, und einer Reihe von Übergängen
 zwischen diesen Zuständen. Man spricht auch von Status und Statusänderungen.
 
+.. _sec_status:
+
 ========
  Status
 ========
@@ -29,7 +33,7 @@ zwischen diesen Zuständen. Man spricht auch von Status und Statusänderungen.
 Der Arbeitsablauf steuert, wer unter welchen Bedingungen Artikel einer
 Website einsehen darf. Er unterscheidet beispielsweise Artikel, die
 nur ihr Besitzer sehen darf, von solchen, die den angemeldeten
-Benutzern oder jedem Besucher der Website angezeigt werden.
+Benutzern oder jedem beliebigen Besucher der Website angezeigt werden.
 
 Der Status eines Artikels bestimmt, wer den Artikel einsehen
 darf. Jeder Artikel, der einem Arbeitsablauf unterworfen ist, besitzt
@@ -38,24 +42,25 @@ Redakteuren verändert werden.
 
 Wenn Sie an der Website angemeldet sind, stellt Plone die Verweise auf
 Artikel in Ordnerübersichten und Portlets farbig dar. Die Farbe zeigt
-dabei den Status an (siehe Tabelle :ref:`Farbliche Kennzeichnung der Revisionsstatus <tab_status-farben>`).
+dabei den Status an (siehe Tabelle :ref:`tab_status-farben`).
 
 .. _tab_status-farben:
 
-Farbliche Kennzeichnung der Revisionsstatus
+.. table:: Farbliche Kennzeichnung der Revisionsstatus
 
-======	  =========================
-Farbe	  Status
-======	  =========================
-rot	      privat
-grün 	  öffentlicher Entwurf
-orange	  zur Redaktion eingereicht
-blau 	  veröffentlicht
-======	  =========================
+   ======    =========================
+   Farbe     Status
+   ======    =========================
+   rot	     privat
+   grün	     öffentlicher Entwurf
+   orange    zur Redaktion eingereicht
+   blau	     veröffentlicht
+   ======    =========================
 
-Elemente wie die Navigation, die Portlets auf der Startseite oder
-Kollektionen in der Hauptnavigation können außerdem so konfiguriert
-sein, dass sie nur veröffentlichte Artikel anzeigen.
+Navigationselemente wie die Reiter in der Hauptnavigation, Verweise in
+Portlets oder die Nachrichten- und Terminübersicht sind in der
+Voreinstellung so konfiguriert, dass sie nur veröffentlichte Artikel
+anzeigen.
 
 Statusänderung
 ==============
@@ -110,17 +115,11 @@ veröffentlicht wurden. Siehe Abbildung :ref:`fig_workflow-einfach`.
 
 .. _fig_workflow-einfach:
 
-.. figure:: ../images/workflow-einfach.png
-   :width: 30%
+.. figure:: ../images/workflow-einfach.*
+   :width: 50%
 
    Einfacher Arbeitsablauf
 
-.. _fig_workflow-ein-status:
-
-.. figure:: ../images/workflow-ein-status.png
-   :width: 20%
-
-   Arbeitsablauf mit einem Status
 
 
 Der einfache Arbeitsablauf umfasst drei Status:
@@ -180,6 +179,13 @@ Statusänderungen. Wenn ein Artikel, der diesem Arbeitsablauf unterliegt, nicht
 mehr sichtbar sein soll, muss er von der Website gelöscht werden. Siehe
 Abbildung :ref:`fig_workflow-ein-status`.
 
+.. _fig_workflow-ein-status:
+
+.. figure:: ../images/workflow-ein-status.*
+   :width: 30%
+
+   Arbeitsablauf mit einem Status
+
 .. _sec_comm-arbe:
 
 Community-Arbeitsablauf
@@ -191,19 +197,10 @@ wurden (siehe Abbildung :ref:`fig_workflow-community`).
 
 .. _fig_workflow-community:
 
-.. figure:: ../images/workflow-community.png
-   :width: 100%
+.. figure:: ../images/workflow-community.*
+   :width: 50%
 
    Community-Arbeitsablauf
-
-.. _fig_workflow-intranet:
-
-.. figure:: ../images/workflow-intranet.png
-   :width: 100%
-
-   Intranet-Arbeitsablauf
-
-
 
 Es gibt folgende Status:
 
@@ -269,6 +266,13 @@ nur einer geschlossenen Benutzergruppe zugänglich sein sollen. Der wesentliche
 Unterschied zum Community-Arbeitsablauf besteht darin, dass man Artikel
 intern und extern veröffentlichen kann. Siehe
 Abbildung :ref:`fig_workflow-intranet`.
+
+.. _fig_workflow-intranet:
+
+.. figure:: ../images/workflow-intranet.*
+   :width: 70%
+
+   Intranet-Arbeitsablauf
 
 Es gibt folgende Status:
 
@@ -343,7 +347,7 @@ ist das Statusmenü (siehe Abbildung :ref:`fig_workflow`).
 
 .. _fig_workflow:
 
-.. figure:: ../images/workflow.png
+.. figure:: ../images/workflow.*
    :width: 100%
 
    Statusmenü
@@ -378,7 +382,7 @@ allen Protokolleinträgen, die mit »Historie« beschriftet ist
 
 .. _fig_workflow-historie-eingeklappt:
 
-.. figure:: ../images/workflow-historie-eingeklappt.png
+.. figure:: ../images/workflow-historie-eingeklappt.*
    :width: 100%
 
    Ausklappschalter für die Statushistorie
@@ -388,7 +392,7 @@ Abbildung :ref:`fig_workflow-historie`):
 
 .. _fig_workflow-historie:
 
-.. figure:: ../images/workflow-historie.png
+.. figure:: ../images/workflow-historie.*
    :width: 100%
 
    Historie der Statusänderungen eines Artikel	s
@@ -412,7 +416,7 @@ Abbildung :ref:`fig_portlet-revlist`).
 
 .. _fig_portlet-revlist:
 
-.. figure:: ../images/portlet-revlist.png
+.. figure:: ../images/portlet-revlist.*
    :width: 100%
 
    Portlet »Revisionsliste«
@@ -450,7 +454,7 @@ gelangen daraufhin zum Formular für die gemeinsame Statusänderung.
 
 .. _fig_publikationsprozess-1:
 
-.. figure:: ../images/publikationsprozess-1.png
+.. figure:: ../images/publikationsprozess-1.*
    :width: 100%
 
    Formular für den Arbeitsablauf, oben
@@ -474,7 +478,7 @@ betroffenen Artikel nur einen einzigen Eintrag.
 
 .. _fig_publikationsprozess-2:
 
-.. figure:: ../images/publikationsprozess-2.png
+.. figure:: ../images/publikationsprozess-2.*
    :width: 100%
 
    Formular für den Arbeitsablauf, unten
