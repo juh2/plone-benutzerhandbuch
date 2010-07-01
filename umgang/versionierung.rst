@@ -11,57 +11,44 @@ möglich. Das CMS erstellt jedes Mal, wenn Sie einen Artikel verändern und
 speichern, eine neue Version des Inhalts. Die alten Versionen des Artikels
 werden dabei nicht überschrieben, sondern stehen weiterhin zur Verfügung.
 
-Sie erreichen die älteren Versionen eines Artikels über die Ansicht
-»Versionen« (siehe Abbildung :ref:`fig_ansicht-versionen`).
+Sie erreichen die älteren Versionen eines Artikels über den Link
+:guilabel:`Historie` in der Verfasserzeile des Artikels. Wenn Sie ihn
+anklicken, öffnet sich ein Fenster mit einer Übersicht über die
+bereits gespeicherten Versionen des Artikels (siehe Abbildung :ref:`fig_historie`).
 
-.. _fig_ansicht-versionen:
+.. _fig_historie:
 
-.. figure:: ../images/ansicht-versionen.png
+.. figure:: ../images/historie.*
    :width: 100%
 
-   Die Ansicht »Versionen«
+   Die Historie eines Artikels
 
-Dort finden Sie eine Tabelle vor, in der die aktuelle Arbeitskopie und die
-vorherigen Versionen aufgelistet sind. Die Tabelle stellt Ihnen alle
-Informationen zu den einzelnen Versionen übersichtlich in einzelnen Spalten
-zur Verfügung.
+Dort finden Sie eine Übersicht vor, in der ganz oben die aktuelle
+Arbeitskopie und darunter die vorherigen Versionen aufgelistet
+sind. Ganz unten steht die erste Version. 
 
-Version
-  In dieser Spalte erscheint die Versionsnummer beginnend bei
-  Null. Die aktuelle Version wird als Arbeitskopie bezeichnet.
+Jede Version wird mit einem grauen Rahmen versehen dargestellt. In der
+breiten grauen Kopfleiste jeder Version finden Sie Informationen über
+den Benutzer, der die Version abgespeichert hat, und Datum und Uhrzeit
+der Speicherung. Rechts daneben befindet sich jeweils eine
+Schaltfläche mit der Bezeichnung :guilabel:`Durch diese Version
+ersetzen`. Wenn Sie die Schaltfläche betätigen, wird die aktuelle
+Version durch diese Version ersetzt. Das bedeutet, dass die Besucher
+Ihrer Website nun eine frühere Version zu Gesicht bekommen. Die alte
+Arbeitskopie wird unter einer neuen Versionsnummer gespeichert.
 
-Ausgeführt von
-  Diese Spalte führt den Benutzer auf, der die angegebene
-  Version gespeichert hat. 
+In der Zeile unterhalb des grauen Balkens erscheint der Wortlaut der
+Änderungsnotiz sowie ein Verweis zur Anzeige dieser Version. Folgen
+Sie dem Link :guilabel:`Anzeigen`, wenn Sie sich die Version anschauen
+möchten. Daneben finden Sie einen Verweis zu einem Vergleich zwischen
+der jeweiligen Version und der gerade aktuellen Version. Folgen Sie
+diesem Link, um einen Überblick über die vorgenommenen Veränderungen
+zu erhalten (siehe Abbildung
+:ref:`fig_versionsvergleich-metadaten`). Darüber hinaus befinden sich
+jeweils zwischen den Versionen Verweise auf einen Vergleich der
+jeweils benachbarten Versionen. Folgen Sie diesem Verweis, wenn Sie
+sehen wollen, was jeweils von Version zu Version geändert wurde.
 
-Datum und Uhrzeit
-  Der Zeitpunkt, an dem die Version gespeichert wurde.
-
-Kommentar
-  Bemerkungen, die der Benutzer beim Speichern als
-  Änderungsnotiz eingegeben hat.
-
-Aktionen
-  In dieser Spalte finden Sie Verweise zu allen Aktionen, die in
-  Bezug auf die jeweilige Version des Artikels einen Sinn ergeben.
-
-Folgende Aktionen können Sie mit einer Version eines Artikels ausführen:
-
-
-Vergleiche mit aktueller Version
-  Über diesen Verweis gelangen Sie zu
-  einer Seite, auf der die ausgewählte Version mit der aktuellen verglichen
-  wird (siehe Abbildung :ref:`fig_versionsvergleich-metadaten`).
- 
-Vergleiche mit vorheriger Version
-  Sie gelangen zu einem Vergleich
-  zwischen der ausgewählten Version und der Version davor.
-
-Gehe zu dieser Version zurück
-  Diese Aktion macht die ausgewählte
-  Version zur neuen Arbeitskopie. Das bedeutet, dass die Besucher Ihrer
-  Website nun eine frühere Version zu Gesicht bekommen. Die alte Arbeitskopie
-  wird unter einer neuen Versionsnummer gespeichert. 
 
 Versionsvergleich
 =================
@@ -81,31 +68,43 @@ Abbildung :ref:`fig_versionsvergleich-metadaten`).
 
 .. _fig_versionsvergleich-metadaten:
 
-.. figure:: ../images/versionsvergleich-metadaten.png
+.. figure:: ../images/versionsvergleich-metadaten.*
    :width: 100%
 
-   Versionsvergleich mit geänderten Metadaten
+   Versionsvergleich geänderte Termindaten
 
+.. _fig_versionsvergleich-zusammenfassung:
 
-Bei Textfeldern, etwa der Beschreibung, werden die beiden Versionen
-nebeneinander angezeigt. Hinzugefügter Text wird hellgrün hervorgehoben,
-ersetzter und gelöschter Text hellrot.
+.. figure:: ../images/versionsvergleich-zusammenfassung.*
+   :width: 100%
 
-Der Haupttext des Artikels wird zunächst nur einmal angezeigt, wobei
-sichtbare Änderungen direkt im fließenden Text farbig markiert und
-gegenübergestellt werden (siehe
-Abbildung :ref:`fig_versionsvergleich-haupttext`).
+   Versionsvergleich geänderte Zusammenfassung
+
+Bei Textfeldern, etwa der Beschreibung bzw. der Zusammenfassung,
+werden die beiden Versionen hintereinander angezeigt. Die alte Fassung
+ist dabei durchgestrichen (siehe Abbildung
+:ref:`fig_versionsvergleich-zusammenfassung`).
+
+Bei Änderungen im Haupttext wird hinzugefügter Text hellgrün
+hervorgehoben, ersetzter und gelöschter Text hellrot (siehe Abbildung
+:ref:`fig_versionsvergleich-haupttext`).
 
 .. _fig_versionsvergleich-haupttext:
 
-.. figure:: ../images/versionsvergleich-haupttext.png
+.. figure:: ../images/versionsvergleich-haupttext.*
    :width: 100%
 
    Versionsvergleich mit geändertem Haupttext
 
+Für bestimmte Änderungen gibt es zwei Ansichten:
 
-Sie können jedoch auch beide Versionen des Haupttexts einander
-gegenüberstellen. Wechseln Sie mit den Verweisen »Zeige Änderungen im Code«
-und »Zeige sichtbare Änderungen« zwischen den zwei Darstellungen.
+* im fortlaufenden Text
+* als Code
+
+Sie haben dann die Wahl, welche Ansicht Ihnen mehr zusagt. Wenn Sie
+*im fortlaufenden Text* die Meldung sehen »Für dieses Feld gibt es
+keine Vergleichsansicht« wechseln Sie einfach zur Darstellung *als
+Code*.
+
 
 
