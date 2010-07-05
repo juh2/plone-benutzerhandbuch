@@ -10,11 +10,11 @@ einzelne Artikel auszutauschen.
 
 Ist für einen Artikel die Kommentarfunktion eingeschaltet, so enthält seine
 Anzeige am Seitenende die Schaltfläche »Kommentieren« sowie die bisherigen
-Kommentare (siehe Abbildung :ref:`fig_diskussion`).
+Kommentare (siehe Abbildung :ref:`fig_kommentare`).
 
-.. _fig_diskussion:
+.. _fig_kommentare:
 
-.. figure:: ../images/diskussion.png
+.. figure:: ../images/kommentare.*
    :width: 100%
 
    Kommentare
@@ -30,18 +30,19 @@ An Diskussionen teilnehmen
 Falls der Verfasser des Artikels Kommentare erlaubt hat, können Sie
 den Artikel kommentieren. Um einen Kommentar hinzufügen zu können,
 müssen Sie aber in der Regel an der Website angemeldet sein. Als nicht
-angemeldeter Benutzer sehen Sie in diesem Fall eine Schaltfläche mit
-der Aufschrift »Zum Kommentieren müssen Sie sich anmelden«.
+angemeldeter Benutzer sehen Sie in diesem Fall einen Verweis zur
+Anmeldung mit der Bezeichnung »Zum Kommentieren müssen Sie sich
+anmelden«.
 
 Nach der Anmeldung sehen Sie unterhalb des Artikels die Schaltfläche
-»Kommentieren« und am Ende jedes einzelnen Kommentars die Schaltfläche
-»Antworten«. Die Schaltflächen führen Sie zu einem Formular, in dem Sie
+:guilabel:`Kommentieren` und am Ende jedes einzelnen Kommentars die Schaltfläche
+:guilabel`Antworten`q. Die Schaltflächen führen Sie zu einem Formular, in dem Sie
 einen Kommentar zum Artikel oder eine Antwort auf einen Diskussionsbeitrag
-verfassen können (siehe Abbildung :ref:`fig_diskussion-kommentieren`).
+verfassen können (siehe Abbildung :ref:`fig_kommentieren`).
 
-.. _fig_diskussion-kommentieren:
+.. _fig_kommentieren:
 
-.. figure:: ../images/diskussion-kommentieren.png
+.. figure:: ../images/kommentieren.*
    :width: 100%
 
    Eingabeformular für einen Kommentar

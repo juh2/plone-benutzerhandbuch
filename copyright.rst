@@ -21,11 +21,15 @@ E-Mail: jan.ulrich@hasecke.com
 
 Umschlaggestaltung: N.N
 
+Fotos in den Abbildungen: `Nicholas Nguyen`_.
+
 ISBN-10: N.N.
 
 ISBN-13: N.N.
 
 Erstveröffentlichung: N.N.
+
+.. _`Nicholas Nguyen`: http://www.flickr.com/photos/nicktakespics/
 
 Lizenzbestimmungen
 ------------------
@@ -56,7 +60,7 @@ Plone und das Plone-Logo sind eingetragene Warenzeichen der Plone Foundation.
 Alle anderen verwendeten Warenzeichen befinden sich im Besitz ihrer jeweiligen
 Eigentümer.
 
-Die in den Abbildungen verwendeten Fotos stammen von N.N.
+
 
 Haftungsausschluss
 ------------------
