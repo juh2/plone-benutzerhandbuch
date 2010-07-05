@@ -16,6 +16,7 @@ Artikeln als Teil Ihrer Website umgehen:
 * RSS-Feeds von Ordnern und Kollektionen anbieten
 
 .. toctree::
+   :maxdepth: 1
 
    verwaltung.rst
    versionierung.rst

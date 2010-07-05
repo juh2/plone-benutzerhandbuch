@@ -127,18 +127,39 @@ können Sie die Artikel unter anderem kopieren, verschieben und löschen.
 Haben Sie einen Artikel aus dem Ordner als Ordneranzeige ausgewählt, so ist er
 durch Fettschrift hervorgehoben.
 
+Sortierung der Inhaltsansicht
+-----------------------------
+
+Die Sortierung der Artikel in der tabellarischen Anzeige kann
+verändert werden. Wenn Sie beispielsweise die Tabelle alphabetisch
+nach Titel sortieren möchten, klicken Sie einfach das Wort
+:guilabel:`Titel` in der Kopfzeile der Spalte mit den Titeln an. Die
+Kopfzeilen der Spalten :guilabel:`Verändert` und :guilabel:`Status`
+bewirken bei einem Doppelklick ebenfalls eine Neusortierung. Das
+Änderungsdatum wird aufsteigend sortiert. In der Statusspalte erfolgt
+eine Gruppierung nach Status. Der Status »Zur Redaktion eingereicht«
+erscheint ganz oben, da solche Artikel im redaktionellen Arbeitsablauf
+besonders schnell gefunden werden müssen.
+
+Eine Änderung der Sortierung in der Inhaltsansicht hat keine
+Auswirkung auf die Reihenfolge in der Anzeige des Ordners oder die
+Sortierung der Artikel in der Navigation. Denn die Artikel liegen im
+Ordner in der Reihenfolge, in der sie hinzugefügt wurden. In dieser
+Reihenfolge werden sie auch in den Ordneransichten und der Navigation
+angezeigt.
+
+Veränderung der Reihenfolge
+---------------------------
+
 .. only:: html
 
-   Artikel liegen in einem Ordner in der Reihenfolge, in der sie
-   hinzugefügt wurden. Sie werden so auch in den Ordneransichten und
-   der Navigation angezeigt. Sie können die Reihenfolge jedoch
-   verändern. Am Anfang jeder Spalte befindet sich das Symbol
-   :guilabel:`⣿`. Wenn Sie mit der Maus über diesem Symbol sind,
-   verändert sich der Mauszeiger in einen Doppelpfeil. Sie können nun
-   bei gedrückter Maustaste den entsprechenden Artikel nach oben oder
-   unten verschieben.  Wenn Sie Javascript ausgeschaltet haben, finden
-   Sie in der Spalte stattdessen Pfeilsymbole vor (siehe Abbildung
-   :ref:`fig_umordnen`).
+   Sie können die Reihenfolge jedoch verändern. Am Anfang jeder Spalte
+   befindet sich das Symbol :guilabel:`⣿`. Wenn Sie mit der Maus über
+   diesem Symbol sind, verändert sich der Mauszeiger in einen
+   Doppelpfeil. Sie können nun bei gedrückter Maustaste den
+   entsprechenden Artikel nach oben oder unten verschieben.  Wenn Sie
+   Javascript ausgeschaltet haben, finden Sie in der Spalte
+   stattdessen Pfeilsymbole vor (siehe Abbildung :ref:`fig_umordnen`).
 
 .. Hier die Lösung \usepackage[8dots]{braille} und
 .. \braillebox{12345678} ausprobieren.
@@ -147,17 +168,13 @@ durch Fettschrift hervorgehoben.
 
    .. |8dot| image:: ../images/8dot.png
 
-   Artikel liegen in einem Ordner in der Reihenfolge, in der sie
-   hinzugefügt wurden. Sie werden so auch in den Ordneransichten und
-   der Navigation angezeigt. Sie können die Reihenfolge jedoch
-   verändern. Am Anfang jeder Spalte befindet sich das Symbol
-   |8dot|. Wenn Sie mit der Maus über diesem Symbol sind,
-   verändert sich der Mauszeiger in einen Doppelpfeil. Sie können nun
-   bei gedrückter Maustaste den entsprechenden Artikel nach oben oder
-   unten verschieben.  Wenn Sie Javascript ausgeschaltet haben, finden
-   Sie in der Spalte stattdessen Pfeilsymbole vor (siehe Abbildung
-   :ref:`fig_umordnen`).
-
+   Sie können die Reihenfolge jedoch verändern. Am Anfang jeder Spalte
+   befindet sich das Symbol |8dot|. Wenn Sie mit der Maus über diesem
+   Symbol sind, verändert sich der Mauszeiger in einen
+   Doppelpfeil. Sie können nun bei gedrückter Maustaste den
+   entsprechenden Artikel nach oben oder unten verschieben.  Wenn Sie
+   Javascript ausgeschaltet haben, finden Sie in der Spalte
+   stattdessen Pfeilsymbole vor (siehe Abbildung :ref:`fig_umordnen`).
 
 .. _fig_umordnen:
 
