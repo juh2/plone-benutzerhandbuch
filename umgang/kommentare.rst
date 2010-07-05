@@ -57,45 +57,54 @@ müssen beide Formularfelder ausfüllen. Der Kommentar ist einfacher Text, den
 Sie nicht formatieren können. Wenn Sie das Formular speichern, gelangen Sie
 wieder zur Anzeige des Artikels. Dort ist Ihr Beitrag sofort sichtbar.
 
-Falls die Website so konfiguriert ist, dass die Diskussion allen Besuchern
-offensteht, können Sie im Kommentarformular neben Ihrem Beitrag auch Ihren
-Benutzernamen und Ihr Passwort angeben, damit der Beitrag unter Ihrem Namen
-gespeichert werden kann. Ohne diese Angaben wird der Beitrag anonym
-veröffentlicht.
-
 
 Konfiguration
 =============
 
-Als Besitzer eines Artikels können Sie bestimmen, ob eine öffentliche
-Diskussion zu Ihrem Artikel möglich sein soll. Jeder Besucher, der den
-Artikel einsehen darf, kann auch die Diskussion vollständig lesen. Ihr
-Administrator kann für die gesamte Website einstellen, ob
-unangemeldete Besucher Beiträge verfassen dürfen.
+Als Besitzer eines Artikels können Sie bestimmen, ob er kommentiert
+werden darf. Jeder Besucher, der den Artikel einsehen darf, kann auch
+alle Kommentare vollständig lesen. 
+
+.. Ihr Administrator kann für die gesamte Website einstellen, ob
+   unangemeldete Besucher Beiträge verfassen dürfen.
 
 Um Kommentare zu erlauben, wechseln Sie in der Bearbeitungsansicht des
 Artikels ins Teilformular »Einstellungen«. Dort können Sie die
 Kommentarfunktion ein- und ausschalten, indem Sie das Häkchen bei der Option
 »Kommentare erlauben« setzen oder entfernen (siehe
-Abbildung :ref:`fig_allow-discussion`).
+Abbildung :ref:`fig_kommentare-erlauben`).
 
-.. _fig_allow-discussion:
+.. _fig_kommentare-erlauben:
 
-.. figure:: ../images/allow-discussion.png
+.. figure:: ../images/kommentare-erlauben.*
    :width: 100%
 
    Kommentare zu einem Artikel erlauben
 
-Für jeden Artikeltyp ist voreingestellt, ob Kommentare erlaubt sind.
+Im Konfigurationsmenü kann der Administrator für jeden Artikeltyp
+voreinstellen, ob Kommentare erlaubt sind (siehe Kapitel
+:ref:`sec_konfiguration-artikeltypen`).
 
 
 Beiträge löschen
 ================
 
-Als Administrator eines Artikels können Sie einzelne Kommentare oder auch
-ganze Diskussionsstränge löschen. Dafür besitzt jeder Kommentar neben der
-Schaltfläche »Antworten« eine, die mit »Löschen« beschriftet ist. Löschen Sie
-einen Diskussionsbeitrag, auf den bereits geantwortet wurde, so werden auch
-alle Antworten auf ihn entfernt. Beachten Sie, dass beim Löschen von
-Kommentaren keine weitere Nachfrage erfolgt.
+Als Administrator eines Artikels können Sie einzelne Kommentare oder
+auch ganze Diskussionsstränge löschen. Dafür besitzt jeder Kommentar
+neben der Schaltfläche :guilabel:`Antworten` eine, die mit
+:guilabel:`Löschen` beschriftet ist (siehe Abbildung
+:ref:`fig_kommentare-loeschen`). Löschen Sie einen Diskussionsbeitrag,
+auf den bereits geantwortet wurde, so werden auch alle Antworten auf
+ihn entfernt. 
 
+.. attention:: 
+   Beachten Sie, dass beim Löschen von Kommentaren keine
+   weitere Nachfrage erfolgt.
+
+.. _fig_kommentare-loeschen:
+
+.. figure::
+   ../images/kommentare-loeschen.*
+   :width: 100%
+
+   Zusätzliche Schaltfläche zum Löschen von Kommentaren

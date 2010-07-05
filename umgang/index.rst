@@ -22,6 +22,6 @@ Artikeln als Teil Ihrer Website umgehen:
    versionierung.rst
    workflow.rst
    arbeitskopie.rst
-   diskussionen.rst
+   kommentare.rst
    syndizierung.rst
 

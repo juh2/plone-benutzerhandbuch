@@ -37,7 +37,8 @@ Abbildung :ref:`fig_arbeitskopie-wohin`).
 .. Screenshot enthält noch falsche Übersetzung Heimordner statt
 .. Persönlicher Ordner. Ändern sobald in Plone 4 drin
 
-.. Todo:: Screenshot ändern
+.. todo:: 
+   Screenshot ändern
 
 .. _fig_arbeitskopie-wohin:
 

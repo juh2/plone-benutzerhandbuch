@@ -149,7 +149,9 @@ dem Ordner als Anzeige verwenden.
   Abbildung :ref:`fig_standardseite`).
   
 
-.. TODO: Screenshot kann wegen https://dev.plone.org/plone/ticket/10577 nicht gemacht werden.
+.. todo:: Screenshot kann wegen
+   https://dev.plone.org/plone/ticket/10577 erst mit nächster Beta
+   gemacht werden..
 
 .. _fig_standardseite:
 

@@ -118,7 +118,7 @@ Sie können mehrere Artikel gleichzeitig zur Veröffentlichung einreichen.
 
    Das erweiterte Formular für den Arbeitsablauf
 
-.. TODO: Formular erscheint als Popup
+.. todo:: Formular erscheint als Popup
 
 Sie erreichen das Formular auch über den Menüeintrag »Erweitert...« im
 Statusmenü eines Artikels. Sie werden vor allem dann das Formular benötigen,

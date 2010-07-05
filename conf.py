@@ -251,3 +251,7 @@ epub_identifier = 'http://www.hasecke.com/plone-benutzerhandbuch'
 
 # The depth of the table of contents in toc.ncx.
 #epub_tocdepth = 3
+
+# -- Sonstige Options ---------------------------------------------------
+
+todo_include_todos = True

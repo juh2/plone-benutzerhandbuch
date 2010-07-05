@@ -8,7 +8,8 @@ Mit Ordnern geben Sie Ihrer Website eine inhaltliche Struktur. Sie können
 verwandte und zusammengehörige Artikel in Ordnern zusammenfassen und mit
 ineinander verschachtelten Ordnern komplexe Navigationsstrukturen aufbauen.
 
-.. TODO: Hier später Verweis auf Admin-Tutorial einfügen.
+.. todo:: 
+   Hier später Verweis auf Admin-Tutorial einfügen.
 
 Die Anzeigeansicht eines Ordners listet entweder den Inhalt des Ordners auf,
 also die Artikel, die sich in ihm befinden, oder sie verwendet einen

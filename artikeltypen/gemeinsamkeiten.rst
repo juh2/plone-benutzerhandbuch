@@ -508,7 +508,8 @@ Beschreibungsfeld von Artikeln nach Begriffen durchsuchen. Außerdem kann man
 die Suche auf Artikel beschränken, die in einer bestimmten Zeitspanne
 hinzugefügt oder von einem bestimmten Autor verfasst wurden.
 
-.. TODO: Entweder eingehender beschreiben oder in ein anderes Kapitel verschieben.  
+.. todo::
+   Entweder eingehender beschreiben oder in ein anderes Kapitel verschieben.  
 
 .. _sec_nutz-von-metad-3:
 
