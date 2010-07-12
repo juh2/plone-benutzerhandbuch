@@ -1,7 +1,7 @@
 Impressum
 =========
 
-*Das Plone-Benutzerhandbuch (Version 4)*
+Das Plone-Benutzerhandbuch (Version |release|)
 
 von `Jan Ulrich Hasecke`_
 

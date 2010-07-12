@@ -19,20 +19,21 @@ Autoren, Redakteure und Administratoren wichtig sind. Und im vierten Teil
 werden wichtige Erweiterungen beschrieben. 
 
 Die HTML-Fassung dieses Buches sowie ein PDF, das heruntergeladen werden kann,
-finden Sie unter: http://hasecke.com/plone-dokumentation/.
+finden Sie unter: http://hasecke.com/plone-dokumentation/4.0/. Den
+Quellcode dieser Dokumentation finden Sie auf Launchpad_. 
 
 Die Dokumentation basiert in weiten Teilen auf dem Plone-Benutzerhandbuch [#]_
 von Thomas Lotze und Jan Ulrich Hasecke, das unter http://plonebook.info
 erhältlich ist. 
 
 Kommentare und Fragen nehmen wir gern per E-Mail entgegen:
-plone@hasecke.com
+jan.ulrich@hasecke.com
 
 .. only:: html
 
     .. rubric:: Fußnoten
 
-.. [#] http://plone.org/products/plone/releases/3.3.5 
+.. [#] http://plone.org/products/plone/releases/4.0
 
 .. [#] http://www.plone-entwicklerhandbuch.de
 
@@ -44,3 +45,5 @@ plone@hasecke.com
 .. _Plone-Entwicklerhandbuch: http://www.plone-entwicklerhandbuch.de
 
 .. _Creative-Commons-Lizenz: http://creativecommons.org/licenses/by-nc-sa/2.0/de/
+
+.. _Launchpad: https://launchpad.net/plone-benutzerhandbuch
