@@ -373,8 +373,10 @@ Bearbeitung der Kurznamen erlauben
   Diese Einstellung wirkt sich nur aus, wenn Ihr Administrator für die
   Website erlaubt hat, Kurznamen zu bearbeiten.
 
-Sprache
-  .. Über das Auswahlmenü :guilabel:`Sprache` können Sie 
+Sprache 
+  Über das Auswahlmenü :guilabel:`Sprache` können Sie angeben,
+  welche Sprache Sie bevorzugt sprechen. Diese Einstellung hat keine
+  weitere Auswirkung.
 
 Über Reiter in der grünen Leiste gelangen Sie zu weiteren Bereichen
 Ihrer Einstellungen:
