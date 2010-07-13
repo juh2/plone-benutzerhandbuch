@@ -76,4 +76,6 @@ Verzeichnisse und Index
 
 * :ref:`genindex`
 
+.. todo:: search WAI-kompatibel machen durch alt-tags 
+
 .. todolist:: 

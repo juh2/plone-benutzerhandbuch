@@ -45,6 +45,7 @@ RSS-Feeds aus dem Web anzeigt (siehe Abbildung :ref:`fig_portlet-rss`).
 
 .. figure:: ../images/portlet-rss.png
    :width: 40%
+   :alt: RSS-Portlet mit drei englischen Plone-Nachrichten
 
    RSS-Portlet
 
@@ -119,6 +120,7 @@ Reihe von Formularfeldern (siehe Abbildung :ref:`fig_syndizierung`).
 
 .. figure:: ../images/syndizierung.*
    :width: 100%
+   :alt: Die Ansicht zur Konfiguration der Syndizierung
 
    Syndizierungsansicht
 

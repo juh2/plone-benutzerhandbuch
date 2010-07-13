@@ -35,15 +35,19 @@ Ihren Benutzernamen und Ihr Passwort sowie eine Schaltfläche zum Anmelden
 
 .. _fig_portlet-login:
 
-.. figure:: ../images/portlet-login.png
+.. figure:: ../images/portlet-login.*
+   :width: 80%
+   :alt: Zwei Anmeldeportlets, links mit Feld für Benutzername, rechts
+   	 für E-Mail-Adresse
 
-   Anmeldeportlet
+   Anmeldeportlets
 
 .. _fig_anmeldeformular:
 
-.. figure:: ../images/anmeldeformular.png
+.. figure:: ../images/anmeldeformular.*
+   :width: 100%
 
-   Anmeldeportlet
+   Anmeldeformular
 
 
 Sie verweisen außerdem auf ein oder zwei Formulare:
@@ -56,59 +60,6 @@ Sie verweisen außerdem auf ein oder zwei Formulare:
   konfiguriert wurde, dass man sich selbst registrieren kann. Er führt
   dann zum Registrierungsformular.
 
-
-.. _sec_anmelden-mit-openid:
-
-Anmelden mit OpenID
-===================
-
-Plone unterstützt die Anmeldung mit einer OpenID. Das OpenID-System
-erlaubt Ihnen, sich auf mehreren Websites anzumelden, ohne jedes Mal
-ein eigenes Benutzerkonto mit Benutzernamen und Passwort erstellen zu
-müssen. Stattdessen legen Sie ein Benutzerkonto bei einem
-OpenID-Anbieter an und hinterlegen dort ein einziges Passwort. Der
-OpenID-Anbieter übernimmt später die Passwortprüfung, wenn Sie sich
-mit Ihrer OpenID an einer Website anmelden.
-
-Wenn Sie sich an einer Website mit OpenID anmelden, verwenden Sie dazu
-keinen Namen, sondern eine OpenID-URL. Das ist eine Internetadresse
-wie \url{http://mustermann.myopenid.com/}, die meist aus Ihrem
-OpenID-Benutzernamen und der Domäne des Anbieters gebildet
-wird. Dadurch ist eine OpenID im gesamten Internet eindeutig.
-
-Wenn Sie sich mit Hilfe von OpenID auf der Website anmelden, sind Sie
-der Website nicht als regulärer Benutzer bekannt, sondern erhalten
-lediglich bestimmte Rechte aufgrund der Tatsache, dass Sie eine
-gültige OpenID-Identität haben. Daher steht Ihnen in diesem Fall weder
-ein persönlicher Ordner noch eine persönliche Seite zur
-Verfügung. Ihre OpenID-URL ersetzt den Benutzernamen bei der Anzeige
-im Benutzermenü. Alle Benutzer, die sich über OpenID anmelden, werden
-von Plone gleich behandelt und besitzen die gleichen
-Zugriffsrechte. Welche das im Einzelnen sind, hängt von der
-Konfiguration Ihrer Website ab.
-
-Falls Ihre Website OpenID unterstützt, erscheint auf dem
-Registrierungsformular ein zusätzliches Unterformular mit dem Namen
-»OpenID-Anmeldung«. Außerdem finden Sie ein weiteres Anmeldeportlet für eine
-OpenID-Anmeldung vor (siehe Abbildung :ref:`fig_openid-anmeldung`).
-
-.. _fig_openid-anmeldung:
-
-.. figure:: ../images/openid-registrierungsformular.png
-
-   Open-ID-Anmeldeformular
-
-.. figure:: ../images/openid-portlet.png
-
-   Open-ID-Portlet
-
-Um sich auf einer Plone-Website mit Hilfe von OpenID anzumelden, geben Sie in
-das Portlet oder auf dem Registrierungsformular Ihre OpenID-URL ein. Sie
-werden dann zu Ihrem OpenID-Anbieter weitergeleitet, der Sie nach
-Ihrem Passwort fragt. Wenn Sie das richtige Passwort eingegeben haben, leitet
-Sie der OpenID-Anbieter zu Ihrer Website zurück und schickt dabei eine
-Bestätigung Ihrer Identität mit. Sie sind daraufhin auf der Website angemeldet.
-
 .. _sec_benutzer-aktionen:
 
 Benutzeraktionen
@@ -119,148 +70,187 @@ Reihe von Aktionen (siehe Abbildung :ref:`fig_benutzermenue`):
 
 .. _fig_benutzermenue:
 
-.. figure:: ../images/benutzermenue.png
+.. figure:: ../images/benutzermenue.*
 
    Benutzermenü für einen angemeldeten Benutzer
 
 
-Ihr Name
-  Der Verweis, der mit Ihrem Namen beschriftet ist, führt Sie zu
-  Ihrer persönlichen Seite (siehe Abschnitt :ref:`sec_personliche-seite-1`).
+Ihr Name/Ihre E-Mail-Adresse 
+ Der oberste Eintrag dient als Titel des Benutzermenüs und ist Ihr
+  Benutzername oder Ihre E-Mail-Adresse.  
 
 Mein Ordner
   Hier gelangen Sie gegebenenfalls zu Ihrem persönlichen
   Ordner (siehe Abschnitt :ref:`sec_mitgliedsordner`).
 
-Abmelden
-  Über diesen Verweis melden Sie sich von der Website ab. Danach
-  sind Sie bis zu Ihrer nächsten Anmeldung mit Benutzernamen und Passwort ein
-  der Website unbekannter Besucher und haben keinen Zugriff auf die
-  erweiterten Funktionen für angemeldete Benutzer.
+Persönliche Seite
+  Dieser Eintrag führt Sie zu Ihrer persönlichen Seite (siehe
+  Abschnitt :ref:`sec_personliche-seite-1`).
 
+Meine Einstellungen
+  Über diesen Eintrag gelangen Sie zu einem Formular, auf dem Sie
+  persönliche Einstellungen vornehmen können (siehe
+  :ref:`sec_meine-einstellungen`).
+
+Abmelden 
+  Über diesen Verweis melden Sie sich von der Website ab und
+  haben keinen Zugriff mehr auf die erweiterten Funktionen für
+  angemeldete Benutzer.
 
 .. _sec_personliche-seite-1:
 
 Persönliche Seite
 =================
 
-Ihre persönliche Seite ist als Ihre zentrale Anlaufstelle auf der
-Website gedacht. Sie gelangen dorthin, wenn Sie nach der Anmeldung im
-Benutzermenü dem Verweis mit Ihrem Namen folgen.
+Ihre persönliche Seite kann mehrere Portlets enthalten, die entweder
+von Ihnen oder vom Administrator hinzugefügt wurden (siehe Abbildung
+:ref:`fig_persoenliche-seite-redakteur`).
 
-Ihre Seite soll Informationen und Funktionen zusammenfassen, die für Sie und
-Ihre Arbeit von Interesse sind. Zunächst finden Sie dazu rechts oben auf Ihrer
-Seite die folgenden drei Verweise.
+.. _fig_persoenliche-seite-redakteur:
 
+.. figure::
+   ../images/persoenliche-seite-redakteur.*
+   :width: 100%
+   :alt: Die persönliche Seite eines Redakteurs
 
-Mein Profil
-  Dieser Verweis führt Sie zu Ihrem Profil (siehe
-  Abschnitt :ref:`sec_profil`).
-
-Meine Einstellungen
-  Hier können Sie die Angaben in Ihrem Profil und einige
-  nicht öffentlich einsehbare persönliche Daten und Einstellungen ändern
-  (siehe Abschnitt :ref:`sec_persoenliche-einstellungen`).
-
-Passwort ändern
-  Um ein neues Passwort für Ihr Benutzerkonto zu setzen,
-  geben Sie es in diesem Formular zweimal ein und bestätigen Sie es mit Ihrem
-  aktuellen Passwort.
-
-Im Hauptteil Ihrer Seite können Sie Portlets
-zusammenstellen, die für Sie relevante Informationen enthalten. Einen
-Überblick über Plones Portlets finden Sie in Abschnitt :ref:`sec_portlets`.
+   Die persönliche Seite eines Redakteurs
+ 
 
 Portlets hinzufügen
-===================
+-------------------
 
 Die Portlets auf Ihrer Seite sind in vier Spalten angeordnet. In der
-Bearbeitungsansicht Ihrer Seite können Sie in jeder der Spalten beliebige
-Portlets anlegen, umordnen und löschen (siehe
-Abbildung :ref:`fig_persoenliche-seite-bearbeiten`).
+Bearbeitungsansicht Ihrer Seite können Sie in jeder der Spalten
+beliebige Portlets anlegen, umordnen, zeitweise verbergen und löschen
+(siehe Abbildung :ref:`fig_persoenliche-seite-bearbeiten`). Einen
+Überblick über Plones Portlets finden Sie in Abschnitt
+:ref:`sec_portlets`.
 
 .. _fig_persoenliche-seite-bearbeiten:
 
-.. figure:: ../images/persoenliche-seite-bearbeiten.png
+.. figure:: ../images/persoenliche-seite-bearbeiten.*
+   :width: 100%
+   :alt: Die Bearbeitungsansicht der persönlichen Seite
 
    Die Bearbeitungsansicht der persönlichen Seite
 
-Viele Portlets müssen Sie erst konfigurieren, bevor sie angezeigt werden
-können. Wenn Sie ein solches Portlet anlegen, gelangen Sie zunächst zu seinem
-Bearbeitungsformular. Der Name des Portlets in der Bearbeitungsansicht Ihrer
-Seite ist ebenfalls ein Verweis dorthin. Nachfolgend werden die Einstellungen
-der einzelnen Portlets aufgeführt.
+Sie finden folgende Bedienelemente in der Bearbeitungsansicht Ihrer
+persönlichen Seite:
+
+* Das Auswahlmenü :guilabel:`Portlet hinzufügen`. In diesem Menü
+  finden Sie alle Portlets, die Sie auf Ihrer persönlichen Seite
+  hinzufügen können.
+
+* Die Liste der in jeder Spalte zugewiesenen Portlets mit dem Titel
+  »Hier zugewiesene Portlets«.
+
+* Die Einträge für jedes Portlet sind grau hinterlegt.
+
+  * Der Name des Portlets ist ein Verweis auf seine
+    Bearbeitungsansicht
+  * Mit den Pfeilsymbolen können Sie die Reihenfolge der Portlets in
+    der jeweiligen Spalte verändern.
+  * Mit :guilabel:`Verbergen` machen Sie das Portlet unsichtbar, ohne
+    es zu löschen. Dies ist praktisch, wenn Sie es nur zeitweise nicht
+    auf Ihrer persönlichen Seite anzeigen wollen.
+  * Mit dem Verweis :guilabel:`x` löschen Sie das Portlet komplett.
+
+Um ein Portlet hinzuzufügen, wählen Sie es im Auswahlmenü aus. Viele
+Portlets müssen Sie erst konfigurieren, bevor sie angezeigt werden
+können. Dies geschieht im jeweiligen Bearbeitungsformular des
+Portlets. Nachfolgend werden die Einstellungsmöglichkeiten in den
+Bearbeitungsformularen der einzelnen Portlets aufgeführt.
 
 
 RSS-Feed
---------
-
-(Abbildung :ref:`fig_rss-feed-hinzufuegen`)
+~~~~~~~~
 
 .. _fig_rss-feed-hinzufuegen:
 
-.. figure:: ../images/rss-feed-portlet-hinzufuegen.png
+.. figure:: ../images/rss-feed-portlet-hinzufuegen.*
+   :width: 80%
+   :alt: Bearbeitungsformular eines RSS-Portlets
 
    Hinzufügen des RSS-Portlets
 
-* Anzahl der Feed-Einträge im Portlet
+Einstellungsmöglichkeiten im Bearbeitungsformular von RSS-Portlets
+(siehe Abbildung :ref:`fig_rss-feed-hinzufuegen`):
+
+* Titel des RSS-Portlets. Wenn Sie nichts eintragen, wird der Titel
+  aus dem Feed selbst benutzt.
+* Anzahl der Artikel, die im Portlet angezeigt werden sollen.
 * URL des RSS-Feeds
-* Anzahl der Minuten, nach denen der RSS-Feed erneuert werden soll
+* Aktualisierungsintervall: Anzahl der Minuten, nach denen der
+  RSS-Feed erneuert werden soll
 
 Suche
------
+~~~~~
 
-(Abbildung :ref:`fig_suchportlet-hinzufuegen`)
+Einstellungsmöglichkeiten im Suchportlet (siehe Abbildung
+:ref:`fig_suchportlet-hinzufuegen`).
 
 .. _fig_suchportlet-hinzufuegen:
 
-.. figure:: ../images/suchportlet-hinzufuegen.png
+.. figure:: ../images/suchportlet-hinzufuegen.*
+   :width: 80%
+   :alt: Bearbeitungsformular eines Suchportlets
 
    Hinzufügen des Suchportlets
 
-* Sofortsuche an- oder abschalten
+* Sofortsuche erlauben (siehe hierzu Abschnitt :ref:`sec_sofortsuche`)
 
 Aktuelle Änderungen
--------------------
+~~~~~~~~~~~~~~~~~~~
 
-(Abbildung :ref:`fig_aktuelle-artikel-portlet-hinzufuegen`)
+Einstellungsmöglichkeiten im Portlet »Aktuelle Änderungen« (siehe
+Abbildung :ref:`fig_aktuelle-artikel-portlet-hinzufuegen`).
 
 .. _fig_aktuelle-artikel-portlet-hinzufuegen:
 
-.. figure:: ../images/aktuelle-artikel-portlet-hinzufuegen.png
+.. figure:: ../images/aktuelle-artikel-portlet-hinzufuegen.*
+   :width: 80%
+   :alt: Bearbeitungsformular des Portlets »Aktuelle Änderungen«
 
    Hinzufügen des Portlets »Aktuelle Änderungen«
 
 
-* Anzahl der angezeigten neuen Artikel
+* Anzahl der Artikel, die im Portlet angezeigt werden sollen.
 
 Nachrichten
------------
+~~~~~~~~~~~
 
-(Abbildung :ref:`fig_nachrichten-portlet-hinzufuegen`)
+Einstellungsmöglichkeiten im Nachrichtenportlet (siehe Abbildung
+:ref:`fig_nachrichten-portlet-hinzufuegen`)
 
 .. _fig_nachrichten-portlet-hinzufuegen:
 
-.. figure:: ../images/nachrichten-portlet-hinzufuegen.png
+.. figure:: ../images/nachrichten-portlet-hinzufuegen.*
+   :width: 80%
+   :alt: Bearbeitungsformular eines Nachrichtenportlets
 
    Hinzufügen des Nachrichtenportlets
 
 
-* Anzahl der angezeigten Nachrichten
-* zu berücksichtigende Revisionsstatus
+* Anzahl der Artikel, die im Portlet angezeigt werden sollen.
+* zu berücksichtigende Status der Artikel
 
-Welche Status Sie für die anzuzeigenden Nachrichten auswählen können, hängt
-von Ihren Berechtigungen ab. Veröffentlichte Nachrichten kann jeder Benutzer
-anzeigen lassen.
+Welche Nachrichten angezeigt werden, richtet sich danach, ob sie die
+Nachrichten im gewählten Status überhaupt sehen
+dürfen. Veröffentlichte Nachrichten kann sich jeder Benutzer anzeigen
+lassen. Nachrichten im Status »privat« können Sie nur unter bestimmten
+Bedingungen – zumeist jedoch nicht – einsehen.
 
 Termine
--------
+~~~~~~~
 
-(Abbildung :ref:`fig_terminportlet-hinzufuegen`)
+Einstellungsmöglichkeiten im Bearbeitungsformular von Terminportlets
+(siehe Abbildung :ref:`fig_terminportlet-hinzufuegen`)
 
 .. _fig_terminportlet-hinzufuegen:
 
-.. figure:: ../images/terminportlet-hinzufuegen.png
+.. figure:: ../images/terminportlet-hinzufuegen.*
+   :width: 80%
+   :alt: Bearbeitungsformular eines Terminportlets
 
    Hinzufügen des Terminportlets
 
@@ -271,10 +261,14 @@ Termine
 
 .. _sec_statisches-portlet-hinzufuegen:
 
-Statisches Portlet
-------------------
+.. todo:: auf persönlicher Seite nicht möglich, woanders
+   	  einordnen
 
-(Abbildung :ref:`fig_statisches-portlet-hinzufuegen`)
+Statisches Portlet
+~~~~~~~~~~~~~~~~~~
+
+Einstellungsmöglichkeiten im Bearbeitungsformular für statische
+Portlets (siehe Abbildung :ref:`fig_statisches-portlet-hinzufuegen`)
 
 .. _fig_statisches-portlet-hinzufuegen:
 
@@ -286,12 +280,11 @@ Statisches Portlet
 * anzuzeigender Text (mit allen Bearbeitungsmöglichkeiten des Texteditors
   Kupu)
 * Rahmen des Portlets verbergen?
-* Fußzeile
-* URL, die auf weitere Informationen verweist
-* Portlet vorübergehend nicht anzeigen?
+* Fußzeile des Portlets
+* Verweis auf weitere Informationen im Web
 
 Klassisches Portlet
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 Unter einem klassischen Portlet versteht man ein Portlet, das für eine
 frühere Version von Plone erstellt wurde. Ein solches Portlet können
@@ -305,7 +298,10 @@ Website weitere klassische Portlets gibt.
 
 .. _fig_klassisches-portlet-hinzufuegen:
 
-.. figure:: ../images/klassisches-portlet-hinzufuegen.png
+.. figure:: ../images/klassisches-portlet-hinzufuegen.*
+   :width: 80%
+   :alt: Bearbeitungsformular zum Hinzufügen eines so genannten
+   	 klassischen Portlets
 
    Hinzufügen des klassischen Portlets
 
@@ -317,65 +313,112 @@ Namen »portlet« hatten, ist das Formularfeld bereits mit diesem Namen
 vorausgefüllt. Die Vorlage für das Lesezeichenportlet heißt
 ``portlet_favorites``.
 
-.. _sec_profil:
+.. _sec_meine-einstellenungen:
 
-Persönliches Profil
+Meine Einstellungen
 ===================
+
+Wenn Sie dem Verweis :guilabel:`Meine Einstellungen` im Benutzermenü
+folgen, gelangen Sie auf das Formular »Meine Einstellungen«, auf dem
+Sie eine persönliche Konfiguration der Website vornehmen können (siehe
+Abbildung :ref:`fig_meine-einstellungen`).
+
+.. _fig_meine-einstellungen:
+
+.. figure:: ../images/meine-einstellungen.*
+   :width: 100%
+   :alt: Formular mit benutzerspezifischen Konfigurationsmöglichkeiten 
+
+   Persönliche Einstellungen
+
+Folgende Konfigurationsmöglichkeiten stehen Ihnen zur Verfügung:
+
+Texteditor
+  Hier wählen Sie aus, mit welchem Texteditor
+  Sie den Haupttext Ihrer Seiten bearbeiten wollen. Es gibt
+  drei Möglichkeiten:
+ 
+  * Standardeinstellung der Website übernehmen: Sie übernehmen damit
+    die Einstellungen, die Ihr Administrator vorgesehen hat.
+
+  * TinyMCE: Dies ist ein komfortabler, visueller Editor. Mit ihm können Sie Ihren
+    Text bei der Eingabe direkt formatieren und sehen ihn dabei so, wie er
+    später von Plone angezeigt wird. 
+
+  * Keiner: Wenn Sie keinen Texteditor auswählen, erhalten Sie bei
+    Textfeldern einfach ein mehrzeiliges Eingabefeld. Dies
+    funktioniert in jedem Webbrowser. Sie können dann in die
+    Eingabefelder neben einfachem Text und HTML möglicherweise auch
+    andere Textauszeichnungssprachen eingeben.
+
+Externen Editor erlauben
+  Wenn diese Option aktiviert ist, können Sie Plone-Artikel mit Hilfe
+  eines Editors bearbeiten, der lokal auf Ihrem Rechner installiert
+  ist. Hierzu sind Zusatzprogramme notwendig, die gesondert
+  installiert werden müssen (siehe dazu Kapitel
+  :ref:`sec_externer-editor`) 
+
+Aufgeführt in der Suche
+  Falls diese Option aktiviert ist, können andere Benutzer Sie über
+  die Benutzersuche finden. Weiter Informationen dazu finden Sie in
+  Kapitel :ref:`sec_mitgliedersuche`. 
+
+Bearbeitung der Kurznamen erlauben 
+  Wenn Sie diese Option auswählen, können Sie in der
+  Bearbeitungsansicht von Artikeln deren Kurznamen bearbeiten. Blenden
+  Sie das Feld aus, wenn Sie eine aufgeräumtere Bearbeitungsansicht
+  bevorzugen. Unabhängig davon können Sie die Kurznamen von Artikeln
+  jederzeit in der Inhaltsansicht ihres jeweiligen Ordners bearbeiten.
+
+  Diese Einstellung wirkt sich nur aus, wenn Ihr Administrator für die
+  Website erlaubt hat, Kurznamen zu bearbeiten.
+
+Sprache
+  .. Über das Auswahlmenü :guilabel:`Sprache` können Sie 
+
+Über Reiter in der grünen Leiste gelangen Sie zu weiteren Bereichen
+Ihrer Einstellungen:
+
+Persönliche Informationen
+  Dieser Verweis führt Sie zu Ihrem Profil (siehe Abschnitt
+  :ref:`sec_profil`).
+
+Passwort
+  Um ein neues Passwort für Ihr Benutzerkonto zu setzen, müssen Sie
+  zunächst Ihr altes Passwort im ersten Formularfeld eingeben (siehe
+  :ref:`fig_passwort-aendern`) und anschließend zweimal das neue Passwort
+  eingeben. Betätigen Sie anschließend die Schaltfläche
+  :guilabel:`Passwort ändern`.
+
+  .. _fig_passwort-aendern:
+  .. figure:: 
+     ../images/passwort-aendern.*
+     :width: 80%
+     :alt: Formular zum Ändern des Passworts
+     
+     Formular zum Ändern des Passworts
+
+
+.. _sec_profil:
+     	       
+Persönliche Informationen
+-------------------------
 
 Ihr Profil gibt anderen Benutzern der Website einen Überblick über
 Ihre Person und Ihre Tätigkeit (siehe Abbildung :ref:`fig_profil`).
 
 .. _fig_profil:
 
-.. figure:: ../images/profil.png
+.. figure:: ../images/profil.*
+   :width: 80%
+   :alt: Formular zur Bearbeitung Ihrer persönlichen Informationen
 
-   Beispiel eines Profils
+   Formular zur Bearbeitung Ihrer persönlichen Informationen
 
 Verweise auf Ihr Profil finden sich in Ihren Artikeln und einigen
-automatisch erzeugten Übersichtslisten. Sie selbst können Ihr Profil
-außerdem über einen Verweis auf Ihrer persönlichen Seite erreichen.
+automatisch erzeugten Übersichtslisten. 
 
 Das Profil enthält folgende Informationen:
-
-* Name
-* Standort und Muttersprache
-* Porträt und Biographie
-* einen Verweis zu Ihrem persönlichen Ordner
-* ein Rückmeldeformular
-* Verweise zu Ihren aktuellen Artikeln
-
-
-Ihre Profilangaben können Sie in Ihren Einstellungen aktuell halten.
-
-Mit dem Rückmeldeformular können Besucher mit Ihnen Kontakt aufnehmen. Das
-Formular verschickt Nachrichten an die E-Mail-Adresse, die Sie in Ihren
-Einstellungen angegeben haben, sodass anonyme Besucher die Adresse nicht zu
-sehen bekommen. Nachrichten bestehen aus Betreff und Text. Wenn Sie selbst
-Ihre Profilseite betrachten, wird das Rückmeldeformular ausgeblendet.
-
-Die Liste Ihrer aktuellen Artikel ist nach Artikeltypen sortiert und
-enthält Titel und Änderungsdatum jedes aufgeführten Artikels. Darunter
-finden Sie einen Verweis zu einer Liste aller von Ihnen verfassten
-Artikel, beginnend mit dem neuesten.
-
-
-.. _sec_persoenliche-einstellungen:
-
-Persönliche Einstellungen
-=========================
-
-Wenn Sie auf Ihrer persönlichen Seite dem Verweis »Meine Einstellungen«
-folgen, können Sie einige Voreinstellungen für das Verhalten von Plone
-bearbeiten. Dieses Formular ist zugleich die Bearbeitungsansicht Ihres Profils
-(siehe Abbildung :ref:`fig_meine-einstellungen`).
-
-.. _fig_meine-einstellungen:
-
-.. figure:: ../images/meine-einstellungen.png
-
-   Persönliche Einstellungen
-
-Zu Ihren Profildaten zählen folgende Angaben:
 
 Vor- und Nachname
   Geben Sie hier Ihren vollständigen Namen ein. Mit
@@ -383,65 +426,53 @@ Vor- und Nachname
   Verfasser genannt.
 
 E-Mail
-
-  Geben Sie eine gültige E-Mail-Adresse ein, unter der
+ Geben Sie eine gültige E-Mail-Adresse ein, unter der
   Sie erreichbar sind. Dieses Feld müssen Sie ausfüllen.
+
+Homepage
+  Falls Sie eine eigene Website haben, so können Sie sie hier
+  eintragen.  
+
+Biographie
+  Ein paar Sätze über Ihre Person und Ihre Arbeit. Mit diesem
+  Text stellen Sie sich in Ihrem Profil vor. 
 
 Ort
   Die Stadt oder das Land, wo Sie wohnen oder arbeiten.
 
-Sprache
-  Ihre Muttersprache.
-
-Biographie
-  Ein paar Sätze über Ihre Person und Ihre Arbeit. Mit diesem
-  Text stellen Sie sich in Ihrem Profil vor.
-
-Homepage
-  Falls Sie eine eigene Website haben, so können Sie sie hier
-  eintragen. 
-
 Porträt
   Ein Foto von Ihnen, das in Ihrem Profil angezeigt wird. Wenn Sie ein
   zu großes Bild hochladen, wird es auf eine sinnvolle Größe skaliert.
-  Um das Bild zu löschen, kreuzen Sie »Porträt löschen« an.
+  Um das Bild zu löschen, kreuzen Sie :guilabel:`Porträt löschen` an.
 
+Einige Ihrer persönlichen Informationen werden auf der Website anderen
+Benutzern zugänglich gemacht. So gelangen andere Benutzer
+beispielsweise über einen Verweis in der Verfasserzeile eines Artikels
+auf ein Rückmeldeformular (siehe Abbildung
+:ref:`rueckmeldung-an-autor`, über das sie mit Ihnen Kontakt aufnehmen
+können. In diesem Formular werden der Benutzername, die Biographie,
+und der Ort aus Ihren persönlichen Informationen angezeigt. 
 
-In den übrigen Feldern können Sie Plones Verhalten beeinflussen:
+Das Formular verschickt Nachrichten an die E-Mail-Adresse, die Sie bei
+der Anmeldung oder in den persönlichen Informationen angegeben haben,
+sodass anonyme Besucher die Adresse nicht zu sehen bekommen. Die
+Nachrichten bestehen aus Betreff und Text. Wenn Sie selbst Ihre
+Profilseite betrachten, wird das Rückmeldeformular ausgeblendet.
 
-Texteditor
-  Hier wählen Sie aus, mit welchem Texteditor
-  Sie den Haupttext Ihrer Seiten bearbeiten wollen. Es gibt
-  zwei Möglichkeiten:
- 
-  * Kupu ist ein komfortabler, visueller Editor. Mit ihm können Sie Ihren
-    Text bei der Eingabe direkt formatieren und sehen ihn dabei so, wie er
-    später von Plone angezeigt wird. Die meisten Anwender werden Kupu
-    bevorzugen.
-  * Der normale Formulareditor ist einfach ein mehrzeiliges Eingabefeld
-    und wird von jedem Webbrowser zur Verfügung gestellt. Sie können dort
-    neben einfachem Text und HTML möglicherweise auch andere
-    Textauszeichnungssprachen eingeben.
-
-Bearbeitung der Kurznamen erlauben
-  Wählen Sie aus, ob Sie die Kurznamen
-  Ihrer Artikel ändern wollen. Blenden Sie das Feld aus, wenn Sie eine
-  aufgeräumtere Bearbeitungsansicht bevorzugen. Unabhängig davon können Sie
-  die Kurznamen von Artikeln jederzeit in der Inhaltsansicht ihres jeweiligen
-  Ordners bearbeiten.
-
-  Sie sehen dieses Feld nur, falls Ihr Administrator für die Website
-  erlaubt hat, Kurznamen zu bearbeiten.
+Die Liste Ihrer aktuellen Artikel ist nach Artikeltypen sortiert und
+enthält Titel und Änderungsdatum jedes aufgeführten Artikels. Darunter
+finden Sie einen Verweis zu einer Liste aller von Ihnen verfassten
+Artikel, beginnend mit dem neuesten.
 
 
 .. _sec_mitgliedsordner:
 
-Persönlicher Ordner
-===================
+Mein Ordner
+===========
 
 Falls Ihre Website entsprechend konfiguriert ist, erhält jeder Benutzer einen
 persönlichen Ordner. Sie erreichen Ihren Ordner nach der Anmeldung über den
-Verweis »Mein Ordner« im Benutzermenü. Wenn es auf Ihrer Website keine
+Verweis :guilabel:`Mein Ordner` im Benutzermenü. Wenn es auf Ihrer Website keine
 persönlichen Ordner gibt, fehlt dieser Verweis.
 
 In Ihrem Ordner können Sie nach eigenem Ermessen Artikel anlegen,
@@ -458,28 +489,29 @@ auch solche Artikel sehen, die den Revisionsstatus
 »privat« tragen, also vor anderen Benutzern und unangemeldeten
 Besuchern versteckt sind.
 
-Wenn Sie Lesezeichen anlegen, erzeugt Plone einen Lesezeichenordner in Ihrem
-persönlichen Ordner mit dem Titel »Favorites«. Für jedes Lesezeichen, das
-Sie auf der Website setzen, wird in diesem Ordner ein Lesezeichen-Artikel
-angelegt.
+.. todo:: Nachfragen ob es Favorites überhaupt noch gibt
 
+.. Wenn Sie Lesezeichen anlegen, erzeugt Plone einen Lesezeichenordner
+   in Ihrem persönlichen Ordner mit dem Titel »Favorites«. Für jedes
+   Lesezeichen, das Sie auf der Website setzen, wird in diesem Ordner
+   ein Lesezeichen-Artikel angelegt.
 
 .. _sec_mitgliedersuche:
 
 Benutzersuche
 =============
 
-Über den Eintrag »Benutzer« in der Hauptnavigation erreichen Sie die
-Benutzersuche (siehe Abbildung :ref:`fig_benutzersuche`).
+Über den Eintrag :guilabel:`Benutzer` in der Hauptnavigation erreichen
+Sie die Benutzersuche (siehe Abbildung :ref:`fig_benutzersuche`).
 
 .. _fig_benutzersuche:
 
-.. figure:: ../images/benutzersuche.png
+.. figure:: ../images/benutzersuche.*
+   :width: 60%
 
    Benutzersuche
 
 Sie können Benutzer Ihrer Website nach folgenden Kriterien suchen:
-
 
 Name
   Geben Sie hier den Benutzernamen des gesuchten Benutzers
