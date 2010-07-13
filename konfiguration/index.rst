@@ -1,3 +1,5 @@
+.. _sec_konfiguration:
+
 =============
 Konfiguration
 =============
@@ -5,75 +7,28 @@ Konfiguration
 Das Konfigurationsmenü
 ======================
 
-.. _sec_konfiguration-artikeltypen:
 
-Artikeltypen
-------------
+.. toctree::
+   :maxdepth: 1
 
-Aussehen
---------
-
-Benutzer und Gruppen
---------------------
-
-E-Mail
-------
-
-.. _sec_konfiguration-bearbeiten:
-
-Bearbeiten
-----------
-
-.. _sec_konfiguration-erweiterungen:
-
-Erweiterungen
--------------
-
-Fehler
-------
-
-HTML-Filter
------------
-
-Handhabung von Bildern
-----------------------
-
-Kalender
---------
-
-Kollektionen
-------------
-
-Navigation
-----------
-
-Regeln
-------
-
-Sicherheit
-----------
-
-Sprache
--------
-
-Suche
------
-
-.. _sec_konfiguration-textauszeichnung: 
-
-Textauszeichnung
-----------------
-
-Visueller Editor TinyMCE
-------------------------
-
-Wartung
--------
-
-Website
--------
-
-Zope-Management-Oberfläche
---------------------------
-
-
+   artikeltypen.rst
+   aussehen.rst
+   benutzer-und-gruppen.rst
+   email.rst
+   bearbeiten.rst
+   erweiterungen.rst
+   fehler.rst
+   html-filter.rst
+   handhabung-bilder.rst
+   kalender.rst
+   kollektionen.rst
+   navigation.rst
+   regeln.rst
+   sicherheit.rst
+   sprache.rst
+   suche.rst
+   textauszeichnung.rst
+   editor.rst
+   wartung.rst
+   website.rst
+   zmi.rst

@@ -44,7 +44,7 @@ RSS-Feeds aus dem Web anzeigt (siehe Abbildung :ref:`fig_portlet-rss`).
 .. _fig_portlet-rss:
 
 .. figure:: ../images/portlet-rss.png
-   :width: 100%
+   :width: 40%
 
    RSS-Portlet
 
@@ -93,8 +93,6 @@ Internetadresse auch Angaben über den Herausgeber, den Autor, die
 Nutzungsbedingungen und das Veröffentlichungsdatum. Diese Informationen werden
 den Eigenschaften und Metadaten der Artikel entnommen.
 
-.. Bug 7983 dc.publisher wird nicht eingebunden
-
 In RSS-Feeds von Ordnern und Kollektionen ist der Inhalt von Unterordnern und
 Unterkollektionen nicht enthalten: wenn für sie die Syndizierung aktiviert
 ist, haben sie ihre eigenen RSS-Feeds.
@@ -119,7 +117,7 @@ Reihe von Formularfeldern (siehe Abbildung :ref:`fig_syndizierung`).
 
 .. _fig_syndizierung:
 
-.. figure:: ../images/syndizierung.png
+.. figure:: ../images/syndizierung.*
    :width: 100%
 
    Syndizierungsansicht

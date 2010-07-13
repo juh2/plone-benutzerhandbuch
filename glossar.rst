@@ -4,7 +4,11 @@
 Glossar
 =======
 
+Im Glossar werden Fachbegriffe erläutert, deren Kenntnis im Text
+teilweise vorausgesetzt wird.
+
 .. glossary::
+   :sorted:
 
    Plone
       Content-Management-System
