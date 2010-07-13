@@ -84,23 +84,25 @@ Sie bekommen in Plone nur die Funktionen zu Gesicht, die Sie selbst ausüben
 und in der Artikelansicht »Zugriff« delegieren dürfen.
 
 
-.. _sec_zugriffsrechte-ansicht:
+.. _sec_ansicht-freigabe:
 
-Artikelansicht »Zugriff«
+Artikelansicht »Freigabe«
 =========================
 
 Wenn Sie Besitzer oder Verwalter eines Artikels sind, steht Ihnen die
-Ansicht »Zugriff« zur Verfügung. Dort können Sie Funktionen an andere
+Ansicht »Freigabe« zur Verfügung. Dort können Sie Funktionen an andere
 Benutzer und Gruppen übertragen, um beispielsweise Aufgaben an Mitarbeiter zu
 delegieren.
 
-.. _fig_zugriff:
+.. _fig_freigabe:
 
-.. figure:: ../images/zugriff.png
+.. figure:: ../images/freigabe.*
+   :width: 100%
+   :alt: Die Artikelansicht »Freigabe« mit mehreren Einträgen
 
-   Die Artikelansicht »Zugriff«
+   Die Artikelansicht »Freigabe«
 
-Die Ansicht »Zugriff« (siehe Abbildung :ref:`fig_zugriff`) ist
+Die Ansicht »Freigabe« (siehe Abbildung :ref:`fig_freigabe`) ist
 folgendermaßen aufgebaut:
 
 
@@ -123,6 +125,19 @@ Berechtigungen von übergeordneten Ordnern übernehmen
   Kreis mit drei roten Punkten steht für Funktionen, die vom Administrator
   global auf der gesamten Website vergeben worden sind.
 
+  Abbildung :ref:`fig_freigabe-geerbte-funktionen` zeigt die
+  Freigabe-Ansicht des Ordners »Kochseminar«, der sich im Ordner
+  »Veranstaltungen« befindet und dessen Freigabe-Einstellungen geerbt hat.
+
+  .. _fig_freigabe-geerbte-funktionen:
+
+  .. figure::
+     ../images/freigabe-geerbte-funktionen.*
+     :width: 100%
+     :alt: Freigabe-Ansicht mit geerbten Funktionen
+
+     Freigabe-Ansicht mit geerbten Funktionen
+
 Wenn Sie einem Benutzer eine Funktion übertragen wollen, suchen Sie zunächst
 im Suchfeld nach seinem Namen. Alle Benutzer, auf die Ihr Suchbegriff passt,
 werden in der Tabelle aufgelistet. Sie übertragen eine Funktion, indem Sie
@@ -132,4 +147,3 @@ verändern soll, setzen Sie ein Häkchen bei der Funktion »Kann bearbeiten«.
 
 Wenn Sie Funktionen an eine Gruppe übertragen wollen, verfahren Sie
 genauso. Sie erkennen eine Gruppe an dem Gruppensymbol neben dem Namen.
-
