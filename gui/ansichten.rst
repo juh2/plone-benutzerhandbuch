@@ -2,36 +2,44 @@
  Artikelansichten
 ==================
 
-Der Hauptbestandteil fast jeder Seite der Website ist die Ansicht eines
-Artikels. Durch Artikelansichten werden die Inhalte Ihrer Website dargestellt
-und bearbeitet. Welche Ansichten ein Artikel besitzt, hängt von seinem Typ
-ab. Sie finden einen Überblick über Artikelansichten und ihre Funktionen in
-Kapitel :ref:`sec_artikeltypen`.
+Mit dem Begriff :term:`Ansicht` wird eins der wichtigsten Elemente in
+Plone bezeichnet. Mit Hilfe diverser Artikelansichten werden die
+Inhalte einer Website dargestellt und bearbeitet. Welche Ansichten ein
+Artikel besitzt, hängt von seinem Typ ab. Sie finden einen Überblick
+über Artikelansichten und ihre Funktionen in Kapitel
+:ref:`sec_artikeltypen`.
 
 .. _sec_ui-rahmen:
 
 Reiter und Menüs
 ================
 
-Sind Sie an der Website angemeldet, dürfen Sie für bestimmte Artikel mehrere
-Ansichten sehen. Verschiedene Ansichten eines Artikels werden wie Karteikarten
-dargestellt, zwischen denen man mit Reitern wechselt. Dazu fasst Plone die
-Ansichten in einen grünen Rahmen, der die Reiter trägt und möglicherweise
-ein oder mehrere Ausklappmenüs enthält (siehe
-Abbildung :ref:`fig_ui-rahmen`).
+Ein nicht angemeldeter Besucher der Website sieht in der Regel nur die
+Anzeigeansicht eines Artikels. Wenn Sie an der Website angemeldet
+sind, dürfen Sie jedoch für bestimmte Artikel mehrere Ansichten
+sehen. Verschiedene Ansichten eines Artikels werden wie Karteikarten
+dargestellt, zwischen denen man mit den Reitern in der grünen Leiste
+wechselt. Neben den Reitern für die Ansichten können sich in der
+grünen Leiste auch mehrere Ausklappmenüs befinden (siehe Abbildung
+:ref:`fig_ui-leiste`).
 
-.. _fig_ui-rahmen:
+.. _fig_ui-leiste:
 
-.. figure:: ../images/rahmen.png
+.. figure:: ../images/leiste.*
    :width: 100%
 
    Reiter und Menüs am Beispiel eines Ordners
 
+Je nachdem wie viel Platz im Browser zur Verfügung steht, sind die
+Reiter und Ausklappmenüs entweder nebeneinander oder untereinander
+angeordnet. Die Reiter werden dabei entweder links oder oben
+platziert. 
+
 Jeder Reiter ist mit dem Namen der Ansicht beschriftet; der Reiter der
-angezeigten Ansicht ist grün ausgefüllt.
+angezeigten Ansicht ist optisch hervorgehoben: in der Abbildung ist
+die Ansicht :guilabel:`Anzeigen` geöffnet.
 
 Je nach Ihren Berechtigungen sehen Sie folgende Ausklappmenüs:
-
 
 Aktionen
   Hier können Sie den Artikel kopieren, verschieben, löschen, in der
@@ -56,58 +64,6 @@ Status
   Abschnitt :ref:`sec_workflow`).
 
 
-Artikelaktionen
-===============
-
-Die Artikelaktionen finden Sie unterhalb der Anzeige des Artikels
-(siehe Abbildung :ref:`fig_doc-actions`).
-
-.. _fig_doc-actions:
-
-.. figure:: ../images/doc-actions.png
-   :width: 100%
-
-   Artikelaktionen am Beispiel eines Termins
-
-
-Tabelle :ref:`Artikelaktionen <tab_dokumentaktionen>` fasst alle Artikelaktionen
-zusammen. Welche davon Sie angezeigt bekommen, hängt vom Typ des
-Artikels sowie von Ihren persönlichen Einstellungen und Berechtigungen
-ab.
-
-.. _tab_dokumentaktionen:
-
-==================	=================================
-Titel			siehe Seite
-==================	=================================
-RSS-Feed		:ref:`sec_syndizierung`
-Versenden		:ref:`sec_seite-versenden`
-Drucken 		:ref:`sec_seite-drucken`
-Lesezeichen setzen 	:ref:`sec_navigation-lesezeichen`
-iCalendar   		:ref:`sec_termin`
-vCalendar		:ref:`sec_termin`
-==================	=================================
-
-
-.. _sec_seite-versenden:
-
-Versenden
----------
-
-Mit der Aktion »Versenden« können Sie eine E-Mail mit der Internetadresse der
-aktuellen Webseite als Inhalt versenden. Der Verweis führt Sie zu einem
-Formular, in dem Sie die E-Mail-Adressen des Empfängers und Absenders sowie
-einen Nachrichtentext eingeben können. Sind Sie an der Website angemeldet, so
-ist Ihre Absenderadresse dort bereits eingetragen.
-
-.. _sec_seite-drucken:
-
-Drucken
--------
-
-Die Aktion »Drucken« löst die Druckfunktion Ihres Webbrowsers aus, sodass
-Sie die aktuelle Webseite ausdrucken können.
-
 Statusmeldung
 =============
 
@@ -119,23 +75,32 @@ hervorgehoben (siehe Abbildung :ref:`fig_statusmeldung`).
 
 .. _fig_statusmeldung:
 
-.. figure:: ../images/statusmeldung.png
-   :width: 100%
+.. figure:: ../images/statusmeldung.*
+   :width: 80%
 
    Eine Statusmeldung
 
-Es gibt mehrere Klassen von Statusmeldungen, die unterschiedliche Wichtigkeit
+Es gibt zwei Klassen von Statusmeldungen, die unterschiedliche Wichtigkeit
 besitzen und durch jeweils eigene Farben gekennzeichnet werden:
 
 
 Information (gelblich)
   beispielsweise die Anmeldebestätigung
 
-Warnung (orange)
-  beispielsweise die Warnung vor defekten Verweisen beim Löschen
-  referenzierter Artikel
+.. Warnung (orange)
+..   beispielsweise die Warnung vor defekten Verweisen beim Löschen
+..   referenzierter Artikel
 
 Fehler (rot)
   beispielsweise beim Speichern unvollständig ausgefüllter Formulare
+  (siehe Abbildung :ref:`fig_statusmeldung-fehler`)
+
+  .. _fig_statusmeldung-fehler:
+  .. figure::
+     ../images/statusmeldung-fehler.*
+     :width: 100%
+     :alt: Fehler: Bitte korrigieren Sie die angezeigten Fehler
+     
+     Meldung eines Fehlers
 
 

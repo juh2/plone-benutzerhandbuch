@@ -107,8 +107,9 @@ Jeder Schritt ist dabei ein Verweis auf einen dazwischen liegenden Ordner.
 Inhaltsbereich
 ==============
 
-Plone stellt Ihnen die Artikel Ihrer Website in verschiedenen :term:`Ansichten`
-dar.  Diese Artikelansichten nehmen den Inhaltsbereich der Seiten ein. 
+Plone stellt Ihnen die Artikel Ihrer Website in verschiedenen
+:term:`Ansichten <Ansicht>` dar.  Diese Artikelansichten nehmen den
+Inhaltsbereich der Seiten ein.
 
 Seitenspalten
 =============

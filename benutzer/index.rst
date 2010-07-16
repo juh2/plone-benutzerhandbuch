@@ -12,6 +12,7 @@ Rechte, um an Artikeln zu arbeiten. Sie können zudem in Gruppen
 zusammengefasst werden.
 
 .. toctree::
+   :maxdepth: 1
 
    registrieren.rst
    personalisierung.rst

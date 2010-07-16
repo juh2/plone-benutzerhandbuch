@@ -16,10 +16,10 @@ teilweise vorausgesetzt wird.
    Artikel
        n.n.
    
-   Artikeltypen
+   Artikeltyp
       n.n.
 
-   Ansichten
+   Ansicht
       n.n.
 
    Benutzer
