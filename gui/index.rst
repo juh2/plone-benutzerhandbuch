@@ -10,6 +10,7 @@ Aufbau der Oberfläche. Sie erhalten einen Überblick über die Anordnung der
 Informationen und Bedienelemente, die Plone Ihnen zur Verfügung stellt.
 
 .. toctree::
+   :maxdepth: 1
 
    ansichten.rst
    navigation.rst

@@ -4,57 +4,48 @@
  Portlets
 ==========
 
-Zum Inhalt einer Plone"=Seite trägt nicht nur der aktuelle Artikel
-bei. Jede Seite enthält auch eine Anzahl von Portlets, die links und
-rechts neben der Artikelansicht angeordnet sind. Portlets fassen
+Zum Inhalt einer Plone-Seite trägt nicht nur der aktuelle Artikel
+bei. Jede Seite kann auch eine Reihe von Portlets enthalten, die links
+und rechts neben der Artikelansicht angeordnet sind. Portlets fassen
 Inhalte der Website zusammen, bieten Zugriff auf ihre Funktionen oder
 stellen andere Informationen bereit.
 
-Dieses Buch beschreibt die Details der einzelnen Portlets dort, wo ihre
-Funktion besprochen wird (siehe Tabelle :ref:`Portlets <tab_portlets>`).
+Die Details der einzelnen Portlets werden in den Kapiteln erläutert,
+in denen ihre Funktion besprochen wird (siehe Tabelle :ref:`Portlets
+<tab_portlets>`).
 
 .. _tab_portlets:
 
-+-------------------+----------------------------------+
-| Titel             | siehe                            |
-|                   |                                  |
-+-------------------+----------------------------------+
-| Anmelden          | :ref:`sec_anmelden`              |
-+-------------------+----------------------------------+
-| Navigation        | :ref:`sec_navigation-portlet`    |
-|                   |                                  |
-|                   |                                  |
-+-------------------+----------------------------------+
-| Aktuelle          | :ref:`sec_nutz-von-metad-3`      |
-| Änderungen        |                                  |
-|                   |                                  |
-+-------------------+----------------------------------+
-| Meine             | :ref:`sec_navigation-lesezeichen`|
-| Lesezeichen       |                                  |
-|                   |                                  |
-+-------------------+----------------------------------+
-| Suche             | :ref:`sec_suchportlet`           |
-+-------------------+----------------------------------+
-| Kollektionsportlet| :ref:`sec_kollektionsportlet`    |
-|                   |                                  |
-+-------------------+----------------------------------+
-| Revisionsliste    | :ref:`sec_revisionsliste`        |
-|                   |                                  |
-+-------------------+----------------------------------+
-| Nachrichten       | :ref:`sec_nachricht`             |
-+-------------------+----------------------------------+
-| Termine           | :ref:`sec_termin`                |
-+-------------------+----------------------------------+
-| Kalender          | :ref:`sec_termin`                |
-+-------------------+----------------------------------+
-| RSS-Feed          | :ref:`sec_rss`                   |
-+-------------------+----------------------------------+
-| Statisches        | :ref:`sec_statisches-portlet`    |
-| Portlet           |                                  |
-+-------------------+----------------------------------+
-  
-Portlets in der linken und rechten Spalte
+.. table:: Portlets in der linken und rechten Spalte
 
+   +-------------------+----------------------------------+
+   | Titel             | siehe                            |
+   +===================+==================================+
+   | Anmelden          | :ref:`sec_anmelden`              |
+   +-------------------+----------------------------------+
+   | Navigation        | :ref:`sec_navigation-portlet`    |
+   +-------------------+----------------------------------+
+   | Aktuelle          | :ref:`sec_nutz-von-metad-3`      |
+   | Änderungen        |                                  |
+   +-------------------+----------------------------------+
+   | Suche             | :ref:`sec_suchportlet`           |
+   +-------------------+----------------------------------+
+   | Kollektionsportlet| :ref:`sec_kollektionsportlet`    |
+   +-------------------+----------------------------------+
+   | Revisionsliste    | :ref:`sec_revisionsliste`        |
+   +-------------------+----------------------------------+
+   | Nachrichten       | :ref:`sec_nachricht`             |
+   +-------------------+----------------------------------+
+   | Termine           | :ref:`sec_termin`                |
+   +-------------------+----------------------------------+
+   | Kalender          | :ref:`sec_termin`                |
+   +-------------------+----------------------------------+
+   | RSS-Feed          | :ref:`sec_rss`                   |
+   +-------------------+----------------------------------+
+   | Statisches        | :ref:`sec_statisches-portlet`    |
+   | Portlet           |                                  |
+   +-------------------+----------------------------------+
+  
 
 Portlets werden ausgeblendet, wenn sie leer sind. Falls es
 beispielsweise keine Nachrichten anzuzeigen gibt, hat das
@@ -83,19 +74,20 @@ Abbildung :ref:`fig_statisches-portlet`).
 
 .. _fig_statisches-portlet:
 
-.. figure:: ../images/portlet-static.png
-   :width: 100%
+.. figure:: ../images/portlet-static.*
+   :width: 40%
 
    Statisches Portlet
 
-Außerdem kann jedes statische Portlet einen Verweis auf weiterführende
+Außerdem kann ein statisches Portlet einen Verweis auf weiterführende
 Informationen anzeigen.
 
-Nicht nur der Inhalt statischer Portlets ist frei wählbar, sondern auch ihre
-Gestaltung: Jedes statische Portlet hat einen eigenen Text in Kopf- und
-Fußzeile, wobei die Fußzeile gar nicht angezeigt wird, wenn sie leer gelassen
-wurde. Weiterhin müssen statische Portlets nicht unbedingt mit einem Rahmen
-dargestellt werden.
+Nicht nur der Inhalt statischer Portlets ist frei wählbar, sondern
+auch ihre Gestaltung: Jedes statische Portlet hat einen eigenen Text
+in Kopf- und Fußzeile, wobei die Fußzeile nicht angezeigt wird, wenn
+sie leer gelassen wurde. Ein statisches Portlet kann auch ganz ohne
+Rahmen, Kopf- und Fußzeile dargestellt werden.
 
-Die Konfiguration eines statischen Portlets wird in
-Abschnitt :ref:`sec_statisches-portlet-hinzufuegen` erläutert.
+Ein statisches Portlet kann nur von einem Administrator hinzugefügt
+werden. Die Konfiguration eines statischen Portlets wird in Abschnitt
+:ref:`sec_statisches-portlet-hinzufuegen` erläutert.
