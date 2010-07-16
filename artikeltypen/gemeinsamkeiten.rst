@@ -492,13 +492,6 @@ Erweiterte Suche
 Besonders nützlich sind Metadaten für die erweiterte Suche
 (siehe Abbildung :ref:`fig_erweiterte-suche`).
 
-.. _fig_erweiterte-suche:
-
-.. figure:: ../images/erweiterte-suche.png
-   :width: 100%
-
-   Erweiterte Suche
-
 Sie erreichen sie, indem Sie die Schnellsuche benutzen und dann dem Verweis
 :guilabel:`Erweiterte Suche` folgen.
 
