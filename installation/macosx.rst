@@ -8,7 +8,7 @@ mit den Lizenzbestimmungen für alle Komponenten des Installationspakets.
 
 .. figure::
    ../images/mac-installer-1.*
-   :width: 100%
+   :width: 80%
 
    Der Inhalt des gemounteten Diskimages: Unified Installer, README und Lizenzen 
 
@@ -20,7 +20,7 @@ Begrüßungsnachricht (siehe die Abbildung :ref:`fig_mac-installer-2`)
 
 .. figure::
    ../images/mac-installer-2.*
-   :width: 100%
+   :width: 80%
 
    Begrüßungsnachricht 
 
@@ -32,7 +32,7 @@ Abbildung :ref:`fig_mac-installer-3`)
 
 .. figure::
    ../images/mac-installer-3.*
-   :width: 100%
+   :width: 80%
 
    Laufwerksauswahl
 
@@ -46,7 +46,7 @@ Heimverzeichnis noch nicht existiert, wird er bei der Installation erzeugt. Wäh
 
 .. figure::
    ../images/mac-installer-4.*
-   :width: 100%
+   :width: 80%
 
    Auswahl des Installationstyps 
 
@@ -80,7 +80,7 @@ haben. Sie werden anschließend aufgefordert, mit der Installation zu beginnen
 
 .. figure::
    ../images/mac-installer-5.*
-   :width: 100%
+   :width: 80%
 
    Bestätigung der Installation 
 
@@ -94,7 +94,7 @@ zweimal eingeben.
 
 .. figure::
    ../images/mac-installer-6.*
-   :width: 100%
+   :width: 80%
 
    Aufforderung zur Festlegung eines Passworts
 
