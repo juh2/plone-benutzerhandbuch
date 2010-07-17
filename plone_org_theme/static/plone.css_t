@@ -11,7 +11,7 @@
 
 body {
     font-family: {{theme_bodyfont}}; 
-    font-size: 90%;
+    font-size: 100%;
     line-height: 150%;
     text-align: center;
     background-color: white;
@@ -35,6 +35,7 @@ div.document {
     text-align: left;
     padding-left: 2em;
     padding-right: 2em;
+    clear: both;
 }
 
 
@@ -128,26 +129,24 @@ div.sphinxsidebar {
 }
 
 div.portletheader {
-		  background-color:#76AD17;
-		  border-bottom-color:#63A100;
-		  border-bottom-style:solid;
-		  border-bottom-width:1em;
-		  color:White;
-		  font-size:1.2em;
-		  height:1em;
-		  letter-spacing:0;
-		  line-height:2em;
-		  margin-bottom:0;
-		  margin-left:-1px;
-		  margin-right:-1px;
-		  margin-top:0px;
-		  padding-bottom:0;
-		  padding-left:0.5em;
-		  padding-right:0.5em;
-		  padding-top:0;
+    background-color:#76AD17;
+    border-bottom-color:#63A100;
+    border-bottom-style:solid;
+    border-bottom-width:1em;
+    color:White;
+    font-size:1.2em;
+    height:1em;
+    letter-spacing:0;
+    line-height:2em;
+    margin-bottom:0;
+    margin-left:-1px;
+    margin-right:-1px;
+    margin-top:0px;
+    padding-bottom:0;
+    padding-left:0.5em;
+    padding-right:0.5em;
+    padding-top:0;
 }
-
-
 
 
 div.portletheader a {

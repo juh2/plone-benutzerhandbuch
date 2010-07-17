@@ -11,9 +11,6 @@
 Das Plone Benutzerhandbuch
 ==========================
 
-.. note::
-   Dies ist eine noch nicht von Suchmaschinen erfasste Version. Sie wird
-   zurzeit intensiv überarbeitet. 
 
 Einleitung
 ==========
@@ -76,6 +73,5 @@ Verzeichnisse und Index
 
 * :ref:`genindex`
 
-.. todo:: search WAI-kompatibel machen durch alt-tags 
 
-.. todolist:: 
+
