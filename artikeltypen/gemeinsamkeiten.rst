@@ -511,7 +511,7 @@ Portlets
 
 In vielen Portlets spielen Metadaten eine Rolle. So listet das Portlet
 »Aktuelle Änderungen« die fünf Artikel auf, die zuletzt verändert
-wurden (siehe Abbildung :ref:fig_portlet-recent).
+wurden (siehe Abbildung :ref:`fig_portlet-recent`).
 
 .. _fig_portlet-recent:
 
