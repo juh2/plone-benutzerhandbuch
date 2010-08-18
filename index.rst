@@ -7,10 +7,13 @@
 
    .. image:: _static/plone-logo-64-white-bg.png
 
-==========================
-Das Plone Benutzerhandbuch
-==========================
+============================
+Das Plone 4 Benutzerhandbuch
+============================
 
+.. only:: html
+
+   .. hint:: Das gesamte Buch als :download:`PDF-Version herunterladen. <_build/latex/Plone-Benutzerhandbuch-4.0.pdf>`
 
 Einleitung
 ==========

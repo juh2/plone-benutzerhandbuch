@@ -178,7 +178,7 @@ latex_font_size = '12pt'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'Plone-Benutzerhandbuch.tex', u'Plone-Benutzerhandbuch',
+  ('index', 'Plone-Benutzerhandbuch-4.0.tex', u'Plone-Benutzerhandbuch',
    u'Jan Ulrich Hasecke', 'manual'),
 ]
 
