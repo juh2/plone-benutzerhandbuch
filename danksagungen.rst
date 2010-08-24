@@ -1,3 +1,4 @@
+
 Danksagungen
 ============
 
@@ -11,10 +12,10 @@ allem für die Weitsicht von gocept, das Plone-Benutzerhandbuch unter einer
 Creative-Commons-Lizenz zu veröffentlichen. Dies macht es mir nun möglich, auf
 dem Bestehenden aufzubauen, das Buch zu überarbeiten und zu erweitern.   
 
-Mein besonderer Dank gilt den folgenden Firmen und Personen für Ihre
-finanzielle Unterstützung bei der Aktualisierung und Erweiterung des
-Plone-Benutzerhandbuchs. Ohne diese Unterstützung wäre dieses Buch nie
-entstanden: 
+Mein besonderer Dank gilt den folgenden Firmen, Organisationen und
+Personen für Ihre finanzielle Unterstützung bei der Aktualisierung und
+Erweiterung des Plone-Benutzerhandbuchs. Ohne diese Unterstützung wäre
+dieses Buch nie entstanden:
 
 * `Charlie Clark Consulting, Düsseldorf`_ 
 
@@ -22,6 +23,7 @@ entstanden:
 
 * `iqplusplus, Erfurt`_
 
+* `Hochschulrechenzentrum Universität Bonn`_
 
 
 .. _`Charlie Clark Consulting, Düsseldorf`: mailto:charlie.clark@clark-consulting.eu 
@@ -31,3 +33,5 @@ entstanden:
 .. _`iqplusplus, Erfurt`: http://www.iqpp.de
 
 .. _`gocept gmbh`: http://www.gocept.com
+
+.. _`Hochschulrechenzentrum Universität Bonn`: http://www.hrz.uni-bonn.de
