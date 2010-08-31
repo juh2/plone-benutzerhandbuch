@@ -60,17 +60,6 @@ ZEO Cluster
    Die Installation von Plone in einem ZEO-Cluster ist für Produktivsysteme
    gedacht. Sie bietet die Möglichkeit zum Load-Balancing.
 
-Production Mode
-   Wenn Sie diese Option wählen, installieren Sie Plone als
-   Systemadministrator. Für Plone wird dabei ein spezieller Benutzer
-   eingerichtet, der mit besonders restriktiven Rechten ausgestattet ist. Diese
-   Installationsart ist als Ausgangspunkt für ein Produktivsystem gedacht. Sie
-   müssen diese Option zusätzlich zu den beiden anderen aktivieren. 
-
-Install Startup Item 
-   Diese Option ist nur aktiv, wenn Sie die Option ›Production Mode‹ angewählt
-   haben. Damit stellen Sie sicher, dass Plone beim Hochfahren Ihres Servers
-   automatisch gestartet wird. 
 
 Klicken Sie auf :menuselection:`Fortfahren`, wenn Sie ihre Wahl getroffen
 haben. Sie werden anschließend aufgefordert, mit der Installation zu beginnen

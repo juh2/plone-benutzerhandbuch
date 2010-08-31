@@ -29,11 +29,16 @@ Adresse http://plone.org/products/plone
 
 .. figure:: 
    ../images/ploneorg-download-optionen.*
+   :width: 100%
 
    Die verfügbaren Installer für Plone 4
 
 Wählen Sie einfach das für Ihr Betriebssystem passende Installationspaket aus
-und laden Sie es herunter.
+und laden Sie es herunter. Der Installer für Mac OS X eignet sich nur zur
+Installation einer Entwicklungsumgebung. Wenn Sie ein Produktivsystem für Plone
+unter Mac OS X installieren möchten, benutzen Sie bitte den Unified Installer
+für Linux/BSD/Unix. Um den Unified Installer unter Mac OS X nutzen zu können,
+muss zudem :term:`XCode` installiert sein.
 
 .. _zc.buildout: http://pypi.python.org/pypi/zc.buildout
 

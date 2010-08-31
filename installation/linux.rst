@@ -6,13 +6,13 @@ Installation unter Linux
 Laden Sie von plone.org das gepackte Archiv mit dem :term:`Unified Installer`
 für Linux herunter und entpacken Sie das Archiv.::
 
-    wget http://launchpad.net/plone/3.3/3.3.5/+download/Plone-3.3.5-UnifiedInstaller.tgz
+    wget http://launchpad.net/plone/4.0/4.0.0/+download/Plone-4.0-UnifiedInstaller.tgz
 
-    tar -xvf Plone-3.3.5-UnifiedInstaller.tgz
+    tar -xvf Plone-4.0-UnifiedInstaller.tgz
 
 Wechseln Sie anschließend in den entstandenden Ordner. ::
 
-    cd Plone-3.3.5-UnifiedInstaller
+    cd Plone-4.0-UnifiedInstaller
 
 In der Datei :file:`README.txt` finden Sie Informationen darüber, welche
 Optionen Ihnen bei der Installation von Plone zur Verfügung stehen. Diese sind
