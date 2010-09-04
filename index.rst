@@ -67,6 +67,15 @@ Referenz
 Erweiterungen
 =============
 
+.. toctree::
+   :maxdepth: 1
+   
+   erweiterungen/index.rst
+   erweiterungen/ploneformgen/index.rst
+   erweiterungen/linguaplone/index.rst
+
+..   erweiterungen/ploneglossary/index.rst
+
 Verzeichnisse und Index
 =======================
 
