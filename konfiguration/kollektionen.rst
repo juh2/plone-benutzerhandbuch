@@ -1,4 +1,4 @@
-.. _sec_konfiguration-kollektionen.rst:
+.. _sec_konfiguration-kollektionen:
 
 ==============
  Kollektionen
