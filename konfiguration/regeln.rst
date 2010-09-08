@@ -95,11 +95,9 @@ Auslösendes Ereignis
 Eingeschaltet
    Mit dieser Option können Sie Regeln aktivieren und deaktivieren.
 
-Regeln ausschalten
+Keine weiteren Regeln ausführen
    Wenn Sie diese Option aktivieren, dürfen nach dieser Regel keine weiteren
    Regeln mehr ausgeführt werden.
-
-   .. todo:: Übersetzung wurde geändert.
 
 Speichern Sie Ihre Eingaben, um die Regel zu erzeugen. Sie werden in den Bereich :guilabel:`Regeln` der Website-Konfiguration zurückgeführt, wo nun die neu erzeugte Regel in der Liste auftaucht (siehe Abbildung :ref:`fig_konfiguration-regeln-regel-hinzugefuegt`). Damit ist die Einrichtung der Regel jedoch noch nicht abgeschlossen. Klicken Sie die neu erzeugte Regel an, um die weiteren Konfigurationsschritte zu erledigen.  
 
@@ -334,8 +332,8 @@ Send email
    Bearbeitungsformular (siehe Abbildung
    :ref:`fig_konfiguration-regeln-email-aktion-bearbeiten` können Sie
    Betreff, Absender, Empfänger und die Nachricht eingeben. Dabei
-   können die Variablen »${title} und »${url}« für die Titel des
-   Artikels und die URL verwendet werden. Sie werden in der
+   können die zum Beispiel Variablen »${title} und »${url}« für die
+   Titel des Artikels und die URL verwendet werden. Sie werden in der
    versendeten E-Mail durch die jeweils aktuellen Angaben ersetzt.
 
    .. _fig_konfiguration-regeln-email-aktion-bearbeiten:
@@ -345,6 +343,20 @@ Send email
       :alt: Einrichtung der E-Mail-Aktion
 
       Einrichtung der E-Mail-Aktion
+
+   Sie können neben den Variablen »${title}« und »${url}« noch weitere
+   Variablen eingeben. Die möglichen Variablen sind unterhalb des
+   Bearbeitungsformulars aufgelistet (siehe Abbildung
+   :ref:`fig_konfiguration-regeln-e-mail-ersetzungen`)
+
+   .. _fig_konfiguration-regeln-e-mail-ersetzungen:
+   .. figure::
+      ../images/konfiguration-regeln-e-mail-ersetzungen.*
+      :width: 80%
+      :alt: Alle möglichen Variablen, die in eine E-Mail-Aktion
+            eingefügt werden können.
+
+      Auflistung der Variablen
 
 Nach dem Hinzufügen einer Aktion, wird diese im Bearbeitungsformular
 der Regel aufgelistet (siehe Abbildung

@@ -8,7 +8,7 @@
 
 .. figure::
    ../images/konfiguration-kalender.*
-   :width: 100%
+   :width: 80%
    :alt: Kalendereinstellungen
 
    Kalendereinstellungen

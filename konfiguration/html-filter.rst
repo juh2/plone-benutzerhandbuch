@@ -40,27 +40,42 @@ Wenn Sie ein Tag aus der ersten Liste zulassen wollen, müssen Sie es aus der
 Liste der fiesen Tags entfernen **und** in die Liste »Benutzerdefinierte Tags«
 eintragen. Um ein Tag zu entfernen, markieren Sie es in der Liste, indem Sie in
 der nebenstehenden Checkbox das Häkchen setzen und das Tag damit auswählen.
-Betätigen Sie anschließend die Schaltfläche :guilabel:`Remove selected items`.
+Betätigen Sie anschließend die Schaltfläche :guilabel:`Ausgewählte
+Einträge entfernen`.
 
-Um ein Tag hinzuzufügen, betätigen Sie die Schaltfläche :guilabel:`Nasty tags
-hinzufügen`. Es erscheint daraufhin ein zusätzliches Eingabefeld, in das Sie
-den Namen des Tags eintragen können.  In den beiden anderen Listen gehen Sie
-bei Bedarf entsprechend vor. 
+Um ein Tag hinzuzufügen, betätigen Sie die Schaltfläche
+:guilabel:`Fiese Tags hinzufügen`. Es erscheint daraufhin ein
+zusätzliches Eingabefeld, in das Sie den Namen des Tags eintragen
+können.  In den beiden anderen Listen gehen Sie bei Bedarf
+entsprechend vor.
 
 Vergessen Sie abschließend nicht, Ihre Eingaben zu speichern.
 
 Teilformular »Attribute«
 ========================
 
-Attribute sind Elemente, die innerhalb eines HTML-Tags gesetzt werden und diesem bestimmte Eigenschaften zuweisen. So verändert man bespielsweise mit dem Attribut »bgcolor« die Farbe des Hintergrundes in einem HTML-Tag. 
+Attribute sind Elemente, die innerhalb eines HTML-Tags gesetzt werden
+und diesem bestimmte Eigenschaften zuweisen. So verändert man
+bespielsweise mit dem Attribut »bgcolor« die Farbe des Hintergrundes
+in einem HTML-Tag.
 
-In einem CMS, bei dem auf ein einheitliches Aussehen aller Webseiten Wert gelegt wird, ist es nicht wünschenswert, dem Benutzer zu viele Freiheiten bei der Gestaltung zu geben. Daher werden diverse Attribute grundsätzlich oder in Kombination mit bestimmten HTML-Tags wie zum Beispiel »table«, »th« und »td« entfernt. 
+In einem CMS, bei dem auf ein einheitliches Aussehen aller Webseiten
+Wert gelegt wird, ist es nicht wünschenswert, dem Benutzer zu viele
+Freiheiten bei der Gestaltung zu geben. Daher werden diverse Attribute
+grundsätzlich oder in Kombination mit bestimmten HTML-Tags wie zum
+Beispiel »table«, »th« und »td« entfernt.
 
-Sie können die Voreinstellung verändern, indem Sie Attribute hinzufügen oder entfernen.
+Sie können die Voreinstellung verändern, indem Sie Attribute
+hinzufügen oder entfernen.
 
 Teilformular »Style«
 ====================
 
-Stilattribute in :term:`CSS`-Definitionen werden grundsätzlich entfernt. Lediglich die unter »Erlaubte Stile« aufgeführten Attribute können verwendet werden. 
+Stilattribute in :term:`CSS`-Definitionen werden grundsätzlich
+entfernt. Lediglich die unter »Erlaubte Stile« aufgeführten Attribute
+können verwendet werden.
 
-:term:`CSS`-Klassen können dagegen weitgehend verwendet werden, da ihr Aussehen zentral festgelegt wird. Unter der Überschrift »Gefilterte Klassen« können Sie eine Liste von CSS-Klassen anlegen, die trotzdem gefiltert werden sollen. 
+:term:`CSS`-Klassen können dagegen weitgehend verwendet werden, da ihr
+Aussehen zentral festgelegt wird. Unter der Überschrift »Gefilterte
+Klassen« können Sie eine Liste von CSS-Klassen anlegen, die trotzdem
+gefiltert werden sollen.

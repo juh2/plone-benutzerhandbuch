@@ -5,8 +5,9 @@
 ===============
 
 Im Bereich :guilabel:`Erweiterungen` (siehe Abbildung
-:ref:`fig_zusatzprodukte-installieren` können Sie Erweiterungen installieren.
-Dies ist sehr einfach zu bewerkstelligen.  
+:ref:`fig_zusatzprodukte-installieren` können Sie Software-Pakete
+installieren, mit denen die Funktionen von Plone erweitert
+werden. Dies ist sehr einfach zu bewerkstelligen.
 
 .. _fig_zusatzprodukte-installieren:
 

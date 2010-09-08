@@ -8,10 +8,10 @@ Glossar
    :sorted:
 
    Plone
-      Content-Management-System
+      Plone ist ein webbasiertes in Python programmiertes Content-Management-System.
 
    Artikel
-       n.n.
+      n.n.
    
    Artikeltypen
       n.n.
@@ -97,8 +97,13 @@ Glossar
    HTML-Tag
       n.n.
 
-   XHTML
-      n.n.
+   XHTML 
+      Der W3C-Standard ›Extensible HyperText Markup Language‹
+      (erweiterbare HTML; Abkürzung: XHTML) ist eine textbasierte
+      Auszeichnungssprache zur Strukturierung und semantischen
+      Auszeichnung von Texten, Bildern und Hyperlinks in
+      Dokumenten. Es ist eine Neuformulierung von HTML 4.01 in
+      XML. (Quelle: http://de.wikipedia.org/wiki/XHTML)
 
    CSS
       n.n.
@@ -122,4 +127,7 @@ Glossar
       n.n.
 
    Rolle
+      n.n.
+
+   XCode
       n.n.

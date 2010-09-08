@@ -40,7 +40,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Plone'
+project = u'Plone-Benutzerhandbuch'
 copyright = u'2010, Jan Ulrich Hasecke, Creative Commons Lizenz 2.0 BY-NC-SA'
 
 # The version info for the project you're documenting, acts as replacement for
