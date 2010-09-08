@@ -4,9 +4,6 @@
 Glossar
 =======
 
-Im Glossar werden Fachbegriffe erläutert, deren Kenntnis im Text
-teilweise vorausgesetzt wird.
-
 .. glossary::
    :sorted:
 
@@ -16,10 +13,10 @@ teilweise vorausgesetzt wird.
    Artikel
        n.n.
    
-   Artikeltyp
+   Artikeltypen
       n.n.
 
-   Ansicht
+   Ansichten
       n.n.
 
    Benutzer
@@ -29,6 +26,9 @@ teilweise vorausgesetzt wird.
       n.n.
 
    Buildsystem
+      n.n.
+
+   Buildout
       n.n.
 
    Markdown
@@ -44,4 +44,82 @@ teilweise vorausgesetzt wird.
       n.n.
 
    Zope-Management-Interface
+      n.n.
+
+   ZMI
+      (siehe Zope-Management-Interface)
+
+   ZODB
+      n.n.
+
+   Paster 
+      n.n.
+
+   kanonische Sprache
+      n.n.
+
+   sprachunabhängig
+      n.n.
+
+   Tooltip
+      n.n.
+
+   Widget
+      n.n.
+
+   Validator
+      n.n.
+
+   Validierung
+      n.n.
+
+   SSL
+      n.n.
+
+   Öffentlicher Schlüssel
+      n.n.
+
+   Keyring
+      n.n.
+
+   Egg
+      n.n.
+
+   SMTP
+      n.n.
+
+   ESMTP
+      n.n.
+
+   Theme
+      n.n.
+
+   HTML-Tag
+      n.n.
+
+   XHTML
+      n.n.
+
+   CSS
+      n.n.
+
+   Structured Text
+      n.n.
+
+   Textile
+      n.n.
+
+   Preformatted Text
+      n.n.
+
+   Tar
+      n.n.
+
+   Produktionsmodus
+      n.n.
+
+   Entwicklungsmodus
+      n.n.
+
+   Rolle
       n.n.

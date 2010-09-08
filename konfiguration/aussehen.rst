@@ -36,7 +36,7 @@ Zeige Artikeltypenspezifische Icons
    gezeigt. Sie können dies hier ändern, indem Sie die Icons nur angemeldeten
    Benutzern zeigen oder ganz ausblenden. 
 
-Popup-Fenster für einfache Formulare nutzen
+Popup-Fenster für einfache Formulare nutzen
    Diese Option ist per Voreinstellung aktiviert. Sie bewirkt, dass sich bei
    einfachen Formularen wie zum Beispiel dem Anmeldeformular ein Popup-Fenster
    mit dem Formular öffnet. Popups erleichtern dem Benutzer in der Regel die

@@ -1,5 +1,7 @@
 .. _sec_erweiterungen:
 
+.. todo:: KapitelPloneFormGen und LinguaPlone anpassen
+
 =========================
 Erweiterbarkeit von Plone
 =========================

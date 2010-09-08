@@ -1,10 +1,10 @@
 .. _sec_konfiguration:
 
+.. todo:: Fehlende Kapitel ergänzen.
+
 =============
 Konfiguration
 =============
-
-.. sectionauthor:: Jan Ulrich Hasecke
 
 Plone ist ein konfigurierbares und erweiterbares CMS. Die Bedienung, das
 Aussehen und diverse Funktionen lassen sich individuell anpassen. Funktionen,
