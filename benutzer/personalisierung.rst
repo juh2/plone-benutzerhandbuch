@@ -313,7 +313,7 @@ Namen »portlet« hatten, ist das Formularfeld bereits mit diesem Namen
 vorausgefüllt. Die Vorlage für das Lesezeichenportlet heißt
 ``portlet_favorites``.
 
-.. _sec_meine-einstellenungen:
+.. _sec_meine-einstellungen:
 
 Meine Einstellungen
 ===================

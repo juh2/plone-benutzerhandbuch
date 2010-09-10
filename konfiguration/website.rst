@@ -25,26 +25,14 @@ Beschreibung der Website
    Bei der Erzeugung der Plone-Site konnte eine Beschreibung der Website
    eingegeben werden. An dieser Stelle kann die Beschreibung geändert werden. 
 
-Zeige Kurznamen der Artikel?
-   An dieser Stelle können Sie die Anzeige der Kurznamen in der
-   Bearbeitungsansicht grundsätzlich erlauben. Der Benutzer kann dann in seinen
-   persönlichen Einstellungen die Option nutzen (siehe dazu Kapitel
-   :ref:`sec_persoenliche-einstellungen`). 
-
-Sofort-Bearbeitung einschalten
-   Die Sofort-Bearbeitung wird in Kapitel :ref:`sec_bearbeiten` beschrieben.
-   Die Möglichkeit kann hier ein- oder ausgeschaltet werden. 
-
-Link-Integritätsprüfung aktivieren
-   Die Link-Integritätsprüfung wird in Kapitel
-   :ref:`sec_kopieren-verschieben-loeschen` beschrieben. Die Funktion kann hier
-   ein- oder ausgeschaltet werden. 
-
-Externen Editor aktivieren
-   Es ist möglich, die Artikel in Plone mit Hilfe eines Texteditors auf dem
-   lokalen Rechner zu bearbeiten. Hierfür muss der lokale Rechner entsprechend
-   konfiguriert werden. Auf Seite der Website wird an dieser Stelle die
-   Möglichkeit gewährt, einen solchen Editor zu benutzen. 
+Dublin Core Metadaten einbinden
+   Die Metadaten von Plone können nicht nur innerhalb des Systems verwendet
+   werden. Da sie dem Dublin-Core-Schema entsprechen, können Sie auch als
+   :term:`Metatags <Metatag>` in den HTML-Code eingebunden werden, sodass
+   externe Systeme darauf zugreifen können. Markieren Sie diese Option, wenn
+   Sie Dublin-Core-Metadaten in den HTML-Code Ihrer Seiten einbinden möchten.
+   Mehr über die Dublin-Core-Elemente erfahren Sie in Kapitel
+   :ref:`sec_exkurs-metadaten`. 
 
 sitemap.xml.gz verfügbar machen
    Plone kann eine Übersicht über die Inhalte der Website nach dem Standard von
@@ -60,9 +48,6 @@ Javascript für Web-Statistik-Unterstützung
    Beachten Sie, dass der Einsatz von Google Analytics in Deutschland
    umstritten ist. [#]_ 
 
-Bearbeitungssperre für Bearbeitungen über die Plone-Bedienoberfläche einschalten
-   Diese per Voreinstellung aktivierte Option verhindert, dass zwei Benutzer
-   einen Artikel gleichzeitig bearbeiten können.
 
 .. _sitemaps.org: http://sitemaps.org/
 

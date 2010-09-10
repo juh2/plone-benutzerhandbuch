@@ -183,7 +183,21 @@ Teilformulare gleichzeitig untereinander angezeigt.
 
    Auswahl eines Teilformulars der Bearbeitungsansicht
 
-Unter jedem Teilformular finden Sie ein Eingabefeld für eine Änderungsnotiz.
+Falls der Artikeltyp der Versionskontrolle unterworfen ist, finden Sie
+unter jedem Teilformular entweder ein Eingabefeld für eine
+Änderungsnotiz oder eine Checkbox mit der Bezeichnung
+:guilabel:`Speichere als neue Version` (siehe Abbildung
+:ref:`fig_manuelle-versionierung`).
+
+.. _fig_manuelle-versionierung:
+
+.. figure::
+   ../images/manuelle-versionierung.*
+   :width: 80%
+   :alt: Veränderungen können manuell in einer neuen Version
+   	 gespeichert werden.
+
+   Manuelle Versionierung
 
 Beim Wechsel in die Bearbeitungsansicht, befinden Sie sich zunächst im
 Teilformular Standard. 

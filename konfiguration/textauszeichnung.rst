@@ -5,10 +5,11 @@ Textauszeichnung
 ================
 
 Das Standardformat bei Texteingaben ist HTML. Der Benutzer gibt
-HTML-formatierten Text in der Regel mit Hilfe des Texteditors Kupu (siehe
-Kapitel :ref:`sec_kupu`) ein, sodass ihm oft nicht bewusst ist, dass Plone HTML
-verarbeitet und speichert. Der Benutzer kann jedoch auch direkt
-HTML-formatierten Text eingeben. Kupu bietet ihm dazu eine passende Funktion an. 
+HTML-formatierten Text in der Regel mit Hilfe des Texteditors TinyMCE (siehe
+Kapitel :ref:`sec_tinymce`) ein, sodass ihm oft nicht bewusst ist, dass Plone
+HTML verarbeitet und speichert. Der Benutzer kann jedoch auch direkt
+HTML-formatierten Text eingeben. Kupu bietet ihm dazu eine passende Funktion
+an. 
 
 Im Bereich :guilabel:`Textauszeichnung` der Website-Konfiguration (siehe
 Abbildung :ref:`fig_konfiguration-textauszeichnung`) können Sie ein anderes
