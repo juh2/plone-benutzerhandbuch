@@ -25,6 +25,8 @@ dieses Buch nie entstanden:
 
 * `Hochschulrechenzentrum Universität Bonn`_
 
+* `30 doradus media design gmbh`_
+
 
 .. _`Charlie Clark Consulting, Düsseldorf`: mailto:charlie.clark@clark-consulting.eu 
 
@@ -35,3 +37,5 @@ dieses Buch nie entstanden:
 .. _`gocept gmbh`: http://www.gocept.com
 
 .. _`Hochschulrechenzentrum Universität Bonn`: http://www.hrz.uni-bonn.de
+
+.. _`30 doradus media design gmbh`: http://www.doradus.de
