@@ -19,8 +19,8 @@ Autoren, Redakteure und Administratoren wichtig sind. Und im vierten Teil
 werden wichtige Erweiterungen beschrieben. 
 
 Die HTML-Fassung dieses Buches sowie ein PDF, das heruntergeladen werden kann,
-finden Sie unter: http://hasecke.com/plone-dokumentation/4.0/. Den
-Quellcode dieser Dokumentation finden Sie auf Launchpad_. 
+finden Sie unter: http://www.hasecke.com/plone-benutzerhandbuch/4.0/.
+Den Quellcode dieser Dokumentation finden Sie auf Launchpad_. 
 
 Die Dokumentation basiert in weiten Teilen auf dem Plone-Benutzerhandbuch [#]_
 von Thomas Lotze und Jan Ulrich Hasecke, das unter http://plonebook.info
