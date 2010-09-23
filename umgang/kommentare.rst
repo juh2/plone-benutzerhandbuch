@@ -97,7 +97,7 @@ neben der Schaltfläche :guilabel:`Antworten` eine, die mit
 auf den bereits geantwortet wurde, so werden auch alle Antworten auf
 ihn entfernt. 
 
-.. attention:: 
+.. warning:: 
    Beachten Sie, dass beim Löschen von Kommentaren keine
    weitere Nachfrage erfolgt.
 
