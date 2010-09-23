@@ -128,6 +128,59 @@ können Sie die Artikel unter anderem kopieren, verschieben und löschen.
 Haben Sie einen Artikel aus dem Ordner als Ordneranzeige ausgewählt, so ist er
 durch Fettschrift hervorgehoben.
 
+Eine Ebene höher
+    Über diese Schaltfläche gelangen Sie in die Inhaltsansicht des
+    Ordners, in dem sich der angezeigte Ordner befindet.
+
+Auswählen: Alle
+    Mit dem Link :guilabel:`Alle` können Sie alle angezeigten Artikel
+    auswählen, um sie anschließend gemeinsam zu kopieren oder
+    umzubenennen. 
+
+Auswahl aufheben
+    Wenn alle Artikel in einem Ordner ausgewählt wurden, erscheint ein
+    zusätzlicher Link in der Anzeige, über den Sie die komplette
+    Auswahl wieder aufheben können.
+
+Wähle alle n Artikel in diesem Ordner 
+    Falls sich mehr als 20 Artikel in einem Ordner befinden, wird die
+    Inhaltsansicht auf mehrere Seiten verteilt (siehe Abbildung
+    :ref:`fig_inhaltsansicht-ordner-seitenweise`). Sie können dann mit
+    Hilfe zusätzlicher Navigationselemente direkt zu einer bestimmten
+    Seite springen oder jeweils die nächsten oder vorherigen 20
+    Artikel anzeigen lassen. 
+
+    Über den Link :guilabel:`Auswählen: Alle` können Sie die 20
+    Artikel auswählen, die auf der aktuellen Seite angezeigt
+    werden. Wenn Sie dies gemacht haben, erscheint ein zusätzlicher
+    Link in der Anzeige, über den Sie alle Artikel im Ordner auswählen
+    können. Die Variable 'n' wird jeweils durch die Anzahl der Artikel
+    ersetzt.
+
+Kopieren, Ausschneiden, Umbenennen, Löschen, Status ändern
+    Diese Schaltflächen werden in Kapitel :ref:`sec_ordner-aktionen`
+    beschrieben. Sie wirken sich auf alle ausgewählten Artikel aus. 
+
+.. _fig_inhaltsansicht-ordner-seitenweise:
+
+.. figure::
+   ../images/inhaltsansicht-ordner-seitenweise.*
+   :width: 80%
+   :alt: Zusätzliche Navigationselemente, wenn die Inhaltsansicht auf
+   	 mehrere Seiten verteilt wird.
+
+   Zusätzliche Navigationselemente bei seitenweiser Darstellung
+
+
+.. _fig_inhaltsansicht-waehle-alle-n-artikel:
+
+.. figure::
+   ../images/inhaltsansicht-waehle-alle-n-artikel.*
+   :width: 80%
+   :alt: Aktivierter Link, um alle Artikel im Ordner auszuwählen
+
+   Aktivierter Link, um alle Artikel im Ordner auszuwählen
+
 Sortierung der Inhaltsansicht
 -----------------------------
 
