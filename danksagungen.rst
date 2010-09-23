@@ -27,6 +27,8 @@ dieses Buch nie entstanden:
 
 * `30 doradus media design gmbh`_
 
+* `catWorkX GmbH`_ 
+
 
 .. _`Charlie Clark Consulting, Düsseldorf`: mailto:charlie.clark@clark-consulting.eu 
 
@@ -39,3 +41,5 @@ dieses Buch nie entstanden:
 .. _`Hochschulrechenzentrum Universität Bonn`: http://www.hrz.uni-bonn.de
 
 .. _`30 doradus media design gmbh`: http://www.doradus.de
+
+.. _`catWorkX GmbH`: http://www.catworkx.de/
