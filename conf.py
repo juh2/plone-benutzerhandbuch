@@ -40,7 +40,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Plone-Benutzerhandbuch'
+project = u'Plone-Benutzerhandbuch 4.0'
 copyright = u'2010, Jan Ulrich Hasecke, Creative Commons Lizenz 2.0 BY-NC-SA'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -219,7 +219,7 @@ man_pages = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'Plone-Benutzerhandbuch'
+epub_title = u'Plone-Benutzerhandbuch 4.0'
 epub_author = u'Jan Ulrich Hasecke'
 epub_publisher = u'Jan Ulrich Hasecke'
 epub_copyright = u'2010, Jan Ulrich Hasecke, Creative Commons Lizenz 2.0 BY-NC-SA'
@@ -233,7 +233,7 @@ epub_copyright = u'2010, Jan Ulrich Hasecke, Creative Commons Lizenz 2.0 BY-NC-S
 
 # The unique identifier of the text. This can be a ISBN number
 # or the project homepage.
-epub_identifier = 'http://www.hasecke.com/plone-benutzerhandbuch'
+epub_identifier = 'http://www.hasecke.com/plone-benutzerhandbuch/4.0'
 
 # A unique identification for the text.
 #epub_uid = ''

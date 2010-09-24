@@ -17,7 +17,7 @@ Das Plone 4 Benutzerhandbuch
  
              Auch erhältlich als :download:`PDF
              <_build/latex/Plone-Benutzerhandbuch-4.0.pdf>` oder
-             :download:`ePub <_build/epub/Plone-Benutzerhandbuch.epub>`
+             :download:`ePub <_build/epub/Plone-Benutzerhandbuch40.epub>`
 
 Einleitung
 ==========
