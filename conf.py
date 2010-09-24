@@ -254,4 +254,4 @@ epub_identifier = 'http://www.hasecke.com/plone-benutzerhandbuch'
 
 # -- Sonstige Options ---------------------------------------------------
 
-todo_include_todos = True
+todo_include_todos = False

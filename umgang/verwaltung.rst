@@ -336,12 +336,12 @@ dazu die Berechtigung haben. Anderenfalls sollten Sie die Verfasser
 der betroffenen Artikel über die defekten Verweise informieren oder
 den Löschvorgang abbrechen.
 
-.. _sec_ordner-aktionen:
-
 Beachten Sie, dass die Linkintegritätsprüfung nur Verweise
 kontrolliert, die im Haupttext von Artikeln eingefügt wurden, nicht
 aber die Verweise, die über das Teilformular Kategorisierung in der
 Bearbeitungsansicht von Artikeln gesetzt wurden. 
+
+.. _sec_ordner-aktionen:
 
 Ordneraktionen
 ==============
