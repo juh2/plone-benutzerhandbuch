@@ -1,3 +1,5 @@
+.. todo:: In 4.01 neue Übersetzungen!
+
 .. _sec_konfiguration-regeln:
 
 ========
@@ -446,4 +448,5 @@ Namen eines Ordners können Sie direkt in den Ordner wechseln.
    :width: 100%
    :alt: Auflistung, in welchen Ordnern die Regel verwendet wird
 
-   Auflistung, in welchen Ordnern die Regel verwendet wird
+   Auflistung, in welchen Ordnern die Regel verwend
+et wird

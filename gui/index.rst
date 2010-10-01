@@ -16,6 +16,6 @@ Informationen und Bedienelemente, die Plone Ihnen zur Verfügung stellt.
    navigation.rst
    portlets.rst
    site-aktionen.rst
-   kupu.rst
+   tinymce.rst
 
 .. todo:: Kapitel TinyMCE schreiben

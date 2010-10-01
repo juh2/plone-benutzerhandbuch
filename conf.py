@@ -229,7 +229,7 @@ epub_copyright = u'2010, Jan Ulrich Hasecke, Creative Commons Lizenz 2.0 BY-NC-S
 #epub_language = ''
 
 # The scheme of the identifier. Typical schemes are ISBN or URL.
-#epub_scheme = ''
+epub_scheme = 'URL'
 
 # The unique identifier of the text. This can be a ISBN number
 # or the project homepage.
