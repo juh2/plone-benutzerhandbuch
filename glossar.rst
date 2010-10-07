@@ -282,3 +282,12 @@ Glossar
       Der Unified Installer ist ein Installationsprogramm, mit dem
       die Python-, Zope- und Plone-Quellen auf unix-basierten
       Betriebssystemen installiert werden. 
+
+   HTTP
+      n.n.
+
+   HTTPS
+      n.n.
+
+   FTP
+      n.n.
