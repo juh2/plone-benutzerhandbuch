@@ -13,7 +13,7 @@ Abbildung :ref:`fig_kupu`).
 
 .. _fig_kupu:
 
-.. figure:: ../images/kupu.png
+.. figure:: ../images/kupu.*
    :width: 100%
 
    Der visuelle Texteditor Kupu
@@ -34,87 +34,75 @@ sichtbaren Symbolen hängt von der Konfiguration Ihrer Website ab;
 Tabelle :ref:`Funktionen in Kupu <tab_kupu-funktionen>` beschreibt die
 Voreinstellung.
 
+.. todo:: save.png ist zu klein
+
+.. |save| image:: ../images/plonekupuimages/save.png                                                  
+.. |bold| image:: ../images/plonekupuimages/bold.png                                                  
+.. |kursiv| image:: ../images/plonekupuimages/italic.png                                                
+.. |left| image:: ../images/plonekupuimages/left_just.png                                             
+.. |center| image:: ../images/plonekupuimages/center.png                                                
+.. |right| image:: ../images/plonekupuimages/right_just.png                                            
+.. |numlist| image:: ../images/plonekupuimages/numbered_list.png                                         
+.. |list| image:: ../images/plonekupuimages/list.png                                                  
+.. |deflist| image:: ../images/plonekupuimages/definitionlist.png                                        
+.. |outdent| image:: ../images/plonekupuimages/outdent.png                                               
+.. |indent| image:: ../images/plonekupuimages/indent.png                                                
+.. |image| image:: ../images/plonekupuimages/image.png                                                 
+.. |intlink| image:: ../images/plonekupuimages/hyperlink.png
+.. |extlink| image:: ../images/plonekupuimages/link_icon.png                                             
+.. |anker| image:: ../images/plonekupuimages/anchor.png                                                
+.. |tabelle| image:: ../images/plonekupuimages/table.png                                                 
+.. |html| image:: ../images/plonekupuimages/view-source.png                                           
+.. |fullscreen| image:: ../images/plonekupuimages/fullscreenexpand_icon.png                                 
+.. |delete| image:: ../images/plonekupuimages/delete_icon.png                                           
+
 .. _tab_kupu-funktionen:
+.. tabularcolumns:: L|L
 
-.. tabularcolumns:: p{1cm}|p{7cm}
+.. table:: Bedienelemente in Kupu
 
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | Speichern                    |
-|    ../images/plonekupuimages/save.png                    |                              |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | Fett                         |
-|    ../images/plonekupuimages/bold.png                    |                              |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | Kursiv                       |
-|    ../images/plonekupuimages/italic.png                  |                              |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | Linksbündig                  |
-|    ../images/plonekupuimages/left_just.png               |                              |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | Zentriert                    |
-|    ../images/plonekupuimages/center.png                  |                              |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | Rechtsbündig                 |
-|    ../images/plonekupuimages/right_just.png              |                              |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | Nummerierte Liste            |
-|    ../images/plonekupuimages/numbered_list.png           |                              |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | Einfache Liste               |
-|    ../images/plonekupuimages/list.png                    |                              |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | Definitionsliste             |
-|    ../images/plonekupuimages/definitionlist.png          |                              |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | Ausrücken                    |
-|    ../images/plonekupuimages/outdent.png                 |                              |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | Einrücken                    |
-|    ../images/plonekupuimages/indent.png                  |                              |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | Bild einfügen                |
-|    ../images/plonekupuimages/image.png                   |                              |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | Verweis auf Artikel der      |
-|    ../images/plonekupuimages/hyperlink.png               | Website                      |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | Internetverweis              |
-|    ../images/plonekupuimages/link_icon.png               |                              |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | Anker einfügen               |
-|    ../images/plonekupuimages/anchor.png                  |                              |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | Tabelle                      |
-|    ../images/plonekupuimages/table.png                   |                              |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | HTML-Code                    |
-|    ../images/plonekupuimages/view-source.png             |                              |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | Vollbildanzeige              |
-|    ../images/plonekupuimages/fullscreenexpand_icon.png   |                              |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
-| .. image::                                               | Element löschen              |
-|    ../images/plonekupuimages/delete_icon.png             |                              |
-|                                                          |                              |
-+----------------------------------------------------------+------------------------------+
+   +---------------+----------------------------+
+   | **Symbol**    | **Bedeutung**              |
+   +---------------+----------------------------+
+   | |save|        | Speichern                  |
+   +---------------+----------------------------+
+   | |bold|        | Fett                       |
+   +---------------+----------------------------+
+   | |kursiv|      | Kursiv                     |
+   +---------------+----------------------------+
+   | |left|        | Linksbündig                |
+   +---------------+----------------------------+
+   | |center|      | Zentriert                  |
+   +---------------+----------------------------+
+   | |right|       | Rechtsbündig               |
+   +---------------+----------------------------+
+   | |numlist|     | Nummerierte Liste          |
+   +---------------+----------------------------+
+   | |list|        | Einfache Liste             |
+   +---------------+----------------------------+
+   | |deflist|     | Definitionsliste           |
+   +---------------+----------------------------+
+   | |outdent|     | Ausrücken                  |
+   +---------------+----------------------------+
+   | |indent|      | Einrücken                  |
+   +---------------+----------------------------+
+   | |image|       | Bild einfügen              |
+   +---------------+----------------------------+
+   | |intlink|     | Interner Verweis           |
+   +---------------+----------------------------+
+   | |extlink|     | Internetverweis            |
+   +---------------+----------------------------+
+   | |anker|       | Anker einfügen             |
+   +---------------+----------------------------+
+   | |tabelle|     | Tabelle                    |
+   +---------------+----------------------------+
+   | |html|        | HTML-Code                  |
+   +---------------+----------------------------+
+   | |fullscreen|  | Vollbildanzeige            |
+   +---------------+----------------------------+
+   | |delete|      | Element löschen            |
+   +---------------+----------------------------+
+
 
 
 Ganz links in der Werkzeugleiste können Sie den bearbeiteten Text speichern,
@@ -232,7 +220,7 @@ Bilder
 
 .. _fig_kupu-bild:
 
-.. figure:: ../images/kupu-bild.png
+.. figure:: ../images/kupu-bild.*
    :width: 100%
 
    Mit Kupu ein Bild einfügen
@@ -292,7 +280,7 @@ Abbildung :ref:`fig_kupu-bild-hochladen`).
 
 .. _fig_kupu-bild-hochladen:
 
-.. figure:: ../images/hier-bild-hochladen.png
+.. figure:: ../images/hier-bild-hochladen.*
    :width: 100%
 
    In Kupu ein Bild hochladen
@@ -323,7 +311,7 @@ den Artikel auswählen können, auf den Sie verweisen möchten
 
 .. _fig_kupu-int:
 
-.. figure:: ../images/kupu-int.png
+.. figure:: ../images/kupu-int.*
    :width: 100%
 
    Mit Kupu auf einen Artikel der Website verweisen
@@ -345,14 +333,7 @@ Zielartikels an der aktuellen Schreibposition als Verweis ein.
 Wenn Ihre Website entsprechend konfiguriert ist, können Sie im Haupttext einer
 Seite, einer Nachricht und eines Termins neue Verweise wie in einem Wiki
 erzeugen. Setzen Sie dazu ein Wort oder eine Wortgruppe in doppelte runde oder
-eckige Klammern (siehe Abbildung :ref:`fig_bearbeiten-wiki`).
-
-.. _fig_bearbeiten-wiki:
-
-.. figure:: ../images/bearbeiten-wiki.png
-   :width: 100%
-
-   Verweise einfügen wie in einem Wiki
+eckige Klammern.
 
 Sollte im gleichen Ordner bereits ein Artikel vorhanden sein, dessen Kurzname
 mit der eingeklammerten Wortgruppe übereinstimmt, wird der geklammerte Text
@@ -370,7 +351,7 @@ Verweisziels (siehe Abbildung :ref:`fig_kupu-ext`).
 
 .. _fig_kupu-ext:
 
-.. figure:: ../images/kupu-ext.png
+.. figure:: ../images/kupu-ext.*
    :width: 100%
 
    Mit Kupu einen Internetverweis einfügen
@@ -401,7 +382,7 @@ Abbildung :ref:`fig_kupu-auf-anker-verweisen`).
 
 .. _fig_kupu-auf-anker-verweisen:
 
-.. figure:: ../images/kupu-auf-anker-verweisen.png
+.. figure:: ../images/kupu-auf-anker-verweisen.*
    :width: 100%
 
    In Kupu auf Anker verweisen
@@ -427,7 +408,7 @@ Abbildung :ref:`fig_kupu-anker-verwalten`).
 
 .. _fig_kupu-anker-verwalten:
 
-.. figure:: ../images/kupu-anker-verwalten.png
+.. figure:: ../images/kupu-anker-verwalten.*
    :width: 100%
 
    In Kupu Anker verwalten
@@ -453,8 +434,8 @@ Tabellen
 
 .. _fig_kupu-tabelle:
 
-.. figure:: ../images/kupu-tabelle.png
-   :width: 100%
+.. figure:: ../images/kupu-tabelle.*
+   :width: 50%
 
    Mit Kupu eine Tabelle anlegen
 
@@ -474,12 +455,11 @@ gegebenenfalls die Überschriften der Spalten anpassen. Mit der Schaltfläche
 »Alle Tabellen optimieren« veranlassen Sie Kupu, die Größe aller Tabellen im
 Text zu optimieren.
 
-.. Screenshot enthält noch falsche Übersetzung
 
 .. _fig_kupu-tabelle-bearbeiten:
 
-.. figure:: ../images/kupu-tabelle-bearbeiten.png
-   :width: 100%
+.. figure:: ../images/kupu-tabelle-bearbeiten.*
+   :width: 60%
 
    Mit Kupu eine Tabelle bearbeiten
 
