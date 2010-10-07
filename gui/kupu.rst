@@ -1,15 +1,17 @@
 .. _sec_kupu:
 
-=================
- Der Editor Kupu
-=================
+=================================
+ Der alternative Texteditor Kupu
+=================================
 
-Wenn Sie eine Seite, eine Nachricht oder einen Termin bearbeiten, wollen Sie
-in der Regel formatierten Text mit Strukturelementen wie Überschriften, Listen
-und Tabellen eingeben. Kupu ist ein visueller Editor, der diese Arbeit
-leicht macht. Er besitzt eine Leiste mit Funktionen, mit denen Sie Ihren Text
-wie in einem Textverarbeitungsprogramm formatieren können (siehe
-Abbildung :ref:`fig_kupu`).
+Bis zur Version 3 von Plone war Kupu als Texteditor
+voreingestellt. Seit Plone 4 wird TinyMCE benutzt. Es ist jedoch
+weiterhin möglich, Kupu zu benutzen, wenn man den Texteditor als
+Erweiterung installiert. 
+
+Wie TinyMCE besitzt auch Kupu eine Leiste mit Funktionen, mit denen
+Sie Ihren Text wie in einem Textverarbeitungsprogramm formatieren
+können (siehe Abbildung :ref:`fig_kupu`).
 
 .. _fig_kupu:
 
