@@ -21,11 +21,11 @@ dieses Buch nie entstanden:
 
 * `Fafalter GmbH, Düsseldorf`_
 
-* `iqplusplus, Erfurt`_
+* `IQ++, Erfurt`_
 
 * `Hochschulrechenzentrum Universität Bonn`_
 
-* `30 doradus media design gmbh`_
+* `30 doradus media design gmbh, Monheim`_
 
 .. * `catWorkX GmbH`_ 
 
@@ -34,12 +34,12 @@ dieses Buch nie entstanden:
 
 .. _`Fafalter GmbH, Düsseldorf`: http://www.fafalter.de
 
-.. _`iqplusplus, Erfurt`: http://www.iqpp.de
+.. _`IQ++, Erfurt`: http://www.iqpp.de
 
 .. _`gocept gmbh`: http://www.gocept.com
 
 .. _`Hochschulrechenzentrum Universität Bonn`: http://www.hrz.uni-bonn.de
 
-.. _`30 doradus media design gmbh`: http://www.doradus.de
+.. _`30 doradus media design gmbh, Monheim`: http://www.doradus.de
 
 .. _`catWorkX GmbH`: http://www.catworkx.de/
