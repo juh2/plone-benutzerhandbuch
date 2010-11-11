@@ -8,7 +8,7 @@ Mehrsprachige Inhalte lesen
 Wenn auf der Plone-Website die Erweiterung LinguaPlone installiert
 wurde, ist es möglich, Inhalte in verschiedenen Sprachen anzubieten.
 Sie finden zur Auswahl der gewünschten Sprachversion oben rechts
-direkt unterhalb des Benutzermenüs Verweise mit den möglichen Sprachen
+Verweise mit den möglichen Sprachen
 (siehe Abbildung :ref:`fig_sprache-auswaehlen`), in denen Inhalte
 vorliegen können. Dabei kann es sich je nach Konfiguration der Website
 um reine Textverweise oder um kleine Fähnchen handeln.
@@ -270,7 +270,7 @@ Abbildung :ref:`fig_uebersetzungen-verwalten`) mit dem Sie
 * beliebige Artikel in der Website als Übersetzung des aktuellen
   Artikels auswählen können und 
 
-* die angezeigte Übersetzungen löschen können.
+* Übersetzungen löschen können.
 
 .. _fig_uebersetzungen-verwalten:
 
@@ -307,6 +307,8 @@ Auswahlformular (siehe Abbildung :ref:`fig_uebersetzung-verknuepfen`),
 das genau so zu bedienen ist, wie das im Kapitel
 :ref:`sec_teilf-kateg` beschriebene Formular zur Auswahl eines
 Verweises.
+
+.. todo:: Screenshot noch aus alter Version, da ein Bug in 4.0.1
 
 .. _fig_uebersetzung-verknuepfen:
 
@@ -345,7 +347,7 @@ stehen, bei den abgeleiteten Übersetzungen jedoch nicht.
 
 .. figure::
    ./images/nicht-kanonische-sprache.*
-   :width: 80%
+   :width: 100%
    :alt: Eingeschränktes Formular zur Verwaltung von Übersetzungen
 
    Eingeschränktes Formular
