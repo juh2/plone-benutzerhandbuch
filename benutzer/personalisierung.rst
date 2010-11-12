@@ -116,6 +116,8 @@ von Ihnen oder vom Administrator hinzugefügt wurden (siehe Abbildung
    Die persönliche Seite eines Redakteurs
  
 
+.. _sec_portlets-hinzufuegen:
+
 Portlets hinzufügen
 -------------------
 

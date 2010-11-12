@@ -186,6 +186,12 @@ zu vier Formularen, mit denen man einzelne Gruppen verwalten kann.
 Gruppenmitglieder
 -----------------
 
+Zunächst ist die Übersicht über die Gruppenmitglieder geöffnet (siehe
+Abbildung
+:ref:`fig_konfiguration-benutzer-gruppen-gruppenmitglieder`). Mit
+Hilfe dieses Formulars können Sie Benutzer und Gruppen der jeweiligen
+Gruppe hinzufügen oder bestehende Gruppenmitglieder aus der Gruppe entfernen.
+
 .. _fig_konfiguration-benutzer-gruppen-gruppenmitglieder:
 
 .. figure::
@@ -195,8 +201,42 @@ Gruppenmitglieder
 
    Liste der Gruppenmitglieder
 
+In der Überschrift ist die ausgewählte Gruppe namentlich
+aufgeführt. Das Formular ist in zwei Teile geteilt:
+
+Aktuelle Gruppenmitglieder
+   Unter dieser Überschrift sind die Mitglieder der Gruppe mit ihren
+   E-Mail-Adressen aufgelistet. Wenn Sie einen Benutzer aus der Gruppe
+   entfernen möchten, markieren Sie den Benutzer und betätigen Sie die
+   Schaltfläche :guilabel:`Lösche ausgewählte Benutzer/Gruppen`.
+
+Suche nach neuen Gruppenmitgliedern
+   Wenn Sie einen neuen Benutzer zur Gruppe hinzufügen möchten, suchen
+   Sie ihn zunächst über die Benutzersuche (siehe Abbildung
+   :ref:`fig_konfiguration-benutzer-gruppen-benutzer-gesucht`) 
+
+   .. _fig_konfiguration-benutzer-gruppen-benutzer-gesucht:
+
+   .. figure:: 
+      ../images/konfiguration-benutzer-gruppen-benutzer-gesucht.*
+      :width: 80%
+      :alt: Benutzer wurde gefunden
+
+      Gefundener Benutzer
+
+   Sie können anschließend einen oder mehrere Benutzer oder Gruppen auswählen und
+   der Gruppe hinzufügen, indem Sie die Benutzer oder Gruppen
+   markieren und auf :guilabel:`Füge die ausgewählten Benutzer oder
+   Gruppen dieser Gruppe hinzu` klicken. Wenn alle Benutzer für die
+   Auswahl aufgelistet werden sollen, betätigen Sie :guilabel:`Zeige
+   alle`. 
+
 Gruppeneinstellungen
 --------------------
+
+In den Gruppeneinstellungen (Abbildung
+:ref:`fig_konfiguration-benutzer-gruppen-gruppeneinstellungen`) können Sie
+den Titel und die Beschreibung der Gruppe verändern.
 
 .. _fig_konfiguration-benutzer-gruppen-gruppeneinstellungen:
 
@@ -211,17 +251,46 @@ Gruppeneinstellungen
 Gruppenportlets
 ---------------
 
+In der linken und rechten Spalte können Gruppenportlets konfiguriert
+werden. Sie werden nur Benutzern angezeigt, die Mitglied der
+entsprechenden Gruppe sind. Mit Hilfe des Formulars ›Gruppenportlets‹
+können Sie diese Portlets verwalten (siehe Abbildung
+:ref:`fig_konfiguration-benutzer-gruppen-gruppenportlets`). 
+
 .. _fig_konfiguration-benutzer-gruppen-gruppenportlets:
 
-.. figure::
+.. figure:: 
    ../images/konfiguration-benutzer-gruppen-gruppenportlets.*
    :width: 100%
-   :alt: Konfiguration grupppenspezifischer Portlets
+   :alt: Verwaltung gruppenspezifischer Portlets
 
    Gruppenportlets
 
+Über das Auswahlmenü :guilabel:`Portlet hinzufügen` können Sie ein
+neues Portlet hinzufügen. Neu hinzugefügte Portlets werden in der
+entsprechenden Spalte aufgeführt (siehe Abbildung
+:ref:`fig_konfiguration-benutzer-gruppen-gruppenportlet-hinzugefuegt`).
+
+.. _fig_konfiguration-benutzer-gruppen-gruppenportlet-hinzugefuegt:
+
+.. figure::
+   ../images/konfiguration-benutzer-gruppen-gruppenportlet-hinzugefuegt.*
+   :width: 100%
+   :alt: Neu hinzugefügtes Gruppenportlet
+
+   Neu hinzugefügtes Gruppenportlet
+
+Weitere Details zur Verwaltung von Portlets finden Sie in Kapitel
+:ref:`sec_portlets-hinzufuegen`.
+ 
 Gruppenseite
 ------------
+
+Auf der persönlichen Seite eines Benutzers (vgl. Kapitel
+:ref:`sec_personliche-seite-1`) können gruppenspezifische Portlets
+angezeigt werden. Das heißt ein Benutzer sieht auf seiner persönlichen
+Seite Informationen, die ihn betreffen, weil er Mitglied einer
+bestimmten Gruppe ist. 
 
 .. _fig_konfiguration-benutzer-gruppen-gruppenseite:
 
@@ -233,6 +302,15 @@ Gruppenseite
    Gruppenseite
 
 .. _sec_konfiguration-benutzer-gruppen-benutzer-anlegen:
+
+Mit Hilfe des Formulars ›Gruppenseite‹ können Sie die Portlets
+definieren, die auf der persönlichen Seite von Mitgliedern der Seite
+angezeigt werden sollen. Die Gruppenportlets werden zusätzlich zu den
+Portlets auf der persönlichen Seite angezeigt, die der Benutzer selbst
+definiert. 
+
+Weitere Details zur Verwaltung von Portlets finden Sie in Kapitel
+:ref:`sec_portlets-hinzufuegen`.
 
 Neuen Benutzer anlegen
 ======================
@@ -348,38 +426,3 @@ den ›Sicherheitseinstellungen‹ aktivieren. Lesen Sie dazu Kapitel
 :ref:`sec_konfiguration-sicherheit`.
 
 
-Gruppenportlets
-===============
-
-In der linken und rechten Spalte können Gruppenportlets konfiguriert
-werden. Sie werden nur Benutzern angezeigt, die Mitglied der
-entsprechenden Gruppe sind. 
-
-.. _fig_konfiguration-benutzer-gruppen-gruppenportlets:
-
-.. figure:: 
-   ../images/konfiguration-benutzer-gruppen-gruppenportlets.*
-   :width: 100%
-   :alt: Verwaltung gruppenspezifischer Portlets
-
-   Verwaltung gruppenspezifischer Portlets
-
-
-.. _fig_konfiguration-benutzer-gruppen-gruppenportlet-hinzugefuegt:
-
-.. figure::
-   ../images/konfiguration-benutzer-gruppen-gruppenportlet-hinzugefuegt.*
-   :width: 100%
-   :alt: Neu hinzugefügtes Gruppenportlet
-
-   Neu hinzugefügtes Gruppenportlet
-
-Gruppenseite
-============
-
-Auf der persönlichen Seite eines Benutzers (vgl. Kapitel
-:ref:`sec_personliche-seite-1`) können gruppenspezifische Portlets
-angezeigt werden. Das heißt ein Benutzer sieht auf seiner persönlichen
-Seite Informationen, die ihn betreffen, weil er Mitglied einer
-bestimmten Gruppe ist. 
-============
