@@ -73,8 +73,8 @@ Benutzer löschen
 Einzelne Benutzer verwalten
 ===========================
 
-Klickt man in der Benutzerübersicht auf den Benutzernamen, gelangt man
-zu drei Formularen, mit denen man einzelne Benutzer verwalten kann. 
+Klickt man in der Benutzerübersicht auf einen Benutzernamen, gelangt man
+zu drei Formularen, mit denen man den ausgewählten Benutzer verwalten kann. 
 
 Persönliche Informationen
    Dieses Formular entspricht dem Formular, das der jeweilige Benutzer
@@ -180,8 +180,8 @@ Reviewers (Reviewers)
 Einzelne Gruppe verwalten
 =========================
 
-Klickt man in der Gruppenübersicht auf den Gruppennamen, gelangt man
-zu vier Formularen, mit denen man einzelne Gruppen verwalten kann.
+Klickt man in der Gruppenübersicht auf einen Gruppennamen, gelangt man
+zu vier Formularen, mit denen man die ausgewählte Gruppe verwalten kann.
 
 Gruppenmitglieder
 -----------------
