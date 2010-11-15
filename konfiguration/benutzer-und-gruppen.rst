@@ -288,7 +288,7 @@ Gruppenseite
 
 Auf der persönlichen Seite eines Benutzers (vgl. Kapitel
 :ref:`sec_personliche-seite-1`) können gruppenspezifische Portlets
-angezeigt werden. Das heißt ein Benutzer sieht auf seiner persönlichen
+angezeigt werden. Ein Benutzer sieht dann auf seiner persönlichen
 Seite Informationen, die ihn betreffen, weil er Mitglied einer
 bestimmten Gruppe ist. 
 
