@@ -1,6 +1,6 @@
 .. _sec_konfiguration-editor:
 
-=======================
- Visueller Editor Kupu
-=======================
+=====================
+TinyMCE Visual Editor
+=====================
 
