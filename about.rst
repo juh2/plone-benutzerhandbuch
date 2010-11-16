@@ -3,7 +3,7 @@
 
 Dieses Buch enthält eine Dokumentation des Content-Management-Systems Plone_ in
 der Version |version|. [#]_ Es richtet sich an Benutzer, die als Autoren und
-Redakteure mit Plone arbeiten sowie Administratoren, die eine einfache
+Redakteure mit Plone arbeiten sowie an Administratoren, die eine 
 Plone-Website konfigurieren und administrieren. 
 
 Entwickler, die Erweiterungen für Plone schreiben,
@@ -18,13 +18,14 @@ enthält eine detaillierte Beschreibung aller Funktionen in Plone, die für
 Autoren, Redakteure und Administratoren wichtig sind. Und im vierten Teil
 werden wichtige Erweiterungen beschrieben. 
 
-Die HTML-Fassung dieses Buches sowie ein PDF, das heruntergeladen werden kann,
-finden Sie unter: http://www.hasecke.com/plone-benutzerhandbuch/4.0/.
-Den Quellcode dieser Dokumentation finden Sie auf Launchpad_. 
+Die HTML-Fassung dieses Buches sowie eine PDF-Version und ein eBook, die
+heruntergeladen werden können, finden Sie unter:
+http://www.hasecke.com/plone-benutzerhandbuch/4.0/.  Den Quellcode dieser
+Dokumentation finden Sie auf Launchpad_. 
 
-Die Dokumentation basiert in weiten Teilen auf dem Plone-Benutzerhandbuch [#]_
-von Thomas Lotze und Jan Ulrich Hasecke, das unter http://plonebook.info
-erhältlich ist. 
+Die Dokumentation basiert in weiten Teilen auf dem Plone-Benutzerhandbuch für
+Plone 3 [#]_ von Thomas Lotze und Jan Ulrich Hasecke, das unter
+http://plonebook.info erhältlich ist. 
 
 Kommentare und Fragen nehmen wir gern per E-Mail entgegen:
 jan.ulrich@hasecke.com
@@ -33,7 +34,7 @@ jan.ulrich@hasecke.com
 
     .. rubric:: Fußnoten
 
-.. [#] http://plone.org/products/plone/releases/4.0
+.. [#] http://plone.org/products/plone/releases
 
 .. [#] http://www.plone-entwicklerhandbuch.de
 

@@ -8,7 +8,7 @@ für Linux herunter und entpacken Sie das Archiv.::
 
     tar -xvf Plone-4.0-UnifiedInstaller.tgz
 
-Wechseln Sie anschließend in den entstandenden Ordner. ::
+Wechseln Sie anschließend in den entstandenden Ordner. [#]_ ::
 
     cd Plone-4.0-UnifiedInstaller
 
@@ -116,4 +116,4 @@ http://localhost:8080 aufrufen.
 
 
 
-
+.. [#] Bitte beachten Sie, dass das Beispiel von der Version 4.0 ausgeht. Die Version 4.0 wird von der Plone Community laufend gepflegt. Es erscheinen kleinere Aktualisierungen, die die Bezeichnung 4.0.X tragen, wobei X eine Zahl ist, die fortlaufend erhöht wird. 4.0.1 ist die erste Maintenance-Release nach 4.0, 4.0.2 die zweite. Konsultieren Sie plone.org, um die aktuelle Version herunterzuladen. 

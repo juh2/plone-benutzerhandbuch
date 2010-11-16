@@ -29,7 +29,7 @@ Einleitung
    copyright.rst
    konventionen.rst
    danksagungen.rst
-   vorworte.rst
+   vorwort.rst
 
 Installation
 ============

@@ -122,6 +122,8 @@ Plone erstellt von jeder Kollektion einen RSS-Feed. Dieser wird vom
 Browser automatisch erkannt und zumeist in der Adresszeile angezeigt
 (siehe dazu auch Abschnitt :ref:`sec_syndizierung`).
 
+.. _sec_kollektion-suchkriterien:
+
 Suchkriterien
 =============
 
