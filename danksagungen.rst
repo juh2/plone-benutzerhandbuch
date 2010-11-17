@@ -27,7 +27,7 @@ dieses Buch nie entstanden:
 
 * `30 doradus media design gmbh, Monheim`_
 
-* `catWorkX GmbH`_ 
+* `catWorkX GmbH, Hamburg`_ 
 
 
 .. _`Charlie Clark Consulting, Düsseldorf`: mailto:charlie.clark@clark-consulting.eu 
@@ -42,4 +42,4 @@ dieses Buch nie entstanden:
 
 .. _`30 doradus media design gmbh, Monheim`: http://www.doradus.de
 
-.. _`catWorkX GmbH`: http://www.catworkx.de/
+.. _`catWorkX GmbH, Hamburg`: http://www.catworkx.de/
