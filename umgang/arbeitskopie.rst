@@ -6,11 +6,10 @@
 
 Arbeitskopien erlauben es, einen öffentlich sichtbaren Artikel zu
 bearbeiten, ohne dass die gespeicherten Zwischenstände öffentlich
-einsehbar sind. Wenn Sie anfangen, einen Artikel auf diese Weise zu
-bearbeiten, erstellen Sie eine Arbeitskopie des Artikels, und nachdem
-Sie Ihre Änderungen vorgenommen haben, ersetzen Sie den Artikel durch
-die veränderte Arbeitskopie.
-
+einsehbar sind. Bevor Sie anfangen, einen Artikel auf diese Weise zu
+bearbeiten, erstellen Sie zunächst eine Arbeitskopie des Artikels. In
+dieser Arbeitskopie nehmen Sie alle Änderungen vor. Anschließend
+ersetzen Sie den Originalartikel durch die veränderte Arbeitskopie.
 
 .. _sec_arbeitskopie-erstellen:
 
@@ -160,4 +159,42 @@ Abbildung :ref:`fig_arbeitskopie-verwerfen`)
    :width: 100%
 
    Nachfrage, ob Arbeitskopie verworfen werden soll
+
+Zugriffsberechtigungen und Arbeitsabläufe
+=========================================
+
+Damit man mit Hilfe von Arbeitskopien Inhalte pflegen kann, müssen bestimmte
+Voraussetzungen bei den Freigabeeinstellungen und den Arbeitsabläufen
+erfüllt sein.
+
++--------------------------------------+----------------------------------------------------------------------+
+| Arbeitsschritt                       | Freigabe                                                             |
++======================================+======================================================================+
+| Arbeitskopie erstellen               | »Kann hinzufügen« im übergeordneten Ordner                           |
++--------------------------------------+----------------------------------------------------------------------+
+| Arbeitskopie bearbeiten              | »Kann bearbeiten« im übergeordneten Ornder oder in der Arbeitskopie  |
++--------------------------------------+----------------------------------------------------------------------+
+| Arbeitskopie verwerfen               | »Kann bearbeiten« im übergeordneten Ordner oder in der Arbeitskopie  | 
++--------------------------------------+----------------------------------------------------------------------+
+| Original durch Arbeitskopie ersetzen | »Kann bearbeiten« im übergeordneten Ordner                           |
++--------------------------------------+----------------------------------------------------------------------+
+
+Wenn also Autoren die Möglichkeit haben sollen, Inhalte in
+Arbeitskopien zu erstellen, das Original aber nicht durch die
+Arbeitskopie ersetzen sollen, darf man ihnen in der Freigabe des
+übergeordneten Ordners nicht die Bearbeitungsfunktion (Kann
+bearbeiten) zuweisen, sondern lediglich das Recht, Artikel – in diesem
+Fall die Arbeitskopie – hinzuzufügen (Kann hinzufügen).
+
+Sollen mehrere Personen die Arbeitskopie bearbeiten, sollten Sie ihnen
+nur in der Freigabe der Arbeitskopie selbst die Funktion »Kann
+bearbeiten« zuweisen, nicht im übergeordneten Ordner.
+
+Beachten Sie, dass derjenige, der das (veröffentlichte) Original durch
+die (private) Arbeitskopie ersetzen kann, dadurch auch die Inhalte,
+die in der Arbeitskopie privat waren, veröffentlichen kann. Wenn das
+Original durch die Arbeitskopie ersetzt wird, übernimmt das veränderte
+Original den Status des ursprünglichen Originals. War das
+ursprüngliche Original veröffentlicht, wird auch das veränderte
+Original veröffentlicht sein.
 
