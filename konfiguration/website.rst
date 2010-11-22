@@ -37,8 +37,13 @@ Dublin Core Metadaten einbinden
 sitemap.xml.gz verfügbar machen
    Plone kann eine Übersicht über die Inhalte der Website nach dem Standard von
    sitemaps.org_ erstellen und ständig aktuell halten. Suchmaschinen nutzen
-   diese Datei, um über Veränderungen zeitnah informiert zu sein. Bei Google
-   kann man die Sitemap in den `Webmaster Tools`_  anmelden.  
+   diese Datei, um über Veränderungen zeitnah informiert zu sein. Sie können
+   Suchmaschinen auf die Existenz dieser Datei aufmerksam machen, indem Sie sie
+   folgendermaßen in die Datei :file:`robots.txt` eintragen::
+
+      Sitemap: http://example.com/sitemap.xml.gz
+   
+   Bei Google kann man die Sitemap auch in den `Webmaster Tools`_  anmelden. 
 
 Javascript für Web-Statistik-Unterstützung
    Wenn Sie beispielsweise `Google Analytics`_ mit Plone nutzen möchten, können
