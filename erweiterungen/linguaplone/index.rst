@@ -65,15 +65,98 @@ bereits die Ordner im Wurzelverzeichnis von Plone dabei einbezogen
 werden. Der Aufbau einer mehrsprachigen Navigation muss daher in der
 Regel von einem Administrator durchgeführt werden.
 
-Sobald eine Website mehrsprachige Inhalte verwaltet, bekommt die
-Zuordnung von Artikeln zu einer bestimmten Sprache eine wichtige
-Bedeutung. Es werden nämlich nur solche Artikel von der Erweiterung
-LinguaPlone als Sprachversion erkannt, die nicht
-:term:`sprachunabhängig` sind. Wenn Sie beispielsweise die englische
-Sprachversion der Website betrachten, werden alle Inhalte, die einer
-anderen Sprache angehören unterdrückt und nicht angezeigt. Im
-Umkehrschluss bedeutet dies, dass nur sprachunabhängige Inhalte in
-allen Sprachen zur Verfügung stehen. 
+Sobald LinguaPlone installiert ist, finden Sie im Konfigurationsmenü
+:guilabel:`Sprache` ein zusätzliches Auswahlmenü, in dem Sie festlegen können,
+in welche Sprachen Inhalte übersetzt werden sollen (siehe Abbildung
+:ref:`fig_konfiguration-sprache-linguaplone`). Das Konfigurationsmenü für die
+Spracheinstellungen wird in Kapitel :ref:`sec_konfiguration-sprache`
+beschrieben. 
+
+.. _fig_konfiguration-sprache-linguaplone:
+
+.. figure::
+   ./images/konfiguration-sprache-linguaplone.*
+   :width: 100%
+   :alt: Das Konfigurationsmenüs »Sprache« mit zusätzlichem Auswahlmenü
+
+   Die Spracheinstellungen
+
+Um mehrere Sprachen auszuwählen, halten Sie die Command-Taste gedrückt, während
+Sie die Sprache anklicken.
+
+Gemeinsame oder sprachspezifische Startseite 
+--------------------------------------------
+
+Beim Aufbau einer mehrsprachigen Navigation können Sie mehrere Strategien
+verfolgen. 
+
+#. Sie für alle Sprachversionen Ihre Website eine gemeinsame Startseite
+   einrichten, von wo aus die Besucher die einzelnen Sprachversionen erreichen
+   können. Dies ist der in LinguaPlone nach der Installation voreingestellte
+   Weg.  Der Eintrag :guilabel:`Startseite` in der Hauptnavigation führt in
+   diesem Falle immer zurück auf die gemeinsame Startseite.
+
+#. Wenn Sie für jede Sprachversion eine eigene Startseite einrichten möchten,
+   müssen Sie Plone dafür entsprechend konfigurieren. Bei dieser Strategie wird
+   für jede Sprachversion ein eigener Ordner eingerichtet, sodass eine
+   vollständig getrennte Navigation entsteht. 
+   
+Bei letzterer Strategie werden Besucher, die in ihrem Browser »Deutsch« als
+Standardsprache eingestellt haben, automatisch in den deutschen Sprachordner
+weitergeleitet::
+   
+   http://localhost:8080/Plone/de
+
+Besucher mit englischer oder französischer Voreinstellung werden entsprechend
+in ihre Sprachordner weitergeleitet::   
+   
+   http://localhost:8080/Plone/en
+   http://localhost:8080/Plone/fr
+
+Der Menüeintrag :guilabel:`Startseite` beziehungsweise :guilabel:`Home` oder
+:guilabel:`Accueil` führt dann je nach Sprache zu der Startseite in den
+entsprechenden Sprachordnern. 
+
+Damit haben Sie eine durchgehend mehrsprachige Website mit sprachspezifisch
+getrennter Navigation. Dies betrifft übrigens auch die Suche, die immer nur
+Ergebnisse aus der jeweiligen Sprachversion findet.  
+
+Um Plone für mehrere sprachspezifische Startseiten zu konfigurieren, müssen Sie
+den View @@language-setup-folders aufrufen, wenn Sie als Administrator in Plone
+angemeldet sind::
+
+    http://localhost:8080/Plone/@@language-setup-folders
+
+Plone nimmt daraufhin sämtliche Konfigurationen automatisch vor und erzeugt für
+jede Sprachversion einen Sprachordner (siehe Abbildung
+:ref:`fig_language-setup-folders`).
+
+.. _fig_language-setup-folders:
+
+.. figure::
+   ./images/language-setup-folders.*
+   :width: 100%
+   :alt: Das Protokoll des Aufrufs von @@language-setup-folders
+
+   Protokoll des Aufrufs von @@language-setup-folders
+
+In dem Beispiel hat Plone für die Sprachen Deutsch, Englisch und Französisch
+drei Ordner mit den IDs »de«, »en« und »fr« erzeugt und mit Hilfe des
+:term:`Interfaces <Interface>` »INavigationRoot« als Wurzelverzeichnis für die
+entsprechende Sprachversion
+gekennzeichnet. 
+
+Sprachspezifische und sprachunabhängige Inhalte
+-----------------------------------------------
+
+Sobald eine Website mehrsprachige Inhalte verwaltet, bekommt die Zuordnung von
+Artikeln zu einer bestimmten Sprache eine wichtige Bedeutung. Es werden nämlich
+nur solche Artikel von der Erweiterung LinguaPlone als Sprachversion erkannt,
+die nicht :term:`sprachunabhängig` sind. Wenn Sie beispielsweise die englische
+Sprachversion der Website betrachten, werden alle Inhalte, die einer anderen
+Sprache angehören unterdrückt und nicht angezeigt. Im Umkehrschluss bedeutet
+dies, dass nur sprachunabhängige Inhalte in allen Sprachen zur Verfügung
+stehen. 
 
 Wenn Sie einen Artikel übersetzen möchten, gehen Sie daher zunächst
 ins Teilformular »Kategorisierung« (siehe Kapitel

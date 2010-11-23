@@ -291,3 +291,6 @@ Glossar
 
    FTP
       n.n.
+
+   Interface
+      n.n.

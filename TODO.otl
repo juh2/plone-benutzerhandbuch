@@ -1,29 +1,10 @@
-[_] Bilder mit Alt-TAG versehen
-[_] Beschreibung Installation
-[_] Beschreibung Meine Einstellungen
-[_] Beschreibung Konfiguration (4.0/3.3)
-	[_] Artikeltypen / Artikeltypen
-	[_] Aussehen/Aussehen
-	[_] Benutzer und Gruppen / Benutzer und Gruppen
-	[_] E-Mail/ E-Mail
-	[_] Editing
-	[_] Erweiterungen/Zusatzprotokolle
-	[_] Fehler/Fehler
-	[_] HTML-Filter/HTML-Filter
-	[_] Handhabung von Bildern
-	[_] Kalender/Kalender
-	[_] Kollektionen/Kollektion
-	[_] Navigation/Navigation
-	[_] Regeln/Regeln
-	[_] Sicherheit/Sicherheit
-	[_] Sprache/Sprache
-	[_] Suche/Suche
-	[_] Textauszeichnung/Textauszeichnung
-	[_] Visueller Editor TinyMCE / Visual Editor
-	[_] Wartung/Wartung
-	[_] Website/Website
-	[_] Zope-Management-Oberfläche / Zope-Management-Oberfläche
-[X] Keine itemize Auflistung in Tabelle andere Lösung finden
-Workflow Screenshots
-	Screenshots als PDF (hochauflösend) und PNG (max. 800px breit)
-WAI-kompatible Suche
+Erweiterungen
+	LinguaPlone
+		The default-page story has changed in LinguaPlone. Now the default
+		strategy is to create 'language folders' like /de and /en. You can get
+		that executing
+		http://yourserver:port/plonesite/@@language-setup-folders It creates
+		one folder for each language and sets a language 'negotiator' at the
+		plone root redirecting to the proper language folder. That way, you
+		can set default pages for each language.
+	
