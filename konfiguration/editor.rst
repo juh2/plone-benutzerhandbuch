@@ -7,7 +7,7 @@ Visueller Editor TinyMCE
 Der Texteditor, mit dem Autoren und Redakteure Inhalte in Plone einpflegen
 können, lässt sich konfigurieren. Über den Verweis :guilabel:`Visueller Editor
 TinyMCE` gelangen Sie in den Konfigurationsbereich des Editors. Die
-Konfiguration besteht aus drei Teilformularen (siehe Abbilduung
+Konfiguration besteht aus drei Teilformularen (siehe Abbildung
 :ref:`fig_konfiguration-tinymce-1`) 
 
 .. _fig_konfiguration-tinymce-1:
@@ -22,10 +22,13 @@ Konfiguration besteht aus drei Teilformularen (siehe Abbilduung
 Teilformular Layout
 ===================
 
-Größenveränderung des Editor-Fensters einschalten.
+Im ersten Teilformular werden Einstellungen gemacht, die sich auf das Aussehen
+des Texteditors auswirken.
+
+Größenveränderung des Editor-Fensters einschalten
    Wenn Sie diese Funktion einschalten, kann der Benutzer die Größe von
    Formularfeldern im Texteditor verändern (siehe Abbildung
-   :ref:`fig_tinymce-fenstergroesse-veraendern`) Rechts unten in der
+   :ref:`fig_tinymce-fenstergroesse-veraendern`) Rechts unten in 
    veränderbaren Formularfeldern gibt es einen Anfasser. Sobald sich die Maus
    über dem Anfasser befindet, verändert sich der Mauszeiger. Die Größe wird
    geändert, indem man die Maustaste gedrückt hält und die Größe durch
@@ -35,34 +38,35 @@ Größenveränderung des Editor-Fensters einschalten.
    .. figure::
       ../images/tinymce-fenstergroesse-veraendern.*
       :width: 100%
-      :alt: An der rechten unteren Ecke kann die Größe des Fensters verändert werden.
+      :alt: An der rechten unteren Ecke kann die Größe des Fensters verändert
+            werden.
 
       Anfasser für Größenänderung
 
-Automatische Größenveränderung des Editorfensters einschalten.
-   Wenn Sie die Option einschalten, passt sich das Editorfenster in der Größe
+Automatische Größenveränderung des Editorfensters einschalten.
+   Wenn Sie die Option einschalten, passt sich das Editorfenster in der Größe
    dem bearbeiteten Inhalt automatisch an. Es wird also automatisch so groß
    eingestellt, dass der gesamte Inhalt ohne Scrollen innerhalb des
    Formularfeldes sichtbar ist. Je nach Größe von Monitor und Inhalt kann
    jedoch ein Scrollen im Browser weiterhin notwendig sein.  
 Breite des Editors
-   Mit dieser Option können Sie die Breite des Editorfensters in Pixel oder
+   Mit dieser Option können Sie die Breite des Editorfensters in Pixel oder
    Prozent (der Browsergröße) einstellen. Wenn die Breite des Editorfenster
    prozentual festgelegt ist, kann die Größe der Formularfelder nur vertikal
    verändert werden. 
-Höhe des Editors
-   Mit dieser Option können Sie die Höhe des Editorfensters in Pixeln
-   bestimmen. Wenn die automatische Größenanpassung eingeschaltet ist, wird der
-   eingegebene Wert als minimale Höhe genutzt.
+Höhe des Editors
+   Mit dieser Option können Sie die Höhe des Editorfensters in Pixeln
+   bestimmen. Wenn die automatische Größenanpassung eingeschaltet ist, wird der
+   eingegebene Wert als minimale Höhe genutzt.
 Schreibrichtung
    Mit dieser Option legen Sie die Schreibrichtung fest. Einige Sprache wie
-   Hebräisch, Arabisch oder Urdu laufen von rechts nach links anstatt von links
+   Hebräisch, Arabisch oder Urdu laufen von rechts nach links anstatt von links
    nach rechts.
-Kontextmenü einschalten
-   Mit dieser Option können Sie das Kontextmenü ein- und ausschalten. Die
+Kontextmenü einschalten
+   Mit dieser Option können Sie das Kontextmenü ein- und ausschalten. Die
    Funktion wird in Kapitel :ref:`sec_tinymce-kontext-menu` näher beschrieben. 
-Das CSS wählen, das im WYSIWYG-Editorbereich genutzt wird
-   Wenn Sie diese Option auswählen, können Sie eine eigene CSS-Datei bestimmen,
+Das CSS wählen, das im WYSIWYG-Editorbereich genutzt wird
+   Wenn Sie diese Option auswählen, können Sie eine eigene CSS-Datei bestimmen,
    die die CSS-Datei des Themes ersetzt. Die CSS-Datei wird im Texteditor im
    Bearbeitungsfeld benutzt. Sie muss sich im ZMI im Ordner
    :file:`portal_skins/custom` befinden oder als Bestandteil eines Themes in
