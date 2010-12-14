@@ -271,6 +271,39 @@ bequem.
 Die übrigen Bedienungselemente werden in den folgenden Abschnitten
 erklärt.
 
+
+.. _sec_tinymce-kontext-menu:
+
+Kontextmenü
+===========
+
+Zahlreiche Funktionen des Texteditors sind über ein Kontextmenü erreichbar
+(siehe Abbildung :ref:`fig_tinymce-kontext-menu-1` und
+:ref:`fig_tinymce-kontext-menu-2`)
+
+.. _fig_tinymce-kontext-menu-1:
+
+.. figure::
+   ../images/tinymce-kontext-menu-1.*
+   :width: 100%
+   :alt: Das Kontextmenü im Fließtext
+
+   Das Kontextmenü im Fließtext
+
+
+.. _fig_tinymce-kontext-menu-2:
+
+.. figure::
+   ../images/tinymce-kontext-menu-2.*
+   :width: 100%
+   :alt: Das Kontextmenü bei einer Tabelle
+
+   Das Kontextmenü in einer Tabelle
+
+An das Kontextmenü gelangt man über einen Rechtsklick mit der Maus. Je nach
+Kontext stehen in dem Menü andere Funktionen zur Verfügung. Bitte beachten Sie,
+dass diese Funktion nicht in jedem Browser zur Verfügung steht.   
+
 Bild einsetzen
 ==============
 

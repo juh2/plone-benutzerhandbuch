@@ -33,7 +33,7 @@ Das Bild selbst ist dabei ein Verweis auf seine Vollbilddarstellung, die nur
 das Bild in voller Auflösung und einen Verweis zurück zur Anzeigeansicht
 enthält. Sie können also zwischen der Anzeige und der Vollbilddarstellung hin-
 und herspringen. Sie gelangen auch über den Verweis :guilabel:`Zeige Bild in
-voler Größe...` zur Vollbilddarstellung.
+voller Größe...` zur Vollbilddarstellung.
 
 Die Bearbeitungsansicht eines Bildes enthält neben den allgemeinen
 Feldern wie Titel und Beschreibung ein Formularfeld, mit dem Sie eine

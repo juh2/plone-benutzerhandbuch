@@ -168,7 +168,7 @@ Voraussetzungen bei den Freigabeeinstellungen und den Arbeitsabläufen
 erfüllt sein.
 
 +--------------------------------------+----------------------------------------------------------------------+
-| Arbeitsschritt                       | Freigabe                                                             |
+| Arbeitsschritt                       | Einstellung in Ansicht ›Freigabe‹                                    |
 +======================================+======================================================================+
 | Arbeitskopie erstellen               | »Kann hinzufügen« im übergeordneten Ordner                           |
 +--------------------------------------+----------------------------------------------------------------------+
