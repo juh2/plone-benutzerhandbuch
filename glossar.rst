@@ -284,13 +284,27 @@ Glossar
       Betriebssystemen installiert werden. 
 
    HTTP
-      n.n.
+      Das Hypertext Transfer Protocol (HTTP, dt.
+      Hypertext-Übertragungsprotokoll) ist ein Protokoll zur Übertragung von
+      Daten über ein Netzwerk. Es wird hauptsächlich eingesetzt, um Webseiten
+      aus dem World Wide Web (WWW) in einen Webbrowser zu laden. (Quelle:
+      Wikipedia)
 
    HTTPS
-      n.n.
+      HTTPS steht für HyperText Transfer Protocol Secure (dt. sicheres
+      Hypertext-Übertragungsprotokoll) und ist ein Verfahren, um Daten im World
+      Wide Web abhörsicher zu übertragen. (Quelle: Wikipedia) 
 
    FTP
-      n.n.
+      Das File Transfer Protocol (dt. Dateiübertragungsverfahren, kurz FTP),
+      ist ein 1985 spezifiziertes Netzwerkprotokoll zur Übertragung von Dateien
+      über IP-Netzwerke.  
 
    Interface
-      n.n.
+      Ein Interface ist ein Python-Objekt, das das nach außen hin gerichtete
+      Verhalten eines Objekts, das dieses Interface zur Verfügung stellt,
+      beschreibt. Die Spezifizierung des Verhaltens erfolgt durch Dokumentation
+      im Docstring des Interfaces sowie durch die Definition von Attributen und
+      Invarianten. Interfaces bilden die Grundlage des komponentenbasierten
+      Programmierens.   
+       
