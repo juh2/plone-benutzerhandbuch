@@ -261,10 +261,9 @@ Einstellungsmöglichkeiten im Bearbeitungsformular von Terminportlets
 * zu berücksichtigende Status (siehe die Erläuterung zum
   Nachrichtenportlet)
 
-.. _sec_statisches-portlet-hinzufuegen:
+.. todo:: auf persönlicher Seite nicht möglich. Woanders einordnen!
 
-.. todo:: auf persönlicher Seite nicht möglich, woanders
-   	  einordnen
+.. _sec_statisches-portlet-hinzufuegen:
 
 Statisches Portlet
 ~~~~~~~~~~~~~~~~~~
@@ -452,11 +451,20 @@ Porträt
 Einige Ihrer persönlichen Informationen werden auf der Website anderen
 Benutzern zugänglich gemacht. So gelangen andere Benutzer
 beispielsweise über einen Verweis in der Verfasserzeile eines Artikels
-auf ein Rückmeldeformular (siehe Abbildung
-:ref:`rueckmeldung-an-autor`, über das sie mit Ihnen Kontakt aufnehmen
+auf ein Formular (siehe Abbildung
+:ref:`fig_rueckmeldung-an-autor`), über das sie mit Ihnen Kontakt aufnehmen
 können. In diesem Formular werden der Benutzername, die Biographie,
 und der Ort aus Ihren persönlichen Informationen angezeigt. 
 
+.. _fig_rueckmeldung-an-autor:
+
+.. figure::
+   ../images/rueckmeldung-an-autor.*
+   :width: 100%
+   :alt: Das Formular, mit dem man dem Autor eine E-Mail senden kann
+
+   Kontaktformular 
+   
 Das Formular verschickt Nachrichten an die E-Mail-Adresse, die Sie bei
 der Anmeldung oder in den persönlichen Informationen angegeben haben,
 sodass anonyme Besucher die Adresse nicht zu sehen bekommen. Die

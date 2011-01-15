@@ -387,6 +387,8 @@ Details
       Beim Hochladen eines Bildes skaliert Plone das Bild automatisch
       in diesen Größen. 
 
+.. _sec_anker-setzen:
+
 Anker setzen
 ============
 
@@ -475,12 +477,12 @@ Bibliothek
    Extern
       Über diesen Verweis öffnen Sie das Dialogfenster, um einen
       Verweis auf einen andere Website einzufügen (siehe Kapitel
-      :ref:`tinymce-externen-link-einfuegen`).
+      :ref:`sec_tinymce-externen-link-einfuegen`).
 
    E-Mail
       Über diesen Link öffnen Sie das Dialogfenster, mit dem Sie eine
       E-Mail-Adresse als Link einfügen können (siehe Kapitel
-      :ref:`tinymce-e-mail-einfuegen`)
+      :ref:`sec_tinymce-e-mail-einfuegen`)
 
    Anker
       Über diesen Verweis öffnen Sie das Dialogfenster, mit dem Sie
@@ -526,6 +528,7 @@ Datei hochladen
    hochladen müssen, können Sie dies über die Schaltfläche
    :guilabel:`Datei hochladen` tun. 
 
+.. _sec_tinymce-externen-link-einfuegen:
 
 Verweis auf andere Website einfügen
 -----------------------------------
@@ -572,6 +575,7 @@ Vorschau
    betätigen, wird die angegebene Website unten im Fenster
    :guilabel:`Vorschau` angezeigt.
 
+.. _sec_tinymce-e-mail-einfuegen:
 
 E-Mail-Adresse als Link einfügen
 --------------------------------

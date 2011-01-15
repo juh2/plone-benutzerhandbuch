@@ -64,6 +64,7 @@ Verweis mit der Bezeichnung »Klicken Sie hier, um festzulegen, welche
 Artikeltypen hier hinzugefügt werden dürfen…«. Dieser Verweis bringt
 Sie zu einem Formular, das im nächsten Abschnitt beschrieben wird.
 
+.. _sec_artikeltypen-einschraenken:
 
 Hinzufügbare Artikeltypen einschränken
 --------------------------------------
@@ -127,7 +128,7 @@ Hinzufügen mit Wiki-Verweisen
 
 Neue Artikel lassen sich auch ähnlich wie in einem Wiki
 hinzufügen. Wenn Ihre Website entsprechend konfiguriert ist (siehe
-Kapitel :ref:`konfiguration-bearbeiten`), können Sie dazu Verweise auf
+Kapitel :ref:`sec_konfiguration-bearbeiten`), können Sie dazu Verweise auf
 noch nicht existierende Artikel erzeugen.
 
 Wenn Sie den Haupttext einer Seite, einer Nachricht oder eines Termins
@@ -187,8 +188,8 @@ zurück.
 
 Kurznamen zu bearbeiten muss, sowohl für die Website als auch in Ihren
 persönlichen Einstellungen erlaubt sein (siehe Kapitel
-:ref:`konfiguration-bearbeiten` und
-:ref:`sec_persoenliche-einstellungen`). Ist dies der Fall finden Sie
+:ref:`sec_konfiguration-bearbeiten` und
+:ref:`sec_meine-einstellungen`). Ist dies der Fall finden Sie
 in der Bearbeitungsansicht der Artikel ganz oben über dem Titelfeld
 das Feld für den Kurznamen. So können Sie den Kurznamen eines neu
 hinzugefügten Artikels bestimmen, aber auch einen Artikel später
@@ -249,6 +250,8 @@ Kurznamen vergibt Plone in der Voreinstellung automatisch, indem das
 System einen Namen, der sich vom Titel des Artikels ableitet, erzeugt.
 Dabei ersetzt Plone nicht erlaubte Zeichen und vermeidet doppelt
 vergebene Kurznamen im selben Ordner, indem es eine Zahl anhängt.
+
+.. _sec_kopieren-verschieben-loeschen:
 
 Kopieren, Verschieben und Löschen
 =================================

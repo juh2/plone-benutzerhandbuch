@@ -1,4 +1,4 @@
-.. _sec_konfiguration=textauszeichnung: 
+.. _sec_konfiguration-textauszeichnung: 
 
 ================
 Textauszeichnung

@@ -77,7 +77,7 @@ Der Arbeitsablauf regelt auch, unter welchen Bedingungen man eine
 Statusänderung vornehmen darf. So darf man beispielsweise einen
 Artikel nur dann veröffentlichen, wenn man in dem Ordner, in dem sich
 der Artikel befindet, das Recht zum Veröffentlichen hat. In Abschnitt
-:ref:`sec_zugriffsrechte-ansicht` wird beschrieben, wie diese Rechte
+:ref:`sec_ansicht-freigabe` wird beschrieben, wie diese Rechte
 in einzelnen Ordnern zugewiesen werden können. Wenn Sie also in einem
 Ordner veröffentlichen dürfen, können Sie dort die im Folgenden
 beschriebenen Aufgaben eines Redakteurs wahrnehmen.
@@ -122,7 +122,7 @@ veröffentlicht wurden. Siehe Abbildung :ref:`fig_workflow-einfach`.
 Es können für ausgewählte Benutzer und Benutzergruppen Ausnahmen
 eingerichtet werden, indem man ihnen die Inhalte in bestimmten Ordnern
 zur Ansicht oder zur Bearbeitung freigibt. Näheres hierzu erfahren Sie
-in Kapitel :ref:`sec_zugriffsrechte-ansicht`.  
+in Kapitel :ref:`sec_ansicht-freigabe`.  
 
 Der einfache Arbeitsablauf umfasst drei Status:
 

@@ -4,7 +4,7 @@
  Fehler
 ========
 
-Wenn es in Plone zu einer Fehlfunktion kommt, schreibt das Programm ein Fehlerprotokoll, mit dem es möglich ist, die Ursache des Fehlers zu finden. Die jeweils jüngsten Protokolle werden hier aufgelistet (siehe Abbildung :ref:`konfiguration-fehler`).
+Wenn es in Plone zu einer Fehlfunktion kommt, schreibt das Programm ein Fehlerprotokoll, mit dem es möglich ist, die Ursache des Fehlers zu finden. Die jeweils jüngsten Protokolle werden hier aufgelistet (siehe Abbildung :ref:`fig_konfiguration-fehler`).
 
 .. _fig_konfiguration-fehler:
 

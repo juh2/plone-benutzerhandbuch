@@ -1,3 +1,5 @@
+.. _sec_erzeugung-plone-site:
+
 Erzeugung einer Plone-Site
 ==========================
 
@@ -45,7 +47,7 @@ Erweiterungen
     In diesem Feld können Sie die verfügbaren Erweiterungen installieren. Hier
     tauchen diejenigen Erweiterungen auf, die Sie installiert haben. Wie Sie
     Erweiterungen installieren, erfahren Sie in Kapitel
-    :ref:`konfiguration-erweiterungen`.
+    :ref:`sec_konfiguration-erweiterungen`.
 
 Klicken Sie abschließend auf :menuselection:`Erzeuge Plone-Site`, um die
 Plone-Site in der gewünschten Konfiguration zu erzeugen. 

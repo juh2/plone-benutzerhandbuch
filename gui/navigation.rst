@@ -160,6 +160,8 @@ jeweiligen Artikel. Listen mit mehr als 30 Treffern werden auf mehrere
 Seiten verteilt, wobei Sie jeweils am Ende der Seiten Verweise zu den
 anderen Teillisten finden.
 
+.. _sec_sofortsuche: 
+
 Suchfeld
 --------
 

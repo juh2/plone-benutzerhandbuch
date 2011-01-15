@@ -1,4 +1,4 @@
-.. _sec_benutzer-funktionen:
+.. _sec_funktionen:
 
 ============
  Funktionen

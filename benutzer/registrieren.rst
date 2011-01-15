@@ -109,7 +109,7 @@ angemeldet (siehe Abbildung :ref:`fig_anmeldebestaetigung`:).
 
 .. todo:: Übersetzung geändert, neuen Screenshots einfügen
 
-.. _fig_anmeldebstaetigung:
+.. _fig_anmeldebestaetigung:
 
 .. figure::
    ../images/anmeldebestaetigung.*

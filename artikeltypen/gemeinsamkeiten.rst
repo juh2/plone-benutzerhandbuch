@@ -27,7 +27,7 @@ zwischen den für Sie verfügbaren Ansichten eines Artikels wechseln.
 
 Anzeige und Bearbeitungsansicht sind in ihren Grundzügen für alle Artikel
 gleich. Sie werden direkt im Anschluss erläutert, die Ansicht »Freigabe« in
-Abschnitt :ref:`sec_zugriffsrechte-ansicht`.
+Abschnitt :ref:`sec_ansicht-freigabe`.
 
 
 .. _sec_gemeinsamkeiten-anzeige:
@@ -160,7 +160,7 @@ Bearbeitungsansicht
 Jeder Artikel besitzt eine Bearbeitungsansicht, in der man alle
 seine Merkmale verändern kann. Ob Sie einen Artikel überhaupt modifizieren
 dürfen, hängt von Ihren Rechten und vom Status des Artikels ab (siehe
-Abschnitte :ref:`sec_benutzer-funktionen` und :ref:`sec_workflow`).
+Abschnitte :ref:`sec_funktionen` und :ref:`sec_workflow`).
 
 Es handelt sich bei der Bearbeitungsansicht um ein gegliedertes
 Formular, das aus folgenden Teilen besteht:
@@ -346,6 +346,8 @@ Ablaufdatum
  Sie können das Datum bei beiden Feldern mit Hilfe des aufklappbaren Kalenders
  eingeben, den Sie über das Kalendersymbol zwischen Datum und Uhrzeit
  erreichen (siehe Abbildung :ref:`fig_kalenderpopup`).
+
+ .. _fig_kalenderpopup:
 
  .. figure::
     ../images/kalender-popup.* 

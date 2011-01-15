@@ -426,7 +426,7 @@ möchten, die Portletverwaltung auf und wählen Sie im Auswahlmenü
 Formular (siehe Abbildung :ref:`fig_kollektionsportlet-hinzufuegen`), in dem Sie
 die notwendigen Einstellungen vornehmen können.
 
-.. _fig_portlet-hinzufuegen:
+.. _fig_kollektionsportlet-hinzufuegen:
 
 .. figure::
    ../images/kollektionsportlet-hinzufuegen.*

@@ -41,6 +41,8 @@ Symbole.
 | |kollektion|   | Kollektion          |
 +----------------+---------------------+
 
+
+
 .. toctree::
    :maxdepth: 1
 

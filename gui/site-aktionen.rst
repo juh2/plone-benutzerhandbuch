@@ -1,3 +1,5 @@
+.. _sec_gui-siteaktionen:
+
 ==========================
  Verweise in der Fußzeile
 ==========================

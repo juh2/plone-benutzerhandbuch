@@ -107,6 +107,8 @@ vorherigen und nächsten Artikel (siehe Abbildung :ref:`fig_vor-zurueck-navi`).
 Damit lässt sich beispielsweise ein langer Text in kleinere
 Abschnitte gliedern, durch die der Leser bequem blättern kann.
 
+.. _sec_inhaltsansicht-ordner:
+
 Inhaltsansicht
 ==============
 
@@ -201,6 +203,8 @@ Sortierung der Artikel in der Navigation. Denn die Artikel liegen im
 Ordner in der Reihenfolge, in der sie hinzugefügt wurden. In dieser
 Reihenfolge werden sie auch in den Ordneransichten und der Navigation
 angezeigt.
+
+
 
 Veränderung der Reihenfolge
 ---------------------------
