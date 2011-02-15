@@ -1,6 +1,8 @@
 Installation unter Windows
 ==========================
 
+.. hint:: Kapitel wird überarbeitet
+
 Laden Sie von der Website plone.org den Windows-Installer in der
 jeweils aktuellen Version herunter. Sie können dazu auch direkt den
 Link zur Download-Datei in die Adresszeile Ihres Browsers
