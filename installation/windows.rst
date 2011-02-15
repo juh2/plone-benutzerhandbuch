@@ -18,7 +18,7 @@ Abbildung :ref:`fig_win-installer-1` abgebildete Begrüßungsnachricht.
    
    Startbildschirm des Windows-Installers
 
-Klicken auf :menuselection:`Next`, um das Installationsprogramm zu
+Klicken Sie auf :menuselection:`Next`, um das Installationsprogramm zu
 starten. 
 
 Im nächsten Schritt wählen Sie den Ordner aus, in dem Plone installiert
@@ -35,9 +35,9 @@ können Sie den Vorschlag des Installationsprogramms übernehmen.
 
 
 Wenn Sie den Vorschlag des Installationsprogramms übernehmen,
-installieren Sie Plone systemweit. Sie können Plone auch in Ihrem
-Heimverzeichnis installieren, falls Sie das System lediglich
-ausprobieren möchten. Klicken Sie auf :menuselection:`Next`, um in der
+installieren Sie Plone systemweit. Sie können Plone auch in einem
+anderen Ordner, zum Beispiel Ihrem Heimverzeichnis
+installieren. Klicken Sie auf :menuselection:`Next`, um in der
 Installation fortzufahren.
 
 Im nächsten Schritt legen Sie das Benutzerkonto für den Administrator
@@ -81,7 +81,7 @@ Während der Installation informiert Sie ein Fortschrittsbalken (siehe Abbildung
 
 Falls Plone an der Stelle, wo Sie es installieren wollen, bereits installiert
 ist, bricht die Installation mit einer entsprechenden Meldung ab (siehe
-jbbildung :ref:`fig_win-installer-6`) 
+Abbildung :ref:`fig_win-installer-6`) 
 
 
 .. _fig_win-installer-6:

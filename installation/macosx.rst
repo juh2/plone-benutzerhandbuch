@@ -1,14 +1,17 @@
 Installation unter Mac OS X
 ===========================
 
-Wenn Sie von plone.org die Disk-Image-Datei mit dem Installationspaket für
-Plone 4 heruntergeladen, aktiviert und gemountet haben, sehen Sie drei Objekte:
-das Installationsprogramm, eine README-Datei im HTML-Format und einen Order
-mit den Lizenzbestimmungen für alle Komponenten des Installationspakets. 
+Wenn Sie von plone.org die Disk-Image-Datei mit dem Installationspaket
+für Plone 4 heruntergeladen, aktiviert und gemountet haben, sehen Sie
+drei Objekte: das Installationsprogramm, eine README-Datei im
+HTML-Format und einen Order mit den Lizenzbestimmungen für alle
+Komponenten des Installationspakets.
 
 .. figure::
    ../images/mac-installer-1.*
    :width: 80%
+   :alt: Der Inhalt des gemounteten Diskimages: Unified Installer,
+   	 README und Lizenzen 
 
    Der Inhalt des gemounteten Diskimages: Unified Installer, README und Lizenzen 
 
@@ -21,6 +24,7 @@ Begrüßungsnachricht (siehe die Abbildung :ref:`fig_mac-installer-2`)
 .. figure::
    ../images/mac-installer-2.*
    :width: 80%
+   :alt: Begrüßungsnachricht 
 
    Begrüßungsnachricht 
 
@@ -33,6 +37,7 @@ Abbildung :ref:`fig_mac-installer-3`)
 .. figure::
    ../images/mac-installer-3.*
    :width: 80%
+   :alt: Laufwerksauswahl
 
    Laufwerksauswahl
 
@@ -47,6 +52,7 @@ Heimverzeichnis noch nicht existiert, wird er bei der Installation erzeugt. Wäh
 .. figure::
    ../images/mac-installer-4.*
    :width: 80%
+   :alt: Auswahl des Installationstyps 
 
    Auswahl des Installationstyps 
 
@@ -70,6 +76,7 @@ haben. Sie werden anschließend aufgefordert, mit der Installation zu beginnen
 .. figure::
    ../images/mac-installer-5.*
    :width: 80%
+   :alt: Bestätigung der Installation 
 
    Bestätigung der Installation 
 
@@ -84,6 +91,7 @@ zweimal eingeben.
 .. figure::
    ../images/mac-installer-6.*
    :width: 80%
+   :alt: Aufforderung zur Festlegung eines Passworts
 
    Aufforderung zur Festlegung eines Passworts
 
@@ -98,12 +106,13 @@ Sie über den Fortgang der Installation.
 .. figure::
    ../images/mac-installer-8.*
    :width: 50%
+   :alt: Fortschrittsbalken
 
    Fortschrittsbalken
 
-Falls Plone an der Stelle, wo Sie es installieren wollen, bereits installiert
-ist, bricht die Installation mit einer entsprechenden Meldung ab (siehe
-jbbildung :ref:`fig_mac-installer-7`) 
+Falls Plone an der Stelle, wo Sie es installieren wollen, bereits
+installiert ist, bricht die Installation mit einer entsprechenden
+Meldung ab (siehe Abbildung :ref:`fig_mac-installer-7`)
 
 
 .. _fig_mac-installer-7:
@@ -111,6 +120,7 @@ jbbildung :ref:`fig_mac-installer-7`)
 .. figure::
    ../images/mac-installer-7.*
    :width: 50%
+   :alt: Meldung über den Abbruch der Installation
 
    Meldung über den Abbruch der Installation
 
@@ -147,6 +157,7 @@ Verfügung stellt (siehe Abbildung :ref:`fig_plonecontroller`).
 .. figure::
    ../images/plonecontroller.*
    :width: 50%
+   :alt: PloneController
 
    PloneController
 

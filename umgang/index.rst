@@ -24,4 +24,4 @@ Artikeln als Teil Ihrer Website umgehen:
    arbeitskopie.rst
    kommentare.rst
    syndizierung.rst
-   externereditor.rst
+..   externereditor.rst

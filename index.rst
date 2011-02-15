@@ -42,6 +42,7 @@ Installation
    installation/macosx.rst
    installation/windows.rst
    installation/plone-site-erzeugen.rst
+   installation/aktualisierung.rst
 
 Tutorien
 ========
