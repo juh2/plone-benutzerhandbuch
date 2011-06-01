@@ -19,6 +19,12 @@ Das Plone 4 Benutzerhandbuch
              <_build/latex/Plone-Benutzerhandbuch-4.0.pdf>` oder
              :download:`ePub <_build/epub/Plone-Benutzerhandbuch40.epub>`
 
+             `Bitte unterstützen Sie das Plone Benutzerhandbuch!`_ 
+             
+             
+
+.. _`Bitte unterstützen Sie das Plone Benutzerhandbuch!`: http://www.hasecke.com/texte/unterstuetzen-sie-das-plone-benutzerhandbuch
+
 Einleitung
 ==========
 
