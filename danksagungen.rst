@@ -29,6 +29,7 @@ dieses Buch nie entstanden:
 
 * `catWorkX GmbH, Hamburg`_ 
 
+* `Syslab.com, München`_
 
 .. _`Charlie Clark Consulting, Düsseldorf`: mailto:charlie.clark@clark-consulting.eu 
 
@@ -43,3 +44,5 @@ dieses Buch nie entstanden:
 .. _`30 doradus media design gmbh, Monheim`: http://www.doradus.de
 
 .. _`catWorkX GmbH, Hamburg`: http://www.catworkx.de/
+
+.. _`Syslab.com, München`: http://syslab.com
