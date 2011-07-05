@@ -1,6 +1,8 @@
 {% extends "!layout.html" %}
 
-
+{% block extrahead %}
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+{% endblock %}
 
 {%- macro sidebar() %}
       {%- if not embedded %}{% if not theme_nosidebar|tobool %}
@@ -56,11 +58,14 @@
               <p class="searchtip" style="font-size: 90%">
               {{ _('Enter search terms or a module, class or function name.') }}
               </p>
+	      <p class="topless"><g:plusone></g:plusone></p>
           </div>
           <script type="text/javascript">$('#searchbox').show(0);</script>
           {%- endif %}
           {%- endblock %}
+
         </div>
+
       </div>
       {%- endif %}{% endif %}
 {%- endmacro %}
