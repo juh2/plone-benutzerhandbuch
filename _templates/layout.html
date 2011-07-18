@@ -9,6 +9,8 @@
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
           {%- block sidebarlogo %}
+          <div class="portletheader">Weiterempfehlen</div>
+	      <p class="topless"><g:plusone></g:plusone></p>
           {%- if logo %}
             <p class="logo"><a href="{{ pathto(master_doc) }}">
               <img class="logo" src="{{ pathto('_static/' + logo, 1) }}" alt="Logo"/>
@@ -58,7 +60,6 @@
               <p class="searchtip" style="font-size: 90%">
               {{ _('Enter search terms or a module, class or function name.') }}
               </p>
-	      <p class="topless"><g:plusone></g:plusone></p>
           </div>
           <script type="text/javascript">$('#searchbox').show(0);</script>
           {%- endif %}
