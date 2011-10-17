@@ -14,7 +14,7 @@ Aktuelle Version bestimmen
 
 Öffnen Sie das Konfigurationsmenü Ihrer Plone-Website und schauen Sie nach, mit welcher Version Ihre Website zurzeit läuft (siehe dazu Kapitel :ref:`sec_konfiguration-menu`). Die im Konfigurationsmenü angegebene Plone-Version bezeichnen wir im Folgenden als Ausgangsversion und die neue Version als Zielversion. Durch einen Vergleich der Versionsnummern können Sie feststellen, ob es sich um einen kleineren (Minor) oder größeren (Major) Release-Schritt handelt. Wenn sich Ausgangs- und Zielversion nur an der dritten Stelle voneinander unterscheiden, handelt es sich um ein neues Minor-Release. Ein Beispiel wäre der Wechsel von 4.0.2 zu 4.0.3, der im Folgenden beschrieben wird.
 
-Eine größerer Release-Schritt wäre der Wechsel von 4.0.2 zu 4.1.0. Und ein Upgrade auf eine komplett neue Version liegt vor, wenn Sie beispielsweise von 3.3.5 auf 4.0.3 aktualisieren möchten.
+Eine größerer Release-Schritt ist der Wechsel von 4.0.2 zu 4.1.0. Und ein Upgrade auf eine komplett neue Version liegt vor, wenn Sie beispielsweise von 3.3.5 auf 4.0.3 aktualisieren möchten.
 
 Der Wechsel von einer Minor-Release zur nächsten sollte bei einer Standard-Plone-Website ohne Probleme möglich sein. 
 
