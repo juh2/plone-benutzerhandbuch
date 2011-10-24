@@ -31,6 +31,8 @@ dieses Buch nie entstanden:
 
 * `Syslab.com, München`_
 
+* `XHOSTPLUS, Feld am See`_
+
 .. _`Charlie Clark Consulting, Düsseldorf`: mailto:charlie.clark@clark-consulting.eu 
 
 .. _`Fafalter GmbH, Düsseldorf`: http://www.fafalter.de
@@ -46,3 +48,5 @@ dieses Buch nie entstanden:
 .. _`catWorkX GmbH, Hamburg`: http://www.catworkx.de/
 
 .. _`Syslab.com, München`: http://syslab.com
+
+.. _`XHOSTPLUS, Feld am See`: http://www.xhostplus.at
