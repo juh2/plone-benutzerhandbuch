@@ -11,6 +11,9 @@
 Das Plone 4 Benutzerhandbuch
 ============================
 
+.. todo:: 
+   Layout vom epub verbessern. Siehe Kieslowski-Buch.
+
 .. only:: html
 
    .. hint:: Hier entsteht das Benutzerhandbuch für Plone 4.
