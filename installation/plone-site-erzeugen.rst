@@ -20,6 +20,8 @@ aufzurufen, mit dem Sie eine Plone-Site anlegen können (siehe Abbildung
 :term:`Zope-Management-Interface` oder die Homepage des Plone-Projekts
 http://plone.org aufrufen.
 
+.. todo:: Neuer Screenshot
+
 .. _fig_erzeuge-eine-plone-site:
 
 .. figure::

@@ -1,5 +1,8 @@
 .. |close| image:: ../images/pb_close.png
 
+.. todo:: Komplett überarbeiten, da neu strukturiert.
+   	  Achtung! Beachten, dass neue Kollektionen installiert werden müssen.
+ 
 .. _sec_kollektion:
 
 ============

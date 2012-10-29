@@ -40,7 +40,7 @@ Ihren Benutzernamen und Ihr Passwort sowie eine Schaltfläche zum Anmelden
    :alt: Zwei Anmeldeportlets, links mit Feld für Benutzername, rechts
    	 für E-Mail-Adresse
 
-   Anmeldeportlets
+   Anmeldeportlets (Benutzername/E-Mail-Adresse)
 
 .. _fig_anmeldeformular:
 
@@ -261,7 +261,8 @@ Einstellungsmöglichkeiten im Bearbeitungsformular von Terminportlets
 * zu berücksichtigende Status (siehe die Erläuterung zum
   Nachrichtenportlet)
 
-.. todo:: auf persönlicher Seite nicht möglich. Woanders einordnen!
+.. todo:: auf persönlicher Seite nicht möglich. Im Kapitel
+   	  gui/portlets einfügen
 
 .. _sec_statisches-portlet-hinzufuegen:
 

@@ -18,7 +18,7 @@ die sich mit der Organisation von Seminaren beschäftigt. Auf dieser Website
 gibt es einen Ordner »Veranstaltungen« mit einigem Inhalt. Der Inhalt Ihrer
 Website hängt natürlich davon ab, was Ihr Administrator dort bereits angelegt
 hat, und wird sich in Einzelheiten vom Buch unterscheiden. Der Lesbarkeit
-halber geht der Buchtext auf diese Abweichungen nicht ein.
+halber geht der Text auf diese Abweichungen nicht ein.
 
 Aktivieren Sie in den Einstellungen Ihres Webbrowsers Javascript, bevor Sie
 mit den Tutorien beginnen, sonst stehen Ihnen einige Funktionen in

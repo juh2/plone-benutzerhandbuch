@@ -280,6 +280,8 @@ In der mittleren Spalte des Fensters befindet sich außerdem die Schaltfläche
 über das Sie ein Bild in den angewählten Ordner hochladen können (siehe
 Abbildung :ref:`fig_kupu-bild-hochladen`).
 
+.. todo:: Screenshot erneuern
+
 .. _fig_kupu-bild-hochladen:
 
 .. figure:: ../images/hier-bild-hochladen.*

@@ -20,10 +20,10 @@ werden wichtige Erweiterungen beschrieben.
 
 Die HTML-Fassung dieses Buches sowie eine PDF-Version und ein eBook, die
 heruntergeladen werden können, finden Sie unter:
-http://www.hasecke.com/plone-benutzerhandbuch/4.1/.  Den Quellcode dieser
+http://www.hasecke.com/plone-benutzerhandbuch/4.2/.  Den Quellcode dieser
 Dokumentation finden Sie auf Launchpad_. 
 
-Die Dokumentation basiert in weiten Teilen auf dem Plone-Benutzerhandbuch für
+Die Dokumentation basiert in Teilen auf dem Plone-Benutzerhandbuch für
 Plone 3 [#]_ von Thomas Lotze und Jan Ulrich Hasecke, das unter
 http://plonebook.info erhältlich ist. 
 

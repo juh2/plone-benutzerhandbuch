@@ -63,6 +63,7 @@ Unterschied auszumachen.
 Dort hat Plone jetzt eine Tabelle erzeugt, deren bisher einziger Eintrag die
 gerade angelegte Seite ist (siehe Abbildung :ref:`fig_folder-with-object`).
 
+.. todo:: Neuer Screenshot Kosmetik
 
 .. _fig_folder-with-object:
 
@@ -91,6 +92,8 @@ Abbildung :ref:`fig_folder-order`).
 Ändern Sie nun die Reihenfolge der Einträge. Die Inhaltsansicht des Ordners
 enthält dazu ganz links für jeden Artikel ein Symbol, das aus mehreren Punkten
 besteht (siehe Abbildung :ref:`fig_folder-order-change`).
+
+.. todo:: Neuer Screenshot, Kosmetik
 
 .. _fig_folder-order-change:
 

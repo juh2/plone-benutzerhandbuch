@@ -1,12 +1,13 @@
 Voraussetzungen
 ===============
 
-Das CMS Plone 4 benötigt Python_ in der Version 2.6_ und Zope_ in der Version
-2.12_. Python ist eine objektorientierte Programmiersprache. Zope ist ein auf
-Python basierender Webapplikationsserver. 
+Das CMS Plone 4 benötigt in der Version |release| Python_ in der
+Version 2.7_ und Zope_ in der Version 2.13_. Python ist eine
+objektorientierte Programmiersprache. Zope ist ein auf Python
+basierender Webapplikationsserver.
 
 Plone wird mit Hilfe des :term:`Buildsystems <Buildsystem>` zc.buildout_
-installiert. Mit Buildout lassen sich zum Beispiel plattformübergreifend
+installiert. Mit Buildout lassen sich plattformübergreifend
 identisch konfigurierte Entwicklungs- und Produktivumgebungen installieren und
 pflegen. Dabei übernimmt Buildout nicht nur die Installation der benötigten
 Plone- und Zope-Pakete, sondern kann auch zur Installation anderer Komponenten
@@ -24,6 +25,8 @@ Verfügung, die so genannten :term:`Unified Installer`, mit deren Hilfe Sie alle
 benötigten Komponenten einfach und schnell installieren können. Auf der Website
 des Plone-Projekts finden Sie die verfügbaren Installationspakete unter der
 Adresse http://plone.org/products/plone
+
+.. todo:: Neuer Screenshot
 
 .. _ploneorg-download-optionen:
 
@@ -44,11 +47,11 @@ muss zudem :term:`XCode` installiert sein.
 
 .. _Python: http://www.python.org
 
-.. _2.6: http://python.org/download/releases/2.6.5/
+.. _2.7: http://python.org/download/releases/2.7.3/
 
 .. _Zope: http://www.zope.de
 
-.. _2.12: http://docs.zope.org/zope2/releases/2.12/index.html
+.. _2.13: http://docs.zope.org/zope2/releases/2.13/index.html
 
 .. _Entwicklungsumgebung: http://www.plone-entwicklerhandbuch.de/plone-entwicklerhandbuch/entwicklungsumgebung
 

@@ -33,6 +33,8 @@ dieses Buch nie entstanden:
 
 * `XHOSTPLUS, Feld am See`_
 
+* `Python Software Verband e.V.`_
+
 .. _`Charlie Clark Consulting, Düsseldorf`: mailto:charlie.clark@clark-consulting.eu 
 
 .. _`Fafalter GmbH, Düsseldorf`: http://www.fafalter.de
@@ -50,3 +52,5 @@ dieses Buch nie entstanden:
 .. _`Syslab.com, München`: http://syslab.com
 
 .. _`XHOSTPLUS, Feld am See`: http://www.xhostplus.at
+
+.. _`Python Software Verband e.V.`: http://www.python-verband.org

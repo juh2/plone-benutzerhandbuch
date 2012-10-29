@@ -20,12 +20,15 @@ Installation von Erweiterungen nachgerüstet werden.
    aussehen.rst
    bearbeiten.rst
    benutzer-und-gruppen.rst
+   diazo.rst
    email.rst
    erweiterungen.rst
    fehler.rst
    html-filter.rst
    handhabung-bilder.rst
    kalender.rst
+   kommentare.rst
+   konfigurationseintraege.rst
    kollektionen.rst
    navigation.rst
    regeln.rst

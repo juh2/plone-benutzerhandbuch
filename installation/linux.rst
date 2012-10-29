@@ -1,16 +1,18 @@
 Installation unter Linux
 ========================
 
+.. todo:: Pfade und Namen der neuen Versionen überprüfen
+
 Laden Sie von plone.org das gepackte Archiv mit dem :term:`Unified Installer`
 für Linux herunter und entpacken Sie das Archiv.::
 
-    wget http://launchpad.net/plone/4.0/4.0.0/+download/Plone-4.0-UnifiedInstaller.tgz
+    wget http://launchpad.net/plone/4.2/4.2.0.1/+download/Plone-4.2-UnifiedInstaller.tgz
 
-    tar -xvf Plone-4.0-UnifiedInstaller.tgz
+    tar -xvf Plone-4.2-UnifiedInstaller.tgz
 
 Wechseln Sie anschließend in den entstandenden Ordner. [#]_ ::
 
-    cd Plone-4.0-UnifiedInstaller
+    cd Plone-4.2-UnifiedInstaller
 
 In der Datei :file:`README.txt` finden Sie Informationen darüber, welche
 Optionen Ihnen bei der Installation von Plone zur Verfügung stehen. Diese sind
@@ -32,11 +34,12 @@ erzeugt, unter dem Zope laufen wird. Plone muss dann entweder mit
 Installation ohne Root-Rechte
 -----------------------------
 
-Sie können Plone unter Ihrem normalen Benutzerkonto installieren. Plone wird
-dann in Ihrem Heimverzeichnis installiert unter :file:`$HOME/Plone`. Sie müssen
-sich dann mit Ihrem Benutzernamen anmelden, um Plone zu starten. Plone wird
-dann auch mit Ihren Benutzerrechten laufen. Dies ist in der Regel für
-Produktivsysteme nicht wünschenswert. 
+Sie können Plone unter Ihrem normalen Benutzerkonto
+installieren. Plone wird dann in Ihrem Heimverzeichnis installiert
+unter :file:`$HOME/Plone`. Sie müssen sich dann mit Ihrem
+Benutzernamen anmelden, um Plone zu starten. Plone wird mit Ihren
+Benutzerrechten laufen. Dies ist in der Regel für Produktivsysteme
+nicht wünschenswert.
 
 Stand-alone-Installation
 ------------------------
@@ -56,7 +59,7 @@ ZEO-Cluster-Installation
 ------------------------
 
 Bei einer ZEO-Cluster-Installation werden Vorkehrungen zum Loadbalancing
-getroffen. Es wird ein ZEO-Server und zwei Zope-Clients installiert. Wählen Sie
+getroffen. Es werden ein ZEO-Server und zwei Zope-Clients installiert. Wählen Sie
 diese Installationsart für Produktivsysteme. 
 
 Auch hier können Sie die Installation als root mit :command:`sudo` oder unter
@@ -116,4 +119,4 @@ http://localhost:8080 aufrufen.
 
 
 
-.. [#] Bitte beachten Sie, dass das Beispiel von der Version 4.0 ausgeht. Die Version 4.0 wird von der Plone Community laufend gepflegt. Es erscheinen kleinere Aktualisierungen, die die Bezeichnung 4.0.X tragen, wobei X eine Zahl ist, die fortlaufend erhöht wird. 4.0.1 ist die erste Maintenance-Release nach 4.0, 4.0.2 die zweite. Konsultieren Sie plone.org, um die aktuelle Version herunterzuladen. 
+.. [#] Bitte beachten Sie, dass das Beispiel von der Version 4.2 ausgeht. Die Version 4.2 wird von der Plone Community laufend gepflegt. Es erscheinen kleinere Aktualisierungen, die die Bezeichnung 4.2.X tragen, wobei X eine Zahl ist, die fortlaufend erhöht wird. 4.2.1 ist die erste Maintenance-Release nach 4.2, 4.2.2 die zweite. Konsultieren Sie plone.org, um die aktuelle Version herunterzuladen. 

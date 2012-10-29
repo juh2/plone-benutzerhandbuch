@@ -15,6 +15,8 @@ Haupttext. Letzterer wird im Termin als »Terminankündigung« bezeichnet.  Dort
 haben Sie die Möglichkeit, einen Text mit Zwischenüberschriften, Bildern,
 Tabellen und anderen Elementen einzugeben.
 
+.. todo:: Neuer Screenshot
+
 .. _fig_termin:
 
 .. figure:: ../images/termin.*

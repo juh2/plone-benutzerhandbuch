@@ -1,8 +1,8 @@
 .. _sec_konfiguration-bearbeiten:
 
-============
- Bearbeiten
-============
+=============
+ Bearbeitung
+=============
 
 In diesem Bereich des Konfigurationsmenüs können Sie das Verhalten von Plone
 beim Bearbeiten von Artikeln beeinflussen (siehe Abbildung

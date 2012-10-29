@@ -99,6 +99,8 @@ Unterkollektionen nicht enthalten: wenn für sie die Syndizierung aktiviert
 ist, haben sie ihre eigenen RSS-Feeds.
 
 
+.. todo:: Kontrollieren, ob Syndizierung so nocht funktioniert
+
 .. _sec_syndizierung-ansicht:
 
 Artikelansicht »Syndizierung«

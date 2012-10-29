@@ -220,6 +220,7 @@ Sie diese Funktionen benutzen wollen, müssen Sie eine reguläre
 Suchanfrage über die Schaltfläche :guilabel:`Suche` durchführen oder
 die erweiterte Suche benutzen.
 
+
 Erweiterte Suche
 ----------------
 
@@ -229,6 +230,8 @@ verfeinern, indem Sie beispielsweise die zu durchsuchenden
 Artikeleigenschaften einschränken oder andere Suchkriterien als die
 Volltextsuche auswählen. Das Formular für die erweiterte Suche (siehe
 Abbildung :ref:`fig_erweiterte-suche`) ist folgendermaßen aufgebaut.
+
+.. todo:: Neuer Screenshot und neue Beschreibung
 
 .. _fig_erweiterte-suche:
 

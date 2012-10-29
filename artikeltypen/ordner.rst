@@ -115,6 +115,8 @@ Inhaltsansicht
 Wenn Sie den Inhalt eines Ordners verwalten dürfen, erhalten Sie Zugriff auf
 seine Inhaltsansicht (siehe Abbildung :ref:`fig_ordnerinhalt`).
 
+.. todo:: Neuer Screenshot, Kosmetik
+
 .. _fig_ordnerinhalt:
 
 .. figure:: ../images/ordnerinhalt.png

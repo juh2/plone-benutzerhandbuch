@@ -79,6 +79,7 @@ einer Seite mit Suchresultaten (siehe Abb.: :ref:`fig_suchresultate-stichwort`
 ) führen, auf der alle Artikel aufgelistet werden, die mit dem entsprechenden
 Stichwort versehen wurden. 
 
+.. todo:: Neuer Screenshot
 
 .. _fig_suchresultate-stichwort:
 
@@ -258,6 +259,8 @@ Informationen werden als Metadaten bezeichnet (siehe Abschnitt
 :ref:`sec_exkurs-metadaten`). Um weitere Metadaten geht es in den
 Teilformularen »Datum« und »Urheber«.
 
+.. todo:: Neuer Screenshot, neue Widgets
+
 .. _fig_seite-bearbeiten-kategorisierung:
 
 .. figure:: ../images/seite-bearbeiten-kategorisierung.png
@@ -346,6 +349,8 @@ Ablaufdatum
  Sie können das Datum bei beiden Feldern mit Hilfe des aufklappbaren Kalenders
  eingeben, den Sie über das Kalendersymbol zwischen Datum und Uhrzeit
  erreichen (siehe Abbildung :ref:`fig_kalenderpopup`).
+
+.. todo:: Neuer Screenshot, Kosmetik
 
  .. _fig_kalenderpopup:
 

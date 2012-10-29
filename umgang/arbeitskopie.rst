@@ -27,6 +27,8 @@ Artikels arbeiten wollen, betätigen Sie im Menü »Aktionen« den Eintrag
 
    Eine Arbeitskopie erstellen
 
+.. todo:: Prüfen wann man Arbeitskopie im Heimordner erstellen kann. 
+
 Sie werden zu einer Seite weitergeleitet, auf der Sie entscheiden
 können, ob die Arbeitskopie in Ihrem persönlichen Ordner
 (:guilabel:`Heimordner`) oder im gleichen Ordner wie das Original
