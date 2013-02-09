@@ -26,8 +26,6 @@ benötigten Komponenten einfach und schnell installieren können. Auf der Websit
 des Plone-Projekts finden Sie die verfügbaren Installationspakete unter der
 Adresse http://plone.org/products/plone
 
-.. todo:: Neuer Screenshot
-
 .. _ploneorg-download-optionen:
 
 .. figure:: 

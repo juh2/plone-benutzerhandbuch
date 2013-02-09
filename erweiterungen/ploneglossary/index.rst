@@ -1,5 +1,3 @@
-.. todo:: Übersetzung wurde verbessert, gelegentlich Screenshots
-   	  austauschen und überarbeiten
 
 ================
  Plone Glossary
@@ -43,7 +41,7 @@ werden (siehe Abbildung :ref:`fig_hinzufuege-menue-glossary`).
 
 .. figure:: 
    ./images/hinzufuege-menue-glossary.*
-   :width: 40%
+   :width: 60%
    :alt: Das Hinzufüge-Menü mit Eintrag »Glossary«
 
    Das Hinzufüge-Menü mit Eintrag »Glossary«
@@ -67,11 +65,10 @@ Hinzufügen einer Begriffsdefinition
 ===================================
 
 Abbildung :ref:`fig_neues-glossar` zeigt ein neues Glossar mit dem
-Titel »Küchenlexikon« unmittelbar nach der Erzeugung. Das Menü
-:guilabel:`Hinzufügen` besteht innerhalb eines Glossars aus lediglich
-einem Eintrag mit der Bezeichnung :guilabel:`Glossary definition
-hinzufügen`. Klicken Sie auf diesen Eintrag, wenn Sie eine
-Begriffsdefinition hinzufügen möchten. 
+Titel »Küchenlexikon« unmittelbar nach der Erzeugung. Im Menü
+:guilabel:`Hinzufügen` finden Sie den Eintrag :guilabel:`Glossar
+Term`. Klicken Sie auf diesen Eintrag, wenn Sie eine
+Begriffsdefinition hinzufügen möchten.
 
 .. fig_definition-hinzufuegen:
 

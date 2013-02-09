@@ -62,14 +62,12 @@ formatiert sind.
 .. _fig_tinymce-stilauswahl:
 
 .. figure:: ../images/tinymce-stilauswahl.*
-   :width: 80%
+   :width: 100%
    :alt: Das Auswahlmenü für die Stile
 
    Das Menü zur Stilauswahl
 
 Das Menü besteht aus drei bzw. vier Teilen. 
-
-.. todo:: Achtung Screenshot veraltet, neue Übersetzung
 
 Absätze 
    In diesem Teil stehen die Absatzstile, die sich auf den ganzen
@@ -138,7 +136,7 @@ Tabellen
    Schicke Rasterauflistung
       Die Zellen in der Tabelle haben eine feinen Rahmen.
 
-   Schickes vertikale Auflistung
+   Schicke vertikale Auflistung
       Die Zeilen der Tabelle sind mit feinen Linien abgetrennt. Die
       horizontalen Rahmen sind unsichtbar.
 
@@ -170,6 +168,7 @@ Bedienungselemente für Textformatierungen aufgereiht.
 .. _fig_tinymce-textformatierungen:
 
 .. figure:: ../images/tinymce-textformatierungen.*
+   :width: 60%
    :alt: Die Bedienungselemente zur Textformatierung
 
    Bedienungselemente zur Textformatierung
@@ -204,7 +203,11 @@ Haben Sie einen Teil Ihres Textes markiert, so wird die jeweilige
 Formatierung darauf angewendet, anderenfalls wirkt sie sich auf den Text aus,
 den Sie im Anschluss eingeben.
 
-    
+Tabelle einfügen
+----------------
+
+.. todo:: Kapitel schreiben
+
 
 Speichern
 ---------

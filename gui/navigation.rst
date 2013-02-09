@@ -178,7 +178,10 @@ Treffer an (siehe Abbildung :ref:`fig_sofortsuche`).
 
 Sie können sich sowohl mit den Pfeiltasten durch die Liste bewegen und
 mit der Eingabetaste ein Ergebnis auswählen, als auch die Maus dafür
-benutzen. Wenn Sie Javascript ausgeschaltet haben, steht Ihnen die
+benutzen. Über den Link :guilabel:`Erweiterte Suche` gelangen Sie zum
+Suchformular (siehe :ref:`fig_suche`).
+
+Wenn Sie Javascript ausgeschaltet haben, steht Ihnen die
 Sofortsuche nicht zur Verfügung.
 
 Mit der Schaltfläche :guilabel:`Suche` führen Sie eine Volltextsuche
@@ -221,117 +224,76 @@ Suchanfrage über die Schaltfläche :guilabel:`Suche` durchführen oder
 die erweiterte Suche benutzen.
 
 
-Erweiterte Suche
-----------------
-
-In der Ergebnisliste des Suchfelds finden Sie einen Verweis zum
-Formular für die erweiterte Suche. Damit können Sie Ihre Suche
-verfeinern, indem Sie beispielsweise die zu durchsuchenden
-Artikeleigenschaften einschränken oder andere Suchkriterien als die
-Volltextsuche auswählen. Das Formular für die erweiterte Suche (siehe
-Abbildung :ref:`fig_erweiterte-suche`) ist folgendermaßen aufgebaut.
-
-.. todo:: Neuer Screenshot und neue Beschreibung
-
-.. _fig_erweiterte-suche:
-
-.. figure::
-   ../images/erweiterte-suche.*
-   :width: 80%
-   :alt: Das Formular für die erweiterte Suche
-
-   Erweiterte Suche
-
-Gesuchter Text
-   Dies ist das Feld für die Volltextsuche. Es verhält sich ebenso wie
-   das Feld auf dem einfachen Suchformular.
-
-Stichworte
-   In dem Auswahlmenü können Sie beliebig viele Stichworte
-   auswählen. Die Suche findet dann Artikel, die entweder alle Stichworte
-   enthalten oder mindestens eins dieser Stichworte, je nachdem,
-   welche Option Sie unterhalb des Auswahlmenüs aktivieren.
-
-Mehr Suchoptionen
-~~~~~~~~~~~~~~~~~
-
-.. |pfeil| image:: ../images/plone_images/arrowRight.png
-
-Um das Formular übersichtlich zu halten, sind die weiteren
-Suchoptionen eingeklappt. Sie können sie durch einen Klick auf das
-Pfeilsymbol |pfeil| aufklappen. 
-
-.. _fig_mehr-suchoptionen:
-
-.. figure::
-   ../images/mehr-such-optionen.*
-   :width: 80%
-   :alt: Weitere aufklappte Suchoptionen
-
-   Weitere aufgeklappte Suchoptionen
-
-Artikeltyp 
-  Kreuzen Sie die Artikeltypen an, die bei der Suche eingeschlossen
-  werden sollen. Das Setzen oder Entfernen des Häkchens bei
-  :guilabel:`Alle/Keine auswählen` wirkt sich auf alle Artikeltypen
-  aus.
-
-Neue Artikel seit
-  Hiermit können Sie die Suche zeitlich eingrenzen, in dem Sie nur
-  nach den Artikeln suchen, die in einem bestimmten Zeitraum neu
-  hinzugekommen sind. Zur Auswahl stehen:
-
-  * Immer (Voreinstellung, bedeutet keine zeitliche Einschränkung)
-  * Zuletzt angemeldet (Eingrenzung auf die Artikel, die seit Ihrer
-    letzten Anmeldung hinzugekommen sind.)
-  * Gestern (Artikel, die in den letzten 24 Stunden hinzugekommen sind.)
-  * Letzte Woche 
-  * Letzter Monat
-
-Revisionsstatus 
- Diese Option grenzt die Suchergebnisse auf Artikel mit dem
-  gewünschten Status ein. Zur Auswahl stehen alle verfügbaren
-  Status. Angezeigt werden nur die Artikel, auf die der Benutzer
-  zugreifen darf. Anonymen Benutzern steht die Option nicht zur
-  Verfügung.
-
-Autor
-  Diese Option grenzt die Suchergebnisse auf Artikel ein, die von dem
-  ausgewählten Autor verfasst wurden. Im Auswahlmenü finden Sie die
-  Benutzernamen der zur Auswahl stehenden Autoren. 
-
-Anzeigeoptionen
-~~~~~~~~~~~~~~~
-
-Mit Hilfe der Anzeigeoptionen können Sie Einfluss auf die Darstellung
-der Suchergebnisse nehmen. 
-
 Suchergebnisse
-  Sie können die Ergebnisse sortieren nach:
+--------------
 
-  * Relevanz (Voreinstellung)
-  * Erstellungsdatum
-  * Änderungsdatum
-  * Titel 
+Wenn Sie in der Sofortsuche die Schaltfläche :guilabel:`Suche`
+betätigen oder die Eingabetaste drücken, wenn sich der Cursor im
+Suchfeld befindet, gelangen Sie zum Suchformular, auf dem die
+Ergebnisse der Suche aufgelistet sind. 
 
-Ergebnisse pro Seite
-  Mit dieser Option können Sie festlegen, ob 30, 60 oder 90 Treffer
-  pro Seite angezeigt werden sollen. Werden mehr Artikel gefunden,
-  werden die Ergebnisse auf mehreren Seiten verteilt, die Sie
-  nacheinander aufrufen können. 
+.. hint:: 
 
-Die Ergebnisse einer erweiterten Suche müssen alle angegebenen
-Kriterien gleichzeitig erfüllen. Irrelevante Angaben schränken daher
-die Suche unnötig ein. Mit folgenden Werten und Eingaben stellen Sie
-sicher, dass die Suchergebnisse nicht eingeschränkt werden:
+   Während die Sofortsuche den Suchbegriff trunkiert, wird im
+   Suchformular nach dem exakten Begriff gesucht. In der Sofortsuche
+   werden bei Eingabe des Begriffs »Koch« alle Artikel gefunden, in
+   dem die Zeichenfolge »Koch« vorkommt, so zum Beispiel auch der
+   Artikel »Kochseminar«. Im Suchformular müssen Sie explizit
+   trunkieren, indem Sie mit den Platzhaltern »*« und »?« arbeiten und
+   zum Beispiel »Koch*« eingeben. Das Sternchen steht für eine
+   beliebige Zeichenkette. Das Fragezeichen für genau ein Zeichen.
 
-* für ein Textfeld: keine Eingabe
-* für die Stichwortsuche: keine Auswahl
-* für Artikeltyp und Revisionsstatus: jeden Wert erlauben
-* für die Altersgrenze für neue Artikel: »immer«
-* für den Autor: »jeder Autor«
+In der Ergebnisliste der Suche haben Sie mehrere Möglichkeiten die
+Trefferliste einzuschränken und zu sortieren (siehe
+Abbildung :ref:`fig_suche`).
+
+.. _fig_suche:
+
+.. figure::
+   ../images/suche.*
+   :width: 100%
+   :alt: Das Suchformular mit Ergebnistreffern
+
+   Das Suchformular
+
+Trefferliste einschränken
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Wenn Sie den Link :guilabel:`Trefferliste einschränken` betätigen,
+öffnet sich ein kleines Fenster, in dem Sie Artikeltypen abwählen
+können oder eingrenzen können, in welchem Zeitraum der Artikel
+erschienen sein soll (siehe Abb.:
+:ref:`fig_suche-trefferliste-einschraenken`).
+
+.. _fig_suche-trefferliste-einschraenken:
+
+.. figure::
+   ../images/suche-trefferliste-einschraenken.*
+   :width: 60%
+   :alt: Zusatzfenster zur Eingrenzung der Suchergebnisse
+
+   Trefferliste einschränken
+
+Trefferliste sortieren
+~~~~~~~~~~~~~~~~~~~~~~
+
+Die Trefferliste ist zunächst nach Relevanz sortiert. Über den Link
+:guilabel:`Datum (neuste zuerst)` können Sie die Ergebnisse nach
+Erscheinungsdatum sortieren; über den Link :guilabel:`alphabetisch`
+sortieren Sie die Ergebnisse alphabetisch. 
 
 .. _sec_suchportlet:
+
+RSS-Feed der Ergebnisse abonnieren
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Direkt unterhalb der Eingabe für den Suchbegriff finden Sie den Link
+:guilabel:`Subscribe to an always-updated RSS feed`. Über diesen Link
+können Sie einen RSS-Feed abonnieren, der Artikel enthält, die Ihren
+Suchkritierien entsprechen. Der Feed wird aktualisiert, sobald ein
+neuer Artikel gefunden wird, der Ihren Suchkriterien entspricht. So
+können Sie sich sehr gezielt über neue Artikel auf der Website
+informieren.
 
 Suchportlet
 -----------

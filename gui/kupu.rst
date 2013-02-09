@@ -36,8 +36,6 @@ sichtbaren Symbolen hängt von der Konfiguration Ihrer Website ab;
 Tabelle :ref:`Funktionen in Kupu <tab_kupu-funktionen>` beschreibt die
 Voreinstellung.
 
-.. todo:: save.png ist zu klein
-
 .. |save| image:: ../images/plonekupuimages/save.png                                                  
 .. |bold| image:: ../images/plonekupuimages/bold.png                                                  
 .. |kursiv| image:: ../images/plonekupuimages/italic.png                                                
@@ -279,8 +277,6 @@ In der mittleren Spalte des Fensters befindet sich außerdem die Schaltfläche
 »Hier Bild hochladen...«. Sie öffnet in der rechten Spalte ein Formular,
 über das Sie ein Bild in den angewählten Ordner hochladen können (siehe
 Abbildung :ref:`fig_kupu-bild-hochladen`).
-
-.. todo:: Screenshot erneuern
 
 .. _fig_kupu-bild-hochladen:
 
