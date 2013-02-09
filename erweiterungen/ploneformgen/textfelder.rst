@@ -146,14 +146,10 @@ Die Konfigurationsmöglichkeiten entsprechen denen in
 Zeilen-Feld
 ===========
 
-.. hieß früher fälschlicherweise Mehrfach-Auswahl-Feld
-
 Mit dem Zeilen-Feld ist die Eingabe von Textzeilen möglich, die
 zeilenweise als einzelne Werte weiterverarbeitet werden. So kann man
 beispielsweise mit dem Zeilen-Feld eine Liste von Teilnehmern
 erzeugen, indem man pro Zeile den Namen eines Teilnehmers eingibt.
-
-.. todo:: Screenshot enthält noch falsche Übersetzung
 
 .. _fig_zeilen-feld:
 

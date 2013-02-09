@@ -79,8 +79,6 @@ einer Seite mit Suchresultaten (siehe Abb.: :ref:`fig_suchresultate-stichwort`
 ) führen, auf der alle Artikel aufgelistet werden, die mit dem entsprechenden
 Stichwort versehen wurden. 
 
-.. todo:: Neuer Screenshot
-
 .. _fig_suchresultate-stichwort:
 
 .. figure::
@@ -259,8 +257,6 @@ Informationen werden als Metadaten bezeichnet (siehe Abschnitt
 :ref:`sec_exkurs-metadaten`). Um weitere Metadaten geht es in den
 Teilformularen »Datum« und »Urheber«.
 
-.. todo:: Neuer Screenshot, neue Widgets
-
 .. _fig_seite-bearbeiten-kategorisierung:
 
 .. figure:: ../images/seite-bearbeiten-kategorisierung.png
@@ -275,9 +271,9 @@ Stichworte
  Auffinden oder Gruppieren inhaltlich verwandter Artikel.
 
  Wenn Ihre Website schon länger aktiv ist, wird es bereits eine Reihe von
- Stichwörtern geben, die im Feld :guilabel:`Existierende Stichworte` zur
+ Stichwörtern geben, die im Feld :guilabel:`Bestehendes Stichwort auswählen` zur
  Auswahl angeboten werden. Redakteure haben die Möglichkeit, weitere Stichwörter
- im Feld :guilabel:`Neue Stichworte` hinzuzufügen.
+ im Feld :guilabel:`Neues Stichwort anlegen und benutzen` hinzuzufügen.
 
 .. _sec_teilf-kateg-2:
 
@@ -350,9 +346,7 @@ Ablaufdatum
  eingeben, den Sie über das Kalendersymbol zwischen Datum und Uhrzeit
  erreichen (siehe Abbildung :ref:`fig_kalenderpopup`).
 
-.. todo:: Neuer Screenshot, Kosmetik
-
- .. _fig_kalenderpopup:
+.. _fig_kalenderpopup:
 
  .. figure::
     ../images/kalender-popup.* 
@@ -513,17 +507,13 @@ Erweiterte Suche
 Besonders nützlich sind Metadaten für die erweiterte Suche
 (siehe Abbildung :ref:`fig_erweiterte-suche`).
 
-Sie erreichen sie, indem Sie die Schnellsuche benutzen und dann dem Verweis
-:guilabel:`Erweiterte Suche` folgen.
+Sie erreichen sie, indem Sie die Schnellsuche benutzen.
 
 Einige der erweiterten Suchkriterien sind dazu da, Artikel anhand ihrer
 Metadaten zu finden. So kann man beispielsweise Stichwörter angeben oder das
 Beschreibungsfeld von Artikeln nach Begriffen durchsuchen. Außerdem kann man
 die Suche auf Artikel beschränken, die in einer bestimmten Zeitspanne
 hinzugefügt oder von einem bestimmten Autor verfasst wurden.
-
-.. todo::
-   Entweder eingehender beschreiben oder in ein anderes Kapitel verschieben.  
 
 .. _sec_nutz-von-metad-3:
 

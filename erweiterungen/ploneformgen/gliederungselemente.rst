@@ -70,23 +70,21 @@ Abbildung :ref:`fig_titel-feld`).
 
 .. _sec_formatierter-text:
 
-Formatierter Text
+Bezeichnungsfeld
 =================
 
-Um in einem Formular formatierten Text zum Beispiel mit Bildern, Links
-und Tabellen einzufügen, nutzen Sie dieses Feld (siehe Abbildung
-:ref:`fig_formatierter-text`) . 
+Um in einem Formular einen längeren Text zur Beschreibung einzugeben,
+nutzen Sie dieses Feld (siehe Abbildung :ref:`fig_bezeichnungsfeld`)
+.
 
-.. todo:: Screenshot enthält noch falsche Übersetzung
-
-.. _fig_formatierter-text:
+.. _fig_bezeichnungsfeld:
 
 .. figure::
-   ./images/formatierter-text.*
+   ./images/bezeichnungsfeld.*
    :width: 80%
-   :alt: Hinzufügeformular für fomratierten Text
+   :alt: Formular, um ein Bezeichnungsfeld hinzuzufügen
 
-   Formatierter Text
+   Hinzufügen eines Bezeichnungsfeldes
 
 Der Titel des Feldes wird im Formular selbst nicht angezeigt. Er dient
 lediglich zur Identifizierung des Feldes im Formular-Ordner. Schreiben

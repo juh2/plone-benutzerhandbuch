@@ -391,13 +391,11 @@ das genau so zu bedienen ist, wie das im Kapitel
 :ref:`sec_teilf-kateg` beschriebene Formular zur Auswahl eines
 Verweises.
 
-.. todo:: Screenshot noch aus alter Version, da ein Bug in 4.0.1
-
 .. _fig_uebersetzung-verknuepfen:
 
 .. figure::
    ./images/uebersetzung-verknuepfen.*
-   :width: 100%
+   :width: 60%
    :alt: Auswahlformular
 
    Formular zur Auswahl und Suche eines Artikels

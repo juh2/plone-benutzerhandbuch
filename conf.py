@@ -41,7 +41,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Plone-Benutzerhandbuch 4.1'
+project = u'Plone-Benutzerhandbuch 4.2'
 copyright = u'%s, Jan Ulrich Hasecke, Creative Commons Lizenz 2.0 BY-NC-SA' % datetime.datetime.now().year
 
 # The version info for the project you're documenting, acts as replacement for
@@ -179,7 +179,7 @@ latex_font_size = '12pt'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'Plone-Benutzerhandbuch-4.1.tex', u'Plone-Benutzerhandbuch',
+  ('index', 'Plone-Benutzerhandbuch-4.2.tex', u'Plone-Benutzerhandbuch',
    u'Jan Ulrich Hasecke', 'manual'),
 ]
 
@@ -220,24 +220,27 @@ man_pages = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'Plone-Benutzerhandbuch 4.1'
+epub_title = u'Plone-Benutzerhandbuch 4.2'
 epub_author = u'Jan Ulrich Hasecke'
 epub_publisher = u'Jan Ulrich Hasecke'
 epub_copyright = u'2011, Jan Ulrich Hasecke, Creative Commons Lizenz 2.0 BY-NC-SA'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
-#epub_language = ''
+epub_language = 'german'
 
 # The scheme of the identifier. Typical schemes are ISBN or URL.
 epub_scheme = 'URL'
 
 # The unique identifier of the text. This can be a ISBN number
 # or the project homepage.
-epub_identifier = 'http://www.hasecke.com/plone-benutzerhandbuch/4.1'
+epub_identifier = 'http://www.hasecke.com/plone-benutzerhandbuch/4.2'
 
 # A unique identification for the text.
 #epub_uid = ''
+
+# Titelbild
+epub_cover = ('_static/cover.png', '')
 
 # HTML files that should be inserted before the pages created by sphinx.
 # The format is a list of tuples containing the path and title.

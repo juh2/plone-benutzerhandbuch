@@ -20,7 +20,7 @@ den Eintrag :guilabel:`Formular-Ordner` (siehe Abbildung
 
 .. figure::
    ./images/hinzufuegemenue-formular-ordner.*
-   :width: 50%
+   :width: 60%
    :alt: Hinzufüge-Menü mit Eintrag »Formular-Ordner«
 
    Hinzufüge-Menü mit Eintrag »Formular-Ordner«

@@ -41,3 +41,9 @@ Popup-Fenster für einfache Formulare nutzen
    einfachen Formularen wie zum Beispiel dem Anmeldeformular ein Popup-Fenster
    mit dem Formular öffnet. Popups erleichtern dem Benutzer in der Regel die
    Bearbeitung von Formularen. 
+
+.. hint::
+   Wenn Sie das Aussehen aller Elemente in Plone kontrollieren wollen,
+   können Sie die Adresse http://localhost:8080/Plone/test_rendering
+   eingeben. Es öffnet sich eine Seite, auf der alle Elemente
+   aufgeführt sind. 

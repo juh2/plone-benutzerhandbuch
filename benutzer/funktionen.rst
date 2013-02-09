@@ -94,9 +94,6 @@ Ansicht »Freigabe« zur Verfügung. Dort können Sie Funktionen an andere
 Benutzer und Gruppen übertragen, um beispielsweise Aufgaben an Mitarbeiter zu
 delegieren.
 
-
-.. todo:: Neuer Screenshot, Kosmetik
-
 .. _fig_freigabe:
 
 .. figure:: ../images/freigabe.*
@@ -132,16 +129,14 @@ Berechtigungen von übergeordneten Ordnern übernehmen
   Freigabe-Ansicht des Ordners »Kochseminar«, der sich im Ordner
   »Veranstaltungen« befindet und dessen Freigabe-Einstellungen geerbt hat.
 
-  .. todo:: Neuer Screenshot, Kosmetik
+.. _fig_freigabe-geerbte-funktionen:
 
-  .. _fig_freigabe-geerbte-funktionen:
+.. figure::
+   ../images/freigabe-geerbte-funktionen.*
+   :width: 100%
+   :alt: Freigabe-Ansicht mit geerbten Funktionen
 
-  .. figure::
-     ../images/freigabe-geerbte-funktionen.*
-     :width: 100%
-     :alt: Freigabe-Ansicht mit geerbten Funktionen
-
-     Freigabe-Ansicht mit geerbten Funktionen
+   Freigabe-Ansicht mit geerbten Funktionen
 
 Wenn Sie einem Benutzer eine Funktion übertragen wollen, suchen Sie zunächst
 im Suchfeld nach seinem Namen. Alle Benutzer, auf die Ihr Suchbegriff passt,

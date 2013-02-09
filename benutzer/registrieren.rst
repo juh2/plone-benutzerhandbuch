@@ -62,6 +62,15 @@ Verweis »Neuer Benutzer?« im Anmeldeportlet (siehe Abbildung
 
 Das Registrierungsformular ist folgendermaßen aufgebaut:
 
+.. _fig_registrierungsformular:
+
+.. figure::
+   ../images/registrierungsformular.*
+   :width: 80%
+   :alt: Registrierungsformular
+
+   Das Registrierungsformular
+
 Vor- und Nachname
   Geben Sie hier Ihren vollen Namen ein.
 
@@ -82,10 +91,20 @@ Betätigen Sie nach der Eingabe die Schaltfläche :guilabel:`Registrieren`.
 Falls das Registrierungsformular nur diese drei Formularfelder
 enthält, müssen Sie die Registrierung in einem zweiten Schritt
 abschließen. Sie erhalten eine Aktivierungs-E-Mail mit einem Link zu
-der Seite, auf der Sie ein Passwort eingeben können.
+der Seite, auf der Sie ein Passwort eingeben können. Die Bestätigung
+sieht dann so aus:
 
-Anderenfalls enthält das Registrierungsformular zwei weitere Felder, wo Sie
-ein Passwort für Ihren Benutzerzugang eingeben können:
+.. _fig_willkommen-mailbestaetigung:
+
+.. figure::
+   ../images/willkommen-mailbestaetigung.*
+   :width: 60%
+   :alt: Bestätigung, dass der neue Benutzer registriert wurde
+
+   Bestätigung der Registrierung
+
+Falls das Registrierungsformular zwei weitere Felder für die Eingabe
+des Passworts enthält, müssen diese ebenfalls ausgefüllt werden.
 
 Passwort
   Geben Sie hier das gewünschte Passwort ein.
@@ -96,18 +115,18 @@ Passwort bestätigen
 
 Betätigen Sie zum Abschluss die Schaltfläche :guilabel:`Registrieren`. 
 
+Nachdem Sie registriert sind, erhalten Sie die in Abbildung
+:ref:`fig_willkommen-anmelden` gezeigte Begrüßungsnachricht. 
+
 .. _fig_willkommen-anmelden:
 
 .. figure:: ../images/willkommen-anmelden.*
 
-   Bestätigung der Registrierung
+   Bestätigung der Registrierung 
 
-Nachdem Sie registriert sind, erhalten Sie die in Abbildung
-:ref:`fig_willkommen-anmelden` gezeigte Begrüßungsnachricht. Wenn Sie
-dort die Schaltfläche »Anmelden« betätigen, werden Sie automatisch
-angemeldet (siehe Abbildung :ref:`fig_anmeldebestaetigung`:).
-
-.. todo:: Übersetzung geändert, neuen Screenshots einfügen
+Wenn Sie dort die Schaltfläche »Anmelden« betätigen, werden Sie
+automatisch angemeldet (siehe Abbildung
+:ref:`fig_anmeldebestaetigung`:).
 
 .. _fig_anmeldebestaetigung:
 

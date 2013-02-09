@@ -261,30 +261,6 @@ Einstellungsmöglichkeiten im Bearbeitungsformular von Terminportlets
 * zu berücksichtigende Status (siehe die Erläuterung zum
   Nachrichtenportlet)
 
-.. todo:: auf persönlicher Seite nicht möglich. Im Kapitel
-   	  gui/portlets einfügen
-
-.. _sec_statisches-portlet-hinzufuegen:
-
-Statisches Portlet
-~~~~~~~~~~~~~~~~~~
-
-Einstellungsmöglichkeiten im Bearbeitungsformular für statische
-Portlets (siehe Abbildung :ref:`fig_statisches-portlet-hinzufuegen`)
-
-.. _fig_statisches-portlet-hinzufuegen:
-
-.. figure:: ../images/statisches-portlet-hinzufuegen.png
-
-   Hinzufügen des statischen Portlets
-
-* Kopfzeile
-* anzuzeigender Text (mit allen Bearbeitungsmöglichkeiten des Texteditors
-  Kupu)
-* Rahmen des Portlets verbergen?
-* Fußzeile des Portlets
-* Verweis auf weitere Informationen im Web
-
 Klassisches Portlet
 ~~~~~~~~~~~~~~~~~~~
 

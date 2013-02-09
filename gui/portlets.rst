@@ -88,6 +88,27 @@ in Kopf- und Fußzeile, wobei die Fußzeile nicht angezeigt wird, wenn
 sie leer gelassen wurde. Ein statisches Portlet kann auch ganz ohne
 Rahmen, Kopf- und Fußzeile dargestellt werden.
 
+.. _sec_statisches-portlet-hinzufuegen:
+
+Statisches Portlet hinzufügen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Einstellungsmöglichkeiten im Bearbeitungsformular für statische
+Portlets (siehe Abbildung :ref:`fig_statisches-portlet-hinzufuegen`)
+
+.. _fig_statisches-portlet-hinzufuegen:
+
+.. figure:: ../images/statisches-portlet-hinzufuegen.png
+   :width: 100%
+
+   Hinzufügen des statischen Portlets
+
+* Kopfzeile
+* anzuzeigender Text (mit allen Bearbeitungsmöglichkeiten des Texteditors
+  Kupu)
+* Rahmen des Portlets verbergen?
+* Fußzeile des Portlets
+* Verweis auf weitere Informationen im Web
+
 Ein statisches Portlet kann nur von einem Administrator hinzugefügt
-werden. Die Konfiguration eines statischen Portlets wird in Abschnitt
-:ref:`sec_statisches-portlet-hinzufuegen` erläutert.
+werden.

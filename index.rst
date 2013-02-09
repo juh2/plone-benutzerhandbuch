@@ -11,7 +11,7 @@
 Das Plone 4 Benutzerhandbuch
 ============================
 
-.. todos:: 
+.. todolist:: 
 
 .. todo:: 
    Layout vom epub verbessern. Siehe Kieslowski-Buch.
