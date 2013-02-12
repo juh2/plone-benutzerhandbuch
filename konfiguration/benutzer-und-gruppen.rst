@@ -394,13 +394,10 @@ entsprechend und aktivieren die Option :guilabel:`Viele Gruppen?`.
 Registrierungseinstellungen
 ===========================
 
-.. todo:: Die Übersetzung wurde überarbeitet. Neuen Screenshot machen.
-
-Über den Reiter :guilabel:`Mitglied registrieren` gelangen Sie zu den
-Registrierungseintstellungen (Abbildung
-:ref:`fig_konfiguration-benutzer-gruppen-felder-registrierung`). Dort
-können Sie das Registrierungsformular anpassen und bestimmen, welche
-Felder in dem Formular auftauchen.
+Über den Reiter :guilabel:`Registrierungseinstellungen` gelangen Sie
+zu einem Formular, wo Sie bestimmen können, welche Felder im
+Registrierungsformular auftauchen (siehe Abbildung
+:ref:`fig_konfiguration-benutzer-gruppen-felder-registrierung`).
 
 .. _fig_konfiguration-benutzer-gruppen-felder-registrierung:
 

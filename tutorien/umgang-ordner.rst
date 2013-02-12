@@ -152,14 +152,10 @@ dem Ordner als Anzeige verwenden.
   Abbildung :ref:`fig_standardseite`).
   
 
-.. todo:: Screenshot kann wegen
-   https://dev.plone.org/plone/ticket/10577 erst mit nächster Beta
-   gemacht werden..
-
 .. _fig_standardseite:
 
 .. figure::
-    ../images/standardseite.png
+    ../images/standardseite.*
     :width: 100%
 
     Auswahl eines Artikels als Ordneranzeige

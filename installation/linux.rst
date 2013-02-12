@@ -1,18 +1,17 @@
 Installation unter Linux
 ========================
 
-.. todo:: Pfade und Namen der neuen Versionen überprüfen
-
 Laden Sie von plone.org das gepackte Archiv mit dem :term:`Unified Installer`
 für Linux herunter und entpacken Sie das Archiv.::
 
-    wget http://launchpad.net/plone/4.2/4.2.0.1/+download/Plone-4.2-UnifiedInstaller.tgz
+    wget
+    https://launchpad.net/plone/4.2/4.2.4/+download/Plone-4.2.4-UnifiedInstaller-r3.tgz [#]_
 
-    tar -xvf Plone-4.2-UnifiedInstaller.tgz
+    tar -xvf Plone-4.2.4-UnifiedInstaller-r3.tgz
 
 Wechseln Sie anschließend in den entstandenden Ordner. [#]_ ::
 
-    cd Plone-4.2-UnifiedInstaller
+    cd Plone-4.2.4-UnifiedInstaller
 
 In der Datei :file:`README.txt` finden Sie Informationen darüber, welche
 Optionen Ihnen bei der Installation von Plone zur Verfügung stehen. Diese sind
@@ -118,5 +117,16 @@ Nach dem Starten können Sie die Instanz in Ihrem Browser unter der Adresse
 http://localhost:8080 aufrufen.
 
 
+.. [#] Launchpad.net benutzte zur Zeit der Niederschrift ein 
+   selbst-signiertes Zertifikat. :command:`wget` weigert sich in einem
+   solchen Fall, eine Verbindung zu dem Server aufzunehmen. Rufen Sie
+   :command:`wget` mit der Option :command:`--no-check-certificate`
+   auf, um den Installer herunterzuladen.
 
-.. [#] Bitte beachten Sie, dass das Beispiel von der Version 4.2 ausgeht. Die Version 4.2 wird von der Plone Community laufend gepflegt. Es erscheinen kleinere Aktualisierungen, die die Bezeichnung 4.2.X tragen, wobei X eine Zahl ist, die fortlaufend erhöht wird. 4.2.1 ist die erste Maintenance-Release nach 4.2, 4.2.2 die zweite. Konsultieren Sie plone.org, um die aktuelle Version herunterzuladen. 
+.. [#] Bitte beachten Sie, dass das Beispiel von der Version 4.2.4
+   ausgeht. Die Version 4.2 wird von der Plone Community laufend
+   gepflegt. Es erscheinen kleinere Aktualisierungen, die die
+   Bezeichnung 4.2.X tragen, wobei X eine Zahl ist, die fortlaufend
+   erhöht wird. 4.2.4 ist die vierte Maintenance-Release nach
+   4.2. Konsultieren Sie plone.org, um die aktuelle Version
+   herunterzuladen.

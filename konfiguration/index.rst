@@ -1,7 +1,5 @@
 .. _sec_konfiguration:
 
-.. todo:: Fehlende Kapitel ergänzen.
-
 =============
 Konfiguration
 =============

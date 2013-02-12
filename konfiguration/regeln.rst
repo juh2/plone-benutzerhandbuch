@@ -1,5 +1,3 @@
-.. todo:: In 4.01 neue Übersetzungen!
-
 .. _sec_konfiguration-regeln:
 
 ========

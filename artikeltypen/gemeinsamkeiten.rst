@@ -55,7 +55,7 @@ Abbildung :ref:`Aufbau der Anzeige eines Artikels <fig_gemeinsamkeiten-anzeige>`
 
 .. _fig_gemeinsamkeiten-anzeige:
 
-.. figure:: ../images/gemeinsamkeiten-anzeige.png
+.. figure:: ../images/gemeinsamkeiten-anzeige.*
    :width: 100%
 
    Aufbau der Anzeige eines Artikels: Titel (1), Verfasserzeile (2),

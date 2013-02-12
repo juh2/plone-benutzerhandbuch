@@ -13,9 +13,6 @@ Das Plone 4 Benutzerhandbuch
 
 .. todolist:: 
 
-.. todo:: 
-   Layout vom epub verbessern. Siehe Kieslowski-Buch.
-
 .. only:: html
 
    .. hint:: Hier entsteht das Benutzerhandbuch für Plone 4.
@@ -51,7 +48,6 @@ Installation
    installation/index.rst
    installation/linux.rst
    installation/macosx.rst
-   installation/windows.rst
    installation/plone-site-erzeugen.rst
    installation/aktualisierung.rst
 

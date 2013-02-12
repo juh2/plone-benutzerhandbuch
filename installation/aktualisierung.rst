@@ -70,7 +70,7 @@ Rufen Sie Ihre Instanz im Browser zum Beispiel unter der Url ``http://localhost:
 
 .. figure::
    ../images/aktualisierung-1.*
-   :width: 80%
+   :width: 100%
    :alt: Startbildschirm mit dem Hinweis zur Aktualisierung
 
    Startbildschirm mit dem Hinweis zur Aktualisierung

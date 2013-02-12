@@ -1,9 +1,6 @@
 Installation unter Windows
 ==========================
 
-.. todo:: Screenshots Windows-Installer neu machen und Prozedur
-   	  kontrollieren.
-
 .. hint:: Kapitel wird überarbeitet
 
 Laden Sie von der Website plone.org den Windows-Installer in der

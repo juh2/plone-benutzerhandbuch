@@ -1,8 +1,6 @@
 Installation unter Mac OS X
 ===========================
 
-.. todo:: Neue Screenshots Mac-Installer-Prozedur
-
 Wenn Sie von plone.org die Disk-Image-Datei mit dem Installationspaket
 für Plone 4 heruntergeladen, aktiviert und gemountet haben, sehen Sie
 drei Objekte: das Installationsprogramm, eine README-Datei im
@@ -11,7 +9,7 @@ Komponenten des Installationspakets.
 
 .. figure::
    ../images/mac-installer-1.*
-   :width: 80%
+   :width: 60%
    :alt: Der Inhalt des gemounteten Diskimages: Unified Installer,
    	 README und Lizenzen 
 
@@ -92,7 +90,7 @@ zweimal eingeben.
 
 .. figure::
    ../images/mac-installer-6.*
-   :width: 80%
+   :width: 60%
    :alt: Aufforderung zur Festlegung eines Passworts
 
    Aufforderung zur Festlegung eines Passworts
