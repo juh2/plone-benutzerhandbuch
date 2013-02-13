@@ -15,14 +15,19 @@ Das Plone 4 Benutzerhandbuch
 
 .. only:: html
 
-   .. hint:: Hier entsteht das Benutzerhandbuch für Plone 4.
+   .. hint:: Hier entsteht das Benutzerhandbuch für Plone 4. 
  
              Auch erhältlich als :download:`PDF
-             <_build/latex/Plone-Benutzerhandbuch-4.1.pdf>` oder
-             :download:`ePub <_build/epub/Plone-Benutzerhandbuch41.epub>`
+             <_build/latex/Plone-Benutzerhandbuch-4.2.pdf>` oder
+             :download:`ePub <_build/epub/Plone-Benutzerhandbuch42.epub>`
 
              `Bitte unterstützen Sie das Plone Benutzerhandbuch!`_ 
              
+	     Ich versuche, Pixelgrafiken (PNG) so weit wie möglich
+	     durch Vektorgrafiken (SVG) zu ersetzen. Dadurch kann das
+	     Projekt erheblich kleiner werden. Leider haben diese
+	     Grafiken manchmal kleinere Darstellungsfehler. Ich bitte,
+	     dies zu entschuldigen.
              
 
 .. _`Bitte unterstützen Sie das Plone Benutzerhandbuch!`: http://www.hasecke.com/texte/unterstuetzen-sie-das-plone-benutzerhandbuch
