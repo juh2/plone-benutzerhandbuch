@@ -346,12 +346,14 @@ Ablaufdatum
  eingeben, den Sie über das Kalendersymbol zwischen Datum und Uhrzeit
  erreichen (siehe Abbildung :ref:`fig_kalenderpopup`).
 
-.. _fig_kalenderpopup:
+ .. _fig_kalenderpopup:
 
  .. figure::
     ../images/kalender-popup.* 
  
     Der aufgeklappte Kalender zur Auswahl eines Datums
+
+    Popup-Fenster zur Datumsauswahl
 
  Um ein früher eingegebenes Datum zu löschen, wählen Sie für das
  Jahr ›- -‹ aus.
@@ -505,7 +507,7 @@ Erweiterte Suche
 ~~~~~~~~~~~~~~~~
 
 Besonders nützlich sind Metadaten für die erweiterte Suche
-(siehe Abbildung :ref:`fig_erweiterte-suche`).
+(siehe Abbildung :ref:`fig_suche`).
 
 Sie erreichen sie, indem Sie die Schnellsuche benutzen.
 

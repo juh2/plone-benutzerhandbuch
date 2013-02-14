@@ -478,13 +478,6 @@ auch solche Artikel sehen, die den Revisionsstatus
 »privat« tragen, also vor anderen Benutzern und unangemeldeten
 Besuchern versteckt sind.
 
-.. todo:: Nachfragen ob es Favorites überhaupt noch gibt
-
-.. Wenn Sie Lesezeichen anlegen, erzeugt Plone einen Lesezeichenordner
-   in Ihrem persönlichen Ordner mit dem Titel »Favorites«. Für jedes
-   Lesezeichen, das Sie auf der Website setzen, wird in diesem Ordner
-   ein Lesezeichen-Artikel angelegt.
-
 .. _sec_mitgliedersuche:
 
 Benutzersuche

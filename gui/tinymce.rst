@@ -168,7 +168,7 @@ Bedienungselemente für Textformatierungen aufgereiht.
 .. _fig_tinymce-textformatierungen:
 
 .. figure:: ../images/tinymce-textformatierungen.*
-   :width: 60%
+   :width: 100%
    :alt: Die Bedienungselemente zur Textformatierung
 
    Bedienungselemente zur Textformatierung
@@ -206,7 +206,198 @@ den Sie im Anschluss eingeben.
 Tabelle einfügen
 ----------------
 
-.. todo:: Kapitel schreiben
+Über das Tabellenwerkzeug können Sie eine Tabelle erstellen und
+modifizieren.
+
+.. image:: ../images/tinymce-tabelle.*
+
+Wenn Sie das Icon des Tabellenwerkzeugs anklicken, öffnet sich ein
+Popup-Fenster, in dem Sie die Eigenschaften der Tabelle festlegen
+können, die Sie einfügen möchten (siehe Abb.:
+:ref:`fig_tinymce-tabelle-einfuegen`)
+
+.. _fig_tinymce-tabelle-einfuegen:
+
+.. figure::
+   ../images/tabelle-einfuegen.*
+   :width: 100%
+   :alt: Popup-Fenster zum Einfügen einer Tabelle
+
+   Tabelle einfügen/bearbeiten
+
+Das Werkzeug besteht aus zwei Formularen, die über die Reiter
+:guilabel:`Allgemein` und :guilabel:`Erweitert` erreichbar sind.
+
+Untermenü »Allgemein«
+~~~~~~~~~~~~~~~~~~~~~
+
+Im Untermenü :guilabel:`Allgemein` können Sie eine CSS-Klasse für Ihre
+Tabelle festlegen, die Spalten- und Zeilenanzahl festlegen und eine
+Zusammenfassung eingeben.
+
+Der Inhalt des Feldes :guilabel:`Zusammenfassung` wird als
+:code:`summary`-Attribut in das :code:`table`-Tag eingetragen und
+dient damit der Suchmaschinenoptimierung. ::
+
+  <table class="plain" summary="Namen und E-Mail-Adressen">
+
+
+Untermenü »Erweitert«
+~~~~~~~~~~~~~~~~~~~~~
+
+Im Untermenü :guilabel:`Erweitert` können Sie festlegen, ob die
+Tabelle eine Beschriftung erhalten soll. Wenn Sie dies wünschen,
+setzen Sie das Häkchen bei :guilabel:`Beschriftung der Tabelle` (siehe
+Abb. :ref:`fig_tabelle-einfuegen-erweitert`
+
+.. _fig_tabelle-einfuegen-erweitert:
+
+.. figure::
+   ../images/tabelle-einfuegen-erweitert.*
+   :width: 100%
+   :alt: Das Untermenü »Erweitert«
+
+   Untermenü »Erweitert«
+
+Tabellen bearbeiten
+~~~~~~~~~~~~~~~~~~~
+
+In Abb. :ref:`fig_tabelle-mit-eingaben` sieht man eine neu erstellte
+Tabelle, in die bereits einige Inhalte eingetragen wurden. Über der
+Tabelle ist die Beschriftung angebracht. Die Inhalte der ersten Zeile
+erscheinen automatisch als Kopfzeile oder Spaltenüberschrift. Alle
+anderen Zellen haben den Stil »Einfache Zelle«. Über die Stilauswahl
+können andere Stile zugewiesen werden.
+
+.. _fig_tabelle-mit-eingaben:
+
+.. figure::
+   ../images/tabelle-mit-eingaben.*
+   :width: 70%
+   :alt: Neu erstellte Tabelle mit einigen Inhalten
+
+   Tabelle mit Inhalten
+   
+
+Sobald sich der Cursor in einer Tabelle befindet, stehen Ihnen weitere
+Werkzeuge zur Bearbeitung in der Bedienungsleiste von TinyMCE zur
+Verfügung (siehe Abb. :ref:`fig_tinymce-tabellen`). 
+
+.. _fig_tinymce-tabellen:
+
+.. figure::
+   ../images/tinymce-tabellen.*
+   :width: 100%
+   :alt: Bedienungsliste für Tabellenbearbeitung
+
+   Werkzeuge zur Tabellenbearbeitung
+
+Die Werkzeuge haben von links nach rechts folgende Funktionen:
+
+Eigenschaften der Zeile
+  Hiermit öffnen Sie ein Popup-Fenster, in dem Sie die Eigenschaften
+  der Zeile festlegen können (siehe
+  Abb. :ref:`fig_tabelle-eigenschaften-zeile-allgemein`)
+
+  .. _fig_tabelle-eigenschaften-zeile-allgemein:
+
+  .. figure::
+     ../images/tabelle-eigenschaften-zeile-allgemein.*
+     :width: 100%
+     :alt: Popup-Fenster, um Eigenschaften einer Tabellenzeile zu
+  	   verändern
+
+     Eigenschaften der Zeile
+  
+  Sie können die Höhe der Zeile und die vertikale
+  Ausrichtung des Inhalts bestimmen. Bei der Angabe der Höhe brauchen
+  Sie keine Maßangabe zu verwenden. Es wird automatisch die Maßangabe
+  ›px‹ verwendet. Bei der vertikalen Ausrichtung stehen Ihnen die
+  Optionen »Oben«, »Mittig« und »Unten« zur Verfügung. 
+
+  .. hint::
+     In der Standardkonfiguration entfernt Plone diese Angaben aus dem
+     HTML-Code. Die Eingabe hat also keinen Effekt.
+
+  Im Untermenü »Erweitert«
+  (Abb. :ref:`fig_tabelle-eigenschaften-zeile-erweitert`) können Sie
+  Zeilen einer Tabellengruppe zuordnen. Es gibt den Tabellenkopf
+  (:code:`thead`), den Tabelleninhalt (:code:`tbody`) und den
+  Tabellenfuß (:code:`tfoot`). Je nach ausgewählter CSS-Klasse kann
+  die Gruppierung Auswirkungen auf die Darstellung der Tabelle haben.
+
+  .. _fig_tabelle-eigenschaften-zeile-erweitert:
+
+  .. figure::
+     ../images/tabelle-eigenschaften-zeile-erweitert.*
+     :width: 100%
+     :alt: Untermenü zur Gruppierung von Zeilen
+
+     Untermenü »Erweitert« 
+
+
+Eigenschaften der Zelle
+  Mit diesem Werkzeug können Sie im Untermenü »Allgemein« Breite und
+  Höhe der Zelle, die vertikale Ausrichtung des Inhalts (»unbestimmt«,
+  »Oben«, »Mittig«, »Unten«) und den Bezug der Angaben (»unbestimmt«,
+  »Spalte«, »Zeile«) einstellen. Alle Änderungen werden von Plone in
+  der Standardkonfiguration aus dem HTML-Code vor dem Abspeichern
+  entfernt. Sie haben also keine Auswirkung. Das gleiche gilt für das
+  Untermenü »Erweitert«.
+
+Zeile oberhalb einfügen
+  Durch einen Klick auf dieses Symbol fügen Sie oberhalb der Zeile, in
+  der sich der Cursor befindet, eine neue Zeile ein.
+
+Zeile unterhalb einfügen
+  Durch einen Klick auf dieses Symbol fügen Sie unterhalb der Zeile,
+  in der sich der Cursor befindet, eine neue Zeile ein.
+
+Zeile löschen
+  Durch einen Klick auf dieses Symbol löschen Sie die Zeile, in der
+  sich der Cursor befindet.
+
+Spalte links einfügen
+  Durch einen Klick auf dieses Symbol fügen Sie links der Spalte, in
+  der sich der Cursor befindet, eine neue Spalte ein.
+
+Spalte rechts einfügen
+  Durch einen Klick auf dieses Symbol fügen Sie rechts der Spalte, in
+  der sich der Cursor befindet, eine neue Spalte ein.
+
+Spalte löschen
+  Durch einen Klick auf dieses Symbol löschen Sie die Spalte, in der
+  sich der Cursor befindet.
+
+Verbundene Zellen trennen 
+ Wenn sich der Cursor in einer Zelle befindet, die durch das
+  Verbinden von zwei oder mehreren Zellen entstanden ist, können Sie
+  die verbundenen Zellen durch einen Klick auf dieses Symbol wieder
+  auftrennen.
+
+Zellen verbinden
+  Wenn Sie in der Tabelle eine oder mehrere benachbarte Zellen
+  ausgewählt haben, können Sie die Zellen durch einen Klick auf dieses
+  Symbol miteinander verbinden (siehe
+  Abb. :ref:`fig_tabelle-zwei-zellen-ausgewaehlt`) und Abb. :ref:`fig_tabelle-zwei-zellen-vereinigt`)
+
+.. _fig_tabelle-zwei-zellen-ausgewaehlt:
+
+.. figure::
+   ../images/tabelle-zwei-zellen-ausgewaehlt.*
+   :width: 50%
+   :alt: Zwei Zellen in einer Tabelle ausgewählt
+
+   Zwei ausgewählte Zellen
+
+.. _fig_tabelle-zwei-zellen-vereinigt:
+
+.. figure::
+   ../images/tabelle-zwei-zellen-vereinigt.*
+   :width: 50%
+   :alt: Zwei Zellen wurden miteinander verbunden
+
+   Zwei miteinander verbundene Zellen
 
 
 Speichern

@@ -27,7 +27,6 @@ Installation von Erweiterungen nachgerüstet werden.
    kalender.rst
    kommentare.rst
    konfigurationseintraege.rst
-   kollektionen.rst
    navigation.rst
    regeln.rst
    sicherheit.rst

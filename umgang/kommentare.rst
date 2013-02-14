@@ -1,5 +1,3 @@
-.. todo:: Komplett überarbeiten, da ganz neu
-
 .. _sec_diskussionen:
 
 ============
@@ -17,7 +15,6 @@ Kommentare (siehe Abbildung :ref:`fig_kommentare`).
 .. _fig_kommentare:
 
 .. figure:: ../images/kommentare.*
-   :width: 100%
 
    Kommentare
 
@@ -26,49 +23,171 @@ angezeigt und eingerückt. So kann sich eine verzweigte Diskussion
 entwickeln.
 
 
-An Diskussionen teilnehmen
-==========================
+Artikel kommentieren
+====================
 
 Falls der Verfasser des Artikels Kommentare erlaubt hat, können Sie
 den Artikel kommentieren. Um einen Kommentar hinzufügen zu können,
-müssen Sie aber in der Regel an der Website angemeldet sein. Als nicht
+müssen Sie möglicherweise an der Website angemeldet sein. Als nicht
 angemeldeter Benutzer sehen Sie in diesem Fall einen Verweis zur
 Anmeldung mit der Bezeichnung »Zum Kommentieren müssen Sie sich
 anmelden«.
 
-Nach der Anmeldung sehen Sie unterhalb des Artikels die Schaltfläche
-:guilabel:`Kommentieren` und am Ende jedes einzelnen Kommentars die Schaltfläche
-:guilabel`Antworten`q. Die Schaltflächen führen Sie zu einem Formular, in dem Sie
-einen Kommentar zum Artikel oder eine Antwort auf einen Diskussionsbeitrag
-verfassen können (siehe Abbildung :ref:`fig_kommentieren`).
+Falls nicht angemeldete Besucher der Website kommentieren dürfen,
+besteht das Kommentarformular aus zwei Feldern. Im oberen Feld können
+Sie Ihren Namen eintragen und im unteren Ihren Kommentar.
 
-.. _fig_kommentieren:
+Die Kommentierungsmöglichkeit befindet sich unterhalb des
+Artikels. Sie ist durch eine Linie mit der Bezeichnung »Kommentieren«
+vom Artikel abgetrennt. In der Beschriftung oberhalb des eigentlichen
+Kommentarfeldes werden Ihnen Hinweise auf Formatierungsmöglichkeiten
+gegeben. Zur Verfügung stehen jeweils folgende Optionen:
 
-.. figure:: ../images/kommentieren.*
-   :width: 100%
+Einfacher Text
+    Bei dieser Option lässt sich der Text nicht formatieren.
 
-   Eingabeformular für einen Kommentar
+Markdown
+    Markdown ist eine vereinfachte Auszeichnungssprache, die von Plone
+    intern in HTML-Syntax umgewandelt wird. Eine Einführung in
+    Markdown finden Sie auf dieser Website_.
 
-Oberhalb des Formulars wird der Artikel angezeigt. Antworten Sie auf einen
-anderen Diskussionsbeitrag, so sehen Sie außerdem alle Kommentare, die Ihrer
-Antwort in der Diskussion vorangingen. So haben Sie beim Schreiben all das im
-Blick, worauf Sie sich beziehen möchten.
+Erkennung von Web- und E-Mailadressen 
+    Falls der Administrator die Option »Intelligent text« gewählt hat,
+    werden URLs und E-Mailadressen in Links umgewandelt. Ansonsten
+    stehen keine Formatierungsmöglichkeiten zur Verfügung.
 
-Im Kommentarformular geben Sie einen Betreff und Ihren Kommentar ein. Sie
-müssen beide Formularfelder ausfüllen. Der Kommentar ist einfacher Text, den
-Sie nicht formatieren können. Wenn Sie das Formular speichern, gelangen Sie
-wieder zur Anzeige des Artikels. Dort ist Ihr Beitrag sofort sichtbar.
+Durch die Betätigung der Schaltfläche :guilabel:`Kommentieren` wird
+der Kommentar gespeichert.
+
+Falls Ihr Kommentar nicht sofort sichtbar wird, finden Sie über dem
+Artikel den Hinweis, dass Ihr Kommentar noch vom Moderator freigegeben
+werden muss.
+
+Captchas
+--------
+
+Mit einem Captcha kann man verhindern, dass Kommentare von einem
+Skript eingetragen werden. Dabei muss der Benutzer ein verzerrt
+dargestellte Zeichenfolge in ein besonderes Feld eingeben. Die
+Zeichenfolgen können nur mit erheblichem Aufwand mit Hilfe von
+Computern erkannt werden. Sie bieten einen Schutz vor Spammern, sind
+allerdings alles andere als benutzerfreundlich, da sie zusätzliche
+Hürden beim Kommentieren einbauen. Ihr Einsatz muss daher abgewogen
+werden. 
+
+Kommentare moderieren
+=====================
+
+Wenn die Kommentarfunktion entsprechend konfiguriert ist, müssen
+Kommentare von einem Moderator freigeschaltet werden. Kommentare
+können von Redakteuren und Administratoren moderiert werden.
+
+Kommentare im Artikel selbst moderieren
+---------------------------------------
+
+Ein Redakteur kann Kommentare direkt im Artikel moderieren (siehe
+Abb. :ref:`fig_kommentare-freischalten`). 
 
 
-Konfiguration
-=============
+.. _fig_kommentare-freischalten:
+
+.. figure::
+   ../images/kommentare-freischalten.*
+   :alt: Noch nicht freigeschaltete Kommentare unterhalb eines
+   	 Artikels
+
+   Kommentare im Artikel moderieren
+
+Noch nicht freigeschaltete Artikel erscheinen in gelber Schrift. Dem
+Moderator stehen zwei Schaltflächen zur Moderation zur Verfügung:
+:guilabel:`Löschen`, um den Kommentar zu löschen, und
+:guilabel:`Approve`, um ihn freizuschalten.
+
+.. warning::
+   Beim Löschen werden Kommentare ohne Nachfrage entfernt.
+
+Kommentare global moderieren
+----------------------------
+
+Administratoren können Kommentare auch global moderieren. Sie finden
+in ihrem Benutzermenü den Eintrag :guilabel:`Kommentare moderieren`
+(siehe Abb. :ref:`fig_benutzermenue-kommentare-moderieren`).
+
+.. _fig_benutzermenue-kommentare-moderieren:
+
+.. figure::
+   ../images/benutzermenue-kommentare-moderieren.*
+   :alt: Benutzermenü mit Link zur Kommentarmoderation
+
+   Benutzermenü mit Link zur Moderation
+
+Über diesen Eintrag gelangt man auf die Moderationsseite, auf der alle
+offenen Kommentare aufgelistet sind (siehe Abb.:
+:ref:`fig_kommentare-moderieren`)
+
+.. _fig_kommentare-moderieren:
+
+.. figure::
+   ../images/kommentare-moderieren.*
+   :alt: Auflistung aller Kommentare, die noch moderiert werden müssen
+
+   Kommentare global moderieren
+
+Die Tabelle enthält Spalten 
+
+* für den Autor, der den Kommentar verfasst hat
+* für das Datum und die Uhrzeit, wann der Kommentar geschrieben wurde
+* für den Artikel, auf den sich der Kommentar bezieht,
+* für den Wortlaut des Kommentars
+* für Aktionen, die der Moderator ausführen kann. Diese sind
+  :guilabel:`Veröffentlichen` und :guilabel:`Löschen`.
+
+Kommentare per E-Mail-Benachrichtigung moderieren
+-------------------------------------------------
+
+Moderatoren können per E-Mail darüber informiert werden, dass ein
+neuer Kommentar abgegeben wurde und moderiert werden muss. 
+
+.. _fig_kommentare-moderator-email:
+
+.. figure::
+   ../images/kommentare-moderator-email.*
+   :alt: Wortlaut der E-Mail an Moderatoren
+
+   E-Mail-Benachrichtigung
+
+Die E-Mail enthält drei Links sowie den Wortlaut des Kommentars. Der
+erste Link führt zu dem Kommentar. Mit den beiden anderen Links kann
+der Moderator den Kommentar freigeben oder löschen.
+
+Löschen bereits freigeschalteter Kommentare
+===========================================
+
+Als Administrator können Sie einzelne Kommentare oder auch ganze
+Diskussionsstränge löschen. Dafür besitzt jeder Kommentar neben der
+Schaltfläche :guilabel:`Antworten` eine, die mit :guilabel:`Löschen`
+beschriftet ist (siehe Abbildung
+:ref:`fig_kommentare-loeschen`). Löschen Sie einen Diskussionsbeitrag,
+auf den bereits geantwortet wurde, so werden auch alle Antworten auf
+ihn entfernt.
+
+.. _fig_kommentare-loeschen:
+
+.. figure::
+   ../images/kommentare-loeschen.*
+
+   Schaltfläche zum Löschen von Kommentaren
+
+.. warning:: 
+   Kommentare werden ohne Nachfrage gelöscht.
+
+
+Kommentare als Autor erlauben
+=============================
 
 Als Besitzer eines Artikels können Sie bestimmen, ob er kommentiert
 werden darf. Jeder Besucher, der den Artikel einsehen darf, kann auch
 alle Kommentare vollständig lesen. 
-
-.. Ihr Administrator kann für die gesamte Website einstellen, ob
-   unangemeldete Besucher Beiträge verfassen dürfen.
 
 Um Kommentare zu erlauben, wechseln Sie in der Bearbeitungsansicht des
 Artikels ins Teilformular »Einstellungen«. Dort können Sie die
@@ -79,7 +198,8 @@ Abbildung :ref:`fig_kommentare-erlauben`).
 .. _fig_kommentare-erlauben:
 
 .. figure:: ../images/kommentare-erlauben.*
-   :width: 100%
+   :alt: Untermenü »Einstellungen« mit der Option »Kommentare
+   	 erlauben«
 
    Kommentare zu einem Artikel erlauben
 
@@ -88,25 +208,85 @@ voreinstellen, ob Kommentare erlaubt sind (siehe Kapitel
 :ref:`sec_konfiguration-artikeltypen`).
 
 
-Beiträge löschen
-================
 
-Als Administrator eines Artikels können Sie einzelne Kommentare oder
-auch ganze Diskussionsstränge löschen. Dafür besitzt jeder Kommentar
-neben der Schaltfläche :guilabel:`Antworten` eine, die mit
-:guilabel:`Löschen` beschriftet ist (siehe Abbildung
-:ref:`fig_kommentare-loeschen`). Löschen Sie einen Diskussionsbeitrag,
-auf den bereits geantwortet wurde, so werden auch alle Antworten auf
-ihn entfernt. 
 
-.. warning:: 
-   Beachten Sie, dass beim Löschen von Kommentaren keine
-   weitere Nachfrage erfolgt.
+.. _sec_kommentierungseinstellungen:
 
-.. _fig_kommentare-loeschen:
+Konfiguration der Kommentarfunktion
+===================================
+
+Die Kommentarfunktion lässt sich detailliert konfigurieren. Im
+Konfigurationsmenü von Plone befindet sich ein Eintrag mit dem Namen
+:guilabel:`Kommentare`. Über diesen Link gelangt man in das
+Konfigurationsmenü für die Kommentarfunktion (siehe Abb.:
+:ref:`fig_konfiguration-kommentare`). 
+
+
+.. _fig_konfiguration-kommentare:
 
 .. figure::
-   ../images/kommentare-loeschen.*
-   :width: 100%
+   ../images/konfiguration-kommentare.*
+   :alt: Das Konfigurationsmenü für die Kommentarfunktion
 
-   Zusätzliche Schaltfläche zum Löschen von Kommentaren
+   Das Konfigurationsmenü für die Kommentarfunktion
+
+Folgende Optionen können eingestellt werden:
+
+Kommentierungsfunktion generell einschalten
+    Wenn hier ein Häkchen gesetzt ist, wird die Kommentierungsfunktion
+    aktiviert. Wenn Kommentare generell nicht erwünscht sind,
+    entfernen Sie das Häkchen. Die übrigen Optionen sind daraufhin
+    nicht zugänglich.
+
+Anonyme Kommentare
+   Da Plone sehr differenziert als öffentliches Internetportal sowie
+   als teilweise öffentliches oder geschlossenes Intranet betrieben
+   werden kann, gibt es die Möglichkeit nicht angemeldeten Benutzern
+   das Kommentieren zu erlauben.
+
+Enable comment moderation
+   Wenn man anonyme Kommentare erlaubt, ist es oftmals empfehlenswert,
+   diese vor einer Veröffentlichung von einem Moderator sichten und
+   freigeben lassen. Wenn dies der Fall ist, aktivieren Sie diese
+   Option.
+
+Text transformationen
+   Eine Textauszeichnung (Formatierung) ist bei Kommentaren in der
+   Regel nicht nötig. In der Voreinstellung wird daher die Texteingabe
+   in reinen Text umgewandelt. Wenn Kommentare umfangreich formatiert werden
+   sollen, können Sie den Benutzern die Eingabe von Markdown
+   ermöglichen. Die dritte Eintellungsmöglichkeit ist »Intelligent
+   text«. Bei dieser Option werden URLs und E-Mail-Adresse in Links
+   konvertiert. Alle anderen Eingaben werden in reinen Text
+   umgewandelt.
+
+Captcha
+   Um zu verhindern, dass durch Skripte automatisiert Kommentare
+   erzeugt werden, können Captchs genutzt werden. Dazu müssen die
+   angegebenen Erweiterungen installiert werden. Ansonsten kann hier
+   keine Auswahl erfolgen.
+
+Zeige das Portrait des Kommentators
+   Wenn ein registrierter Benutzer kommentiert, erscheint sein
+   Porträtfoto im Kommentar, wenn diese Option aktiviert ist.
+
+Email-Benachrichtigungen für Moderatoren aktivieren
+   Wenn diese Option aktiviert ist, erhält der Moderator eine E-Mail,
+   wenn ein neuer Kommentar zu kontrollieren ist. Standardmäßig wird
+   die E-Mail an die Adresse versendet, die in der E-Mail-Konfiguration
+   angegeben wurde. Es kann im Feld darunter eine alternative
+   Moderator E-Mail-Adresse angegeben werden.
+
+Moderator Email Address
+   Hier kann eine E-Mail-Adresse angegeben werden, an die die
+   Benachrichtigungen geschickt werden.
+
+E-Mail-Benachrichtigungen für Benutzer aktivieren
+   Diese Option ist standardmäßig aktiviert. Leider funktioniert sie
+   wegen eines Bugs nicht. In einer zukünftigen Version von Plone
+   könnte dieser Bug beseitigt sein. Wenn diese Option aktiviert ist,
+   kann sich der Benutzer über weitere Kommentare zu einem Artikel per
+   E-Mail informieren lassen. 
+
+
+.. _Website: http://daringfireball.net/projects/markdown/

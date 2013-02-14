@@ -1,12 +1,10 @@
 
-.. todo:: KapitelPloneFormGen und LinguaPlone anpassen
-
 .. _sec_erweiterungen:
 
 
-=========================
-Erweiterbarkeit von Plone
-=========================
+=============
+Erweiterungen
+=============
 
 Plone ist in der Grundversion ein überaus leistungsfähiges System mit
 zahlreiche einzigartigen Funktionen. Eine seiner größten Stärken ist aber seine

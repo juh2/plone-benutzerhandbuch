@@ -24,39 +24,46 @@ Die Konfiguration findet auf zwei Ebenen statt.
 2. Die Zuweisung einer bereits formulierten Regel erfolgt auf Ordner-Ebene
 
 
-Im Bereich :guilabel:`Regeln` der Website-Konfiguration finden Sie zunächst die Option :guilabel:`Global aktivieren`, die in der Voreinstellung ausgewählt ist. 
-Damit stehen die formulierten Regeln auf der gesamten Website zur Verfügung. Möchte man grundsätzlich keine automatisch ablaufenden Prozesse einrichten, kann man die Option abwählen. 
+Im Bereich :guilabel:`Regeln` der Website-Konfiguration finden Sie
+zunächst die Option :guilabel:`Global aktivieren`, die in der
+Voreinstellung ausgewählt ist.  Damit stehen die formulierten Regeln
+auf der gesamten Website zur Verfügung. Möchte man grundsätzlich keine
+automatisch ablaufenden Prozesse einrichten, kann man die Option
+abwählen.
 
 
 .. _fig_konfiguration-regeln:
 
 .. figure::
    ../images/konfiguration-regeln.*
-   :width: 100%
    :alt: Konfigurationsbereich für Regeln
 
    Konfigurationsbereich für Regeln
 
-Im Bereich :guilabel:`Regeln` sind zunächst keine Regeln vorformuliert (siehe Abbildung :ref:`fig_konfiguration-regeln`). Die Liste »Regeln« ist leer.
+Im Bereich :guilabel:`Regeln` sind zunächst keine Regeln vorformuliert
+(siehe Abbildung :ref:`fig_konfiguration-regeln`). Die Liste »Regeln«
+ist leer.
 
-Mit Hilfe des Auswahlmenüs :guilabel:`Zeige` ließe sich die Liste der Regeln filtern. Per Voreinstellung werden alle Regeln aufgeführt. Die Filtermöglichkeiten sind:
+Mit Hilfe des Auswahlmenüs :guilabel:`Zeige` ließe sich die Liste der
+Regeln filtern. Per Voreinstellung werden alle Regeln aufgeführt. Die
+Filtermöglichkeiten sind:
 
 Alle Regeln
    Es werden ausnahmslos alle Regeln aufgelistet
 
-Auslöser: Object added to this container
+Auslöser: Artikel wurde diesem Ordner hinzugefügt
    Es werden nur die Regeln aufgelistet, in denen das den Prozess anstoßende
    Ereignis das Hinzufügen eines Artikels im Ordner ist.
 
-Auslöser: Object modified
+Auslöser: Artikel wurde verändert
    Es werden nur die Regeln aufgelistet, in denen das den Prozess anstoßende
    Ereignis die Veränderung eines Artikels ist. 
 
-Auslöser: Object removed from this container
+Auslöser: Artikel wurde in diesem Ordner gelöscht
    Es werden nur die Regeln aufgelistet, in denen das den Prozess anstoßende
    Ereignis das Löschen eines Artikels ist.
 
-Auslöser: Workflow state changed
+Auslöser: Status verändert
    Es werden nur die Regeln aufgelistet, in denen das den Prozess anstoßende
    Ereignis eine Statusänderung ist.
 
@@ -76,7 +83,6 @@ Um eine neue Regel hinzuzufügen, betätigen Sie die Schaltfläche :guilabel:`Re
 
 .. figure::
    ../images/konfiguration-regeln-regel-hinzufuegen.*
-   :width: 100%
    :alt: Hinzufügen einer Regeln
 
    Hinzufügen einer Regeln
@@ -87,10 +93,10 @@ Auslösendes Ereignis
    Sie müssen ein Ereignis auswählen, das den automatisierten Prozess in Gang
    setzt. Zur Auswahl stehen:
 
-   * Object added to this container / Ein Artikel wurde im Ordner hinzugefügt
-   * Object modified / Ein Artikel wurde verändert
-   * Object removed from this container / Ein Artikel im Ordner wurde gelöscht
-   * Workflow status changed / Status im Arbeitsablauf wurde verändert
+   * Artikel wurde diesem Ordner hinzugefügt
+   * Artikel wurde verändert
+   * Artikel wurde im Ordner wurde gelöscht
+   * Status verändert
 
 Eingeschaltet
    Mit dieser Option können Sie Regeln aktivieren und deaktivieren.
@@ -105,7 +111,6 @@ Speichern Sie Ihre Eingaben, um die Regel zu erzeugen. Sie werden in den Bereich
 
 .. figure::
    ../images/konfiguration-regeln-regel-hinzugefuegt.*
-   :width: 100%
    :alt: Die neu hinzugefügte Regeln
 
    Neu hinzugefügte Regel
@@ -119,7 +124,6 @@ Ereignisauslöser.
 
 .. figure::
    ../images/konfiguration-regeln-regel-bearbeiten.*
-   :width: 100%
    :alt: Bearbeitung einer Regel
  
    Bearbeitung der neu hinzugefügten Regel
@@ -134,7 +138,7 @@ möchten, müssen Sie zunächst im Auswahlmenü :guilabel:`Bedingung
 hinzufügen` einen Bereich auswählen, für den die Bedingung formuliert
 werden soll. Folgende Bereiche stehen Ihnen zur Verfügung:
 
-Content Type
+Artikeltyp
    Die Bedingung betrifft den Artikeltyp (siehe Abbildung
    :ref:`fig_bedingung-fuer-artikeltyp`).
 
@@ -142,7 +146,6 @@ Content Type
 
    .. figure::
       ../images/bedingung-fuer-artikeltyp.*
-      :width: 80%
       :alt: Eine Artikeltypbedingung wird hinzugefügt
 
       Artikeltyp-Bedingung
@@ -153,7 +156,7 @@ Content Type
    erfüllt, wenn einer der ausgewählten Artikeltypen in einem Ordner
    hinzugefügt wurde.
 
-File Extension
+Dateiendung
    Die Bedingung bezieht sich auf die Dateiendung einer hochgeladenen
    Datei (siehe Abbildung :ref:`fig_bedingung-fuer-dateiendung`).
 
@@ -161,7 +164,6 @@ File Extension
 
    .. figure::
       ../images/bedingung-fuer-dateiendung.*
-      :width: 80%
       :alt: Eine Bedingung für die Dateiendung wird hinzugefügt
 
       Bedingung für Dateiendung
@@ -172,7 +174,7 @@ File Extension
    dies: die Bedingung ist erfüllt, wenn eine Datei mit der
    spezifischen Dateiendung in einem Ordner hinzugefügt wurde.
 
-Workflow state
+Status
    Die Bedingung bezieht sich auf einen Status im Arbeitsablauf (siehe
    Abbildung :ref:`fig_bedingung-fuer-status`).
 
@@ -180,7 +182,6 @@ Workflow state
 
    .. figure::
       ../images/bedingung-fuer-status.*
-      :width: 80%
       :alt: Eine Statusbedingung wird hinzugefügt
 
       Statusbedingung
@@ -190,20 +191,19 @@ Workflow state
    state changed) ist. Die Bedingung gilt als erfüllt, wenn der neue
    Status derjenige ist, der in der Bedingung festgelegt wurde. 
 
-User's group
+Gruppe des Benutzers
    Die Bedingung bezieht sich auf die Gruppe eines Benutzers.
 
    .. _fig_bedingung-fuer-gruppe:
 
    .. figure::
       ../images/bedingung-fuer-gruppe.*
-      :width: 80%
       :alt: Eine Bedingung für die Gruppe wird hinzugefügt
 
       Bedingung für die Gruppe
 
 
-User's role
+Funktion des Benutzers
    Die Bedingung bezieht sich auf die :term:`Rolle` oder Funktion des
    Benutzers.
 
@@ -211,12 +211,21 @@ User's role
 
    .. figure::
       ../images/bedingung-fuer-funktion.*
-      :width: 80%
       :alt: Eine Bedingung für die Funktion wird hinzugefügt
-
+ 
       Bedingung für die Funktion
 
-.. todo:: Screenshot spricht von Rolle
+TALES-Ausdruck
+    Mit dieser Option können Sie eine Bedingung über einen
+    TALES-Ausdruck festlegen.
+
+    .. _fig_bedingung-tales:
+    
+    .. figure::
+       ../images/konfiguration-regeln-tales-bedingung.*
+       :alt: Eingabemaske für TALES-Ausdruck
+
+       TALES-Ausdruck als Bedingung
 
 Nachdem Sie eine Bedingung hinzugefügt und Ihre Eingabe gespeichert
 haben, kehren Sie zum Bearbeitungsformular der Regel zurück (siehe
@@ -229,7 +238,6 @@ hinzugefügte Bedingung vor.
 
 .. figure::
    ../images/konfiguration-regeln-artikeltyp-bedingung-hinzugefuegt.*
-   :width: 100%
    :alt: Hinzugefügte Artikeltyp-Bedingung
 
    Hinzugefügte Artikeltyp-Bedingung
@@ -239,10 +247,10 @@ unter den definierten Bedingungen ausgelöst werden soll. Dazu finden
 Sie ganz unten im Formular das Auswahlmenü :guilabel:`Aktion
 hinzufügen`. Es enthält folgende Optionen:
 
-Logger 
-   Mit Hilfe eines Loggers wird das Ereignis unter den gesetzten
+Protokoll
+   Mit Hilfe der Aktion Protokoll wird das Ereignis unter den gesetzten
    Bedingungen in einer Datei protokolliert. Bei der Konfiguration
-   eines Loggers (siehe Abbildung
+   eines Protokolls (siehe Abbildung
    :ref:`fig_konfiguration-regeln-logger-bearbeiten`) können Sie die
    Bezeichnung des Protokolleintrags (Protokollname) und den
    Logging-Level (Protokollebene) festlegen. Die Einträge selbst
@@ -253,14 +261,11 @@ Logger
 
    .. figure::
       ../images/konfiguration-regeln-logger-bearbeiten.*
-      :width: 80%
       :alt: Bearbeitungsformular für Protokolldatei
 
       Protokollierung eines Ereignisses
 
-.. todo:: Übersetzung unglücklich.
-
-Notify user
+Benutzer benachrichtigen
    Mit dieser Aktion wird dem Benutzer eine Statusmeldung
    angezeigt. Sie können im Bearbeitungsformular (siehe Abbildung
    :ref:`fig_konfiguration-regeln-notify-user-bearbeiten`) eine
@@ -270,12 +275,11 @@ Notify user
    .. _fig_konfiguration-regeln-notify-user-bearbeiten:
    .. figure::
       ../images/konfiguration-regeln-notify-user-bearbeiten.*
-      :width: 80%
-      :alt: Einrichtung einer Statusmeldung
+      :alt: Einrichtung einer Benutzerbenachrichtigung
 
-      Einrichtung einer Statusmeldung
+      Einrichtung einer Benutzerbenachrichtung
 
-Copy to folder
+Kopieren in Ordner
    Diese Aktion kopiert einen Artikel in einen bestimmten Ordner. Sie können im
    Bearbeitungsformular (siehe Abbildung
    :ref:`fig_konfiguration-regeln-copy-to-folder`) den Ordner, in den der
@@ -284,10 +288,9 @@ Copy to folder
    .. _fig_konfiguration-regeln-copy-to-folder:
    .. figure::
       ../images/konfiguration-regeln-copy-to-folder.*
-      :width: 80%
-      :alt: Einrichtung der Aktion »Copy to folder«
+      :alt: Einrichtung der Aktion »Kopieren in Ordner«
 
-      Einrichtung der Aktion »Copy to folder«
+      Einrichtung der Aktion »Kopieren in Ordner«
 
    Sie können einen Ordner festlegen, indem Sie den
    entsprechenden Radiobutton anklicken und die Schaltfläche
@@ -304,15 +307,15 @@ Copy to folder
 
    Sichern Sie zum Abschluss Ihre Eingaben.
 
-Move to folder
+In Ordner verschieben
    Diese Aktion verschiebt einen Artikel in einen definierten
    Ordner. Das Bearbeitungsformular ist ebenso aufgebaut wie das
-   Formular für die Aktion »Copy to folder«.
+   Formular für die Aktion »Kopieren in Ordner«.
 
-Delete object
+Artikel löschen
    Mit dieser Aktion wird der Artikel gelöscht. Es gibt keine Konfigurationsmöglichkeiten.
 
-Transition workflow
+Statuswechsel Arbeitsablauf
    Mit dieser Aktion wird ein Statuswechsel durchgeführt. Im
    Bearbeitungsformular (siehe Abbildung
    :ref:`fig_konfiguration-regeln-workflow-transition`) können Sie mit
@@ -322,12 +325,11 @@ Transition workflow
    .. _fig_konfiguration-regeln-workflow-transition:
    .. figure::
       ../images/konfiguration-regeln-workflow-transition.*
-      :width: 80%
       :alt: Einrichtung einer Statusänderung
 
       Arbeitsablaufaktion
 
-Send email 
+E-Mail senden
    Mit dieser Aktion wird eine E-Mail versendet. Im
    Bearbeitungsformular (siehe Abbildung
    :ref:`fig_konfiguration-regeln-email-aktion-bearbeiten` können Sie
@@ -339,7 +341,6 @@ Send email
    .. _fig_konfiguration-regeln-email-aktion-bearbeiten:
    .. figure::
       ../images/konfiguration-regeln-email-aktion-bearbeiten.*
-      :width: 80%
       :alt: Einrichtung der E-Mail-Aktion
 
       Einrichtung der E-Mail-Aktion
@@ -352,7 +353,6 @@ Send email
    .. _fig_konfiguration-regeln-e-mail-ersetzungen:
    .. figure::
       ../images/konfiguration-regeln-e-mail-ersetzungen.*
-      :width: 80%
       :alt: Alle möglichen Variablen, die in eine E-Mail-Aktion
             eingefügt werden können.
 
@@ -366,7 +366,6 @@ der Regel aufgelistet (siehe Abbildung
 
 .. figure::
    ../images/konfiguration-regeln-email-aktion-hinzugefuegt.*
-   :width: 100%
    :alt: Fertig konfigurierte Regel
 
    Fertig konfigurierte Regel
@@ -391,7 +390,6 @@ formulierten Regeln auswählen und durch Betätigung der Schaltfläche
 
 .. figure::
    ../images/regel-in-ordner-hinzufuegen.*
-   :width: 100%
    :alt: Hinzufügen einer Regel in einem Ordner
 
    Hinzufügen einer Regel in einem Ordner
@@ -404,7 +402,6 @@ aufgeführt (siehe Abbildung :ref:`fig_regel-im-ordner-hinzugefuegt`).
 
 .. figure::
    ../images/regel-im-ordner-hinzugefuegt.*
-   :width: 100%
    :alt: Auflistung der Regeln eines Ordners
 
    Auflistung der Regeln eines Ordners
@@ -414,7 +411,7 @@ Die Ansicht enthält verschiedene Schaltflächen.
 Aktivieren
    Aktiviert die markierte Regel. 
 
-Disable
+Deaktivieren
    Deaktiviert die markierte Regel.
 
 Einstellungen für Unterordner übernehmen
@@ -443,7 +440,6 @@ Namen eines Ordners können Sie direkt in den Ordner wechseln.
 
 .. figure::
    ../images/konfiguration-regeln-verknuepfte-regeln.*
-   :width: 100%
    :alt: Auflistung, in welchen Ordnern die Regel verwendet wird
 
    Auflistung, in welchen Ordnern die Regel verwendet wird

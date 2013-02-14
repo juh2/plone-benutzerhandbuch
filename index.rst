@@ -11,15 +11,13 @@
 Das Plone 4 Benutzerhandbuch
 ============================
 
-.. todolist:: 
-
 .. only:: html
 
    .. hint:: Hier entsteht das Benutzerhandbuch für Plone 4. 
  
              Auch erhältlich als :download:`PDF
              <_build/latex/Plone-Benutzerhandbuch-4.2.pdf>` oder
-             :download:`ePub <_build/epub/Plone-Benutzerhandbuch42.epub>`
+             :download:`ePub <_build/epub/Plone-Benutzerhandbuch.epub>`
 
              `Bitte unterstützen Sie das Plone Benutzerhandbuch!`_ 
              
@@ -88,8 +86,7 @@ Erweiterungen
    erweiterungen/index.rst
    erweiterungen/ploneformgen/index.rst
    erweiterungen/linguaplone/index.rst
-
-..   erweiterungen/ploneglossary/index.rst
+   erweiterungen/ploneglossary/index.rst
 
 Verzeichnisse und Index
 =======================

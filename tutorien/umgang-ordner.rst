@@ -63,13 +63,11 @@ Unterschied auszumachen.
 Dort hat Plone jetzt eine Tabelle erzeugt, deren bisher einziger Eintrag die
 gerade angelegte Seite ist (siehe Abbildung :ref:`fig_folder-with-object`).
 
-.. todo:: Neuer Screenshot Kosmetik
-
 .. _fig_folder-with-object:
 
 .. figure::
     ../images/folder-with-object.*
-    :width: 100%
+    :alt: Artikel »Kochseminar« erscheint in Auflistung
 
     Inhaltsansicht eines Ordners mit einem Artikel
 

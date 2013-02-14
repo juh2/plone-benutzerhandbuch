@@ -8,9 +8,6 @@ Mit Ordnern geben Sie Ihrer Website eine inhaltliche Struktur. Sie können
 verwandte und zusammengehörige Artikel in Ordnern zusammenfassen und mit
 ineinander verschachtelten Ordnern komplexe Navigationsstrukturen aufbauen.
 
-.. todo:: 
-   Hier später Verweis auf Admin-Tutorial einfügen.
-
 Die Anzeigeansicht eines Ordners listet entweder den Inhalt des Ordners auf,
 also die Artikel, die sich in ihm befinden, oder sie verwendet einen
 ausgewählten Artikel aus dem Ordner wie eine Art Titelblatt und zeigt diesen
@@ -75,7 +72,7 @@ markieren können. In der Anzeigeansicht des Ordners erscheint nun keine
 Plone kann für Ordner RSS-Feeds erzeugen. Dieser Vorgang wird Syndizierung
 genannt. Jeder Ordner besitzt eine weitere Ansicht, in der Sie das
 Syndizierungsverhalten steuern können (siehe
-Kapitel :ref:`sec_syndizierung-ansicht`).
+Kapitel :ref:`sec_syndizierung`).
 
 .. _sec_bearbeitungsansicht-ordner:
 

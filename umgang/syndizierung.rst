@@ -69,54 +69,56 @@ beispielsweise auf Ihrem Rechner in einem Nachrichtenticker einen RSS-Feed
 Ihrer Website abonnieren, der Sie über Änderungen und neue Artikel auf der
 Website informiert.
 
-Ist auf Ihrer Website die Syndizierung eingeschaltet, können Sie für
-jeden Ordner und jede Kollektion einzeln entscheiden, ob sie einen
-RSS-Feed mit Meldungen anbieten sollen. Dazu besitzen diese
-Artikeltypen eine Ansicht »Syndizierung« (siehe Abschnitt
-:ref:`sec_syndizierung-ansicht`), auf der Sie jeweils den RSS-Feed
-ein- und ausschalten und konfigurieren können.
+RSS-Feeds von Kollektionen
+--------------------------
 
-Ordner und Kollektionen, die einen RSS-Feed anbieten, besitzen eine
-Artikelaktion »RSS-Feed«, die ein Verweis zur Internetadresse des RSS-Feeds
-ist. Unter dieser Adresse können die Besucher den Feed in einem beliebigen
-RSS-Anzeigeprogramm abonnieren.
+Plone erzeugt für jede Kollektion automatisch einen RSS-Feed. Er ist
+erreichbar, indem Sie an die Internetadresse der Kollektion den Pfad
+:code:`/RSS` anhängen. 
 
-Wenn Sie eine Suche ausführen, so befindet sich am Anfang der Ergebnisliste
-der Verweis »Abonnieren Sie einen stets aktuellen RSS-Feed aus diesen
-Suchresultaten«. Dieser Verweis zeigt auf die Internetadresse eines
-RSS-Feeds, der stets die aktuelle Ergebnisliste zu dieser Suchanfrage
-enthält.
+Die Internetadresse der Kollektion, die neue Nachrichten in einer
+Plone-Site auflistet, lautet bei einer Standardinstallation::
 
-Für den RSS-Feed eines Ordners oder einer Kollektion werden als Titel und
-Beschreibung die Metadaten des Ordners oder der Kollektion selbst verwendet.
-Jeder Hinweis auf einen Artikel enthält neben Titel, Beschreibung und der
-Internetadresse auch Angaben über den Herausgeber, den Autor, die
-Nutzungsbedingungen und das Veröffentlichungsdatum. Diese Informationen werden
-den Eigenschaften und Metadaten der Artikel entnommen.
+   http://localhost:8080/Plone/news/aggregator
 
-In RSS-Feeds von Ordnern und Kollektionen ist der Inhalt von Unterordnern und
-Unterkollektionen nicht enthalten: wenn für sie die Syndizierung aktiviert
-ist, haben sie ihre eigenen RSS-Feeds.
+Den RSS-Feed dieser Kollektion erreichen Sie folglich durch die
+Internetadresse:: 
 
+   http://localhost:8080/Plone/news/aggregator/RSS
 
-.. todo:: Kontrollieren, ob Syndizierung so nocht funktioniert
+RSS-Feeds von Ordnern
+---------------------
 
-.. _sec_syndizierung-ansicht:
+Von einem Ordner werden in einer Standardinstallation keine RSS-Feeds
+erzeugt. Sie können aber die Syndizierung für einen Ordner aktivieren,
+indem Sie an die Internetadresse des Ordners den Pfad
+:code:`/synPropertiesForm` anhängen.
 
-Artikelansicht »Syndizierung«
-=============================
+Um die Syndizierung für den Ordner::
 
-Falls in Ihrer Website die Syndizierung aktiviert ist, tragen
-Ordner und Kollektionen einen zusätzlichen Reiter mit der Aufschrift
-»Syndizierung«. Er gehört zu einer Artikelansicht, in der Sie die
-Syndizierungseigenschaften dieses Ordners bearbeiten können.
+   http://localhost:8080/Plone/veranstaltungen/
 
-Damit ein Ordner oder eine Kollektion tatsächlich einen RSS-Feed
-bereitstellt, müssen Sie die Syndizierung jeweils einzeln einschalten. Dazu
-enthält die Syndizierungsansicht die Schaltfläche »Syndizierung erlauben«.
+einzuschalten, geben Sie in der Adresszeile Ihres Browsers den Pfad::
 
-Nach dem Einschalten der Syndizierung enthält die Syndizierungsansicht eine
-Reihe von Formularfeldern (siehe Abbildung :ref:`fig_syndizierung`).
+   http://localhost:8080/Plone/veranstaltungen/synPropertiesForm
+
+ein. Sie werden dann zur Artikelansicht »Syndizierung« geleitet (siehe
+Abb: :ref:`fig_syndizierung-einschalten`).
+
+.. _fig_syndizierung-einschalten:
+
+.. figure::
+   ../images/syndizierung-einschalten.*
+   :width: 100%
+   :alt: Die Artikelansicht Syndizierung mit dem Button »Syndizierung
+   	 erlauben«
+
+   Artikelansicht Syndizierung
+
+Durch Betätigung des Schalters :guilabel:`Syndizierung erlauben`
+schalten Sie die Syndizierung für den Ordner ein. Die Anzeige wechselt
+und Sie sehen die Standardeinstellungen für die Syndizierung, die Sie
+anpassen können (siehe Abb. :ref:`fig_syndizierung`).
 
 .. _fig_syndizierung:
 
@@ -137,13 +139,29 @@ Kollektion. Um diese Angaben zu ändern, müssen Sie den Titel und die
 Beschreibung des Ordners oder der Kollektion selbst anpassen.
 
 Mit den folgenden drei Angaben teilen Sie den Anzeigeprogrammen mit,
-wann und wie oft sie den Feed abrufen sollten. Die ersten Felder bestimmen,
-wie viele Zeiteinheiten vergehen sollen, bis der RSS-Feed erneut abgerufen
-wird. Im dritten Feld geben Sie den Anfangszeitpunkt für
-die regelmäßige Aktualisierung an. Wählen Sie
-beispielsweise »wöchentlich«, »2« und das Datum eines beliebigen Dienstags
-aus, so empfehlen Sie den Anzeigeprogrammen, jeden zweiten Dienstag
-einen neuen RSS-Feed abzurufen.
+wann und wie oft sie den Feed abrufen sollten. 
+
+Periode aktualisieren
+  Mit dem Auswahlmenü legen Sie fest, ob der RSS-Feed in einem
+  stündlichen, täglichen, wöchentlichen, monatlichen oder jährlichem
+  Rhythmus aktualisiert werden soll.
+
+Frequenz aktualisieren
+  Durch Eingabe einer Zahl legen Sie die Frequenz der Aktualisierung
+  fest. Wenn Sie oben beispielsweise :guilabel:`hourly` als stündlich
+  ausgewählt haben, können Sie durch Eingabe einer Zahl hier
+  festlegen, ob der RSS-Feed jede Stunde (1) oder nur jede zweite Stunde (2)
+  aktualisiert werden soll.
+
+Datenbasis aktualisieren
+  Der Rhythmus der Aktualisierung muss irgendwann starten. Mit den
+  Auswahlmenüs können Sie hierfür ein Datum und eine Uhrzeit
+  festlegen.
+
+Höchstgrenzen Artikel
+  Mit der eingegebenen Zahl legen Sie fest, wie viele Artikel der
+  RSS-Feed anhalten soll. Voreingestellt sind 15 Artikel.
+
 
 Die RSS-Feeds von Ordnern und Kollektionen sind bei jedem Abruf auf
 dem jeweils aktuellen Stand. Wird ein Feed zu oft abgerufen, dann
@@ -152,8 +170,29 @@ selten, so verpasst man Meldungen. Welche Häufigkeit der
 Aktualisierung sinnvoll ist, hängt von Ihrem Anwendungsfall ab und
 muss für jeden Ordner und jede Kollektion einzeln abgeschätzt werden.
 
-Im letzten Formularfeld bestimmen Sie schließlich, wie viele Artikel
-in einem RSS-Feed enthalten sein sollen. Üblicherweise sind das etwa
-10 bis 20. Je mehr Artikel ein Feed enthält, desto seltener sollte er
-abgerufen werden.
+Für den RSS-Feed eines Ordners oder einer Kollektion werden als Titel und
+Beschreibung die Metadaten des Ordners oder der Kollektion selbst verwendet.
+Jeder Hinweis auf einen Artikel enthält neben Titel, Beschreibung und der
+Internetadresse auch Angaben über den Herausgeber, den Autor, die
+Nutzungsbedingungen und das Veröffentlichungsdatum. Diese Informationen werden
+den Eigenschaften und Metadaten der Artikel entnommen.
+
+In RSS-Feeds von Ordnern und Kollektionen ist der Inhalt von
+Unterordnern nicht enthalten: wenn für sie die Syndizierung aktiviert
+ist, haben sie ihre eigenen RSS-Feeds.
+
+Wenn Sie die Syndizierungseinstellungen einer Kollektion ändern
+wollen, erreichen Sie die Artikelansicht »Syndizierung«, indem Sie an
+die Internetadresse der Kollektion den Pfad :code:`/synPropertiesForm`
+anhängen. Die Ansicht ist genauso wie bei einem Ordner aufgebaut.
+
+RSS-Feed einer Suche
+--------------------
+
+Wenn Sie eine Suche ausführen, so befindet sich am Anfang der Ergebnisliste
+der Verweis »Abonnieren Sie einen stets aktuellen RSS-Feed aus diesen
+Suchresultaten«. Dieser Verweis zeigt auf die Internetadresse eines
+RSS-Feeds, der stets die aktuelle Ergebnisliste zu dieser Suchanfrage
+enthält.
+
 

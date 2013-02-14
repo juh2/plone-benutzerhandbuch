@@ -2,8 +2,6 @@
  Aktualisierung (Upgrade) von Plone
 ====================================
 
-.. todo:: Evtl. das Upgrade mit einer neueren Version durchspielen.
-
 Wenn eine neue Version von Plone herauskommt, stellt sich die Frage, ob man eine laufende Plone-Website aktualisieren soll. Die Plone-Community stellt für die Aktualisierung älterer Versionen, Upgrade-Skripts bereit, die eine Standard-Plone-Website – also eine Plone-Website ohne Erweiterungen und eigene Anpassungen – auf den aktuellen Stand bringen. Eine solche einfache Aktualisierung wird in diesem Kapitel beschrieben. 
 
 Vorbereitung

@@ -30,6 +30,11 @@ http://plonebook.info erhältlich ist.
 Kommentare und Fragen nehmen wir gern per E-Mail entgegen:
 jan.ulrich@hasecke.com
 
+Bekannte Fehler und ausstehende Änderungen
+==========================================
+
+.. todolist::
+
 .. only:: html
 
     .. rubric:: Fußnoten
