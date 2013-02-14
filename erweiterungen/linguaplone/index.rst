@@ -273,9 +273,11 @@ eingeben. Dies gilt für alle Teilformulare der Bearbeitungsansicht.
 
 Bei der Einstellung der Kriterien gibt es keine zweigeteilte
 Ansicht. Bedenken Sie, dass es in der Voreinstellung kein
-Suchkriterium »Sprache« bei Kollektionen gibt. Ein solches Kriterium
-kann jedoch im Konfigurationsmenü für Kollektionen (siehe Kapitel
-:ref:`sec_konfiguration-kollektionen`) hinzugefügt werden. 
+Suchkriterium »Sprache« bei Kollektionen gibt. 
+
+.. Ein solches Kriterium kann jedoch im Konfigurationsmenü für
+.. Kollektionen (siehe Kapitel :ref:`sec_konfiguration-kollektionen`)
+.. hinzugefügt werden.
 
 Der Status der übersetzten Kollektion entspricht dem Anfangsstatus von
 Kollektionen auf der Website, in diesem Falle »privat«.

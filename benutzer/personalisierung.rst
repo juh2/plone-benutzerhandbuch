@@ -333,8 +333,9 @@ Externen Editor erlauben
   Wenn diese Option aktiviert ist, können Sie Plone-Artikel mit Hilfe
   eines Editors bearbeiten, der lokal auf Ihrem Rechner installiert
   ist. Hierzu sind Zusatzprogramme notwendig, die gesondert
-  installiert werden müssen (siehe dazu Kapitel
-  :ref:`sec_externer-editor`) 
+  installiert werden müssen 
+
+.. (siehe dazu Kapitel :ref:`sec_externer-editor`) 
 
 Aufgeführt in der Suche
   Falls diese Option aktiviert ist, können andere Benutzer Sie über
