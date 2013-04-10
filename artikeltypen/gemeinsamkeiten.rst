@@ -178,7 +178,7 @@ Teilformulare gleichzeitig untereinander angezeigt.
 .. _fig_bearbeiten-teilformulare:
 
 .. figure:: ../images/bearbeiten-teilformulare.*
-   :width: 100%
+   :width: 60%
 
    Auswahl eines Teilformulars der Bearbeitungsansicht
 

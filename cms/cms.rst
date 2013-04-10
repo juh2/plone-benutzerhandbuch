@@ -14,9 +14,8 @@ kann es sich um Texte, aber auch um Bilder, Töne, E-Mails, Datenbanken
 oder Termine handeln. Prinzipiell betrifft es jede Art von
 Information, die in einem Rechner gespeichert werden kann.
 
-Durch die große Verbreitung von Rechnern und Datennetzen, insbesondere
-des Internets, sind inzwischen in vielen Unternehmen und Institutionen
-die meisten Informationen digital vorhanden. Ein
+In vielen Unternehmen und Institutionen
+sind die meisten Informationen bereits in digitaler Form vorhanden. Ein
 Content-Management-System ermöglicht es, gemeinsam benötigte
 Informationen auch gemeinsam zu verwalten. Ein CMS verwendet man
 hauptsächlich in Intranets oder Webauftritten. Dabei gibt es sowohl
@@ -28,7 +27,6 @@ für verschiedenste Anwendungsgebiete eingesetzt werden kann.
 Plone ist ein solches allgemeines CMS. Es lässt sich an die speziellen
 Bedürfnisse verschiedener Organisationen anpassen und ist daher für
 viele Anwendungsfälle geeignet.
-
 
 Ein CMS bietet seinen Benutzern neben dem Speichern von Dateien eine Reihe
 weiterer Vorteile, die nachfolgend erläutert werden.
@@ -90,17 +88,18 @@ Zusammenarbeit
 ==============
 
 * In einem CMS können mehrere Personen zusammenarbeiten, beispielsweise an
-  einer Website. Ressourcen wie Bilder für eine bestimmte Seite können von
-  anderen Benutzern und an anderer Stelle verwendet werden. Automatisierte
-  Übersichtslisten zeigen neu eingestellte Artikel oder erinnern an Termine.
+  einer Website. Ressourcen wie Bilder, die für die Verwendung in einer
+  bestimmten Seite hochgeladen wurden, können von anderen Benutzern und an
+  anderer Stelle erneut verwendet werden. Automatisierte Übersichtslisten
+  zeigen neu eingestellte Artikel oder erinnern an Termine.
 
 * Ein CMS kann unter Verwendung von Standardformaten Informationen aus
   anderen Systemen einbinden. Beispielsweise kann es Nachrichten von
   Presseagenturen zusammenführen und aufbereitet präsentieren.
 
 * Die Inhalte eines CMS können von einer zentralen Redaktion oder auch von
-  einzelnen Benutzern eingepflegt und veröffentlicht werden. Häufig enthält
-  ein CMS sowohl Bereiche, in denen eine inhaltliche und formelle Prüfung
+  einzelnen Benutzern eingepflegt und veröffentlicht werden. Häufig enthält ein
+  CMS sowohl Bereiche, in denen eine inhaltliche und formelle Prüfung
   stattfindet, als auch freie Bereiche ohne eine solche Prüfung.
 
 * Die Benutzer können nach ihren Aufgabengebieten und Zuständigkeiten in
@@ -117,9 +116,9 @@ Zusammenarbeit
 Sicherheit
 ==========
 
-* Anhand von Sicherheitsrichtlinien sorgt ein
-  CMS dafür, dass nur autorisierte Benutzer Dokumente
-  erstellen, bearbeiten, freigeben, archivieren und betrachten können.
+* Anhand von Sicherheitsrichtlinien sorgt ein CMS dafür, dass nur autorisierte
+  Benutzer Dokumente erstellen, bearbeiten, freigeben, archivieren und
+  betrachten können.
 
 * Arbeitsabläufe in einem CMS können an bestehende Arbeitsabläufe in einem
   Unternehmen angepasst werden.

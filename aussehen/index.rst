@@ -4,9 +4,9 @@
  Aussehen der Plone-Oberfläche
 ================================
 
-In diesem Kapitel lernen Sie das Aussehen der Plone-Oberfläche kennen.
-Danach sind Sie in der Lage, die in den folgenden Tutorien erwähnten
-Elemente der Oberfläche aufzufinden und zuzuordnen.
+**In diesem Kapitel lernen Sie das Aussehen der Plone-Oberfläche kennen.
+Danach sind Sie in der Lage, die in den folgenden Tutorien erwähnten Elemente
+der Oberfläche aufzufinden und zuzuordnen.**
 
 Starten Sie Ihren Webbrowser und rufen Sie darin Ihre Website auf. Falls Sie
 Plone lokal auf Ihrem Rechner installiert haben, lautet die Adresse

@@ -1,10 +1,15 @@
 Voraussetzungen
 ===============
 
-Das CMS Plone 4 benötigt in der Version |release| Python_ in der
-Version 2.7_ und Zope_ in der Version 2.13_. Python ist eine
-objektorientierte Programmiersprache. Zope ist ein auf Python
-basierender Webapplikationsserver.
+Wenn Sie Plone nicht selbst installieren müssen, können Sie dieses und die
+folgenden Kapitel über die Installation von Plone überspringen und mit dem
+Tutorium :ref:`grundlagen-von-plone` fortfahren. Wenn Sie nicht wissen, was man
+unter dem Begriff Content-Management versteht, lesen Sie zunächst das Kapitel
+:ref:`Einführung-Was-ist-Content-Management`.   
+
+Das CMS Plone 4 benötigt in der Version |release| Python_ in der Version 2.7_
+und Zope_ in der Version 2.13_. Python ist eine objektorientierte
+Programmiersprache. Zope ist ein auf Python basierender Webapplikationsserver.
 
 Plone wird mit Hilfe des :term:`Buildsystems <Buildsystem>` zc.buildout_
 installiert. Mit Buildout lassen sich plattformübergreifend
@@ -54,3 +59,5 @@ muss zudem :term:`XCode` installiert sein.
 .. _Entwicklungsumgebung: http://www.plone-entwicklerhandbuch.de/plone-entwicklerhandbuch/entwicklungsumgebung
 
 .. _Plone-Entwicklerhandbuch: http://www.plone-entwicklerhandbuch.de
+
+

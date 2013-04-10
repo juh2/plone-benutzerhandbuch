@@ -173,10 +173,10 @@ htmlhelp_basename = 'Plonedoc'
 # -- Options for LaTeX output --------------------------------------------------
 
 # The paper size ('letter' or 'a4').
-latex_paper_size = 'a4'
+# latex_paper_size = 'a4'
 
 # The font size ('10pt', '11pt' or '12pt').
-latex_font_size = '12pt'
+# latex_font_size = '12pt'
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
@@ -208,6 +208,11 @@ latex_show_pagerefs = True
 # If false, no module index is generated.
 #latex_domain_indices = True
 
+latex_elements = {
+    'papersize':'a4',
+    'pointsize':'12pt',
+    'docclass':'scrbook'
+    }
 
 # -- Options for manual page output --------------------------------------------
 

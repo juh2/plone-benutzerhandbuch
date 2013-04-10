@@ -9,15 +9,17 @@ von `Jan Ulrich Hasecke`_
 
 Copyright |copy| 2011, Jan Ulrich Hasecke
 
-Anschrift des Autors:
+.. only:: html
 
-Jan Ulrich Hasecke
+   Anschrift des Autors:
 
-Schubertstraße 4 
+   Jan Ulrich Hasecke
 
-42719 Solingen
+   Schubertstraße 4 
 
-E-Mail: jan.ulrich@hasecke.com
+   42719 Solingen
+
+   E-Mail: jan.ulrich@hasecke.com
 
 Umschlaggestaltung: N.N
 

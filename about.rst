@@ -1,14 +1,22 @@
 Über dieses Buch
 ================
 
-Dieses Buch enthält eine Dokumentation des Content-Management-Systems Plone_ in
-der Version |version|. [#]_ Es richtet sich an Benutzer, die als Autoren und
-Redakteure mit Plone arbeiten sowie an Administratoren, die eine 
-Plone-Website konfigurieren und administrieren. 
+Plone ist ein leistungsfähiges Open-Source Content-Management-System, das für den
+professionellen Einsatz in Unternehmen und Organisationen geeignet ist.
+Es zeichnet sich durch viele herausragende Funktionen aus. Plone ist
+benutzerfreundlich und wegen seiner intuitiven Bedienung leicht zu erlernen.
+Vor allem aber ist Plone eins der sichersten CMS überhaupt.  
 
-Entwickler, die Erweiterungen für Plone schreiben,
-programmatische Anpassungen vornehmen oder große Installationen verwalten
-möchten, seien auf das Plone-Entwicklerhandbuch_ [#]_ verwiesen.
+Dieses Buch enthält eine Dokumentation des Content-Management-Systems Plone_ in
+der Version |version|. [#]_ Es setzt so gut wie keine Vorkenntnisse voraus und
+richtet sich an Benutzer, die als Autoren und Redakteure mit Plone arbeiten
+sowie an Administratoren, die eine Plone-Website konfigurieren und
+administrieren. 
+
+Entwickler, die Erweiterungen für Plone schreiben, programmatische Anpassungen
+vornehmen oder große Installationen verwalten möchten, seien auf das
+Plone-Entwicklerhandbuch_ [#]_ oder die umfangreiche Dokumentation auf der
+`Homepage von Plone`_ [#]_ verwiesen.
 
 Das Buch ist in vier Teile untergliedert. Im ersten Teil wird die Installation
 von Plone unter Linux, Mac OS X und Windows erklärt. Im zweiten Teil finden Sie
@@ -17,6 +25,14 @@ sich in dem neuen System zurechtzufinden. Der dritte Teil, die Referenz,
 enthält eine detaillierte Beschreibung aller Funktionen in Plone, die für
 Autoren, Redakteure und Administratoren wichtig sind. Und im vierten Teil
 werden wichtige Erweiterungen beschrieben. 
+
+Für die Generierung der HTML-, PDF- und ePub-Fassung des
+Plone-Benutzerhandbuchs wird der Fork sphinx-epub_ von Roland Meister
+eingesetzt. Roland Meister hat wichtige Verbesserungen in den E-Book-Builder
+eingebaut.
+
+Als Theme für die Darstellung im Web wird das Bootstrap-Theme_ von Ryan Roemer
+verwendet.
 
 Die HTML-Fassung dieses Buches sowie eine PDF-Version und ein eBook, die
 heruntergeladen werden können, finden Sie unter:
@@ -30,6 +46,7 @@ http://plonebook.info erhältlich ist.
 Kommentare und Fragen nehmen wir gern per E-Mail entgegen:
 jan.ulrich@hasecke.com
 
+
 Bekannte Fehler und ausstehende Änderungen
 ==========================================
 
@@ -37,11 +54,14 @@ Bekannte Fehler und ausstehende Änderungen
 
 .. only:: html
 
+
     .. rubric:: Fußnoten
 
 .. [#] http://plone.org/products/plone/releases
 
 .. [#] http://www.plone-entwicklerhandbuch.de
+
+.. [#] https://plone.org/documentation
 
 .. [#] Lotze, Thomas, und Jan Ulrich Hasecke. Plone-Benutzerhandbuch. gocept, 2008.
 
@@ -53,3 +73,10 @@ Bekannte Fehler und ausstehende Änderungen
 .. _Creative-Commons-Lizenz: http://creativecommons.org/licenses/by-nc-sa/2.0/de/
 
 .. _Launchpad: https://launchpad.net/plone-benutzerhandbuch
+
+.. _sphinx-epub: https://bitbucket.org/rolmei/sphinx-epub
+
+.. _Bootstrap-Theme: https://github.com/ryan-roemer/sphinx-bootstrap-theme
+
+.. _`Homepage von Plone`: https://plone.org/documentation
+
