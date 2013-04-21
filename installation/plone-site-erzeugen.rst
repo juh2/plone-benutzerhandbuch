@@ -3,7 +3,10 @@
 Erzeugung einer Plone-Site
 ==========================
 
-Wenn Sie nach der Installation von Plone die Adresse http://localhost:8080 in Ihren Browser eingeben, erscheint eine Seite, die Sie darüber informiert, dass Plone läuft, aber noch keine Plone-Website erzeugt wurde (siehe Abbildung :ref:`fig_plone-site-noch-nicht-erzeugt`)
+Wenn Sie nach der Installation von Plone die Adresse http://localhost:8080 in
+Ihren Browser eingeben, erscheint eine Seite, die Sie darüber informiert, dass
+Plone läuft, aber noch keine Plone-Website erzeugt wurde (siehe Abbildung
+:ref:`fig_plone-site-noch-nicht-erzeugt`)
 
 .. _fig_plone-site-noch-nicht-erzeugt:
 
@@ -19,6 +22,8 @@ aufzurufen, mit dem Sie eine Plone-Site anlegen können (siehe Abbildung
 :menuselection:`Erzeuge eine Plone-Site`. Darüber hinaus können Sie das
 :term:`Zope-Management-Interface` oder die Homepage des Plone-Projekts
 http://plone.org aufrufen.
+
+.. todo:: Screenshot gelegentlich erneuern
 
 .. _fig_erzeuge-eine-plone-site:
 

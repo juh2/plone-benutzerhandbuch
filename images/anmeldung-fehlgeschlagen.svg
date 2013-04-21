@@ -1,58 +1,1007 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 800 517.69" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/"><metadata id="metadata8"><rdf:RDF><cc:Work rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/><dc:title/></cc:Work></rdf:RDF></metadata><defs id="defs6"><clipPath id="clipPath14" clipPathUnits="userSpaceOnUse"><path id="path16" d="m0,440.72,640,0,0,414.15-640,0,0-414.15z"/></clipPath><clipPath id="clipPath24" clipPathUnits="userSpaceOnUse"><path id="path26" d="M0,0,640,0,640,855,0,855,0,0z"/></clipPath><clipPath id="clipPath146" clipPathUnits="userSpaceOnUse"><path id="path148" d="m109,576,152,0,0,22-152,0,0-22z"/></clipPath><clipPath id="clipPath156" clipPathUnits="userSpaceOnUse"><path id="path158" d="M0,0,640,0,640,855,0,855,0,0z"/></clipPath><clipPath id="clipPath194" clipPathUnits="userSpaceOnUse"><path id="path196" d="m6,496,92,0,0,32-92,0,0-32z"/></clipPath><mask id="mask200" height="1" width="1" y="0" x="0" maskUnits="userSpaceOnUse"><image id="image202" width="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAAAAAA3CQdqAAAAAXNCSVQI5gpbmQAAALFJREFUKJG1zr8OAUEYBPD5dveO2IQchagIrVInofUEHoQn8VSiVaBVXURxQXHOn/sU5NzebntT/jKTDFBu1GR1iJmZ/0TjLf+SmVwwF1Es2UKaso16Z6OY5Y0FAKAydzxsHV3NjtERAEAebARFDnzvbeRk7WjeN6c8yu8c9ZGF/JJBv4h43qjaKyLHUXpp10xEeg2Tc/jwPQGAso0KusNB0yMDQb7WDa3IQAAkpQkl5wPV83R7G8wwRAAAAABJRU5ErkJggg==" height="1"/></mask><mask id="mask208" height="1" width="1" y="0" x="0" maskUnits="userSpaceOnUse"><image id="image210" width="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAAAAAA3CQdqAAAAAXNCSVQI5gpbmQAAALhJREFUKJG90M0KAVEYxvHnMBplaeVaiK0rcCFcib17sLAUzcLCrJQ0SVGDSMlkanyMmR6LYZTzbnmXv/7nWRzgB0eS13m7anwjSU7LSkeymRWQrYyArCkBnYKArCcD6QwAoGEKpVsUypIpIHJKR08JpRMLOL5Tw4N908vu4qLhwNprm1bP9gkASD/8OLT7uyRMMPI3q/VktA1fgdEBwMdpOXO96P1KVQBGwTkIQqbrKg+AcfyRf94TPkeNmi2bDvQAAAAASUVORK5CYII=" height="1"/></mask><pattern id="pattern214" height="32" width="8" patternUnits="userSpaceOnUse" patternTransform="translate(22,496)" y="0" x="0"><defs id="defs216"><mask id="_mask0" height="1" width="1" y="0" x="0" maskUnits="userSpaceOnUse"><image id="image219" width="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAgCAAAAAAKm2YMAAAAAXNCSVQI5gpbmQAAAB9JREFUGJVjYCAMGP9DGUwMQ4bBMgfmeBsYg4OBDAAAUUUCDX1aU/UAAAAASUVORK5CYII=" height="1"/></mask></defs><g id="g223"><g id="g225" transform="scale(8,32)"><image id="image227" width="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAgCAYAAAAv8DnQAAAABHNCSVQICAgIfAhkiAAAAG9JREFUOI3NkzEOgDAMA+3Wz+z/fwAMTRUGFiQgGUBAlw6+Ko6TEoAjOCUSnwHUWoP70QbJ7Taz0CT97Pm+hJnFHsYYN4HEAmS9h1lrWuZr1QEVBmESUClx2qq15kDUSV5C0j0gneYLO0l8/y/+AKyZgik/cutFeQAAAABJRU5ErkJggg==" mask="url(#_mask0)" height="1"/></g></g></pattern><clipPath id="clipPath235" clipPathUnits="userSpaceOnUse"><path id="path237" d="m12,503,80,0,0,21-80,0,0-21z"/></clipPath><clipPath id="clipPath249" clipPathUnits="userSpaceOnUse"><path id="path251" d="M0,0,640,0,640,855,0,855,0,0z"/></clipPath><clipPath id="clipPath495" clipPathUnits="userSpaceOnUse"><path id="path497" d="m413,801,166,0,0,16-166,0,0-16z"/></clipPath><clipPath id="clipPath509" clipPathUnits="userSpaceOnUse"><path id="path511" d="M0,0,640,0,640,855,0,855,0,0z"/></clipPath><clipPath id="clipPath519" clipPathUnits="userSpaceOnUse"><path id="path521" d="m580,793,58,0,0,27-58,0,0-27z"/></clipPath><mask id="mask525" height="1" width="1" y="0" x="0" maskUnits="userSpaceOnUse"><image id="image527" width="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAbCAAAAAC/nTtAAAAAAXNCSVQI5gpbmQAAAKlJREFUGJVjYCAMGJGYjMzMyFJMQpk7n/35//8/TIA19MV/CIBqYK/4/x9FhC3qP6oIk9wrhAgTAwMDA0eEKJIVDAwMjDz+DOgi6mgiTNz86CJsn9FE/v18gi7y9RySCDMDAwMDC7c9O6rIfyZOQ1SRf7+Y2dRQ1fz6/PeLHDuSCMO/L2+/PX/HwMrKiAhDViFFbXl+FiQRBiZ2Hh4uDmbUcGZgZkLiUgoAllFEQPEjaZgAAAAASUVORK5CYII=" height="1"/></mask><mask id="mask533" height="1" width="1" y="0" x="0" maskUnits="userSpaceOnUse"><image id="image535" width="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAbCAAAAAC/nTtAAAAAAXNCSVQI5gpbmQAAALNJREFUGJWt0EEKAWEcBfD3TWNmilLK1tYNXMNKyQ3cwE2cwlKykoVYsWEhRSRNFlMYMpn5ngXTjL+Fjbf81XuLB/yOcgBEEZkQyfDQbxaMtJCkW8sIIVu2EsKGJeVYMgAgGUSx7ghBNaeElL8knzWEXCwp+0ALmV6FnEc+P6UzF9IdrAMAMONKbzj2dCzad1fL2WT3AACYbYDhabvYeC+AqgDR/eb7gX73lQ1QR0j9/Kc8ASw8Y4JW6sS3AAAAAElFTkSuQmCC" height="1"/></mask><pattern id="pattern539" height="27" width="10" patternUnits="userSpaceOnUse" patternTransform="translate(590,793)" y="0" x="0"><defs id="defs541"><mask id="_mask1" height="1" width="1" y="0" x="0" maskUnits="userSpaceOnUse"><image id="image544" width="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAbCAAAAABg00FfAAAAAXNCSVQI5gpbmQAAACJJREFUGJVjYMAGGDkQzP9wJhPD0GKyTIczGc0QTHYGcgAAZN0CBBGJjaoAAAAASUVORK5CYII=" height="1"/></mask></defs><g id="g548"><g id="g550" transform="scale(10,27)"><image id="image552" width="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAbCAYAAABFuB6DAAAABHNCSVQICAgIfAhkiAAAAGVJREFUOI3dkkEKwDAQAjXZd+b/bwgm9l4KsadCPQ/uohKAEagl0CuwxhgRSEkmzo/WWis7HYN2lA5q752BknByJYGac2aOrWWZfwn23mEbJM/gXU9xUVJUDR12GA83meI7x1+BF4aTKzMNI10YAAAAAElFTkSuQmCC" mask="url(#_mask1)" height="1"/></g></g></pattern><clipPath id="clipPath560" clipPathUnits="userSpaceOnUse"><path id="path562" d="m585,799,48,0,0,18-48,0,0-18z"/></clipPath><clipPath id="clipPath574" clipPathUnits="userSpaceOnUse"><path id="path576" d="M0,0,640,0,640,855,0,855,0,0z"/></clipPath><clipPath id="clipPath580" clipPathUnits="userSpaceOnUse"><path id="path582" d="m411,786,10,0,0,11-10,0,0-11z"/></clipPath><clipPath id="clipPath584" clipPathUnits="userSpaceOnUse"><path id="path586" d="m411,786,10,0,0,11-10,0,0-11z"/></clipPath><mask id="mask588" height="1" width="1" y="0" x="0" maskUnits="userSpaceOnUse"><image id="image590" width="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAALCAAAAABjBUPEAAAAAXNCSVQI5gpbmQAAAEpJREFUCJljYEAA0S2////////3FlGGLf+hYAvjH2ao9F/G/3ClTAxYmX9hrL9M52HM88x/VUQYGRgY/l2bzLKOQY2VgYHh9611AC+7HoJ24j2cAAAAAElFTkSuQmCC" height="1"/></mask><mask id="mask616" height="1" width="1" y="0" x="0" maskUnits="userSpaceOnUse"><image id="image618" width="1" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANcAAAA4CAAAAABLBDI+AAAAAXNCSVQI5gpbmQAAAslJREFUaIHVWUmWxCAIBV/d/8r0olNxYE4sY/6iuyJg+A6IBEEADc8oKe0N7vJIStPbG6O/MitJc2/03uqsuO7e6Hy1aY3aW6Px1GUFLyJWHZWD4FtD4+knia2eSFUz+lkyNN+XkNBWYUsFJVH9AV40tpAeUjS/tP05LomFvKh/pk54YNDhUOPOsCaW8CqCC6eDJK+/SOBskdWfgdK92BzK6+P8ALECjFbrhRwK034uJUZEBJ+mwZ0QzB7dT6xAAgCgokQJGdKpENFfT7D4KnfwWHpSMtOVn7DHiH18lRUY04C4WBGdvKoQrdwiFDpyoPpPSrqqmDkjWiIBAH5MP40kd9YCo/7Bur+TlgD1MgSocaO1QBwayZrBexiH1V4O6tHKnuX9xc4gZ/3HPAmJ7YVAxsnRWbpxntiPiZD6jL3Hs/R43WRzxdy0YUJEcYKPdRhZZMc8JyKid7UxEtMGKMi6Q7fGzPoa5/zSOaj74MIUHV2JI2bJzuHi0h/nUcP7Y1KTQqthdLuEVzSUCnpBU1bOWMHL8S3nehAOL72z+GuSBaw4LBeOuJFIi5Le/DChtzzx8nn0YrVlmzWYCPeegt1REcAelW6ZVxtH8Xpy+CC+vNoNVlPCI8NoDZ4oxVzAx0yL9HCyxQRGzuVKz7rkTJ2uX47NmjzKxE9WdsmVmLLBMYeJhf8N5uvCN1FBg/peSqomOGW6hBv8/9/8gjxNiIZ+2/PLTaYm7QQC+B+aMxZf75jqrbKrVxVgVfSuNMX8Ya1xTEzc29NWHJTSaeVKC/chUYix97SGuHEuEW59IwHWDSMt0b66tjI0EMFZGEV5tm8EDZ/GjWtdV5j61qPadAOZkfyd+QJ41oZt56m+0XJL3lq9kiGaBl6Zv2epf+WXa3pb5LsBSNeTmPreyN2tXkPL2kmO7t4I1VpFzb3BvZWZvYuV4u9bg2CDP7cAvnkEfmw4AAAAAElFTkSuQmCC" height="1"/></mask><clipPath id="clipPath676" clipPathUnits="userSpaceOnUse"><path id="path678" d="m479,855,154,0v-15c0-3.312-2.688-6-6-6h-142c-3.312,0-6,2.688-6,6v15z"/></clipPath><clipPath id="clipPath682" clipPathUnits="userSpaceOnUse"><path id="path684" d="M0,0,640,0,640,855,0,855,0,0z"/></clipPath><clipPath id="clipPath692" clipPathUnits="userSpaceOnUse"><path id="path694" d="M0,0,640,0,640,855,0,855,0,0z"/></clipPath></defs><g id="g12" clip-path="url(#clipPath14)" transform="matrix(1.25,0,0,-1.25,0,1068.5963)"><g id="g20"><g id="g22" clip-path="url(#clipPath24)"><path id="path28" fill-rule="nonzero" fill="#FFF" d="M0,0,640,0,640,855,0,855,0,0z"/><path id="path30" fill-rule="nonzero" fill="#FFF" d="M0,0,640,0,640,855,0,855,0,0z"/><g id="g32" transform="matrix(1,0,0,-1,0,855)"><text id="text34" transform="translate(250,799)"><tspan id="tspan36" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="11" font-variant="normal" y="0" x="0 7.337 13.4552 21.3994 27.5176 31.1806 37.2988 44.0022 47.0019 53.1201 59.0029 62.0026 69.3396 71.7838 77.902 84.0202 91.0041 94.0038 102.0041 105.0038 112.3408 117.8408 120.8966 127.0148 133.133" font-weight="normal" fill="#444444">Powered by Plone &amp; Python</tspan></text>
-</g><g id="g38" transform="matrix(1,0,0,-1,0,855)"><text id="text40" transform="translate(207,825)"><tspan id="tspan42" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="14" font-variant="normal" y="0" x="0 10.1108 17.8976 25.6844 30.3464 37.3464 40.4572 47.4572 55.244" font-weight="normal" fill="#205c90">Übersicht</tspan></text>
-</g><g id="g46" transform="matrix(1,0,0,-1,0,855)"><text id="text48" transform="translate(277,825)"><tspan id="tspan50" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="14" font-variant="normal" y="0" x="0 9.338 17.1248 21.7868 26.4488 29.5596 37.3464 42.0084 49.7952 53.6844 58.3464 66.1332 69.244 77.0308 84.8176 87.9284" font-weight="normal" fill="#205c90">Barrierefreiheit</tspan></text>
-</g><g id="g54" transform="matrix(1,0,0,-1,0,855)"><text id="text56" transform="translate(379,825)"><tspan id="tspan58" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="14" font-variant="normal" y="0" x="0 9.338 17.1248 24.9116 28.8008 36.5876 43.5876" font-weight="normal" fill="#205c90">Kontakt</tspan></text>
-</g><path id="path60" fill-rule="nonzero" fill="#ffffe3" d="m8,612,625,0,0,62-625,0,0-62z"/><path id="path62" fill-rule="nonzero" fill="#F00" d="m8,673,625,0,0,1-625,0,0-1z"/><path id="path64" fill-rule="nonzero" fill="#F00" d="m8,612,625,0,0,1-625,0,0-1z"/><path id="path66" fill-rule="nonzero" fill="#F00" d="m8,612,1,0,0,62-1,0,0-62z"/><path id="path68" fill-rule="nonzero" fill="#F00" d="m632,612,1,0,0,62-1,0,0-62z"/><path id="path70" fill-rule="nonzero" fill="#FDC" d="m9,613,623,0,0,60-623,0,0-60z"/><path id="path72" fill-rule="nonzero" fill="#D00" d="m9,645,58,0,0,28-58,0,0-28z"/><g id="g74" transform="matrix(1,0,0,-1,0,855)"><text id="text76" transform="translate(18,200)"><tspan id="tspan78" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 7.9404 15.1658 23.1062 26.7176 33.943" font-weight="bold" fill="#ffffff">Fehler</tspan></text>
-</g><g id="g80" transform="matrix(1,0,0,-1,0,855)"><text id="text82" transform="translate(8,163)"><tspan id="tspan84" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 8.671 11.5596 19.0008 23.0009 29.5009 32.3895 39.6201 47.0015 51.0016 58.2322 61.1208 68.3514 72.6804" font-weight="normal" fill="#000000">Sie sind hier:</tspan></text>
-</g><g id="g88" transform="matrix(1,0,0,-1,0,855)"><text id="text90" transform="translate(89,163)"><tspan id="tspan92" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 8.671 12.2824 19.513 23.842 27.4534 33.9534 41.184 44.0726 47.684" font-weight="normal" fill="#205c90">Startseite</tspan></text>
-</g><g id="g94" transform="matrix(1,0,0,-1,0,855)"><text id="text96" transform="translate(73,200)"><tspan id="tspan98" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 8.671 15.9016 26.7306 33.9612 36.8498 44.0804 51.311 58.5416 66.0036 70.0037 73.6151 80.8457 88.0763 90.9649 98.1955 105.4261 111.9261 118.4261 125.6567 128.5453 135.7759 143.0065 150.2371 157.4677 162.0099 166.01 174.681 181.9116 191.3002 198.5308 205.7614 209.0127 213.0128 220.2434 227.474 231.0139 235.014 243.685 250.9156 258.1462 265.3768 268.9882 275.4882 282.7188 287.0478 294.2784 301.509 312.338 320.0171 324.0172 331.2478 334.1364 341.0186 345.0187 352.2493 359.4799 365.9799 374.0204 378.0205 385.2511 392.4817 395.3703 407.0222 411.0223 419.6933 426.9239 433.4239 439.9239 449.3125 456.5431 460.8721 465.0243 469.0244 478.413 481.3016 485.6306 493.025 497.0251 503.5251 512.9137 515.8023 522.3023 528.8023 536.0329 543.2635" font-weight="normal" fill="#000000">Anmeldung fehlgeschlagen. Sowohl bei Benutzername als auch beim Passwort wird zwischen</tspan></text>
-</g><g id="g100" transform="matrix(1,0,0,-1,0,855)"><text id="text102" transform="translate(73,216)"><tspan id="tspan104" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 10.1114 14.4404 21.671 30.0001 34.9999 39 46.2306 53.4612 61.0012 65.0013 73.6723 76.5609 83.7915 86.6801 93.9107 100.4107 106.9107 114.1413 118.4703 125.7009 128.5895 135.8201 143.0507 150.2813 158.0072 162.0073 169.2379 176.4685 180.0799 187.3105 191.6395 198.1395 204.6395 211.8701 214.7587 221.9893 229.2199 236.4505 243.6811 248.0127 252.0128 260.6838 264.2952 271.5258 274.4144 277.303 284.5336 292.0151 296.0152 304.6862 307.5748 315.016 319.0161 325.5161 328.4047 334.9047 342.1353 349.3659 353.6949 358.0174 362.0175 369.2481 376.4787 382.9787 390.0182 394.0183 401.2489 404.1375 412.0194 416.0195 423.9599 431.1905 437.6905 441.3019 447.8019 451.4133 458.6439 461.5325 464.4211 468.0325 475.2631 481.7631 485.3745 493.0198 497.0199 504.2505 507.1391 513.6391 520.8697" font-weight="normal" fill="#000000">Groß- und Kleinschreibung unterschieden. Stellen Sie sicher, dass die Feststelltaste nicht</tspan></text>
-</g><g id="g106" transform="matrix(1,0,0,-1,0,855)"><text id="text108" transform="translate(15,232)"><tspan id="tspan110" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 7.2306 13.7306 17.342 20.2306 26.7306 29.6192 36.8498 41.1788 45.0021 49.0022 51.8908 58.3908 62.0022" font-weight="normal" fill="#000000">aktiviert ist.</tspan></text>
-</g><g id="g112" transform="matrix(1,0,0,-1,0,855)"><text id="text114" transform="translate(8,275)"><tspan id="tspan116" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 9.3886 16.6192 24.5596 32.5 36.829 43.329 50.5596 55.6192 63.5596 70.7902 82.3498" font-weight="bold" fill="#000000">Benutzername</tspan></text>
-</g><path id="path120" fill-rule="nonzero" fill="#ffffe0" d="m107,574,156,0,0,26-156,0,0-26z"/><path id="path122" fill-rule="nonzero" fill="#696969" d="m107,600,1,0,0-1-1,0,0,1zm155,0,1,0,0-1-1,0,0,1z"/><path id="path124" fill-rule="nonzero" fill="#777" d="m108,600,1,0,0-1-1,0,0,1zm153,0,1,0,0-1-1,0,0,1z"/><path id="path126" fill-rule="nonzero" fill="#7c7c7c" d="m109,599,152,0,0,1-152,0,0-1z"/><path id="path128" fill-rule="nonzero" fill="#9a9a9a" d="m107,599,1,0,0-1-1,0,0,1zm155,0,1,0,0-1-1,0,0,1z"/><path id="path130" fill-rule="nonzero" fill="#b9b9b9" d="m108,599,1,0,0-1-1,0,0,1zm153,0,1,0,0-1-1,0,0,1zm-154-24,1,0,0-1-1,0,0,1zm155,0,1,0,0-1-1,0,0,1z"/><path id="path132" fill-rule="nonzero" fill="#c3c3c3" d="m109,599,152,0,0-1-152,0,0,1zm-2-1,1,0,0-23-1,0,0,23zm155,0,1,0,0-23-1,0,0,23z"/><path id="path134" fill-rule="nonzero" fill="#cfcfcf" d="m108,575,1,0,0-1-1,0,0,1zm153,0,1,0,0-1-1,0,0,1z"/><path id="path136" fill-rule="nonzero" fill="#DDD" d="m109,574,152,0,0,1-152,0,0-1z"/><path id="path138" fill-rule="nonzero" fill="#f0f0f0" d="m108,598,1,0,0-23-1,0,0,23zm153,0,1,0,0-23-1,0,0,23z"/><path id="path140" fill-rule="nonzero" fill="#fefefe" d="m109,575,152,0,0,1-152,0,0-1z"/></g></g><g id="g142"><g id="g144" clip-path="url(#clipPath146)"><path id="path150" fill-rule="nonzero" fill="#000" d="m110,576,1,0,0,22-1,0,0-22z"/></g></g><g id="g152"><g id="g154" clip-path="url(#clipPath156)"><g id="g160" transform="matrix(1,0,0,-1,0,855)"><text id="text162" transform="translate(39,313)"><tspan id="tspan164" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 8.671 15.9016 23.1322 30.3628 40.4742 48.4146 53.4742" font-weight="bold" fill="#000000">Passwort</tspan></text>
-</g><path id="path168" fill-rule="nonzero" fill="#FFF" d="m107,536,156,0,0,26-156,0,0-26z"/><path id="path170" fill-rule="nonzero" fill="#696969" d="m107,562,1,0,0-1-1,0,0,1zm155,0,1,0,0-1-1,0,0,1z"/><path id="path172" fill-rule="nonzero" fill="#777" d="m108,562,1,0,0-1-1,0,0,1zm153,0,1,0,0-1-1,0,0,1z"/><path id="path174" fill-rule="nonzero" fill="#7c7c7c" d="m109,561,152,0,0,1-152,0,0-1z"/><path id="path176" fill-rule="nonzero" fill="#9a9a9a" d="m107,561,1,0,0-1-1,0,0,1zm155,0,1,0,0-1-1,0,0,1z"/><path id="path178" fill-rule="nonzero" fill="#b9b9b9" d="m108,561,1,0,0-1-1,0,0,1zm153,0,1,0,0-1-1,0,0,1zm-154-24,1,0,0-1-1,0,0,1zm155,0,1,0,0-1-1,0,0,1z"/><path id="path180" fill-rule="nonzero" fill="#c3c3c3" d="m109,561,152,0,0-1-152,0,0,1zm-2-1,1,0,0-23-1,0,0,23zm155,0,1,0,0-23-1,0,0,23z"/><path id="path182" fill-rule="nonzero" fill="#cfcfcf" d="m108,537,1,0,0-1-1,0,0,1zm153,0,1,0,0-1-1,0,0,1z"/><path id="path184" fill-rule="nonzero" fill="#DDD" d="m109,536,152,0,0,1-152,0,0-1z"/><path id="path186" fill-rule="nonzero" fill="#f0f0f0" d="m108,560,1,0,0-23-1,0,0,23zm153,0,1,0,0-23-1,0,0,23z"/><path id="path188" fill-rule="nonzero" fill="#fefefe" d="m109,537,152,0,0,1-152,0,0-1z"/></g></g><g id="g190"><g id="g192" clip-path="url(#clipPath194)"><g id="g198" transform="matrix(20,0,0,32,6,496)"><image id="image204" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAAABHNCSVQICAgIfAhkiAAAAetJREFUSIntlU2K6kAQx//9kaAYyMJAxEXcKIIQSSDgwo0IHsBbuBGv8MALeCSX7lwreIB4ACGJ6XoLJ0HH1348ZjEDU1CETrp+XVWp/MMAEL7Q+FfCfgZQvhsQhiGazSYsy4JhGOCcQyn1PtD3ffR6PbTbbYxGIwRBgFqtBtM07/bSMx+PxzSfz+lwOJBSih4Zw5OxmUwmCMMQi8UCjuOAcw7GANJEPSw5CAL0+31Mp1NYlgWlFEhHegUYRRGGwyEcx4FSqmw+Y+xub3GOFhhFEbrdLjzPAwCkaQohBBhj/wQ+zbDT6cDzPFQqFQBAkiRQSsE0TUghgDsogegBsNVqwXVdSCkhhIBSClmW4Xw+X7LkDJwxgFiBA0B6oOu6sG0bQghwxm/KvSm7vDAATA+0bRuGYVwylAKc84+R+c8eJkmCLMtKUJEh55fPXwfVisN+v8fpdCohBZRzDilluS7ulc91wPV6fZfhNeAzqDxMB9xut4jjGI1GA/V6vQx61sOHerhcLsv5KzIpXpSUEoZh3KyllBAA/uiAx+MReZ5jMBigWq1ehroIvGrBtQMvyNdsNqM4jilN04fSRR/K8RQIgHzfp81mQ2maUp7nWl18GVh4FEW0Wq1ot9tRkiTvC+y79v1/o7/Abwj8C6KHHY5ekzZ2AAAAAElFTkSuQmCC" mask="url(#mask200)" transform="matrix(1,0,0,-1,0,1)" height="1" width="1"/></g><g id="g206" transform="matrix(20,0,0,32,78,496)"><image id="image212" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAAABHNCSVQICAgIfAhkiAAAAhVJREFUSIntlc9KI0EQh7/q6cXT5JacDB716CEg68m3yCUPIPoSvoLg24jgAwiKSkgQPOlBQg5qJEy6u2oPyWjcdWIWhGXBgmIGevrjV3/4jQDGF4b7Stj/AfSdTgcAEUGc4MQRQuDx8ZH7+3vOz8//CigxxndDCSEwGo24vr7m9PSUbrfL1dUVvV5vOaJ9EKpqqmoxRru9vbW9vT3b2dkxphuxMCWE8H5tDGy2SWZGSomHhweOjo64vLzk+Ph4oUCfUkJEMPuNa/aaeV6j3W7jvWcwGHBxcVENVFXMQOQNNB/TcyXPc7Z/bvP09LQQ6MoLqjq7PFWlqiRNqCohBESE1eYqGxsbbG1tVQNjjMQYSSn9kZNiwvPzM0VRkGUZKysrNJtN1tfXq0t+eXkBZLqHYpiBmk6HY4apIiJkWYb3nnq9ztraWjUwy7K53gki4HCvk5YsQ2Z99d5Ty2s0Go1qoMymUT5fw6bIsp8iAgb+hyfP888VlipL8PzaiAiqisscMUZCCMsB30p/ey8VAjjnGI/H9Pv9aqBz7w1nfsnnFYoIKSVijJycnFQDvfeVh/MKY4yMx2MGg8FCB/oUWJYLMJlMODg4qPy+vFQZKSULIdhoNLK7uzvb3d393HEWAUvocDi0/f39peyr0g9TShZjtLOzM9vc3FwO9hGwKAq7ubmxw8NDa7Vay4NKg+X7v/wN/PfAXwpKCJff8HOdAAAAAElFTkSuQmCC" mask="url(#mask208)" transform="matrix(1,0,0,-1,0,1)" height="1" width="1"/></g><path id="path229" fill-rule="nonzero" fill="url(#pattern214)" d="m26,496,52,0,0,32-52,0,0-32z"/></g></g><g id="g231"><g id="g233" clip-path="url(#clipPath235)"><g id="g239" transform="matrix(1,0,0,-1,0,855)"><text id="text241" transform="translate(20,346)"><tspan id="tspan243" style="writing-mode:lr;" font-family="Lucida" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 8.9687 17.0404 29.1811 36.4208 40.1765 48.3652 55.6049" font-weight="normal" fill="#000000">Anmelden</tspan></text>
-</g></g></g><g id="g245"><g id="g247" clip-path="url(#clipPath249)"><g id="g253" transform="matrix(1,0,0,-1,0,855)"><text id="text255" transform="translate(8,378)"><tspan id="tspan257" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 8.671 15.9016 23.1322 30.3628 40.4742 48.4146 53.4742 58.0021 62.0022 69.2328 76.4634 81.523 89.4634 96.694 103.9246 111.1552 118.3858 127.0061" font-weight="bold" fill="#000000">Passwort vergessen?</tspan></text>
-</g><g id="g259" transform="matrix(1,0,0,-1,0,855)"><text id="text261" transform="translate(8,402)"><tspan id="tspan263" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="11" font-variant="normal" y="0" x="0 7.337 13.4552 15.8994 18.3436 21.3994 27.5176 34.001 37.0007 44.3377 46.7819 53.0013 56.001 59.0568 65.175 69.0008 72.0005 79.3375 85.4557 90.9557 96.4557 104.3999 110.5181 114.1811 118.0014 121.0011 126.5011 132.6193 136.2823 142.4005 148.5187 154.0187 159.5187 165.6369 172.0026 175.0023 181.1205 187.2387 193.3569 199.4751 205.5933 209.0044" font-weight="normal" fill="#666666">Sollten Sie Ihr Passwort vergessen haben, </tspan></text>
-</g><path id="path265" fill-rule="nonzero" fill="#CCC" d="m220,450,121,0,0,1-121,0,0-1z"/><g id="g267" transform="matrix(1,0,0,-1,0,855)"><text id="text269" transform="translate(220,402)"><tspan id="tspan271" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="11" font-variant="normal" y="0" x="0 3.0558 9.174 12.837 18.9552 25.0734 28.7364 35.0009 38.0006 45.3376 47.7818 54.0012 57.0009 63.1191 65.5633 72.0016 75.0013 81.1195 87.2377 93.3559 99.4741 105.0038 108.0035 114.1217" font-weight="normal" fill="#205c90">fordern Sie ein neues an</tspan></text>
-</g><g id="g273" transform="matrix(1,0,0,-1,0,855)"><text id="text275" transform="translate(341,402)"><tspan id="tspan277" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="11" font-variant="normal" y="0" x="0" font-weight="normal" fill="#666666">.</tspan></text>
-</g><g id="g279" transform="matrix(1,0,0,-1,0,855)"><text id="text281" transform="translate(8,440)"><tspan id="tspan283" style="writing-mode:lr;" font-family="Helvetica" fill-rule="nonzero" font-size="16" font-variant="normal" y="0" x="0 11.856 21.04 30.528 39.712 46 50 61.264 70.448 79.936 89.424 95.056 103.36 112.544 119" font-weight="bold" fill="#444444">Neuer Benutzer?</tspan></text>
-</g><g id="g285" transform="matrix(1,0,0,-1,0,855)"><text id="text287" transform="translate(8,465)"><tspan id="tspan289" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 12.2694 19.5 26.7306 34.0002 38.0003 46.6713 49.5599 57.0011 61.0012 68.2318 75.4624 81.9624 90.0029 94.003 100.503 107.7336 110.6222 117.8528 125.0834 133.0056 137.0057 145.6767 152.9073 160.1379 167.3685 170.9799 177.4799 184.7105 189.0395 196.2701 203.5007 214.3297 221.5603 229.0093 233.0094 240.24 247.4706 254.7012 261.9318 269.1624 273.013 277.0131 280.6245 287.8551 290.7437 293.6323 300.8629 309.0152 313.0153 321.6863 324.5749 332.0161 336.0162 343.2468 346.1354 349.7468 353.3582 361.0165 365.0166 372.2472 379.4778 386.0181" font-weight="normal" fill="#000000">Wenn Sie noch keinen Benutzernamen haben, füllen Sie bitte das </tspan></text>
-</g><path id="path291" fill-rule="nonzero" fill="#CCC" d="m398,386,132,0,0,1-132,0,0-1z"/><g id="g293" transform="matrix(1,0,0,-1,0,855)"><text id="text295" transform="translate(398,465)"><tspan id="tspan297" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 9.3886 16.6192 23.8498 26.7384 33.2384 36.8498 41.1788 44.0674 51.298 55.627 62.8576 70.0882 77.3188 83.8188 87.4302 94.6608 98.9898 109.8188 117.0494 119.938 127.1686" font-weight="normal" fill="#205c90">Registrierungsformular</tspan></text>
-</g><g id="g299" transform="matrix(1,0,0,-1,0,855)"><text id="text301" transform="translate(534.0001,465)"><tspan id="tspan303" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 7.2306 14.4612 20.9612" font-weight="normal" fill="#000000">aus.</tspan></text>
-</g><g id="g305" transform="matrix(1,0,0,-1,0,855)"><text id="text307" transform="translate(8,492)"><tspan id="tspan309" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 12.2694 19.5 26.7306 34.0002 38.0003 41.6117 48.8423 54.0007 58.0008 66.6718 73.9024 81.133 88.3636 91.975 98.475 105.7056 110.0346 117.2652 124.4958 135.3248 143.0039 147.004 154.2346 161.4652 169.0052 173.0053 181.6763 188.9069 195.4069 201.9069 211.2955 218.5261 222.8551 227.0073 231.0074 237.5074 244.738 249.067 253.396 260.6266 267.1266 271.0084 275.0085 281.5085 284.3971 291.6277 298.8583 303.0105 307.0106 309.8992 317.1298 323.6298 330.1298 334.0116 338.0117 341.6231 348.8537 354.0121 358.0122 366.6832 371.0122 378.2428 387.6314 394.1314 401.362 406.0134 410.0135 417.2441 423.7441 430.9747 438.2053 441.8167 449.0473 456.2779 459.1665 463.0171 467.0172 473.5172 480.7478 483.6364 490.867 499.0193 503.0194 512.408 519.6386 526.8692 533.3692 536.2578 543.4884 550.0222 554.0223 560.5223 567.7529" font-weight="normal" fill="#000000">Wenn Ihr Benutzername und Passwort korrekt sind, lässt Ihr Browser eventuell keine Cookies zu.</tspan></text>
-</g><g id="g311" transform="matrix(1,0,0,-1,0,855)"><text id="text313" transform="translate(8,519)"><tspan id="tspan315" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 12.2694 19.5 26.7306 34.0002 38.0003 46.6713 49.5599 57.0011 61.0012 63.8898 74.7188 85.5478 92.7784 98.0018 102.0019 109.2325 116.4631 122.9631 131.0036 135.0037 142.2343 145.1229 152.3535 158.8535 167.0058 171.0059 179.6769 186.9075 189.7961 193.4075 201.006 205.0061 212.2367 219.4673 226.6979 233.9285 240.4285 247.6591 250.5477 257.7783 262.0098 266.0099 273.2405 280.4711 286.9711 294.2017 305.0307 315.8597 323.0903 330.3209 334.0129 338.013 345.2436 352.4742 361.8628 369.0934 376.324 380.016 384.0161 392.6871 395.5757 403.0169 407.017 410.6284 417.859 422.188 429.4186 437.0171 441.0172 449.6882 454.0172 461.2478 470.6364 477.1364 484.367 489.0184 493.0185 497.3475 500.2361 506.7361 513.9667 517.5781 520.4667 528.0197 532.0198 538.5198 545.7504 552.981 556.5924 559.481 566.7116 573.9422 578.2712 581.1598 588.3904 592.7194" font-weight="normal" fill="#000000">Wenn Sie immer noch diese Seite angezeigt bekommen, obwohl Sie Ihren Browser richtig konfiguriert</tspan></text>
-</g><g id="g317" transform="matrix(1,0,0,-1,0,855)"><text id="text319" transform="translate(8,538)"><tspan id="tspan321" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 7.2306 14.4612 21.6918 28.9224 36.153 40.0036 44.0037 50.5037 57.7343 64.9649 72.1955 75.8069 84.0047 88.0048 95.2354 98.124 105.3546 112.0067 116.0068 119.6182 126.8488 129.7374 136.968 144.1986 151.4292 158.6598 166.01 170.0101 180.1215 184.4505 191.6811 198.9117 206.1423 214.0112 218.0113 225.2419 232.4725 239.7031 246.9337 254.1643" font-weight="normal" fill="#000000">haben, könnte dies folgende Gründe haben:</tspan></text>
-</g><g id="g323" transform="matrix(1,0,0,-1,0,855)"><path id="path325" stroke-linejoin="miter" style="stroke-dasharray:none;" d="m22,561c0,1.1046-0.89543,2-2,2s-2-0.8954-2-2,0.89543-2,2-2,2,0.8954,2,2z" fill-rule="nonzero" stroke="#000" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="1" fill="#000"/></g><g id="g327" transform="matrix(1,0,0,-1,0,855)"><text id="text329" transform="translate(33,565)"><tspan id="tspan331" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 8.671 11.5596 18.7902 21.6788 24.5674 31.798 34.6866 41.1866 48.4172 53.0036 57.0037 64.2343 71.4649 78.6955 85.9261 89.5375 96.0375 103.2681 111.007 115.0071 123.6781 126.5667 134.0079 138.008 145.2386 148.1272 155.3578 163.0096 167.0097 174.9501 177.8387 180.7273 184.3387 191.5693 195.8983 202.3983 209.6289 213.2403 216.8517 226.2403 233.4709 237.7999 245.0305 249.0111 253.0112 260.2418 263.1304 271.0123 275.0124 282.243 285.1316 293.0135 297.0136 305.6846 312.9152 317.2442 326.6328 333.8634 341.094 348.3246 355.5552 362.7858 370.0177 374.0178 380.5178 387.7484 395.018 399.0181 408.4067 415.6373 422.8679 429.3679 432.2565 439.4871 446.0209 450.021 456.521 463.7516 468.0806 475.3112 478.1998 485.4304 492.661 499.8916 504.2206 507.832 512.0245 516.0246 524.6956 531.9262 534.8148 537.7034 541.3148 549.0264 553.0265 560.2571 563.1457 570.3763 577.0284 581.0285 588.2591 595.4897" font-weight="normal" fill="#000000">Vielleicht benutzen Sie eine Filtersoftware, die die Verwendung von Cookies verhindert. Sollte dies der</tspan></text>
-</g><g id="g333" transform="matrix(1,0,0,-1,0,855)"><text id="text335" transform="translate(33,584)"><tspan id="tspan337" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 7.9404 15.171 18.0596 21.0002 25.0003 31.5003 38.7309 41.6195 48.8501 53.0023 57.0024 63.5024 71.0021 75.0022 85.8312 93.0618 99.5618 106.0618 113.2924 121.0027 125.0028 133.6738 136.5624 144.0036 148.0037 155.2343 158.1229 165.3535 171.8535 180.0058 184.0059 192.6769 199.9075 203.5189 207.1303 216.5189 223.7495 228.0785 236.0072 240.0073 246.5073 254.007 258.0071 264.5071 271.7377 278.9683 282.5797 285.4683 292.6989 299.9295 304.2585 307.1471 314.3777 318.7067 325.9373 333.1679 337.012 341.0121 348.2427 355.4733 361.9733 369.0128 373.0129 379.5129 382.4015 390.013 394.0131 403.4017 410.6323 417.8629 424.3629 427.2515 434.4821 441.0159 445.016 451.516 458.7466" font-weight="normal" fill="#000000">Fall sein, so müssen Sie diese Software so konfigurieren, dass sie Cookies von</tspan></text>
-</g><g id="g339" transform="matrix(1,0,0,-1,0,855)"><text id="text341" transform="translate(33,603)"><tspan id="tspan343" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 7.2306 10.842 14.4534 21.684 25.2954 28.9068 32.5182 35.4068 42.6374 49.1374 56.368 59.2566 66.4872 73.7178 80.2178 83.8292 87.4406 94.6712 101.9018 109.1324 116.363 119.9744 128.6454 131.534 138.7646 145.9952 154.0058 158.0059 165.2365 169.5655 172.4541 179.6847 186.9153 194.1459 197.7573" font-weight="normal" fill="#000000">http://localhost:8080/Plone erlaubt.</tspan></text>
-</g><g id="g345" transform="matrix(1,0,0,-1,0,855)"><path id="path347" stroke-linejoin="miter" style="stroke-dasharray:none;" d="m22,621c0,1.1046-0.89543,2-2,2s-2-0.8954-2-2,0.89543-2,2-2,2,0.8954,2,2z" fill-rule="nonzero" stroke="#000" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="1" fill="#000"/></g><g id="g349" transform="matrix(1,0,0,-1,0,855)"><text id="text351" transform="translate(33,625)"><tspan id="tspan353" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 3.6114 10.842 16.0004 20.0005 29.3891 36.6197 47.4487 54.6793 61.9099 65.5213 72.7519 78.0026 82.0027 88.5027 95.7333 102.9639 110.1945 113.8059 122.0037 126.0038 133.2344 140.465 144.794 151.294 159.0043 163.0044 170.235 173.1236 180.3542 188.006 192.0061 199.9465 202.8351 207.1641 214.3947 223.7833 231.0139 233.9025 237.0082 241.0083 248.2389 255.4695 262.7001 268.0106 272.0107 279.2413 282.1299 289.3605 296.5911 304.0128 308.0129 316.6839 321.0129 328.2435 334.7435 341.2435 347.7435 354.9741 359.3031 365.8031 373.0337 378.0153 382.0154 389.246 396.4766 402.9766 409.4766 416.7072 423.9378 427.5492 434.0492 438.0168 442.0169 448.5169 455.7475 458.6361 465.8667 470.0189 474.019 481.2496 484.1382 492.0201 496.0202 503.2508 510.4814 517.0217 521.0218 529.6928 536.9234 544.154 551.3846 558.6152 566.0239 570.024 577.2546 584.4852" font-weight="normal" fill="#000000">Ihr Computer könnte durch eine Firewall oder einen Proxyserver geschützt sein, die das Senden und</tspan></text>
-</g><g id="g355" transform="matrix(1,0,0,-1,0,855)"><text id="text357" transform="translate(33,644)"><tspan id="tspan359" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 8.671 19.5 26.7306 30.342 37.5726 44.8032 52.0338 59.2644 67.0033 71.0034 77.5034 84.734 92.0036 96.0037 105.3923 112.6229 119.8535 126.3535 129.2421 136.4727 143.0065 147.0066 153.5066 160.7372 165.0662 172.2968 175.1854 182.416 189.6466 196.8772 201.2062 208.4368 213.0102 217.0103 220.6217 227.1217 231.01 235.0101 242.2407 245.1293 252.3599 259.012 263.0121 270.2427 277.4733 282.0129 286.013 293.9534 301.184 304.0726 306.9612 311.0133 315.0134 321.5134 329.0131 333.0132 340.2438 343.1324 346.7438 350.3552 357.5858 365.014 369.0141 377.6851 380.5737 388.0149 392.015 395.6264 402.857 407.186 414.4166 422.0151 426.0152 434.6862 441.9168 452.7458 455.6344 462.865 465.7536 472.2536 475.865 480.194 487.4246 491.036 498.2666 502.5956 507.0169 511.017 518.2476 525.4782 532.0185 536.0186 544.6896 549.0186 556.2492 563.4798 566.3684 573.599" font-weight="normal" fill="#000000">Empfangen von Cookies verhindern. Ist dies der Fall, so bitten Sie Ihren Administrator, das Problem</tspan></text>
-</g><g id="g361" transform="matrix(1,0,0,-1,0,855)"><text id="text363" transform="translate(33,663)"><tspan id="tspan365" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 6.5 13.9997 17.9998 20.8884 28.119 34.619 41.8496 49.0802" font-weight="normal" fill="#000000">zu lösen.</tspan></text>
-</g><path id="path367" fill-rule="nonzero" fill="#DDD" d="m8,78,625,0,0,72-625,0,0-72z"/><g id="g369" transform="matrix(1,0,0,-1,0,855)"><text id="text371" transform="translate(20,731)"><tspan id="tspan373" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="12" font-variant="normal" y="0" x="0 8.004 10.6704 17.3448 24.0192" font-weight="normal" fill="#205c90">Plone</tspan></text>
-</g><g id="g375" transform="matrix(1,0,0,-1,0,855)"><text id="text377" transform="translate(51,726)"><tspan id="tspan379" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="10" font-variant="normal" y="0" x="0" font-weight="normal" fill="#205c90">®</tspan></text>
-</g><g id="g381" transform="matrix(1,0,0,-1,0,855)"><text id="text383" transform="translate(62,731)"><tspan id="tspan385" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="12" font-variant="normal" y="0" x="0 9.3336 16.008 22.6824 30.0012 33.0012 41.0052 47.6796 54.354 58.35 64.35 72.0024 75.0024 83.6688 90.3432 97.0176 100.3512 107.0256 113.7 118.0044 121.0044 131.0004 137.6748 144.3492 151.0236 157.698 164.3724 174.3684 181.0428 187.7172 192.0084 195.0084 203.0124 209.0124 215.0124 218.346 225.0204" font-weight="normal" fill="#205c90">Open Source Content Management System</tspan></text>
-</g><g id="g389" transform="matrix(1,0,0,-1,0,855)"><text id="text391" transform="translate(301,731)"><tspan id="tspan393" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="12" font-variant="normal" y="0" x="0" font-weight="normal" fill="#000000">©</tspan></text>
-</g><g id="g395" transform="matrix(1,0,0,-1,0,855)"><text id="text397" transform="translate(313,731)"><tspan id="tspan399" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="12" font-variant="normal" y="0" x="0 6.672 13.344 20.016 27 30.996 37.668 44.34 51.012 57.996" font-weight="normal" fill="#000000">2000-2010 </tspan></text>
-</g><g id="g401" transform="matrix(1,0,0,-1,0,855)"><text id="text403" transform="translate(374,731)"><tspan id="tspan405" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="12" font-variant="normal" y="0" x="0 8.004 10.6704 17.3448 24.0192 31.002 34.002 41.3316 48.006 54.6804 61.3548 68.0292 74.7036 78.0372 80.7036 87.378" font-weight="normal" fill="#205c90">Plone Foundation</tspan></text>
-</g><g id="g407" transform="matrix(1,0,0,-1,0,855)"><text id="text409" transform="translate(472,731)"><tspan id="tspan411" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="12" font-variant="normal" y="0" x="0 6.6744 13.3488 21.0012 24.0012 31.3308 35.3268 42.0012 48.6756 55.35 62.0244 68.6988" font-weight="normal" fill="#000000">und Freunde.</tspan></text>
-</g><g id="g413" transform="matrix(1,0,0,-1,0,855)"><text id="text415" transform="translate(20,748)"><tspan id="tspan417" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="12" font-variant="normal" y="0" x="0 8.004 10.6704 17.3448 24.0192" font-weight="normal" fill="#000000">Plone</tspan></text>
-</g><g id="g419" transform="matrix(1,0,0,-1,0,855)"><text id="text421" transform="translate(51,743)"><tspan id="tspan423" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="10" font-variant="normal" y="0" x="0" font-weight="normal" fill="#000000">®</tspan></text>
-</g><g id="g425" transform="matrix(1,0,0,-1,0,855)"><text id="text427" transform="translate(62,748)"><tspan id="tspan429" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="12" font-variant="normal" y="0" x="0 6.6744 13.3488 21.0012 24.0012 30.6756 37.35 44.0028 47.0028 55.0068 57.6732 64.3476 71.022 78.0048 82.0044 88.6788 95.3532 102.0276 109.0056 112.0056 118.0056 120.672 127.3464 135.006 138.006 144.6804 147.3468 154.0212 160.6956 167.37 170.7036 174.6996 181.374 188.0484 194.7228 201.3972 209.01 212.01 223.3356 230.01 234.006 240.6804 247.3548 253.3548 260.0292 262.6956 268.6956 275.37 282.0444 289.0128 292.0128 298.6872 305.3616 310.014" font-weight="normal" fill="#000000">und das Plone-Logo sind eingetragene Warenzeichen der </tspan></text>
-</g><g id="g431" transform="matrix(1,0,0,-1,0,855)"><text id="text433" transform="translate(375,748)"><tspan id="tspan435" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="12" font-variant="normal" y="0" x="0 8.004 10.6704 17.3448 24.0192 31.002 34.002 41.3316 48.006 54.6804 61.3548 68.0292 74.7036 78.0372 80.7036 87.378" font-weight="normal" fill="#205c90">Plone Foundation</tspan></text>
-</g><g id="g437" transform="matrix(1,0,0,-1,0,855)"><text id="text439" transform="translate(470,748)"><tspan id="tspan441" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="12" font-variant="normal" y="0" x="0 3.9996" font-weight="normal" fill="#000000">. </tspan></text>
-</g><g id="g443" transform="matrix(1,0,0,-1,0,855)"><text id="text445" transform="translate(477,748)"><tspan id="tspan447" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="12" font-variant="normal" y="0" x="0 6.6744 9.3408 15.3408 22.0152 28.6896 34.6896 37.356 44.0304 48.0264 52.0032 55.0032 61.6776 68.352 71.6856 78.36 83.004 86.004 92.6784 99.3528 104.0052" font-weight="normal" fill="#000000">Lizensiert unter der </tspan></text>
-</g><g id="g449" transform="matrix(1,0,0,-1,0,855)"><text id="text451" transform="translate(584,748)"><tspan id="tspan453" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="12" font-variant="normal" y="0" x="0 9.3336 17.9952 26.9928" font-weight="normal" fill="#205c90">GNU-</tspan></text>
-</g><g id="g455" transform="matrix(1,0,0,-1,0,855)"><text id="text457" transform="translate(20,762)"><tspan id="tspan459" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="12" font-variant="normal" y="0" x="0 9.3336 17.3376 24.9996 28.9992 35.6736 38.34 44.34 51.0144 57.6888" font-weight="normal" fill="#205c90">GPL-Lizenz</tspan></text>
-</g><g id="g461" transform="matrix(1,0,0,-1,0,855)"><text id="text463" transform="translate(84,762)"><tspan id="tspan465" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="12" font-variant="normal" y="0" x="0" font-weight="normal" fill="#000000">.</tspan></text>
-</g><path id="path467" fill-rule="nonzero" fill="#DDD" d="m8,719,625,0,0,36-625,0,0-36z"/><path id="path469" fill-rule="nonzero" fill="#FFF" d="m411,799,170,0,0,20-170,0,0-20z"/><path id="path471" fill-rule="nonzero" fill="#696969" d="m411,819,1,0,0-1-1,0,0,1zm169,0,1,0,0-1-1,0,0,1z"/><path id="path473" fill-rule="nonzero" fill="#777" d="m412,819,1,0,0-1-1,0,0,1zm167,0,1,0,0-1-1,0,0,1z"/><path id="path475" fill-rule="nonzero" fill="#7c7c7c" d="m413,818,166,0,0,1-166,0,0-1z"/><path id="path477" fill-rule="nonzero" fill="#9a9a9a" d="m411,818,1,0,0-1-1,0,0,1zm169,0,1,0,0-1-1,0,0,1z"/><path id="path479" fill-rule="nonzero" fill="#b9b9b9" d="m412,818,1,0,0-1-1,0,0,1zm167,0,1,0,0-1-1,0,0,1zm-168-18,1,0,0-1-1,0,0,1zm169,0,1,0,0-1-1,0,0,1z"/><path id="path481" fill-rule="nonzero" fill="#c3c3c3" d="m413,818,166,0,0-1-166,0,0,1zm-2-1,1,0,0-17-1,0,0,17zm169,0,1,0,0-17-1,0,0,17z"/><path id="path483" fill-rule="nonzero" fill="#cfcfcf" d="m412,800,1,0,0-1-1,0,0,1zm167,0,1,0,0-1-1,0,0,1z"/><path id="path485" fill-rule="nonzero" fill="#DDD" d="m413,799,166,0,0,1-166,0,0-1z"/><path id="path487" fill-rule="nonzero" fill="#f0f0f0" d="m412,817,1,0,0-17-1,0,0,17zm167,0,1,0,0-17-1,0,0,17z"/><path id="path489" fill-rule="nonzero" fill="#fefefe" d="m413,800,166,0,0,1-166,0,0-1z"/></g></g><g id="g491"><g id="g493" clip-path="url(#clipPath495)"><g id="g499" transform="matrix(1,0,0,-1,0,855)"><text id="text501" transform="translate(414,51)"><tspan id="tspan503" style="writing-mode:lr;" font-family="Lucida" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 11.1215 18.3638 26.546 33.1734 36.9317 41.7937 50.0006 54.0007 62.1829 70.2507 75.5703 82.2289 90.2967 96.9241 104.9919 111.6505 119.7183 126.9606" font-weight="normal" fill="#76797c">Website durchsuchen</tspan></text>
-</g></g></g><g id="g505"><g id="g507" clip-path="url(#clipPath509)"/></g><g id="g515"><g id="g517" clip-path="url(#clipPath519)"><g id="g523" transform="matrix(17,0,0,27,580,793)"><image id="image529" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAbCAYAAACa9mScAAAABHNCSVQICAgIfAhkiAAAAZVJREFUOI3tlK2OwkAUhc/8tEE0FVtB2AoMCELAkCCABA0hCBzJEp6Dt1o8jsfAYRDVENrO9K4ACt0tpYQVK/YkJx1x8/XeMz8MAOFF8VcBvwaReQsbjQZc14Vt2zBNE5xf//8QUqlU0Ov10O/30Wq14LouLMuCECKuYcgIttPpYDAYYPYxQ+m99Pw4tVoN4/EY8/kctm1Da/08ZDQaYTgcwjAMENG5YZYf0u120Ww24ThvUEoj8H0YponL5OycAmVB6vU6qtUqoohAFEJrhSAMYRhGIlAAIKJ0SLlchuM44JwntlIpBaVUvnGKxSIKhQKEEGDsmsNlffkSERhj6ZAoiqC1jg8VYywBy9XJbrfD8XiEZVkx4LaL025dlXp31us1DocDOOcQQkAIEeeT6jTIarWC53kIgiAuFEJAShlDb333Fi8WC+z3e3DOIaWElPIuDDidoFRPp1PyPI/CMCStdcJKqdiZEADUbrdps9mQ7/uktaYoiui7HkIunkwmtPxc0na7JaVUApL5FOTV33lj/yE/9QXGLdLYLllsfwAAAABJRU5ErkJggg==" mask="url(#mask525)" transform="matrix(1,0,0,-1,0,1)" height="1" width="1"/></g><g id="g531" transform="matrix(17,0,0,27,621,793)"><image id="image537" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAbCAYAAACa9mScAAAABHNCSVQICAgIfAhkiAAAAY1JREFUOI3tlLFqAkEQhv89RewVrrSyFKwEHyEp7WxsfAnfxxeIjZWFNoKFlYWFVqKCKBaHp+7ezE6K5I5oVk1IqpCBH3Z2d77d+RdWARD8MLyfAn4Nkm40GklirYUxBkEQYLVaYTKZfAmiiCjxhJlxOBywXC4xHo/R7/cxHA4xn8/vQ7TWTmNFBOv1Gu12G91uF6PR6HY7zOxeEcD3fTSbTaTTaQRBgOl06oaIuF9YRCAiyGQyeHp+wn6/vwnxrLW4JWMMoihCPpdHuVxGtVp1Q4gIzJyIiGCMQRiGOJ/PAAClFIrFIkqlkrsdY4yzFaUUPM9LxrlcDoVCwQ3xPO+iOD45Lo7zbDYL3/cfQ1w3isGxT9+GWGuhlIJSCqfTCZvN5vuQ2BNrLY7HIwaDgRuSSqUuJmI/PrajtcZut0Ov1/sa5DqYGWEYotVq3d5ERBJFkRBRImaWeH673Uq9Xhe8fV5uyVVYa4WZRWsts9lMKpXKfcA1hIhksVhI56UjtVrtcfG7FP7UH/sP+RyvT/VFovWWVKEAAAAASUVORK5CYII=" mask="url(#mask533)" transform="matrix(1,0,0,-1,0,1)" height="1" width="1"/></g><path id="path554" fill-rule="nonzero" fill="url(#pattern539)" d="m597,793,24,0,0,27-24,0,0-27z"/></g></g><g id="g556"><g id="g558" clip-path="url(#clipPath560)"><g id="g564" transform="matrix(1,0,0,-1,0,855)"><text id="text566" transform="translate(593,51)"><tspan id="tspan568" style="writing-mode:lr;" font-family="Lucida" fill-rule="nonzero" font-size="11" font-variant="normal" y="0" x="0 5.9246 12.7512 18.3898 25.2164" font-weight="normal" fill="#000000">Suche</tspan></text>
-</g></g></g><g id="g570"><g id="g572" clip-path="url(#clipPath574)"><g id="g592"><g id="g594" clip-path="url(#clipPath580)"><g id="g598"><g id="g600" clip-path="url(#clipPath584)"><g id="g602" transform="matrix(10,0,0,11,411,786)"><image id="image604" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAALCAYAAABGbhwYAAAABHNCSVQICAgIfAhkiAAAAOxJREFUGJWNkTuOglAYhb97uUQTAgQl1u5ASjpCzQ7YgGtyOVi5EKlJaIz39VtMZhLjFJ72nOS8FCB8AXM8Hun7nqIo0Fq/kTFGlmXher1ihmFgHEfatv0QhhC43W5kWYau65qmafDeY63FOYdzDmst3ntOpxOHwwEjIjjniDF+WoeIdfYn436/Z11XjDForVEASiEixCh479jtdpg8zzHGkKbpv2VAKIoCU5Ylm82G7XZLkiQopQAQEUIIPJ9PyrLEzPPM4/Ggqqo/0S9EhGVZuN/vqDRN5XK50HUdiU7e54mBaZo4n8+ob595AULkaBR6RUl4AAAAAElFTkSuQmCC" mask="url(#mask588)" transform="matrix(1,0,0,-1,0,1)" height="1" width="1"/></g></g></g></g></g><g id="g608" transform="matrix(1,0,0,-1,0,855)"><text id="text610" transform="translate(424,67)"><tspan id="tspan612" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="10" font-variant="normal" y="0" x="0 5.562 11.124 15.001 18.001 20.223 29.001 32.001 37.563 42.563 45.341 50.903 56.465 58.687 60.909 66.471 73.003 76.003 82.673 88.235 91.565 97.127 99.349 104.349" font-weight="normal" fill="#76797c">nur im aktuellen Bereich</tspan></text>
-</g><g id="g614" transform="matrix(215,0,0,56,8,777)"><image id="image620" xlink:href="data:image/png;base64,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" mask="url(#mask616)" transform="matrix(1,0,0,-1,0,1)" height="1" width="1"/></g><path id="path622" fill-rule="nonzero" fill="#205c90" d="m8,719,110,0,0,36-110,0,0-36z"/><path id="path624" fill-rule="nonzero" fill="#FFF" d="m117,719,1,0,0,36-1,0,0-36z"/><g id="g626" transform="matrix(1,0,0,-1,0,855)"><text id="text628" transform="translate(16,120)"><tspan id="tspan630" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 8.671 12.2824 19.513 23.842 27.4534 33.9534 41.184 44.0726 47.684" font-weight="normal" fill="#ffffff">Startseite</tspan></text>
-</g><path id="path632" fill-rule="nonzero" fill="#DDD" d="m118,719,110,0,0,36-110,0,0-36z"/><path id="path634" fill-rule="nonzero" fill="#FFF" d="m227,719,1,0,0,36-1,0,0-36z"/><g id="g636" transform="matrix(1,0,0,-1,0,855)"><text id="text638" transform="translate(126,120)"><tspan id="tspan640" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 9.3886 16.6192 23.1192 30.3498 34.6788 37.5674 44.0674 51.298 54.9094 62.14" font-weight="normal" fill="#205c90">Nachrichten</tspan></text>
-</g><path id="path642" fill-rule="nonzero" fill="#DDD" d="m228,719,110,0,0,36-110,0,0-36z"/><path id="path644" fill-rule="nonzero" fill="#FFF" d="m337,719,1,0,0,36-1,0,0-36z"/><g id="g646" transform="matrix(1,0,0,-1,0,855)"><text id="text648" transform="translate(236,120)"><tspan id="tspan650" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 7.9404 15.171 19.5 30.329 33.2176 40.4482" font-weight="normal" fill="#205c90">Termine</tspan></text>
-</g><path id="path652" fill-rule="nonzero" fill="#DDD" d="m338,719,110,0,0,36-110,0,0-36z"/><path id="path654" fill-rule="nonzero" fill="#FFF" d="m447,719,1,0,0,36-1,0,0-36z"/><g id="g656" transform="matrix(1,0,0,-1,0,855)"><text id="text658" transform="translate(346,120)"><tspan id="tspan660" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 8.671 15.9016 23.1322 30.3628 33.9742 40.4742 47.7048" font-weight="normal" fill="#205c90">Benutzer</tspan></text>
-</g><path id="path662" fill-rule="nonzero" fill="#DDD" d="m448,719,129,0,0,36-129,0,0-36z"/><path id="path664" fill-rule="nonzero" fill="#FFF" d="m576,719,1,0,0,36-1,0,0-36z"/><g id="g666" transform="matrix(1,0,0,-1,0,855)"><text id="text668" transform="translate(456,120)"><tspan id="tspan670" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 8.671 15.9016 20.2306 27.4612 34.6918 41.1918 44.8032 52.0338 54.9224 58.5338 65.7644 72.995 80.2256 87.4562" font-weight="normal" fill="#205c90">Veranstaltungen</tspan></text>
-</g></g></g><g id="g672"><g id="g674" clip-path="url(#clipPath676)"><g id="g680" clip-path="url(#clipPath682)"><path id="path686" fill-rule="nonzero" fill="#e3e3e3" d="m479,834,154,0,0,21-154,0,0-21z"/></g></g></g><g id="g688"><g id="g690" clip-path="url(#clipPath692)"><g id="g696" transform="matrix(1,0,0,-1,0,855)"><text id="text698" transform="translate(488,15)"><tspan id="tspan700" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 8.671 15.9016 26.7306 33.9612 36.8498 44.0804 51.311" font-weight="normal" fill="#205c90">Anmelden</tspan></text>
-</g><g id="g702" transform="matrix(1,0,0,-1,0,855)"><text id="text704" transform="translate(553,15)"><tspan id="tspan706" style="writing-mode:lr;" font-family="Arial" fill-rule="nonzero" font-size="13" font-variant="normal" y="0" x="0 9.3886 16.6192 23.8498 26.7384 33.2384 36.8498 41.1788 44.0674 51.298 55.627 62.8576" font-weight="normal" fill="#205c90">Registrieren</tspan></text>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="100%"
+   height="100%"
+   viewBox="0 0 800 517.69"
+   id="svg2"
+   xml:space="preserve"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs6"><pattern
+       patternTransform="matrix(1,0,0,-1,22,528)"
+       id="pattern3324"
+       xlink:href="#pattern214" /><pattern
+       patternTransform="matrix(1,0,0,-1,590,820)"
+       id="pattern3322"
+       xlink:href="#pattern539" /><clipPath
+       id="clipPath14"><path
+         d="m 0,440.72 640,0 0,414.15 -640,0 0,-414.15 z"
+         id="path16" /></clipPath><clipPath
+       id="clipPath24"><path
+         d="M 0,0 640,0 640,855 0,855 0,0 z"
+         id="path26" /></clipPath><clipPath
+       id="clipPath146"><path
+         d="m 109,576 152,0 0,22 -152,0 0,-22 z"
+         id="path148" /></clipPath><clipPath
+       id="clipPath156"><path
+         d="M 0,0 640,0 640,855 0,855 0,0 z"
+         id="path158" /></clipPath><clipPath
+       id="clipPath194"><path
+         d="m 6,496 92,0 0,32 -92,0 0,-32 z"
+         id="path196" /></clipPath><mask
+       id="mask200"><image
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAAAAAA3CQdqAAAAAXNCSVQI5gpbmQAAALFJREFUKJG1zr8OAUEYBPD5dveO2IQchagIrVInofUEHoQn8VSiVaBVXURxQXHOn/sU5NzebntT/jKTDFBu1GR1iJmZ/0TjLf+SmVwwF1Es2UKaso16Z6OY5Y0FAKAydzxsHV3NjtERAEAebARFDnzvbeRk7WjeN6c8yu8c9ZGF/JJBv4h43qjaKyLHUXpp10xEeg2Tc/jwPQGAso0KusNB0yMDQb7WDa3IQAAkpQkl5wPV83R7G8wwRAAAAABJRU5ErkJggg=="
+         width="1"
+         height="1"
+         id="image202" /></mask><mask
+       id="mask208"><image
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAAAAAA3CQdqAAAAAXNCSVQI5gpbmQAAALhJREFUKJG90M0KAVEYxvHnMBplaeVaiK0rcCFcib17sLAUzcLCrJQ0SVGDSMlkanyMmR6LYZTzbnmXv/7nWRzgB0eS13m7anwjSU7LSkeymRWQrYyArCkBnYKArCcD6QwAoGEKpVsUypIpIHJKR08JpRMLOL5Tw4N908vu4qLhwNprm1bP9gkASD/8OLT7uyRMMPI3q/VktA1fgdEBwMdpOXO96P1KVQBGwTkIQqbrKg+AcfyRf94TPkeNmi2bDvQAAAAASUVORK5CYII="
+         width="1"
+         height="1"
+         id="image210" /></mask><pattern
+       x="0"
+       y="0"
+       patternTransform="translate(22,496)"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="32"
+       id="pattern214"><defs
+         id="defs216"><mask
+           maskUnits="userSpaceOnUse"
+           x="0"
+           y="0"
+           width="1"
+           height="1"
+           id="_mask0"><image
+             height="1"
+             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAgCAAAAAAKm2YMAAAAAXNCSVQI5gpbmQAAAB9JREFUGJVjYCAMGP9DGUwMQ4bBMgfmeBsYg4OBDAAAUUUCDX1aU/UAAAAASUVORK5CYII="
+             width="1"
+             id="image219" /></mask></defs><g
+         id="g223"><g
+           transform="scale(8,32)"
+           id="g225"><image
+             height="1"
+             mask="url(#_mask0)"
+             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAgCAYAAAAv8DnQAAAABHNCSVQICAgIfAhkiAAAAG9JREFUOI3NkzEOgDAMA+3Wz+z/fwAMTRUGFiQgGUBAlw6+Ko6TEoAjOCUSnwHUWoP70QbJ7Taz0CT97Pm+hJnFHsYYN4HEAmS9h1lrWuZr1QEVBmESUClx2qq15kDUSV5C0j0gneYLO0l8/y/+AKyZgik/cutFeQAAAABJRU5ErkJggg=="
+             width="1"
+             id="image227" /></g></g></pattern><clipPath
+       id="clipPath235"><path
+         d="m 12,503 80,0 0,21 -80,0 0,-21 z"
+         id="path237" /></clipPath><clipPath
+       id="clipPath249"><path
+         d="M 0,0 640,0 640,855 0,855 0,0 z"
+         id="path251" /></clipPath><clipPath
+       id="clipPath495"><path
+         d="m 413,801 166,0 0,16 -166,0 0,-16 z"
+         id="path497" /></clipPath><clipPath
+       id="clipPath509"><path
+         d="M 0,0 640,0 640,855 0,855 0,0 z"
+         id="path511" /></clipPath><clipPath
+       id="clipPath519"><path
+         d="m 580,793 58,0 0,27 -58,0 0,-27 z"
+         id="path521" /></clipPath><mask
+       id="mask525"><image
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAbCAAAAAC/nTtAAAAAAXNCSVQI5gpbmQAAAKlJREFUGJVjYCAMGJGYjMzMyFJMQpk7n/35//8/TIA19MV/CIBqYK/4/x9FhC3qP6oIk9wrhAgTAwMDA0eEKJIVDAwMjDz+DOgi6mgiTNz86CJsn9FE/v18gi7y9RySCDMDAwMDC7c9O6rIfyZOQ1SRf7+Y2dRQ1fz6/PeLHDuSCMO/L2+/PX/HwMrKiAhDViFFbXl+FiQRBiZ2Hh4uDmbUcGZgZkLiUgoAllFEQPEjaZgAAAAASUVORK5CYII="
+         width="1"
+         height="1"
+         id="image527" /></mask><mask
+       id="mask533"><image
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAbCAAAAAC/nTtAAAAAAXNCSVQI5gpbmQAAALNJREFUGJWt0EEKAWEcBfD3TWNmilLK1tYNXMNKyQ3cwE2cwlKykoVYsWEhRSRNFlMYMpn5ngXTjL+Fjbf81XuLB/yOcgBEEZkQyfDQbxaMtJCkW8sIIVu2EsKGJeVYMgAgGUSx7ghBNaeElL8knzWEXCwp+0ALmV6FnEc+P6UzF9IdrAMAMONKbzj2dCzad1fL2WT3AACYbYDhabvYeC+AqgDR/eb7gX73lQ1QR0j9/Kc8ASw8Y4JW6sS3AAAAAElFTkSuQmCC"
+         width="1"
+         height="1"
+         id="image535" /></mask><pattern
+       x="0"
+       y="0"
+       patternTransform="translate(590,793)"
+       patternUnits="userSpaceOnUse"
+       width="10"
+       height="27"
+       id="pattern539"><defs
+         id="defs541"><mask
+           maskUnits="userSpaceOnUse"
+           x="0"
+           y="0"
+           width="1"
+           height="1"
+           id="_mask1"><image
+             height="1"
+             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAbCAAAAABg00FfAAAAAXNCSVQI5gpbmQAAACJJREFUGJVjYMAGGDkQzP9wJhPD0GKyTIczGc0QTHYGcgAAZN0CBBGJjaoAAAAASUVORK5CYII="
+             width="1"
+             id="image544" /></mask></defs><g
+         id="g548"><g
+           transform="scale(10,27)"
+           id="g550"><image
+             height="1"
+             mask="url(#_mask1)"
+             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAbCAYAAABFuB6DAAAABHNCSVQICAgIfAhkiAAAAGVJREFUOI3dkkEKwDAQAjXZd+b/bwgm9l4KsadCPQ/uohKAEagl0CuwxhgRSEkmzo/WWis7HYN2lA5q752BknByJYGac2aOrWWZfwn23mEbJM/gXU9xUVJUDR12GA83meI7x1+BF4aTKzMNI10YAAAAAElFTkSuQmCC"
+             width="1"
+             id="image552" /></g></g></pattern><clipPath
+       id="clipPath560"><path
+         d="m 585,799 48,0 0,18 -48,0 0,-18 z"
+         id="path562" /></clipPath><clipPath
+       id="clipPath574"><path
+         d="M 0,0 640,0 640,855 0,855 0,0 z"
+         id="path576" /></clipPath><clipPath
+       id="clipPath580"><path
+         d="m 411,786 10,0 0,11 -10,0 0,-11 z"
+         id="path582" /></clipPath><clipPath
+       id="clipPath584"><path
+         d="m 411,786 10,0 0,11 -10,0 0,-11 z"
+         id="path586" /></clipPath><mask
+       id="mask588"><image
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAALCAAAAABjBUPEAAAAAXNCSVQI5gpbmQAAAEpJREFUCJljYEAA0S2////////3FlGGLf+hYAvjH2ao9F/G/3ClTAxYmX9hrL9M52HM88x/VUQYGRgY/l2bzLKOQY2VgYHh9611AC+7HoJ24j2cAAAAAElFTkSuQmCC"
+         width="1"
+         height="1"
+         id="image590" /></mask><mask
+       id="mask616"><image
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANcAAAA4CAAAAABLBDI+AAAAAXNCSVQI5gpbmQAAAslJREFUaIHVWUmWxCAIBV/d/8r0olNxYE4sY/6iuyJg+A6IBEEADc8oKe0N7vJIStPbG6O/MitJc2/03uqsuO7e6Hy1aY3aW6Px1GUFLyJWHZWD4FtD4+knia2eSFUz+lkyNN+XkNBWYUsFJVH9AV40tpAeUjS/tP05LomFvKh/pk54YNDhUOPOsCaW8CqCC6eDJK+/SOBskdWfgdK92BzK6+P8ALECjFbrhRwK034uJUZEBJ+mwZ0QzB7dT6xAAgCgokQJGdKpENFfT7D4KnfwWHpSMtOVn7DHiH18lRUY04C4WBGdvKoQrdwiFDpyoPpPSrqqmDkjWiIBAH5MP40kd9YCo/7Bur+TlgD1MgSocaO1QBwayZrBexiH1V4O6tHKnuX9xc4gZ/3HPAmJ7YVAxsnRWbpxntiPiZD6jL3Hs/R43WRzxdy0YUJEcYKPdRhZZMc8JyKid7UxEtMGKMi6Q7fGzPoa5/zSOaj74MIUHV2JI2bJzuHi0h/nUcP7Y1KTQqthdLuEVzSUCnpBU1bOWMHL8S3nehAOL72z+GuSBaw4LBeOuJFIi5Le/DChtzzx8nn0YrVlmzWYCPeegt1REcAelW6ZVxtH8Xpy+CC+vNoNVlPCI8NoDZ4oxVzAx0yL9HCyxQRGzuVKz7rkTJ2uX47NmjzKxE9WdsmVmLLBMYeJhf8N5uvCN1FBg/peSqomOGW6hBv8/9/8gjxNiIZ+2/PLTaYm7QQC+B+aMxZf75jqrbKrVxVgVfSuNMX8Ya1xTEzc29NWHJTSaeVKC/chUYix97SGuHEuEW59IwHWDSMt0b66tjI0EMFZGEV5tm8EDZ/GjWtdV5j61qPadAOZkfyd+QJ41oZt56m+0XJL3lq9kiGaBl6Zv2epf+WXa3pb5LsBSNeTmPreyN2tXkPL2kmO7t4I1VpFzb3BvZWZvYuV4u9bg2CDP7cAvnkEfmw4AAAAAElFTkSuQmCC"
+         width="1"
+         height="1"
+         id="image618" /></mask><clipPath
+       id="clipPath676"><path
+         d="m 479,855 154,0 v -15 c 0,-3.312 -2.688,-6 -6,-6 H 485 c -3.312,0 -6,2.688 -6,6 v 15 z"
+         id="path678" /></clipPath><clipPath
+       id="clipPath682"><path
+         d="M 0,0 640,0 640,855 0,855 0,0 z"
+         id="path684" /></clipPath><clipPath
+       id="clipPath692"><path
+         d="M 0,0 640,0 640,855 0,855 0,0 z"
+         id="path694" /></clipPath></defs><g
+     transform="matrix(1.25,0,0,-1.25,0,1068.5963)"
+     clip-path="url(#clipPath14)"
+     id="g12"><g
+       id="g20"><g
+         clip-path="url(#clipPath24)"
+         id="g22"><path
+           d="M 0,0 640,0 640,855 0,855 0,0 z"
+           id="path28"
+           style="fill:#ffffff;fill-rule:nonzero" /><path
+           d="M 0,0 640,0 640,855 0,855 0,0 z"
+           id="path30"
+           style="fill:#ffffff;fill-rule:nonzero" /><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g32"><text
+   transform="translate(250,799)"
+   id="text34"><tspan
+     x="0 7.3369999 13.4552 21.399401 27.517599 31.180599 37.298801 44.002201 47.0019 53.120098 59.002899 62.002602 69.3396 71.783798 77.902 84.020203 91.004097 94.003799 102.0041 105.0038 112.3408 117.8408 120.8966 127.0148 133.133"
+     y="0"
+     id="tspan36"
+     style="font-size:11px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#444444;fill-rule:nonzero;font-family:Arial">Powered by Plone &amp; Python</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g38"><text
+   transform="translate(207,825)"
+   id="text40"><tspan
+     x="0 10.1108 17.8976 25.684401 30.346399 37.346401 40.457199 47.457199 55.243999"
+     y="0"
+     id="tspan42"
+     style="font-size:14px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">Übersicht</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g46"><text
+   transform="translate(277,825)"
+   id="text48"><tspan
+     x="0 9.3380003 17.1248 21.7868 26.448799 29.559601 37.346401 42.0084 49.7952 53.684399 58.346401 66.133202 69.244003 77.0308 84.817596 87.928398"
+     y="0"
+     id="tspan50"
+     style="font-size:14px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">Barrierefreiheit</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g54"><text
+   transform="translate(379,825)"
+   id="text56"><tspan
+     x="0 9.3380003 17.1248 24.9116 28.8008 36.587601 43.587601"
+     y="0"
+     id="tspan58"
+     style="font-size:14px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">Kontakt</tspan></text>
+
+</g><path
+           d="m 8,612 625,0 0,62 -625,0 0,-62 z"
+           id="path60"
+           style="fill:#ffffe3;fill-rule:nonzero" /><path
+           d="m 8,673 625,0 0,1 -625,0 0,-1 z"
+           id="path62"
+           style="fill:#ff0000;fill-rule:nonzero" /><path
+           d="m 8,612 625,0 0,1 -625,0 0,-1 z"
+           id="path64"
+           style="fill:#ff0000;fill-rule:nonzero" /><path
+           d="m 8,612 1,0 0,62 -1,0 0,-62 z"
+           id="path66"
+           style="fill:#ff0000;fill-rule:nonzero" /><path
+           d="m 632,612 1,0 0,62 -1,0 0,-62 z"
+           id="path68"
+           style="fill:#ff0000;fill-rule:nonzero" /><path
+           d="m 9,613 623,0 0,60 -623,0 0,-60 z"
+           id="path70"
+           style="fill:#ffddcc;fill-rule:nonzero" /><path
+           d="m 9,645 58,0 0,28 -58,0 0,-28 z"
+           id="path72"
+           style="fill:#dd0000;fill-rule:nonzero" /><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g74"><text
+   transform="translate(18,200)"
+   id="text76"><tspan
+     x="0 7.9404001 15.1658 23.106199 26.7176 33.943001"
+     y="0"
+     id="tspan78"
+     style="font-size:13px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#ffffff;fill-rule:nonzero;font-family:Arial">Fehler</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g80"><text
+   transform="translate(8,163)"
+   id="text82"><tspan
+     x="0 8.6709995 11.5596 19.000799 23.0009 29.5009 32.3895 39.620098 47.001499 51.001598 58.232201 61.1208 68.351402 72.680397"
+     y="0"
+     id="tspan84"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">Sie sind hier:</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g88"><text
+   transform="translate(89,163)"
+   id="text90"><tspan
+     x="0 8.6709995 12.2824 19.513 23.841999 27.4534 33.9534 41.183998 44.072601 47.683998"
+     y="0"
+     id="tspan92"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">Startseite</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g94"><text
+   transform="translate(73,200)"
+   id="text96"><tspan
+     x="0 8.6709995 15.9016 26.7306 33.961201 36.8498 44.080399 51.311001 58.541599 66.003601 70.0037 73.615097 80.845703 88.076302 90.964897 98.195503 105.4261 111.9261 118.4261 125.6567 128.5453 135.77589 143.0065 150.23711 157.4677 162.0099 166.00999 174.681 181.91161 191.3002 198.53081 205.7614 209.0127 213.0128 220.24339 227.474 231.0139 235.01401 243.685 250.9156 258.14621 265.3768 268.98819 275.48819 282.71881 287.04779 294.27841 301.509 312.33801 320.01709 324.01721 331.2478 334.13641 341.01859 345.01871 352.2493 359.47989 365.97989 374.02039 378.02051 385.2511 392.48169 395.3703 407.02219 411.02231 419.6933 426.92389 433.42389 439.92389 449.3125 456.54309 460.8721 465.02429 469.02441 478.41299 481.30161 485.63062 493.02499 497.02509 503.52509 512.9137 515.80231 522.30231 528.80231 536.0329 543.26349"
+     y="0"
+     id="tspan98"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">Anmeldung fehlgeschlagen. Sowohl bei Benutzername als auch beim Passwort wird zwischen</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g100"><text
+   transform="translate(73,216)"
+   id="text102"><tspan
+     x="0 10.1114 14.4404 21.671 30.000099 34.999901 39 46.230598 53.461201 61.001202 65.001297 73.672302 76.560898 83.791496 86.680099 93.910698 100.4107 106.9107 114.1413 118.4703 125.7009 128.58949 135.8201 143.0507 150.2813 158.0072 162.00729 169.2379 176.46851 180.0799 187.3105 191.6395 198.1395 204.6395 211.8701 214.7587 221.9893 229.21989 236.4505 243.68111 248.0127 252.0128 260.68381 264.2952 271.52579 274.4144 277.30301 284.5336 292.01511 296.0152 304.68619 307.5748 315.01599 319.01611 325.51611 328.40469 334.90469 342.13531 349.36591 353.69489 358.0174 362.01749 369.24811 376.4787 382.9787 390.01819 394.01831 401.2489 404.13751 412.01941 416.0195 423.9599 431.19049 437.69049 441.30191 447.80191 451.4133 458.64389 461.5325 464.42111 468.0325 475.26309 481.76309 485.37451 493.01981 497.0199 504.25049 507.1391 513.6391 520.86969"
+     y="0"
+     id="tspan104"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">Groß- und Kleinschreibung unterschieden. Stellen Sie sicher, dass die Feststelltaste nicht</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g106"><text
+   transform="translate(15,232)"
+   id="text108"><tspan
+     x="0 7.2305999 13.7306 17.341999 20.2306 26.7306 29.6192 36.8498 41.178799 45.002102 49.002201 51.8908 58.3908 62.002201"
+     y="0"
+     id="tspan110"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">aktiviert ist.</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g112"><text
+   transform="translate(8,275)"
+   id="text114"><tspan
+     x="0 9.3886003 16.6192 24.559601 32.5 36.828999 43.328999 50.559601 55.619202 63.559601 70.790199 82.3498"
+     y="0"
+     id="tspan116"
+     style="font-size:13px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">Benutzername</tspan></text>
+
+</g><path
+           d="m 107,574 156,0 0,26 -156,0 0,-26 z"
+           id="path120"
+           style="fill:#ffffe0;fill-rule:nonzero" /><path
+           d="m 107,600 1,0 0,-1 -1,0 0,1 z m 155,0 1,0 0,-1 -1,0 0,1 z"
+           id="path122"
+           style="fill:#696969;fill-rule:nonzero" /><path
+           d="m 108,600 1,0 0,-1 -1,0 0,1 z m 153,0 1,0 0,-1 -1,0 0,1 z"
+           id="path124"
+           style="fill:#777777;fill-rule:nonzero" /><path
+           d="m 109,599 152,0 0,1 -152,0 0,-1 z"
+           id="path126"
+           style="fill:#7c7c7c;fill-rule:nonzero" /><path
+           d="m 107,599 1,0 0,-1 -1,0 0,1 z m 155,0 1,0 0,-1 -1,0 0,1 z"
+           id="path128"
+           style="fill:#9a9a9a;fill-rule:nonzero" /><path
+           d="m 108,599 1,0 0,-1 -1,0 0,1 z m 153,0 1,0 0,-1 -1,0 0,1 z m -154,-24 1,0 0,-1 -1,0 0,1 z m 155,0 1,0 0,-1 -1,0 0,1 z"
+           id="path130"
+           style="fill:#b9b9b9;fill-rule:nonzero" /><path
+           d="m 109,599 152,0 0,-1 -152,0 0,1 z m -2,-1 1,0 0,-23 -1,0 0,23 z m 155,0 1,0 0,-23 -1,0 0,23 z"
+           id="path132"
+           style="fill:#c3c3c3;fill-rule:nonzero" /><path
+           d="m 108,575 1,0 0,-1 -1,0 0,1 z m 153,0 1,0 0,-1 -1,0 0,1 z"
+           id="path134"
+           style="fill:#cfcfcf;fill-rule:nonzero" /><path
+           d="m 109,574 152,0 0,1 -152,0 0,-1 z"
+           id="path136"
+           style="fill:#dddddd;fill-rule:nonzero" /><path
+           d="m 108,598 1,0 0,-23 -1,0 0,23 z m 153,0 1,0 0,-23 -1,0 0,23 z"
+           id="path138"
+           style="fill:#f0f0f0;fill-rule:nonzero" /><path
+           d="m 109,575 152,0 0,1 -152,0 0,-1 z"
+           id="path140"
+           style="fill:#fefefe;fill-rule:nonzero" /></g></g><g
+       id="g142"><g
+         clip-path="url(#clipPath146)"
+         id="g144"><path
+           d="m 110,576 1,0 0,22 -1,0 0,-22 z"
+           id="path150"
+           style="fill:#000000;fill-rule:nonzero" /></g></g><g
+       id="g152"><g
+         clip-path="url(#clipPath156)"
+         id="g154"><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g160"><text
+   transform="translate(39,313)"
+   id="text162"><tspan
+     x="0 8.6709995 15.9016 23.1322 30.362801 40.474201 48.4146 53.474201"
+     y="0"
+     id="tspan164"
+     style="font-size:13px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">Passwort</tspan></text>
+
+</g><path
+           d="m 107,536 156,0 0,26 -156,0 0,-26 z"
+           id="path168"
+           style="fill:#ffffff;fill-rule:nonzero" /><path
+           d="m 107,562 1,0 0,-1 -1,0 0,1 z m 155,0 1,0 0,-1 -1,0 0,1 z"
+           id="path170"
+           style="fill:#696969;fill-rule:nonzero" /><path
+           d="m 108,562 1,0 0,-1 -1,0 0,1 z m 153,0 1,0 0,-1 -1,0 0,1 z"
+           id="path172"
+           style="fill:#777777;fill-rule:nonzero" /><path
+           d="m 109,561 152,0 0,1 -152,0 0,-1 z"
+           id="path174"
+           style="fill:#7c7c7c;fill-rule:nonzero" /><path
+           d="m 107,561 1,0 0,-1 -1,0 0,1 z m 155,0 1,0 0,-1 -1,0 0,1 z"
+           id="path176"
+           style="fill:#9a9a9a;fill-rule:nonzero" /><path
+           d="m 108,561 1,0 0,-1 -1,0 0,1 z m 153,0 1,0 0,-1 -1,0 0,1 z m -154,-24 1,0 0,-1 -1,0 0,1 z m 155,0 1,0 0,-1 -1,0 0,1 z"
+           id="path178"
+           style="fill:#b9b9b9;fill-rule:nonzero" /><path
+           d="m 109,561 152,0 0,-1 -152,0 0,1 z m -2,-1 1,0 0,-23 -1,0 0,23 z m 155,0 1,0 0,-23 -1,0 0,23 z"
+           id="path180"
+           style="fill:#c3c3c3;fill-rule:nonzero" /><path
+           d="m 108,537 1,0 0,-1 -1,0 0,1 z m 153,0 1,0 0,-1 -1,0 0,1 z"
+           id="path182"
+           style="fill:#cfcfcf;fill-rule:nonzero" /><path
+           d="m 109,536 152,0 0,1 -152,0 0,-1 z"
+           id="path184"
+           style="fill:#dddddd;fill-rule:nonzero" /><path
+           d="m 108,560 1,0 0,-23 -1,0 0,23 z m 153,0 1,0 0,-23 -1,0 0,23 z"
+           id="path186"
+           style="fill:#f0f0f0;fill-rule:nonzero" /><path
+           d="m 109,537 152,0 0,1 -152,0 0,-1 z"
+           id="path188"
+           style="fill:#fefefe;fill-rule:nonzero" /></g></g><g
+       id="g190"><g
+         clip-path="url(#clipPath194)"
+         id="g192"><g
+           transform="matrix(20,0,0,32,6,496)"
+           id="g198"><image
+             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAAABHNCSVQICAgIfAhkiAAAAetJREFUSIntlU2K6kAQx//9kaAYyMJAxEXcKIIQSSDgwo0IHsBbuBGv8MALeCSX7lwreIB4ACGJ6XoLJ0HH1348ZjEDU1CETrp+XVWp/MMAEL7Q+FfCfgZQvhsQhiGazSYsy4JhGOCcQyn1PtD3ffR6PbTbbYxGIwRBgFqtBtM07/bSMx+PxzSfz+lwOJBSih4Zw5OxmUwmCMMQi8UCjuOAcw7GANJEPSw5CAL0+31Mp1NYlgWlFEhHegUYRRGGwyEcx4FSqmw+Y+xub3GOFhhFEbrdLjzPAwCkaQohBBhj/wQ+zbDT6cDzPFQqFQBAkiRQSsE0TUghgDsogegBsNVqwXVdSCkhhIBSClmW4Xw+X7LkDJwxgFiBA0B6oOu6sG0bQghwxm/KvSm7vDAATA+0bRuGYVwylAKc84+R+c8eJkmCLMtKUJEh55fPXwfVisN+v8fpdCohBZRzDilluS7ulc91wPV6fZfhNeAzqDxMB9xut4jjGI1GA/V6vQx61sOHerhcLsv5KzIpXpSUEoZh3KyllBAA/uiAx+MReZ5jMBigWq1ehroIvGrBtQMvyNdsNqM4jilN04fSRR/K8RQIgHzfp81mQ2maUp7nWl18GVh4FEW0Wq1ot9tRkiTvC+y79v1/o7/Abwj8C6KHHY5ekzZ2AAAAAElFTkSuQmCC"
+             width="1"
+             height="1"
+             transform="matrix(1,0,0,-1,0,1)"
+             mask="url(#mask200)"
+             id="image204" /></g><g
+           transform="matrix(20,0,0,32,78,496)"
+           id="g206"><image
+             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAAABHNCSVQICAgIfAhkiAAAAhVJREFUSIntlc9KI0EQh7/q6cXT5JacDB716CEg68m3yCUPIPoSvoLg24jgAwiKSkgQPOlBQg5qJEy6u2oPyWjcdWIWhGXBgmIGevrjV3/4jQDGF4b7Stj/AfSdTgcAEUGc4MQRQuDx8ZH7+3vOz8//CigxxndDCSEwGo24vr7m9PSUbrfL1dUVvV5vOaJ9EKpqqmoxRru9vbW9vT3b2dkxphuxMCWE8H5tDGy2SWZGSomHhweOjo64vLzk+Ph4oUCfUkJEMPuNa/aaeV6j3W7jvWcwGHBxcVENVFXMQOQNNB/TcyXPc7Z/bvP09LQQ6MoLqjq7PFWlqiRNqCohBESE1eYqGxsbbG1tVQNjjMQYSSn9kZNiwvPzM0VRkGUZKysrNJtN1tfXq0t+eXkBZLqHYpiBmk6HY4apIiJkWYb3nnq9ztraWjUwy7K53gki4HCvk5YsQ2Z99d5Ty2s0Go1qoMymUT5fw6bIsp8iAgb+hyfP888VlipL8PzaiAiqisscMUZCCMsB30p/ey8VAjjnGI/H9Pv9aqBz7w1nfsnnFYoIKSVijJycnFQDvfeVh/MKY4yMx2MGg8FCB/oUWJYLMJlMODg4qPy+vFQZKSULIdhoNLK7uzvb3d393HEWAUvocDi0/f39peyr0g9TShZjtLOzM9vc3FwO9hGwKAq7ubmxw8NDa7Vay4NKg+X7v/wN/PfAXwpKCJff8HOdAAAAAElFTkSuQmCC"
+             width="1"
+             height="1"
+             transform="matrix(1,0,0,-1,0,1)"
+             mask="url(#mask208)"
+             id="image212" /></g><path
+           d="m 26,528 52,0 0,-32 -52,0 0,32 z"
+           id="path229"
+           style="fill:url(#pattern3324);fill-rule:nonzero" /></g></g><g
+       id="g231"><g
+         clip-path="url(#clipPath235)"
+         id="g233"><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g239"><text
+   transform="translate(20,346)"
+   id="text241"><tspan
+     x="0 8.9687004 17.0404 29.181101 36.420799 40.176498 48.3652 55.6049"
+     y="0"
+     id="tspan243"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Lucida">Anmelden</tspan></text>
+
+</g></g></g><g
+       id="g245"><g
+         clip-path="url(#clipPath249)"
+         id="g247"><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g253"><text
+   transform="translate(8,378)"
+   id="text255"><tspan
+     x="0 8.6709995 15.9016 23.1322 30.362801 40.474201 48.4146 53.474201 58.002102 62.002201 69.232803 76.463402 81.523003 89.463402 96.694 103.9246 111.1552 118.3858 127.0061"
+     y="0"
+     id="tspan257"
+     style="font-size:13px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">Passwort vergessen?</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g259"><text
+   transform="translate(8,402)"
+   id="text261"><tspan
+     x="0 7.3369999 13.4552 15.8994 18.343599 21.399401 27.517599 34.000999 37.000702 44.3377 46.781898 53.001301 56.000999 59.056801 65.175003 69.000801 72.000504 79.337502 85.455704 90.955704 96.455704 104.3999 110.5181 114.1811 118.0014 121.0011 126.5011 132.61929 136.2823 142.4005 148.51871 154.01871 159.51871 165.6369 172.00259 175.0023 181.1205 187.23869 193.3569 199.4751 205.59331 209.00439"
+     y="0"
+     id="tspan263"
+     style="font-size:11px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#666666;fill-rule:nonzero;font-family:Arial">Sollten Sie Ihr Passwort vergessen haben, </tspan></text>
+
+</g><path
+           d="m 220,450 121,0 0,1 -121,0 0,-1 z"
+           id="path265"
+           style="fill:#cccccc;fill-rule:nonzero" /><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g267"><text
+   transform="translate(220,402)"
+   id="text269"><tspan
+     x="0 3.0558 9.1739998 12.837 18.9552 25.0734 28.736401 35.0009 38.000599 45.337601 47.781799 54.001202 57.0009 63.119099 65.563301 72.001602 75.001297 81.119499 87.237701 93.355904 99.474098 105.0038 108.0035 114.1217"
+     y="0"
+     id="tspan271"
+     style="font-size:11px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">fordern Sie ein neues an</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g273"><text
+   transform="translate(341,402)"
+   id="text275"><tspan
+     x="0"
+     y="0"
+     id="tspan277"
+     style="font-size:11px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#666666;fill-rule:nonzero;font-family:Arial">.</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g279"><text
+   transform="translate(8,440)"
+   id="text281"><tspan
+     x="0 11.856 21.040001 30.528 39.712002 46 50 61.264 70.447998 79.935997 89.424004 95.056 103.36 112.544 119"
+     y="0"
+     id="tspan283"
+     style="font-size:16px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#444444;fill-rule:nonzero;font-family:Helvetica">Neuer Benutzer?</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g285"><text
+   transform="translate(8,465)"
+   id="text287"><tspan
+     x="0 12.2694 19.5 26.7306 34.000198 38.000301 46.671299 49.559898 57.001099 61.001202 68.231796 75.462402 81.962402 90.002899 94.002998 100.503 107.7336 110.6222 117.8528 125.0834 133.0056 137.00571 145.6767 152.9073 160.13789 167.3685 170.9799 177.4799 184.71049 189.03951 196.2701 203.5007 214.3297 221.5603 229.00929 233.0094 240.24001 247.4706 254.7012 261.93179 269.16241 273.013 277.01309 280.62451 287.8551 290.74371 293.63229 300.86292 309.0152 313.01529 321.68631 324.57489 332.01611 336.0162 343.2468 346.13541 349.7468 353.35818 361.01651 365.0166 372.24719 379.47781 386.0181"
+     y="0"
+     id="tspan289"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">Wenn Sie noch keinen Benutzernamen haben, füllen Sie bitte das </tspan></text>
+
+</g><path
+           d="m 398,386 132,0 0,1 -132,0 0,-1 z"
+           id="path291"
+           style="fill:#cccccc;fill-rule:nonzero" /><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g293"><text
+   transform="translate(398,465)"
+   id="text295"><tspan
+     x="0 9.3886003 16.6192 23.8498 26.7384 33.2384 36.8498 41.178799 44.067402 51.298 55.626999 62.857601 70.088203 77.318802 83.818802 87.430199 94.660797 98.989799 109.8188 117.0494 119.938 127.1686"
+     y="0"
+     id="tspan297"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">Registrierungsformular</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g299"><text
+   transform="translate(534.0001,465)"
+   id="text301"><tspan
+     x="0 7.2305999 14.4612 20.961201"
+     y="0"
+     id="tspan303"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">aus.</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g305"><text
+   transform="translate(8,492)"
+   id="text307"><tspan
+     x="0 12.2694 19.5 26.7306 34.000198 38.000301 41.611698 48.8423 54.000702 58.000801 66.671799 73.902397 81.133003 88.363602 91.974998 98.474998 105.7056 110.0346 117.2652 124.4958 135.3248 143.00391 147.004 154.2346 161.46519 169.0052 173.00529 181.6763 188.90691 195.40691 201.90691 211.2955 218.52609 222.8551 227.00729 231.0074 237.5074 244.73801 249.067 253.396 260.62659 267.12659 271.00839 275.00851 281.50851 284.39709 291.62769 298.85831 303.0105 307.01059 309.8992 317.12979 323.62979 330.12979 334.0116 338.01169 341.62311 348.8537 354.01208 358.01221 366.6832 371.01221 378.2428 387.63141 394.13141 401.362 406.0134 410.01349 417.24411 423.74411 430.9747 438.20529 441.81671 449.0473 456.27789 459.1665 463.01709 467.01721 473.51721 480.7478 483.63641 490.867 499.01929 503.01941 512.40802 519.63861 526.8692 533.3692 536.25781 543.4884 550.02222 554.02228 560.52228 567.75293"
+     y="0"
+     id="tspan309"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">Wenn Ihr Benutzername und Passwort korrekt sind, lässt Ihr Browser eventuell keine Cookies zu.</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g311"><text
+   transform="translate(8,519)"
+   id="text313"><tspan
+     x="0 12.2694 19.5 26.7306 34.000198 38.000301 46.671299 49.559898 57.001099 61.001202 63.889801 74.718803 85.547798 92.778397 98.001801 102.0019 109.2325 116.4631 122.9631 131.0036 135.00369 142.2343 145.12289 152.3535 158.8535 167.0058 171.00591 179.6769 186.9075 189.7961 193.4075 201.006 205.0061 212.23669 219.4673 226.69791 233.9285 240.4285 247.6591 250.5477 257.77829 262.0098 266.00989 273.24051 280.4711 286.9711 294.20169 305.0307 315.85971 323.0903 330.32089 334.01291 338.013 345.24359 352.47421 361.86279 369.09341 376.32401 380.01599 384.01611 392.6871 395.57571 403.01691 407.017 410.62839 417.85901 422.18799 429.41861 437.01709 441.01721 449.6882 454.01721 461.2478 470.63641 477.13641 484.367 489.0184 493.01849 497.3475 500.23611 506.73611 513.96667 517.57812 520.46667 528.01971 532.01978 538.51978 545.75043 552.98102 556.59241 559.48102 566.71161 573.9422 578.27118 581.15979 588.39038 592.71942"
+     y="0"
+     id="tspan315"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">Wenn Sie immer noch diese Seite angezeigt bekommen, obwohl Sie Ihren Browser richtig konfiguriert</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g317"><text
+   transform="translate(8,538)"
+   id="text319"><tspan
+     x="0 7.2305999 14.4612 21.691799 28.9224 36.153 40.003601 44.0037 50.5037 57.734299 64.964897 72.195503 75.8069 84.0047 88.004799 95.235397 98.124001 105.3546 112.0067 116.0068 119.6182 126.8488 129.7374 136.968 144.19859 151.4292 158.65981 166.00999 170.0101 180.12151 184.4505 191.68111 198.9117 206.1423 214.0112 218.01131 225.2419 232.4725 239.70309 246.9337 254.16431"
+     y="0"
+     id="tspan321"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">haben, könnte dies folgende Gründe haben:</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g323"><path
+             d="m 22,561 c 0,1.1046 -0.89543,2 -2,2 -1.10457,0 -2,-0.8954 -2,-2 0,-1.1046 0.89543,-2 2,-2 1.10457,0 2,0.8954 2,2 z"
+             id="path325"
+             style="fill:#000000;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none" /></g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g327"><text
+   transform="translate(33,565)"
+   id="text329"><tspan
+     x="0 8.6709995 11.5596 18.790199 21.678801 24.5674 31.798 34.6866 41.1866 48.417198 53.003601 57.0037 64.234299 71.464897 78.695503 85.926102 89.537498 96.037498 103.2681 111.007 115.0071 123.6781 126.5667 134.0079 138.008 145.2386 148.1272 155.3578 163.0096 167.0097 174.9501 177.8387 180.72729 184.3387 191.56931 195.8983 202.3983 209.62891 213.2403 216.8517 226.2403 233.4709 237.7999 245.0305 249.01109 253.0112 260.24179 263.1304 271.0123 275.01239 282.24301 285.13159 293.01349 297.01361 305.6846 312.91519 317.2442 326.63281 333.8634 341.09399 348.32458 355.55521 362.7858 370.0177 374.01779 380.51779 387.74841 395.01801 399.0181 408.40671 415.6373 422.86789 429.36789 432.2565 439.48709 446.0209 450.021 456.521 463.75159 468.0806 475.31119 478.1998 485.43039 492.66101 499.8916 504.22061 507.832 512.02448 516.0246 524.69562 531.92621 534.81482 537.70343 541.31482 549.02643 553.02649 560.25708 563.14569 570.37628 577.02838 581.0285 588.25909 595.48969"
+     y="0"
+     id="tspan331"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">Vielleicht benutzen Sie eine Filtersoftware, die die Verwendung von Cookies verhindert. Sollte dies der</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g333"><text
+   transform="translate(33,584)"
+   id="text335"><tspan
+     x="0 7.9404001 15.171 18.059601 21.0002 25.000299 31.500299 38.7309 41.619499 48.850101 53.0023 57.002399 63.502399 71.002098 75.002197 85.8312 93.061798 99.561798 106.0618 113.2924 121.0027 125.0028 133.6738 136.56239 144.0036 148.00369 155.2343 158.12289 165.3535 171.8535 180.0058 184.00591 192.6769 199.9075 203.51891 207.13029 216.51891 223.7495 228.07851 236.0072 240.00729 246.50729 254.007 258.00711 264.50711 271.7377 278.96829 282.57971 285.46829 292.69891 299.9295 304.25851 307.14709 314.37769 318.7067 325.93729 333.16791 337.01199 341.01208 348.24271 355.4733 361.9733 369.01279 373.01291 379.51291 382.40149 390.013 394.01309 403.4017 410.63229 417.86292 424.36292 427.2515 434.48209 441.0159 445.01599 451.51599 458.74661"
+     y="0"
+     id="tspan337"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">Fall sein, so müssen Sie diese Software so konfigurieren, dass sie Cookies von</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g339"><text
+   transform="translate(33,603)"
+   id="text341"><tspan
+     x="0 7.2305999 10.842 14.4534 21.684 25.295401 28.906799 32.5182 35.406799 42.637402 49.137402 56.368 59.256599 66.487198 73.717796 80.217796 83.829201 87.440598 94.671204 101.9018 109.1324 116.363 119.9744 128.6454 131.534 138.7646 145.99519 154.0058 158.00591 165.2365 169.56551 172.4541 179.68469 186.9153 194.1459 197.75729"
+     y="0"
+     id="tspan343"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">http://localhost:8080/Plone erlaubt.</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g345"><path
+             d="m 22,621 c 0,1.1046 -0.89543,2 -2,2 -1.10457,0 -2,-0.8954 -2,-2 0,-1.1046 0.89543,-2 2,-2 1.10457,0 2,0.8954 2,2 z"
+             id="path347"
+             style="fill:#000000;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none" /></g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g349"><text
+   transform="translate(33,625)"
+   id="text351"><tspan
+     x="0 3.6113999 10.842 16.000401 20.0005 29.389099 36.619701 47.4487 54.679298 61.909901 65.521301 72.7519 78.002602 82.002701 88.502701 95.733299 102.9639 110.1945 113.8059 122.0037 126.0038 133.23441 140.465 144.79401 151.29401 159.0043 163.00439 170.235 173.1236 180.3542 188.006 192.0061 199.9465 202.8351 207.16409 214.3947 223.78329 231.0139 233.9025 237.00819 241.0083 248.23891 255.4695 262.7001 268.01059 272.01071 279.2413 282.12991 289.3605 296.59109 304.01279 308.01291 316.6839 321.01291 328.2435 334.7435 341.2435 347.7435 354.97409 359.3031 365.8031 373.03369 378.01529 382.01541 389.246 396.47659 402.97659 409.47659 416.70721 423.93781 427.54919 434.04919 438.01682 442.01691 448.51691 455.7475 458.63611 465.8667 470.01889 474.01901 481.2496 484.13821 492.02011 496.0202 503.25079 510.48141 517.02173 521.02179 529.69281 536.9234 544.15399 551.38458 558.61517 566.02393 570.02399 577.25458 584.48523"
+     y="0"
+     id="tspan353"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">Ihr Computer könnte durch eine Firewall oder einen Proxyserver geschützt sein, die das Senden und</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g355"><text
+   transform="translate(33,644)"
+   id="text357"><tspan
+     x="0 8.6709995 19.5 26.7306 30.341999 37.572601 44.8032 52.033798 59.2644 67.003304 71.003403 77.503403 84.734001 92.003601 96.0037 105.3923 112.6229 119.8535 126.3535 129.2421 136.4727 143.0065 147.00661 153.50661 160.7372 165.06619 172.2968 175.18539 182.416 189.64661 196.8772 201.20621 208.4368 213.01019 217.0103 220.6217 227.1217 231.00999 235.0101 242.24071 245.1293 252.35989 259.01199 263.01208 270.24271 277.4733 282.01291 286.013 293.9534 301.18399 304.0726 306.96121 311.01331 315.0134 321.5134 329.01309 333.01321 340.2438 343.13239 346.7438 350.35519 357.58578 365.01401 369.0141 377.68509 380.5737 388.01489 392.01501 395.6264 402.85699 407.186 414.4166 422.01511 426.0152 434.68619 441.91681 452.74579 455.6344 462.86499 465.7536 472.2536 475.86499 480.194 487.42459 491.03601 498.2666 502.59561 507.01691 511.017 518.24762 525.47821 532.01849 536.01862 544.68958 549.01862 556.24921 563.4798 566.36841 573.599"
+     y="0"
+     id="tspan359"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">Empfangen von Cookies verhindern. Ist dies der Fall, so bitten Sie Ihren Administrator, das Problem</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g361"><text
+   transform="translate(33,663)"
+   id="text363"><tspan
+     x="0 6.5 13.9997 17.9998 20.888399 28.118999 34.618999 41.849602 49.0802"
+     y="0"
+     id="tspan365"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">zu lösen.</tspan></text>
+
+</g><path
+           d="m 8,78 625,0 0,72 -625,0 0,-72 z"
+           id="path367"
+           style="fill:#dddddd;fill-rule:nonzero" /><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g369"><text
+   transform="translate(20,731)"
+   id="text371"><tspan
+     x="0 8.0039997 10.6704 17.344801 24.019199"
+     y="0"
+     id="tspan373"
+     style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">Plone</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g375"><text
+   transform="translate(51,726)"
+   id="text377"><tspan
+     x="0"
+     y="0"
+     id="tspan379"
+     style="font-size:10px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">®</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g381"><text
+   transform="translate(62,731)"
+   id="text383"><tspan
+     x="0 9.3336 16.007999 22.6824 30.0012 33.001202 41.005199 47.6796 54.354 58.349998 64.349998 72.002403 75.002403 83.6688 90.343201 97.017601 100.3512 107.0256 113.7 118.0044 121.0044 131.0004 137.6748 144.3492 151.02361 157.698 164.37241 174.36839 181.0428 187.71719 192.00841 195.00841 203.01241 209.01241 215.01241 218.34599 225.0204"
+     y="0"
+     id="tspan385"
+     style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">Open Source Content Management System</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g389"><text
+   transform="translate(301,731)"
+   id="text391"><tspan
+     x="0"
+     y="0"
+     id="tspan393"
+     style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">©</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g395"><text
+   transform="translate(313,731)"
+   id="text397"><tspan
+     x="0 6.6719999 13.344 20.016001 27 30.996 37.667999 44.34 51.012001 57.995998"
+     y="0"
+     id="tspan399"
+     style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">2000-2010 </tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g401"><text
+   transform="translate(374,731)"
+   id="text403"><tspan
+     x="0 8.0039997 10.6704 17.344801 24.019199 31.002001 34.001999 41.3316 48.006001 54.680401 61.354801 68.029198 74.703598 78.037201 80.703598 87.377998"
+     y="0"
+     id="tspan405"
+     style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">Plone Foundation</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g407"><text
+   transform="translate(472,731)"
+   id="text409"><tspan
+     x="0 6.6743999 13.3488 21.0012 24.0012 31.330799 35.326801 42.001202 48.675598 55.349998 62.024399 68.698799"
+     y="0"
+     id="tspan411"
+     style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">und Freunde.</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g413"><text
+   transform="translate(20,748)"
+   id="text415"><tspan
+     x="0 8.0039997 10.6704 17.344801 24.019199"
+     y="0"
+     id="tspan417"
+     style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">Plone</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g419"><text
+   transform="translate(51,743)"
+   id="text421"><tspan
+     x="0"
+     y="0"
+     id="tspan423"
+     style="font-size:10px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">®</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g425"><text
+   transform="translate(62,748)"
+   id="text427"><tspan
+     x="0 6.6743999 13.3488 21.0012 24.0012 30.6756 37.349998 44.0028 47.0028 55.006802 57.673199 64.347603 71.022003 78.004799 82.004402 88.678802 95.353203 102.0276 109.0056 112.0056 118.0056 120.672 127.3464 135.006 138.006 144.6804 147.3468 154.02119 160.6956 167.37 170.7036 174.6996 181.37399 188.0484 194.72279 201.3972 209.00999 212.00999 223.3356 230.00999 234.006 240.6804 247.3548 253.3548 260.02921 262.69559 268.69559 275.37 282.0444 289.01279 292.01279 298.68719 305.3616 310.01401"
+     y="0"
+     id="tspan429"
+     style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">und das Plone-Logo sind eingetragene Warenzeichen der </tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g431"><text
+   transform="translate(375,748)"
+   id="text433"><tspan
+     x="0 8.0039997 10.6704 17.344801 24.019199 31.002001 34.001999 41.3316 48.006001 54.680401 61.354801 68.029198 74.703598 78.037201 80.703598 87.377998"
+     y="0"
+     id="tspan435"
+     style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">Plone Foundation</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g437"><text
+   transform="translate(470,748)"
+   id="text439"><tspan
+     x="0 3.9995999"
+     y="0"
+     id="tspan441"
+     style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">. </tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g443"><text
+   transform="translate(477,748)"
+   id="text445"><tspan
+     x="0 6.6743999 9.3408003 15.3408 22.0152 28.6896 34.689602 37.355999 44.030399 48.026402 52.003201 55.003201 61.677601 68.351997 71.6856 78.360001 83.003998 86.003998 92.678398 99.352798 104.0052"
+     y="0"
+     id="tspan447"
+     style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">Lizensiert unter der </tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g449"><text
+   transform="translate(584,748)"
+   id="text451"><tspan
+     x="0 9.3336 17.995199 26.9928"
+     y="0"
+     id="tspan453"
+     style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">GNU-</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g455"><text
+   transform="translate(20,762)"
+   id="text457"><tspan
+     x="0 9.3336 17.337601 24.999599 28.999201 35.673599 38.34 44.34 51.0144 57.688801"
+     y="0"
+     id="tspan459"
+     style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">GPL-Lizenz</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g461"><text
+   transform="translate(84,762)"
+   id="text463"><tspan
+     x="0"
+     y="0"
+     id="tspan465"
+     style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Arial">.</tspan></text>
+
+</g><path
+           d="m 8,719 625,0 0,36 -625,0 0,-36 z"
+           id="path467"
+           style="fill:#dddddd;fill-rule:nonzero" /><path
+           d="m 411,799 170,0 0,20 -170,0 0,-20 z"
+           id="path469"
+           style="fill:#ffffff;fill-rule:nonzero" /><path
+           d="m 411,819 1,0 0,-1 -1,0 0,1 z m 169,0 1,0 0,-1 -1,0 0,1 z"
+           id="path471"
+           style="fill:#696969;fill-rule:nonzero" /><path
+           d="m 412,819 1,0 0,-1 -1,0 0,1 z m 167,0 1,0 0,-1 -1,0 0,1 z"
+           id="path473"
+           style="fill:#777777;fill-rule:nonzero" /><path
+           d="m 413,818 166,0 0,1 -166,0 0,-1 z"
+           id="path475"
+           style="fill:#7c7c7c;fill-rule:nonzero" /><path
+           d="m 411,818 1,0 0,-1 -1,0 0,1 z m 169,0 1,0 0,-1 -1,0 0,1 z"
+           id="path477"
+           style="fill:#9a9a9a;fill-rule:nonzero" /><path
+           d="m 412,818 1,0 0,-1 -1,0 0,1 z m 167,0 1,0 0,-1 -1,0 0,1 z m -168,-18 1,0 0,-1 -1,0 0,1 z m 169,0 1,0 0,-1 -1,0 0,1 z"
+           id="path479"
+           style="fill:#b9b9b9;fill-rule:nonzero" /><path
+           d="m 413,818 166,0 0,-1 -166,0 0,1 z m -2,-1 1,0 0,-17 -1,0 0,17 z m 169,0 1,0 0,-17 -1,0 0,17 z"
+           id="path481"
+           style="fill:#c3c3c3;fill-rule:nonzero" /><path
+           d="m 412,800 1,0 0,-1 -1,0 0,1 z m 167,0 1,0 0,-1 -1,0 0,1 z"
+           id="path483"
+           style="fill:#cfcfcf;fill-rule:nonzero" /><path
+           d="m 413,799 166,0 0,1 -166,0 0,-1 z"
+           id="path485"
+           style="fill:#dddddd;fill-rule:nonzero" /><path
+           d="m 412,817 1,0 0,-17 -1,0 0,17 z m 167,0 1,0 0,-17 -1,0 0,17 z"
+           id="path487"
+           style="fill:#f0f0f0;fill-rule:nonzero" /><path
+           d="m 413,800 166,0 0,1 -166,0 0,-1 z"
+           id="path489"
+           style="fill:#fefefe;fill-rule:nonzero" /></g></g><g
+       id="g491"><g
+         clip-path="url(#clipPath495)"
+         id="g493"><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g499"><text
+   transform="translate(414,51)"
+   id="text501"><tspan
+     x="0 11.1215 18.3638 26.546 33.173401 36.931702 41.793701 50.000599 54.000702 62.182899 70.250702 75.570297 82.228897 90.2967 96.924103 104.9919 111.6505 119.7183 126.9606"
+     y="0"
+     id="tspan503"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#76797c;fill-rule:nonzero;font-family:Lucida">Website durchsuchen</tspan></text>
+
+</g></g></g><g
+       id="g505"><g
+         clip-path="url(#clipPath509)"
+         id="g507" /></g><g
+       id="g515"><g
+         clip-path="url(#clipPath519)"
+         id="g517"><g
+           transform="matrix(17,0,0,27,580,793)"
+           id="g523"><image
+             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAbCAYAAACa9mScAAAABHNCSVQICAgIfAhkiAAAAZVJREFUOI3tlK2OwkAUhc/8tEE0FVtB2AoMCELAkCCABA0hCBzJEp6Dt1o8jsfAYRDVENrO9K4ACt0tpYQVK/YkJx1x8/XeMz8MAOFF8VcBvwaReQsbjQZc14Vt2zBNE5xf//8QUqlU0Ov10O/30Wq14LouLMuCECKuYcgIttPpYDAYYPYxQ+m99Pw4tVoN4/EY8/kctm1Da/08ZDQaYTgcwjAMENG5YZYf0u120Ww24ThvUEoj8H0YponL5OycAmVB6vU6qtUqoohAFEJrhSAMYRhGIlAAIKJ0SLlchuM44JwntlIpBaVUvnGKxSIKhQKEEGDsmsNlffkSERhj6ZAoiqC1jg8VYywBy9XJbrfD8XiEZVkx4LaL025dlXp31us1DocDOOcQQkAIEeeT6jTIarWC53kIgiAuFEJAShlDb333Fi8WC+z3e3DOIaWElPIuDDidoFRPp1PyPI/CMCStdcJKqdiZEADUbrdps9mQ7/uktaYoiui7HkIunkwmtPxc0na7JaVUApL5FOTV33lj/yE/9QXGLdLYLllsfwAAAABJRU5ErkJggg=="
+             width="1"
+             height="1"
+             transform="matrix(1,0,0,-1,0,1)"
+             mask="url(#mask525)"
+             id="image529" /></g><g
+           transform="matrix(17,0,0,27,621,793)"
+           id="g531"><image
+             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAbCAYAAACa9mScAAAABHNCSVQICAgIfAhkiAAAAY1JREFUOI3tlLFqAkEQhv89RewVrrSyFKwEHyEp7WxsfAnfxxeIjZWFNoKFlYWFVqKCKBaHp+7ezE6K5I5oVk1IqpCBH3Z2d77d+RdWARD8MLyfAn4Nkm40GklirYUxBkEQYLVaYTKZfAmiiCjxhJlxOBywXC4xHo/R7/cxHA4xn8/vQ7TWTmNFBOv1Gu12G91uF6PR6HY7zOxeEcD3fTSbTaTTaQRBgOl06oaIuF9YRCAiyGQyeHp+wn6/vwnxrLW4JWMMoihCPpdHuVxGtVp1Q4gIzJyIiGCMQRiGOJ/PAAClFIrFIkqlkrsdY4yzFaUUPM9LxrlcDoVCwQ3xPO+iOD45Lo7zbDYL3/cfQ1w3isGxT9+GWGuhlIJSCqfTCZvN5vuQ2BNrLY7HIwaDgRuSSqUuJmI/PrajtcZut0Ov1/sa5DqYGWEYotVq3d5ERBJFkRBRImaWeH673Uq9Xhe8fV5uyVVYa4WZRWsts9lMKpXKfcA1hIhksVhI56UjtVrtcfG7FP7UH/sP+RyvT/VFovWWVKEAAAAASUVORK5CYII="
+             width="1"
+             height="1"
+             transform="matrix(1,0,0,-1,0,1)"
+             mask="url(#mask533)"
+             id="image537" /></g><path
+           d="m 597,820 24,0 0,-27 -24,0 0,27 z"
+           id="path554"
+           style="fill:url(#pattern3322);fill-rule:nonzero" /></g></g><g
+       id="g556"><g
+         clip-path="url(#clipPath560)"
+         id="g558"><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g564"><text
+   transform="translate(593,51)"
+   id="text566"><tspan
+     x="0 5.9246001 12.7512 18.389799 25.2164"
+     y="0"
+     id="tspan568"
+     style="font-size:11px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-rule:nonzero;font-family:Lucida">Suche</tspan></text>
+
+</g></g></g><g
+       id="g570"><g
+         clip-path="url(#clipPath574)"
+         id="g572"><g
+           id="g592"><g
+             clip-path="url(#clipPath580)"
+             id="g594"><g
+               id="g598"><g
+                 clip-path="url(#clipPath584)"
+                 id="g600"><g
+                   transform="matrix(10,0,0,11,411,786)"
+                   id="g602"><image
+                     xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAALCAYAAABGbhwYAAAABHNCSVQICAgIfAhkiAAAAOxJREFUGJWNkTuOglAYhb97uUQTAgQl1u5ASjpCzQ7YgGtyOVi5EKlJaIz39VtMZhLjFJ72nOS8FCB8AXM8Hun7nqIo0Fq/kTFGlmXher1ihmFgHEfatv0QhhC43W5kWYau65qmafDeY63FOYdzDmst3ntOpxOHwwEjIjjniDF+WoeIdfYn436/Z11XjDForVEASiEixCh479jtdpg8zzHGkKbpv2VAKIoCU5Ylm82G7XZLkiQopQAQEUIIPJ9PyrLEzPPM4/Ggqqo/0S9EhGVZuN/vqDRN5XK50HUdiU7e54mBaZo4n8+ob595AULkaBR6RUl4AAAAAElFTkSuQmCC"
+                     width="1"
+                     height="1"
+                     transform="matrix(1,0,0,-1,0,1)"
+                     mask="url(#mask588)"
+                     id="image604" /></g></g></g></g></g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g608"><text
+   transform="translate(424,67)"
+   id="text610"><tspan
+     x="0 5.5619998 11.124 15.001 18.000999 20.223 29.000999 32.000999 37.563 42.563 45.341 50.903 56.465 58.687 60.909 66.471001 73.002998 76.002998 82.672997 88.235001 91.565002 97.126999 99.348999 104.349"
+     y="0"
+     id="tspan612"
+     style="font-size:10px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#76797c;fill-rule:nonzero;font-family:Arial">nur im aktuellen Bereich</tspan></text>
+
+</g><g
+           transform="matrix(215,0,0,56,8,777)"
+           id="g614"><image
+             xlink:href="data:image/png;base64,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"
+             width="1"
+             height="1"
+             transform="matrix(1,0,0,-1,0,1)"
+             mask="url(#mask616)"
+             id="image620" /></g><path
+           d="m 8,719 110,0 0,36 -110,0 0,-36 z"
+           id="path622"
+           style="fill:#205c90;fill-rule:nonzero" /><path
+           d="m 117,719 1,0 0,36 -1,0 0,-36 z"
+           id="path624"
+           style="fill:#ffffff;fill-rule:nonzero" /><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g626"><text
+   transform="translate(16,120)"
+   id="text628"><tspan
+     x="0 8.6709995 12.2824 19.513 23.841999 27.4534 33.9534 41.183998 44.072601 47.683998"
+     y="0"
+     id="tspan630"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#ffffff;fill-rule:nonzero;font-family:Arial">Startseite</tspan></text>
+
+</g><path
+           d="m 118,719 110,0 0,36 -110,0 0,-36 z"
+           id="path632"
+           style="fill:#dddddd;fill-rule:nonzero" /><path
+           d="m 227,719 1,0 0,36 -1,0 0,-36 z"
+           id="path634"
+           style="fill:#ffffff;fill-rule:nonzero" /><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g636"><text
+   transform="translate(126,120)"
+   id="text638"><tspan
+     x="0 9.3886003 16.6192 23.1192 30.3498 34.678799 37.567402 44.067402 51.298 54.909401 62.139999"
+     y="0"
+     id="tspan640"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">Nachrichten</tspan></text>
+
+</g><path
+           d="m 228,719 110,0 0,36 -110,0 0,-36 z"
+           id="path642"
+           style="fill:#dddddd;fill-rule:nonzero" /><path
+           d="m 337,719 1,0 0,36 -1,0 0,-36 z"
+           id="path644"
+           style="fill:#ffffff;fill-rule:nonzero" /><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g646"><text
+   transform="translate(236,120)"
+   id="text648"><tspan
+     x="0 7.9404001 15.171 19.5 30.329 33.217602 40.4482"
+     y="0"
+     id="tspan650"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">Termine</tspan></text>
+
+</g><path
+           d="m 338,719 110,0 0,36 -110,0 0,-36 z"
+           id="path652"
+           style="fill:#dddddd;fill-rule:nonzero" /><path
+           d="m 447,719 1,0 0,36 -1,0 0,-36 z"
+           id="path654"
+           style="fill:#ffffff;fill-rule:nonzero" /><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g656"><text
+   transform="translate(346,120)"
+   id="text658"><tspan
+     x="0 8.6709995 15.9016 23.1322 30.362801 33.974201 40.474201 47.7048"
+     y="0"
+     id="tspan660"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">Benutzer</tspan></text>
+
+</g><path
+           d="m 448,719 129,0 0,36 -129,0 0,-36 z"
+           id="path662"
+           style="fill:#dddddd;fill-rule:nonzero" /><path
+           d="m 576,719 1,0 0,36 -1,0 0,-36 z"
+           id="path664"
+           style="fill:#ffffff;fill-rule:nonzero" /><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g666"><text
+   transform="translate(456,120)"
+   id="text668"><tspan
+     x="0 8.6709995 15.9016 20.2306 27.461201 34.691799 41.191799 44.8032 52.033798 54.922401 58.533798 65.764397 72.995003 80.225601 87.4562"
+     y="0"
+     id="tspan670"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">Veranstaltungen</tspan></text>
+
+</g></g></g><g
+       id="g672"><g
+         clip-path="url(#clipPath676)"
+         id="g674"><g
+           clip-path="url(#clipPath682)"
+           id="g680"><path
+             d="m 479,834 154,0 0,21 -154,0 0,-21 z"
+             id="path686"
+             style="fill:#e3e3e3;fill-rule:nonzero" /></g></g></g><g
+       id="g688"><g
+         clip-path="url(#clipPath692)"
+         id="g690"><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g696"><text
+   transform="translate(488,15)"
+   id="text698"><tspan
+     x="0 8.6709995 15.9016 26.7306 33.961201 36.8498 44.080399 51.311001"
+     y="0"
+     id="tspan700"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">Anmelden</tspan></text>
+
+</g><g
+           transform="matrix(1,0,0,-1,0,855)"
+           id="g702"><text
+   transform="translate(553,15)"
+   id="text704"><tspan
+     x="0 9.3886003 16.6192 23.8498 26.7384 33.2384 36.8498 41.178799 44.067402 51.298 55.626999 62.857601"
+     y="0"
+     id="tspan706"
+     style="font-size:13px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#205c90;fill-rule:nonzero;font-family:Arial">Registrieren</tspan></text>
+
 </g></g></g></g></svg>

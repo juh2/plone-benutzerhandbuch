@@ -1,9 +1,9 @@
 Über dieses Buch
 ================
 
-Plone ist ein leistungsfähiges Open-Source Content-Management-System, das für den
-professionellen Einsatz in Unternehmen und Organisationen geeignet ist.
-Es zeichnet sich durch viele herausragende Funktionen aus. Plone ist
+Plone ist ein leistungsfähiges Open-Source Content-Management-System für
+den professionellen Einsatz in Unternehmen und Organisationen.  Es
+zeichnet sich durch herausragende Funktionen aus, ist
 benutzerfreundlich und wegen seiner intuitiven Bedienung leicht zu erlernen.
 Vor allem aber ist Plone eins der sichersten CMS überhaupt.  
 
@@ -18,13 +18,12 @@ vornehmen oder große Installationen verwalten möchten, seien auf das
 Plone-Entwicklerhandbuch_ [#]_ oder die umfangreiche Dokumentation auf der
 `Homepage von Plone`_ [#]_ verwiesen.
 
-Das Buch ist in vier Teile untergliedert. Im ersten Teil wird die Installation
-von Plone unter Linux, Mac OS X und Windows erklärt. Im zweiten Teil finden Sie
-Tutorien, die für Autoren und Redakteure geschrieben wurden, und dabei helfen,
-sich in dem neuen System zurechtzufinden. Der dritte Teil, die Referenz,
-enthält eine detaillierte Beschreibung aller Funktionen in Plone, die für
-Autoren, Redakteure und Administratoren wichtig sind. Und im vierten Teil
-werden wichtige Erweiterungen beschrieben. 
+Das Buch ist in mehrere Teile untergliedert. Zunächst wird die Installation von
+Plone erklärt. Die anschließenden Tutorien richten sich an Autoren und
+Redakteure, die noch nie mit Plone gearbeitet haben. Die Referenz enthält eine
+detaillierte Beschreibung aller Funktionen in Plone, die für Autoren,
+Redakteure und Administratoren relevant sind.  Zuletzt werden wichtige
+Erweiterungen beschrieben. 
 
 Für die Generierung der HTML-, PDF- und ePub-Fassung des
 Plone-Benutzerhandbuchs wird der Fork sphinx-epub_ von Roland Meister
@@ -36,7 +35,7 @@ verwendet.
 
 Die HTML-Fassung dieses Buches sowie eine PDF-Version und ein eBook, die
 heruntergeladen werden können, finden Sie unter:
-http://www.hasecke.com/plone-benutzerhandbuch/4.2/.  Den Quellcode dieser
+http://www.hasecke.com/plone-benutzerhandbuch/4.3/.  Den Quellcode dieser
 Dokumentation finden Sie auf Launchpad_. 
 
 Die Dokumentation basiert in Teilen auf dem Plone-Benutzerhandbuch für

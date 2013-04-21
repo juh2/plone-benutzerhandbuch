@@ -1,21 +1,20 @@
 Installation unter Linux
 ========================
 
-Laden Sie von plone.org das gepackte Archiv mit dem :term:`Unified Installer`
+Laden Sie von plone.org bzw. launchpad.net\ [#]_ das gepackte Archiv mit dem :term:`Unified Installer`
 für Linux herunter und entpacken Sie das Archiv.::
 
-    wget
-    https://launchpad.net/plone/4.2/4.2.4/+download/Plone-4.2.4-UnifiedInstaller-r3.tgz [#]_
+    wget https://launchpad.net/plone/4.3/4.3/+download/Plone-4.3-UnifiedInstaller.tgz 
 
-    tar -xvf Plone-4.2.4-UnifiedInstaller-r3.tgz
+    tar -xvf Plone-4.3-UnifiedInstaller.tgz
 
 Wechseln Sie anschließend in den entstandenden Ordner. [#]_ ::
 
-    cd Plone-4.2.4-UnifiedInstaller
+    cd Plone-4.3-UnifiedInstaller
 
-In der Datei :file:`README.txt` finden Sie Informationen darüber, welche
-Optionen Ihnen bei der Installation von Plone zur Verfügung stehen. Diese sind
-kurzgefasst folgende:
+In der Datei :file:`README.txt`, die sich in dem Archiv befindet, finden Sie
+Informationen darüber, welche Optionen Ihnen bei der Installation von Plone zur
+Verfügung stehen. Diese sind kurzgefasst folgende:
 
 * Installation als root
 * Installation ohne Root-Rechte
@@ -123,10 +122,10 @@ http://localhost:8080 aufrufen.
    :command:`wget` mit der Option :command:`--no-check-certificate`
    auf, um den Installer herunterzuladen.
 
-.. [#] Bitte beachten Sie, dass das Beispiel von der Version 4.2.4
+.. [#] Bitte beachten Sie, dass das Beispiel von der Version 4.3
    ausgeht. Die Version 4.2 wird von der Plone Community laufend
    gepflegt. Es erscheinen kleinere Aktualisierungen, die die
    Bezeichnung 4.2.X tragen, wobei X eine Zahl ist, die fortlaufend
-   erhöht wird. 4.2.4 ist die vierte Maintenance-Release nach
+   erhöht wird. 4.3 ist die vierte Maintenance-Release nach
    4.2. Konsultieren Sie plone.org, um die aktuelle Version
    herunterzuladen.

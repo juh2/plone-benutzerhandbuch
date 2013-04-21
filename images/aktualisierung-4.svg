@@ -2,6 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -9,7 +12,10 @@
    width="900"
    height="786.25"
    id="svg2"
-   xml:space="preserve"><defs
+   xml:space="preserve"><metadata
+     id="metadata82"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
      id="defs6"><clipPath
        id="clipPath20"><path
          d="M 0,0 720,0 720,629 0,629 0,0 z"
@@ -50,6 +56,7 @@
      id="tspan38"
      style="font-size:29px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica;-inkscape-font-specification:HelveticaNeue-Bold">Diese Website aktualisieren</tspan></text>
 
+
 </g><path
            d="m 0,450 51,0 0,1 -51,0 0,-1 z"
            id="path40"
@@ -63,6 +70,7 @@
      id="tspan46"
      style="font-size:14px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#0072b5;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:ArialMT">Website</tspan></text>
 
+
 </g><g
            transform="matrix(1,0,0,-1,0,629)"
            id="g48" /><g
@@ -75,6 +83,7 @@
      id="tspan54"
      style="font-size:14px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:ArialMT">(Plone)</tspan></text>
 
+
 </g><g
            transform="matrix(1,0,0,-1,0,629)"
            id="g56"><text
@@ -84,6 +93,7 @@
      y="0"
      id="tspan60"
      style="font-size:14px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:ArialMT">Weitere Informationen über die Aktualisierungsprozedur erhalten Sie im Dokumentationsbereich von plone.org in</tspan></text>
+
 
 </g><path
            d="m 0,394 145,0 0,1 -145,0 0,-1 z"
@@ -98,6 +108,7 @@
      id="tspan68"
      style="font-size:14px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#0072b5;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:ArialMT">Hilfe zur Aktualisierung</tspan></text>
 
+
 </g><g
            transform="matrix(1,0,0,-1,0,629)"
            id="g70"><text
@@ -107,6 +118,7 @@
      y="0"
      id="tspan74"
      style="font-size:14px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:ArialMT">.</tspan></text>
+
 
 </g><g
            transform="matrix(16,0,0,16,0,355)"
@@ -128,6 +140,7 @@
      id="tspan90"
      style="font-size:14px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:ArialMT">Ihre Website ist aktuell.</tspan></text>
 
+
 </g><g
            transform="matrix(1,0,0,-1,0,629)"
            id="g92"><text
@@ -137,6 +150,7 @@
      y="0"
      id="tspan96"
      style="font-size:22px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica;-inkscape-font-specification:HelveticaNeue-Bold">Aktualisierungsreport</tspan></text>
+
 
 </g><g
            transform="matrix(1,0,0,-1,0,629)"
@@ -148,6 +162,7 @@
      id="tspan102"
      style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Courier;-inkscape-font-specification:Courier">Starting the migration from version: 4015</tspan></text>
 
+
 </g><g
            transform="matrix(1,0,0,-1,0,629)"
            id="g104"><text
@@ -157,6 +172,7 @@
      y="0"
      id="tspan108"
      style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Courier;-inkscape-font-specification:Courier">Role / permission map imported.</tspan></text>
+
 
 </g><g
            transform="matrix(1,0,0,-1,0,629)"
@@ -168,6 +184,7 @@
      id="tspan114"
      style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Courier;-inkscape-font-specification:Courier">Archetype tool imported.</tspan></text>
 
+
 </g><g
            transform="matrix(1,0,0,-1,0,629)"
            id="g116"><text
@@ -177,6 +194,7 @@
      y="0"
      id="tspan120"
      style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Courier;-inkscape-font-specification:Courier">Ran upgrade step: General upgrade steps</tspan></text>
+
 
 </g><g
            transform="matrix(1,0,0,-1,0,629)"
@@ -188,6 +206,7 @@
      id="tspan126"
      style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Courier;-inkscape-font-specification:Courier">End of upgrade path, migration has finished</tspan></text>
 
+
 </g><g
            transform="matrix(1,0,0,-1,0,629)"
            id="g128"><text
@@ -197,6 +216,7 @@
      y="0"
      id="tspan132"
      style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Courier;-inkscape-font-specification:Courier">Your Plone instance is now up-to-date.</tspan></text>
+
 
 </g><g
            transform="matrix(1,0,0,-1,0,629)"
@@ -208,6 +228,7 @@
      id="tspan138"
      style="font-size:22px;font-variant:normal;font-weight:bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica;-inkscape-font-specification:HelveticaNeue-Bold">Versionsübersicht</tspan></text>
 
+
 </g><g
            transform="matrix(1,0,0,-1,0,629)"
            id="g140"><text
@@ -217,6 +238,7 @@
      y="0"
      id="tspan144"
      style="font-size:14px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:ArialMT">Plone 4.0.3</tspan></text>
+
 
 </g><g
            transform="matrix(1,0,0,-1,0,629)"
@@ -228,6 +250,7 @@
      id="tspan150"
      style="font-size:14px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:ArialMT">Zope 2.12.14</tspan></text>
 
+
 </g><g
            transform="matrix(1,0,0,-1,0,629)"
            id="g152"><text
@@ -238,6 +261,7 @@
      id="tspan156"
      style="font-size:14px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:ArialMT">Python 2.6.5 (r265:79063, Jan 27 2011, 15:19:19) </tspan></text>
 
+
 </g><g
            transform="matrix(1,0,0,-1,0,629)"
            id="g158"><text
@@ -247,5 +271,6 @@
      y="0"
      id="tspan162"
      style="font-size:14px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:ArialMT">[GCC 4.2.1 (Apple Inc. build 5664)]</tspan></text>
+
 
 </g></g></g></g></svg>

@@ -13,10 +13,10 @@ Das Plone 4 Benutzerhandbuch
 
 .. only:: html
 
-   .. hint:: Hier entsteht das Benutzerhandbuch für Plone 4. 
+   .. hint:: Hier entsteht das Benutzerhandbuch für Plone 4.3. 
  
              Auch erhältlich als :download:`PDF
-             <_build/latex/Plone-Benutzerhandbuch-4.2.pdf>` oder
+             <_build/latex/Plone-Benutzerhandbuch-4.3.pdf>` oder
              :download:`ePub <_build/epub/Plone-Benutzerhandbuch.epub>`
 
              `Bitte unterstützen Sie das Plone Benutzerhandbuch!`_ 

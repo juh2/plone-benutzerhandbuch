@@ -21,7 +21,14 @@ Der Wechsel von einer Minor-Release zur nächsten sollte bei einer Standard-Plon
 Erweiterungen und Anpassungen überprüfen
 ----------------------------------------
 
-Kontrollieren Sie alle installierten Erweiterungen (siehe dazu Kapitel :ref:`sec_konfiguration-erweiterungen`). Denn sobald Erweiterungen in Spiel kommen, wird es schwieriger. Zunächst sollten Sie klären, ob für die von Ihnen benutzten Erweiterungen aktuelle Versionen zur Verfügung stehen, die nachweislich mit der Zielversion zusammenarbeiten. Das Gleiche gilt natürlich auch für Anpassungen, die Sie selbst vorgenommen haben, und Erweiterungen, die Sie selbst entwickelt haben. Auf der Website http://plone.org/products können Sie nach Erweiterungen für spezielle Plone-Versionen suchen.  
+Kontrollieren Sie alle installierten Erweiterungen (siehe dazu Kapitel
+:ref:`sec_konfiguration-erweiterungen`). Denn sobald Erweiterungen ins Spiel
+kommen, wird es schwieriger. Zunächst sollten Sie klären, ob für die von Ihnen
+benutzten Erweiterungen aktuelle Versionen zur Verfügung stehen, die
+nachweislich mit der Zielversion zusammenarbeiten. Das Gleiche gilt natürlich
+auch für Anpassungen, die Sie selbst vorgenommen haben, und Erweiterungen, die
+Sie selbst entwickelt haben. Auf der Website http://plone.org/products können
+Sie nach Erweiterungen für spezielle Plone-Versionen suchen.  
 
 Falls Sie für die von Ihnen genutzten Erweiterungen keine neuen Versionen finden, die mit der Zielversion Ihrer Plone-Instanz zusammenspielen, ist eine Aktualisierung nicht so ohne Weiteres möglich. Sie müssten entweder auf die Erweiterung verzichten – sie also vor der Aktualisierung deinstallieren – oder diese selbst so anpassen, dass sie mit der Zielversion von Plone zusammen funktioniert. Leider gab und gibt es Erweiterungen, die auch nach einer Deinstallation Spuren in Ihrer Instanz hinterlassen und eine einfache Aktualisierung verhindern. Deshalb sollten Sie jede Aktualisierung zunächst an einem Testsystem ausprobieren und niemals direkt ein Produktivsystem aktualisieren. Außerdem sollten Sie vor der Aktualisierung ein Backup Ihres Systems erstellen. Konsultieren Sie vor einer Aktualisierung den offiziellen Upgrade-Guide_ für Plone!
 
@@ -41,7 +48,14 @@ Stoppen Sie Ihre Plone-Instanz.
       versions.cfg
   #    http://dist.plone.org/release/4.0.2/versions.cfg
 
-In dem Abschnitt ``extends`` werden die Definitionen der Datei :file:`buildout.cfg` durch Definitionen aus den Dateien :file:`base.cfg` und :file:`versions.cfg` erweitert. In der Datei :file:`base.cfg` finden Sie Einstellungen, die über viele Versionen hinweg gleich bleiben. In der Datei :file:`versions.cfg` werden die Versionsnummern für die Python-Eggs festgelegt, die in der gewünschten Version genutzt werden. Diese Datei wird vom Installier mitgeliefert. Sie ist aber auch online über die angegebene und auskommentierte Webadresse erreichbar. 
+In dem Abschnitt ``extends`` werden die Definitionen der Datei
+:file:`buildout.cfg` durch Definitionen aus den Dateien :file:`base.cfg` und
+:file:`versions.cfg` erweitert. In der Datei :file:`base.cfg` finden Sie
+Einstellungen, die über viele Versionen hinweg gleich bleiben. In der Datei
+:file:`versions.cfg` werden die Versionsnummern für die Python-Eggs festgelegt,
+die in der gewünschten Version genutzt werden. Diese Datei wird vom Installier
+mitgeliefert. Sie ist aber auch online über die angegebene und auskommentierte
+Webadresse erreichbar. 
 
 Kommentieren Sie die Zeile mit der lokalen Datei :file:`versions.cfg` aus und entfernen Sie das Kommentarzeichen in der folgenden Zeile und ändern Sie die Versionsnummer. In unserem Beispiel wollen wir von 4.0.2 auf 4.0.3 aktualisieren. ::
 

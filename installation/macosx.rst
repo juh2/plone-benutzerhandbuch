@@ -67,7 +67,7 @@ ZEO Cluster
    gedacht. Sie bietet die Möglichkeit zum Load-Balancing.
 
 
-Klicken Sie auf :menuselection:`Fortfahren`, wenn Sie ihre Wahl getroffen
+Klicken Sie auf :menuselection:`Fortfahren`, wenn Sie Ihre Wahl getroffen
 haben. Sie werden anschließend aufgefordert, mit der Installation zu beginnen
 (siehe Abbildung :ref:`fig_mac-installer-5`). 
 
@@ -112,7 +112,7 @@ Sie über den Fortgang der Installation.
 
 Falls Plone an der Stelle, wo Sie es installieren wollen, bereits
 installiert ist, bricht die Installation mit einer entsprechenden
-Meldung ab (siehe Abbildung :ref:`fig_mac-installer-7`)
+Meldung ab (siehe Abbildung :ref:`fig_mac-installer-7`).
 
 
 .. _fig_mac-installer-7:
@@ -125,7 +125,7 @@ Meldung ab (siehe Abbildung :ref:`fig_mac-installer-7`)
    Meldung über den Abbruch der Installation
 
 Verschieben Sie die alte Installation an einen anderen Ort, wenn Sie die Daten
-noch benötigeni, oder löschen Sie die alte Installation und starten Sie erneut
+noch benötigen, oder löschen Sie die alte Installation und starten Sie erneut
 das Installationsprogramm. 
 
 Wenn Sie die alten Daten in der neuen Plone-Version benutzen möchten,
