@@ -37,10 +37,6 @@ Externen Editor aktivieren
    konfiguriert werden. Auf Seite der Website wird an dieser Stelle die
    Möglichkeit gewährt, einen solchen Editor zu benutzen. 
 
-Sofort-Bearbeitung einschalten
-   Die Sofort-Bearbeitung wird in Kapitel :ref:`sec_bearbeiten` beschrieben.
-   Die Möglichkeit kann hier ein- oder ausgeschaltet werden. 
-
 Link-Integritätsprüfung aktivieren
    Die Link-Integritätsprüfung wird in Kapitel
    :ref:`sec_kopieren-verschieben-loeschen` beschrieben. Die Funktion kann hier
