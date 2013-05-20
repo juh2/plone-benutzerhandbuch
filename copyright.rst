@@ -7,7 +7,7 @@ von `Jan Ulrich Hasecke`_
 
 .. |copy|   unicode:: U+000A9 .. COPYRIGHT SIGN
 
-Copyright |copy| 2011, Jan Ulrich Hasecke
+Copyright |copy| 2010 – 2013, Jan Ulrich Hasecke
 
 .. only:: html
 

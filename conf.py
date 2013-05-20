@@ -43,7 +43,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Plone-Benutzerhandbuch'
-copyright = u'%s, Jan Ulrich Hasecke, Creative Commons Lizenz 2.0 BY-NC-SA' % datetime.datetime.now().year
+thisyear = datetime.datetime.now().year
+copyright = u'2010 – %s, Jan Ulrich Hasecke, Creative Commons Lizenz 2.0 BY-NC-SA' % thisyear
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -181,7 +182,7 @@ latex_paper_size = 'a4'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'Plone-Benutzerhandbuch-4.2.tex', u'Plone-Benutzerhandbuch',
+  ('index', 'Plone-Benutzerhandbuch-4.3.tex', u'Plone-Benutzerhandbuch',
    u'Jan Ulrich Hasecke', 'manual'),
 ]
 
@@ -200,7 +201,39 @@ latex_show_pagerefs = True
 #latex_show_urls = False
 
 # Additional stuff for the LaTeX preamble.
-#latex_preamble = ''
+latex_preamble = '''
+\usepackage{lscape}
+\usepackage{microtype}
+\usepackage{tgtermes}
+\usepackage[T1]{fontenc}
+\setlength{\paperwidth}{191.000mm} 
+\setlength{\paperheight}{235.000mm} 
+\setlength{\pdfpagewidth}{\paperwidth} 
+\setlength{\pdfpageheight}{\paperheight}
+\\typearea[10mm]{14}
+\definecolor{TitleColor}{rgb}{0,0,0}
+\definecolor{InnerLinkColor}{rgb}{0,0,0}
+\setcounter{secnumdepth}{0}
+\makeatletter
+\\fancypagestyle{normal}{%
+\\fancyhf{}%
+\\fancyfoot[LE,RO]{{\em\\thepage}}%
+\\fancyhead[RO]{{\em\\nouppercase{\\rightmark}}}%
+\\fancyhead[LE]{{\em\\nouppercase{\leftmark}}}%
+\\renewcommand{\headrulewidth}{0pt}%
+\\renewcommand{\\footrulewidth}{0pt}%
+}
+\\fancypagestyle{plain}{%
+\\fancyhf{}%
+\\fancyfoot[LE,RO]{{\em\\thepage}}%
+\\fancyhead[LE,RO]{} % here's the change
+\\renewcommand{\headrulewidth}{0pt}%
+\\renewcommand{\\footrulewidth}{0pt}%
+}
+\makeatother
+\clubpenalty = 10000
+\widowpenalty = 10000
+'''
 
 # Documents to append as an appendix to all manuals.
 #latex_appendices = []
@@ -209,7 +242,6 @@ latex_show_pagerefs = True
 #latex_domain_indices = True
 
 latex_elements = {
-    'papersize':'a4',
     'pointsize':'12pt',
     'docclass':'scrreprt'
     }
@@ -227,10 +259,10 @@ man_pages = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'Plone-Benutzerhandbuch 4.2'
+epub_title = u'Plone-Benutzerhandbuch 4.3'
 epub_author = u'Jan Ulrich Hasecke'
 epub_publisher = u'Jan Ulrich Hasecke'
-epub_copyright = u'2011, Jan Ulrich Hasecke, Creative Commons Lizenz 2.0 BY-NC-SA'
+epub_copyright = u'2010 – %s, Jan Ulrich Hasecke, Creative Commons Lizenz 2.0 BY-NC-SA' % thisyear
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
@@ -241,7 +273,7 @@ epub_scheme = 'URL'
 
 # The unique identifier of the text. This can be a ISBN number
 # or the project homepage.
-epub_identifier = 'http://www.hasecke.com/plone-benutzerhandbuch/4.2'
+epub_identifier = 'http://www.hasecke.com/plone-benutzerhandbuch/4.3'
 
 # A unique identification for the text.
 #epub_uid = ''

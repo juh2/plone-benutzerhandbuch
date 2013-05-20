@@ -117,38 +117,6 @@ dem Sie eine der möglichen Darstellungen auswählen können (siehe Abbildung
 Bearbeiten
 ==========
 
-.. index:: Sofortbearbeitung
-
-Wenn Sie einen Artikel verändern möchten, gibt es zwei Möglichkeiten: die
-Sofortbearbeitung und die Bearbeitungsansicht.
-
-Sofortbearbeitung
------------------
-
-Sofortbearbeitung bedeutet, dass Sie zum Beispiel den Titel, die Beschreibung
-oder den Haupttext in der Anzeige des Artikels mit der Maus anklicken und
-direkt bearbeiten können. (siehe Abbildung :ref:`fig_sofortbearbeitung`).
-
-.. _fig_sofortbearbeitung:
-
-.. figure:: ../images/titel-bearbeiten-ajax.*
-
-   Die Sofortbearbeitung einer Seite
-
-Sie erkennen Felder, die Sie sofort aus der Anzeige heraus bearbeiten können,
-an einem dünnen Rahmen, der auftaucht, sobald Sie mit dem Mauszeiger über das
-Feld fahren. Der Mauszeiger verwandelt sich dabei in einen Cursor. Nach einem
-Mausklick auf ein solches Feld springt die Anzeige an dieser Stelle in den
-Bearbeitungsmodus und unterhalb des angewählten Elements erscheinen
-Schaltflächen zum Speichern und Abbrechen der Bearbeitung.  Bei der
-Sofortbearbeitung des Haupttextes stehen Ihnen die Funktionen des Texteditors
-zu Verfügung. 
-
-Die Sofortbearbeitung muss nach der Installation einer Plone-Website vom
-Administrator in den Bearbeitungseinstellungen eingeschaltet werden (siehe
-Kapitel :ref:`sec_konfiguration-bearbeiten`). Sie steht nur zur Verfügung,
-wenn Sie im Browser Javascript eingeschaltet haben.
-
 .. index:: Bearbeitungsansicht
 
 .. _sec_bearbeitungsansicht:
