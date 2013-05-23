@@ -28,7 +28,7 @@ erscheint sowohl in der Anzeige der Nachricht (siehe Abbildung
 :ref:`fig_nachricht`) als auch in der Nachrichtenübersicht neben dem
 Beschreibungstext des Artikels (siehe Abbildung
 :ref:`fig_nachrichtenuebersicht`). Das Titelbild hat nichts mit den Bildern zu
-tun, die Sie beispielsweise mit Kupu in den Nachrichtentext einbetten können.
+tun, die Sie mit dem Texteditor in den Nachrichtentext einbetten.
 
 .. _fig_nachricht:
 

@@ -16,11 +16,12 @@ Abbildung :ref:`fig_dokument`).
 
    Anzeige einer Seite
 
-Wenn Sie Ihren Text eingeben, verwenden Sie in der Regel Texteditor TinyMCE
-(siehe Kapitel :ref:`sec_tinymce`). Er macht es Ihnen sehr einfach, Ihren Text
-auszuzeichnen, und zeigt ihn so an, wie er später in der Seitenanzeige aussehen
-wird. Daneben bietet Ihnen der Editor die wichtigsten Funktionen üblicher
-Textverarbeitungsprogramme, um Ihren Text zu formatieren.
+Wenn Sie Ihren Text eingeben, verwenden Sie in der Regel den Texteditor TinyMCE
+(siehe Kapitel :ref:`sec_tinymce`). Er macht es Ihnen einfach, Ihren Text
+einzugeben und zu formatieren. Er zeigt Ihren Text schon bei der Eingabe so an,
+wie er später in der Website aussehen wird. Daneben bietet Ihnen der
+Editor die wichtigsten Funktionen üblicher Textverarbeitungsprogramme, um Ihren
+Text zu formatieren.
 
 Falls Sie den Texteditor nicht benutzen, finden Sie stattdessen ein einfaches
 Formularfeld vor, in das sie unformatierten Text, HTML-Code oder Text in einer
@@ -83,9 +84,9 @@ ihnen die Möglichkeit, normalen Text wie Moderationsnotizen zu verwenden. Der
 Inhalt einer Seite in Plone kann dann sowohl im normalen Anzeigemodus gelesen
 als auch als Präsentation vorgeführt werden. 
 
-Technisch liegt der Präsentation das :term:`S5` zugrunde. Dies ist ein System,
-mit dem man Präsentationen erzeugen kann, die im Browser angezeigt werden. Mehr
-über S5 erfahren Sie unter http://yatil.de/s5/ oder
+Technisch liegt der Präsentation das System :term:`S5` zugrunde.
+Damit kann man Präsentationen erzeugen, die im Browser angezeigt
+werden. Mehr über S5 erfahren Sie unter http://yatil.de/s5/ oder
 http://meyerweb.com/eric/tools/s5/.
 
 Inhaltsverzeichnis

@@ -27,15 +27,14 @@ Dort finden Sie eine Übersicht vor, in der ganz oben die aktuelle
 Arbeitskopie und darunter die vorherigen Versionen aufgelistet
 sind. Ganz unten steht die erste Version. 
 
-Jede Version wird mit einem grauen Rahmen versehen dargestellt. In der
-breiten grauen Kopfleiste jeder Version finden Sie Informationen über
-den Benutzer, der die Version abgespeichert hat, und Datum und Uhrzeit
-der Speicherung. Rechts daneben befindet sich jeweils eine
-Schaltfläche mit der Bezeichnung :guilabel:`Durch diese Version
-ersetzen`. Wenn Sie die Schaltfläche betätigen, wird die aktuelle
-Version durch diese Version ersetzt. Das bedeutet, dass die Besucher
-Ihrer Website nun eine frühere Version zu Gesicht bekommen. Die alte
-Arbeitskopie wird unter einer neuen Versionsnummer gespeichert.
+Jede Version wird in einem zarten grauen Rahmen mit breiter Kopfleiste
+dargestellt. In der Kopfleiste jeder Version finden Sie Informationen über den
+Benutzer, der die Version abgespeichert hat, sowie Datum und Uhrzeit der
+Speicherung. Rechts daneben befindet sich jeweils eine Schaltfläche mit der
+Bezeichnung :guilabel:`Durch diese Version ersetzen`. Wenn Sie die Schaltfläche
+betätigen, wird die aktuelle Version durch diese Version ersetzt. Das bedeutet,
+dass die Besucher Ihrer Website nun eine frühere Version zu Gesicht bekommen.
+Die alte Arbeitskopie wird unter einer neuen Versionsnummer gespeichert.
 
 In der Zeile unterhalb des grauen Balkens erscheint der Wortlaut der
 Änderungsnotiz sowie ein Verweis zur Anzeige dieser Version. Folgen

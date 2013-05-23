@@ -4,6 +4,8 @@
  Artikel
 =========
 
+.. todo:: Umformulieren
+
 Auf den ersten Blick ist eine Plone-Website einfach eine gewöhnliche Website.
 Ihre einzelnen Seiten enthalten sowohl redaktionelle Inhalte als auch eine
 Vielzahl von Funktionen, etwa ein Suchfeld oder einen Kalender.

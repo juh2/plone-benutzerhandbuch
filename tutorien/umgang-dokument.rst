@@ -16,8 +16,10 @@ Ordner mit dem Namen »Veranstaltungen« eingerichtet hat. Diesen Ordner sollten
 Sie nutzen, wenn Sie die nachfolgenden Tutorien durcharbeiten. Sie erreichen
 ihn über einen Eintrag in der Hauptnavigation.
 
-* Begeben Sie sich in den Ordner »Veranstaltungen«, indem Sie dem Verweis
-  :guilabel:`Veranstaltungen` in der Hauptnavigation folgen.
+.. topic:: Aufgabe
+   
+   * Begeben Sie sich in den Ordner »Veranstaltungen«, indem Sie dem Verweis
+     :guilabel:`Veranstaltungen` in der Hauptnavigation folgen.
 
 Sie werden bemerken, dass die Anzeigeansicht des Ordners eine grüne Leiste
 besitzt, auf dem sich Reiter und Ausklappmenüs befinden. Über die Reiter im
@@ -33,7 +35,9 @@ Ordners. Im rechten Bereich der Leiste befinden sich die Ausklappmenüs :guilabe
 
    Menü zum Anlegen von Artikeln
 
-* Klappen Sie das Menü »Hinzufügen« auf und wählen Sie »Seite« aus.
+.. topic:: Aufgabe
+
+   * Klappen Sie das Menü »Hinzufügen« auf und wählen Sie »Seite« aus.
 
 
 Falls Sie Javascript ausgeschaltet haben, sind alle Ausklappmenüs von Anfang an
@@ -98,20 +102,21 @@ werden müssen, an dem roten Quadrat rechts neben der Feldbezeichnung. Wenn Sie
 versuchen, ein Formular mit einem unausgefüllten Pflichtfeld zu speichern,
 erhalten Sie eine Fehlermeldung.
 
-Beobachten Sie, wie Plone auf unausgefüllte Pflichtfelder reagiert, bevor Sie
-Ihrer Seite einen neuen Titel geben:
+.. topic:: Aufgabe 
+
+   Beobachten Sie, wie Plone auf unausgefüllte Pflichtfelder reagiert, bevor Sie
+   Ihrer Seite einen neuen Titel geben:
+   
+   
+   * Wechseln Sie mit dem Cursor in das Feld »Zusammenfassung«, ohne einen
+     Titel eingetragen zu haben.
 
 
-* Wechseln Sie mit dem Cursor in das Feld »Zusammenfassung«, ohne einen
-  Titel eingetragen zu haben.
+   Das Formularfeld »Titel« wird rot hinterlegt und Sie werden daran
+   erinnert, einen Titel einzugeben.
 
-
-Das Formularfeld »Titel« wird rot hinterlegt und Sie werden daran
-erinnert, einen Titel einzugeben.
-
-
-* Betätigen Sie die Schaltfläche »Speichern« am Ende des Formulars, ohne
-  einen Titel einzugeben.
+   * Betätigen Sie die Schaltfläche »Speichern« am Ende des Formulars, ohne
+     einen Titel einzugeben.
 
 
 Plone hat die Seite nicht gespeichert, sondern zeigt das Bearbeitungsformular
@@ -125,20 +130,24 @@ es ausgefüllt werden muss (siehe Abbildung :ref:`fig_homepage-edit-no-title`).
    :width: 100%
 
    Fehlermeldung wegen unausgefüllten Pflichtfelds
+   
+   
+.. topic:: Aufgabe 
 
-
-* Tragen Sie nun einen Titel für Ihre Seite in das Titelfeld ein, etwa
-  »Das Kochseminar«.
-
-
+   * Tragen Sie nun einen Titel für Ihre Seite in das Titelfeld ein, etwa
+     »Das Kochseminar«.
+   
+   
 Das zweite Feld erlaubt die Eingabe einer Zusammenfassung des Inhalts.  Diese
 Zusammenfassung wird in automatisch erzeugten Übersichtslisten und als
 Einleitung des Textes verwendet.  Sie soll dem Leser die Entscheidung
 erleichtern, ob die Seite für ihn interessant ist oder nicht. Die Eingabe einer
 Zusammenfassung empfiehlt sich daher in den meisten Fällen.
 
-* Geben Sie in das Formularfeld »Zusammenfassung« einen kurzen
-  beschreibenden Text ein.
+.. topic:: Aufgabe 
+
+   * Geben Sie in das Formularfeld »Zusammenfassung« einen kurzen
+     beschreibenden Text ein.
 
 
 Haupttext
@@ -156,26 +165,25 @@ Abbildung :ref:`fig_homepage-edit-2`).
 
    TinyMCE im Bearbeitungsformular einer Seite
 
-Falls die Bearbeitungsleiste fehlt, haben Sie den Texteditor TinyMCE in Ihren
-persönlichen Einstellungen möglicherweise nicht ausgewählt, oder Sie haben
-Javascript deaktiviert. Siehe dazu das erste Tutorium :ref:`sec_tut-profil`.
 
 TinyMCE lässt Sie den eingegebenen Text formatieren. Sie können unter anderem
 Überschriften auszeichnen, Textstellen fett oder kursiv setzen und Absätze
 links- oder rechtsbündig ausrichten. Eine ausführliche Beschreibung von TinyMCE
 finden Sie in Abschnitt :ref:`sec_TinyMCE`.
 
-* Geben Sie etwas Text in das Formularfeld »Haupttext« ein.
-* Gehen Sie mit dem Cursor in eine Zeile, die zu einer Überschrift werden
-  soll und wählen Sie aus dem Auswahlmenü den Stil »Heading« aus.
-* Geben Sie etwas Text in einer neuen Zeile ein und markieren Sie mit Hilfe
-  des Listensymbols diese Zeile als Liste.
-* Beobachten Sie, wie neue Zeilen zu weiteren Listenpunkten werden, wenn Sie
-  die Eingabetaste betätigen.
-* Probieren Sie die anderen Formatierungen aus der Werkzeugleiste aus.
+.. topic:: Aufgabe
 
-Beachten Sie das der Text, den Sie eingeben, sofort im Stil der Website
-dargestellt wird. So erhalten Sie sofort einen Eindruck vom Ergebnis.
+   * Geben Sie etwas Text in das Formularfeld »Haupttext« ein.
+   * Gehen Sie mit dem Cursor in eine Zeile, die zu einer Überschrift werden
+     soll und wählen Sie aus dem Auswahlmenü den Stil »Heading« aus.
+   * Geben Sie etwas Text in einer neuen Zeile ein und markieren Sie mit Hilfe
+     des Listensymbols diese Zeile als Liste.
+   * Beobachten Sie, wie neue Zeilen zu weiteren Listenpunkten werden, wenn Sie
+     die Eingabetaste betätigen.
+   * Probieren Sie die anderen Formatierungen aus der Werkzeugleiste aus.
+   
+   Beachten Sie dass der Text, den Sie eingeben, sofort im Stil der Website
+   dargestellt wird. So erhalten Sie sofort einen Eindruck vom Ergebnis.
 
 Änderungsnotiz
 --------------
@@ -189,8 +197,10 @@ Eingaben sichern
 
 Sichern Sie Ihre Eingaben, wenn Sie mit ihnen zufrieden sind.
 
-* Betätigen Sie die Schaltfläche :guilabel:`Speichern` am Ende des
-  Formulars.
+.. topic:: Aufgabe
+
+   * Betätigen Sie die Schaltfläche :guilabel:`Speichern` am Ende des
+     Formulars.
 
 Akzeptiert Plone Ihre Änderungen, so zeigt es Ihnen die bearbeitete
 Seite an (siehe Abbildung :ref:`fig_homepage-edited`).
@@ -218,8 +228,10 @@ und korrigieren Sie Ihre Eingaben entsprechend.
 Die Seite als Teil der Website
 ------------------------------
 
-* Rufen Sie nun erneut den Ordner »Veranstaltungen« in der Hauptnavigation
-  auf. 
+.. topic:: Aufgabe
+
+   * Rufen Sie nun erneut den Ordner »Veranstaltungen« in der Hauptnavigation
+     auf. 
 
 In der Anzeige des Ordners erscheint ein neuer Eintrag für die Seite,
 die Sie gerade angelegt haben (siehe Abbildung :ref:`fig_homefolder+page`).
@@ -242,10 +254,14 @@ Plone sichert alte Versionen von Artikeln. Sie können auf diese älteren
 Versionen zugreifen. 
 
 Um diese Funktion ausprobieren zu können, müssen Sie zunächst die von Ihnen
-angelegte Seite verändern. Rufen Sie dazu erneut die Bearbeitungsansicht auf
-und ändern Sie den Titel beispielsweise in »Das Kochseminar – aktuelle
-Informationen«. Vermerken Sie als Änderungsnotiz, dass Sie den Titel geändert
-haben, und speichern Sie die Änderung.
+angelegte Seite verändern. 
+
+.. topic:: Aufgabe
+
+   Rufen Sie dazu erneut die Bearbeitungsansicht auf und ändern Sie den Titel
+   beispielsweise in »Das Kochseminar – aktuelle Informationen«. Vermerken Sie
+   als Änderungsnotiz, dass Sie den Titel geändert haben, und speichern Sie die
+   Änderung.
 
 Direkt unterhalb der Überschrift finden Sie in der Anzeige der Seite die so
 genannte Verfasserzeile. Sie enthält den Namen des Verfassers, das Datum der
@@ -260,8 +276,10 @@ Abbildung :ref:`fig_link-historie`).
 
    Die Verfasserzeile
 
-* Rufen Sie die Historie über den Verweis in der Verfasserzeile auf (siehe
-  Abbildung :ref:`fig_historie-tutorium`).
+.. topic:: Aufgabe 
+
+   * Rufen Sie die Historie über den Verweis in der Verfasserzeile auf (siehe
+     Abbildung :ref:`fig_historie-tutorium`).
 
 .. _fig_historie-tutorium:
 
@@ -277,8 +295,10 @@ Version ist die jeweils aktuelle. Sie können die aktuelle Version mit einer
 ältere Version wieder zur aktuellen machen, indem Sie die Schaltfläche
 :guilabel:`Durch diese Version ersetzen` betätigen. 
 
-* Lassen Sie sich einen Vergleich zwischen den beiden Versionen anzeigen, indem
-  Sie dem Verweis :guilabel:`Vergleichen` zwischen den beiden Versionen folgen. 
+.. topic:: Aufgabe 
+
+   * Lassen Sie sich einen Vergleich zwischen den beiden Versionen anzeigen, indem
+     Sie dem Verweis :guilabel:`Vergleichen` zwischen den beiden Versionen folgen. 
 
 Sie sehen nun eine Ansicht, auf der die Versionen verglichen werden (siehe
 Abbildung :ref:`fig_historie-tutorium-vergleich`). Die Ansicht enthält
@@ -294,23 +314,25 @@ daneben steht der neue Titel.
 
    Vergleich zwischen zwei Versionen
 
-* Gehen Sie anschließend zurück in die normale Anzeige der Seite, indem Sie in
-  der grünen Leiste den Reiter :guilabel:`Anzeigen` anklicken.
+.. topic:: Aufgabe
 
-* Rufen Sie erneut die Historie auf.
-
-* Betätigen Sie nun die Schaltfläche :guilabel:`Durch diese Version ersetzen`.
-  Sofort wird die Seite mit dem alten Titel angezeigt.
-
-* Schauen Sie in der Historie nach, was passiert ist. Sie sehen nun ganz oben
-  den Eintrag »Zurückgekehrt zu Version 0« Das heißt die Ursprungsversion
-  (mit der Nummer 0) wurde zur aktuellen Version. Darunter werden die anderen
-  beiden Versionen angezeigt. 
-
-Machen Sie sich mit der Arbeitsweise der Historie vertraut, indem Sie an der
-Seite weitere Änderungen vornehmen und die Historie aufrufen, um die Änderungen
-anzeigen zu lassen. Denken Sie dabei daran, in den Änderungsnotizen zu
-vermerken, was sie geändert haben oder warum sie etwas geändert haben.   
+   * Gehen Sie anschließend zurück in die normale Anzeige der Seite, indem Sie in
+     der grünen Leiste den Reiter :guilabel:`Anzeigen` anklicken.
+   
+   * Rufen Sie erneut die Historie auf.
+   
+   * Betätigen Sie nun die Schaltfläche :guilabel:`Durch diese Version ersetzen`.
+     Sofort wird die Seite mit dem alten Titel angezeigt.
+   
+   * Schauen Sie in der Historie nach, was passiert ist. Sie sehen nun ganz oben
+     den Eintrag »Zurückgekehrt zu Version 0« Das heißt die Ursprungsversion
+     (mit der Nummer 0) wurde zur aktuellen Version. Darunter werden die anderen
+     beiden Versionen angezeigt. 
+   
+   Machen Sie sich mit der Arbeitsweise der Historie vertraut, indem Sie an der
+   Seite weitere Änderungen vornehmen und die Historie aufrufen, um die Änderungen
+   anzeigen zu lassen. Denken Sie dabei daran, in den Änderungsnotizen zu
+   vermerken, was sie geändert haben oder warum sie etwas geändert haben.   
 
 Seite löschen
 =============
@@ -318,11 +340,13 @@ Seite löschen
 Nicht mehr benötigte Artikel können Sie von der Website entfernen. Löschen Sie
 nun die Seite, die Sie gerade angelegt haben.
 
-* Rufen Sie die Anzeigeansicht der Seite auf. 
+.. topic:: Aufgabe
 
-* Öffnen Sie das Menü »Aktionen« und wählen Sie den Eintrag »Löschen«
-  aus (siehe Abbildung :ref:`fig_aktionen-loeschen`).
-
+   * Rufen Sie die Anzeigeansicht der Seite auf. 
+   
+   * Öffnen Sie das Menü »Aktionen« und wählen Sie den Eintrag »Löschen«
+     aus (siehe Abbildung :ref:`fig_aktionen-loeschen`).
+   
 .. _fig_aktionen-loeschen:
 
 .. figure::
@@ -330,7 +354,7 @@ nun die Seite, die Sie gerade angelegt haben.
    :width: 100%
 
    Aktionsmenü
-
+   
 Plone fragt vorsichtshalber nach, ob Sie die Seite wirklich löschen wollen,
 bevor die Aktion ausgeführt wird, um ein versehentliches Löschen von Artikeln
 zu vermeiden. Sie können die Löschaktion an diesem Punkt abbrechen oder
@@ -340,7 +364,10 @@ Ordner aufgerufen, in dem sich die Seite befand.
 Andere Artikeltypen
 ===================
 
-Sie haben in diesem Tutorium den Artikeltyp »Seite« kennengelernt. Probieren
-Sie nun andere Artikeltypen aus. Legen Sie beispielsweise einen Termin oder
-eine Nachricht an, bearbeiten und löschen Sie diese Artikel, und verfolgen Sie
-die Änderungen in der Historie.
+Sie haben in diesem Tutorium den Artikeltyp »Seite« kennengelernt. 
+
+.. topic:: Aufgabe 
+
+   Probieren Sie nun andere Artikeltypen aus. Legen Sie beispielsweise einen
+   Termin oder eine Nachricht an, bearbeiten und löschen Sie diese Artikel, und
+   verfolgen Sie die Änderungen in der Historie.

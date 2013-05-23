@@ -45,6 +45,7 @@ Symbole.
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
 
    gemeinsamkeiten.rst
 

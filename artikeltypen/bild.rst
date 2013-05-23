@@ -11,7 +11,7 @@ Der Artikeltyp »Bild« dient dazu, Fotos und :term:`Bitmap-Grafiken
 mit Metadaten zu versehen. Die Bilder können als Illustration in den Haupttext
 anderer Artikel eingebunden werden. Eine Ausnahme bilden die Titelbilder von
 Nachrichten, die in der Bearbeitungsansicht der Nachricht direkt hochgeladen
-werden müssen. Diese Bilder können auch nicht in anderen Artikeln verwendet
+werden müssen. Diese Bilder können nicht in anderen Artikeln verwendet
 werden.
 
 Die Anzeige eines Bildes besteht aus dem Bild zusammen mit dem
@@ -38,6 +38,37 @@ voller Größe...` zur Vollbilddarstellung.
 Die Bearbeitungsansicht eines Bildes enthält neben den allgemeinen
 Feldern wie Titel und Beschreibung ein Formularfeld, mit dem Sie eine
 Bilddatei von Ihrem Rechner hochladen können. 
+
+Plone speichert hochgeladene Bilder in diversen Größen, sodass Sie Bilder, die
+Sie in einen Text einfügen möchten, nicht selbst verkleinern müssen. Folgende
+Größen stehen in der Standardkonfiguration zur Verfügung:  
+
+* 768px (large)
+
+* 400px (preview)
+
+* 200px (mini)
+
+* 128px (thumb)
+
+* 64px (tile)
+
+* 32px (icon)
+
+* 16px (listing)
+
+Die Größe bezieht sich dabei immer auf die längere Seite des Bildes. Die
+einzelnen Bilder werden unter jeweils eigenen URLs abgelegt und können einzeln
+aufgerufen und angezeigt werden. Wenn ein Bild unter dem Namen :file:`bild`
+hochgeladen wurde, lauten die einzelnen URLs zum Beispiel folgendermaßen.  ::
+
+  http://localhost:8080/Plone/bild/image_large
+  http://localhost:8080/Plone/bild/image_preview
+  http://localhost:8080/Plone/bild/image_mini
+
+Das Originalbild ist unter :file:`image_view_fullscreen` erreichbar. ::
+
+  http://localhost:8080/Plone/bild/image_view_fullscreen
 
 .. index:: Bild bearbeiten 
 

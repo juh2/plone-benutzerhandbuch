@@ -4,14 +4,15 @@
  Artikel in der Website
 ========================
 
-Ein Artikel ist ein Objekt in einer Website. Er hat einen Platz in
-ihrer Ordnerstruktur und einen Kurznamen, der zum letzten Teil der URL
+Ein Artikel ist ein Objekt in einer Website. Er befindet sich in
+einem bestimmten Ordner und hat einen Kurznamen, der zum letzten Teil der URL
 wird, mit dem wir ihn im Browser aufrufen können. Eine solche URL
 könnte beispielsweise so aussehen: ::
 
     http://www.example.com/ordner/unterordner/artikel
 
-Daraus ergeben sich verschiedene einfache Verwaltungsaufgaben:
+Wer eine Website betreibt, muss sich mit der Verwaltung von Artikel
+beschäftigen. Artikel in einer Website zu verwalten, bedeutet konkret: 
 
 * Artikel hinzufügen und umbenennen
 * Artikel kopieren, verschieben und löschen
@@ -69,12 +70,12 @@ Sie zu einem Formular, das im nächsten Abschnitt beschrieben wird.
 Hinzufügbare Artikeltypen einschränken
 --------------------------------------
 
-Falls Sie sich in einem Ordner befinden, für den Sie Verwalter sind
-oder den Sie besitzen, enthält das Menü »Hinzufügen« den Eintrag
-»Einschränkungen...«. Er führt zu einem Formular, auf dem Sie zunächst
-zwei Einstellungen vornehmen können (siehe Abbildung
+Falls Sie sich in einem Ordner befinden, für den Sie Verwalter sind oder den
+Sie besitzen, enthält das Menü »Hinzufügen« den Eintrag »Einschränkungen...«.
+Er führt zu einem Formular mit einem Auswahlmenü (siehe Abbildung
 :ref:`fig_hinzufuegen-typen`).
 
+.. todo:: neuer Screenshot und Übersetzung nachziehen
 .. _fig_hinzufuegen-typen:
 
 .. figure:: ../images/hinzufuegen-typen-kurz.*
@@ -83,22 +84,20 @@ zwei Einstellungen vornehmen können (siehe Abbildung
    Grundeinstellungen für das Hinzufügen von Artikeln
 
 
-Erlaube das Hinzufügen der Standardartikeltypen
-  Es können alle Standardartikeltypen hinzugefügt werden. Beachten
-  Sie, dass auf Ihrer Website möglicherweise einige Artikeltypen
-  überhaupt nicht zur Verfügung stehen. Einstellungen für die gesamte
-  Website kann der Administrator im Konfigurationsmenü im Bereich
-  :guilabel:`Artikeltypen` vornehmen (siehe dazu Kapitel
-  :ref:`sec_konfiguration-artikeltypen`). 
+Einstellung des übergeordneten Ordners nutzen
+  Damit übernehmen Sie die Einstellungen, die für den Ordner gelten, in dem
+  sich der aktuelle Ordner befindet.
 
-Artikeltypen manuell festlegen 
-  Die erlaubten Artikeltypen werden für diesen Ordner einzeln
-  festgelegt.
+Voreinstellung der Website nutzen
+  Damit übernehmen Sie die Einstellung, die der Administrator der Website in
+  der zentralen Konfiguration im Bereich :guilabel:`Artikeltypen` vorgenommen
+  hat (siehe dazu Kapitel :ref:`sec_konfiguration-artikeltypen`). 
 
-Wenn Sie :guilabel:`Artikel manuell festlegen` auswählen, wird das
-Formular um zwei Listen von Artikeltypen erweitert (siehe Abbildung
-:ref:`fig_hinzufuegen-typen-lang`):
+Manuell festlegen 
+  Damit erweitern Sie das Formular und können die Artikeltypen selbst festlegen
+  (siehe Abbildung :ref:`fig_hinzufuegen-typen-lang`):
 
+.. todo:: Neuer Screenshot
 .. _fig_hinzufuegen-typen-lang:
 
 .. figure:: ../images/hinzufuegen-typen-lang.*
@@ -186,14 +185,16 @@ irgendwann ändern, oder Sie haben einen Grund, zwei Artikeln in einem
 Ordner den gleichen Titel zu geben. Deshalb greift Plone auf Kurznamen
 zurück.
 
-Kurznamen zu bearbeiten muss, sowohl für die Website als auch in Ihren
-persönlichen Einstellungen erlaubt sein (siehe Kapitel
-:ref:`sec_konfiguration-bearbeiten` und
-:ref:`sec_meine-einstellungen`). Ist dies der Fall finden Sie
-in der Bearbeitungsansicht der Artikel ganz oben über dem Titelfeld
-das Feld für den Kurznamen. So können Sie den Kurznamen eines neu
-hinzugefügten Artikels bestimmen, aber auch einen Artikel später
-umbenennen.
+Bei Anlegen eines neuen Artikels erzeugt Plone aus dem Titel, der eingegeben
+wird, automatisch einen Kurznamen. Viele Benutzer werden deshalb nie mit der
+Aufgabe konfrontiert sein, Kurznamen zu bearbeiten. 
+
+Um Kurznamen mit der Hand eingeben zu können, muss die Bearbeitung von
+Kurznamen sowohl für die Website als auch in Ihren persönlichen Einstellungen
+erlaubt sein (siehe Kapitel :ref:`sec_konfiguration-bearbeiten` und
+:ref:`sec_meine-einstellungen`). Ist dies der Fall finden Sie in der
+Bearbeitungsansicht der Artikel ganz oben über dem Titelfeld ein Feld, um den
+Kurznamen einzugeben oder zu verändern. 
 
 Wenn Sie Administrator sind oder in einem Ordner Artikel bearbeiten
 dürfen, enthält das Menü »Aktionen« (siehe Abbildung
@@ -246,10 +247,10 @@ Das bedeutet:
   automatisch auf die neue Adresse zeigen lässt. Verweise von anderen
   Websites funktionieren nach der Umbenennung jedoch nicht mehr. 
 
-Kurznamen vergibt Plone in der Voreinstellung automatisch, indem das
-System einen Namen, der sich vom Titel des Artikels ableitet, erzeugt.
-Dabei ersetzt Plone nicht erlaubte Zeichen und vermeidet doppelt
-vergebene Kurznamen im selben Ordner, indem es eine Zahl anhängt.
+In der Voreinstellung vergibt Plone automatisch einen Kurznamen, der sich vom
+Titel des Artikels ableitet.  Dabei ersetzt Plone nicht erlaubte Zeichen und
+vermeidet doppelt vergebene Kurznamen im selben Ordner, indem es eine Zahl
+anhängt.
 
 .. _sec_kopieren-verschieben-loeschen:
 
@@ -262,7 +263,7 @@ bietet folgende Tätigkeiten an (siehe Abbildung :ref:`fig_aktionen`):
 
 * Ausschneiden
 * Kopieren
-* Einfügen (gegebenenfalls)
+* Einfügen (falls möglich)
 * Löschen
 * Umbenennen (siehe Abschnitt :ref:`sec_kurzname`)
 

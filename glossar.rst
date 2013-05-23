@@ -306,5 +306,12 @@ Glossar
       beschreibt. Die Spezifizierung des Verhaltens erfolgt durch Dokumentation
       im Docstring des Interfaces sowie durch die Definition von Attributen und
       Invarianten. Interfaces bilden die Grundlage des komponentenbasierten
-      Programmierens.   
+      Programmierens.
+
+   Portlet 
+      Ein Portlet ist eine Komponente innerhalb der Benutzeroberfläche
+      einer Website, deren Inhalt ganz oder teilweise unabhängig von
+      den übrigen Informationen auf der jeweils angezeigten Website
+      erzeugt wird. Sie werden bei der Darstellung einer Webseite an
+      bestimmten Stellen eingeblendet.
        

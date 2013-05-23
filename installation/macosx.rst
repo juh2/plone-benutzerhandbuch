@@ -3,17 +3,20 @@ Installation unter Mac OS X
 
 Wenn Sie von plone.org die Disk-Image-Datei mit dem Installationspaket
 für Plone 4 heruntergeladen, aktiviert und gemountet haben, sehen Sie
-drei Objekte: das Installationsprogramm, eine README-Datei im
-HTML-Format und einen Order mit den Lizenzbestimmungen für alle
-Komponenten des Installationspakets.
+vier Objekte: das Installationsprogramm Plone-4.3.mpkg, eine
+README-Datei im HTML-Format, den Order ›Licenses‹ mit
+Lizenzbestimmungen für diverse Komponenten des Installationspakets und
+den Ordner ›Plone-docs‹, der unter anderem die Lizenzbestimmungen für
+Plone selbst enthält.
 
 .. figure::
    ../images/mac-installer-1.*
    :width: 60%
    :alt: Der Inhalt des gemounteten Diskimages: Unified Installer,
-   	 README und Lizenzen 
+   	 README, Lizenzen und andere Dokumente
 
-   Der Inhalt des gemounteten Diskimages: Unified Installer, README und Lizenzen 
+   Der Inhalt des gemounteten Diskimages: Unified Installer, README,
+   Lizenzen und andere Dokumente
 
 Starten Sie das Installationsprogramm mit einem Doppelklick auf das
 Anwendungs-Icon und folgen Sie den Anweisungen. Zunächst öffnet sich die
@@ -138,7 +141,8 @@ Nach erfolgreicher Installation wird automatisch die Datei
 :file:`/Applications/Plone/zinstance/README.html` in Ihrem Browser geöffnet. 
 Dort finden Sie Hinweise, wie Sie Plone starten und stoppen können. 
 
-Sie können in :program:`Terminal` mit folgendem Befehl starten und stoppen.::
+Sie können Plone in :program:`Terminal` mit folgendem Befehl starten
+und stoppen. ::
 
     /Applications/Plone/zinstance/bin/plonectl start
     /Applications/Plone/zinstance/bin/plonectl stop

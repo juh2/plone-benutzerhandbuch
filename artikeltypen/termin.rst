@@ -35,7 +35,7 @@ Terminankündigung
   Ausführliche Beschreibung der Veranstaltung 
 
 Teilnehmer
-  Liste der von Personen, die an der Verantstaltung teilnehmen
+  Liste von Personen, die an der Verantstaltung teilnehmen
 
 Webadresse des Termins
   Internetadresse mit weiteren Informationen

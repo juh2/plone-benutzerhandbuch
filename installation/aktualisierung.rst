@@ -7,14 +7,14 @@ Wenn eine neue Version von Plone herauskommt, stellt sich die Frage, ob man eine
 Vorbereitung
 ============
 
-.. warning:: Bevor Sie die hier beschriebenen Schritte durchführen, erstellen Sie bitte unbedingt ein Backup Ihrer Plone-Website. Es wird keine Gewähr für die Richtigkeit der hier beschriebenen Schritte gegeben. Sie nutzen die hier gegebenen Hinweise auf eigene Verantwortung.
+.. warning:: Bevor Sie die hier beschriebenen Schritte durchführen, erstellen Sie bitte unbedingt ein Backup Ihrer Plone-Website. Es wird keine Gewähr für die Richtigkeit der hier beschriebenen Schritte gegeben. Sie nutzen die folgenden Hinweise auf eigene Verantwortung.
 
 Aktuelle Version bestimmen
 --------------------------
 
 Öffnen Sie das Konfigurationsmenü Ihrer Plone-Website und schauen Sie nach, mit welcher Version Ihre Website zurzeit läuft (siehe dazu Kapitel :ref:`sec_konfiguration-menu`). Die im Konfigurationsmenü angegebene Plone-Version bezeichnen wir im Folgenden als Ausgangsversion und die neue Version als Zielversion. Durch einen Vergleich der Versionsnummern können Sie feststellen, ob es sich um einen kleineren (Minor) oder größeren (Major) Release-Schritt handelt. Wenn sich Ausgangs- und Zielversion nur an der dritten Stelle voneinander unterscheiden, handelt es sich um ein neues Minor-Release. Ein Beispiel wäre der Wechsel von 4.0.2 zu 4.0.3, der im Folgenden beschrieben wird.
 
-Eine größerer Release-Schritt ist der Wechsel von 4.0.2 zu 4.1.0. Und ein Upgrade auf eine komplett neue Version liegt vor, wenn Sie beispielsweise von 3.3.5 auf 4.0.3 aktualisieren möchten.
+Ein größerer Release-Schritt ist der Wechsel von 4.0.2 zu 4.1.0. Und ein Upgrade auf eine komplett neue Version liegt vor, wenn Sie beispielsweise von 3.3.5 auf 4.0.3 aktualisieren möchten.
 
 Der Wechsel von einer Minor-Release zur nächsten sollte bei einer Standard-Plone-Website ohne Probleme möglich sein. 
 
@@ -30,7 +30,7 @@ auch für Anpassungen, die Sie selbst vorgenommen haben, und Erweiterungen, die
 Sie selbst entwickelt haben. Auf der Website http://plone.org/products können
 Sie nach Erweiterungen für spezielle Plone-Versionen suchen.  
 
-Falls Sie für die von Ihnen genutzten Erweiterungen keine neuen Versionen finden, die mit der Zielversion Ihrer Plone-Instanz zusammenspielen, ist eine Aktualisierung nicht so ohne Weiteres möglich. Sie müssten entweder auf die Erweiterung verzichten – sie also vor der Aktualisierung deinstallieren – oder diese selbst so anpassen, dass sie mit der Zielversion von Plone zusammen funktioniert. Leider gab und gibt es Erweiterungen, die auch nach einer Deinstallation Spuren in Ihrer Instanz hinterlassen und eine einfache Aktualisierung verhindern. Deshalb sollten Sie jede Aktualisierung zunächst an einem Testsystem ausprobieren und niemals direkt ein Produktivsystem aktualisieren. Außerdem sollten Sie vor der Aktualisierung ein Backup Ihres Systems erstellen. Konsultieren Sie vor einer Aktualisierung den offiziellen Upgrade-Guide_ für Plone!
+Falls Sie für die von Ihnen genutzten Erweiterungen keine neuen Versionen finden, die mit der Zielversion Ihrer Plone-Instanz zusammenspielen, ist eine Aktualisierung nicht so ohne Weiteres möglich. Sie müssten entweder auf die Erweiterung verzichten – sie also vor der Aktualisierung deinstallieren – oder diese selbst so anpassen, dass sie mit der Zielversion von Plone zusammen funktioniert. Leider gab und gibt es Erweiterungen, die auch nach einer Deinstallation Spuren in Ihrer Instanz hinterlassen und eine einfache Aktualisierung verhindern. Deshalb sollten Sie jede Aktualisierung zunächst an einem Testsystem ausprobieren und niemals direkt ein Produktivsystem aktualisieren. Außerdem sollten Sie vorher ein Backup Ihres Systems erstellen. Konsultieren Sie in jedem Fall den offiziellen Upgrade-Guide_ für Plone!
 
 .. _Upgrade-Guide: http://plone.org/documentation/manual/upgrade-guide 
 
@@ -49,13 +49,14 @@ Stoppen Sie Ihre Plone-Instanz.
   #    http://dist.plone.org/release/4.0.2/versions.cfg
 
 In dem Abschnitt ``extends`` werden die Definitionen der Datei
-:file:`buildout.cfg` durch Definitionen aus den Dateien :file:`base.cfg` und
-:file:`versions.cfg` erweitert. In der Datei :file:`base.cfg` finden Sie
-Einstellungen, die über viele Versionen hinweg gleich bleiben. In der Datei
-:file:`versions.cfg` werden die Versionsnummern für die Python-Eggs festgelegt,
-die in der gewünschten Version genutzt werden. Diese Datei wird vom Installier
-mitgeliefert. Sie ist aber auch online über die angegebene und auskommentierte
-Webadresse erreichbar. 
+:file:`buildout.cfg` durch Definitionen aus den Dateien
+:file:`base.cfg` und :file:`versions.cfg` erweitert. In der Datei
+:file:`base.cfg` finden Sie Einstellungen, die über viele Versionen
+hinweg gleich bleiben. In der Datei :file:`versions.cfg` werden die
+Versionsnummern für die :term:`Python-Eggs <Egg>` festgelegt, die in
+der gewünschten Version genutzt werden. Diese Datei wird vom
+Installier mitgeliefert. Sie ist aber auch online über die angegebene
+und auskommentierte Webadresse erreichbar.
 
 Kommentieren Sie die Zeile mit der lokalen Datei :file:`versions.cfg` aus und entfernen Sie das Kommentarzeichen in der folgenden Zeile und ändern Sie die Versionsnummer. In unserem Beispiel wollen wir von 4.0.2 auf 4.0.3 aktualisieren. ::
 
@@ -104,7 +105,7 @@ Ganz oben finden Sie einen Link zu der Website, die aktualisiert werden soll. Da
 
 Darunter, im Bereich :guilabel:`Aktualisierung`, werden Sie noch einmal darauf hingewiesen, ein Backup Ihrer Plone-Website zu erstellen. Dies ist spätestens jetzt empfehlenswert. Bis zu diesem Punkt haben Sie noch keine Änderung an Ihrer Datenbank und damit an Ihrer laufenden Plone-Website vorgenommen. Sie könnten die Aktualisierung noch rückgängig machen, indem Sie in der Datei :file:`buildout.cfg` die Änderungen rückgängig machen und :program:`buildout` erneut aufrufen. Nach der Aktualisierung der Datenbank ist dies nicht mehr möglich. 
 
-Es wird angegeben, welche Konfiguration zurzeit aktiv ist, und welche Konfiguration als letzte zur Verfügung steht. Um zur letzten Konfiguration zu gelangen, sind :guilabel:`Aktualisierungsschritte` notwendig, die darunter aufgelistet sind. Bei einem Minor-Release wie in unserem Beispiel sind dies nur wenige, beim Wechsel auf eine neue Major-Release können es sehr viel mehr Aktualisierungsschritte sein. Es wird beschrieben, was in dem jeweiligen Schritt verändert wird. 
+Unterhalb der Warnung wird angegeben, welche Konfiguration zurzeit aktiv ist, und welche Konfiguration als letzte zur Verfügung steht. Um zur letzten Konfiguration zu gelangen, sind :guilabel:`Aktualisierungsschritte` notwendig, die darunter aufgelistet sind. Bei einem Minor-Release wie in unserem Beispiel sind dies nur wenige, beim Wechsel auf eine neue Major-Release können es sehr viel mehr Aktualisierungsschritte sein. Es wird beschrieben, was in dem jeweiligen Schritt verändert wird. 
 
 Wenn Sie Ihre Website aktualisieren wollen, betätigen Sie die Schaltfläche :guilabel:`Aktualisierung`. Es empfiehlt sich zunächst einen Probelauf zu machen, ohne die Datenbank zu verändern. Markieren Sie dazu das Kästchen :guilabel:`Probelauf` und klicken Sie auf :guilabel:`Aktualisierung`. 
 

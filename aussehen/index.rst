@@ -107,9 +107,11 @@ Jeder Schritt ist dabei ein Verweis auf einen dazwischen liegenden Ordner.
 Inhaltsbereich
 ==============
 
-Plone stellt Ihnen die Artikel Ihrer Website in verschiedenen
-:term:`Ansichten <Ansicht>` dar.  Diese Artikelansichten nehmen den
-Inhaltsbereich der Seiten ein.
+Im Inhaltsbereich werden die Artikel dargestellt, die den eigentlichen
+Inhalt der Website bilden. Plone stellt Artikel in verschiedenen
+:term:`Ansichten <Ansicht>` dar, je nachdem, ob sie betrachtet oder
+bearbeitet werden. Im Inhaltsbereich befinden sich also die diversen
+Ansichten eines Artikels, von denen im Folgenden häufig die Rede ist.
 
 Seitenspalten
 =============

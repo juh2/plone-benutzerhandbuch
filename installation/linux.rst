@@ -12,7 +12,7 @@ Wechseln Sie anschließend in den entstandenden Ordner. [#]_ ::
 
     cd Plone-4.3-UnifiedInstaller
 
-In der Datei :file:`README.txt`, die sich in dem Archiv befindet, finden Sie
+In der Datei :file:`README.txt`, die sich in dem Archiv befindet, stehen
 Informationen darüber, welche Optionen Ihnen bei der Installation von Plone zur
 Verfügung stehen. Diese sind kurzgefasst folgende:
 
@@ -25,7 +25,7 @@ Installation als root
 ---------------------
 
 Bei dieser Installationsart wird Plone im Pfad :file:`/usr/local/Plone`
-installiert. Außerdem wir ein Benutzer ›plone‹ mit eingeschränkten Rechten
+installiert. Außerdem wird ein Benutzer ›plone‹ mit eingeschränkten Rechten
 erzeugt, unter dem Zope laufen wird. Plone muss dann entweder mit
 :command:`sudo` oder als root gestartet werden.
 
@@ -123,9 +123,9 @@ http://localhost:8080 aufrufen.
    auf, um den Installer herunterzuladen.
 
 .. [#] Bitte beachten Sie, dass das Beispiel von der Version 4.3
-   ausgeht. Die Version 4.2 wird von der Plone Community laufend
+   ausgeht. Die Version 4.3 wird von der Plone Community laufend
    gepflegt. Es erscheinen kleinere Aktualisierungen, die die
-   Bezeichnung 4.2.X tragen, wobei X eine Zahl ist, die fortlaufend
-   erhöht wird. 4.3 ist die vierte Maintenance-Release nach
-   4.2. Konsultieren Sie plone.org, um die aktuelle Version
+   Bezeichnung 4.3.X tragen, wobei X eine Zahl ist, die fortlaufend
+   erhöht wird. 4.3.4 ist die vierte Maintenance-Release nach
+   4.3. Konsultieren Sie plone.org, um die aktuelle Version
    herunterzuladen.

@@ -33,13 +33,13 @@ werden.  Ordner haben dafür mehrere Vorlagen, aus denen Sie im Menü
 Kurzfassung
    Die Darstellungsform »Kurzfassung« (siehe Abbildung :ref:`fig_ordner`) zeigt
    den Titel, die Zusammenfassung und bei Nachrichten zusätzlich das Titelbild
-   an. Der Titel ist ein Verweis zum jeweiligen Artikel, zu dem auch der Link
-   :guilabel:`Mehr..` unterhalb der Zusammenfassung verweist.  
+   an. Der Titel ist ein Verweis zum jeweiligen Artikel. Der Link
+   :guilabel:`Mehr..` unterhalb der Zusammenfassung führt ebenfalls zum Artikel. 
 
 Tabelle
    In der Darstellungsform »Tabelle« wird der Inhalt des Ordners in einer
-   vierspaltigen Tabelle aufgelistet. Die vier Spalten zeigen den Titel, den
-   Autor, den Artikeltyp und das Datum der letzten Veränderung an. Der Titel
+   in der Grundkonfiguration vierspaltigen Tabelle aufgelistet. Die vier
+   Spalten zeigen den Titel, den Autor, den Artikeltyp und das Datum der letzten Veränderung an. Der Titel
    ist ein Verweis auf den jeweiligen Artikel. Der Name des Autors ein Verweis
    auf dessen persönliche Informationen.   
 
@@ -70,9 +70,9 @@ markieren können. In der Anzeigeansicht des Ordners erscheint nun keine
 Übersicht über seinen Inhalt, sondern der ausgewählte Artikel.
 
 Plone kann für Ordner RSS-Feeds erzeugen. Dieser Vorgang wird Syndizierung
-genannt. Jeder Ordner besitzt eine weitere Ansicht, in der Sie das
-Syndizierungsverhalten steuern können (siehe
-Kapitel :ref:`sec_syndizierung`).
+genannt. Je nach Konfiguration findet man bei Ordnern eine weitere Ansicht, in
+der Sie das Syndizierungsverhalten steuern können (siehe Kapitel
+:ref:`sec_syndizierung`).
 
 .. _sec_bearbeitungsansicht-ordner:
 

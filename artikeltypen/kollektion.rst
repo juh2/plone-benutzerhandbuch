@@ -12,21 +12,17 @@
 Oft möchte man Artikel, die sich in unterschiedlichen Ordnern einer Website
 befinden an einem Ort zusammenfassen. Dies kann beispielsweise eine
 Nachrichtenübersicht sein oder eine Liste aller Artikel, die sich einem
-bestimmten Thema widmen.  Da jeder Artikel sich aber nur an einem Platz in der
-Ordnerhierarchie der Website befinden kann, sind Ordner nicht geeignet, um
-Artikel unter verschiedenen Gesichtspunkten zu gruppieren.
+bestimmten Thema widmen. Diese Aufgabe wird in Plone mit Hilfe von Kollektionen gelöst.
 
-Stattdessen verwendet man Kollektionen, um beliebig viele verschiedene
-Übersichten zu erstellen. Kollektionen sind unabhängig von der Ordnerstruktur
-der Website, da es sich hierbei um die Auflistung von Artikeln handelt, die
-bestimmten Suchkriterien entsprechen.  Eine Kollektion ist das Ergebnis einer
-vorgefertigten Suche; Plone hält die Artikelauswahl anhand von Suchkriterien
-stets aktuell.
+Eine Kollektion sieht aus wie ein Ordner, ist aber eine gespeicherte
+Suchanfrage. Die Ergebnisse der Suche werden so aufgelistet, als ob sich die
+Artikel in einem gemeinsamen Ordner befinden.  Plone hält die Artikelauswahl
+anhand der einmal eingestellten Suchkriterien stets aktuell.
 
 Anzeige
 =======
 
-Nach außen verhalten sich Kollektionen wie Ordner. Sie kennen ebenso wie Ordner
+Nach außen verhalten sich Kollektionen wie Ordner. Wie bei Ordnern gibt es
 verschiedene Darstellungen für die Anzeigeansicht, aus denen Sie im
 Darstellungsmenü wählen können:
 
@@ -35,7 +31,6 @@ Darstellungsmenü wählen können:
 * Tabelle
 * Album
 * Liste
-* Kollektion
 
 Als Beispiel zeigt Abbildung :ref:`fig_kollektion` die Darstellung als Liste.
 
@@ -46,15 +41,8 @@ Als Beispiel zeigt Abbildung :ref:`fig_kollektion` die Darstellung als Liste.
    
    Darstellung einer Kollektion als Liste
 
-Die ersten fünf Darstellungsvarianten funktionieren so wie bei Ordnern. Die
-letzte Variante, die Darstellung als »Kollektion« ist in der
-Bearbeitungsansicht der Kollektion konfigurierbar. 
-
-Kollektionen haben neben den Reitern :guilabel:`Inhalte`,
-:guilabel:`Bearbeiten` und :guilabel:`Freigabe` einen weiteren Reiter mit Namen
-:guilabel:`Kriterien`.  Dahinter verbirgt sich das Formular, mit dem Sie die
-Kritieren festlegen, die darüber entscheiden, welche Artikel in der Kollektion
-aufgeführt werden.  
+Die Darstellungsvarianten funktionieren so wie bei Ordnern. Die tabellarische
+Darstellung ist in der Bearbeitungsansicht der Kollektion konfigurierbar. 
 
 Wie Ordner besitzen Kollektionen auch keinen eigenen redaktionellen Inhalt. 
 
@@ -79,34 +67,35 @@ eines Auswahlmenüs ein. Es stehen dort diverse Suchparameter zur
 Verfügung, die in drei Gruppe sortiert sind: datumsbezogene Kriterien,
 Textkriterien und Metadaten.
 
-Dates
-   * Creation date
-   * Effective date
-   * Event end date
-   * Event start date
-   * Expiration date
-   * Modification date
-Text
-   * Beschreibung
-   * Searchable text
-   * Tag
-   * Titel
+Daten
+   * Freigabedatum 
+   * Änderungsdatum 
+   * Erstellungsdatum 
+   * Ablaufdatum 
+   * Terminende 
+   * Terminanfang 
 Metadata
-   * Ersteller
+   * Kurzname (id)
+   * Artikeltyp 
    * Ort
-   * Review state
-   * Short name (id)
-   * Type
-
+   * Ersteller
+   * Status 
+Text
+   * Searchable text
+   * Stichwort 
+   * Beschreibung
+   * Titel
 Wenn Sie einen dieser Parameter auswählen, verändert sich die
 Darstellung der Anzeige. Es erscheinen zwei weitere Auswahlmenüs. Das
 erste kann eine logische Verknüpfung enthalten oder das
 Auswahlkriterium genauer eingrenzen Im zweiten neuen Auswahlmenü
 wählen Sie den gewünschten Wert aus. In dem Beispiel in
 Abb. :ref:`fig_kollektion-suchkriterium-type` wurde der Parameter
-»Type« (Artikeltyp) ausgewählt. Im zweiten Auswahlmenü befindet sich
-der logische Operator »Is« und im dritten Auswahlmenü erscheinen die
+»Artikeltyp« ausgewählt. Im zweiten Auswahlmenü befindet sich
+der logische Operator »Ist« und im dritten Auswahlmenü erscheinen die
 zur Verfügung stehenden Artikeltypen.
+
+.. todo:: Neuer Screenshot
 
 .. _fig_kollektion-suchkriterium-type:
 
@@ -118,7 +107,7 @@ zur Verfügung stehenden Artikeltypen.
 
 Sie können einen oder mehrere Artikeltypen auswählen, indem Sie in dem
 Auswahlkästchen einen Haken setzen. Im Beispiel wurde der Artikeltyp
-»Bild« ausgewählt, woraufhin sofort in der Vorschau die Treffer
+»Bild« ausgewählt, woraufhin in der Vorschau die Treffer
 angezeigt werden, die zu dem ausgewählten Suchkriterium passen (siehe
 Abb.: :ref:`fig_kollektion-vorschau`).
 
@@ -132,6 +121,9 @@ Abb.: :ref:`fig_kollektion-vorschau`).
 
 Es sind folgende Kombinationen möglich:
 
+.. todo:: Neue Tabelle als Bild einfügen
+
+
 .. _fig_kollektion-kriterien-tabelle:
 
 .. figure::
@@ -140,15 +132,14 @@ Es sind folgende Kombinationen möglich:
 
    Tabelle der Kombinationsmöglichkeiten
 
-Experimentieren Sie mit den Einstellmöglichkeiten. In der Vorschau
-sehen Sie das Ergebnis Ihrer Auswahl. Die Eingabemethode im dritten
-Auswahlmenü variiert. Die Eingabemöglichkeiten sind in Tabelle
+Experimentieren Sie mit den Einstellmöglichkeiten. In der Vorschau sehen Sie
+das Ergebnis Ihrer Auswahl. Die Eingabemöglichkeiten sind in Tabelle
 :ref:`fig_kollektion-kriterien-tabelle` aufgeführt. 
 
-days
+Tage
   Geben Sie die Anzahl der Tage als positive oder negative Zahl
-  ein. *Within last* **6** *days* führt zum gleichen Ergebnis wie
-  *Within next* **-6** *days*. 
+  ein. *Innerhalb der letzten* **6** *days* führt zum gleichen Ergebnis wie
+  *In den nächsten* **-6** *days*. 
 Datum
   Geben Sie ein Datum im Format TT/MM/YYYY ein. Sobald Sie in das
   Textfeld klicken, öffnet sich ein Datumsmenü, mit dem Sie das Datum
@@ -177,11 +168,13 @@ Textfeld
     halten. Wählen Sie eine der folgenden Schreibweisen:
 
     * ›..‹ für den Ordner, in dem sich die Kollektion befindet
-    * ›../..‹ für den Ordner über dem Ordner, in dem sich die
-    Kollektion befindet. Diese Zeichenkette lässt sich bis zum
-    Wurzelordner der Website verlängern, zum Beispiel: ›../../../‹
-    * ›../ordnername‹ für einen Ordner, der sich mit der Kollektion im
-    gleichen Ordner befindet.
+
+    * ›../..‹ für den Ordner über dem Ordner, in dem sich die Kollektion
+      befindet. Diese Zeichenkette lässt sich bis zum Wurzelordner der Website
+      verlängern, zum Beispiel: ›../../../‹
+
+    * ›../ordnername‹ für den Ordner ›ordnername‹, der sich mit der Kollektion
+      im gleichen Ordner befindet.
 
 
 Auswahlmenü
@@ -207,15 +200,15 @@ Wenn Sie mehrmals einen Suchparameter der gleichen Klasse, also zum
 Beispiel »Searchable Text«, hinzufügen, wirkt sich nur der letzte
 Parameter in der Reihe aus.
 
-Durch Betätigung des Links :guilabel:`Remove line` entfernen Sie das
+Durch Betätigung des Links :guilabel:`Entferne Zeile` entfernen Sie das
 Suchkriterium in der entsprechenden Zeile.
 
 Im letzten Abschnitt des Formulars bestimmen Sie die Reihenfolge, in
 der die zur Kollektion passenden Artikel angezeigt werden. Wählen Sie
-im Auswahlmenü :guilabel:`Sort on` eine Artikeleigenschaft, nach der
+im Auswahlmenü :guilabel:`Sortiere nach` eine Artikeleigenschaft, nach der
 sortiert werden soll. Die Sortierung erfolgt in der Regel
 aufsteigend. Wenn Sie eine absteigende Sortierung wünschen, setzen Sie
-das Häkchen bei :guilabel:`Reversed order`. 
+das Häkchen bei :guilabel:`Umgekehrte Reihenfolge`. 
 
 Weitere Bearbeitungsmöglichkeiten
 =================================
@@ -284,12 +277,12 @@ Sie in Kapitel :ref:`sec_portlets`.
 Hinzufügen eines Kollektionsportlets
 ------------------------------------
 
-Rufen Sie in dem Ordner, in dem Sie ein Kollektionsportlet hinzufügen
-möchten, die Portletverwaltung auf und wählen Sie im Auswahlmenü
-:guilabel:`Portlet hinzufügen` den Menüpunkt
-:guilabel:`Kollektionsportlet` aus. Sie gelangen dadurch in ein
-Formular (siehe Abbildung :ref:`fig_kollektionsportlet-hinzufuegen`), in dem Sie
-die notwendigen Einstellungen vornehmen können.
+Rufen Sie in dem Ordner, in dem Sie ein Kollektionsportlet hinzufügen möchten,
+die Portletverwaltung auf und wählen Sie im Auswahlmenü :guilabel:`Portlet
+hinzufügen` den Menüpunkt :guilabel:`Kollektionsportlet` aus. Sie gelangen
+dadurch in ein Formular (siehe Abbildung
+:ref:`fig_kollektionsportlet-hinzufuegen`), in dem Sie die notwendigen
+Einstellungen vornehmen können.
 
 .. _fig_kollektionsportlet-hinzufuegen:
 
@@ -334,7 +327,7 @@ Zielkollektion
        Ausgewählte Zielkollektion
 
     Wenn Sie in den Suchergebnissen nicht die gesuchte Kollektion
-    finden, können über die Schaltfläche :guilabel:`Übergeordneter
+    finden, können Sie über die Schaltfläche :guilabel:`Übergeordneter
     Artikel` in die Ebene darüber wechseln oder mit der Schaltfläche
     :guilabel:`Durchsuchen` in den Suchergebnissen nach weiteren
     Kollektionen suchen. In dem in Abbildung
@@ -362,15 +355,6 @@ Beschränkung
     Sie können die Zahl der angezeigten Artikel begrenzen. Tragen Sie
     hier die gewünschte Anzahl ein. 
 
-    Beachten Sie, dass die Anzahl der im Portlet angezeigten Artikel
-    auch durch die Option :guilabel:`Anzeige der Suchresultate auf
-    mehrere Seiten verteilen` in der Bearbeitungsansicht der
-    Kollektion beeinflusst wird. Die dort vorgenommene Einstellung
-    geht immer vor. Wurde die Zahl der Artikel beispielsweise auf fünf
-    begrenzt, können auch im Portlet nie mehr als fünf Artikel
-    angezeigt werden (vgl. dazu Kapitel
-    :ref:`sec_kollektion-bearbeiten`).
-
 Artikel zufällig auswählen
     Normalerweise werden die Artikel im Kollektionsportlet in der
     gleichen Reihenfolge aufgelistet wie in der Kollektion
@@ -382,7 +366,9 @@ Zeige "Weiter..."-Verweis
     ein Verweis zur Kollektion eingefügt. Dies ist vor allem dann
     sinnvoll, wenn das Portlet nur einige wenige Artikel auflistet.
 
-Daten zeigen
+Änderungsdatum zeigen
     Wenn unter dem Titel der aufgeführten Artikel das Datum der
     letzten Änderung erscheinen soll, aktivieren Sie diese Option. 
 
+.. todo:: Übersetzung nachziehen, dort steht Freigabedatum
+   https://dev.plone.org/ticket/13595

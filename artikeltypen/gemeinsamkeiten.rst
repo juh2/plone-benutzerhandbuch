@@ -22,7 +22,7 @@ zwischen den für Sie verfügbaren Ansichten eines Artikels wechseln.
 .. figure:: ../images/ansichten-reiter.*
    :width: 100%
 
-   Reiter auf der linken Seite für die Ansichten eines Artikels
+   Bearbeitungsleiste mit drei Reitern auf der linken Seite   
 
 
 Anzeige und Bearbeitungsansicht sind in ihren Grundzügen für alle Artikel
@@ -66,7 +66,7 @@ Abbildung :ref:`Aufbau der Anzeige eines Artikels <fig_gemeinsamkeiten-anzeige>`
 
 Die Verfasserzeile eines Artikels gibt an, wer den Artikel erstellt hat und
 wann er zuletzt verändert wurde. Sie enthält außerdem einen Verweis zur
-Historie des Artikels. Der Name des Erstellers ist ein Verweis zu seinem
+Historie des Artikels. Der Name des Erstellers verweist auf sein 
 Profil.  Beachten Sie, dass die Verfasserzeile nicht angibt, wer die letzte
 Änderung gemacht hat; dies erfahren Sie in der Historie. Die Verfasserzeile
 wird je nach Konfiguration der Website möglicherweise nur angemeldeten
@@ -150,11 +150,11 @@ Teilformulare gleichzeitig untereinander angezeigt.
 
    Auswahl eines Teilformulars der Bearbeitungsansicht
 
-Falls der Artikeltyp der Versionskontrolle unterworfen ist, finden Sie
-unter jedem Teilformular entweder ein Eingabefeld für eine
-Änderungsnotiz oder eine Checkbox mit der Bezeichnung
-:guilabel:`Speichere als neue Version` (siehe Abbildung
-:ref:`fig_manuelle-versionierung`).
+Falls der Artikeltyp der Versionskontrolle unterworfen ist, finden Sie unter
+jedem Teilformular entweder ein Eingabefeld für eine Änderungsnotiz oder eine
+Checkbox mit der Bezeichnung :guilabel:`Speichere als neue Version` (siehe
+Abbildung :ref:`fig_manuelle-versionierung`). Mehr Informationen dazu finden
+Sie in Abschnitt :ref:`sec_versionierung`.
 
 .. _fig_manuelle-versionierung:
 
@@ -218,10 +218,10 @@ Teilformular »Kategorisierung«
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Im Teilformular »Kategorisierung« (siehe Abbildung
-:ref:`fig_seite-bearbeiten-kategorisierung`) können Sie Artikel kategorisieren.
-Dabei versehen Sie jeden Artikel mit Informationen wie der Sprache, in der er
-verfasst ist, oder einer inhaltlichen Kategorie, in die er gehört. Solche
-Informationen werden als Metadaten bezeichnet (siehe Abschnitt
+:ref:`fig_seite-bearbeiten-kategorisierung`) können Sie Artikel
+verschlagworten.  Dabei versehen Sie jeden Artikel mit Informationen wie der
+Sprache, in der er verfasst ist, oder einer inhaltlichen Kategorie, in die er
+gehört. Solche Informationen werden als Metadaten bezeichnet (siehe Abschnitt
 :ref:`sec_exkurs-metadaten`). Um weitere Metadaten geht es in den
 Teilformularen »Datum« und »Urheber«.
 
@@ -239,9 +239,10 @@ Stichworte
  Auffinden oder Gruppieren inhaltlich verwandter Artikel.
 
  Wenn Ihre Website schon länger aktiv ist, wird es bereits eine Reihe von
- Stichwörtern geben, die im Feld :guilabel:`Bestehendes Stichwort auswählen` zur
- Auswahl angeboten werden. Redakteure haben die Möglichkeit, weitere Stichwörter
- im Feld :guilabel:`Neues Stichwort anlegen und benutzen` hinzuzufügen.
+ Stichworten geben, die im Feld :guilabel:`Bestehendes Stichwort auswählen`
+ zur Auswahl angeboten werden. Redakteure haben die Möglichkeit, weitere
+ Stichworte hinzuzufügen. Das erfolgt im Feld :guilabel:`Neues Stichwort
+ anlegen und benutzen`.
 
 .. _sec_teilf-kateg-2:
 
@@ -251,10 +252,11 @@ Verweise
  Anzeige eines Artikels unterhalb des Inhalts angezeigt.
 
  Das Teilformular »Kategorisierung« enthält eine Liste der eingetragenen
- Verweise. Darunter befindet sich eine Schaltfläche, mit der man neue Verweise
- hinzufügen kann. Wenn man sie betätigt, öffnet sich ein Fenster mit der
- Artikelliste des aktuellen Ordners, einem Verzeichnispfad und einem Suchfeld
- (siehe Abbildung :ref:`fig_verweise-artikel-suchen`).
+ Verweise, die am Anfang natürlich noch leer ist. Darunter befindet sich eine
+ Schaltfläche, mit der man neue Verweise hinzufügen kann. Wenn man sie
+ betätigt, öffnet sich ein Fenster mit der Artikelliste des aktuellen Ordners,
+ einem Verzeichnispfad und einem Suchfeld (siehe Abbildung
+ :ref:`fig_verweise-artikel-suchen`).
 
  .. _fig_verweise-artikel-suchen:
 
@@ -273,7 +275,7 @@ Verweise
 Ort
  Sie können hier den Artikel in Bezug zu einem geografischen Ort setzen. Einige
  Erweiterungen für Plone können diese Information auswerten, indem
- sie Orte beispielsweise auf einer Weltkarte markieren.
+ sie Orte beispielsweise auf einer Landkarte markieren.
 
 Sprache
  In diesem Menü können Sie die Sprache auswählen, in der der Artikel verfasst
@@ -319,8 +321,6 @@ Ablaufdatum
  .. figure::
     ../images/kalender-popup.* 
  
-    Der aufgeklappte Kalender zur Auswahl eines Datums
-
     Popup-Fenster zur Datumsauswahl
 
  Um ein früher eingegebenes Datum zu löschen, wählen Sie für das
@@ -371,7 +371,7 @@ Teilformular »Einstellungen«
 
 Welche Einstellungen Sie in diesem Teilformular vornehmen können, hängt vom
 Artikeltyp ab. Die Abbildung :ref:`fig_seite-bearbeiten-einstellungen` zeigt das
-Teilformular »Einstellungen« für eine Seite.
+Formular für eine Seite.
 
 .. _fig_seite-bearbeiten-einstellungen:
 
@@ -438,12 +438,12 @@ Titel und die Stichworte, mit denen ein Artikel verschlagwortet wurde. So
 können Suchmaschinen Ihre Inhalte besser katalogisieren und wiederfinden. 
 
 Damit Metadaten verschiedener Artikel vergleichbar sind, wurde der
-Dublin-Core-Standard entwickelt (siehe
-\url{http://dublincore.org/documents/dcmi-terms/}). Dieser Standard legt eine
-Anzahl von Angaben fest, die in den Metadaten für einen Artikel enthalten sein
-sollten. Er wird nicht nur im Content-Management angewandt, sondern
-erleichtert beispielsweise Bibliotheken den Austausch von Informationen über
-ihre Datenbestände.
+Dublin-Core-Standard_ entwickelt. Der Standard legt eine Anzahl von Angaben
+fest, die in den Metadaten für einen Artikel enthalten sein sollten. Er wird
+nicht nur im Content-Management angewandt, sondern erleichtert beispielsweise
+Bibliotheken den Austausch von Informationen über ihre Datenbestände.
+
+.. _Dublin-Core-Standard: http://dublincore.org/documents/dcmi-terms/
 
 Metadaten nach Dublin-Core-Standard umfassen derzeit 15 Basisangaben und eine
 größere Zahl zusätzlicher, feiner unterteilter Felder.  Die folgende Liste
@@ -471,19 +471,14 @@ Die Metadaten von Artikeln kommen in Plone an vielen Stellen zum Einsatz.
 
 .. _sec_nutz-von-metad-1:
 
-Erweiterte Suche
-~~~~~~~~~~~~~~~~
+Suche
+~~~~~
 
-Besonders nützlich sind Metadaten für die erweiterte Suche
-(siehe Abbildung :ref:`fig_suche`).
+Besonders nützlich sind Metadaten für die Suche (siehe Abbildung
+:ref:`fig_suche`). Dort können sie benutzt werden, um die Trefferliste
+einzuschränken oder zu sortieren. Sie erreichen sie, indem Sie die Schnellsuche
+benutzen.
 
-Sie erreichen sie, indem Sie die Schnellsuche benutzen.
-
-Einige der erweiterten Suchkriterien sind dazu da, Artikel anhand ihrer
-Metadaten zu finden. So kann man beispielsweise Stichwörter angeben oder das
-Beschreibungsfeld von Artikeln nach Begriffen durchsuchen. Außerdem kann man
-die Suche auf Artikel beschränken, die in einer bestimmten Zeitspanne
-hinzugefügt oder von einem bestimmten Autor verfasst wurden.
 
 .. _sec_nutz-von-metad-3:
 

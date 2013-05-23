@@ -21,8 +21,9 @@ Als angemeldeter Benutzer erhalten Sie auf bestimmte Artikel mehr
 Zugriffsrechte, sodass Sie beispielsweise weitere Ansichten eines Artikels zu
 sehen bekommen.
 
-Weiterhin gibt es eine Reihe von Portlets, die angemeldeten Benutzern
-vorbehalten sind und für sie personalisiert werden.
+Weiterhin gibt es eine Reihe von :term:`Portlets <Portlet>`, die
+angemeldeten Benutzern vorbehalten sind und für sie personalisiert
+werden.
 
 Auf der anderen Seite wird es durch die Unterscheidung der Benutzer
 und die Beachtung von Zugriffsrechten möglich, private Daten zu

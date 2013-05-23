@@ -17,6 +17,7 @@ Artikeln als Teil Ihrer Website umgehen:
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
 
    verwaltung.rst
    versionierung.rst

@@ -48,10 +48,11 @@ Sprache
     Benutzeroberfläche von Plone angezeigt werden soll. Voreingestellt ist
     ›Deutsch‹.
 
-Erweiterungen
-    In diesem Feld können Sie die verfügbaren Erweiterungen installieren. Hier
-    tauchen diejenigen Erweiterungen auf, die Sie installiert haben. Wie Sie
-    Erweiterungen installieren, erfahren Sie in Kapitel
+Erweiterungen 
+    In diesem Feld können Sie Erweiterungen für Ihre Plone-Website
+    auswählen. Es sind Erweiterungen aufgeführt, die über
+    :program:`buildout` installiert wurden. Wie Sie Erweiterungen
+    installieren, erfahren Sie in Kapitel
     :ref:`sec_konfiguration-erweiterungen`.
 
 Klicken Sie abschließend auf :menuselection:`Erzeuge Plone-Site`, um die
