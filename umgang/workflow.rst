@@ -10,7 +10,7 @@ Gegenteil: er soll nur Ihnen persönlich oder einer kleinen Gruppe
 zugänglich sein. Erst nach der Fertigstellung soll er durch Sie oder
 eine andere dazu berechtigte Person veröffentlicht werden.
 
-Ihre Website kann nämlich auch so konfiguriert sein, dass Sie einen
+Ihre Website kann so konfiguriert sein, dass Sie einen
 Artikel nicht unmittelbar selbst veröffentlichen können, sondern eine
 andere Person Ihren Artikel vor der Veröffentlichung begutachten
 muss. Wir bezeichnen eine solche Person im Folgenden als Redakteur.
@@ -45,7 +45,7 @@ dabei den Status an (siehe Tabelle :ref:`tab_status-farben`).
 
 .. _tab_status-farben:
 
-.. table:: Farbliche Kennzeichnung der Revisionsstatus
+.. table:: Farbliche Kennzeichnung des Revisionsstatus
 
    ======    =========================
    Farbe     Status
@@ -64,14 +64,20 @@ anzeigen.
 Statusänderung
 ==============
 
-Nicht jeder Übergang eines Artikels von einem Status in einen anderen
-ist sinnvoll. Der Arbeitsablauf gibt daher nicht nur die Status,
-sondern auch die möglichen Statusänderungen vor. Beispielsweise gibt
-es eine Statusänderung »veröffentlichen«, bei der ein Artikel vom
-Status »privat« in den Status »veröffentlicht« versetzt
-wird. Statuswechsel entsprechen den Tätigkeiten, die neben der
-eigentlichen inhaltlichen Bearbeitung von Artikeln die redaktionelle
-Arbeit ausmachen.
+Nicht jeder Übergang eines Artikels von einem Status in einen anderen ist
+sinnvoll. Der Arbeitsablauf gibt daher nicht nur die Status, sondern auch die
+möglichen Statusänderungen vor. Beispielsweise gibt es eine Statusänderung
+»veröffentlichen«, bei der ein Artikel vom Status »privat« in den Status
+»veröffentlicht« versetzt wird (siehe Abb.: :ref:`fig-status-statusaenderung`).
+Statuswechsel entsprechen den Tätigkeiten, die neben der eigentlichen
+inhaltlichen Bearbeitung von Artikeln die redaktionelle Arbeit ausmachen.
+
+.. _fig-status-statusaenderung:
+
+.. figure:: ../images/status-statusaenderung.*
+   :width: 70%
+   
+   Status und Statusänderung
 
 Der Arbeitsablauf regelt auch, unter welchen Bedingungen man eine
 Statusänderung vornehmen darf. So darf man beispielsweise einen

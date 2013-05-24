@@ -90,7 +90,7 @@ einem anderen Benutzer bearbeitet, dann erhalten Sie zusätzlich den
 Hinweis, dass der Artikel für die Bearbeitung gesperrt wurde (siehe
 Abbildung :ref:`fig_statusmeldung-arbeitskopie-gesperrt`).
 
-.. Screenshot enthält noch falsche Übersetzung
+.. todo:: Neuer Screenshot und Übersetzung geradeziehen
 
 .. _fig_statusmeldung-arbeitskopie-gesperrt:
 

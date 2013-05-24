@@ -67,7 +67,7 @@ Captchas
 --------
 
 Mit einem Captcha kann man verhindern, dass Kommentare von einem
-Skript eingetragen werden. Dabei muss der Benutzer ein verzerrt
+Skript eingetragen werden. Dabei muss der Benutzer eine verzerrt
 dargestellte Zeichenfolge in ein besonderes Feld eingeben. Die
 Zeichenfolgen können nur mit erheblichem Aufwand mit Hilfe von
 Computern erkannt werden. Sie bieten einen Schutz vor Spammern, sind
@@ -88,6 +88,7 @@ Kommentare im Artikel selbst moderieren
 Ein Redakteur kann Kommentare direkt im Artikel moderieren (siehe
 Abb. :ref:`fig_kommentare-freischalten`). 
 
+.. todo:: Neuer Screenshot wg. Übersetzung
 
 .. _fig_kommentare-freischalten:
 
@@ -101,7 +102,8 @@ Abb. :ref:`fig_kommentare-freischalten`).
 Noch nicht freigeschaltete Artikel erscheinen in gelber Schrift. Dem
 Moderator stehen zwei Schaltflächen zur Moderation zur Verfügung:
 :guilabel:`Löschen`, um den Kommentar zu löschen, und
-:guilabel:`Approve`, um ihn freizuschalten.
+:guilabel:`Veröffentlichen`, um ihn freizuschalten.
+
 
 .. warning::
    Beim Löschen werden Kommentare ohne Nachfrage entfernt.
@@ -163,13 +165,11 @@ der Moderator den Kommentar freigeben oder löschen.
 Löschen bereits freigeschalteter Kommentare
 ===========================================
 
-Als Administrator können Sie einzelne Kommentare oder auch ganze
-Diskussionsstränge löschen. Dafür besitzt jeder Kommentar neben der
-Schaltfläche :guilabel:`Antworten` eine, die mit :guilabel:`Löschen`
-beschriftet ist (siehe Abbildung
-:ref:`fig_kommentare-loeschen`). Löschen Sie einen Diskussionsbeitrag,
-auf den bereits geantwortet wurde, so werden auch alle Antworten auf
-ihn entfernt.
+Als Administrator können Sie bereits veröffentlichte Kommentare oder auch ganze
+Diskussionsstränge durch Betätigung der Schaltfläche :guilabel:`Löschen` wieder
+entfernen (siehe Abbildung :ref:`fig_kommentare-loeschen`). Löschen Sie einen
+Diskussionsbeitrag, auf den bereits geantwortet wurde, so werden auch alle
+Antworten auf ihn entfernt.
 
 .. _fig_kommentare-loeschen:
 

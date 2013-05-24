@@ -4,39 +4,41 @@
  Syndizierung
 ==============
 
-Syndizierung oder Syndikation bedeutet, dass veränderliche
-Informationen wie Schlagzeilen einer Nachrichtenagentur vielfach
-weiterverwendet werden, etwa auf anderen Websites oder in einem
-Nachrichtenticker auf Ihrem Rechner. So kann man aktuelle
-Veröffentlichungen auf einer Website verfolgen, ohne die Website
-selbst regelmäßig besuchen zu müssen.
+Syndizierung oder Syndikation bedeutet, dass Inhalte einer Website
+an anderer Stelle weiterverwendet werden, etwa auf anderen Websites oder in
+einem Nachrichtenticker auf Ihrem Rechner. So kann man aktuelle
+Veröffentlichungen auf einer Website verfolgen, ohne die Website selbst
+regelmäßig besuchen zu müssen.
 
 .. _sec_rss:
 
-RSS-Feeds und RSS-Portlet
-=========================
+Feed-Formate
+============
 
-Per Syndizierung zu verbreitende Informationen werden in
-maschinenlesbarer Form als sogenannter RSS-Feed zur Verfügung
-gestellt. RSS steht für »Rich Site Summary« oder »Really Simple
-Syndication«. Ein RSS-Feed ist einfach eine Textdatei, die unter einer
-bestimmten Internetadresse abrufbar ist. Diese Datei wird ständig
-erneuert, etwa wenn eine neue Nachricht hinzukommt. Andere Websites
-oder Programme auf Ihrem Rechner rufen sie in regelmäßigen Abständen
-ab.
+Per Syndizierung zu verbreitende Informationen werden in maschinenlesbarer Form
+als sogenannter Feed zur Verfügung gestellt. Es gibt verschiedene Formate, die
+dafür benutzt werden, zum Beispiel RSS 1.0 und RSS 2.0 sowie das Atom
+Syndication Format. RSS steht für »Rich Site Summary« oder »Really Simple
+Syndication«. Ein Feed ist eine Textdatei, die unter einer
+bestimmten Internetadresse abrufbar ist. Diese Datei wird ständig erneuert,
+etwa wenn eine neue Nachricht hinzukommt. Andere Websites oder Programme auf
+Ihrem Rechner rufen sie in regelmäßigen Abständen ab.
 
-Der RSS-Feed enthält eine begrenzte Anzahl von Artikeln
+Der Feed enthält eine begrenzte Anzahl von Artikeln
 in einem standardisierten Textformat. Das Programm, welches die Artikel
 verarbeiten will, kann die Datei zerlegen und zu jedem Artikel
 den Titel, die Zusammenfassung, eine Internetadresse und andere
 Angaben entnehmen. Diese Informationen werden dann beispielsweise in einer
 Artikelliste auf einer anderen Website angezeigt.
 
-Außerdem enthält ein RSS-Feed Metadaten wie Titel, Beschreibung,
-Internetadresse und vielleicht ein Logo. Man bezeichnet RSS-Feeds auch als
+Außerdem enthält ein Feed Metadaten wie Titel, Beschreibung,
+Internetadresse und vielleicht ein Logo. Man bezeichnet Feeds auch als
 Nachrichtenkanäle; ein Nachrichtenticker kann beispielsweise Nachrichten aus
 mehreren Kanälen gleichzeitig anzeigen und die Kanäle dabei dem Titel nach
 unterscheiden.
+
+RSS-Portlet
+===========
 
 In Plone gibt es ein Portlet, das die neuesten Artikel eines beliebigen
 RSS-Feeds aus dem Web anzeigt (siehe Abbildung :ref:`fig_portlet-rss`).
@@ -56,43 +58,59 @@ aller Artikel des Kanals. Die Internetadresse des RSS-Feeds, die Anzahl
 der im Portlet aufgelisteten Artikel und das Abrufintervall für den
 RSS-Feed können Sie in den Einstellungen des Portlets festlegen.
 
+Von Plone veröffentlichte Feeds
+===============================
 
-Von Plone veröffentlichte RSS-Feeds
-===================================
 
-Plone kann RSS-Feeds nicht nur abrufen und darstellen, sondern für Ordner,
-Kollektionen und Suchen auch eigene RSS-Feeds oder Kanäle veröffentlichen.
-Der RSS-Feed für einen Ordner listet die zuletzt geänderten Artikel im Ordner
+Plone kann Feeds nicht nur abrufen und darstellen, sondern für Ordner,
+Kollektionen und Suchen auch eigene Feeds veröffentlichen.
+Der Feed für einen Ordner listet die zuletzt geänderten Artikel im Ordner
 auf, Feeds für Kollektionen und Suchen enthalten die jeweils zuerst
 aufgeführten passenden Artikel oder Suchergebnisse. So könnten Sie
-beispielsweise auf Ihrem Rechner in einem Nachrichtenticker einen RSS-Feed
+beispielsweise auf Ihrem Rechner in einem Nachrichtenticker einen Feed
 Ihrer Website abonnieren, der Sie über Änderungen und neue Artikel auf der
-Website informiert.
+Website informiert. 
 
-RSS-Feeds von Kollektionen
---------------------------
+Plone erzeugt Feeds in den Formaten RSS 1.0, RSS 2.0, Atom sowie im
+iTunes-Format. 
 
-Plone erzeugt für jede Kollektion automatisch einen RSS-Feed. Er ist
-erreichbar, indem Sie an die Internetadresse der Kollektion den Pfad
-:code:`/RSS` anhängen. 
+Feeds von Kollektionen
+----------------------
+
+
+Plone erzeugt für jede Kollektion automatisch die einzelnen Feeds. Der Feed im
+Format RSS 1.0 ist erreichbar, indem Sie an die Internetadresse der Kollektion
+den Pfad :code:`/RSS` anhängen. Den RSS-2.0-Feed erreichen Sie unter
+:code:`/rss.xml` und den Atom-Feed unter :code:`/atom.xml`. 
 
 Die Internetadresse der Kollektion, die neue Nachrichten in einer
 Plone-Site auflistet, lautet bei einer Standardinstallation::
 
    http://localhost:8080/Plone/news/aggregator
 
-Den RSS-Feed dieser Kollektion erreichen Sie folglich durch die
+Den RSS-1.0-Feed dieser Kollektion erreichen Sie folglich über die
 Internetadresse:: 
 
    http://localhost:8080/Plone/news/aggregator/RSS
 
+Den Feed im Format RSS 2.0 erreichen Sie unter ::
+
+   http://localhost:8080/Plone/news/aggregator/rss.xml
+
+Und den Atom-Feed finden Sie unter ::
+
+   http://localhost:8080/Plone/news/aggregator/atom.xml
+
 RSS-Feeds von Ordnern
 ---------------------
 
-Von einem Ordner werden in einer Standardinstallation keine RSS-Feeds
-erzeugt. Sie können aber die Syndizierung für einen Ordner aktivieren,
-indem Sie an die Internetadresse des Ordners den Pfad
-:code:`/synPropertiesForm` anhängen.
+Von einem Ordner werden in einer Standardinstallation keine RSS-Feeds erzeugt.
+Sie können aber die Syndizierung für einen Ordner aktivieren, indem Sie in die
+Ansicht :guilabel:`Syndizierung` wechseln und die Syndizierung einschalten
+(siehe Abb.: :ref:`fig_syndizierung-einschalten`). Der Reiter ist in der
+Voreinstellung nicht sichtbar. Sie können zu dem Formular aber auch gelangen,
+wenn Sie an die Internetadresse des Ordners den Pfad :code:`/synPropertiesForm`
+anhängen.
 
 Um die Syndizierung für den Ordner::
 
@@ -103,17 +121,20 @@ einzuschalten, geben Sie in der Adresszeile Ihres Browsers den Pfad::
    http://localhost:8080/Plone/veranstaltungen/synPropertiesForm
 
 ein. Sie werden dann zur Artikelansicht »Syndizierung« geleitet (siehe
-Abb: :ref:`fig_syndizierung-einschalten`).
+Abb.: :ref:`fig_syndizierung-einschalten`).
+
+.. todo:: Neuer Screenshot
 
 .. _fig_syndizierung-einschalten:
 
 .. figure::
    ../images/syndizierung-einschalten.*
    :width: 100%
-   :alt: Die Artikelansicht Syndizierung mit dem Button »Syndizierung
-   	 erlauben«
+   :alt: Die Artikelansicht Syndizierung mit Konfigurationsmöglichkeiten«
 
    Artikelansicht Syndizierung
+
+.. todo:: Neu formulieren, da anders in 4.3 
 
 Durch Betätigung des Schalters :guilabel:`Syndizierung erlauben`
 schalten Sie die Syndizierung für den Ordner ein. Die Anzeige wechselt
