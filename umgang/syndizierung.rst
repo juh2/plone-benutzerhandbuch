@@ -107,8 +107,8 @@ RSS-Feeds von Ordnern
 Von einem Ordner werden in einer Standardinstallation keine RSS-Feeds erzeugt.
 Sie können aber die Syndizierung für einen Ordner aktivieren, indem Sie in die
 Ansicht :guilabel:`Syndizierung` wechseln und die Syndizierung einschalten
-(siehe Abb.: :ref:`fig_syndizierung-einschalten`). Der Reiter ist in der
-Voreinstellung nicht sichtbar. Sie können zu dem Formular aber auch gelangen,
+(siehe Abb.: :ref:`fig_syndizierung`). Der Reiter ist in der
+Voreinstellung nicht sichtbar. Sie können aber jederzeit das Formular aufrufen, 
 wenn Sie an die Internetadresse des Ordners den Pfad :code:`/synPropertiesForm`
 anhängen.
 
@@ -121,25 +121,7 @@ einzuschalten, geben Sie in der Adresszeile Ihres Browsers den Pfad::
    http://localhost:8080/Plone/veranstaltungen/synPropertiesForm
 
 ein. Sie werden dann zur Artikelansicht »Syndizierung« geleitet (siehe
-Abb.: :ref:`fig_syndizierung-einschalten`).
-
-.. todo:: Neuer Screenshot
-
-.. _fig_syndizierung-einschalten:
-
-.. figure::
-   ../images/syndizierung-einschalten.*
-   :width: 100%
-   :alt: Die Artikelansicht Syndizierung mit Konfigurationsmöglichkeiten«
-
-   Artikelansicht Syndizierung
-
-.. todo:: Neu formulieren, da anders in 4.3 
-
-Durch Betätigung des Schalters :guilabel:`Syndizierung erlauben`
-schalten Sie die Syndizierung für den Ordner ein. Die Anzeige wechselt
-und Sie sehen die Standardeinstellungen für die Syndizierung, die Sie
-anpassen können (siehe Abb. :ref:`fig_syndizierung`).
+Abb.: :ref:`fig_syndizierung`).
 
 .. _fig_syndizierung:
 
@@ -149,35 +131,24 @@ anpassen können (siehe Abb. :ref:`fig_syndizierung`).
 
    Syndizierungsansicht
 
-Zuoberst finden Sie eine Schaltfläche, mit der Sie die Syndizierung
-für diesen Ordner jederzeit wieder ausschalten können. Beachten Sie,
-dass alle Syndizierungseinstellungen für diesen Ordner danach verloren
-sind.
+Das Formular ist folgendermaßen aufgebaut:
 
-Als nächstes folgen der Kanaltitel und die Kanalbeschreibung des RSS-Feeds.
-Dabei handelt es sich um den Titel und die Beschreibung des Ordners oder der
-Kollektion. Um diese Angaben zu ändern, müssen Sie den Titel und die
-Beschreibung des Ordners oder der Kollektion selbst anpassen.
+.. todo:: Übersetzung geradeziehen
 
-Mit den folgenden drei Angaben teilen Sie den Anzeigeprogrammen mit,
-wann und wie oft sie den Feed abrufen sollten. 
+Eingeschaltet
+  Ist hier ein Häkchen gesetzt, ist die Syndizierung des Ordners oder der
+  Kollektion aktiviert.
 
-Periode aktualisieren
-  Mit dem Auswahlmenü legen Sie fest, ob der RSS-Feed in einem
-  stündlichen, täglichen, wöchentlichen, monatlichen oder jährlichem
-  Rhythmus aktualisiert werden soll.
+Feed-Formate
+  Die Feed-Formate, die erzeugt werden, stehen im rechten Listenfeld. Weitere
+  erlaubte Formate befinden sich im linken Feld. Über die Schaltflächen mit den
+  Pfeilen können Sie die Einträge von einem Feld ins andere verschieben und so
+  Feed-Formate aus- oder einschalten. 
 
-Frequenz aktualisieren
-  Durch Eingabe einer Zahl legen Sie die Frequenz der Aktualisierung
-  fest. Wenn Sie oben beispielsweise :guilabel:`hourly` als stündlich
-  ausgewählt haben, können Sie durch Eingabe einer Zahl hier
-  festlegen, ob der RSS-Feed jede Stunde (1) oder nur jede zweite Stunde (2)
-  aktualisiert werden soll.
-
-Datenbasis aktualisieren
-  Der Rhythmus der Aktualisierung muss irgendwann starten. Mit den
-  Auswahlmenüs können Sie hierfür ein Datum und eine Uhrzeit
-  festlegen.
+Zeige Inhalt
+  Diese Option wirkt sich nur auf das Feedformat Atom aus. Falls die Option
+  aktiviert ist, überträgt der Atom-Feed den Inhalt eines Artikels. Wenn der
+  Inhalt fehlt, wird die Beschreibung genommen.
 
 Höchstgrenzen Artikel
   Mit der eingegebenen Zahl legen Sie fest, wie viele Artikel der
@@ -185,18 +156,15 @@ Höchstgrenzen Artikel
 
 
 Die RSS-Feeds von Ordnern und Kollektionen sind bei jedem Abruf auf
-dem jeweils aktuellen Stand. Wird ein Feed zu oft abgerufen, dann
-belastet das den Webserver unnötig; liest man einen Kanal jedoch zu
-selten, so verpasst man Meldungen. Welche Häufigkeit der
-Aktualisierung sinnvoll ist, hängt von Ihrem Anwendungsfall ab und
-muss für jeden Ordner und jede Kollektion einzeln abgeschätzt werden.
+dem jeweils aktuellen Stand. 
 
-Für den RSS-Feed eines Ordners oder einer Kollektion werden als Titel und
-Beschreibung die Metadaten des Ordners oder der Kollektion selbst verwendet.
-Jeder Hinweis auf einen Artikel enthält neben Titel, Beschreibung und der
-Internetadresse auch Angaben über den Herausgeber, den Autor, die
-Nutzungsbedingungen und das Veröffentlichungsdatum. Diese Informationen werden
-den Eigenschaften und Metadaten der Artikel entnommen.
+.. Für den Feed eines Ordners oder einer Kollektion werden als Titel und
+   Beschreibung die Metadaten des Ordners oder der Kollektion selbst verwendet.
+   Jeder Hinweis auf einen Artikel enthält neben Titel, Beschreibung und der
+   Internetadresse auch Angaben über den Herausgeber, den Autor, die
+   Nutzungsbedingungen und das Veröffentlichungsdatum. Diese Informationen
+   werden den Eigenschaften und Metadaten der Artikel entnommen.
+   https://dev.plone.org/ticket/13597
 
 In RSS-Feeds von Ordnern und Kollektionen ist der Inhalt von
 Unterordnern nicht enthalten: wenn für sie die Syndizierung aktiviert
@@ -207,13 +175,13 @@ wollen, erreichen Sie die Artikelansicht »Syndizierung«, indem Sie an
 die Internetadresse der Kollektion den Pfad :code:`/synPropertiesForm`
 anhängen. Die Ansicht ist genauso wie bei einem Ordner aufgebaut.
 
-RSS-Feed einer Suche
---------------------
+.. RSS-Feed einer Suche
+.. --------------------
 
-Wenn Sie eine Suche ausführen, so befindet sich am Anfang der Ergebnisliste
-der Verweis »Abonnieren Sie einen stets aktuellen RSS-Feed aus diesen
-Suchresultaten«. Dieser Verweis zeigt auf die Internetadresse eines
-RSS-Feeds, der stets die aktuelle Ergebnisliste zu dieser Suchanfrage
-enthält.
-
+.. Wenn Sie eine Suche ausführen, so befindet sich am Anfang der Ergebnisliste
+   der Verweis »Abonnieren Sie einen stets aktuellen RSS-Feed aus diesen
+   Suchresultaten«. Dieser Verweis zeigt auf die Internetadresse eines
+   RSS-Feeds, der stets die aktuelle Ergebnisliste zu dieser Suchanfrage
+   enthält.
+   https://dev.plone.org/ticket/13594
 

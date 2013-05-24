@@ -77,8 +77,7 @@ Teilformular »Wiki-Verhalten«
 
 .. _fig_konfiguration-wikiverhalten:
 
-.. figure::
-   ../images/konfiguration-wikiverhalten.*
+.. figure:: ../images/konfiguration-wikiverhalten.*
    :width: 80%
    :alt: Konfiguration des Wikiverhaltens
 

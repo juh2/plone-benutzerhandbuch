@@ -11,11 +11,12 @@ Informationen und Bedienelemente, die Plone Ihnen zur Verfügung stellt.
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
 
    ansichten.rst
    navigation.rst
    portlets.rst
    site-aktionen.rst
    tinymce.rst
-   kupu.rst
+..   kupu.rst
 

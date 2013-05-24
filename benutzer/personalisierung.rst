@@ -17,13 +17,7 @@ sowie die Möglichkeit, Webinhalte zu bearbeiten.
 Anmelden
 ========
 
-In diesem Buch gehen wir davon aus, dass Sie bereits auf Ihrer Website
-registriert sind und Ihre Zugangsdaten, also Benutzernamen und
-Passwort, kennen.  Falls Sie das Tutorium in Abschnitt
-:ref:`sec_tutorium-rundgang` nachvollzogen haben, haben Sie Ihr
-Passwort auch schon einmal geändert.
-
-Sie können sich auf verschiedene Weise an der Website anmelden. Zum
+Sie können sich auf verschiedene Weise in Plone anmelden. Zum
 einen gibt es das Anmeldeportlet, das Sie als anonymer Besucher auf
 jeder Seite der Website sehen. Zum anderen enthält das Benutzermenü
 für anonyme Besucher den Verweis »Anmelden«, der zu einem
@@ -93,9 +87,7 @@ Meine Einstellungen
   :ref:`sec_meine-einstellungen`).
 
 Abmelden 
-  Über diesen Verweis melden Sie sich von der Website ab und
-  haben keinen Zugriff mehr auf die erweiterten Funktionen für
-  angemeldete Benutzer.
+  Über diesen Verweis melden Sie sich von der Website ab.
 
 .. _sec_personliche-seite-1:
 
@@ -270,9 +262,8 @@ Sie nicht direkt anlegen. Sie müssen im Auswahlmenü »Klassisches
 Portlet« wählen und beim Bearbeiten angeben, wo Plone die Beschreibung
 des Portlets finden kann.
 
-Das einzige klassische Portlets, das Plone von Haus aus mitbringt, ist das
-Portlet für Ihre Lesezeichen. Fragen Sie Ihren Administrator, ob es auf Ihrer
-Website weitere klassische Portlets gibt.
+Fragen Sie Ihren Administrator, ob es auf Ihrer Website weitere klassische
+Portlets gibt.
 
 .. _fig_klassisches-portlet-hinzufuegen:
 
@@ -283,23 +274,22 @@ Website weitere klassische Portlets gibt.
 
    Hinzufügen des klassischen Portlets
 
-Abbildung :ref:`fig_klassisches-portlet-hinzufuegen`
-zeigt das Bearbeitungsformular für ein klassisches Portlet. Ein solches
-Portlet wird durch ein Makro in einer Vorlage beschrieben; Sie müssen die
-Namen der Vorlage und des Makros angeben. Da Portletmakros in der Regel den
-Namen »portlet« hatten, ist das Formularfeld bereits mit diesem Namen
-vorausgefüllt. Die Vorlage für das Lesezeichenportlet heißt
-``portlet_favorites``.
+Abbildung :ref:`fig_klassisches-portlet-hinzufuegen` zeigt das
+Bearbeitungsformular für ein klassisches Portlet. Ein solches Portlet wird
+durch ein Makro in einer Vorlage beschrieben; Sie müssen die Namen der Vorlage
+und des Makros angeben. Da Portletmakros in der Regel den Namen »portlet«
+hatten, ist das Formularfeld bereits mit diesem Namen vorausgefüllt. Die
+Vorlage für das aus früheren Versionen stammende Lesezeichenportlet heißt
+``portlet_favorites``. Es ist in Plone |version| nicht mehr verfügbar. 
 
 .. _sec_meine-einstellungen:
 
 Meine Einstellungen
 ===================
 
-Wenn Sie dem Verweis :guilabel:`Meine Einstellungen` im Benutzermenü
-folgen, gelangen Sie auf das Formular »Meine Einstellungen«, auf dem
-Sie eine persönliche Konfiguration der Website vornehmen können (siehe
-Abbildung :ref:`fig_meine-einstellungen`).
+Wenn Sie dem Verweis :guilabel:`Meine Einstellungen` im Benutzermenü folgen,
+gelangen Sie auf ein Formular, auf dem Sie eine persönliche Konfiguration der
+Website vornehmen können (siehe Abbildung :ref:`fig_meine-einstellungen`).
 
 .. _fig_meine-einstellungen:
 
@@ -407,8 +397,8 @@ Vor- und Nachname
   Verfasser genannt.
 
 E-Mail
- Geben Sie eine gültige E-Mail-Adresse ein, unter der
-  Sie erreichbar sind. Dieses Feld müssen Sie ausfüllen.
+  Geben Sie eine gültige E-Mail-Adresse ein, unter der
+  Sie erreichbar sind. Dieses Feld muss ausgefüllt werden.
 
 Homepage
   Falls Sie eine eigene Website haben, so können Sie sie hier
@@ -449,10 +439,11 @@ sodass anonyme Besucher die Adresse nicht zu sehen bekommen. Die
 Nachrichten bestehen aus Betreff und Text. Wenn Sie selbst Ihre
 Profilseite betrachten, wird das Rückmeldeformular ausgeblendet.
 
-Die Liste Ihrer aktuellen Artikel ist nach Artikeltypen sortiert und
-enthält Titel und Änderungsdatum jedes aufgeführten Artikels. Darunter
-finden Sie einen Verweis zu einer Liste aller von Ihnen verfassten
-Artikel, beginnend mit dem neuesten.
+Unter der Überschrft »Aktuelle Artikel« finden Sie eine Liste von Artikeln, die
+Sie in jüngster Zeit erstellt haben. Die Liste ist nach Datum sortiert.
+Darunter finden Sie einen Verweis zur Suche. Wenn Sie dem Verweis folgen,
+gelangen Sie zu einer Seite mit Suchergebnissen, auf der alle Artikel
+aufgeführt sind, die Sie verfasst haben.
 
 
 .. _sec_mitgliedsordner:

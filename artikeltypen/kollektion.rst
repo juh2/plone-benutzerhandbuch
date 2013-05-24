@@ -85,6 +85,7 @@ Text
    * Stichwort 
    * Beschreibung
    * Titel
+
 Wenn Sie einen dieser Parameter auswählen, verändert sich die
 Darstellung der Anzeige. Es erscheinen zwei weitere Auswahlmenüs. Das
 erste kann eine logische Verknüpfung enthalten oder das

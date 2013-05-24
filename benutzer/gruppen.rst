@@ -12,11 +12,11 @@ Gruppen Mitglied einer anderen Gruppe sein, sodass eine verschachtelte
 Gruppenstruktur möglich ist.
 
 Da die in Kapitel :ref:`sec_funktionen` beschriebenen Funktionen auch
-Gruppen zugewiesen werden können, verfügt Plone über ein einzigartige
+Gruppen zugewiesen werden können, verfügt Plone über eine einzigartige
 Flexibilität und Benutzerfreundlichkeit im Zugriffs- und
 Rechtemanagement.
 
-Gruppen anzulegen und ihnen Benutzer zuzuordnen ist Aufgabe des
+Gruppen anzulegen und ihnen Benutzer zuzuordnen, ist Aufgabe des
 Administrators. Plone bringt zwei vordefinierte Gruppen mit:
 »Administratoren« und »Redakteure«. Zudem gibt es die Gruppe
 »Angemeldete Benutzer«, die immer die gerade an der Website

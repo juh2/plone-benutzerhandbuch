@@ -30,10 +30,8 @@ grünen Leiste auch mehrere Ausklappmenüs befinden (siehe Abbildung
 
    Reiter und Menüs am Beispiel eines Ordners
 
-Je nachdem wie viel Platz im Browser zur Verfügung steht, sind die
-Reiter und Ausklappmenüs entweder nebeneinander oder untereinander
-angeordnet. Die Reiter werden dabei entweder links oder oben
-platziert. 
+Je nachdem wie viel Platz im Browser zur Verfügung steht, sind die Reiter und
+Ausklappmenüs entweder nebeneinander oder versetzt untereinander angeordnet. 
 
 Jeder Reiter ist mit dem Namen der Ansicht beschriftet; der Reiter der
 angezeigten Ansicht ist optisch hervorgehoben: in der Abbildung ist

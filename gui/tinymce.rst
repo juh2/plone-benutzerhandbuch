@@ -4,14 +4,13 @@
 Der Texteditor TinyMCE
 ======================
 
-Ein Texteditor erleichtert Ihnen in Plone die Bearbeitung von
-Texten. Ohne HTML-Code schreiben zu müssen, können Sie mit seiner
-Hilfe können Sie Texte so eingeben und formatieren wie Sie es von
-Ihrer Textverarbeitung her gewohnt sind. Der Texteditor heißt
-TinyMCE. Mit seiner Hilfe können Sie Textstellen als Überschriften
-markieren, Auflistungen und Tabellen gestalten, Bilder einfügen und
-positionieren und Verweise auf andere Artikel in Plone oder Webseiten
-im Internet einfügen (siehe Abbildung :ref:`fig_tinymce-haupttext`).
+Ein Texteditor erleichtert Ihnen in Plone die Bearbeitung von Texten. Ohne
+HTML-Code schreiben zu müssen, können Sie mit seiner Hilfe Texte so eingeben
+und formatieren wie Sie es von Ihrer Textverarbeitung her gewohnt sind. Der
+Texteditor heißt TinyMCE. Sie können mit dem Editor Textstellen als
+Überschriften markieren, Auflistungen und Tabellen gestalten, Bilder einfügen
+und positionieren und Verweise einfügen (siehe Abbildung
+:ref:`fig_tinymce-haupttext`).
  
 .. _fig_tinymce-haupttext:
 
@@ -55,9 +54,13 @@ kann.
 Stilauswahl
 -----------
 
-Das Auswahlmenü :guilabel:`Stil…` enthält Stilvorgaben, die
-sicherstellen, dass überall auf der Website Texte einheitlich
-formatiert sind. 
+Das Auswahlmenü :guilabel:`Stil…` enthält Stilvorgaben, die die Formatierung
+von Text deutlich erleichtern. Sie können damit eine Textstelle zum Beispiel
+als Überschrift markieren, und Plone kümmert sich darum, die Stelle in der
+richtigen Schriftgröße und Schriftart darzustellen. Sie müssen also
+Schriftgröße und Schriftart nicht bei jeder Überschrift mit der Hand
+einstellen. Außerdem stellen Stilvorlagen sicher, dass überall auf der Website
+Texte einheitlich formatiert sind. 
 
 .. _fig_tinymce-stilauswahl:
 
@@ -107,11 +110,11 @@ Auswahl
    Verfügung stehen folgende Stile:
 
    (Stile entfernen)
-      Hiermit entfernen Sie jegliche Stile einer ausgewählten
+      Hiermit entfernen Sie alle Stile einer ausgewählten
       Textpassage. 
 
    Dezent
-      Bei diesem Stil wird der Text kleiner und grauer Farbe
+      Bei diesem Stil wird der Text kleiner und in grauer Farbe
       dargestellt. 
 
    Markiert
@@ -124,7 +127,7 @@ Tabellen
    zur Verfügung:
 
    Einfache Zelle
-      Stil für die normale Zellen
+      Stil für die normale Zellen, also keine Kopfzeile zur Spaltenüberschrift 
 
    Unsichtbarer Rahmen
       Die Zellen der Tabelle haben einen unsichtbaren Rahmen.
@@ -153,8 +156,8 @@ Drucken
    Stile in diesem Bereich wirken sich nur in der Druckausgabe aus. 
 
    Seitenumbruch
-      An der Stelle, wo dieser Stil eingefügt wird, wird beim
-      Ausdrucken die Seite umbrochen.
+      An der Stelle, wo dieser Stil eingefügt wird, erfolgt beim
+      Ausdrucken ein Seitenumbruch.
 
 Ihr Administrator kann Ihnen an dieser Stelle weitere Stilvorlagen für Absätze
 und Zeichen zur Verfügung stellen oder die Zahl der Stile eingrenzen.
@@ -212,15 +215,14 @@ modifizieren.
 .. image:: ../images/tinymce-tabelle.*
 
 Wenn Sie das Icon des Tabellenwerkzeugs anklicken, öffnet sich ein
-Popup-Fenster, in dem Sie die Eigenschaften der Tabelle festlegen
-können, die Sie einfügen möchten (siehe Abb.:
-:ref:`fig_tinymce-tabelle-einfuegen`)
+Popup-Fenster, in dem Sie die Eigenschaften der Tabelle festlegen können (siehe
+Abb.: :ref:`fig_tinymce-tabelle-einfuegen`)
 
 .. _fig_tinymce-tabelle-einfuegen:
 
 .. figure::
    ../images/tabelle-einfuegen.*
-   :width: 100%
+   :width: 50%
    :alt: Popup-Fenster zum Einfügen einer Tabelle
 
    Tabelle einfügen/bearbeiten
@@ -254,7 +256,7 @@ Abb. :ref:`fig_tabelle-einfuegen-erweitert`
 
 .. figure::
    ../images/tabelle-einfuegen-erweitert.*
-   :width: 100%
+   :width: 50%
    :alt: Das Untermenü »Erweitert«
 
    Untermenü »Erweitert«
@@ -287,7 +289,7 @@ Verfügung (siehe Abb. :ref:`fig_tinymce-tabellen`).
 
 .. figure::
    ../images/tinymce-tabellen.*
-   :width: 100%
+   :width: 50%
    :alt: Bedienungsliste für Tabellenbearbeitung
 
    Werkzeuge zur Tabellenbearbeitung
@@ -301,9 +303,8 @@ Eigenschaften der Zeile
 
   .. _fig_tabelle-eigenschaften-zeile-allgemein:
 
-  .. figure::
-     ../images/tabelle-eigenschaften-zeile-allgemein.*
-     :width: 100%
+  .. figure:: ../images/tabelle-eigenschaften-zeile-allgemein.*
+     :width: 50%
      :alt: Popup-Fenster, um Eigenschaften einer Tabellenzeile zu
   	   verändern
 
@@ -330,7 +331,7 @@ Eigenschaften der Zeile
 
   .. figure::
      ../images/tabelle-eigenschaften-zeile-erweitert.*
-     :width: 100%
+     :width: 50%
      :alt: Untermenü zur Gruppierung von Zeilen
 
      Untermenü »Erweitert« 
@@ -370,7 +371,7 @@ Spalte löschen
   sich der Cursor befindet.
 
 Verbundene Zellen trennen 
- Wenn sich der Cursor in einer Zelle befindet, die durch das
+  Wenn sich der Cursor in einer Zelle befindet, die durch das
   Verbinden von zwei oder mehreren Zellen entstanden ist, können Sie
   die verbundenen Zellen durch einen Klick auf dieses Symbol wieder
   auftrennen.
@@ -433,6 +434,17 @@ Textes den von TinyMCE erzeugte HTML-Code (siehe Abbildung
 Wenn das Häkchen bei :guilabel:`Automatischer Zeilenumbruch` gesetzt
 ist, werden die Textzeilen zur besseren Lesbarkeit innerhalb der
 Anzeige automatisch umbrochen.
+
+Sie können in dieser Ansicht direkt HTML-Code eingeben oder entfernen. Das ist
+insbesondere dann praktisch, wenn Sie über die Bedienungselemente des Editors
+nicht den gewünschten Effekt erzielen können oder sich der Editor fehlerhaft
+verhält. Bei einem fehlerhaften Verhalten finden Sie in dieser Ansicht oftmals
+die Ursache in Form eines leeren oder überflüssigen HTML-Tags, das über die
+sonstigen Bedienelemente von TinyMCE nicht zu löschen ist. Nutzen Sie die
+HTML-Ansicht nur, wenn Sie ausreichende HTML-Kenntnisse haben. Beachten Sie,
+dass Plone einige HTML-Tags sowie die meisten HTML-Attribute und CSS-Stile vor
+dem Speichern aus dem Seitencode entfernt (siehe dazu Abschnitt
+:ref:`sec_konfiguration-html-filter`).
 
 Über :guilabel:`Aktualisieren` können Sie die Änderungen
 übernehmen. Sie gelangen dadurch zurück zur formatierten Ansicht des
@@ -561,8 +573,10 @@ Details
       Bild über eine Beschreibung verfügt, wird diese eingefügt,
       ansonsten der Titel des Bildes.
 
-      Die Legende wird nicht automatisch verändert, wenn sich die
-      Beschreibung oder der Titel eines Bildes ändert. 
+   .. attention:: 
+     
+      Die Legende wird nicht automatisch verändert, wenn sich die Beschreibung
+      oder der Titel eines Bildes ändert. 
 
    Ausmaße
       Sie können Bilder in verschiedenen Größen in den Artikel
@@ -616,8 +630,8 @@ Der Name des Ankers erscheint hinter dem Symbol ›#‹.
 Die Stilvorlagen »Überschrift« und »Zwischenüberschrift« bewirken,
 dass an diesen Stellen automatisch Anker gesetzt werden.
 
-Wie Sie auf einen Anker verweisen, wird in Abschnitt
-:ref:`sec_tinymce-link-auf-anker` weiter unten erklärt. 
+Wie Sie auf einen Anker verweisen, wird weiter unten in Abschnitt
+:ref:`sec_tinymce-link-auf-anker` erklärt. 
 
 Verweise einfügen
 =================
@@ -684,7 +698,7 @@ Bibliothek
       einfügen können.
 
    Suchen
-      Mit Hilfe des Suchformulars können Sie nach Artikel auf der
+      Mit Hilfe des Suchformulars können Sie nach Artikeln auf der
       Website suchen.
 
 Verweis auf Artikel in der Website einfügen
@@ -704,12 +718,12 @@ Ordner wird daraufhin geöffnet und sein Inhalt angezeigt. Mit dem
 Verweis :guilabel:`Eine Ebene nach oben` gelangen Sie jeweils zurück
 in den darüber liegenden Ordner.
 
-Sie können einen Artikel als Verweisziel auswählen, in dem Sie ihn
+Sie können einen Artikel als Verweisziel auswählen, indem Sie ihn
 links neben dem angezeigten Titel markieren. In unserem Beispiel wurde
 die Nachricht »Kochseminar neu ins Programm aufgenommen« ausgewählt.
 
 In der rechten Spalte mit dem Namen :guilabel:`Details` werden der
-Titel der Artikel sowie die Beschreibung oder – bei Bildern – eine
+Titel des Artikels sowie die Beschreibung oder – bei Bildern – eine
 Vorschau angezeigt. 
 
 Betätigen Sie die Schaltfläche :guilabel:`Einfügen`, wenn Sie den
@@ -743,7 +757,7 @@ Formular, mit dem Sie externe Links setzen können (siehe Abbildung
    Verweis auf fremde Website einfügen
 
 Adresse
-   In des Textfeld geben Sie die Adresse der Website, auf die sie
+   In das Textfeld geben Sie die Adresse der Website ein, auf die sie
    verweisen möchten. Davor befindet sich ein Auswahlmenü, mit dem Sie
    das Protokoll auswählen können.
 
@@ -825,7 +839,7 @@ Anker
    versehen, sodass Sie diese auswählen können. Es werden aber auch
    diejenigen Anker aufgelistet, die Sie mit der Hand eingegeben haben
    (siehe dazu Abschnitt :ref:`sec_anker-setzen`). Wählen Sie einen
-   Anker aus, indem Sie in markieren und betätigen Sie die
+   Anker aus, indem Sie ihn markieren und betätigen Sie die
    Schaltfläche :guilabel:`Aktualisieren`. 
 
 Registerblatt »Erweitert«
@@ -862,6 +876,32 @@ Titel
 
 Speichern Sie Ihre Vorgaben, indem Sie die Schaltfläche
 :guilabel:`Aktualisieren` betätigen. 
+
+.. _sec_wiki-verweise:
+
+Wiki-Verweis hinzufügen
+-----------------------
+
+
+Wenn Ihre Website entsprechend konfiguriert ist, können Sie im Haupttext einer
+Seite, einer Nachricht und eines Termins neue Verweise wie in einem Wiki
+erzeugen. Setzen Sie dazu ein Wort oder eine Wortgruppe in doppelte runde oder
+eckige Klammern (siehe Abbildung :ref:`fig_bearbeiten-wiki`).
+
+.. todo:: Neuer Screenshot
+
+.. _fig_bearbeiten-wiki:
+
+.. figure:: ../images/bearbeiten-wiki.png
+   :width: 100%
+
+   Verweise einfügen wie in einem Wiki
+
+Sollte im gleichen Ordner bereits ein Artikel vorhanden sein, dessen Kurzname
+mit der eingeklammerten Wortgruppe übereinstimmt, wird der geklammerte Text
+nach dem Speichern zu einem gewöhnlichen Verweis auf diesen Artikel.
+Anderenfalls legt Plone einen Verweis an, über den ein neuer Artikel
+hinzugefügt werden kann (siehe Abschnitt :ref:`sec_hinzufugen-mit-wiki`).
 
 .. Bilder, Verweise, Anker und Tabellen
 .. ------------------------------------

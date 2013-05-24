@@ -81,7 +81,7 @@ Verwalten
   Änderungen an der Struktur und an grundlegenden Funktionen der Website.
 
 Sie bekommen in Plone nur die Funktionen zu Gesicht, die Sie selbst ausüben
-und in der Artikelansicht »Zugriff« delegieren dürfen.
+und in der Artikelansicht »Freigabe« delegieren dürfen.
 
 
 .. _sec_ansicht-freigabe:

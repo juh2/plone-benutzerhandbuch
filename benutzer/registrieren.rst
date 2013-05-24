@@ -81,10 +81,9 @@ Benutzername
   Anmelden statt des Benutzernamens die E-Mail-Adresse benutzt wird. 
 
 E-Mail
-  Geben Sie eine gültige E-Mail-Adresse ein. An diese Adresse
-  sendet Plone unter anderem eine Aktivierungs-E-Mail, wenn Sie Ihr Passwort
-  vergessen sollten. Je nach Konfiguration benötigen Sie die
-  E-Mail-Adresse auch bei der Anmeldung.
+  Geben Sie eine gültige E-Mail-Adresse ein. An diese Adresse sendet Plone
+  unter anderem die E-Mail, mit deren Hilfe man sein Passwort setzen kann. Je
+  nach Konfiguration benötigen Sie die E-Mail-Adresse auch bei der Anmeldung.
 
 Betätigen Sie nach der Eingabe die Schaltfläche :guilabel:`Registrieren`.
 
@@ -133,9 +132,9 @@ automatisch angemeldet (siehe Abbildung
 .. figure::
    ../images/anmeldebestaetigung.*
    :width: 80%
-   :alt: Anmeldebestätigung mit Hinweis auf das Benutzermenü
+   :alt: Anmeldebestätigung
 
-   Anmeldebestätigung mit Hinweis auf das Benutzermenü
+   Anmeldebestätigung
 
 .. _sec_passwort-vergessen:
 
@@ -151,7 +150,7 @@ Verweise führen Sie zu einem Formular (siehe Abbildung
 Benutzernamen oder Ihre E-Mail-Adresse eingeben und anschließend die
 Schaltfläche :guilabel:`E-Mail anfordern` betätigen müssen. Sie erhalten
 daraufhin eine E-Mail, die ähnlich aufgebaut ist wie die
-Aktivierungs-E-Mail. Auch sie enthält einen Verweis zu einer Seite,
+Aktivierungs-E-Mail. Sie enthält einen Verweis zu einer Seite,
 auf der Sie ein neues Passwort eingeben können.
 
 .. _fig_passwort-vergessen-formular:

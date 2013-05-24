@@ -39,11 +39,11 @@ enthält Verweise auf wichtige Stellen der Website.
    Hauptnavigation und Verzeichnispfad
 
 Plone bringt einige dieser Verweise bereits mit (siehe
-Tabelle :ref:`Einträge in Navigation <tab_hauptnavigation>`).
+Tabelle :ref:`tab_hauptnavigation`).
 
 .. _tab_hauptnavigation:
 
-.. table:: Die Elemente in der Hauptnavigation
+.. table:: Elemente der Hauptnavigation
 
    +-------------+---------------------------+----------------------------+
    | Titel       | Ziel                      | siehe Seite                |
@@ -282,7 +282,6 @@ Die Trefferliste ist zunächst nach Relevanz sortiert. Über den Link
 Erscheinungsdatum sortieren; über den Link :guilabel:`alphabetisch`
 sortieren Sie die Ergebnisse alphabetisch. 
 
-.. _sec_suchportlet:
 
 RSS-Feed der Ergebnisse abonnieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -294,6 +293,8 @@ Suchkritierien entsprechen. Der Feed wird aktualisiert, sobald ein
 neuer Artikel gefunden wird, der Ihren Suchkriterien entspricht. So
 können Sie sich sehr gezielt über neue Artikel auf der Website
 informieren.
+
+.. _sec_suchportlet:
 
 Suchportlet
 -----------

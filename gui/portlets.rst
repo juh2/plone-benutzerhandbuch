@@ -67,10 +67,9 @@ Statisches Portlet
 ==================
 
 Im Gegensatz zu den meisten anderen Portlets wird der Inhalt eines statischen
-Portlets nicht bei jeder Anzeige neu bestimmt. Stattdessen handelt es sich um
-einen frei formatierbaren Text, der bei der Konfiguration des Portlets
-bearbeitet und bei der Anzeige unverändert wiedergegeben wird (siehe
-Abbildung :ref:`fig_statisches-portlet`).
+Portlets nicht bei jeder Anzeige neu erzeugt. Sein Inhalt ist unveränderlich.
+Er wird bei der Konfiguration des Portlets eingegeben (siehe Abbildung
+:ref:`fig_statisches-portlet`).
 
 .. _fig_statisches-portlet:
 
@@ -79,8 +78,8 @@ Abbildung :ref:`fig_statisches-portlet`).
 
    Statisches Portlet
 
-Außerdem kann ein statisches Portlet einen Verweis auf weiterführende
-Informationen anzeigen.
+Außerdem können Kopf- und Fußzeile eines statischen Portlets auf weitere 
+Informationen verweisen 
 
 Nicht nur der Inhalt statischer Portlets ist frei wählbar, sondern
 auch ihre Gestaltung: Jedes statische Portlet hat einen eigenen Text
@@ -103,12 +102,11 @@ Portlets (siehe Abbildung :ref:`fig_statisches-portlet-hinzufuegen`)
 
    Hinzufügen des statischen Portlets
 
-* Kopfzeile
-* anzuzeigender Text (mit allen Bearbeitungsmöglichkeiten des Texteditors
-  Kupu)
-* Rahmen des Portlets verbergen?
+* Kopfzeile des Portlets
+* Text 
+* Rahmen des Portlets verbergen
 * Fußzeile des Portlets
-* Verweis auf weitere Informationen im Web
+* Verweis auf weitere Informationen 
 
 Ein statisches Portlet kann nur von einem Administrator hinzugefügt
 werden.
