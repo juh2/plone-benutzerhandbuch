@@ -63,8 +63,8 @@ Email-Benachrichtigungen für Moderatoren aktivieren
    Wenn diese Option aktiviert ist, erhält der Moderator eine E-Mail,
    wenn ein neuer Kommentar zu kontrollieren ist. Standardmäßig wird
    die E-Mail an die Adresse versendet, die in der E-Mail-Konfiguration
-   angegeben wurde. Es kann im Feld darunter eine alternative
-   Moderator E-Mail-Adresse angegeben werden.
+   angegeben wurde. Im Feld darunter kann eine alternative
+   E-Mail-Adresse angegeben werden.
 
 Moderator Email Address
    Hier kann eine E-Mail-Adresse angegeben werden, an die die

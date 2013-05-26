@@ -4,8 +4,22 @@
  Regeln
 ========
 
-Mit Regeln können in Plone automatisch ablaufende, ereignisgesteuerte Prozesse
-eingerichtet und konfiguriert werden. Eine Regel besteht dabei aus drei Elementen:
+Mit Regeln können in Plone automatisch ablaufende, *ereignisgesteuerte*
+Prozesse eingerichtet und konfiguriert werden. Ereignissteuerung bedeutet, dass
+bestimmte Befehle und Prozesse nicht von einem Benutzer der Website direkt
+ausgelöst werden, sondern durch ein Ereignis. Dabei ist es unerheblich, ob das
+Ereignis durch die Aktivität eines Benutzers ausgelöst wurde oder Ergebnis von
+automatisch ablaufenden Prozessen war. Was als Ereignis betrachtet wird, ist
+Definitionssache. In unserem Fall kann dies zum Beispiel das Hinzufügen eines
+neuen Artikels sein. Die Regeln in Plone legen fest,
+
+1. was als Ereignis gilt
+
+2. welche weiteren Bedingungen es gibt und
+
+3. welche Prozesse das Ereignis auslösen soll.
+
+Eine Regel besteht daher aus drei Elementen:
 
 1. dem auslösenden Ereignis
 
@@ -16,6 +30,8 @@ eingerichtet und konfiguriert werden. Eine Regel besteht dabei aus drei Elemente
 
 .. todo:: evtl. eine Grafik einbinden, um das zu erklären?
 
+.. todo:: Interface wurde überarbeitet.
+
 Die Konfiguration findet auf zwei Ebenen statt. 
 
 1. Die Formulierung der Regel erfolgt im Bereich :guilabel:`Regeln` der
@@ -25,11 +41,10 @@ Die Konfiguration findet auf zwei Ebenen statt.
 
 
 Im Bereich :guilabel:`Regeln` der Website-Konfiguration finden Sie
-zunächst die Option :guilabel:`Global aktivieren`, die in der
-Voreinstellung ausgewählt ist.  Damit stehen die formulierten Regeln
-auf der gesamten Website zur Verfügung. Möchte man grundsätzlich keine
+zunächst die Option :guilabel:`Deaktiviere global`, die in der
+Voreinstellung nicht ausgewählt ist. Möchte man grundsätzlich keine
 automatisch ablaufenden Prozesse einrichten, kann man die Option
-abwählen.
+anwählen.
 
 
 .. _fig_konfiguration-regeln:
@@ -42,7 +57,8 @@ abwählen.
 
 Im Bereich :guilabel:`Regeln` sind zunächst keine Regeln vorformuliert
 (siehe Abbildung :ref:`fig_konfiguration-regeln`). Die Liste »Regeln«
-ist leer.
+ist leer. Auf der Seite befindet sich nur der Button :guilabel:`Regel
+hinzufügen`. 
 
 Mit Hilfe des Auswahlmenüs :guilabel:`Zeige` ließe sich die Liste der
 Regeln filtern. Per Voreinstellung werden alle Regeln aufgeführt. Die

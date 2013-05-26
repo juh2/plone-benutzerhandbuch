@@ -17,24 +17,75 @@ Zuweisung von Funktionen an Benutzer und Gruppen
 Funktionen können zunächst einzelnen Benutzern zugewiesen werden. Man kann
 beispielsweise Benutzer A die Funktion »Ansehen« zuweisen und Benutzer B die
 Funktion »Bearbeiten«. Dadurch wäre Benutzer B in der Lage, einen Inhalt zu
-verändern, den Benutzer A lediglich ansehen kann.
+verändern, den Benutzer A lediglich ansehen kann (siehe Abb.: :ref:`fig_funktion-zuweisen-benutzer`).
 
- Zuweisung von Funktionen an GruppenDie Funktionen können auch Gruppen zu
+.. _fig_funktion-zuweisen-benutzer:
 
- gewiesen werden.In einem CMS mit vielen Benutzern wird die Zuordnung 
+.. figure:: 
+   ../images/funktion-zuweisen-benutzer.*
+   :width: 50%
+   :alt: Grafische Darstellung der Zuweisung
 
- von Funktionen zu einzelnen Benutzern schnell unübersichtlich. Daher kann man in Plone die Funktionen auch ganzen Gruppen zuweisen. Benutzer, die Mitglied einer Gruppe sind, können alle Funktionen ausüben, die der Gruppe zugewiesen wurden. Da Benutzer verschiedenen Gruppen angehören können, erhöht die Zuweisung von Funktionen an Gruppen die Flexibilität des Systems, ohne dass dabei der Überblick verloren geht.Verschachtelte GruppenIn 
+   Zuweisung an Benutzer
 
- Plone 4 können ganze Gruppen Mitglied einer Gruppe sein. Dadurch wird das Zugriffsmanagement noch flexibler.In Plone 4 können ganze Gruppen Mi
+Die Funktionen können auch Gruppen zugewiesen werden. In einem CMS mit vielen
+Benutzern wird die Zuordnung von Funktionen zu einzelnen Benutzern schnell
+unübersichtlich. Daher kann man in Plone die Funktionen auch ganzen Gruppen
+zuweisen. Benutzer, die Mitglied einer Gruppe sind, können alle Funktionen
+ausüben, die der Gruppe zugewiesen wurden. Da Benutzer verschiedenen Gruppen
+angehören können, erhöht die Zuweisung von Funktionen an Gruppen die
+Flexibilität des Systems, ohne dass dabei der Überblick verloren
+geht (siehe Abb.: :ref:`fig_funktion-zuweisen-gruppe`).
 
- tglied in einer Gruppe sein. Damit wird es möglich, Organisationshierarchien noch flexibler in Plone abzubilden. Es lassen sich Arbeitsbereiche und Zuständigkeiten für Abteilungen und ihre Unterabteilungen mit fein justierten Zugriffsrechten bilden. Spontan zusammengestellte Teams können wahlweise aus einzelnen Benutzern oder ganzen organisatorischen Einheiten gebildet werden.Globale und lokale Zuweisung v
- on FunktionenIn jedem Bereich der Website können die Funktionen indi
+.. _fig_funktion-zuweisen-gruppe:
 
- viduell zugewiesen werden. So kann beispielsweise die Gruppe A im Bereich A Inhalte bearbeiten, während Gruppe A diese nur ansehen kann. Im Bereich B kann dies genau umgekehrt sein. Für andere Benutzer können die Bereiche A und B komplett gesperrt werden.Die Zuweisung von Funktionen an Gruppen oder Benutzer
+.. figure::
+   ../images/funktion-zuweisen-gruppe.*
+   :width: 50%
+   :alt: Grafische Darstellung der Zuweisung
 
-  kann sowohl global, das heißt für die gesamte Website, erfolgen, als auch lokal für einzelne Bereiche. So ist es möglich, dass eine Gruppe bzw. ein Benutzer in verschiedenen Bereichen einer Website unterschiedliche Funktionen ausübt. Die Abbildung zeigt wie man die Zugriffsrechte für einzelne Inhalte oder Ordner über die Benutzeroberfläche von Plone bequem zuweisen kann.Die Zuweisung der Funktionen in einzelnen Bereichen der Website 
+   Zuweisung an Gruppe
+        
+In Plone können Gruppen Mitglied einer Gruppe sein (siehe Abb.:
+:ref:`fig_verschachtelte-gruppe`). Dadurch wird das Zugriffsmanagement noch
+flexibler und es wird möglich, Organisationshierarchien realistisch in Plone
+abzubilden. Es lassen sich Arbeitsbereiche und Zuständigkeiten für Abteilungen
+und ihre Unterabteilungen mit fein justierten Zugriffsrechten bilden. Spontan
+zusammengestellte Teams können wahlweise aus einzelnen Benutzern oder ganzen
+organisatorischen Einheiten gebildet werden.
 
-  erfolgt über das Menü ›Freigabe‹. Über dieses Menü kann der dazu Berechtigte einen bestimmten Bereich für andere Benutzer und Gruppen freigeben. Er kann ihnen erlauben, Inhalte hinzuzufügen, anzusehen, zu bearbeiten oder zu veröffentlichen.
+.. _fig_verschachtelte-gruppe:
+
+.. figure::
+   ../images/verschachtelte-gruppe.*
+   :width: 50%
+   :alt: Grafische Darstellung einer verschachtelten Gruppe
+
+   Verschachtelte Gruppen
+
+In der Benutzer- und Gruppenkonfiguration weisen Sie Funktionen global zu. Sie
+können die Funktionen aber auch ordnerweise zuweisen. So kann beispielsweise
+die Gruppe A im Ordner A Inhalte ansehen, während Gruppe B diese bearbeiten
+kann. Im Ordner B kann dies genau umgekehrt sein (siehe Abb.:
+:ref:`fig_funktion-ordnerweise-zuweisen`). Lesen Sie dazu Kapitel
+:ref:`sec_ansicht-freigabe`.
+
+.. _fig_funktion-ordnerweise-zuweisen:
+
+.. figure::
+   ../images/funktion-ordnerweise-zuweisen.*
+   :width: 50%
+   :alt: Grafische Darstellung der ordnerweisen Zuweisung
+
+   Funktionen ordnerweise zuweisen
+
+Die Zuweisung von Funktionen an Gruppen oder Benutzer kann also sowohl global,
+das heißt für die gesamte Website, erfolgen, als auch lokal für einzelne
+Bereiche. So ist es möglich, dass eine Gruppe bzw. ein Benutzer in
+verschiedenen Bereichen einer Website unterschiedliche Funktionen ausübt. Die
+Abbildung :ref:`fig_konfiguration-benutzer-gruppen-benutzeruebersicht` zeigt
+wie man die Zugriffsrechte global bequem zuweisen kann.
+
 Benutzerübersicht
 =================
 
@@ -79,11 +130,11 @@ Funktionen
 Passwort zurücksetzen
    Wenn Sie in der Spalte :guilabel:`Passwort zurücksetzen` ein
    Häkchen setzen und :guilabel:`Änderungen anwenden` klicken, erhält
-   er entsprechende Benutzer eine E-Mail mit einem Link zu einer
+   der entsprechende Benutzer eine E-Mail mit einem Link zu einer
    Seite, auf der er sein Passwort neu eingeben kann.
 
 Benutzer löschen
-   Wenn Sie in dieser Spalte einer Markierung setzen und
+   Wenn Sie in dieser Spalte eine Markierung setzen und
    :guilabel:`Änderungen anwenden` klicken, wird der Benutzer
    gelöscht.
 
@@ -109,8 +160,8 @@ Persönliche Einstellungen
 
 Gruppenmitgliedschaften
    Mit Hilfe dieses Formulars (Abbildung
-   :ref:`fig_konfiguration-benutzer-gruppen-gruppenmitgliedschaften`) kann der einzelne Benutzer Gruppen
-   zugeordnet werden. 
+   :ref:`fig_konfiguration-benutzer-gruppen-gruppenmitgliedschaften`) können
+   Sie einzelne Benutzer Gruppen zuordnen. 
 
    .. _fig_konfiguration-benutzer-gruppen-gruppenmitgliedschaften:
 
@@ -197,6 +248,9 @@ Authenticated Users (Virtual Group) (AuthenticatedUsers)
 Reviewers (Reviewers)
    Mitglieder dieser Gruppe können Artikel auf der Website veröffentlichen.
 
+Site Administrators (Site Administrators)
+   Diese Gruppe hat umfassende Verwaltungsrechte und kann auch auf den
+   Konfigurationsbereich :guilabel:`Wartung` zugreifen.  
 
 Einzelne Gruppe verwalten
 =========================
@@ -325,7 +379,7 @@ bestimmten Gruppe ist.
 .. _sec_konfiguration-benutzer-gruppen-benutzer-anlegen:
 
 Mit Hilfe des Formulars ›Gruppenseite‹ können Sie die Portlets
-definieren, die auf der persönlichen Seite von Mitgliedern der Seite
+definieren, die auf der persönlichen Seite von Mitgliedern der Gruppe 
 angezeigt werden sollen. Die Gruppenportlets werden zusätzlich zu den
 Portlets auf der persönlichen Seite angezeigt, die der Benutzer selbst
 definiert. 
@@ -397,15 +451,14 @@ Optionen, die Plone für große Websites optimieren (Abbildung
 
    Einstellungen für große Websites
 
-Wenn auf einer Website sehr viele Benutzer registriert sind, würde der
-Aufruf der Benutzerübersicht sehr viel Zeit in Anspruch nehmen, da die
-Informationen aller Benutzer ausgewertet werden müssen. Aktivieren Sie
-in einem solchen Fall die Option :guilabel:`Viele Benutzer?`. Auf der
-Benutzerübersicht werden dann keine Benutzer mehr aufgeführt. Um einen
-Benutzer zu verwalten, müssen Sie ihn über die Benutzersuche
-suchen. Geben Sie dazu in das Suchfeld auf der Benutzerübersicht
-seinen Benutzernamen, seinen Vor- oder Nachnamen in die Suche ein und
-klicken Sie auf :guilabel:`Suche`.
+Wenn auf einer Website sehr viele Benutzer registriert sind, kann der Aufruf
+der Benutzerübersicht viel Zeit in Anspruch nehmen, da vor der Anzeige die
+Informationen aller Benutzer ausgewertet werden. Sie können in einem solchen
+Fall die Option :guilabel:`Viele Benutzer?` aktivieren. Auf der
+Benutzerübersicht wird dann statt der Liste ein Suchfeld angezeigt, über das
+sie nach Benutzern suchen können. Geben Sie dazu in das Suchfeld den gesuchten
+Benutzernamen oder den Vor- oder Nachnamen des gesuchten Benutzers in die
+Suche ein und klicken Sie auf :guilabel:`Suche`.
 
 Auf Websites mit sehr vielen Gruppen verfahren Sie
 entsprechend und aktivieren die Option :guilabel:`Viele Gruppen?`.

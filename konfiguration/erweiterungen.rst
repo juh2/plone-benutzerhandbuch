@@ -7,7 +7,7 @@
 Im Bereich :guilabel:`Erweiterungen` (siehe Abbildung
 :ref:`fig_zusatzprodukte-installieren` können Sie Software-Pakete
 installieren, mit denen die Funktionen von Plone erweitert
-werden. Dies ist sehr einfach zu bewerkstelligen.
+werden. 
 
 .. _fig_zusatzprodukte-installieren:
 
@@ -20,9 +20,9 @@ werden. Dies ist sehr einfach zu bewerkstelligen.
 
 Auf der Seite finden Sie zwei Listen: die Aufstellung der verfügbaren und der
 aktivierten Erweiterungen. Wenn Sie eine Erweiterung in der Website nutzen
-möchten, markieren Sie es in der Liste der verfügbaren Erweiterungen und
-betätigen die Schaltfläche :guilabel:`Aktivieren`.  Die Erweiterung wechselt
-daraufhin in die Liste der aktivierten Erweiterungen.
+möchten, markieren Sie sie in der Liste der verfügbaren Erweiterungen und
+betätigen die Schaltfläche :guilabel:`Aktivieren`.  Die Erweiterung 
+wird nun in der Liste der aktivierten Erweiterungen aufgeführt.
 
 Falls die Erweiterung konfiguriert werden kann, finden Sie in der
 Website-Konfiguration unter der Überschrift »Konfiguration von Erweiterungen«
@@ -49,8 +49,4 @@ Installation erfolgt mit :term:`Buildout` und wird in Kapitel
    sollten Sie nur die Erweiterungen installieren, die Sie wirklich benötigen
    und die von Ihnen in einer Testinstanz getestet wurden. Die Aktualisierung
    einer Plone-Instanz auf eine neuere Version kann durch Erweiterungen
-   beträchtlich erschwert werden. Außerdem lassen sich einige Erweiterungen
-   nicht sauber deinstallieren, das heißt sie hinterlassen teilweise
-   Konfigurationen, die mühsam mit der Hand entfernt werden müssen. Nutzen Sie
-   daher in jedem Fall eine Testinstanz, wenn Sie eine Erweiterung
-   ausprobieren möchten.  
+   beträchtlich erschwert werden.

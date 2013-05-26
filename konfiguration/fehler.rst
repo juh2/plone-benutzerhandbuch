@@ -4,7 +4,10 @@
  Fehler
 ========
 
-Wenn es in Plone zu einer Fehlfunktion kommt, schreibt das Programm ein Fehlerprotokoll, mit dem es möglich ist, die Ursache des Fehlers zu finden. Die jeweils jüngsten Protokolle werden hier aufgelistet (siehe Abbildung :ref:`fig_konfiguration-fehler`).
+Wenn es in Plone zu einer Fehlfunktion kommt, schreibt das Programm ein
+Fehlerprotokoll, mit dem es möglich ist, die Ursache des Fehlers zu finden. Die
+jeweils Protokolleinträge werden hier aufgelistet (siehe Abbildung
+:ref:`fig_konfiguration-fehler`).
 
 .. _fig_konfiguration-fehler:
 
@@ -23,11 +26,11 @@ Unmittelbar darunter befindet sich ein Suchformular und diverse Schaltflächen. 
 Nach einem Fehlerreport suchen
    Geben Sie in das Formularfeld eine Fehlernummer ein und betätigen Sie die
    Schaltfläche :guilabel:`Suche`. Sie werden daraufhin direkt zu dem
-   entsprechenden Fehler geführt. Plone zeigt dem Benutzer bie einer
+   entsprechenden Fehler geführt. Plone zeigt dem Benutzer bei einer
    Fehlfunktion die entsprechende Fehlernummer an. 
 
 Aktualisieren
-   Wenn Sie diese Schaltfläche betätigen wird die Übersicht über die
+   Wenn Sie diese Schaltfläche betätigen, wird die Übersicht über die
    Fehlerprotokolle neu geladen. 
 
 Angezeigte Einträge löschen
