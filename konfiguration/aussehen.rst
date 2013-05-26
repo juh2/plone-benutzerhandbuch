@@ -19,7 +19,12 @@ Standardaussehen
    Falls in der Website mehrere :term:`Themes <Theme>` installiert sind, können
    Sie mit diesem Auswahlmenü ein Webdesign auswählen. :term:`Themes <Theme>`
    werden als Erweiterungen installiert (siehe Kapitel
-   :ref:`sec_konfiguration-erweiterungen`). 
+   :ref:`sec_konfiguration-erweiterungen`) und stehen dann in diesem Menü zur
+   Auswahl zur Verfügung. 
+
+   Wenn die Erweiterung :term:`Diazo` installiert ist, gibt es eine zweite
+   Methode, das Design der Website auszuwählen. Lesen Sie dazu Kapitel
+   :ref:`sec_konfiguration-diazo`. 
 
 Externe Links markieren 
    Wenn Sie diese Option auswählen, werden Links, die auf andere Websites

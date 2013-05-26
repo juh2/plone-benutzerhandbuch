@@ -29,7 +29,9 @@ Standard-Editor
    Hier können Sie festlegen, mit welchem Texteditor die Benutzer Ihrer Website
    arbeiten sollen. In der Grundversion von Plone können Sie nur zwischen
    TinyMCE und keinem Editor wählen. Außerdem können Sie auch keine Auswahl
-   treffen.
+   treffen. Im letzteren Fall steht TinyMCE Ihren Benutzern nicht automatisch
+   zur Verfügung. Sie müssen in ihrem persönlichen Konfigurationsmenü den
+   Editor mit der Hand auswählen. 
 
 Externen Editor aktivieren
    Es ist möglich, die Artikel in Plone mit Hilfe eines Texteditors auf dem

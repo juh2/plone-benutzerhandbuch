@@ -12,6 +12,7 @@ Installation von Erweiterungen nachgerüstet werden.
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
 
    menu.rst
    artikeltypen.rst

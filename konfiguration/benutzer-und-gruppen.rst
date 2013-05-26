@@ -9,11 +9,32 @@ Benutzer zu Gruppen zusammenzufassen und Gruppen als Untergruppen
 einer übergreifenden Gruppe zuzuordnen, gehören zu den
 herausragendsten Leistungsmerkmalen des CMS Plone. Innerhalb des CMS
 lassen sich so sehr flexibel Hierarchien, Abteilungen und
-Arbeitsgruppen von Unternehmen und Organisationen abbilden. Einen
-Überblick über die Möglichkeiten bietet das `Plone White Paper`_.
+Arbeitsgruppen von Unternehmen und Organisationen abbilden.
 
-.. _`Plone White Paper`: http://www.hasecke.com/plone-white-paper/zugang/zuweisung-der-berechtigungen 
+Zuweisung von Funktionen an Benutzer und Gruppen
+================================================
 
+Funktionen können zunächst einzelnen Benutzern zugewiesen werden. Man kann
+beispielsweise Benutzer A die Funktion »Ansehen« zuweisen und Benutzer B die
+Funktion »Bearbeiten«. Dadurch wäre Benutzer B in der Lage, einen Inhalt zu
+verändern, den Benutzer A lediglich ansehen kann.
+
+ Zuweisung von Funktionen an GruppenDie Funktionen können auch Gruppen zu
+
+ gewiesen werden.In einem CMS mit vielen Benutzern wird die Zuordnung 
+
+ von Funktionen zu einzelnen Benutzern schnell unübersichtlich. Daher kann man in Plone die Funktionen auch ganzen Gruppen zuweisen. Benutzer, die Mitglied einer Gruppe sind, können alle Funktionen ausüben, die der Gruppe zugewiesen wurden. Da Benutzer verschiedenen Gruppen angehören können, erhöht die Zuweisung von Funktionen an Gruppen die Flexibilität des Systems, ohne dass dabei der Überblick verloren geht.Verschachtelte GruppenIn 
+
+ Plone 4 können ganze Gruppen Mitglied einer Gruppe sein. Dadurch wird das Zugriffsmanagement noch flexibler.In Plone 4 können ganze Gruppen Mi
+
+ tglied in einer Gruppe sein. Damit wird es möglich, Organisationshierarchien noch flexibler in Plone abzubilden. Es lassen sich Arbeitsbereiche und Zuständigkeiten für Abteilungen und ihre Unterabteilungen mit fein justierten Zugriffsrechten bilden. Spontan zusammengestellte Teams können wahlweise aus einzelnen Benutzern oder ganzen organisatorischen Einheiten gebildet werden.Globale und lokale Zuweisung v
+ on FunktionenIn jedem Bereich der Website können die Funktionen indi
+
+ viduell zugewiesen werden. So kann beispielsweise die Gruppe A im Bereich A Inhalte bearbeiten, während Gruppe A diese nur ansehen kann. Im Bereich B kann dies genau umgekehrt sein. Für andere Benutzer können die Bereiche A und B komplett gesperrt werden.Die Zuweisung von Funktionen an Gruppen oder Benutzer
+
+  kann sowohl global, das heißt für die gesamte Website, erfolgen, als auch lokal für einzelne Bereiche. So ist es möglich, dass eine Gruppe bzw. ein Benutzer in verschiedenen Bereichen einer Website unterschiedliche Funktionen ausübt. Die Abbildung zeigt wie man die Zugriffsrechte für einzelne Inhalte oder Ordner über die Benutzeroberfläche von Plone bequem zuweisen kann.Die Zuweisung der Funktionen in einzelnen Bereichen der Website 
+
+  erfolgt über das Menü ›Freigabe‹. Über dieses Menü kann der dazu Berechtigte einen bestimmten Bereich für andere Benutzer und Gruppen freigeben. Er kann ihnen erlauben, Inhalte hinzuzufügen, anzusehen, zu bearbeiten oder zu veröffentlichen.
 Benutzerübersicht
 =================
 

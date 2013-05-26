@@ -6,8 +6,7 @@
 
 In den Artikeleinstellungen (siehe Abbildung :ref:`fig_konfiguration-artikeleinstellungen`) können Sie für jeden Artikeltyp gesondert umfangreiche Einstellungen vornehmen. Sie können im Einzelnen festlegen:
 
-* ob der Artikeltyp in der Voreinstellung überall in der Website hinzugefügt
-  werden kann,
+* ob der Artikeltyp überall in der Website hinzugefügt werden kann,
 
 * ob bei Artikeln dieses Typs die Kommentierungsfunktion generell eingeschaltet
   ist,
@@ -69,11 +68,11 @@ Versionierungsrichtlinie
 
 Portlets verwalten, die diesem Artikeltypen zugeordnet sind
   Dieser Link führt Sie in die Portlet-Verwaltung, wo Sie festlegen können,
-  welche Portlets dem ausgwählten Artikeltypen zugeordnet sein sollen. Mehr zum
+  welche Portlets dem ausgewählten Artikeltypen zugeordnet sein sollen. Mehr zum
   Thema Portlets erfahren Sie in Kapitel :ref:`sec_portlets`. 
 
 Momentaner Arbeitsablauf
-  Hier ist vermerkt welcher Arbeitsablauf zurzeit für den ausgewählten
+  Hier ist vermerkt, welcher Arbeitsablauf zurzeit für den ausgewählten
   Artikeltypen benutzt wird.
  
 Neuer Arbeitsablauf
