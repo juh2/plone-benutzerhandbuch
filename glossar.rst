@@ -315,3 +315,19 @@ Glossar
       erzeugt wird. Sie werden bei der Darstellung einer Webseite an
       bestimmten Stellen eingeblendet.
        
+   Protokollebene
+      Die Protokollebene (engl. logging level) bestimmt den Zweck oder die
+      Wichtigkeit eines Protokolleintrags. Wenn ein protokolliertes Ereignis
+      den Betrieb einer Anwendung gefährdet, bezeichnet man es als kritisch.
+      Der entsprechende Protokolleintrag bekommt die Bezeichnung ›CRITICAL‹.
+      Ist ein Fehler passiert, der keine gefährliche Auswirkung auf den Betrieb
+      hat, so erhält der Protokolleintrag die Bezeichnung ›ERROR‹. Wurden
+      bestimmte Grenzwerte festgelegt, so wird das Erreichen oder Überschreiten
+      der Grenzwerte häufig als Warnung im Protokoll verzeichnet. Die
+      entsprechende Protokollebene heißt ›WARNING‹. Dient der Eintrag nur
+      Informationszwecken, so ordnet man den Eintrag der Protokollebene ›INFO‹
+      zu. Die niedrigste Protokollebene lautet ›DEBUG› ihr werden
+      Protokolleinträge zugeordnet, die dazu dienen sollen, den Ablauf eines
+      Computerprogramms nachzuvollziehen und aktiv Fehler zu suchen.   
+
+

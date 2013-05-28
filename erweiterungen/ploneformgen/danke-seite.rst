@@ -38,7 +38,7 @@ Epilog der Danke-Seite
 
 Keine Versand-Nachricht
    Falls der Benutzer aus irgendeinem Grund die Danke-Seite aufruft,
-   obwohl kein Formular abgesendet wurde. Wird der Text in diesem Feld
+   obwohl kein Formular abgesendet wurde, wird der Text in diesem Feld
    angezeigt. In der Voreinstellung befindet sich hier auch ein Link
    zum Formular. Bei fehlerhaften Eingaben wird der Benutzer jedoch
    direkt zum Formular weitergeleitet.

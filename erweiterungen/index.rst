@@ -49,18 +49,22 @@ Speichern Sie die Datei und rufen Sie in der Kommandozeile das Programm :program
   cd $HOME/Plone/zinstance
   ./bin/buildout 
   
-Buildout wird daraufhin das Egg :file:`Products.PloneFormGen` sowie weitere Eggs, von denen PloneFormGend abhängig ist, herunterladen und installieren
+Buildout wird daraufhin das Egg :file:`Products.PloneFormGen` sowie weitere Eggs, von denen PloneFormGen abhängig ist, herunterladen und installieren
 
-Wenn der Namensraum des Zusatzproduktes nicht »Products« lautet, muss in der
-Datei :file:`buildout.cfg` ein weiterer Eintrag erfolgen. Werden Zusatzprodukte
-außerhalb des Namensraumes »Products« installiert, werden die
-Konfigurationsdaten der Zusatzprodukte nicht automatisch eingelesen. Dies hat
-zur Folge, dass die Eggs zwar heruntergeladen, im Konfigurationsbereich aber
-nicht zur Installation bereitgestellt werden. Das Produkt »PloneTrueGallery«,
-das attraktive Funktionen für ein Fotoalbum bereitstellt, wird
-beispielsweise unter dem Namensraum »collective« vertrieben. Mit diesem
-Namensraum werden Beiträge der Plone-Community bezeichnet. Der entsprechende
-Zusatzeintrag in :file:`buildout.cfg` lautet: ::
+Erweiterungen, deren Name mit »Products« beginnt, werden automatisch im
+Konfigurationsmenü von Plone zur Installation bereitgestellt, wenn sie in der
+Datei :file:`buildout.cfg`, wie oben gezeigt, als Egg eingetragen wurden.
+
+Der erste Teil des Namens wird als Namensraum bezeichnet. Erweiterungen aus dem Namensraum »Products« werden von Plone automatisch als installierbare Erweiterungen erkannt. Erweiterungen aus einem anderen Namensraum werden nicht erkannt. 
+
+In der Datei :file:`buildout.cfg` muss deshalb noch vermerkt werden, dass das
+Egg von Plone als installierbare Erweiterung eingelesen werden soll. Dazu zeigt
+man :program:`buildout` an, dass das Egg eine ZCML-Datei mit
+Konfigurationsanweisungen enthält. Das Produkt »PloneTrueGallery«, das
+attraktive Funktionen für ein Fotoalbum bereitstellt, wird beispielsweise im
+Namensraum »collective« vertrieben.  Mit diesem Namensraum werden Beiträge der
+Plone-Community bezeichnet. Der entsprechende Zusatzeintrag in
+:file:`buildout.cfg` lautet: ::
 
   [buildout]
   ...
@@ -74,7 +78,7 @@ Zusatzeintrag in :file:`buildout.cfg` lautet: ::
 Produkte aus anderen Namensräumen als »Products« müssen also an zwei Stellen in
 der Datei :file:`buildout.cfg` eingetragen werden. Nach dem Abspeichern rufen
 Sie :program:`buildout` auf und finden das Zusatzprodukt anschließend im
-Konfigurationsmenü im Bereich »Zusatzprodukte« vor, wo Sie es, wie in Kapitel
+Konfigurationsmenü im Bereich »Erweiterungen« vor, wo Sie es, wie in Kapitel
 :ref:`sec_konfiguration-erweiterungen` beschrieben, in der Plone-Website
 installieren können. 
 

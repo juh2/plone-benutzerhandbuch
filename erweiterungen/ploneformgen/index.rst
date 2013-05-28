@@ -10,6 +10,7 @@ in Kapitel :ref:`sec_konfiguration-erweiterungen` erklärt.
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
 
    grundlagen.rst
    formular-ordner.rst
@@ -23,5 +24,6 @@ in Kapitel :ref:`sec_konfiguration-erweiterungen` erklärt.
    gliederungselemente.rst
    seite.rst
    import-export.rst
+   quickedit.rst
 
 

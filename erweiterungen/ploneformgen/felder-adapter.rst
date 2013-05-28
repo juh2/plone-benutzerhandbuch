@@ -3,7 +3,7 @@
 =============================
 
 Wenn Sie sich in einem Formular-Ordner befinden und das Menü
-:guilabel:`Hinzufügen` aufklappen, sehen Sie welche Elemente Sie in
+:guilabel:`Hinzufügen` aufklappen, sehen Sie, welche Elemente Sie in
 einem Ordner hinzufügen können. Zur Verfügung stehen in der
 Reihenfolge des Menüs folgende Objekte:
 

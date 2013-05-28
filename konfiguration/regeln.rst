@@ -268,10 +268,31 @@ Protokoll
    Bedingungen in einer Datei protokolliert. Bei der Konfiguration
    eines Protokolls (siehe Abbildung
    :ref:`fig_konfiguration-regeln-logger-bearbeiten`) können Sie die
-   Bezeichnung des Protokolleintrags (Protokollname) und den
-   Logging-Level (Protokollebene) festlegen. Die Einträge selbst
+   Bezeichnung des Protokolleintrags (Protokollname) und die 
+   :term:`Protokollebene` festlegen. Die Einträge selbst
    werden in die Datei :file:`$INSTANCE/var/log/instance.log`
-   geschrieben.
+   geschrieben. Die nummerischen Werte für die Protokollebenen ersehen Sie aus Tabelle :ref:`tab_protokollebenen`.
+
+   .. _tab_protokollebenen:
+
+   .. table:: Protokollebenen
+   
+      +----------+------+
+      | Ebene    | Wert |
+      +----------+------+
+      | CRITICAL | 50   |
+      +----------+------+
+      | ERROR    | 40   |
+      +----------+------+
+      | WARNING  | 30   |
+      +----------+------+
+      | INFO     | 20   |
+      +----------+------+
+      | DEBUG    | 10   |
+      +----------+------+
+      | NOTSET   | 0    |
+      +----------+------+
+
 
    .. _fig_konfiguration-regeln-logger-bearbeiten:
 
@@ -299,7 +320,7 @@ Kopieren in Ordner
    Diese Aktion kopiert einen Artikel in einen bestimmten Ordner. Sie können im
    Bearbeitungsformular (siehe Abbildung
    :ref:`fig_konfiguration-regeln-copy-to-folder`) den Ordner, in den der
-   Artikel kopiert werden soll, auswählen 
+   Artikel kopiert werden soll, auswählen.
 
    .. _fig_konfiguration-regeln-copy-to-folder:
    .. figure::
@@ -350,8 +371,8 @@ E-Mail senden
    Bearbeitungsformular (siehe Abbildung
    :ref:`fig_konfiguration-regeln-email-aktion-bearbeiten` können Sie
    Betreff, Absender, Empfänger und die Nachricht eingeben. Dabei
-   können die zum Beispiel Variablen »${title} und »${url}« für die
-   Titel des Artikels und die URL verwendet werden. Sie werden in der
+   können Variablen wie zum Beispiel »${title} und »${url}« für 
+   Titel und URL des Artikels verwendet werden. Die Variablen werden in der
    versendeten E-Mail durch die jeweils aktuellen Angaben ersetzt.
 
    .. _fig_konfiguration-regeln-email-aktion-bearbeiten:
@@ -373,6 +394,9 @@ E-Mail senden
             eingefügt werden können.
 
       Auflistung der Variablen
+
+   Wenn derjenige, der die Aktion ausgeführt hat, keine E-Mail bekommen soll,
+   markieren Sie die Option :guilabel:`Ausführenden nicht benachrichtigen`. 
 
 Nach dem Hinzufügen einer Aktion, wird diese im Bearbeitungsformular
 der Regel aufgelistet (siehe Abbildung

@@ -4,8 +4,8 @@
 
 .. _sec_checkbox-field:
 
-Checkbox Field
-==============
+Checkbox-Feld
+=============
 
 Bei einer Checkbox kann der Benutzer, der das Formular ausfüllt, ein
 Häkchen setzen oder nicht.  
@@ -34,13 +34,13 @@ Validator
    die Anerkennung von Nutzungsbedingungen beim Absenden des Formulars
    zu erzwingen.
 
-True Display String
+Anzeigetext für "True"
    Auf der Danke-Seite wird der Benutzer darüber informiert, welche
    Eingaben er gemacht hat. Hier können Sie statt der voreingestellten
    »1« eine verständlichere Formulierung wie zum Beispiel
    »Nutzungsbedingungen anerkannt« eintragen.
 
-False Display String
+Anzeigetext für "False"
    Wie beim True Display String können Sie hier eine Formulierung
    eintragen, die auf der Danke-Seite angezeigt wird, wenn das Häkchen
    nicht gesetzt wurde: zum Beispiel »Ich will keine Werbung
@@ -48,10 +48,10 @@ False Display String
 
 .. _sec_datum-und-zeit-feld:    
 
-Datum- und Zeit-Feld
+Datums- und Zeitfeld
 ====================
 
-Das Datum- und Zeit-Feld erleichtert dem Benutzer die Eingabe von
+Das Datums- und Zeitfeld erleichtert dem Benutzer die Eingabe von
 Datums- und Zeitangaben. 
 
 .. _fig_datum-zeit-feld:
@@ -89,10 +89,10 @@ Anzahl zukünftiger Jahre
 
 .. _sec_auswahl-feld: 
 
-Auswahl-Feld
-============
+Auswahlfeld
+===========
 
-Mit Hilfe eines Auswahl-Feldes kann der Benutzer unter vorgegebenen
+Mit Hilfe eines Auswahlfeldes kann der Benutzer unter vorgegebenen
 Werten eine Auswahl treffen. Er kann dabei immer nur einen Wert
 auswählen. 
 
@@ -139,8 +139,8 @@ Präsentations-Widget
 
 .. _sec_mehrfach-auswahl-feld:
 
-Mehrfach-Auswahl-Feld
-=====================
+Mehrfachauswahlfeld
+===================
 
 Während beim Auswahl-Feld der Benutzer nur eine Option auswählen kann,
 kann er beim Mehrfach-Auswahl-Feld (Abbildung
@@ -183,8 +183,8 @@ Präsentations-Widgets.
 
 .. _sec_bewertungs-feld:
 
-Bewertungs-Feld
-===============
+Bewertungsfeld
+==============
 
 Ein Bewertungs-Feld gibt dem Benutzer die Möglichkeit, anhand
 einer vorgegebenen Skala eine Bewertung vorzunehmen. 

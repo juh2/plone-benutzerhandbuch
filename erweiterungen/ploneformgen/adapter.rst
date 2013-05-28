@@ -74,9 +74,9 @@ Empfänger herauslesen aus
    für diesen Zweck geeignet sind.
 
 Kopie-Empfänger und Blindkopie-Empfänger
-   In diesen beiden Feldern können Sie beliebig viele weitere
-   E-Mail-Adressen eingetragen, an die die Formulardaten ebenfalls
-   gesendet werden sollen.
+   In diese beiden Feldern können Sie beliebig viele weitere
+   E-Mail-Adressen eintragen. Die Empfänger erhalten die Formulardaten dann
+   ebenfalls.
 
 Antwortadresse herauslesen aus
    Sie können dem Benutzer, der das Formular ausgefüllt hat, die

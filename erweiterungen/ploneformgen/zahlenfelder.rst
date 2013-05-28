@@ -4,10 +4,11 @@
 
 .. _sec_whole-number-field:
 
-Whole Number Field
-==================
+Ganzzahlfeld
+============
 
-Das Whole Number Field dient der Eingabe einer ganzen Zahl.
+
+Das Ganzzahlfeld dient der Eingabe einer ganzen Zahl.
 
 .. _fig_ganzzahl-feld:
 
@@ -57,10 +58,11 @@ Größe
 
 .. _sec_decimal-number-field:
 
-Decimal Number Field
-====================
+Dezimalzahlfeld
+===============
 
-Das Decimal Number Field (Abbildung :ref:`fig_decimal-zahl-feld`)
+
+Das Dezimalzahlfeld (Abbildung :ref:`fig_decimal-zahl-feld`)
 dient der Eingabe einer Dezimalzahl.
 
 .. _fig_decimal-zahl-feld:
@@ -73,6 +75,6 @@ dient der Eingabe einer Dezimalzahl.
    Feld für Dezimalzahl
 
 Es sind die gleichen Einstellungsmöglichkeiten vorhanden wie bei einem
-Whole Number Field (siehe Kapitel :ref:`sec_whole-number-field`). 
+Ganzzahlfeld (siehe Kapitel :ref:`sec_whole-number-field`). 
 
 

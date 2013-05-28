@@ -6,12 +6,14 @@ Längere Formulare können schnell unübersichtlich werden. Gliederungselemente 
 
 .. _sec_fieldset-ordner:
 
-Fieldset Ordner
-===============
+Formularsatz
+============
 
-Mit Hilfe eines Fieldset-Ordners kann man sachlich zusammengehörige
+Mit Hilfe eines Formularsatzes kann man sachlich zusammengehörige
 Formularfelder optisch zusammenfassen (siehe Abbildung
-:ref:`fig_fieldset-ordner-anzeige`).
+:ref:`fig_fieldset-ordner-anzeige`). Ein Formularsatz funktioniert wie ein
+Unterordner im Formular. Die Elemente, die im Formularsatz erscheinen sollen,
+müssen in ihm angelegt werden. 
 
 .. _fig_fieldset-ordner:
 
@@ -23,8 +25,8 @@ Formularfelder optisch zusammenfassen (siehe Abbildung
    Fieldset-Ordner
 
 Die Bearbeitungsansicht eines Fieldset-Ordners (siehe Abbildung
-:ref:`fig_fieldset-ordner`) ist fast so aufgebaut, wie die
-Bearbeitungsansicht eines normalen Ordners. Es gibt jedoch folgende Besonderheiten.
+:ref:`fig_fieldset-ordner`) ist fast so aufgebaut, wie die Bearbeitungsansicht
+eines normalen Ordners. Es gibt jedoch folgende Besonderheiten.
 
 Show Title as Legend
    Der Titel des Ordners kann als Legende im Formular angezeigt
@@ -48,12 +50,19 @@ des Fieldsets angezeigt werden sollen.
 .. _sec_titel-feld:
 
 
-Titel-Feld
-==========
+Formularsatzanfang
+==================
+
+Formularsatzende
+================
+
+
+Bezeichnung
+===========
 
 Bei längeren Formularen ist eine Unterteilung in einzelne Abschnitte
-sinnvoll, die mit einer Überschrift versehen werden. Dazu dient das
-Titel-Feld.
+sinnvoll, die mit einer Bezeichnung versehen werden. Dazu dient dieses
+Feld.
 
 .. _fig_titel-feld:
 
@@ -64,9 +73,9 @@ Titel-Feld.
 
    Titel-Feld
 
-Mit dem Titelfeld wird lediglich eine Überschrift (Titel) erzeugt,
-unter der ein erklärender Text (Hilfe-Feld) stehen kann (siehe
-Abbildung :ref:`fig_titel-feld`).
+Mit der Bezeichnung wird lediglich eine Art Überschrift erzeugt, unter der ein
+erklärender Text (Felderläuterung) stehen kann (siehe Abbildung
+:ref:`fig_titel-feld`).
 
 .. _sec_formatierter-text:
 

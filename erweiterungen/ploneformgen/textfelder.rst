@@ -4,10 +4,11 @@
 
 .. _sec_kurztext-feld:
 
-Kurztext-Feld
-=============
+Zeichenkettenfeld
+=================
 
-Das Kurztext-Feld (Abbildung :ref:`fig_kurztext-feld`) dient der
+
+Das Zeichenkettenfeld (Abbildung :ref:`fig_kurztext-feld`) dient der
 Eingabe einer einzelnen Textzeile. Mit Hilfe verschiedener Validatoren
 kann vor dem Absenden des Formulars überprüft werden, ob bestimmte
 Bedingungen eingehalten wurden.
@@ -60,10 +61,11 @@ machen kann.
 
 .. _sec_text-feld:
 
-Text-Feld
-=========
+Einfaches Textfeld
+==================
 
-Beim Text-Feld (Abbildung :ref:`fig_text-feld`) kann ein mehrzeiliger,
+
+Beim Zeilenfeld (Abbildung :ref:`fig_text-feld`) kann ein mehrzeiliger,
 nicht formatierter Text eingegeben werden.
 
 .. _fig_text-feld:
@@ -76,12 +78,12 @@ nicht formatierter Text eingegeben werden.
    Feld für Text
 
 Die meisten Einstellungsmöglichkeiten wurden bereits in
-:ref:`sec_whole-number-field` erklärt. Das Text-Feld kann wie das
-Kurztext-Feld versteckt werden.
+:ref:`sec_whole-number-field` erklärt. Das Zeilenfeld kann wie das
+Zeichenkettenfeld versteckt werden.
 
 Zusätzlich gibt es folgenden Validator:
 
-Reject Text with Links
+Text mit Links zurückweisen
    Wenn diese Option ausgewählt wird, darf sich in dem eingegebenen
    Text kein Link zu einer Webseite befinden. Falls dies doch der Fall
    ist, erhält der Benutzer eine Warnung und eine Erläuterung, wie er
@@ -90,12 +92,12 @@ Reject Text with Links
 
 .. _sec_formatierbarer-text-feld:
 
-Feld für formatierbaren Text
-============================ 
+Texteingabefeld
+===============
 
-Das Feld für formatierbaren Text dient dazu, dem Benutzer die
+Das Texteingabefeld dient dazu, dem Benutzer die
 Möglichkeit zu geben, längere formatierte Texte einzugeben und dabei
-den Texteditor Kupu zu nutzen (siehe Abbildung
+den Texteditor zu nutzen (siehe Abbildung
 :ref:`fig_formatierbarer-text-feld` und :ref:`Textfeld mit Texteditor <fig_formatierbarer-text-feld-anzeige>`).  
 
 .. _fig_formatierbarer-text-feld:
@@ -143,12 +145,12 @@ Die Konfigurationsmöglichkeiten entsprechen denen in
 
 .. _sec_zeilen-feld:
 
-Zeilen-Feld
-===========
+Zeilenfeld
+==========
 
-Mit dem Zeilen-Feld ist die Eingabe von Textzeilen möglich, die
+Mit dem Zeilenfeld ist die Eingabe von Textzeilen möglich, die
 zeilenweise als einzelne Werte weiterverarbeitet werden. So kann man
-beispielsweise mit dem Zeilen-Feld eine Liste von Teilnehmern
+beispielsweise mit dem Zeilenfeld eine Liste von Teilnehmern
 erzeugen, indem man pro Zeile den Namen eines Teilnehmers eingibt.
 
 .. _fig_zeilen-feld:

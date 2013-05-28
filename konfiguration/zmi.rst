@@ -19,4 +19,4 @@ Plone aufsetzt.
    Das ZMI
 
 Eine Erklärung der Funktionsvielfalt des Zope Application Server würde
-an dieser Stelle zu weit führen. Ein Einstieg bietet http://www.zope.org/
+an dieser Stelle zu weit führen. Einen Einstieg bietet http://www.zope.org/

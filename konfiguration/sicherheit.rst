@@ -26,13 +26,13 @@ Selbstregistrierung
     Wenn Sie anonymen Besuchern Ihrer Website erlauben, sich selbst auf der
     Website zu registrieren, müssen Sie die angelegten Konten regelmäßig
     kontrollieren, da immer wieder versucht wird, mit Hilfe von automatisierten
-    Skripten Konten auf Websites anzulegen und diese Konten anschließend zum
+    Verfahren Konten auf Websites anzulegen und diese Konten anschließend zum
     Beispiel für Spam zu missbrauchen. 
 
 Registrierung ohne Prüfung der E-Mail-Adresse
     Wenn bei der Registrierung eines Benutzers auf die Prüfung der
     E-Mail-Adresse verzichtet wird, kann man mit Hilfe von automatisierten
-    Skripten sehr viel leichter ein Benutzerkonto einrichten und dieses dann
+    Verfahren sehr viel leichter ein Benutzerkonto einrichten und dieses dann
     missbrauchen. Aktivieren Sie diese Option nur dann, wenn Sie wissen, was
     Sie tun.  
 
