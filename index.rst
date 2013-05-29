@@ -86,7 +86,11 @@ Erweiterungen
    erweiterungen/index.rst
    erweiterungen/ploneformgen/index.rst
    erweiterungen/linguaplone/index.rst
-   erweiterungen/ploneglossary/index.rst
+
+..   erweiterungen/ploneglossary/index.rst 
+
+.. https://github.com/collective/Products.PloneGlossary/issues/4
+   https://github.com/collective/Products.PloneGlossary/issues/1
 
 Verzeichnisse und Index
 =======================

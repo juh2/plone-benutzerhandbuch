@@ -5,13 +5,12 @@
 Mehrsprachige Inhalte lesen
 ===========================
 
-Wenn auf der Plone-Website die Erweiterung LinguaPlone installiert
-wurde, ist es möglich, Inhalte in verschiedenen Sprachen anzubieten.
-Sie finden zur Auswahl der gewünschten Sprachversion oben rechts
-Verweise mit den möglichen Sprachen
-(siehe Abbildung :ref:`fig_sprache-auswaehlen`), in denen Inhalte
-vorliegen können. Dabei kann es sich je nach Konfiguration der Website
-um reine Textverweise oder um kleine Fähnchen handeln.
+Wenn auf der Plone-Website die Erweiterung LinguaPlone installiert wurde, ist
+es möglich, Inhalte in verschiedenen Sprachen anzubieten.  Sie finden zur
+Auswahl der gewünschten Sprachversion oben rechts Verweise mit den möglichen
+Sprachen, in denen Inhalte vorliegen können (siehe Abbildung
+:ref:`fig_sprache-auswaehlen`). Dabei kann es sich je nach Konfiguration der
+Website um reine Textverweise oder um kleine Fähnchen handeln.
 
 .. _fig_sprache-auswaehlen:
 
@@ -81,7 +80,7 @@ beschrieben.
 
    Die Spracheinstellungen
 
-Um mehrere Sprachen auszuwählen, halten Sie die Command-Taste gedrückt, während
+Um mehrere Sprachen auszuwählen, halten Sie die Strg-Taste gedrückt, während
 Sie die Sprache anklicken.
 
 Gemeinsame oder sprachspezifische Startseite 
@@ -90,7 +89,7 @@ Gemeinsame oder sprachspezifische Startseite
 Beim Aufbau einer mehrsprachigen Navigation können Sie mehrere Strategien
 verfolgen. 
 
-#. Sie für alle Sprachversionen Ihre Website eine gemeinsame Startseite
+#. Sie können für alle Sprachversionen Ihre Website eine gemeinsame Startseite
    einrichten, von wo aus die Besucher die einzelnen Sprachversionen erreichen
    können. Dies ist der in LinguaPlone nach der Installation voreingestellte
    Weg.  Der Eintrag :guilabel:`Startseite` in der Hauptnavigation führt in
@@ -179,7 +178,7 @@ Voreinstellung entsprechend ändern.
 -------------------------
 
 Wenn LinguaPlone installiert ist und Sie Artikel in der Website
-bearbeiten dürfen, finden Sie im grünen Rahmen das Menü
+bearbeiten dürfen, finden Sie in der grünen Leiste das Menü
 :guilabel:`Übersetzen in...`. Wenn Sie das Menü aufklappen, sehen Sie
 die Sprachen, in die Artikel der Website übersetzt werden können. In
 unserem Beispiel in Abbildung :ref:`fig_ordner-uebersetzen` ist dies
@@ -257,6 +256,8 @@ Plone-Website. Auch sie lassen sich mit LinguaPlone übersetzen. Die
 Übersetzung erfolgt – wie bei Ordnern und allen anderen Artikeln – in
 einer zweigeteilten Bearbeitungsansicht (siehe Abbildung
 :ref:`fig_uebersetzen-kollektion`). 
+
+.. todo:: Screeenshot neu
 
 .. _fig_uebersetzen-kollektion:
 
@@ -348,7 +349,7 @@ Verwaltung mehrsprachiger Inhalte
 Das Menü :guilabel:`Übersetzen in...` besitzt unterhalb der Liste der
 verfügbaren Sprachen den Eintrag :guilabel:`Übersetzungen
 verwalten`. Sie gelangen über diesen Verweis zu einem Formular (siehe
-Abbildung :ref:`fig_uebersetzungen-verwalten`) mit dem Sie
+Abbildung :ref:`fig_uebersetzungen-verwalten`), mit dem Sie
 
 * die Sprachzuordnung einer Übersetzung verändern können
 

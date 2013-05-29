@@ -26,7 +26,12 @@ Mit dem Eintrag :guilabel:`Export` können Sie das gesamte Formular exportieren.
 
    Speichern der Export-Datei
 
-Um ein Formular zu importieren, müssen Sie zunächst einen Formular-Ordner anlegen. Betätigen Sie dann im Aktionsmenü des neuen Formular-Ordners den Eintrag :guilabel:`Import`. Sie werden daraufhin aufgefordert, eine Import-Datei zu bestimmen (siehe Abbildung :ref:`fig_import-formular`) Wählen Sie eine ein vorher exportiertes Formular als Import-Datei aus und betätigen Sie die Schaltfläche :guilabel:`import`. 
+Um ein Formular zu importieren, müssen Sie zunächst einen Formular-Ordner
+anlegen. Betätigen Sie dann im Aktionsmenü des neuen Formular-Ordners den
+Eintrag :guilabel:`Import`. Sie werden daraufhin aufgefordert, eine
+Import-Datei zu bestimmen (siehe Abbildung :ref:`fig_import-formular`) Wählen
+Sie ein vorher exportiertes Formular als Import-Datei aus und betätigen
+Sie die Schaltfläche :guilabel:`Importieren`. 
 
 .. _fig_import-formular:
 
@@ -38,8 +43,8 @@ Um ein Formular zu importieren, müssen Sie zunächst einen Formular-Ordner anle
    Import eines Formulars
 
 Der gesamte Inhalt des exportierten Formulars wird in das neue Formular
-geladen. Wenn Sie die Option :guilabel:`Remove Existing Form Items` vor dem
-Importieren ausgewählt haben, werden die Beispielobjekte des neu erzeugten
-Formular-Ordners gelöscht. 
+geladen. Wenn Sie die Option :guilabel:`Bestehende Formularfelder entfernen?`
+vor dem Importieren ausgewählt haben, werden die Beispielobjekte des neu
+erzeugten Formular-Ordners gelöscht. 
 
 Sie können nun die importierten Formular-Elemente anpassen.

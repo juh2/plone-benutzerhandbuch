@@ -34,7 +34,7 @@ Hinzufügen eines Glossars
 =========================
 
 Nach der Installation von PloneGlossary kann ein weiterer Artikeltyp
-mit der Bezeichnung »Glossary« auf der Website hinzugefügt
+mit der Bezeichnung »Glossar« auf der Website hinzugefügt
 werden (siehe Abbildung :ref:`fig_hinzufuege-menue-glossary`). 
 
 .. _fig_hinzufuege-menue-glossary:
@@ -46,7 +46,7 @@ werden (siehe Abbildung :ref:`fig_hinzufuege-menue-glossary`).
 
    Das Hinzufüge-Menü mit Eintrag »Glossary«
 
-Wählen Sie im Hinzufüge-Menü den Eintrag »Glossary« aus, um ein Glossar
+Wählen Sie im Hinzufüge-Menü den Eintrag »Glossar« aus, um ein Glossar
 anzulegen. Sie können Titel und Beschreibung im Bearbeitungsformular eingeben.
 Es ist möglich, auf einer Website mehrere Glossare anzulegen und von
 unterschiedlichen Benutzern pflegen zu lassen. Sie können so jeweils

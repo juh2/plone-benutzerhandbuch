@@ -28,12 +28,11 @@ Die Bearbeitungsansicht eines Fieldset-Ordners (siehe Abbildung
 :ref:`fig_fieldset-ordner`) ist fast so aufgebaut, wie die Bearbeitungsansicht
 eines normalen Ordners. Es gibt jedoch folgende Besonderheiten.
 
-Show Title as Legend
-   Der Titel des Ordners kann als Legende im Formular angezeigt
-   werden.
-
-Fieldset Help
+Titel als Legende anzeigen
    Dieser Text wird als Hilfe-Text im Formularsatz angezeigt.
+
+Formularsatz-Hilfe
+   Hier können Sie erläuternde Hinweise zum Formularsatz eingeben.
 
 Im Ordner selbst müssen dann die Felder angelegt werden, die als Teil
 des Fieldsets angezeigt werden sollen. 
@@ -43,9 +42,9 @@ des Fieldsets angezeigt werden sollen.
 .. figure::
    ./images/fieldset-ordner-anzeige.*
    :width: 80%
-   :alt: Anzeige eines Fieldset-Ordners mit Objekten
+   :alt: Anzeige eines Formularsatzes mit Objekten
 
-   Fieldset-Ordner Anzeige
+   Formularsatz 
 
 .. _sec_titel-feld:
 
@@ -117,7 +116,7 @@ notwendig ist, kann es mit dem Bild-Feld (Abbildung
 
    Bild-Feld
 
-Betätigen Sie die Schaltfläche :guilabel:`Choose File`, um auf Ihrem
+Betätigen Sie die Schaltfläche :guilabel:`Durchsuchen...`, um auf Ihrem
 Rechner ein Bild auszusuchen und klicken Sie anschließend auf
 :guilabel:`Speichern`. 
 
