@@ -26,7 +26,7 @@ Glossar
       Artikeltyp ist so aufgebaut, dass er eine bestimmte Information
       besonders gut transportieren kann. In einem Termin kann man
       beispielsweise ein Datum und eine Uhrzeit in einem eigenen Feld
-      speichern. Alle Artikeltype in Plone sind von einem
+      speichern. Alle Artikeltypen in Plone sind von einem
       einheitlichen Schema (Archetypes) abgeleitet. So haben
       beispielsweise alle Artikel einen Titel, eine Beschreibung sowie
       den gleichen Satz an Metadaten zur Verfügung.
@@ -45,7 +45,7 @@ Glossar
       berechtigte Personen von nicht berechtigten zu
       unterscheiden. Dafür werden Benutzer in Plone registriert,
       sodass sie sich anmelden und gegenüber dem System durch ihren
-      Benutzernamen und ihr Passwort authentifizieren können. 
+      Benutzernamen und ihr Passwort ausweisen können. 
 
    Bitmap-Grafik
       Eine Bitmap-Grafik auch Rastergrafik oder Pixelgrafik genannt,
@@ -100,7 +100,7 @@ Glossar
    Zope-Management-Interface 
       Das Zope-Management-Interface (ZMI) ist
       die Bedienungsoberfläche für die Zope-2-Applikationsserver. Das
-      ZMI ermöglichte erstmals die Programmierung von Webanwendungen
+      ZMI ermöglicht die Programmierung von Webanwendungen
       »throught-the-web« unter Python. Da Plone auf dem
       Applikationsserver aufsetzt, kann Plone teilweise über das ZMI
       konfiguriert werden. 
@@ -248,20 +248,21 @@ Glossar
 
    Produktionsmodus
       Wenn eine Plone-Site im Produktionsmodus läuft, werden CSS- und
-      Javascript-Daten gecacht, sodass Konfigurationsänderungen sich
-      nicht aufwirken. 
+      Javascript-Daten gecacht. Änderungen in CSS- und Javascript-Dateien
+      wirken sich deshalb nicht auf das Verhalten und das Aussehen der Website
+      aus.
 
    Entwicklungsmodus
       Läuft eine Plone-Site im Entwicklungsmodus, werden CSS- und
-      Javascript-Daten nicht gecacht, sodass Veränderungen sich sofort
-      auswirken. 
+      Javascript-Daten nicht gecacht, sodass Veränderungen, die ein Entwickler
+      vornimmt sich sofort auswirken. 
 
    Rolle
-      Das Rechtemanagement von basiert auf Rollen (in Plone Funktionen
+      Das Rechtemanagement von Plone basiert auf Rollen (in Plone Funktionen
       genannt). Zahlreiche einzelne Berechtigungen werden dabei in
       einer Rolle zusammengefasst. Dem Benutzer werden so nicht mehr
       einzelne Berechtigungen zugeteilt, sondern eine Rolle. Dies
-      dient vor allem der Übersichtlichkeit, da in einem CMS wie eine
+      dient vor allem der Übersichtlichkeit, da in einem CMS wie Plone eine
       Vielzahl von einzelnen Berechtigungen vorhanden sind. 
 
    XCode
@@ -302,11 +303,10 @@ Glossar
 
    Interface
       Ein Interface ist ein Python-Objekt, das das nach außen hin gerichtete
-      Verhalten eines Objekts, das dieses Interface zur Verfügung stellt,
-      beschreibt. Die Spezifizierung des Verhaltens erfolgt durch Dokumentation
-      im Docstring des Interfaces sowie durch die Definition von Attributen und
-      Invarianten. Interfaces bilden die Grundlage des komponentenbasierten
-      Programmierens.
+      Verhalten eines Objekts beschreibt. Die Spezifizierung des Verhaltens
+      erfolgt durch Dokumentation im Docstring des Interfaces sowie durch die
+      Definition von Attributen und Invarianten. Interfaces bilden die
+      Grundlage des komponentenbasierten Programmierens.
 
    Portlet 
       Ein Portlet ist eine Komponente innerhalb der Benutzeroberfläche
