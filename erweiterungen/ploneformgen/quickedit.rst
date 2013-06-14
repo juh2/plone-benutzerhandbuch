@@ -12,18 +12,39 @@ Plone-Artikel erstellt werden, sondern können mit Hilfe einer bequemeren
 Benutzeroberfläche (siehe Abb.: :ref:`fig_ansicht-quickedit-pfg`) erstellt,
 konfiguriert und angeordnet werden. 
 
+.. _fig_ansicht-quickedit-pfg:
+
+.. figure::
+   ./images/ansicht-quickedit-pfg.*
+   :width: 100%
+
+   Die QuickEdit-Ansicht in PloneFormGen
+
 Toolbox
 =======
 
 Die Toolbox enthält die Formularelemente, die Sie auch im Menü
-:guilabel:`Hinzufügen` finden. Sie können ein Element ins Formular einfügen, indem Sie es mit der Maus anfassen und in den linken Bereich schieben. In einer gestrichelten Linie wird Ihnen angezeigt, an welcher Position das Element eingefügt wird, wenn Sie die Maus loslassen. Zum Einfügen lassen Sie die Maus los. 
+:guilabel:`Hinzufügen` finden. Sie können ein Element ins Formular
+einfügen, indem Sie es mit der Maus anfassen und in den linken Bereich
+schieben. In einer gestrichelten Linie wird Ihnen angezeigt, an
+welcher Position das Element eingefügt wird, wenn Sie die Maus
+loslassen. Zum Einfügen lassen Sie die Maus los.
 
 An der Stelle, an der das Element eingefügt wird, erscheint nun das
 Bearbeitungsformular (siehe Abb.: :ref:`fig_quickedit-formular-bearbeiten`). Es
 handelt sich dabei um das gleiche Formular, das Sie zu Gesicht bekommen, wenn
 Sie ein Formularelement über das Menü :guilabel:`Hinzufügen` anlegen. Wenn Sie
 Ihre Eingaben speichern, erscheint das Element als neuer Eintrag in der
-Übersichtsliste (siehe Abb.: :ref:`fig_quickedit-element-eingefuegt`). 
+Übersichtsliste.
+
+.. _fig_quickedit-formular-bearbeiten:
+
+.. figure::
+   ./images/quickedit-formular-bearbeiten.*
+   :width: 100%
+
+   Das Bearbeitungsformular in QuickEdit
+
 
 Elemente verschieben
 ====================
@@ -36,8 +57,8 @@ Element verschieben und an der gewünschten Stelle die Maus loslassen.
 Elemente bearbeiten und entfernen
 =================================
 
-Über die Verweise :guilabel:`Bearbeiten` und :guilabel:`Löschen` können Sie
-bereits angelegt Formularelemente bearbeiten oder entfernen. 
+Über die Verweise :guilabel:`Edit` und :guilabel:`Delete` können Sie
+bereits angelegte Formularelemente bearbeiten oder entfernen. 
 
 Elemente als zwingend erforderlich markieren
 ============================================
