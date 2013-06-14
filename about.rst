@@ -1,5 +1,6 @@
+################
 Über dieses Buch
-================
+################
 
 Plone ist ein leistungsfähiges Open-Source Content-Management-System für
 den professionellen Einsatz in Unternehmen und Organisationen.  Es
@@ -33,8 +34,7 @@ eingebaut.
 Als Theme für die Darstellung im Web wird das Bootstrap-Theme_ von Ryan Roemer
 verwendet.
 
-Die HTML-Fassung dieses Buches sowie eine PDF-Version und ein eBook, die
-heruntergeladen werden können, finden Sie unter:
+Die HTML-Fassung dieses Buches finden Sie unter:
 http://www.hasecke.com/plone-benutzerhandbuch/4.3/.  Den Quellcode dieser
 Dokumentation finden Sie auf Launchpad_. 
 

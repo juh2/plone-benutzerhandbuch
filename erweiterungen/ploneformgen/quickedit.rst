@@ -1,3 +1,7 @@
+.. todo:: Screenshots machen
+
+.. _kap_quickedit-ansicht:
+
 #####################
 Die QuickEdit-Ansicht
 #####################

@@ -100,7 +100,12 @@ html_theme = 'bootstrap'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-html_theme_options = {'source_link_position': "footer"}
+html_theme_options = {
+
+'source_link_position': "footer",
+'globaltoc_depth': 2
+
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()

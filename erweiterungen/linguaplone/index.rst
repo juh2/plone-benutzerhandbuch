@@ -257,8 +257,6 @@ Plone-Website. Auch sie lassen sich mit LinguaPlone übersetzen. Die
 einer zweigeteilten Bearbeitungsansicht (siehe Abbildung
 :ref:`fig_uebersetzen-kollektion`). 
 
-.. todo:: Screeenshot neu
-
 .. _fig_uebersetzen-kollektion:
 
 .. figure::
@@ -268,17 +266,10 @@ einer zweigeteilten Bearbeitungsansicht (siehe Abbildung
 
    Zweigeteilte Bearbeitungsansicht einer Kollektion
 
-Auf der linken Seite des Bearbeitungsformulars sehen Sie die Version
-der Ausgangssprache, auf der rechten Seite können Sie die Übersetzung
-eingeben. Dies gilt für alle Teilformulare der Bearbeitungsansicht. 
-
-Bei der Einstellung der Kriterien gibt es keine zweigeteilte
-Ansicht. Bedenken Sie, dass es in der Voreinstellung kein
-Suchkriterium »Sprache« bei Kollektionen gibt. 
-
-.. Ein solches Kriterium kann jedoch im Konfigurationsmenü für
-.. Kollektionen (siehe Kapitel :ref:`sec_konfiguration-kollektionen`)
-.. hinzugefügt werden.
+Auf der linken Seite des Bearbeitungsformulars sehen Sie die Version der
+Ausgangssprache, auf der rechten Seite können Sie die Übersetzung und die
+Suchkriterien eingeben. Auf den anderen Teilformularen können Sie weitere
+Einstellungen vornehmen.  
 
 Der Status der übersetzten Kollektion entspricht dem Anfangsstatus von
 Kollektionen auf der Website, in diesem Falle »privat«.

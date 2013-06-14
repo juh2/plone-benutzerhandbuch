@@ -1,3 +1,5 @@
+.. todo:: Kapitel überarbeiten, da GUI sich verändert hat.
+
 .. _sec_tinymce:
 
 ======================
@@ -888,12 +890,11 @@ Seite, einer Nachricht und eines Termins neue Verweise wie in einem Wiki
 erzeugen. Setzen Sie dazu ein Wort oder eine Wortgruppe in doppelte runde oder
 eckige Klammern (siehe Abbildung :ref:`fig_bearbeiten-wiki`).
 
-.. todo:: Neuer Screenshot
 
 .. _fig_bearbeiten-wiki:
 
 .. figure:: ../images/bearbeiten-wiki.png
-   :width: 100%
+   :width: 70%
 
    Verweise einfügen wie in einem Wiki
 

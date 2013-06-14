@@ -79,7 +79,7 @@ Er führt zu einem Formular mit einem Auswahlmenü (siehe Abbildung
 .. _fig_hinzufuegen-typen:
 
 .. figure:: ../images/hinzufuegen-typen-kurz.*
-   :width: 100%
+   :scale: 100%
 
    Grundeinstellungen für das Hinzufügen von Artikeln
 
