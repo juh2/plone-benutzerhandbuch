@@ -63,8 +63,19 @@ bereits angelegte Formularelemente bearbeiten oder entfernen.
 Elemente als zwingend erforderlich markieren
 ============================================
 
-Wenn Sie ein Formularelement als zwingend erforderlich kennzeichnen möchten, so
-brauchen Sie nicht die Bearbeitungsansicht aufzurufen. Ein Klick auf das nicht
-gefüllte rote Quadrat unterhalb der Feldbezeichnung genügt, um das Feld als
-zwingend erforderlich zu markieren. Wie üblich bei Plone werden zwingend
-erforderliche Felder mit einem geschlossenen roten Quadrat gekennzeichnet.  
+Wenn Sie ein Formularelement als zwingend erforderlich kennzeichnen
+möchten, so brauchen Sie nicht die Bearbeitungsansicht aufzurufen. Ein
+Klick auf das nicht gefüllte rote Quadrat unterhalb der
+Feldbezeichnung (siehe Abb.:
+:ref:`fig_quickedit-zwingend-erforderlich`) genügt, um das Feld als
+zwingend erforderlich zu markieren. Wie üblich bei Plone werden
+zwingend erforderliche Felder mit einem geschlossenen roten Quadrat
+gekennzeichnet.
+
+.. _fig_quickedit-zwingend-erforderlich:
+
+.. figure::
+   ./images/quickedit-zwingend-erforderlich.*
+   :width: 50%
+
+   Nicht erforderliches Auswahlfeld
