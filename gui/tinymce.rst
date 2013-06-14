@@ -38,7 +38,7 @@ Verfügung stehen, hängt von der Konfiguration der Website ab.
 .. _fig_tinymce-werkzeugleiste:
 
 .. figure:: ../images/tinymce-werkzeugleiste.*
-   :width: 100%
+   :width: 60%
    :alt: Die Werkzeugleiste von TinyMCE
 
    Die Werkzeugleiste von TinyMCE
@@ -67,7 +67,7 @@ Texte einheitlich formatiert sind.
 .. _fig_tinymce-stilauswahl:
 
 .. figure:: ../images/tinymce-stilauswahl.*
-   :width: 100%
+   :width: 75%
    :alt: Das Auswahlmenü für die Stile
 
    Das Menü zur Stilauswahl
@@ -173,7 +173,7 @@ Bedienungselemente für Textformatierungen aufgereiht.
 .. _fig_tinymce-textformatierungen:
 
 .. figure:: ../images/tinymce-textformatierungen.*
-   :width: 100%
+   :width: 50%
    :alt: Die Bedienungselemente zur Textformatierung
 
    Bedienungselemente zur Textformatierung
