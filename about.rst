@@ -36,7 +36,7 @@ verwendet.
 
 Die HTML-Fassung dieses Buches finden Sie unter:
 http://www.hasecke.com/plone-benutzerhandbuch/4.3/.  Den Quellcode dieser
-Dokumentation finden Sie auf Launchpad_. 
+Dokumentation finden Sie auf GitHub_. 
 
 Die Dokumentation basiert in Teilen auf dem Plone-Benutzerhandbuch für
 Plone 3 [#]_ von Thomas Lotze und Jan Ulrich Hasecke, das unter
@@ -71,7 +71,7 @@ Bekannte Fehler und ausstehende Änderungen
 
 .. _Creative-Commons-Lizenz: http://creativecommons.org/licenses/by-nc-sa/2.0/de/
 
-.. _Launchpad: https://launchpad.net/plone-benutzerhandbuch
+.. _GitHub: https://github.com/juh2/plone-benutzerhandbuch
 
 .. _sphinx-epub: https://bitbucket.org/rolmei/sphinx-epub
 
