@@ -4,9 +4,7 @@
  Arbeiten mit Plone
 ====================
 
-Die folgenden Tutorien führen Sie schrittweise in die Benutzung von
-Plone ein. Sie bauen aufeinander auf und ermöglichen Ihnen einen
-leichteren Zugang zu den später folgenden Referenzkapiteln.
+Die folgenden Tutorien führen Sie schrittweise in die Benutzung von Plone ein. Sie bauen aufeinander auf und ermöglichen Ihnen einen leichteren Zugang zu den später folgenden Referenzkapiteln.
 
 .. Wollen Sie die Tutorien an einer eigenen Plone-Website nachvollziehen, so
    erfahren Sie in Anhang :ref:`sec_admin`, wie Sie eine solche Website
