@@ -5,7 +5,7 @@
 
 .. only:: html
 
-   .. image:: _static/plone-logo-64-white-bg.png
+   .. image:: _static/plone-logo-64.png
 
 ============================
 Das Plone 4 Benutzerhandbuch
