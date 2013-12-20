@@ -12,7 +12,7 @@ Bereich nicht zugreifen.
 
 .. figure::
    ../images/konfiguration-wartung.*
-   :width: 100%
+   :width: 80%
    :alt: Wartungsroutinen
 
    Wartungsroutinen

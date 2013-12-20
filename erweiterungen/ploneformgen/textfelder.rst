@@ -72,7 +72,7 @@ nicht formatierter Text eingegeben werden.
 
 .. figure::
    ./images/text-feld.*
-   :width: 100%
+   :width: 80%
    :alt: Hinzufügeformular für ein Feld zur Eingabe von Text
 
    Feld für Text
@@ -104,7 +104,7 @@ den Texteditor zu nutzen (siehe Abbildung
 
 .. figure::
    ./images/formatierbarer-text-feld.*
-   :width: 100%
+   :width: 80%
    :alt: Hinzufügeformular für ein Feld für formatierbaren Text
 
    Feld für formatierbaren Text
@@ -116,7 +116,7 @@ Die Konfigurationsmöglichkeiten wurden in
 
 .. figure::
    ./images/formatierbarer-text-feld-anzeige.*
-   :width: 100%
+   :width: 80%
    :alt: Textfeld mit Bedienelementen des Texteditors
 
    Textfeld mit Texteditor, wie es sich dem Benutzer darstellt
@@ -134,7 +134,7 @@ maskiert werden. Dies gewährleistet das Passwort-Feld (Abbildung
 
 .. figure::
    ./images/passwort-feld.*
-   :width: 100%
+   :width: 80%
    :alt: Hinzufügeformular für ein Passwort-Feld
 
    Feld für Eingabe eines Passworts
@@ -157,7 +157,7 @@ erzeugen, indem man pro Zeile den Namen eines Teilnehmers eingibt.
 
 .. figure::
    ./images/zeilen-feld.*
-   :width: 100%
+   :width: 80%
    :alt: Hinzufügeformular für ein Zeilen-Feld
 
    Zeilen-Feld

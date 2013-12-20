@@ -79,7 +79,7 @@ Er führt zu einem Formular mit einem Auswahlmenü (siehe Abbildung
 .. _fig_hinzufuegen-typen:
 
 .. figure:: ../images/hinzufuegen-typen-kurz.*
-   :scale: 100%
+   :width: 80%
 
    Grundeinstellungen für das Hinzufügen von Artikeln
 
@@ -330,7 +330,7 @@ Artikel, in denen ein Verweis auf den zu löschenden Artikel gesetzt wurde
 .. _fig_linkbruch-warnung:
 
 .. figure:: ../images/linkbruch-warnung.*
-   :width: 100%
+   :width: 80%
 
    Warnung vor defekten Verweisen ohne Javascript
 

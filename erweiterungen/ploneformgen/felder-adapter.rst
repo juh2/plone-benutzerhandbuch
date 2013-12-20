@@ -52,7 +52,7 @@ möchten, nutzen Sie das in Kapitel
 
 .. figure:: 
    ./images/artikeltypen-einschraenken.*
-   :width: 100%
+   :width: 80%
    :alt: Formular zum Einschränken der hinzufügbaren Formularfelder und Adapter
 
    Hinzufügbare Objekte einschränken

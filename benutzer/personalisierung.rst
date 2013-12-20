@@ -65,12 +65,13 @@ Reihe von Aktionen (siehe Abbildung :ref:`fig_benutzermenue`):
 .. _fig_benutzermenue:
 
 .. figure:: ../images/benutzermenue.*
+   :width: 30%
 
    Benutzermenü für einen angemeldeten Benutzer
 
 
 Ihr Name/Ihre E-Mail-Adresse 
- Der oberste Eintrag dient als Titel des Benutzermenüs und ist Ihr
+  Der oberste Eintrag dient als Titel des Benutzermenüs und ist Ihr
   Benutzername oder Ihre E-Mail-Adresse.  
 
 Mein Ordner

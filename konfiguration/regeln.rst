@@ -49,8 +49,8 @@ anwählen.
 
 .. _fig_konfiguration-regeln:
 
-.. figure::
-   ../images/konfiguration-regeln.*
+.. figure:: ../images/konfiguration-regeln.*
+   :width: 80%
    :alt: Konfigurationsbereich für Regeln
 
    Konfigurationsbereich für Regeln
@@ -97,8 +97,8 @@ Um eine neue Regel hinzuzufügen, betätigen Sie die Schaltfläche :guilabel:`Re
 
 .. _fig_konfiguration-regeln-regel-hinzufuegen:
 
-.. figure::
-   ../images/konfiguration-regeln-regel-hinzufuegen.*
+.. figure:: ../images/konfiguration-regeln-regel-hinzufuegen.*
+   :width: 80%
    :alt: Hinzufügen einer Regeln
 
    Hinzufügen einer Regeln
@@ -125,8 +125,8 @@ Speichern Sie Ihre Eingaben, um die Regel zu erzeugen. Sie werden in den Bereich
 
 .. _fig_konfiguration-regeln-regel-hinzugefuegt:
 
-.. figure::
-   ../images/konfiguration-regeln-regel-hinzugefuegt.*
+.. figure:: ../images/konfiguration-regeln-regel-hinzugefuegt.*
+   :width: 80%
    :alt: Die neu hinzugefügte Regeln
 
    Neu hinzugefügte Regel
@@ -138,8 +138,8 @@ Ereignisauslöser.
 
 .. _fig_konfiguration-regeln-regel-bearbeiten:
 
-.. figure::
-   ../images/konfiguration-regeln-regel-bearbeiten.*
+.. figure:: ../images/konfiguration-regeln-regel-bearbeiten.*
+   :width: 80%
    :alt: Bearbeitung einer Regel
  
    Bearbeitung der neu hinzugefügten Regel
@@ -160,8 +160,8 @@ Artikeltyp
 
    .. _fig_bedingung-fuer-artikeltyp:
 
-   .. figure::
-      ../images/bedingung-fuer-artikeltyp.*
+   .. figure:: ../images/bedingung-fuer-artikeltyp.*
+      :width: 80%
       :alt: Eine Artikeltypbedingung wird hinzugefügt
 
       Artikeltyp-Bedingung
@@ -178,8 +178,8 @@ Dateiendung
 
    .. _fig_bedingung-fuer-dateiendung:
 
-   .. figure::
-      ../images/bedingung-fuer-dateiendung.*
+   .. figure:: ../images/bedingung-fuer-dateiendung.*
+      :width: 80%
       :alt: Eine Bedingung für die Dateiendung wird hinzugefügt
 
       Bedingung für Dateiendung
@@ -196,8 +196,8 @@ Status
 
    .. _fig_bedingung-fuer-status:
 
-   .. figure::
-      ../images/bedingung-fuer-status.*
+   .. figure:: ../images/bedingung-fuer-status.*
+      :width: 80%
       :alt: Eine Statusbedingung wird hinzugefügt
 
       Statusbedingung
@@ -212,8 +212,8 @@ Gruppe des Benutzers
 
    .. _fig_bedingung-fuer-gruppe:
 
-   .. figure::
-      ../images/bedingung-fuer-gruppe.*
+   .. figure:: ../images/bedingung-fuer-gruppe.*
+      :width: 80%
       :alt: Eine Bedingung für die Gruppe wird hinzugefügt
 
       Bedingung für die Gruppe
@@ -225,8 +225,8 @@ Funktion des Benutzers
 
    .. _fig_bedingung-fuer-funktion:
 
-   .. figure::
-      ../images/bedingung-fuer-funktion.*
+   .. figure:: ../images/bedingung-fuer-funktion.*
+      :width: 80%
       :alt: Eine Bedingung für die Funktion wird hinzugefügt
  
       Bedingung für die Funktion
@@ -237,8 +237,8 @@ TALES-Ausdruck
 
     .. _fig_bedingung-tales:
     
-    .. figure::
-       ../images/konfiguration-regeln-tales-bedingung.*
+    .. figure:: ../images/konfiguration-regeln-tales-bedingung.*
+       :width: 80%
        :alt: Eingabemaske für TALES-Ausdruck
 
        TALES-Ausdruck als Bedingung
@@ -252,8 +252,8 @@ hinzugefügte Bedingung vor.
   
 .. _fig_konfiguration-regeln-artikeltyp-bedingung-hinzugefuegt:
 
-.. figure::
-   ../images/konfiguration-regeln-artikeltyp-bedingung-hinzugefuegt.*
+.. figure:: ../images/konfiguration-regeln-artikeltyp-bedingung-hinzugefuegt.*
+   :width: 80%
    :alt: Hinzugefügte Artikeltyp-Bedingung
 
    Hinzugefügte Artikeltyp-Bedingung
@@ -296,8 +296,8 @@ Protokoll
 
    .. _fig_konfiguration-regeln-logger-bearbeiten:
 
-   .. figure::
-      ../images/konfiguration-regeln-logger-bearbeiten.*
+   .. figure:: ../images/konfiguration-regeln-logger-bearbeiten.*
+      :width: 80%
       :alt: Bearbeitungsformular für Protokolldatei
 
       Protokollierung eines Ereignisses
@@ -310,8 +310,9 @@ Benutzer benachrichtigen
    oder error) festlegen. 
 
    .. _fig_konfiguration-regeln-notify-user-bearbeiten:
-   .. figure::
-      ../images/konfiguration-regeln-notify-user-bearbeiten.*
+
+   .. figure:: ../images/konfiguration-regeln-notify-user-bearbeiten.*
+      :width: 80%
       :alt: Einrichtung einer Benutzerbenachrichtigung
 
       Einrichtung einer Benutzerbenachrichtung
@@ -323,8 +324,9 @@ Kopieren in Ordner
    Artikel kopiert werden soll, auswählen.
 
    .. _fig_konfiguration-regeln-copy-to-folder:
-   .. figure::
-      ../images/konfiguration-regeln-copy-to-folder.*
+
+   .. figure:: ../images/konfiguration-regeln-copy-to-folder.*
+      :width: 80%
       :alt: Einrichtung der Aktion »Kopieren in Ordner«
 
       Einrichtung der Aktion »Kopieren in Ordner«
@@ -360,8 +362,9 @@ Statuswechsel Arbeitsablauf
    den der Artikel versetzt werden soll.
 
    .. _fig_konfiguration-regeln-workflow-transition:
-   .. figure::
-      ../images/konfiguration-regeln-workflow-transition.*
+
+   .. figure:: ../images/konfiguration-regeln-workflow-transition.*   
+      :width: 80%
       :alt: Einrichtung einer Statusänderung
 
       Arbeitsablaufaktion
@@ -376,8 +379,10 @@ E-Mail senden
    versendeten E-Mail durch die jeweils aktuellen Angaben ersetzt.
 
    .. _fig_konfiguration-regeln-email-aktion-bearbeiten:
+   
    .. figure::
       ../images/konfiguration-regeln-email-aktion-bearbeiten.*
+      :width: 80%
       :alt: Einrichtung der E-Mail-Aktion
 
       Einrichtung der E-Mail-Aktion
@@ -388,10 +393,10 @@ E-Mail senden
    :ref:`fig_konfiguration-regeln-e-mail-ersetzungen`)
 
    .. _fig_konfiguration-regeln-e-mail-ersetzungen:
-   .. figure::
-      ../images/konfiguration-regeln-e-mail-ersetzungen.*
-      :alt: Alle möglichen Variablen, die in eine E-Mail-Aktion
-            eingefügt werden können.
+
+   .. figure:: ../images/konfiguration-regeln-e-mail-ersetzungen.*
+      :width: 50%
+      :alt: Alle möglichen Variablen, die in eine E-Mail-Aktion eingefügt werden können.
 
       Auflistung der Variablen
 
@@ -404,8 +409,8 @@ der Regel aufgelistet (siehe Abbildung
 
 .. _fig_konfiguration-regeln-email-aktion-hinzugefuegt:
 
-.. figure::
-   ../images/konfiguration-regeln-email-aktion-hinzugefuegt.*
+.. figure:: ../images/konfiguration-regeln-email-aktion-hinzugefuegt.*
+   :width: 80%
    :alt: Fertig konfigurierte Regel
 
    Fertig konfigurierte Regel
@@ -430,6 +435,7 @@ formulierten Regeln auswählen und durch Betätigung der Schaltfläche
 
 .. figure::
    ../images/regel-in-ordner-hinzufuegen.*
+   :width: 80%
    :alt: Hinzufügen einer Regel in einem Ordner
 
    Hinzufügen einer Regel in einem Ordner

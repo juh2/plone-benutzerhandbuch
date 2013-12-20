@@ -10,7 +10,7 @@ Im Bereich :guilabel:`Website` des Konfigurationsmenüs (siehe Abbildung :ref:`f
 
 .. figure::
    ../images/konfiguration-website.*
-   :width: 100%
+   :width: 80%
    :alt: Konfigurationsmenü »Website«
 
    Konfigurationsmenü »Website«

@@ -153,7 +153,7 @@ Abbildung :ref:`fig_arbeitskopie-verwerfen`)
 
 .. figure:: 
    ../images/arbeitskopie-verwerfen.*
-   :width: 100%
+   :width: 80%
 
    Nachfrage, ob Arbeitskopie verworfen werden soll
 

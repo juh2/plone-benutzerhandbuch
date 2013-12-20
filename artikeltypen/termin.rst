@@ -86,12 +86,14 @@ Terminverwaltung anbieten zu können:
 .. _fig_portlet-events:
 
 .. figure:: ../images/portlet-events.*
+   :width: 40%
 
    Terminportlet
 
 .. _fig_portlet-calendar:
 
 .. figure:: ../images/portlet-calendar.*
+   :width: 40%
 
    Kalenderportlet
 

@@ -20,7 +20,7 @@ Funktionen einschalten, die aus Wikis bekannt sind.
 
 .. figure::
    ../images/konfiguration-textauszeichnung.*
-   :width: 100%
+   :width: 80%
    :alt: Auswahl der Formate zur Texteingabe
 
    Einstellungen für Textauszeichnung

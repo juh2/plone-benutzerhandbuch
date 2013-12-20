@@ -9,17 +9,14 @@ von `Jan Ulrich Hasecke`_
 
 Copyright |copy| 2010 – 2013, Jan Ulrich Hasecke
 
-.. only:: html
+| Anschrift:
+|
+| hasecke.com – Business Communication
+| Jan Ulrich Hasecke
+| Postfach 19 04 51
+| 42704 Solingen
 
-   Anschrift des Autors:
-
-   Jan Ulrich Hasecke
-
-   Schubertstraße 4 
-
-   42719 Solingen
-
-   E-Mail: jan.ulrich@hasecke.com
+E-Mail: jan.ulrich@hasecke.com
 
 Umschlaggestaltung: N.N
 

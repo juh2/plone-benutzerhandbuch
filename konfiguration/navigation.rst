@@ -41,7 +41,7 @@ Filter nach Status im Arbeitsablauf
    für einen Administrator mit weitgehenden Rechten alle Artikel aus den
    Navigationselementen, die nicht »privat« sind.
 
-Artikel, die normalerweise in der Navigation nicht angezeigt werden, anzeigen, wenn man einen Artikel in ihnen angezeigt.
+Artikel, die normalerweise in der Navigation nicht angezeigt werden…
    Falls Sie Ordner oder andere Artikel, in denen sich Artikel
    befinden können, von der Navigation ausgeschlossen haben, den
    Ordner aber in der Navigation aufführen möchten, wenn Sie einen

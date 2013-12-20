@@ -75,7 +75,7 @@ beschrieben.
 
 .. figure::
    ./images/konfiguration-sprache-linguaplone.*
-   :width: 100%
+   :width: 80%
    :alt: Das Konfigurationsmenüs »Sprache« mit zusätzlichem Auswahlmenü
 
    Die Spracheinstellungen
@@ -210,7 +210,7 @@ Die Benutzeroberfläche von Plone erscheint entsprechend in Englisch.
 
 .. figure::
    ./images/uebersetzen-ordner.*
-   :width: 100%
+   :width: 80%
    :alt: Zweigeteilte Bearbeitungsansicht des Ordners Kochseminar: links in
          Deutsch, rechts sind Formularfelder zur Eingabe der Übersetzung.
 

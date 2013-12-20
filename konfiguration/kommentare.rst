@@ -15,6 +15,7 @@ Konfigurationsmenü für die Kommentarfunktion (siehe Abb.:
 
 .. figure::
    ../images/konfiguration-kommentare.*
+   :width: 80%
    :alt: Das Konfigurationsmenü für die Kommentarfunktion
 
    Das Konfigurationsmenü für die Kommentarfunktion

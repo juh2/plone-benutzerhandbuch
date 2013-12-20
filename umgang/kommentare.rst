@@ -119,6 +119,7 @@ in ihrem Benutzermenü den Eintrag :guilabel:`Kommentare moderieren`
 
 .. figure::
    ../images/benutzermenue-kommentare-moderieren.*
+   :width: 50%
    :alt: Benutzermenü mit Link zur Kommentarmoderation
 
    Benutzermenü mit Link zur Moderation

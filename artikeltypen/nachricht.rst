@@ -15,6 +15,7 @@ der Website als aktuelle Mitteilungen wahrgenommen werden:
 .. _fig_portlet-news:
 
 .. figure:: ../images/portlet-news.*
+   :width: 40%
 
    Nachrichtenportlet
 
@@ -52,6 +53,7 @@ Rechner auswählen und hochladen (siehe Abbildung
 .. _fig_nachricht-bild-einfuegen:
 
 .. figure:: ../images/nachricht-bild-einfuegen.png
+   :width: 80%
 
    Ein Titelbild in eine Nachricht einfügen
 

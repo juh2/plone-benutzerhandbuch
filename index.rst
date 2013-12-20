@@ -92,8 +92,7 @@ Erweiterungen
 .. https://github.com/collective/Products.PloneGlossary/issues/4
    https://github.com/collective/Products.PloneGlossary/issues/1
 
-Verzeichnisse und Index
-=======================
+
 
 .. toctree::
    :maxdepth: 1
@@ -101,7 +100,9 @@ Verzeichnisse und Index
    literatur.rst
    glossar.rst
 
-* :ref:`genindex`
+.. only:: html
+
+   :ref:`genindex`
 
 
 

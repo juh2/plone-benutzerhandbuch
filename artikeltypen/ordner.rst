@@ -86,7 +86,7 @@ In der Bearbeitungsansicht eines Ordners gibt es im Teilformular
 .. _fig_ordner-bearbeiten:
 
 .. figure:: ../images/ordner-bearbeiten.png
-   :width: 100%
+   :width: 80%
 
    Das Teilformular »Einstellungen« bei Ordnern
 
@@ -97,7 +97,7 @@ vorherigen und nächsten Artikel (siehe Abbildung :ref:`fig_vor-zurueck-navi`).
 .. _fig_vor-zurueck-navi:
 
 .. figure:: ../images/vor-zurueck-navi.png
-   :width: 100%
+   :width: 80%
 
    Vor- und Zurückblättern zwischen Artikeln
 

@@ -10,7 +10,7 @@ Im Bereich :guilabel:`Sprache` der Website-Konfiguration lässt sich einstellen,
 
 .. figure::
    ../images/konfiguration-sprache.*
-   :width: 100%
+   :width: 80%
    :alt: Konfigurationsmenü zur Einstellung der Sprache
 
    Konfigurationsmenü zur Einstellung der Sprache

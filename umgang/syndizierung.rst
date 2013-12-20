@@ -126,7 +126,7 @@ Abb.: :ref:`fig_syndizierung`).
 .. _fig_syndizierung:
 
 .. figure:: ../images/syndizierung.*
-   :width: 100%
+   :width: 70%
    :alt: Die Ansicht zur Konfiguration der Syndizierung
 
    Syndizierungsansicht

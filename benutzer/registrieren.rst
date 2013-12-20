@@ -120,6 +120,7 @@ Nachdem Sie registriert sind, erhalten Sie die in Abbildung
 .. _fig_willkommen-anmelden:
 
 .. figure:: ../images/willkommen-anmelden.*
+   :width: 70%
 
    Bestätigung der Registrierung 
 

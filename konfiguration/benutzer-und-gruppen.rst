@@ -294,7 +294,7 @@ Suche nach neuen Gruppenmitgliedern
 
    .. figure:: 
       ../images/konfiguration-benutzer-gruppen-benutzer-gesucht.*
-      :width: 80%
+      :width: 60%
       :alt: Benutzer wurde gefunden
 
       Gefundener Benutzer

@@ -15,7 +15,7 @@ eingeben oder Datenschutzerklärungen abgeben.
 
 .. figure::
    ./images/danke-seite.*
-   :width: 100%
+   :width: 80%
    :alt: Hinzufügeformular für die Danke-Seite
 
    Danke-Seite
@@ -47,7 +47,7 @@ Keine Versand-Nachricht
 
 .. figure::
    ./images/danke-seite-felder.*
-   :width: 100%
+   :width: 80%
    :alt: Felder, die in die Danke-Seite übernommen werden
 
    Felder für die Danke-Seite

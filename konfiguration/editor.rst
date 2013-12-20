@@ -120,7 +120,7 @@ Abbildung :ref:`fig_konfiguration-tinymce-2`).
 
 .. figure::
    ../images/konfiguration-tinymce-2.*
-   :width: 80%
+   :width: 40%
    :alt: Das Teilformular Werkzeugleiste zur Auswahl der Funktionen in TinyMCE
 
    Teilformular Werkzeugleiste
@@ -266,7 +266,7 @@ Ressourcen beziehen, mit denen TinyMCE arbeitet.
 
 .. figure::
    ../images/konfiguration-tinymce-3.*
-   :width: 80%
+   :width: 50%
    :alt: Das Teilformular Ressourcentypen 
 
    Teilformular Ressourcentypen

@@ -11,7 +11,7 @@ konfigurieren (siehe Abbildung :ref:`fig_konfiguration-suche`).
 
 .. figure::
    ../images/konfiguration-suche.*
-   :width: 100%
+   :width: 80%
    :alt: Die Konfigurationsmöglichkeiten für die Suche
    
    Allgemeine Sucheinstellungen

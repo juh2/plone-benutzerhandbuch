@@ -128,7 +128,7 @@ veröffentlicht wurden. Siehe Abbildung :ref:`fig_workflow-einfach`.
 Es können für ausgewählte Benutzer und Benutzergruppen Ausnahmen
 eingerichtet werden, indem man ihnen die Inhalte in bestimmten Ordnern
 zur Ansicht oder zur Bearbeitung freigibt. Näheres hierzu erfahren Sie
-in Kapitel :ref:`sec_ansicht-freigabe`.  
+in Kapitel :ref:`sec_ansicht-freigabe`.   
 
 Der einfache Arbeitsablauf umfasst drei Status:
 
@@ -346,6 +346,7 @@ Das wichtigste Bedienelement des Arbeitsablaufs ist das Statusmenü
 .. _fig_workflow:
 
 .. figure:: ../images/workflow.*
+   :width: 30%
 
    Statusmenü
 

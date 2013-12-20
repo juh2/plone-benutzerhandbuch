@@ -19,7 +19,7 @@ bereits gespeicherten Versionen des Artikels (siehe Abbildung :ref:`fig_historie
 .. _fig_historie:
 
 .. figure:: ../images/historie.*
-   :width: 100%
+   :width: 80%
 
    Die Historie eines Artikels
 

@@ -518,8 +518,6 @@ Bild einsetzen
 Mit Hilfe des Bedienungselements :guilabel:`Bild einfügen/verändern`
 kann man Fotos und Grafiken in den Text einbinden.
 
-.. _fig_tinymce-bild:
-
 .. image:: ../images/tinymce-bild.*
 
 Wenn man auf das Icon klickt, öffnet sich ein Auswahlfenster, mit

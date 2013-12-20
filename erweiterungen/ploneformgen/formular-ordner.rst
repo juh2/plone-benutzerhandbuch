@@ -33,7 +33,7 @@ Bearbeitungsansicht eines Formular-Ordners (siehe Abbildung
 
 .. figure::
    ./images/formular-ordner-hinzufuegen.*
-   :width: 100%
+   :width: 60%
    :alt: Die Bearbeitungsansicht, mit der ein Formular-Ordner
    	 hinzugefügt wird.
 
@@ -100,7 +100,7 @@ Formular Epilog
 
 .. figure::
    ./images/formular-epilog.*
-   :width: 100%
+   :width: 80%
    :alt: Das Formularfeld ganz unten auf der Bearbeitungsansicht eines
    	 Formular-Ordners.
 
@@ -116,7 +116,7 @@ Kontaktformular von Plone ähnelt, das unter anderem in Kapitel
 
 .. figure::
    ./images/umfrage-eingabeformular.*
-   :width: 100%
+   :width: 80%
    :alt: Ansicht des Formulars 
 
    Beispielformular
@@ -133,7 +133,7 @@ sollte, sondern enthält eine Reihe von Objekten (siehe Abbildung
 
 .. figure::
    ./images/formular-ordner-inhalt.*
-   :width: 100%
+   :width: 80%
    :alt: Inhaltsansicht des Formular-Ordners mit automatisch erzeugten
     	 Objekten
 
@@ -147,8 +147,8 @@ welche Objekte dabei zur Auswahl stehen.
 
 .. _fig_hinzufuege-menue-formular-objekte:
 
-.. figure::
-   ./images/hinzufuege-menue-formular-objekte.*
+.. figure:: ./images/hinzufuege-menue-formular-objekte.*
+   :width: 80%
    :alt: Das Hinzufüge-Menü in einem Formular-Ordner mit zahlreichen
          Einträgen
 

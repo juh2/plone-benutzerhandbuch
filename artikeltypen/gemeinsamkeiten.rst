@@ -56,7 +56,7 @@ Abbildung :ref:`Aufbau der Anzeige eines Artikels <fig_gemeinsamkeiten-anzeige>`
 .. _fig_gemeinsamkeiten-anzeige:
 
 .. figure:: ../images/gemeinsamkeiten-anzeige.*
-   :width: 100%
+   :width: 80%
 
    Aufbau der Anzeige eines Artikels: Titel (1), Verfasserzeile (2),
    Zusammenfassung (3), Inhalt (4), Stichworte (5) und Vor- und Zurückblättern
@@ -108,6 +108,7 @@ dem Sie eine der möglichen Darstellungen auswählen können (siehe Abbildung
 .. _fig_anzeige-waehlen:
 
 .. figure:: ../images/anzeige-waehlen.*
+   :width: 40%
 
    Darstellung eines Ordners auswählen
 
@@ -318,8 +319,8 @@ Ablaufdatum
 
  .. _fig_kalenderpopup:
 
- .. figure::
-    ../images/kalender-popup.* 
+ .. figure:: ../images/kalender-popup.*
+    :width: 30%
  
     Popup-Fenster zur Datumsauswahl
 
@@ -492,7 +493,7 @@ wurden (siehe Abbildung :ref:`fig_portlet-recent`).
 .. _fig_portlet-recent:
 
 .. figure:: ../images/portlet-recent.png
-   :width: 50%
+   :width: 40%
 
    Portlet »Aktuelle Änderungen«
 

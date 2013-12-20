@@ -37,7 +37,7 @@ Als Beispiel zeigt Abbildung :ref:`fig_kollektion` die Darstellung als Liste.
 .. _fig_kollektion:
 
 .. figure:: ../images/kollektion.*
-   :width: 100%
+   :width: 80%
    
    Darstellung einer Kollektion als Liste
 
@@ -58,6 +58,7 @@ auch die Suchkriterien eingeben können.
 .. _fig_kollektion-bearbeiten-oben:
 
 .. figure:: ../images/kollektion-bearbeiten-oben.*
+   :width: 80%
    :alt: Die obere Hälfte des Bearbeitungsformulars
 
    Bearbeitungsansicht einer Kollektion (oberer Teil)
@@ -223,6 +224,7 @@ aufgeführt werden sollen (siehe Abb.:
 .. _fig_kollektion-bearbeiten-unten:
 
 .. figure:: ../images/kollektion-bearbeiten-unten.*
+   :width: 80%
    :alt: Die untere Hälfte des Bearbeitungsformulars
 
    Bearbeitungsansicht einer Kollektion (unterer Teil)
@@ -261,7 +263,7 @@ werden. Abbildung :ref:`fig_portlet-kollektion` zeigt ein Beispiel.
 
 .. figure::
    ../images/portlet-kollektion.*
-   :width: 40%
+   :width: 30%
    
    Das Kollektionsportlet
 
@@ -289,7 +291,7 @@ Einstellungen vornehmen können.
 
 .. figure::
    ../images/kollektionsportlet-hinzufuegen.*
-   :width: 100%
+   :width: 80%
 
    Das Formular zur Konfiguration eines Kollektionsportlets
 

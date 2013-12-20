@@ -22,7 +22,7 @@ Abbildung :ref:`fig_bild`).
 
 .. figure:: 
    ../images/bild.*
-   :width: 100%
+   :width: 80%
    :alt: Screenshot der Anzeige eines Bildes
 
    Anzeige eines Bildes
