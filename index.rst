@@ -34,7 +34,7 @@ Einleitung
 ==========
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
 
    about.rst
    copyright.rst
@@ -46,7 +46,7 @@ Installation
 ============
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
 
    installation/index.rst
    installation/linux.rst
@@ -58,7 +58,7 @@ Tutorien
 ========
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
 
    cms/cms.rst
    grundlagen/index.rst
@@ -69,7 +69,7 @@ Referenz
 ========
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
 
    artikeltypen/index.rst
    umgang/index.rst
@@ -81,7 +81,7 @@ Erweiterungen
 =============
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    
    erweiterungen/index.rst
    erweiterungen/ploneformgen/index.rst
@@ -95,7 +95,7 @@ Erweiterungen
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
 
    literatur.rst
    glossar.rst

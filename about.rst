@@ -2,22 +2,11 @@
 Über dieses Buch
 ################
 
-Plone ist ein leistungsfähiges Open-Source Content-Management-System für
-den professionellen Einsatz in Unternehmen und Organisationen.  Es
-zeichnet sich durch herausragende Funktionen aus, ist
-benutzerfreundlich und wegen seiner intuitiven Bedienung leicht zu erlernen.
-Vor allem aber ist Plone eins der sichersten CMS überhaupt.  
+Plone ist ein leistungsfähiges Open-Source Content-Management-System für den professionellen Einsatz in Unternehmen und Organisationen.  Es zeichnet sich durch herausragende Funktionen aus, ist benutzerfreundlich und wegen seiner intuitiven Bedienung leicht zu erlernen. Vor allem aber ist Plone eins der sichersten CMS überhaupt.
 
-Dieses Buch enthält eine Dokumentation des Content-Management-Systems Plone_ in
-der Version |version|. [#]_ Es setzt so gut wie keine Vorkenntnisse voraus und
-richtet sich an Benutzer, die als Autoren und Redakteure mit Plone arbeiten
-sowie an Administratoren, die eine Plone-Website konfigurieren und
-administrieren. 
+Dieses Buch enthält eine Dokumentation des Content-Management-Systems Plone_ in der Version |version|. [#]_ Es setzt so gut wie keine Vorkenntnisse voraus und richtet sich an Benutzer, die als Autoren und Redakteure mit Plone arbeiten sowie an Administratoren, die eine Plone-Website konfigurieren und administrieren.
 
-Entwickler, die Erweiterungen für Plone schreiben, programmatische Anpassungen
-vornehmen oder große Installationen verwalten möchten, seien auf das
-Plone-Entwicklerhandbuch_ [#]_ oder die umfangreiche Dokumentation auf der
-`Homepage von Plone`_ [#]_ verwiesen.
+Entwickler, die Erweiterungen für Plone schreiben, programmatische Anpassungen vornehmen oder große Installationen verwalten möchten, seien auf das Plone-Entwicklerhandbuch_ [#]_ oder die umfangreiche Dokumentation auf der `Homepage von Plone`_ [#]_ verwiesen.
 
 Das Buch ist in mehrere Teile untergliedert. Zunächst wird die Installation von
 Plone erklärt. Die anschließenden Tutorien richten sich an Autoren und
